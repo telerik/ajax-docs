@@ -3,6 +3,7 @@ title: Filter By ListTextField for GridDropDownColumn
 page_title: Filter By ListTextField for GridDropDownColumn - RadGrid
 description: Check our Web Forms article about Filter By ListTextField for GridDropDownColumn.
 slug: grid/how-to/filtering/filter-by-listtextfield-for-griddropdowncolumn
+components: ["grid"]
 previous_url: controls/grid/functionality/filtering/how-to/filter-by-listtextfield-for-griddropdowncolumn
 tags: filter,by,listtextfield,for,griddropdowncolumn
 published: True

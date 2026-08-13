@@ -3,6 +3,7 @@ title: Animation
 page_title: Animation - RadGrid
 description: Check our Web Forms article about Animation.
 slug: grid/columns/animation-
+components: ["grid"]
 tags: animation,
 published: True
 position: 7

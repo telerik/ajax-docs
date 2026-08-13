@@ -3,6 +3,7 @@ title: Visible Invisible Conventions
 page_title: Visible Invisible Conventions - RadGrid
 description: Check our Web Forms article about Visible Invisible Conventions.
 slug: grid/visible-and-enabled-conventions/visible-invisible-conventions
+components: ["grid"]
 tags: visible, invisible, conventions
 published: True
 position: 0

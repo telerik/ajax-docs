@@ -3,6 +3,7 @@ title: Inheriting RadGrid
 page_title: Inheriting RadGrid - RadGrid
 description: Check our Web Forms article about Inheriting RadGrid.
 slug: grid/inheritance/inheriting-radgrid
+components: ["grid"]
 tags: inheriting,radgrid
 published: True
 position: 0

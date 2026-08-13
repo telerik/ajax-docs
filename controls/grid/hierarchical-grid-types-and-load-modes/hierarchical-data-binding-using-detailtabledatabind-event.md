@@ -3,6 +3,7 @@ title: Hierarchical data-binding using DetailTableDataBind event
 page_title: Hierarchical data-binding using DetailTableDataBind event - RadGrid
 description: Check our Web Forms article about Hierarchical data-binding using DetailTableDataBind event.
 slug: grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-detailtabledatabind-event
+components: ["grid"]
 tags: hierarchical,data-binding,using,detailtabledatabind,event
 published: True
 position: 4

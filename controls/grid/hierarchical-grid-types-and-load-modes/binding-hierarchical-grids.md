@@ -3,6 +3,7 @@ title: Binding hierarchical grids
 page_title: Binding hierarchical grids - RadGrid
 description: Check our Web Forms article about Binding hierarchical grids.
 slug: grid/hierarchical-grid-types-and-load-modes/binding-hierarchical-grids
+components: ["grid"]
 tags: binding,hierarchical,grids
 published: True
 position: 2

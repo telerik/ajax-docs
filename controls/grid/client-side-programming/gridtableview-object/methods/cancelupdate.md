@@ -3,6 +3,7 @@ title: cancelUpdate
 page_title: cancelUpdate - RadGrid
 description: Check our Web Forms article about cancelUpdate.
 slug: grid/client-side-programming/gridtableview-object/methods/cancelupdate
+components: ["grid"]
 tags: cancelupdate
 published: True
 position: 2

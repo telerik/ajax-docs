@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadGrid
 description: Check our Web Forms article about Overview.
 slug: grid/data-editing/delete-records/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

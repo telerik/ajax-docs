@@ -3,6 +3,7 @@ title: collapseItem
 page_title: collapseItem - RadGrid
 description: Check our Web Forms article about collapseItem.
 slug: grid/client-side-programming/gridtableview-object/methods/collapseitem
+components: ["grid"]
 tags: collapseitem
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Building a Hierarchical Grid
 page_title: Building a Hierarchical Grid - RadGrid
 description: Check our Web Forms article about Building a Hierarchical Grid.
 slug: grid/design-time/building-a-hierarchical-grid
+components: ["grid"]
 tags: building,a,hierarchical,grid
 published: True
 position: 8

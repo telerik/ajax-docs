@@ -3,6 +3,7 @@ title: deleteSelectedItems
 page_title: deleteSelectedItems - RadGrid
 description: Check our Web Forms article about deleteSelectedItems.
 slug: grid/client-side-programming/gridtableview-object/methods/deleteselecteditems
+components: ["grid"]
 tags: deleteselecteditems
 published: True
 position: 9

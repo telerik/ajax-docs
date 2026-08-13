@@ -3,6 +3,7 @@ title: Properties
 page_title: AIPrompt Server-side Properties
 description: "Server-side properties of the Telerik WebForms AIPrompt component."
 slug: aiprompt/server-side-programming/properties
+components: ["aiprompt"]
 tags: properties
 published: True
 position: 1

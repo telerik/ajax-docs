@@ -3,6 +3,7 @@ title: Hierarchy load modes
 page_title: Hierarchy load modes - RadGrid
 description: Check our Web Forms article about Hierarchy load modes.
 slug: grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes
+components: ["grid"]
 tags: hierarchy,load,modes
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadGrid
 description: Check our Web Forms article about Render Modes.
 slug: grid/mobile-support/render-modes
+components: ["grid"]
 tags: render,modes
 published: True
 position: 2

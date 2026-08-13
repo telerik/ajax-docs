@@ -3,6 +3,7 @@ title: extractValuesFromItem
 page_title: extractValuesFromItem - RadGrid
 description: Check our Web Forms article about extractValuesFromItem.
 slug: grid/client-side-programming/gridtableview-object/methods/extractvaluesfromitem
+components: ["grid"]
 tags: extractvaluesfromitem
 published: True
 position: 20

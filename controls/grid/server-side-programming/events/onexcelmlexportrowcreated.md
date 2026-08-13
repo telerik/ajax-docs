@@ -3,6 +3,7 @@ title: OnExcelMLExportRowCreated
 page_title: OnExcelMLExportRowCreated Event - RadGrid
 description: Check our Web Forms article about OnExcelMLExportRowCreated Event.
 slug: grid/server-side-programming/events/onexcelmlexportrowcreated
+components: ["grid"]
 published: True
 position: 50
 ---

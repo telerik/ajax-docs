@@ -3,6 +3,7 @@ title: get_currentPageIndex()
 page_title: get_currentPageIndex() - RadGrid
 description: Check our Web Forms article about get_currentPageIndex().
 slug: grid/client-side-programming/gridtableview-object/properties/get_currentpageindex()
+components: ["grid"]
 tags: get_currentpageindex()
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: get_uniqueName()
 page_title: get_uniqueName() - RadGrid
 description: Check our Web Forms article about get_uniqueName().
 slug: grid/client-side-programming/gridcolumn-object/properties/get_uniquename()
+components: ["grid"]
 tags: get_uniquename()
 published: True
 position: 7

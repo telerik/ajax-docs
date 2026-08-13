@@ -3,6 +3,7 @@ title: get_masterTableViewHeader()
 page_title: get_masterTableViewHeader() - RadGrid
 description: Check our Web Forms article about get_masterTableViewHeader().
 slug: grid/client-side-programming/radgrid-object/properties/get_mastertableviewheader()
+components: ["grid"]
 tags: get_mastertableviewheader()
 published: True
 position: 10

@@ -3,6 +3,7 @@ title: get_isFilterItemVisible()
 page_title: get_isFilterItemVisible() - RadGrid
 description: Check our Web Forms article about get_isFilterItemVisible().
 slug: grid/client-side-programming/gridtableview-object/properties/get_isfilteritemvisible()
+components: ["grid"]
 tags: get_isfilteritemvisible()
 published: True
 position: 10

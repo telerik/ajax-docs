@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-Side Programming Overview - RadGrid
 description: Discover the server-side programming features of the Grid control for advanced data manipulation.
 slug: grid/server-side-programming/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

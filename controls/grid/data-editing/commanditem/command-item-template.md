@@ -3,6 +3,7 @@ title: Command Item Template
 page_title: Command Item Template - RadGrid
 description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
 slug: grid/data-editing/commanditem/command-item-template
+components: ["grid"]
 tags: command,item,template
 published: True
 position: 1

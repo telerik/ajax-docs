@@ -3,6 +3,7 @@ title: Setting RadGrid
 page_title: Setting RadGrid - RadGrid
 description: Check our Web Forms article about Setting RadGrid.
 slug: grid/design-time/setting-radgrid
+components: ["grid"]
 tags: setting,radgrid
 published: True
 position: 2

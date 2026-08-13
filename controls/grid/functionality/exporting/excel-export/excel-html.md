@@ -3,6 +3,7 @@ title: Html (XLS)
 page_title: Excel-Html (XLS) Export - RadGrid
 description: Excel-Html (XLS) Export
 slug: grid/functionality/exporting/excel-export/excel-html
+components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/word-and-excel-export/excel-format-(html-based)
 tags: excel,format,(html-based)
 published: True

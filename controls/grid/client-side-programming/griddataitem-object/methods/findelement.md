@@ -3,6 +3,7 @@ title: findElement
 page_title: findElement - RadGrid
 description: Check our Web Forms article about findElement.
 slug: grid/client-side-programming/griddataitem-object/methods/findelement
+components: ["grid"]
 tags: findelement
 published: True
 position: 1

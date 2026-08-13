@@ -3,6 +3,7 @@ title: Localization through Resource Files
 page_title: Localization through Resource Files - RadGrid
 description: Check our Web Forms article about Localization through Resource Files.
 slug: grid/accessibility-and-internationalization/localization-through-resource-files
+components: ["grid"]
 tags: localization,through,resource,files
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Accessing RadGrid
 page_title: Accessing the Grid Server-Side - RadGrid
 description: Check our Web Forms article about Accessing the Grid on server.
 slug: grid/accessing-values-and-controls/server-side/accessing-radgrid
+components: ["grid"]
 published: True
 position: 0
 ---

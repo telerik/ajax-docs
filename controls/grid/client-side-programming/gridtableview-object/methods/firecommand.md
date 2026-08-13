@@ -3,6 +3,7 @@ title: fireCommand
 page_title: fireCommand - RadGrid
 description: Check our Web Forms article about fireCommand.
 slug: grid/client-side-programming/gridtableview-object/methods/firecommand
+components: ["grid"]
 tags: firecommand
 published: True
 position: 22

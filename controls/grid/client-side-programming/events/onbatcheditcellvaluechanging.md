@@ -3,6 +3,7 @@ title: OnBatchEditCellValueChanging
 page_title: OnBatchEditCellValueChanging - RadGrid
 description: Check our Web Forms article about OnBatchEditCellValueChanging.
 slug: grid/client-side-programming/events/onbatcheditcellvaluechanging
+components: ["grid"]
 tags: onbatcheditcellvaluechanging
 published: True
 position: 81

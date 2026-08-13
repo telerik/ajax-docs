@@ -3,6 +3,7 @@ title: OnRowMouseOver
 page_title: OnRowMouseOver - RadGrid
 description: Check our Web Forms article about OnRowMouseOver.
 slug: grid/client-side-programming/events/onrowmouseover
+components: ["grid"]
 tags: onrowmouseover
 published: True
 position: 65

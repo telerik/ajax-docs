@@ -3,6 +3,7 @@ title: Overview
 page_title: RadGrid Overview
 description: Explore the Grid control's features, including data binding, filtering, and customization options.
 slug: grid/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

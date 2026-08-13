@@ -3,6 +3,7 @@ title: OnBatchEditOpened
 page_title: OnBatchEditOpened - RadGrid
 description: Check our Web Forms article about OnBatchEditOpened.
 slug: grid/client-side-programming/events/onbatcheditopened
+components: ["grid"]
 tags: onbatcheditopened
 published: True
 position: 84

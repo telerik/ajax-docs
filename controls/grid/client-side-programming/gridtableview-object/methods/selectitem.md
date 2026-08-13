@@ -3,6 +3,7 @@ title: selectItem
 page_title: selectItem - RadGrid
 description: Check our Web Forms article about selectItem.
 slug: grid/client-side-programming/gridtableview-object/methods/selectitem
+components: ["grid"]
 tags: selectitem
 published: True
 position: 38

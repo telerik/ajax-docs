@@ -3,6 +3,7 @@ title: Disposed
 page_title: Disposed Event - RadGrid
 description: Check our Web Forms article about Disposed Event.
 slug: grid/server-side-programming/events/disposed
+components: ["grid"]
 published: True
 position: 50
 ---

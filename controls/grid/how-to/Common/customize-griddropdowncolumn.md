@@ -3,6 +3,7 @@ title: Customize GridDropDownColumn
 page_title: Customize GridDropDownColumn - RadGrid
 description: Explore how to customize the GridDropDownColumn in the Grid control for tailored data presentation.
 slug: grid/how-to/common/customize-griddropdowncolumn
+components: ["grid"]
 previous_url: grid/how-to/customize-griddropdowncolumn
 tags: customize,griddropdowncolumn
 published: True

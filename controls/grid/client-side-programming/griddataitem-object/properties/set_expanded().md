@@ -3,6 +3,7 @@ title: set_expanded()
 page_title: set_expanded() - RadGrid
 description: Check our Web Forms article about set_expanded().
 slug: grid/client-side-programming/griddataitem-object/properties/set_expanded()
+components: ["grid"]
 tags: set_expanded()
 published: True
 position: 4

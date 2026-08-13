@@ -3,6 +3,7 @@ title: Editing RadGrid Records with RadWindow
 page_title: Editing RadGrid Records with RadWindow - RadGrid
 description: Check our Web Forms article about Editing RadGrid Records with RadWindow.
 slug: grid/how-to/data-editing/editing-radgrid-records-with-radwindow
+components: ["grid"]
 previous_url: controls/grid/data-editing/how-to/editing-radgrid-records-with-radwindow
 tags: editing,radgrid,records,with,radwindow
 published: True

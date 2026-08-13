@@ -3,6 +3,7 @@ title: Customizing GridGroupHeaderItem
 page_title: Customizing GridGroupHeaderItem - RadGrid
 description: Check our Web Forms article about Customizing GridGroupHeaderItem.
 slug: grid/how-to/grouping/customizing-gridgroupheaderitem
+components: ["grid"]
 previous_url: controls/grid/functionality/grouping/how-to/customizing-gridgroupheaderitem
 tags: customizing,gridgroupheaderitem
 published: True

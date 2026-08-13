@@ -3,6 +3,7 @@ title: ColumnsReorder
 page_title: ColumnsReorder Event - RadGrid
 description: Check our Web Forms article about ColumnsReorder Event.
 slug: grid/server-side-programming/events/columnsreorder
+components: ["grid"]
 published: True
 position: 50
 ---

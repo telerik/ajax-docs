@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-Side Programming Overview - RadGrid
 description: Explore the client-side programming features of the Grid control for dynamic user interactions.
 slug: grid/client-side-programming/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

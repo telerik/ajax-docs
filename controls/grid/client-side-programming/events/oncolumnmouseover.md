@@ -3,6 +3,7 @@ title: OnColumnMouseOver
 page_title: OnColumnMouseOver - RadGrid
 description: Check our Web Forms article about OnColumnMouseOver.
 slug: grid/client-side-programming/events/oncolumnmouseover
+components: ["grid"]
 tags: oncolumnmouseover
 published: True
 position: 15

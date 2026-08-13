@@ -3,6 +3,7 @@ title: Persist Frozen Columns on the client
 page_title: Persist frozen columns on the client - RadGrid
 description: Check our Web Forms article about Persist frozen columns on the client.
 slug: grid/how-to/persisting-settings/persisting-frozen-columns-client-side
+components: ["grid"]
 tags: persist,frozen,columns,on,the,client
 published: True
 position: 10

@@ -3,6 +3,7 @@ title: Model Binding and Strongly Typed Data Controls Support
 page_title: Model Binding and Strongly Typed Data Controls Support - RadGrid
 description: Check our Web Forms article about Model Binding and Strongly Typed Data Controls Support.
 slug: grid/data-binding/model-binding-and-strongly-typed-data-controls-support
+components: ["grid"]
 tags: model,binding,and,strongly,typed,data,controls,support
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Overview
 page_title: Grouping Overview - RadGrid
 description: Explore the grouping functionality in the Grid control for organizing data into hierarchical structures.
 slug: grid/functionality/grouping/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

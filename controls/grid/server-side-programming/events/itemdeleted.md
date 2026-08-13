@@ -3,6 +3,7 @@ title: ItemDeleted
 page_title: ItemDeleted Event - RadGrid
 description: Check our Web Forms article about ItemDeleted Event.
 slug: grid/server-side-programming/events/itemdeleted
+components: ["grid"]
 published: True
 position: 50
 ---

@@ -3,6 +3,7 @@ title: EditCommand
 page_title: EditCommand Event - RadGrid
 description: Check our Web Forms article about EditCommand Event.
 slug: grid/server-side-programming/events/editcommand
+components: ["grid"]
 published: True
 position: 50
 ---

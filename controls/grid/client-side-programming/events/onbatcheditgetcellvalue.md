@@ -3,6 +3,7 @@ title: OnBatchEditGetCellValue
 page_title: OnBatchEditGetCellValue - RadGrid
 description: Check our Web Forms article about OnBatchEditGetCellValue.
 slug: grid/client-side-programming/events/onbatcheditgetcellvalue
+components: ["grid"]
 tags: onbatcheditgetcellvalue
 published: True
 position: 79

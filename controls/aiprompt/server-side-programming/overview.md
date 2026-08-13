@@ -3,6 +3,7 @@ title: Overview
 page_title: AIPrompt Server-side Programming
 description: "Overview of the Server-side APIs you can use to create and configure the Telerik WebForms AIPrompt Control."
 slug: aiprompt/server-side-programming/overview
+components: ["aiprompt"]
 tags: overview
 published: True
 position: 0

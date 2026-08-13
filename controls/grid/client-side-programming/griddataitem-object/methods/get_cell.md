@@ -3,6 +3,7 @@ title: get_cell
 page_title: get_cell - RadGrid
 description: Check our Web Forms article about get_cell.
 slug: grid/client-side-programming/griddataitem-object/methods/get_cell
+components: ["grid"]
 tags: get_cell
 published: True
 position: 2

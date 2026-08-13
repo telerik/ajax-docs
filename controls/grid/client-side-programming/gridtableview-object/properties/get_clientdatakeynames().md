@@ -3,6 +3,7 @@ title: get_clientDataKeyNames()
 page_title: get_clientDataKeyNames() - RadGrid
 description: Check our Web Forms article about get_clientDataKeyNames().
 slug: grid/client-side-programming/gridtableview-object/properties/get_clientdatakeynames()
+components: ["grid"]
 tags: get_clientdatakeynames()
 published: True
 position: 2

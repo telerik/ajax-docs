@@ -3,6 +3,7 @@ title: Overview
 page_title: Design Time Overview - RadGrid
 description: Check our Web Forms article about Overview.
 slug: grid/design-time/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

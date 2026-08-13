@@ -3,6 +3,7 @@ title: Customizing the Pager
 page_title: Customizing the Pager - RadGrid
 description: Check our Web Forms article about Customizing the Pager.
 slug: grid/appearance-and-styling/customizing-the-pager
+components: ["grid"]
 tags: customizing,the,pager
 published: True
 position: 9

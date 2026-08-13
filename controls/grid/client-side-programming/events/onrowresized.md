@@ -3,6 +3,7 @@ title: OnRowResized
 page_title: OnRowResized - RadGrid
 description: Check our Web Forms article about OnRowResized.
 slug: grid/client-side-programming/events/onrowresized
+components: ["grid"]
 tags: onrowresized
 published: True
 position: 67

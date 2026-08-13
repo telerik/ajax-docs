@@ -3,6 +3,7 @@ title: Rebind Grid with EnableViewState = false
 page_title: Rebind Grid with EnableViewState = false - RadGrid
 description: Check our Web Forms article about Rebind Grid with EnableViewState = false.
 slug: grid/performance/rebind-grid-with-enableviewstate-=-false
+components: ["grid"]
 tags: rebind,grid,with,enableviewstate,=,false
 published: True
 position: 5

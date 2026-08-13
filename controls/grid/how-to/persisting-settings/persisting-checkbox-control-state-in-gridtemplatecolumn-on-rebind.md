@@ -3,6 +3,7 @@ title: Persisting CheckBox Control State in GridTemplateColumn on Rebind
 page_title: Persisting CheckBox Control State in GridTemplateColumn on Rebind - RadGrid
 description: Check our Web Forms article about Persisting CheckBox Control State in GridTemplateColumn on Rebind.
 slug: grid/how-to/persisting-settings/persisting-checkbox-control-state-in-gridtemplatecolumn-on-rebind
+components: ["grid"]
 tags: persisting,checkbox,control,state,in,gridtemplatecolumn,on,rebind
 previous_url: controls/grid/how-to/persisting-checkbox-control-state-in-gridtemplatecolumn-on-rebind
 published: True

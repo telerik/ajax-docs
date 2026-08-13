@@ -3,6 +3,7 @@ title: Customizing with GridTemplateColumn
 page_title: Customizing with GridTemplateColumn - RadGrid
 description: Check our Web Forms article about Customizing with GridTemplateColumn.
 slug: grid/appearance-and-styling/customizing-with-gridtemplatecolumn
+components: ["grid"]
 tags: customizing,with,gridtemplatecolumn
 published: True
 position: 14

@@ -3,6 +3,7 @@ title: updateEditedItems
 page_title: updateEditedItems - RadGrid
 description: Check our Web Forms article about updateEditedItems.
 slug: grid/client-side-programming/gridtableview-object/methods/updateediteditems
+components: ["grid"]
 tags: updateediteditems
 published: True
 position: 47

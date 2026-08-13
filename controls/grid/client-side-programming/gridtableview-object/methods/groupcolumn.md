@@ -3,6 +3,7 @@ title: groupColumn
 page_title: groupColumn - RadGrid
 description: Check our Web Forms article about groupColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/groupcolumn
+components: ["grid"]
 tags: groupcolumn
 published: True
 position: 27

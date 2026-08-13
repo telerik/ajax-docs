@@ -3,6 +3,7 @@ title: File Browser
 page_title: File Browser - RadGrid
 description: Check our Web Forms article about File Browser.
 slug: grid/how-to/common/file-browser
+components: ["grid"]
 tags: file,browser
 published: True
 position: 0

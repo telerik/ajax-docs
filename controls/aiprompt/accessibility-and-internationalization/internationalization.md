@@ -3,6 +3,7 @@ title: Internationalization
 page_title: AIPrompt Internationalization 
 description: "Internationalization of the Telerik WebForms AIPrompt component."
 slug: aiprompt/accessibility/internationalization
+components: ["aiprompt"]
 tags: internationalization
 published: True
 position: 2

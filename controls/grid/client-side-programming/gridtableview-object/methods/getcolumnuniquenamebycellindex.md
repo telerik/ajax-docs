@@ -3,6 +3,7 @@ title: getColumnUniqueNameByCellIndex
 page_title: getColumnUniqueNameByCellIndex - RadGrid
 description: Check our Web Forms article about getColumnUniqueNameByCellIndex.
 slug: grid/client-side-programming/gridtableview-object/methods/getcolumnuniquenamebycellindex
+components: ["grid"]
 tags: getcolumnuniquenamebycellindex
 published: True
 position: 25

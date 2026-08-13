@@ -3,6 +3,7 @@ title: exportToCsv
 page_title: exportToCsv - RadGrid
 description: Check our Web Forms article about exportToCsv.
 slug: grid/client-side-programming/gridtableview-object/methods/exporttocsv
+components: ["grid"]
 tags: exporttocsv
 published: True
 position: 15

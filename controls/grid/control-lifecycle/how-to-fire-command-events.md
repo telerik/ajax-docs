@@ -3,6 +3,7 @@ title: How to Fire Command Events
 page_title: How to Fire Command Events - RadGrid
 description: Check our Web Forms article about How to Fire Command Events.
 slug: grid/control-lifecycle/how-to-fire-command-events
+components: ["grid"]
 tags: how,to,fire,command,events
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: editAllItems
 page_title: editAllItems - RadGrid
 description: Check our Web Forms article about editAllItems.
 slug: grid/client-side-programming/gridtableview-object/methods/editallitems
+components: ["grid"]
 tags: editallitems
 published: True
 position: 11

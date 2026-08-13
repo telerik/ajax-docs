@@ -3,6 +3,7 @@ title: Overview
 page_title: Mobile Support Overview - RadGrid
 description: Check our Web Forms article about Overview.
 slug: grid/mobile-support/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

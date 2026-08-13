@@ -3,6 +3,7 @@ title: Visual Studio 2012 Datasource Configuration
 page_title: Visual Studio 2012 Datasource Configuration - RadGrid
 description: Check our Web Forms article about Visual Studio 2012 Datasource Configuration.
 slug: grid/design-time/visual-studio-2012-datasource-configuration
+components: ["grid"]
 tags: visual,studio,2012,datasource,configuration
 published: True
 position: 9

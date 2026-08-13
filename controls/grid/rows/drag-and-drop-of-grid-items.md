@@ -3,6 +3,7 @@ title: Drag and Drop of Grid Items
 page_title: Drag and Drop of Grid Items - RadGrid
 description: Learn how to enable drag-and-drop functionality for Grid items to improve user interaction and usability.
 slug: grid/rows/drag-and-drop-of-grid-items
+components: ["grid"]
 tags: drag,and,drop,of,grid,items
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: get_name()
 page_title: get_name() - RadGrid
 description: Check our Web Forms article about get_name().
 slug: grid/client-side-programming/gridtableview-object/properties/get_name()
+components: ["grid"]
 tags: get_name()
 published: True
 position: 12

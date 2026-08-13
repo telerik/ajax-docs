@@ -3,6 +3,7 @@ title: PageIndexChanged
 page_title: PageIndexChanged Event - RadGrid
 description: Check our Web Forms article about PageIndexChanged Event.
 slug: grid/server-side-programming/events/pageindexchanged
+components: ["grid"]
 published: True
 position: 50
 ---

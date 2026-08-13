@@ -3,6 +3,7 @@ title: Programmatic Pager Customization
 page_title: Programmatic Pager Customization - RadGrid
 description: Check our Web Forms article about Programmatic Pager Customization.
 slug: grid/functionality/paging/changing-the-default-pager/programmatic-pager-customization
+components: ["grid"]
 tags: programmatic,pager,customization
 published: True
 position: 1

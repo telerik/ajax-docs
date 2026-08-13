@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadGrid
 description: Check our Web Forms article about Known Limitations.
 slug: grid/troubleshooting/known-limitations
+components: ["grid"]
 tags: known,limitations
 published: True
 position: 2

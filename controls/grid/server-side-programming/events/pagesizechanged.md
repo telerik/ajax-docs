@@ -3,6 +3,7 @@ title: PageSizeChanged
 page_title: PageSizeChanged Event - RadGrid
 description: Check our Web Forms article about PageSizeChanged Event.
 slug: grid/server-side-programming/events/pagesizechanged
+components: ["grid"]
 published: True
 position: 50
 ---

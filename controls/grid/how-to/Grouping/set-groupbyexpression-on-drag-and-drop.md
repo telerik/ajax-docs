@@ -3,6 +3,7 @@ title: Set GroupByExpression on Drag and Drop
 page_title: Set GroupByExpression on Drag and Drop - RadGrid
 description: Check our Web Forms article about Set GroupByExpression on Drag and Drop.
 slug: grid/how-to/grouping/set-groupbyexpression-on-drag-and-drop
+components: ["grid"]
 previous_url: controls/grid/functionality/grouping/how-to/set-groupbyexpression-on-drag-and-drop
 tags: set,groupbyexpression,on,drag,and,drop
 published: True

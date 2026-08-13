@@ -3,6 +3,7 @@ title: resizeItem
 page_title: resizeItem - RadGrid
 description: Check our Web Forms article about resizeItem.
 slug: grid/client-side-programming/gridtableview-object/methods/resizeitem
+components: ["grid"]
 tags: resizeitem
 published: True
 position: 36

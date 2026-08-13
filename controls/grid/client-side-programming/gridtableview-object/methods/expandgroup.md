@@ -3,6 +3,7 @@ title: expandGroup
 page_title: expandGroup - RadGrid
 description: Check our Web Forms article about expandGroup.
 slug: grid/client-side-programming/gridtableview-object/methods/expandgroup
+components: ["grid"]
 tags: expandgroup
 published: True
 position: 50

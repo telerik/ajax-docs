@@ -3,6 +3,7 @@ title: get_editFormItem()
 page_title: get_editFormItem() - RadGrid
 description: Check our Web Forms article about get_editFormItem().
 slug: grid/client-side-programming/griddataitem-object/properties/get_editformitem()
+components: ["grid"]
 tags: get_editformitem()
 published: True
 position: 1

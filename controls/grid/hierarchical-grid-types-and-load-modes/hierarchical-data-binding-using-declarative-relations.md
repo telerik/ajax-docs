@@ -3,6 +3,7 @@ title: Hierarchical data-binding using declarative relations
 page_title: Hierarchical data-binding using declarative relations - RadGrid
 description: Check our Web Forms article about Hierarchical data-binding using declarative relations.
 slug: grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations
+components: ["grid"]
 tags: hierarchical,data-binding,using,declarative,relations
 published: True
 position: 3

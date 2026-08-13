@@ -3,6 +3,7 @@ title: Design Time
 page_title: Creating the structure using the Designer - RadGrid
 description: Learn how to create and configure a RadGrid control at design time using Visual Studio tools.
 slug: grid/create-radgrid/design-time
+components: ["grid"]
 tags: overview
 published: True
 position: 1

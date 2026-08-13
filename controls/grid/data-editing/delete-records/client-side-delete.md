@@ -3,6 +3,7 @@ title: Client-side Delete
 page_title: Client-side Delete - RadGrid
 description: Check our Web Forms article about Client-side Delete.
 slug: grid/data-editing/delete-records/client-side-delete
+components: ["grid"]
 tags: client-side,delete
 published: True
 position: 1

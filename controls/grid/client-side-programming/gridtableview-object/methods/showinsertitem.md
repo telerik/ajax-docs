@@ -3,6 +3,7 @@ title: showInsertItem
 page_title: showInsertItem - RadGrid
 description: Check our Web Forms article about showInsertItem.
 slug: grid/client-side-programming/gridtableview-object/methods/showinsertitem
+components: ["grid"]
 tags: showinsertitem
 published: True
 position: 42

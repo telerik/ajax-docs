@@ -3,6 +3,7 @@ title: clearFilter
 page_title: clearFilter - RadGrid
 description: Check our Web Forms article about clearFilter.
 slug: grid/client-side-programming/gridtableview-object/methods/clearfilter
+components: ["grid"]
 tags: clearfilter
 published: True
 position: 3

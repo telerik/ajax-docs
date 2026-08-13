@@ -3,6 +3,7 @@ title: ungroupColumn
 page_title: ungroupColumn - RadGrid
 description: Check our Web Forms article about ungroupColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/ungroupcolumn
+components: ["grid"]
 tags: ungroupcolumn
 published: True
 position: 46

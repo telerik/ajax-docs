@@ -3,6 +3,7 @@ title: Making a Grid Row Selected at All Times
 page_title: Making a Grid Row Selected at All Times - RadGrid
 description: Check our Web Forms article about Making a Grid Row Selected at All Times.
 slug: grid/how-to/selecting/making-a-grid-row-selected-at-all-times
+components: ["grid"]
 previous_url: controls/grid/functionality/selecting/how-to/making-a-grid-row-selected-at-all-times
 tags: selecting
 published: True

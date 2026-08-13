@@ -3,6 +3,7 @@ title: cancelInsert
 page_title: cancelInsert - RadGrid
 description: Check our Web Forms article about cancelInsert.
 slug: grid/client-side-programming/gridtableview-object/methods/cancelinsert
+components: ["grid"]
 tags: cancelinsert
 published: True
 position: 1

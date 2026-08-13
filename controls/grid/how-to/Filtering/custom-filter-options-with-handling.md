@@ -3,6 +3,7 @@ title: Custom Filter Options with Handling
 page_title: Custom Filter Options with Handling - RadGrid
 description: Check our Web Forms article about Custom Filter Options with Handling.
 slug: grid/how-to/filtering/custom-filter-options-with-handling
+components: ["grid"]
 previous_url: controls/grid/functionality/filtering/how-to/custom-filter-options-with-handling
 tags: custom,filter,options,with,handling
 published: True

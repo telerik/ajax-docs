@@ -3,6 +3,7 @@ title: Understanding hierarchical grid structure
 page_title: Understanding hierarchical grid structure - RadGrid
 description: Check our Web Forms article about Understanding hierarchical grid structure.
 slug: grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure
+components: ["grid"]
 tags: understanding,hierarchical,grid,structure
 published: True
 position: 1

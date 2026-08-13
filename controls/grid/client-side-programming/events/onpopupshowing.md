@@ -3,6 +3,7 @@ title: OnPopUpShowing
 page_title: OnPopUpShowing - RadGrid
 description: Check our Web Forms article about OnPopUpShowing.
 slug: grid/client-side-programming/events/onpopupshowing
+components: ["grid"]
 tags: onpopupshowing
 published: True
 position: 47

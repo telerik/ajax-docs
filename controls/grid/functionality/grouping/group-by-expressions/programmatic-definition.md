@@ -3,6 +3,7 @@ title: Programmatic Definition
 page_title: Programmatic Definition - RadGrid
 description: Check our Web Forms article about Programmatic Definition.
 slug: grid/functionality/grouping/group-by-expressions/programmatic-definition
+components: ["grid"]
 tags: programmatic,definition
 published: True
 position: 1

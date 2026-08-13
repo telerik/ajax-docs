@@ -3,6 +3,7 @@ title: Extract Values of Selected Cells
 page_title: Extract Values of Selected Cells - RadGrid
 description: Extract Values of Selected Cells
 slug: grid/functionality/selecting/selecting-cells/extract-values-of-selected-cells
+components: ["grid"]
 tags: extract,values,selected,cells
 published: True
 position: 4

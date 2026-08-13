@@ -3,6 +3,7 @@ title: OnRowDeselecting
 page_title: OnRowDeselecting - RadGrid
 description: Check our Web Forms article about OnRowDeselecting.
 slug: grid/client-side-programming/events/onrowdeselecting
+components: ["grid"]
 tags: onrowdeselecting
 published: True
 position: 56

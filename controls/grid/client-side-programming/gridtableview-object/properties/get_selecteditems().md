@@ -3,6 +3,7 @@ title: get_selectedItems()
 page_title: get_selectedItems() - RadGrid
 description: Check our Web Forms article about get_selectedItems().
 slug: grid/client-side-programming/gridtableview-object/properties/get_selecteditems()
+components: ["grid"]
 tags: get_selecteditems()
 published: True
 position: 19

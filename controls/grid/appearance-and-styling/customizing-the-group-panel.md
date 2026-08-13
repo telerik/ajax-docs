@@ -3,6 +3,7 @@ title: Customizing the Group Panel
 page_title: Customizing the Group Panel - RadGrid
 description: Check our Web Forms article about Customizing the Group Panel.
 slug: grid/appearance-and-styling/customizing-the-group-panel
+components: ["grid"]
 tags: customizing,the,group,panel
 published: True
 position: 11

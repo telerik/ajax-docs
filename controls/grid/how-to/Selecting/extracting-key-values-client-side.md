@@ -3,6 +3,7 @@ title: Extracting Key Values Client-side
 page_title: Extracting Key Values Client-side - RadGrid
 description: Check our Web Forms article about Extracting Key Values Client-side.
 slug: grid/how-to/selecting/extracting-key-values-client-side
+components: ["grid"]
 previous_url: controls/grid/functionality/selecting/how-to/extracting-key-values-client-side
 tags: client-side,selecting,values,rows
 published: True

@@ -3,6 +3,7 @@ title: Grid with TreeView and ComboBox editors
 page_title: Grid with TreeView and ComboBox editors - RadGrid
 description: Check our Web Forms article about Grid with TreeView and ComboBox editors.
 slug: grid/how-to/data-editing/grid-with-treeview-and-combobox-editorss
+components: ["grid"]
 previous_url: controls/grid/data-editing/how-to/grid-with-treeview-and-combobox-editors
 tags: grid,with,treeview,and,combobox,editors
 published: True

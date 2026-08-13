@@ -3,6 +3,7 @@ title: Set style on mouse over
 page_title: Set style on mouse over - RadGrid
 description: Check our Web Forms article about Set style on mouse over.
 slug: grid/appearance-and-styling/set-style-on-mouse-over
+components: ["grid"]
 tags: set,style,on,mouse,over
 published: True
 position: 6

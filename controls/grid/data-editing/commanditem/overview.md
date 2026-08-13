@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadGrid
 description: Learn about the CommandItem in the Grid control and its features for adding custom command buttons.
 slug: grid/data-editing/commanditem/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

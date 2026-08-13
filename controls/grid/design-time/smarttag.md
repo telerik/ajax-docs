@@ -3,6 +3,7 @@ title: SmartTag
 page_title: SmartTag - RadGrid
 description: Check our Web Forms article about SmartTag.
 slug: grid/design-time/smarttag
+components: ["grid"]
 tags: smarttag
 published: True
 position: 1

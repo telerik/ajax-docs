@@ -3,6 +3,7 @@ title: showFilterItem
 page_title: showFilterItem - RadGrid
 description: Check our Web Forms article about showFilterItem.
 slug: grid/client-side-programming/gridtableview-object/methods/showfilteritem
+components: ["grid"]
 tags: showfilteritem
 published: True
 position: 41

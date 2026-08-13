@@ -3,6 +3,7 @@ title: OnColumnMovedToRight
 page_title: OnColumnMovedToRight - RadGrid
 description: Check our Web Forms article about OnColumnMovedToRight.
 slug: grid/client-side-programming/events/oncolumnmovedtoright
+components: ["grid"]
 tags: oncolumnmovedtoright
 published: True
 position: 19

@@ -3,6 +3,7 @@ title: Single Cell
 page_title: Selecting SingleCell - RadGrid
 description: Selecting a Single Cell
 slug: grid/functionality/selecting/selecting-cells/single-cell
+components: ["grid"]
 tags: selecting,cell,singlecell
 published: True
 position: 0

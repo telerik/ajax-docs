@@ -3,6 +3,7 @@ title: Optimizing ViewState usage
 page_title: Optimizing ViewState usage - RadGrid
 description: Check our Web Forms article about Optimizing ViewState usage.
 slug: grid/performance/optimizing-viewstate-usage
+components: ["grid"]
 tags: optimizing,viewstate,usage
 published: True
 position: 3

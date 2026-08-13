@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadGrid
 description: Learn how to implement data validation in the Grid control to ensure accurate and consistent data entry.
 slug: grid/data-editing/validation/validation
+components: ["grid"]
 tags: validation
 published: True
 position: 0

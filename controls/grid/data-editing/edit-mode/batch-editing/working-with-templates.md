@@ -3,6 +3,7 @@ title: Working with Templates
 page_title: Working with Templates - RadGrid
 description: Check our Web Forms article about Working with Templates.
 slug: grid/data-editing/edit-mode/batch-editing/working-with-templates
+components: ["grid"]
 tags: batch,editing,templates
 published: True
 position: 4

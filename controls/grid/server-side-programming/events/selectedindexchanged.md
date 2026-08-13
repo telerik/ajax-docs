@@ -3,6 +3,7 @@ title: SelectedIndexChanged
 page_title: SelectedIndexChanged Event - RadGrid
 description: Check our Web Forms article about SelectedIndexChanged Event.
 slug: grid/server-side-programming/events/selectedindexchanged
+components: ["grid"]
 published: True
 position: 50
 ---

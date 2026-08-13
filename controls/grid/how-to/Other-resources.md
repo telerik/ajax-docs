@@ -3,6 +3,7 @@ title: Other Resources
 page_title: Other Resources - RadGrid
 description: Check our Web Forms article about Other Resources.
 slug: grid/how-to/Other-resources
+components: ["grid"]
 tags: codelibrary, howto
 published: True
 position: 1

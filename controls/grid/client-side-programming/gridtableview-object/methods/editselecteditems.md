@@ -3,6 +3,7 @@ title: editSelectedItems
 page_title: editSelectedItems - RadGrid
 description: Check our Web Forms article about editSelectedItems.
 slug: grid/client-side-programming/gridtableview-object/methods/editselecteditems
+components: ["grid"]
 tags: editselecteditems
 published: True
 position: 13

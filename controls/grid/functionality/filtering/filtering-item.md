@@ -3,6 +3,7 @@ title: Filtering Item
 page_title: Filtering Item - RadGrid
 description: Check our Web Forms article about Filtering Item.
 slug: grid/functionality/filtering/filtering-item
+components: ["grid"]
 tags: filtering,item
 published: True
 position: 1

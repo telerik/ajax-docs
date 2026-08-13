@@ -3,6 +3,7 @@ title: Inheriting Grid Columns
 page_title: Inheriting Grid Columns - RadGrid
 description: Check our Web Forms article about Inheriting Grid Columns.
 slug: grid/inheritance/inheriting-grid-columns
+components: ["grid"]
 tags: inheriting,grid,columns
 published: True
 position: 1

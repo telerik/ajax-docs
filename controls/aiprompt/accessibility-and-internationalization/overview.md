@@ -3,6 +3,7 @@ title: Overview
 page_title: AIPrompt Accessibility
 description: "Learn about the accessibility of the WebForms AIPrompt"
 slug: aiprompt/accessibility/overview
+components: ["aiprompt"]
 position: 1
 ---
 

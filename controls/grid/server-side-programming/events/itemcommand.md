@@ -3,6 +3,7 @@ title: ItemCommand
 page_title: ItemCommand Event - RadGrid
 description: Learn how to handle the ItemCommand event in the Grid control for executing custom server-side logic.
 slug: grid/server-side-programming/events/itemcommand
+components: ["grid"]
 published: True
 position: 50
 ---

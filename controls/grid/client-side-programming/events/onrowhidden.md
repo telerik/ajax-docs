@@ -3,6 +3,7 @@ title: OnRowHidden
 page_title: OnRowHidden - RadGrid
 description: Check our Web Forms article about OnRowHidden.
 slug: grid/client-side-programming/events/onrowhidden
+components: ["grid"]
 tags: onrowhidden
 published: True
 position: 63

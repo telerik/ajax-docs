@@ -3,6 +3,7 @@ title: OnRowDeleted
 page_title: OnRowDeleted - RadGrid
 description: Check our Web Forms article about OnRowDeleted.
 slug: grid/client-side-programming/events/onrowdeleted
+components: ["grid"]
 tags: onrowdeleted
 published: True
 position: 55

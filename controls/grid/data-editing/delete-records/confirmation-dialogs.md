@@ -3,6 +3,7 @@ title: Confirmation Dialogs
 page_title: Confirmation Dialogs - RadGrid
 description: Check our Web Forms article about Confirmation Dialogs.
 slug: grid/data-editing/delete-records/confirmation-dialogs
+components: ["grid"]
 tags: confirmation,dialogs
 published: True
 position: 3

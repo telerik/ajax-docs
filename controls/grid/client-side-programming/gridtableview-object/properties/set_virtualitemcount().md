@@ -3,6 +3,7 @@ title: set_virtualItemCount()
 page_title: set_virtualItemCount() - RadGrid
 description: Check our Web Forms article about set_virtualItemCount().
 slug: grid/client-side-programming/gridtableview-object/properties/set_virtualitemcount()
+components: ["grid"]
 tags: set_virtualitemcount()
 published: True
 position: 21

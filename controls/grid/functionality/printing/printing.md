@@ -3,6 +3,7 @@ title: Print
 page_title: Print - RadGrid
 description: Check our Web Forms article about Print.
 slug: grid/functionality/printing/printing
+components: ["grid"]
 tags: print
 published: True
 position: 1

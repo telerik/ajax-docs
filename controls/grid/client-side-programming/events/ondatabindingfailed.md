@@ -3,6 +3,7 @@ title: OnDataBindingFailed
 page_title: OnDataBindingFailed - RadGrid
 description: Check our Web Forms article about OnDataBindingFailed.
 slug: grid/client-side-programming/events/ondatabindingfailed
+components: ["grid"]
 tags: ondatabindingfailed
 published: True
 position: 28

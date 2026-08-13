@@ -3,6 +3,7 @@ title: get_expanded()
 page_title: get_expanded() - RadGrid
 description: Check our Web Forms article about get_expanded().
 slug: grid/client-side-programming/griddataitem-object/properties/get_expanded()
+components: ["grid"]
 tags: get_expanded()
 published: True
 position: 3

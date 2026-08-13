@@ -3,6 +3,7 @@ title: Edit Forms
 page_title: Edit Forms - RadGrid
 description: Explore how to use edit forms in the Grid control for customizing the data editing experience.
 slug: grid/data-editing/edit-mode/edit-forms
+components: ["grid"]
 tags: edit,forms
 published: True
 position: 1

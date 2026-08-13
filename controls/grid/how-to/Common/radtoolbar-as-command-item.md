@@ -3,6 +3,7 @@ title: RadToolBar as Command Item
 page_title: RadToolBar as Command Item - RadGrid
 description: Check our Web Forms article about RadToolBar as Command Item.
 slug: grid/how-to/common/radtoolbar-as-command-item
+components: ["grid"]
 tags: radtoolbar,as,command,item
 published: True
 position: 13

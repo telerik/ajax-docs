@@ -3,6 +3,7 @@ title: ColumnCreating
 page_title: ColumnCreating Event - RadGrid
 description: Check our Web Forms article about ColumnCreating Event.
 slug: grid/server-side-programming/events/columncreating
+components: ["grid"]
 published: True
 position: 50
 ---

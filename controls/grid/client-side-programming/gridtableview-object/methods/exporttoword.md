@@ -3,6 +3,7 @@ title: exportToWord
 page_title: exportToWord - RadGrid
 description: Check our Web Forms article about exportToWord.
 slug: grid/client-side-programming/gridtableview-object/methods/exporttoword
+components: ["grid"]
 tags: exporttoword
 published: True
 position: 18

@@ -3,6 +3,7 @@ title: Applying Custom Sort Criteria
 page_title: Applying Custom Sort Criteria - RadGrid
 description: Check our Web Forms article about Applying Custom Sort Criteria.
 slug: grid/functionality/sorting/applying-custom-sort-criteria
+components: ["grid"]
 tags: applying,custom,sort,criteria
 published: True
 position: 5

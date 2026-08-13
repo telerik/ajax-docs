@@ -3,6 +3,7 @@ title: Changes and Backward Compatibility
 page_title: Changes and Backward Compatibility - RadGrid
 description: Check our Web Forms article about Changes and Backward Compatibility.
 slug: grid/changes-and-backward-compatibility
+components: ["grid"]
 tags: changes,and,backward,compatibility
 published: False
 position: 30

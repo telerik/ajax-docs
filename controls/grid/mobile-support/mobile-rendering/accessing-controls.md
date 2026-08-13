@@ -3,6 +3,7 @@ title: Accessing Controls
 page_title: Accessing Controls - RadGrid
 description: Check our Web Forms article about Accessing Controls.
 slug: grid/mobile-support/mobile-rendering/accessing-controls
+components: ["grid"]
 tags: accessing,controls
 published: True
 position: 7

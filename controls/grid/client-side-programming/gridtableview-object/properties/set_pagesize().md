@@ -3,6 +3,7 @@ title: set_pageSize()
 page_title: set_pageSize() - RadGrid
 description: Check our Web Forms article about set_pageSize().
 slug: grid/client-side-programming/gridtableview-object/properties/set_pagesize()
+components: ["grid"]
 tags: set_pagesize()
 published: True
 position: 16

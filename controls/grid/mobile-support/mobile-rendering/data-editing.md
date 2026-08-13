@@ -3,6 +3,7 @@ title: Data Editing
 page_title: Data Editing - RadGrid
 description: Check our Web Forms article about Data Editing.
 slug: grid/mobile-support/mobile-rendering/data-editing
+components: ["grid"]
 tags: data,editing
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: BatchEditCommand
 page_title: BatchEditCommand Event - RadGrid
 description: Check our Web Forms article about BatchEditCommand Event.
 slug: grid/server-side-programming/events/batcheditcommand
+components: ["grid"]
 published: True
 position: 50
 ---

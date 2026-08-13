@@ -3,6 +3,7 @@ title: Raising Client Event for Rows
 page_title: Raising client event for rows once in hierarchical grid - RadGrid
 description: Check our Web Forms article about Raising client event for rows once in hierarchical grid.
 slug: grid/how-to/hierarchy/raising-client-event-for-rows-once-in-hierarchical-grid
+components: ["grid"]
 previous_url: controls/grid/hierarchical-grid-types-and-load-modes/how-to/raising-client-event-for-rows-once-in-hierarchical-grid
 tags: raising,client,event,for,rows,once,in,hierarchical,grid
 published: True

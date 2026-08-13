@@ -3,6 +3,7 @@ title: Master Detail Grids
 page_title: Master Detail Grids - RadGrid
 description: Check our Web Forms article about Master Detail Grids.
 slug: grid/data-binding/master-detail-grids
+components: ["grid"]
 tags: master,detail,grids
 published: True
 position: 4

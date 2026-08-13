@@ -3,6 +3,7 @@ title: Accessing Controls
 page_title: Accessing Controls Server-Side - RadGrid
 description: Discover how to access and manipulate controls within the Grid control on the server side.
 slug: grid/accessing-values-and-controls/server-side/accessing-controls
+components: ["grid"]
 published: True
 position: 4
 ---

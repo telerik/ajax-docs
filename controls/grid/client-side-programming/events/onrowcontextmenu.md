@@ -3,6 +3,7 @@ title: OnRowContextMenu
 page_title: OnRowContextMenu - RadGrid
 description: Check our Web Forms article about OnRowContextMenu.
 slug: grid/client-side-programming/events/onrowcontextmenu
+components: ["grid"]
 tags: onrowcontextmenu
 published: True
 position: 49

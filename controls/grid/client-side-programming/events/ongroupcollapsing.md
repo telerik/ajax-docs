@@ -3,6 +3,7 @@ title: OnGroupCollapsing
 page_title: OnGroupCollapsing - RadGrid
 description: Check our Web Forms article about OnGroupCollapsing.
 slug: grid/client-side-programming/events/ongroupcollapsing
+components: ["grid"]
 tags: ongroupcollapsing
 published: True
 position: 35

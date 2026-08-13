@@ -3,6 +3,7 @@ title: Known Reasons for Error Messages
 page_title: Known Reasons for Error Messages - RadGrid
 description: Check our Web Forms article about Known Reasons for Error Messages.
 slug: grid/troubleshooting/known-reasons-for-error-messages
+components: ["grid"]
 tags: known,reasons,for,error,messages
 published: True
 position: 1

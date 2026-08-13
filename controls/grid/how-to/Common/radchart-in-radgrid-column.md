@@ -3,6 +3,7 @@ title: RadChart in RadGrid column
 page_title: RadChart in RadGrid column - RadGrid
 description: Check our Web Forms article about RadChart in RadGrid column.
 slug: grid/how-to/common/radchart-in-radgrid-column
+components: ["grid"]
 tags: radchart,in,radgrid,column
 published: True
 position: 9

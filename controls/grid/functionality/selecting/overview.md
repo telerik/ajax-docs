@@ -3,6 +3,7 @@ title: Overview
 page_title: Selecting Functionality - RadGrid
 description: Selecting Functionality of RadGrid
 slug: grid/functionality/selecting/overview
+components: ["grid"]
 previous_url: controls/grid/functionality/selecting/selecting-cells-and-columns
 tags: selecting,cells,rows,columns,hierarchy,detailtables
 published: True

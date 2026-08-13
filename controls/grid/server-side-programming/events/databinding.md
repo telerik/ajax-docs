@@ -3,6 +3,7 @@ title: DataBinding
 page_title: DataBinding Server Event - RadGrid
 description: Check our Web Forms article about DataBinding Server Event.
 slug: grid/server-side-programming/events/databinding
+components: ["grid"]
 published: True
 position: 50
 ---

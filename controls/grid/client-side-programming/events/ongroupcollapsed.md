@@ -3,6 +3,7 @@ title: OnGroupCollapsed
 page_title: OnGroupCollapsed - RadGrid
 description: Check our Web Forms article about OnGroupCollapsed.
 slug: grid/client-side-programming/events/ongroupcollapsed
+components: ["grid"]
 tags: ongroupcollapsed
 published: True
 position: 36

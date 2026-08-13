@@ -3,6 +3,7 @@ title: Extracting values
 page_title: Extracting values - RadGrid
 description: Check our Web Forms article about Extracting values.
 slug: grid/data-editing/extracting-values
+components: ["grid"]
 tags: extracting,values
 published: True
 position: 2

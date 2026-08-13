@@ -3,6 +3,7 @@ title: Population/Data Editing with XmlDataSource Control
 page_title: Population/Data Editing with XmlDataSource Control - RadGrid
 description: Check our Web Forms article about Population/Data Editing with XmlDataSource Control.
 slug: grid/data-binding/server-side-binding/various-data-sources/population-data-editing-with-xmldatasource-control
+components: ["grid"]
 tags: population/data,editing,with,xmldatasource,control
 published: True
 position: 5

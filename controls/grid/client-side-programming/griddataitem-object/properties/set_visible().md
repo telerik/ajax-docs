@@ -3,6 +3,7 @@ title: set_visible()
 page_title: set_visible() - RadGrid
 description: Check our Web Forms article about set_visible().
 slug: grid/client-side-programming/griddataitem-object/properties/set_visible()
+components: ["grid"]
 tags: set_visible()
 published: True
 position: 12

@@ -3,6 +3,7 @@ title: Using Columns
 page_title: Using Columns - RadGrid
 description: Explore how to configure and use columns in the Grid control for displaying and managing data.
 slug: grid/columns/using-columns
+components: ["grid"]
 tags: using,columns
 published: True
 position: 1

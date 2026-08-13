@@ -3,6 +3,7 @@ title: Setting Edit Permissions
 page_title: Setting Edit Permissions - RadGrid
 description: Check our Web Forms article about Setting Edit Permissions.
 slug: grid/how-to/data-editing/setting-edit-permissions
+components: ["grid"]
 previous_url: controls/grid/data-editing/how-to/setting-edit-permissions
 tags: setting,edit,permissions
 published: True

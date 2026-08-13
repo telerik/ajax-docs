@@ -3,6 +3,7 @@ title: GroupsChanging
 page_title: GroupsChanging Event - RadGrid
 description: Check our Web Forms article about GroupsChanging Event.
 slug: grid/server-side-programming/events/groupschanging
+components: ["grid"]
 published: True
 position: 50
 ---

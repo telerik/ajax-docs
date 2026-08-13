@@ -3,6 +3,7 @@ title: OnRowClick
 page_title: OnRowClick - RadGrid
 description: Check our Web Forms article about OnRowClick.
 slug: grid/client-side-programming/events/onrowclick
+components: ["grid"]
 tags: onrowclick
 published: True
 position: 48

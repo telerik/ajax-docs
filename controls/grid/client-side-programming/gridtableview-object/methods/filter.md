@@ -3,6 +3,7 @@ title: filter
 page_title: filter - RadGrid
 description: Check our Web Forms article about filter.
 slug: grid/client-side-programming/gridtableview-object/methods/filter
+components: ["grid"]
 tags: filter
 published: True
 position: 21

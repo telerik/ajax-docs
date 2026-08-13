@@ -3,6 +3,7 @@ title: updateItem
 page_title: updateItem - RadGrid
 description: Check our Web Forms article about updateItem.
 slug: grid/client-side-programming/gridtableview-object/methods/updateitem
+components: ["grid"]
 tags: updateitem
 published: True
 position: 48

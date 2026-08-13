@@ -3,6 +3,7 @@ title: Scrolling to the Selected Item
 page_title: Scrolling to the Selected Item - RadGrid
 description: Check our Web Forms article about Scrolling to the Selected Item.
 slug: grid/how-to/scrolling/scrolling-to-the-selected-item
+components: ["grid"]
 previous_url: controls/grid/functionality/scrolling/how-to/scrolling-to-the-selected-item
 tags: scrolling,to,the,selected,item
 published: True

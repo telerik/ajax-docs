@@ -3,6 +3,7 @@ title: OnHierarchyExpanding
 page_title: OnHierarchyExpanding - RadGrid
 description: Check our Web Forms article about OnHierarchyExpanding.
 slug: grid/client-side-programming/events/onhierarchyexpanding
+components: ["grid"]
 tags: onhierarchyexpanding
 published: True
 position: 42

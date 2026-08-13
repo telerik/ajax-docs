@@ -3,6 +3,7 @@ title: Selectable Mode
 page_title: Selectable Mode - RadGrid
 description: Check our Web Forms article about Selectable Mode.
 slug: grid/functionality/selecting/selecting-rows/selectable-mode
+components: ["grid"]
 tags: selectable,mode
 published: True
 position: 5

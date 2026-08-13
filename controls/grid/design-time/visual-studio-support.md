@@ -3,6 +3,7 @@ title: Visual Studio Support
 page_title: Visual Studio Support - RadGrid
 description: Check our Web Forms article about Visual Studio Support.
 slug: grid/design-time/visual-studio-support
+components: ["grid"]
 tags: visual,studio,support
 published: True
 position: 4

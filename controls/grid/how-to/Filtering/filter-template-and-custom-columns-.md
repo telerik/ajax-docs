@@ -3,6 +3,7 @@ title: Filter Template and Custom Columns
 page_title: Filter Template and Custom Columns - RadGrid
 description: Check our Web Forms article about Filter Template and Custom Columns.
 slug: grid/how-to/filtering/filter-template-and-custom-columns
+components: ["grid"]
 previous_url: controls/grid/functionality/filtering/how-to/filter-template-and-custom-columns-
 tags: filter,template,and,custom,columns,
 published: True

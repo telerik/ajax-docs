@@ -3,6 +3,7 @@ title: OnActiveRowChanging
 page_title: OnActiveRowChanging - RadGrid
 description: Check our Web Forms article about OnActiveRowChanging.
 slug: grid/client-side-programming/events/onactiverowchanging
+components: ["grid"]
 tags: onactiverowchanging
 published: True
 position: 0

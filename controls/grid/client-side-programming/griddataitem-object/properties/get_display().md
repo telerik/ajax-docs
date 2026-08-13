@@ -3,6 +3,7 @@ title: get_display()
 page_title: get_display() - RadGrid
 description: Check our Web Forms article about get_display().
 slug: grid/client-side-programming/griddataitem-object/properties/get_display()
+components: ["grid"]
 tags: get_display()
 published: True
 position: 0

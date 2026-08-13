@@ -3,6 +3,7 @@ title: OnDataSourceResolved
 page_title: OnDataSourceResolved - RadGrid
 description: Check our Web Forms article about OnDataSourceResolved.
 slug: grid/client-side-programming/events/ondatasourceresolved
+components: ["grid"]
 tags: ondatasourceresolved
 published: True
 position: 30

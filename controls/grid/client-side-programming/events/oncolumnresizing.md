@@ -3,6 +3,7 @@ title: OnColumnResizing
 page_title: OnColumnResizing - RadGrid
 description: Check our Web Forms article about OnColumnResizing.
 slug: grid/client-side-programming/events/oncolumnresizing
+components: ["grid"]
 tags: oncolumnresizing
 published: True
 position: 20

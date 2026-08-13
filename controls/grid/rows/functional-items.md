@@ -3,6 +3,7 @@ title: Functional Items
 page_title: Functional Items - RadGrid
 description: Check our Web Forms article about Functional Items.
 slug: grid/rows/functional-items
+components: ["grid"]
 tags: functional,items
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Ajaxifying RadGrid
 page_title: Ajaxifying RadGrid - RadGrid
 description: Check our Web Forms article about Ajaxifying RadGrid.
 slug: grid/performance/ajaxifying-radgrid
+components: ["grid"]
 tags: ajaxifying,radgrid
 published: True
 position: 1

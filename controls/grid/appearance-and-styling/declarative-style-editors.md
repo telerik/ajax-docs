@@ -3,6 +3,7 @@ title: Declarative Style Editors
 page_title: Declarative Style Editors - RadGrid
 description: Check our Web Forms article about Declarative Style Editors.
 slug: grid/appearance-and-styling/declarative-style-editors
+components: ["grid"]
 tags: declarative,style,editors
 published: True
 position: 12

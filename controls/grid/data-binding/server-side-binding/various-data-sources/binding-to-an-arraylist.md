@@ -3,6 +3,7 @@ title: Binding to an ArrayList
 page_title: Binding to an ArrayList - RadGrid
 description: Check our Web Forms article about Binding to an ArrayList.
 slug: grid/data-binding/server-side-binding/various-data-sources/binding-to-an-arraylist
+components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-an-arraylist
 tags: binding,to,an,arraylist
 published: True

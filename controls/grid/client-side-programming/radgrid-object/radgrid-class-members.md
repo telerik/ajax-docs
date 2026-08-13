@@ -3,6 +3,7 @@ title: RadGrid Class Members
 page_title: RadGrid Class Members - RadGrid
 description: Check our Web Forms article about RadGrid Class Members.
 slug: grid/client-side-programming/radgrid-object/radgrid-class-members
+components: ["grid"]
 tags: radgrid,class,members
 published: True
 position: 0

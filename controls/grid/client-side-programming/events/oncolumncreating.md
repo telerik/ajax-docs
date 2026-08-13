@@ -3,6 +3,7 @@ title: OnColumnCreating
 page_title: OnColumnCreating - RadGrid
 description: Check our Web Forms article about OnColumnCreating.
 slug: grid/client-side-programming/events/oncolumncreating
+components: ["grid"]
 tags: oncolumncreating
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: Multi Cell
 page_title: Selecting MultiCell - RadGrid
 description: Selecting Multiple Cells
 slug: grid/functionality/selecting/selecting-cells/multi-cell
+components: ["grid"]
 tags: selecting,cells,multicell
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnRowDestroying
 page_title: OnRowDestroying - RadGrid
 description: Check our Web Forms article about OnRowDestroying.
 slug: grid/client-side-programming/events/onrowdestroying
+components: ["grid"]
 tags: onrowdestroying
 published: True
 position: 58

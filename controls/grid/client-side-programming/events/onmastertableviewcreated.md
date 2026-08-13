@@ -3,6 +3,7 @@ title: OnMasterTableViewCreated
 page_title: OnMasterTableViewCreated - RadGrid
 description: Check our Web Forms article about OnMasterTableViewCreated.
 slug: grid/client-side-programming/events/onmastertableviewcreated
+components: ["grid"]
 tags: onmastertableviewcreated
 published: True
 position: 46

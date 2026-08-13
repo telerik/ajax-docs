@@ -3,6 +3,7 @@ title: Reordering
 page_title: Reordering - RadGrid
 description: Discover how to enable and manage column reordering in the Grid control for better data organization.
 slug: grid/columns/reordering
+components: ["grid"]
 tags: reordering
 published: True
 position: 4

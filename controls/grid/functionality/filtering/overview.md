@@ -3,6 +3,7 @@ title: Overview
 page_title: Filtering Overview - RadGrid
 description: Explore the filtering functionality in the Grid control for narrowing down data based on user criteria.
 slug: grid/functionality/filtering/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

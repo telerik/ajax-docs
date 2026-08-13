@@ -3,6 +3,7 @@ title: Retrieving Primary Key Field Values for Selected Items
 page_title: Retrieving Primary Key Field Values for Selected Items - RadGrid
 description: Check our Web Forms article about Retrieving Primary Key Field Values for Selected Items.
 slug: grid/how-to/selecting/retrieving-primary-key-field-values-for-selected-items
+components: ["grid"]
 previous_url: controls/grid/functionality/selecting/how-to/retrieving-primary-key-field-values-for-selected-items
 tags: client-side,selecting,values,primary key
 published: True

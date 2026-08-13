@@ -3,6 +3,7 @@ title: page
 page_title: page - RadGrid
 description: Check our Web Forms article about page.
 slug: grid/client-side-programming/gridtableview-object/methods/page
+components: ["grid"]
 tags: page
 published: True
 position: 32

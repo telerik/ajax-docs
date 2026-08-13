@@ -3,6 +3,7 @@ title: get_allowActiveRowCycle()
 page_title: get_allowActiveRowCycle() - RadGrid
 description: Check our Web Forms article about get_allowActiveRowCycle().
 slug: grid/client-side-programming/radgrid-object/properties/get_allowactiverowcycle()
+components: ["grid"]
 tags: get_allowactiverowcycle()
 published: True
 position: 1

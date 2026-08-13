@@ -3,6 +3,7 @@ title: CheckList Filtering
 page_title: CheckList Filtering - RadGrid
 description: Explore how to use checklist filtering in the Grid control for advanced and user-friendly data filtering.
 slug: grid/functionality/filtering/checklist-filtering
+components: ["grid"]
 tags: checklist,filtering
 published: True
 position: 6

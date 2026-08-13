@@ -3,6 +3,7 @@ title: InsertCommand
 page_title: InsertCommand Event - RadGrid
 description: Check our Web Forms article about InsertCommand Event.
 slug: grid/server-side-programming/events/insertcommand
+components: ["grid"]
 published: True
 position: 50
 ---

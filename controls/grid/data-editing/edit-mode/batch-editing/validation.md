@@ -3,6 +3,7 @@ title: Validation
 page_title: Batch Editing Validation - RadGrid
 description: Check our Web Forms article about Batch Editing Validation.
 slug: grid/data-editing/edit-mode/batch-editing/validation
+components: ["grid"]
 tags: batch,editing,validation
 published: True
 position: 5

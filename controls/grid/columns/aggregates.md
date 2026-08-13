@@ -3,6 +3,7 @@ title: Aggregates
 page_title: Aggregates - RadGrid
 description: Check our Web Forms article about Aggregates.
 slug: grid/columns/aggregates
+components: ["grid"]
 tags: aggregates
 published: True
 position: 5

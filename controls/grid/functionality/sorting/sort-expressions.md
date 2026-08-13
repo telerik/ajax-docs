@@ -3,6 +3,7 @@ title: Sort Expressions
 page_title: Sort Expressions - RadGrid
 description: Learn how to use sort expressions in the Grid control for advanced data sorting functionality.
 slug: grid/functionality/sorting/sort-expressions
+components: ["grid"]
 tags: sort,expressions
 published: True
 position: 3

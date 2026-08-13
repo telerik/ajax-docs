@@ -3,6 +3,7 @@ title: Resizing and Reordering
 page_title: Resizing and Reordering - RadGrid
 description: Check our Web Forms article about Resizing and Reordering.
 slug: grid/mobile-support/mobile-rendering/resizing-and-reordering
+components: ["grid"]
 tags: resizing,and,reordering
 published: True
 position: 6

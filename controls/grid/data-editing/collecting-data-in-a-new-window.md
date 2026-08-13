@@ -3,6 +3,7 @@ title: Collecting Data in a New Window
 page_title: Collecting Data in a New Window - RadGrid
 description: Check our Web Forms article about Collecting Data in a New Window.
 slug: grid/data-editing/collecting-data-in-a-new-window
+components: ["grid"]
 tags: collecting,data,in,a,new,window
 published: True
 position: 9

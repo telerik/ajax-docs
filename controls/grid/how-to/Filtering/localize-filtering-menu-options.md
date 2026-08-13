@@ -3,6 +3,7 @@ title: Localize Filtering Menu Options
 page_title: Localize Filtering Menu Options - RadGrid
 description: Check our Web Forms article about Localize Filtering Menu Options.
 slug: grid/how-to/filtering/localize-filtering-menu-options
+components: ["grid"]
 previous_url: controls/grid/functionality/filtering/how-to/localize-filtering-menu-options
 tags: localize,filtering,menu,options
 published: True

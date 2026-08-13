@@ -3,6 +3,7 @@ title: GridHyperLinkColumn/GridTemplateColumn
 page_title: GridHyperLinkColumn/GridTemplateColumn - RadGrid
 description: Check our Web Forms article about GridHyperLinkColumn/GridTemplateColumn.
 slug: grid/functionality/sorting/gridhyperlinkcolumn-and-gridtemplatecolumn
+components: ["grid"]
 tags: gridhyperlinkcolumn/gridtemplatecolumn
 published: True
 position: 2

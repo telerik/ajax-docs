@@ -3,6 +3,7 @@ title: get_parentRow()
 page_title: get_parentRow() - RadGrid
 description: Check our Web Forms article about get_parentRow().
 slug: grid/client-side-programming/gridtableview-object/properties/get_parentrow()
+components: ["grid"]
 tags: get_parentrow()
 published: True
 position: 17

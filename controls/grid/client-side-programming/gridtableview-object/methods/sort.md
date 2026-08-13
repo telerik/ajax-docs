@@ -3,6 +3,7 @@ title: sort
 page_title: sort - RadGrid
 description: Check our Web Forms article about sort.
 slug: grid/client-side-programming/gridtableview-object/methods/sort
+components: ["grid"]
 tags: sort
 published: True
 position: 44

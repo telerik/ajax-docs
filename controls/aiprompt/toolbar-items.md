@@ -3,6 +3,7 @@ title: Toolbar Items
 page_title: AIPrompt Toolbar Items Overview
 description: Get started with AIPrompt's Toolbar.
 slug: aiprompt/toolbar-items
+components: ["aiprompt"]
 tags: toolbar, overview
 published: True
 position: 3

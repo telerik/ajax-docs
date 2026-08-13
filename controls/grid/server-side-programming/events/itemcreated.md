@@ -3,6 +3,7 @@ title: ItemCreated
 page_title: ItemCreated Event - RadGrid
 description: Check our Web Forms article about ItemCreated Event.
 slug: grid/server-side-programming/events/itemcreated
+components: ["grid"]
 published: True
 position: 50
 ---

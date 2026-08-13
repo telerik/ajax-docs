@@ -3,6 +3,7 @@ title: Switch Between Edit and Insert Modes
 page_title: Switch Between Edit and Insert Modes - RadGrid
 description: Check our Web Forms article about Switch Between Edit and Insert Modes.
 slug: grid/how-to/data-editing/switch-between-edit-and-insert-modes
+components: ["grid"]
 previous_url: controls/grid/data-editing/how-to/switch-between-edit-and-insert-modes
 tags: switch,between,edit,and,insert,modes
 published: True

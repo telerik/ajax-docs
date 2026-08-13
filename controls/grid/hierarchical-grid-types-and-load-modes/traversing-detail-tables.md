@@ -3,6 +3,7 @@ title: Traversing detail tables/items in Telerik RadGrid
 page_title: Traversing detail tables/items in Telerik RadGrid - RadGrid
 description: Check our Web Forms article about Traversing detail tables/items in Telerik RadGrid.
 slug: grid/hierarchical-grid-types-and-load-modes/traversing-detail-tables
+components: ["grid"]
 tags: traversing,detail,tables/items,in,telerik,radgrid
 published: True
 position: 5

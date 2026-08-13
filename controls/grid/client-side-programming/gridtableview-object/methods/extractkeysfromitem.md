@@ -3,6 +3,7 @@ title: extractKeysFromItem
 page_title: extractKeysFromItem - RadGrid
 description: Check our Web Forms article about extractKeysFromItem.
 slug: grid/client-side-programming/gridtableview-object/methods/extractkeysfromitem
+components: ["grid"]
 tags: extractkeysfromitem
 published: True
 position: 19

@@ -3,6 +3,7 @@ title: Distinguish Grid Rows in Hierarchy on ItemCreated/ItemDataBound
 page_title: Distinguish grid rows in hierarchy on ItemCreated/ItemDataBound - RadGrid
 description: Check our Web Forms article about Distinguish grid rows in hierarchy on ItemCreated/ItemDataBound.
 slug: grid/how-to/hierarchy/distinguish-grid-rows-on-itemcreated-and-itemdatabound
+components: ["grid"]
 previous_url: controls/grid/hierarchical-grid-types-and-load-modes/how-to/distinguish-grid-rows-on-itemcreated-and-itemdatabound
 tags: distinguish,grid,rows,in,hierarchy,on,itemcreated/itemdatabound
 published: True

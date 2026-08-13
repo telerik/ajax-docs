@@ -3,6 +3,7 @@ title: exportToExcel
 page_title: exportToExcel - RadGrid
 description: Check our Web Forms article about exportToExcel.
 slug: grid/client-side-programming/gridtableview-object/methods/exporttoexcel-
+components: ["grid"]
 tags: exporttoexcel,
 published: True
 position: 16

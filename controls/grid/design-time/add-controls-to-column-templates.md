@@ -3,6 +3,7 @@ title: Add Controls to Column Templates
 page_title: Add Controls to Column Templates - RadGrid
 description: Check our Web Forms article about Add Controls to Column Templates.
 slug: grid/design-time/add-controls-to-column-templates
+components: ["grid"]
 tags: add,controls,to,column,templates
 published: True
 position: 7

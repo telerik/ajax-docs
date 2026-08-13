@@ -3,6 +3,7 @@ title: getColumnByUniqueName
 page_title: getColumnByUniqueName - RadGrid
 description: Check our Web Forms article about getColumnByUniqueName.
 slug: grid/client-side-programming/gridtableview-object/methods/getcolumnbyuniquename
+components: ["grid"]
 tags: getcolumnbyuniquename
 published: True
 position: 24

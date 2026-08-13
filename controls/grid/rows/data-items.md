@@ -3,6 +3,7 @@ title: Data Items
 page_title: Data Items - RadGrid
 description: Learn how to access and manipulate data items in Grid rows for advanced data customization.
 slug: grid/rows/data-items
+components: ["grid"]
 tags: data,items
 published: True
 position: 0

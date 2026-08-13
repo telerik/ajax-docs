@@ -3,6 +3,7 @@ title: OnBatchEditSetCellValue
 page_title: OnBatchEditSetCellValue - RadGrid
 description: Check our Web Forms article about OnBatchEditSetCellValue.
 slug: grid/client-side-programming/events/onbatcheditsetcellvalue
+components: ["grid"]
 tags: onbatcheditsetcellvalue
 published: True
 position: 78

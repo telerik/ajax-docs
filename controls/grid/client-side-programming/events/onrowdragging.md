@@ -3,6 +3,7 @@ title: OnRowDragging
 page_title: OnRowDragging - RadGrid
 description: Check our Web Forms article about OnRowDragging.
 slug: grid/client-side-programming/events/onrowdragging
+components: ["grid"]
 tags: onrowdragging
 published: True
 position: 59

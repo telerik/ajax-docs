@@ -3,6 +3,7 @@ title: Multi Column
 page_title: Selecting MultiColumn - RadGrid
 description: Selecting Cells of Multiple Columns
 slug: grid/functionality/selecting/selecting-cells/multi-column
+components: ["grid"]
 tags: selecting,cells,multicolumn
 published: True
 position: 3

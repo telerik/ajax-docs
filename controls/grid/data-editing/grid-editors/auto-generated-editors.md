@@ -3,6 +3,7 @@ title: Auto-Generated Editors
 page_title: Auto-Generated Editors - RadGrid
 description: Check our Web Forms article about Auto-Generated Editors.
 slug: grid/data-editing/grid-editors/auto-generated-editors
+components: ["grid"]
 tags: auto-generated,editors
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Adding Columns from Design Time
 page_title: Adding Columns from Design Time - RadGrid
 description: Check our Web Forms article about Adding Columns from Design Time.
 slug: grid/design-time/adding-columns-from-design-time
+components: ["grid"]
 tags: adding,columns,from,design,time
 published: True
 position: 3

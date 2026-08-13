@@ -3,6 +3,7 @@ title: Custom Paging
 page_title: Custom Paging - RadGrid
 description: Discover how to implement custom paging in the Grid control for managing large datasets efficiently.
 slug: grid/functionality/paging/custom-paging
+components: ["grid"]
 tags: custom,paging
 published: True
 position: 3

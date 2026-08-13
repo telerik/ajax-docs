@@ -3,6 +3,7 @@ title: Detail Item Template
 page_title: Detail Item Template - RadGrid
 description: Check our Web Forms article about Detail Item Template.
 slug: grid/rows/detail-item-template
+components: ["grid"]
 tags: detail,item,template
 published: True
 position: 5

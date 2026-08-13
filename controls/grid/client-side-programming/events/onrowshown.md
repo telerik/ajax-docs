@@ -3,6 +3,7 @@ title: OnRowShown
 page_title: OnRowShown - RadGrid
 description: Check our Web Forms article about OnRowShown.
 slug: grid/client-side-programming/events/onrowshown
+components: ["grid"]
 tags: onrowshown
 published: True
 position: 71

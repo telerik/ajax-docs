@@ -3,6 +3,7 @@ title: Controlling Sort Modes
 page_title: Controlling Sort Modes - RadGrid
 description: Explore how to control sort modes in the Grid control for customizing data sorting behavior.
 slug: grid/functionality/sorting/controlling-sort-modes
+components: ["grid"]
 tags: controlling,sort,modes
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: GridColumn class members
 page_title: GridColumn class members - RadGrid
 description: Check our Web Forms article about GridColumn class members.
 slug: grid/client-side-programming/gridcolumn-object/gridcolumn-class-members
+components: ["grid"]
 tags: gridcolumn,class,members
 published: True
 position: 0

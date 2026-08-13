@@ -3,6 +3,7 @@ title: Localization through Global Resources
 page_title: Localization through Global Resources - RadGrid
 description: Check our Web Forms article about Localization through Global Resources.
 slug: grid/accessibility-and-internationalization/localization-through-global-resources
+components: ["grid"]
 tags: localization,through,global,resources
 published: True
 position: 4

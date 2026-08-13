@@ -3,6 +3,7 @@ title: Accessing RadGrid
 page_title: Accessing the Grid Client-Side - RadGrid
 description: Learn how to access and manipulate the RadGrid control on the client side for dynamic interactions.
 slug: grid/accessing-values-and-controls/client-side/accessing-radgrid
+components: ["grid"]
 published: True
 position: 0
 ---

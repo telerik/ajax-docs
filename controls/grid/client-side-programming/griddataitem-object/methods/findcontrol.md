@@ -3,6 +3,7 @@ title: findControl
 page_title: findControl - RadGrid
 description: Check our Web Forms article about findControl.
 slug: grid/client-side-programming/griddataitem-object/methods/findcontrol
+components: ["grid"]
 tags: findcontrol
 published: True
 position: 0

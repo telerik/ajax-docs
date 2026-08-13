@@ -3,6 +3,7 @@ title: get_selected()
 page_title: get_selected() - RadGrid
 description: Check our Web Forms article about get_selected().
 slug: grid/client-side-programming/griddataitem-object/properties/get_selected()
+components: ["grid"]
 tags: get_selected()
 published: True
 position: 10

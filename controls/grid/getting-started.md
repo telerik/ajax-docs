@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadGrid
 description: Learn how to set up and configure the Grid control for displaying and managing tabular data effectively.
 slug: grid/getting-started
+components: ["grid"]
 tags: 
 published: True
 position: 1

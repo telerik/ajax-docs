@@ -3,6 +3,7 @@ title: resizeColumn
 page_title: resizeColumn - RadGrid
 description: Check our Web Forms article about resizeColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/resizecolumn
+components: ["grid"]
 tags: resizecolumn
 published: True
 position: 35

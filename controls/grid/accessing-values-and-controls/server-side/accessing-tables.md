@@ -3,6 +3,7 @@ title: Accessing Tables
 page_title: Accessing the Grid Tables on server - RadGrid
 description: Check our Web Forms article about Accessing RadGrid's Tables on server.
 slug: grid/accessing-values-and-controls/server-side/accessing-tables
+components: ["grid"]
 published: True
 position: 1
 ---

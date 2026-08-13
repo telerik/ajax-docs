@@ -3,6 +3,7 @@ title: RadComboBox in RadGrid
 page_title: RadComboBox in RadGrid - RadGrid
 description: Check our Web Forms article about RadComboBox in RadGrid.
 slug: grid/how-to/common/radcombobox-in-radgrid
+components: ["grid"]
 tags: radcombobox,in,radgrid
 published: True
 position: 12

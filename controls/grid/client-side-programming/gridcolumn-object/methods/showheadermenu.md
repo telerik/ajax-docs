@@ -3,6 +3,7 @@ title: showHeaderMenu
 page_title: showHeaderMenu - RadGrid
 description: Check our Web Forms article about showHeaderMenu.
 slug: grid/client-side-programming/gridcolumn-object/methods/showheadermenu
+components: ["grid"]
 tags: showheadermenu
 published: True
 position: 0

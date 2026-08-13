@@ -3,6 +3,7 @@ title: OnRowDragStarted
 page_title: OnRowDragStarted - RadGrid
 description: Check our Web Forms article about OnRowDragStarted.
 slug: grid/client-side-programming/events/onrowdragstarted
+components: ["grid"]
 tags: onrowdragstarted
 published: True
 position: 60

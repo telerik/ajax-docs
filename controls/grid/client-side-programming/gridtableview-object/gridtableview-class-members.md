@@ -3,6 +3,7 @@ title: GridTableView Class Members
 page_title: GridTableView Class Members - RadGrid
 description: Check our Web Forms article about GridTableView Class Members.
 slug: grid/client-side-programming/gridtableview-object/gridtableview-class-members
+components: ["grid"]
 tags: gridtableview,class,members
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Referencing Controls in Grid Row Edit Form
 page_title: Referencing Controls in Grid Row Edit Form - RadGrid
 description: Check our Web Forms article about Referencing Controls in Grid Row Edit Form.
 slug: grid/how-to/common/referencing-controls-in-grid-row-edit-form
+components: ["grid"]
 tags: referencing,controls,in,grid,row,edit,form
 published: True
 position: 4

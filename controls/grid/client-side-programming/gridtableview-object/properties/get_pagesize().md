@@ -3,6 +3,7 @@ title: get_pageSize()
 page_title: get_pageSize() - RadGrid
 description: Check our Web Forms article about get_pageSize().
 slug: grid/client-side-programming/gridtableview-object/properties/get_pagesize()
+components: ["grid"]
 tags: get_pagesize()
 published: True
 position: 15

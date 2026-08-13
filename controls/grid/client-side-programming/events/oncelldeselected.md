@@ -3,6 +3,7 @@ title: OnCellDeselected
 page_title: OnCellDeselected - RadGrid
 description: Check our Web Forms article about OnCellDeselected.
 slug: grid/client-side-programming/events/oncelldeselected
+components: ["grid"]
 tags: oncelldeselected
 published: True
 position: 3
