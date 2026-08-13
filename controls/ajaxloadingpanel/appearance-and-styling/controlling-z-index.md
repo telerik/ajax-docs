@@ -3,6 +3,7 @@ title: Controlling Z-Index
 page_title: Controlling Z-Index - RadAjaxLoadingPanel
 description: Check our Web Forms article about Controlling Z-Index.
 slug: ajaxloadingpanel/appearance-and-styling/controlling-z-index
+components: ["ajaxloadingpanel"]
 previous_url: ajax/appearance-and-styling/controlling-z-index
 tags: controlling,z-index
 published: True

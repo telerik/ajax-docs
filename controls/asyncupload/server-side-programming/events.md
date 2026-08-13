@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadAsyncUpload
 description: Check our Web Forms article about Events.
 slug: asyncupload/server-side-programming/events
+components: ["asyncupload"]
 tags: events
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: How to upload files from MAC or Linux
 page_title: How to upload files from MAC or Linux - RadAsyncUpload
 description: Check our Web Forms article about How to upload files from MAC or Linux.
 slug: asyncupload/how-to/how-to-upload-files-from-mac-or-linux
+components: ["asyncupload"]
 tags: how,to,upload,files,from,mac,or,linux
 published: True
 position: 6

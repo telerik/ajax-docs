@@ -3,6 +3,7 @@ title: Drag and Drop Upload
 page_title: Drag and Drop Upload - RadAsyncUpload
 description: Discover how to enable drag-and-drop functionality in the AsyncUpload control for file uploads.
 slug: asyncupload/functionality/drag-and-drop-upload
+components: ["asyncupload"]
 tags: drag,and,drop,upload
 published: True
 position: 2

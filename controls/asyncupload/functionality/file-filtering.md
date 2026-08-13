@@ -3,6 +3,7 @@ title: File Filtering
 page_title: File Filtering - RadAsyncUpload
 description: Check our Web Forms article about File Filtering.
 slug: asyncupload/functionality/file-filtering
+components: ["asyncupload"]
 tags: file,filtering
 published: True
 position: 3

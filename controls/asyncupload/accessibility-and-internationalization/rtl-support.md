@@ -3,6 +3,7 @@ title: RTL Support
 page_title: RTL Support - RadAsyncUpload
 description: Check our Web Forms article about RTL Support.
 slug: asyncupload/accessibility-and-internationalization/rtl-support
+components: ["asyncupload"]
 tags: rtl,support
 published: True
 position: 2

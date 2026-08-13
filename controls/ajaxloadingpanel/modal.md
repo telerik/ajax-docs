@@ -3,6 +3,7 @@ title: Modal
 page_title: RadAjaxLoadingPanel Modality
 description: Check our Web Forms article about Modal.
 slug: ajaxloadingpanel/modal
+components: ["ajaxloadingpanel"]
 tags: modal
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: RadAjaxPanel Object
 page_title: RadAjaxPanel Object
 description: Check our Web Forms article about RadAjaxPanel Object.
 slug: ajaxpanel/client-side-programming/radajaxpanel-object
+components: ["ajaxpanel"]
 previous_url: ajax/client-side-programming/radajaxpanel-object
 tags: radajaxpanel,object
 published: True

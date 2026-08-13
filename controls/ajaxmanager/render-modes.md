@@ -3,6 +3,7 @@ title: Render Modes
 page_title: AjaxManager Render Modes
 description: "Learn about the render modes supported by the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/appearance-and-styling/render-modes
+components: ["ajaxmanager"]
 previous_url: ajax/appearance-and-styling/render-modes, controls/ajaxmanager/appearance-and-styling/render-modes
 tags: telerik, aspnet, ajax, ajaxmanager, render, modes
 published: True

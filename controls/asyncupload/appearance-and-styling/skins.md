@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadAsyncUpload
 description: Check our Web Forms article about Skins.
 slug: asyncupload/appearance-and-styling/skins
+components: ["asyncupload"]
 tags: skins
 published: True
 position: 0

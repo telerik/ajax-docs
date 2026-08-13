@@ -3,6 +3,7 @@ title: Error Handling for AJAX Requests
 page_title: Error Handling for AJAX Requests
 description: Check our Web Forms article about Error Handling for AJAX Requests.
 slug: ajaxpanel/troubleshooting/error-handling-for-ajax-requests
+components: ["ajaxpanel"]
 tags: error,handling,for,ajax,requests
 published: True
 position: 7

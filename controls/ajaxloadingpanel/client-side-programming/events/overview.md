@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadAjaxLoadingPanel
 description: Check our Web Forms article about Overview.
 slug: ajaxloadingpanel/client-side-programming/events/overview
+components: ["ajaxloadingpanel"]
 previous_url: ajax/client-side-programming/events/overview
 tags: overview
 published: True

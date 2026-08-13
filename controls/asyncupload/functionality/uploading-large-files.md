@@ -3,6 +3,7 @@ title: Uploading Large Files
 page_title: Uploading Large Files - RadAsyncUpload
 description: Learn how to configure the AsyncUpload control for uploading large files with progress tracking.
 slug: asyncupload/functionality/uploading-large-files
+components: ["asyncupload"]
 tags: uploading,large,files
 published: True
 position: 8

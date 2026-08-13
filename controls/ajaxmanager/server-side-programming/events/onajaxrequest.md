@@ -3,6 +3,7 @@ title: OnAjaxRequest
 page_title: AjaxManager OnAjaxRequest Server-Side Event
 description: "Learn how to use the OnAjaxRequest server-side event when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/server-side-programming/events/onajaxrequest
+components: ["ajaxmanager"]
 previous_url: ajax/server-side-programming/events/onajaxrequest
 tags: telerik, aspnet, ajax, ajaxmanager, onajaxrequest, event, serverside, programming
 published: True

@@ -3,6 +3,7 @@ title: RequestStart
 page_title: Ajax Manager RequestStart
 description: "Learn how to use the RequestStart client-side event when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/client-side-programming/events/requeststart
+components: ["ajaxmanager"]
 previous_url: controls/ajax/client-side-programming/events/onrequeststart, controls/ajaxmanager/client-side-programming/events/onrequeststart
 tags: telerik, aspnet, ajax, ajaxmanager, requeststart, event, clientside, programming, api
 published: True

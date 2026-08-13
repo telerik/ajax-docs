@@ -3,6 +3,7 @@ title: HTML Output
 page_title: HTML Output - RadAjaxLoadingPanel
 description: Check our Web Forms article about HTML Output.
 slug: ajaxloadingpanel/appearance-and-styling/html-output
+components: ["ajaxloadingpanel"]
 previous_url: ajax/appearance-and-styling/html-output
 tags: html,output
 published: True

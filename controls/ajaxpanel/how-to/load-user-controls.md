@@ -3,6 +3,7 @@ title: Load User Controls
 page_title: Load User Controls
 description: Check our Web Forms article about Load User Controls.
 slug: ajaxpanel/how-to/load-user-controls
+components: ["ajaxpanel"]
 tags: load,user,controls
 published: True
 position: 2

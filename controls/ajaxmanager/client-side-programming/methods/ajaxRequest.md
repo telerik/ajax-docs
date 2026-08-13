@@ -3,6 +3,7 @@ title: ajaxRequest
 page_title: ajaxRequest method
 description: Client-side method to trigger a partial PostBack/AJAX request using the Telerik WebForms AjaxManager component.
 slug: ajaxmanager/client-side-programming/methods/ajaxrequest
+components: ["ajaxmanager"]
 tags: telerik, webforms, ajaxmanager, client-side method, ajaxrequest
 published: True
 position: 0

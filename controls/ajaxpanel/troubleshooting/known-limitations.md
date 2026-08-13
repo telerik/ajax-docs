@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations
 description: Check our Web Forms article about Known Limitations.
 slug: ajaxpanel/troubleshooting/known-limitations
+components: ["ajaxpanel"]
 tags: known,limitations
 published: True
 position: 8

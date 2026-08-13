@@ -3,6 +3,7 @@ title: OnClientProgressUpdating
 page_title: OnClientProgressUpdating - RadAsyncUpload
 description: Check our Web Forms article about OnClientProgressUpdating.
 slug: asyncupload/client-side-programming/onclientprogressupdating
+components: ["asyncupload"]
 tags: onclientprogressupdating
 published: True
 position: 14

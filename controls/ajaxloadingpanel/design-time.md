@@ -3,6 +3,7 @@ title: Design Time
 page_title: RadAjaxLoadingPanel Design Time
 description: Check our Web Forms article about Design Time.
 slug: ajaxloadingpanel/design-time
+components: ["ajaxloadingpanel"]
 previous_url: ajax/design-time
 tags: design,time
 published: True

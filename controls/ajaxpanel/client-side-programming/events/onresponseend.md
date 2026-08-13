@@ -3,6 +3,7 @@ title: OnResponseEnd
 page_title: OnResponseEnd
 description: Check our Web Forms article about OnResponseEnd.
 slug: ajaxpanel/client-side-programming/events/onresponseend
+components: ["ajaxpanel"]
 tags: onresponseend
 published: True
 position: 2

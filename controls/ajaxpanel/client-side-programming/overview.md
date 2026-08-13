@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview
 description: Check our Web Forms article about Overview.
 slug: ajaxpanel/client-side-programming/overview
+components: ["ajaxpanel"]
 tags: overview
 published: True
 position: 0

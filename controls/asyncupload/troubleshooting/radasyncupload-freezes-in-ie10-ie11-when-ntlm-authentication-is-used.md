@@ -3,6 +3,7 @@ title: IE10 and IE11 browsers freeze when RadAsyncUpload is used in application 
 page_title: IE10 and IE11 freeze when RadAsyncUpload is used in application with NTLM authentication turned on - RadAsyncUpload
 description: Check our Web Forms article about IE10 and IE11 freeze when RadAsyncUpload is used in application with NTLM authentication turned on.
 slug: asyncupload\troubleshooting\radasyncupload-freezes-in-ie10-ie11-when-ntlm-authentication-is-used
+components: ["asyncupload"]
 tags: asyncupload,ie,ie10,ie11,sharepoint,ntml,authentication
 published: True
 position: 2

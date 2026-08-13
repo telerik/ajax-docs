@@ -3,6 +3,7 @@ title: Download Files with Ajaxified Control
 page_title: Download Files with Ajaxified Control
 description: Check our Web Forms article about Download Files with Ajaxified Control.
 slug: ajaxpanel/how-to/download-files-with-ajaxified-control
+components: ["ajaxpanel"]
 tags: download,files,with,ajaxified,control
 published: True
 position: 10

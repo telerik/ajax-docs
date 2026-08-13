@@ -3,6 +3,7 @@ title: OnClientShowing
 page_title: OnClientShowing - RadAjaxLoadingPanel
 description: Check our Web Forms article about OnClientShowing.
 slug: ajaxloadingpanel/client-side-programming/events/onclientshowing
+components: ["ajaxloadingpanel"]
 previous_url: ajax/client-side-programming/events/onclientshowing
 tags: onclientshowing
 published: True

@@ -3,6 +3,7 @@ title: How to Use Css Conditional Comments with Ajax
 page_title: How to Use Css Conditional Comments with Ajax
 description: Check our Web Forms article about How to Use Css Conditional Comments with Ajax.
 slug: ajaxpanel/how-to/how-to-use-css-conditional-comments-with-ajax
+components: ["ajaxpanel"]
 tags: how,to,use,css,conditional,comments,with,ajax
 published: True
 position: 9

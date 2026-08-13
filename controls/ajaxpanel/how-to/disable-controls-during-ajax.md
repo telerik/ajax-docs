@@ -3,6 +3,7 @@ title: Disable Controls During AJAX
 page_title: Disable Controls During AJAX
 description: Check our Web Forms article about Disable Controls During AJAX.
 slug: ajaxpanel/how-to/disable-controls-during-ajax
+components: ["ajaxpanel"]
 tags: disable,controls,during,ajax
 published: True
 position: 8

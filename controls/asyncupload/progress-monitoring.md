@@ -3,6 +3,7 @@ title: Progress Monitoring
 page_title: Progress Monitoring - RadAsyncUpload
 description: Check our Web Forms article about Progress Monitoring.
 slug: asyncupload/progress-monitoring
+components: ["asyncupload"]
 tags: progress,monitoring
 published: True
 position: 12

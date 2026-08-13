@@ -3,6 +3,7 @@ title: Overview
 page_title: AjaxManager Overview 
 description: "Try now the Telerik UI for ASP.NET AjaxManager control to AJAX-enable all controls that normally work with postbacks."
 slug: ajaxmanager/overview
+components: ["ajaxmanager"]
 previous_url: ajax/radajaxmanager/overview
 tags: telerik, aspnet, ajax, ajaxmanager, overview
 published: True

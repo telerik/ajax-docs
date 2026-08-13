@@ -3,6 +3,7 @@ title: OnAjaxSettingCreating
 page_title: AjaxManager OnAjaxSettingCreating Server-Side Event
 description: "Learn how to use the OnAjaxSettingCreating server-side event when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/server-side-programming/events/onajaxsettingcreating
+components: ["ajaxmanager"]
 previous_url: ajax/server-side-programming/events/onajaxsettingcreating
 tags: telerik, aspnet, ajax, ajaxmanager, onajaxsettingcreating, event, serverside, programming
 published: True

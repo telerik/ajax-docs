@@ -3,6 +3,7 @@ title: About AJAX and Telerik AJAX
 page_title: About AJAX and Telerik AJAX
 description: "Get the basic concepts behind the AJAX programming technology and learn more about the logic of Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/getting-started/what-is-ajax
+components: ["ajaxmanager"]
 previous_url: ajax/getting-started/what-is-ajax, controls/ajaxmanager/getting-started/what-is-ajax,getting-started/on-ajax-and-telerik-ajax
 tags: telerik, asp, net, ajax, about, what, is, ajax
 published: True

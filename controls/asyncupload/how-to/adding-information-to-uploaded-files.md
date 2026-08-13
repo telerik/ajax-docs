@@ -3,6 +3,7 @@ title: Adding Information to Uploaded Files
 page_title: Adding Information to Uploaded Files - RadAsyncUpload
 description: Check our Web Forms article about Adding Information to Uploaded Files.
 slug: asyncupload/how-to/adding-information-to-uploaded-files
+components: ["asyncupload"]
 tags: adding,information,to,uploaded,files
 published: True
 position: 1

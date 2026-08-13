@@ -3,6 +3,7 @@ title: Frequently Asked Questions
 page_title: Frequently Asked Questions
 description: Check our Web Forms article about Frequently Asked Questions.
 slug: ajaxpanel/how-to/frequently-asked-questions
+components: ["ajaxpanel"]
 tags: frequently,asked,questions
 published: True
 position: 0

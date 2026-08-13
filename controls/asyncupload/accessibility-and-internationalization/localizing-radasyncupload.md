@@ -3,6 +3,7 @@ title: Localizing RadAsyncUpload
 page_title: Localizing RadAsyncUpload - RadAsyncUpload
 description: Check our Web Forms article about Localizing RadAsyncUpload.
 slug: asyncupload/accessibility-and-internationalization/localizing-radasyncupload
+components: ["asyncupload"]
 tags: localizing,radasyncupload
 published: True
 position: 1

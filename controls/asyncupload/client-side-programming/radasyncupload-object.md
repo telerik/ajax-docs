@@ -3,6 +3,7 @@ title: RadAsyncUpload Object
 page_title: RadAsyncUpload Object - RadAsyncUpload
 description: Discover the RadAsyncUpload object and its client-side API for managing file uploads dynamically.
 slug: asyncupload/client-side-programming/radasyncupload-object
+components: ["asyncupload"]
 tags: radasyncupload,object
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnFileUploaded
 page_title: OnFileUploaded - RadAsyncUpload
 description: Learn how to handle the OnFileUploaded event in the AsyncUpload control for processing uploaded files.
 slug: asyncupload/server-side-programming/onfileuploaded
+components: ["asyncupload"]
 tags: onfileuploaded
 published: True
 position: 2

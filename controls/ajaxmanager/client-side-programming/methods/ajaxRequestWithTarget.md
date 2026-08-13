@@ -3,6 +3,7 @@ title: ajaxRequestWithTarget
 page_title: ajaxRequestWithTarget method
 description: Client-side method to trigger a PostBack on behalf of another Control using the Telerik WebForms AjaxManager component.
 slug: ajaxmanager/client-side-programming/methods/ajaxrequestwithtarget
+components: ["ajaxmanager"]
 tags: telerik, webforms, ajaxmanager, client-side method, ajaxrequestwithtarget
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Design Time
 page_title: AjaxManager Design Time
 description: "Learn more about Smart Tags options of the Telerik UI for ASP.NET AjaxManager."
 slug: ajaxmanager/design-time
+components: ["ajaxmanager"]
 tags: telerik, aspnet, ajax, ajaxmanager, design, time, smart, tag
 published: True
 position: 3

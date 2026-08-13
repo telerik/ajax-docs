@@ -3,6 +3,7 @@ title: Properties
 page_title: AjaxManager Server-Side Properties
 description: "Learn how to set the AjaxManager server-side properties when working with Telerik UI for ASP.NET AJAX."
 slug: ajaxmanager/server-side-programming/properties
+components: ["ajaxmanager"]
 previous_url: ajax/server-side-programming/properties
 tags: telerik, aspnet, ajax, ajaxmanager, properties, serverside, programming
 published: True

@@ -3,6 +3,7 @@ title: Web Farm
 page_title: Web Farm - RadAsyncUpload
 description: Check our Web Forms article about Web Farm and Load Balancing with RadAsyncUpload.
 slug: asyncupload/troubleshooting/web-farm
+components: ["asyncupload"]
 tags: web,farm,load,balancing,balanced,balancer,upload,shared,folder,target
 published: True
 position: 1

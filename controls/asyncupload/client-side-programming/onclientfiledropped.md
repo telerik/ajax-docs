@@ -3,6 +3,7 @@ title: OnClientFileDropped
 page_title: OnClientFileDropped - RadAsyncUpload
 description: Check our Web Forms article about OnClientFileDropped.
 slug: asyncupload/client-side-programming/onclientfiledropped
+components: ["asyncupload"]
 tags: onclientfiledropped
 published: True
 position: 4

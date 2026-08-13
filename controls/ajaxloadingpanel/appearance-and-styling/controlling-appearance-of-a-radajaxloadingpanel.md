@@ -3,6 +3,7 @@ title: Controlling Appearance of a RadAjaxLoadingPanel
 page_title: Controlling Appearance of a RadAjaxLoadingPanel
 description: Check our Web Forms article about Controlling Appearance of a RadAjaxLoadingPanel.
 slug: ajaxloadingpanel/appearance-and-styling/controlling-appearance-of-a-radajaxloadingpanel
+components: ["ajaxloadingpanel"]
 previous_url: ajax/appearance-and-styling/controlling-appearance-of-a-radajaxloadingpanel
 tags: controlling,appearance,of,a,radajaxloadingpanel
 published: True

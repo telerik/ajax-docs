@@ -3,6 +3,7 @@ title: Tips and Tricks for Ajaxifying Specific Controls
 page_title: Tips and Tricks for Ajaxifying Specific Controls
 description: Check our Web Forms article about Tips and Tricks for Ajaxifying Specific Controls.
 slug: ajaxpanel/troubleshooting/tips-and-tricks-for-ajaxifying-specific-controls
+components: ["ajaxpanel"]
 tags: tips,and,tricks,for,ajaxifying,specific,controls
 published: True
 position: 10

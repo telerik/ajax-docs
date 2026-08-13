@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: ajaxpanel/accessibility-and-internationalization/wai-aria-support
+components: ["ajaxpanel"]
 tags: wai-aria,support
 published: True
 position: 0

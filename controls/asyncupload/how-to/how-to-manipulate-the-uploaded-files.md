@@ -3,6 +3,7 @@ title: How to Manipulate the Uploaded Files
 page_title: How to Manipulate the Uploaded Files - RadAsyncUpload
 description: Check our Web Forms article about How to Manipulate the Uploaded Files.
 slug: asyncupload/how-to/how-to-manipulate-the-uploaded-files
+components: ["asyncupload"]
 tags: how,to,manipulate,the,uploaded,files
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Chunk Upload
 page_title: Chunk Upload - RadAsyncUpload
 description: Check our Web Forms article about Chunk Upload.
 slug: asyncupload/functionality/chunk-upload
+components: ["asyncupload"]
 tags: chunk,upload
 published: True
 position: 1

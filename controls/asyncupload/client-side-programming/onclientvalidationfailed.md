@@ -3,6 +3,7 @@ title: OnClientValidationFailed
 page_title: OnClientValidationFailed - RadAsyncUpload
 description: Check our Web Forms article about OnClientValidationFailed.
 slug: asyncupload/client-side-programming/onclientvalidationfailed
+components: ["asyncupload"]
 tags: onclientvalidationfailed
 published: True
 position: 10
