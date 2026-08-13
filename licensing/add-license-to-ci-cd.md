@@ -15,7 +15,7 @@ Deployment keys are a dedicated type of license key for build pipelines. They're
 
 To activate your license in a CI/CD environment:
 
-1. Navigate to the Deployment Keys page.
+1. Navigate to the [Deployment Keys](https://www.telerik.com/account/downloads/deployment-keys) page.
 1. Click **Add Application**. In the form that opens:
 
     1. Add the application name.
