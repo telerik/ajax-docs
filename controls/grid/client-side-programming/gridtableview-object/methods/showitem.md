@@ -3,6 +3,7 @@ title: showItem
 page_title: showItem - RadGrid
 description: Check our Web Forms article about showItem.
 slug: grid/client-side-programming/gridtableview-object/methods/showitem
+components: ["grid"]
 tags: showitem
 published: True
 position: 43

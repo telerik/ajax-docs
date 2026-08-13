@@ -3,6 +3,7 @@ title: set_activeRow()
 page_title: set_activeRow() - RadGrid
 description: Check our Web Forms article about set_activeRow().
 slug: grid/client-side-programming/radgrid-object/properties/set_activerow()
+components: ["grid"]
 tags: set_activerow()
 published: True
 position: 0

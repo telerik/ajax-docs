@@ -3,6 +3,7 @@ title: Multi-Column Sorting
 page_title: Multi-Column Sorting - RadGrid
 description: Check our Web Forms article about Multi-Column Sorting.
 slug: grid/functionality/sorting/multi-column-sorting
+components: ["grid"]
 tags: multi-column,sorting
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Hide Waiting Cursor while Grid Opens for Editing
 page_title: Hide Waiting Cursor while Grid Opens for Editing - RadGrid
 description: Check our Web Forms article about Hide Waiting Cursor while Grid Opens for Editing.
 slug: grid/how-to/data-editing/hide-waiting-cursor-while-grid-opens-for-editing
+components: ["grid"]
 previous_url: controls/grid/data-editing/how-to/hide-waiting-cursor-while-grid-opens-for-editing
 tags: hide,waiting,cursor,while,grid,opens,for,editing
 published: True

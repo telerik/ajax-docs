@@ -3,6 +3,7 @@ title: OnColumnMouseOut
 page_title: OnColumnMouseOut - RadGrid
 description: Check our Web Forms article about OnColumnMouseOut.
 slug: grid/client-side-programming/events/oncolumnmouseout
+components: ["grid"]
 tags: oncolumnmouseout
 published: True
 position: 14

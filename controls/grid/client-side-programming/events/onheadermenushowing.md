@@ -3,6 +3,7 @@ title: OnHeaderMenuShowing
 page_title: OnHeaderMenuShowing - RadGrid
 description: Check our Web Forms article about OnHeaderMenuShowing.
 slug: grid/client-side-programming/events/onheadermenushowing
+components: ["grid"]
 tags: onheadermenushowing
 published: True
 position: 39

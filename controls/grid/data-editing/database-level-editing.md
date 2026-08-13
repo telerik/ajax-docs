@@ -3,6 +3,7 @@ title: Database Level Editing
 page_title: Database Level Editing - RadGrid
 description: Check our Web Forms article about Database Level Editing.
 slug: grid/data-editing/database-level-editing
+components: ["grid"]
 tags: database,level,editing
 published: True
 position: 12

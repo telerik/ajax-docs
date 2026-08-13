@@ -3,6 +3,7 @@ title: getDataServiceQuery(entityName)
 page_title: getDataServiceQuery(entityName) - RadGrid
 description: Check our Web Forms article about getDataServiceQuery(entityName).
 slug: grid/client-side-programming/gridtableview-object/methods/getdataservicequery(entityname)
+components: ["grid"]
 tags: getdataservicequery(entityname)
 published: True
 position: 26

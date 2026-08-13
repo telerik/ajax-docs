@@ -3,6 +3,7 @@ title: get_dataType()
 page_title: get_dataType() - RadGrid
 description: Check our Web Forms article about get_dataType().
 slug: grid/client-side-programming/gridcolumn-object/properties/get_datatype()
+components: ["grid"]
 tags: get_datatype()
 published: True
 position: 0

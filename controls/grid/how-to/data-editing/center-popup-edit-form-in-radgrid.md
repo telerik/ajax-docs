@@ -3,6 +3,7 @@ title: Center PopUp Edit Form in RadGrid
 page_title: Center PopUp Edit Form in RadGrid - RadGrid
 description: Check our Web Forms article about Center PopUp Edit Form in RadGrid.
 slug: grid/how-to/data-editing/center-popup-edit-form-in-radgrid
+components: ["grid"]
 previous_url: controls/grid/data-editing/how-to/center-popup-edit-form-in-radgrid
 tags: center,popup,edit,form,in,radgrid
 published: True

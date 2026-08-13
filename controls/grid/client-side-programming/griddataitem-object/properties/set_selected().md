@@ -3,6 +3,7 @@ title: set_selected()
 page_title: set_selected() - RadGrid
 description: Check our Web Forms article about set_selected().
 slug: grid/client-side-programming/griddataitem-object/properties/set_selected()
+components: ["grid"]
 tags: set_selected()
 published: True
 position: 11

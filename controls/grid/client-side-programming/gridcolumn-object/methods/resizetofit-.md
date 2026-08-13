@@ -3,6 +3,7 @@ title: resizeToFit
 page_title: resizeToFit - RadGrid
 description: Check our Web Forms article about resizeToFit.
 slug: grid/client-side-programming/gridcolumn-object/methods/resizetofit-
+components: ["grid"]
 tags: resizetofit,
 published: True
 position: 1

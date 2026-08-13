@@ -3,6 +3,7 @@ title: Declarative Definition
 page_title: Declarative Definition - RadGrid
 description: Learn how to define group-by expressions declaratively in the Grid control for organized data display.
 slug: grid/functionality/grouping/group-by-expressions/declarative-definition
+components: ["grid"]
 tags: declarative,definition
 published: True
 position: 0

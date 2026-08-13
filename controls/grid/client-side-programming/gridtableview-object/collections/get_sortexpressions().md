@@ -3,6 +3,7 @@ title: get_sortExpressions()
 page_title: get_sortExpressions() - RadGrid
 description: Check our Web Forms article about get_sortExpressions().
 slug: grid/client-side-programming/gridtableview-object/collections/get_sortexpressions()
+components: ["grid"]
 tags: get_sortexpressions()
 published: True
 position: 1

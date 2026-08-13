@@ -3,6 +3,7 @@ title: BinaryImages and RadAsyncUpload in Grid
 page_title: BinaryImages and RadAsyncUpload in Grid - RadGrid
 description: Check our Web Forms article about BinaryImages and RadAsyncUpload in Grid.
 slug: grid/how-to/common/binaryimages-and-radasyncupload-in-grid
+components: ["grid"]
 tags: binaryimages,and,radasyncupload,in,grid
 published: True
 position: 15

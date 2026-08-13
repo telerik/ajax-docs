@@ -3,6 +3,7 @@ title: get_isInEditMode()
 page_title: get_isInEditMode() - RadGrid
 description: Check our Web Forms article about get_isInEditMode().
 slug: grid/client-side-programming/griddataitem-object/properties/get_isineditmode()
+components: ["grid"]
 tags: get_isineditmode()
 published: True
 position: 6

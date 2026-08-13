@@ -3,6 +3,7 @@ title: Localizing the Grid Messages
 page_title: Localizing the Grid Messages - RadGrid
 description: Check our Web Forms article about Localizing the Grid Messages.
 slug: grid/accessibility-and-internationalization/localizing-the-grid-messages
+components: ["grid"]
 tags: localizing,the,grid,messages
 published: True
 position: 0

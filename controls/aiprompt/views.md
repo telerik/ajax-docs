@@ -3,6 +3,7 @@ title: Views
 page_title: AIPrompt Views
 description:  "Learn about how to set the views of the WebForms AIPrompt"
 slug: aiprompt/views
+components: ["aiprompt"]
 tags: aiprompt, views
 published: True
 position: 2

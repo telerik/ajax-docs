@@ -3,6 +3,7 @@ title: hideColumn
 page_title: hideColumn - RadGrid
 description: Check our Web Forms article about hideColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/hidecolumn
+components: ["grid"]
 tags: hidecolumn
 published: True
 position: 28

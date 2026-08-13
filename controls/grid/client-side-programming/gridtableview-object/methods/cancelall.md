@@ -3,6 +3,7 @@ title: cancelAll
 page_title: cancelAll - RadGrid
 description: Check our Web Forms article about cancelAll.
 slug: grid/client-side-programming/gridtableview-object/methods/cancelall
+components: ["grid"]
 tags: cancelall
 published: True
 position: 0

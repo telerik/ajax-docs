@@ -3,6 +3,7 @@ title: hideFilterItem
 page_title: hideFilterItem - RadGrid
 description: Check our Web Forms article about hideFilterItem.
 slug: grid/client-side-programming/gridtableview-object/methods/hidefilteritem
+components: ["grid"]
 tags: hidefilteritem
 published: True
 position: 29

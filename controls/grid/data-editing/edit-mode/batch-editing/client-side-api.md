@@ -3,6 +3,7 @@ title: Client-side API
 page_title: Batch Editing Client-side API - RadGrid
 description: Explore the client-side API for batch editing in the Grid control for dynamic data manipulation.
 slug: grid/data-editing/edit-mode/batch-editing/client-side-api
+components: ["grid"]
 tags: batch,editing,client-side,api
 published: True
 position: 3

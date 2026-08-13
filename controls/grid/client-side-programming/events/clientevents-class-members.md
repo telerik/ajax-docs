@@ -3,6 +3,7 @@ title: ClientEvents Class Members
 page_title: ClientEvents Class Members - RadGrid
 description: Check our Web Forms article about ClientEvents Class Members.
 slug: grid/client-side-programming/events/clientevents-class-members
+components: ["grid"]
 tags: clientevents,class,members
 published: True
 position: 0

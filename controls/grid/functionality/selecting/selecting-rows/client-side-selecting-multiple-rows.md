@@ -3,6 +3,7 @@ title: Client-side Selecting Multiple Rows
 page_title: Client-side Selecting Multiple Rows - RadGrid
 description: Check our Web Forms article about Client-side Selecting Multiple Rows.
 slug: grid/functionality/selecting/selecting-rows/client-side-selecting-multiple-rows
+components: ["grid"]
 tags: client-side,selecting,multiple,rows
 published: True
 position: 3

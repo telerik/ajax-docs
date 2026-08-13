@@ -3,6 +3,7 @@ title: Inserting Values Using UserControl/FormTemplate
 page_title: Inserting Values Using UserControl/FormTemplate - RadGrid
 description: Check our Web Forms article about Inserting Values Using UserControl/FormTemplate.
 slug: grid/data-editing/insert-records/inserting-values-using-usercontrol-formtemplate
+components: ["grid"]
 tags: inserting,values,using,usercontrol/formtemplate
 published: True
 position: 1

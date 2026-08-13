@@ -3,6 +3,7 @@ title: Event sequence
 page_title: Event sequence - RadGrid
 description: Discover the sequence of events in the Grid control lifecycle for better understanding and customization.
 slug: grid/control-lifecycle/event-sequence
+components: ["grid"]
 tags: event,sequence
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Adding Row Numbers
 page_title: Adding Row Numbers - RadGrid
 description: Check our Web Forms article about Adding Row Numbers.
 slug: grid/how-to/common/adding-row-numbers
+components: ["grid"]
 tags: adding,row,numbers
 published: True
 position: 8

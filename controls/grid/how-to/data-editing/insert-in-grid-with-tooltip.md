@@ -3,6 +3,7 @@ title: Insert in Grid with Tooltip
 page_title: Insert in Grid with Tooltip - RadGrid
 description: Check our Web Forms article about Insert in Grid with Tooltip.
 slug: grid/how-to/data-editing/insert-in-grid-with-tooltip
+components: ["grid"]
 previous_url: controls/grid/how-to/insert-in-grid-with-tooltip
 tags: insert,in,grid,with,tooltip
 published: True

@@ -3,6 +3,7 @@ title: Overview
 page_title: Accessing values and controls - RadGrid
 description: Discover how to access values and controls in the Grid for advanced data manipulation and customization.
 slug: grid/accessing-values-and-controls/overview
+components: ["grid"]
 previous_url: controls/grid/rows/accessing-cells-and-rows
 tags: 
 published: True

@@ -3,6 +3,7 @@ title: Accessing Items
 page_title: Accessing items Client-Side - RadGrid
 description: Check our Web Forms article about Accessing Grid Items on Client.
 slug: grid/accessing-values-and-controls/client-side/accessing-items
+components: ["grid"]
 published: True
 position: 2
 ---

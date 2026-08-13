@@ -3,6 +3,7 @@ title: Docx (DOCX)
 page_title: Word-Docx (OOXML) Export - RadGrid
 description: Word-Docx (OOXML) Export
 slug: grid/functionality/exporting/word-export/word-docx
+components: ["grid"]
 tags: html-based,export
 published: True
 position: 1

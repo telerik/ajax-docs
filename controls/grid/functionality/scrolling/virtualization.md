@@ -3,6 +3,7 @@ title: Virtualization
 page_title: Virtualization - RadGrid
 description: Check our Web Forms article about Virtualization.
 slug: grid/functionality/scrolling/virtualization
+components: ["grid"]
 tags: virtualization
 published: True
 position: 4

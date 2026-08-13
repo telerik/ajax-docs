@@ -3,6 +3,7 @@ title: OnScroll
 page_title: OnScroll - RadGrid
 description: Check our Web Forms article about OnScroll.
 slug: grid/client-side-programming/events/onscroll
+components: ["grid"]
 tags: onscroll
 published: True
 position: 72

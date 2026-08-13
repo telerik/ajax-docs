@@ -3,6 +3,7 @@ title: NestedView template
 page_title: NestedView template - RadGrid
 description: Learn how to use the NestedView template in the Grid control for displaying hierarchical data.
 slug: grid/hierarchical-grid-types-and-load-modes/nestedview-template
+components: ["grid"]
 tags: nestedview,template
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: OnRowSelected
 page_title: OnRowSelected - RadGrid
 description: Check our Web Forms article about OnRowSelected.
 slug: grid/client-side-programming/events/onrowselected
+components: ["grid"]
 tags: onrowselected
 published: True
 position: 69

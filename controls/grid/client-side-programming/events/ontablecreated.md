@@ -3,6 +3,7 @@ title: OnTableCreated
 page_title: OnTableCreated - RadGrid
 description: Check our Web Forms article about OnTableCreated.
 slug: grid/client-side-programming/events/ontablecreated
+components: ["grid"]
 tags: ontablecreated
 published: True
 position: 74

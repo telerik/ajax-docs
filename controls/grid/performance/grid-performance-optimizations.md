@@ -3,6 +3,7 @@ title: Grid Performance Optimizations
 page_title: Grid Performance Optimizations
 description: Learn how to optimize the performance of the Grid control for handling large datasets efficiently.
 slug: grid/performance/grid-performance-optimizations
+components: ["grid"]
 tags: grid,performance,optimizations
 published: True
 position: 0

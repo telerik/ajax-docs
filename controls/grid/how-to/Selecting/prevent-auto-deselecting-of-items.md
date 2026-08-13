@@ -3,6 +3,7 @@ title: Prevent Auto-Deselecting of Items
 page_title: Prevent Auto-Deselecting of Items - RadGrid
 description: Check our Web Forms article about Prevent Auto-Deselecting of Items.
 slug: controls/grid/how-to/selecting/Selecting/prevent-auto-deselecting-of-items
+components: ["grid"]
 tags: how to
 published: True
 position: 11

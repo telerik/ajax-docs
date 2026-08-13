@@ -3,6 +3,7 @@ title: In Place
 page_title: In Place - RadGrid
 description: Learn how to enable in-place editing in the Grid control for seamless and efficient data modifications.
 slug: grid/data-editing/edit-mode/in-place
+components: ["grid"]
 tags: in,place
 published: True
 position: 0

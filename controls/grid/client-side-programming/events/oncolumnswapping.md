@@ -3,6 +3,7 @@ title: OnColumnSwapping
 page_title: OnColumnSwapping - RadGrid
 description: Check our Web Forms article about OnColumnSwapping.
 slug: grid/client-side-programming/events/oncolumnswapping
+components: ["grid"]
 tags: oncolumnswapping
 published: True
 position: 24

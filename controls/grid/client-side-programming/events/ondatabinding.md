@@ -3,6 +3,7 @@ title: OnDataBinding
 page_title: OnDataBinding - RadGrid
 description: Check our Web Forms article about OnDataBinding.
 slug: grid/client-side-programming/events/ondatabinding
+components: ["grid"]
 tags: ondatabinding
 published: True
 position: 27

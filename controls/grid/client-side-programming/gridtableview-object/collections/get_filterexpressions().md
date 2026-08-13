@@ -3,6 +3,7 @@ title: get_filterExpressions()
 page_title: get_filterExpressions() - RadGrid
 description: Check our Web Forms article about get_filterExpressions().
 slug: grid/client-side-programming/gridtableview-object/collections/get_filterexpressions()
+components: ["grid"]
 tags: get_filterexpressions()
 published: True
 position: 0

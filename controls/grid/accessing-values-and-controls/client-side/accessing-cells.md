@@ -3,6 +3,7 @@ title: Accessing Cells and Values
 page_title: Accessing cells Client-Side - RadGrid
 description: Learn how to access and manipulate Grid cells on the client side for dynamic data interactions.
 slug: grid/accessing-values-and-controls/client-side/accessing-cells
+components: ["grid"]
 published: True
 position: 3
 ---

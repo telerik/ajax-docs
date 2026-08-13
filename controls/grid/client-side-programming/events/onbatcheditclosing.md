@@ -3,6 +3,7 @@ title: OnBatchEditClosing
 page_title: OnBatchEditClosing - RadGrid
 description: Check our Web Forms article about OnBatchEditClosing.
 slug: grid/client-side-programming/events/onbatcheditclosing
+components: ["grid"]
 tags: onbatcheditclosing
 published: True
 position: 83

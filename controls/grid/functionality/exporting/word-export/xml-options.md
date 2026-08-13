@@ -3,6 +3,7 @@ title: XML Options
 page_title: XML Options for Word Format (HTML-Based) - RadGrid
 description: Check our Web Forms article about Word Format (HTML-Based).
 slug: grid/functionality/exporting/word-export/xml-options
+components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/word-and-excel-export/word-format-(html-based)
 tags: word,format,(html-based)
 published: false

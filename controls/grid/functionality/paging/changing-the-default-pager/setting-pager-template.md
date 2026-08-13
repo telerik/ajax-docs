@@ -3,6 +3,7 @@ title: Setting Pager Template
 page_title: Setting Pager Template - RadGrid
 description: Check our Web Forms article about Setting Pager Template.
 slug: grid/functionality/paging/changing-the-default-pager/setting-pager-template
+components: ["grid"]
 tags: setting,pager,template
 published: True
 position: 0

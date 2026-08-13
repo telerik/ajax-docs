@@ -3,6 +3,7 @@ title: Keyboard support
 page_title: Keyboard support - RadGrid
 description: Check our Web Forms article about Keyboard support.
 slug: grid/accessibility-and-internationalization/keyboard-support
+components: ["grid"]
 tags: keyboard,support
 published: True
 position: 7

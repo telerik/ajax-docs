@@ -3,6 +3,7 @@ title: DeleteCommand
 page_title: DeleteCommand Event - RadGrid
 description: Check our Web Forms article about DeleteCommand Event.
 slug: grid/server-side-programming/events/deletecommand
+components: ["grid"]
 published: True
 position: 50
 ---

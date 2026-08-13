@@ -3,6 +3,7 @@ title: selectAllItems
 page_title: selectAllItems - RadGrid
 description: Check our Web Forms article about selectAllItems.
 slug: grid/client-side-programming/gridtableview-object/methods/selectallitems
+components: ["grid"]
 tags: selectallitems
 published: True
 position: 37

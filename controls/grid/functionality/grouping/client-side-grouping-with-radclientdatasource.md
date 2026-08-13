@@ -3,6 +3,7 @@ title: Client-side grouping with RadClientDataSource
 page_title: Client-side grouping with RadClientDataSource - RadGrid
 description: Check our Web Forms article about Client-side grouping with RadClientDataSource.
 slug: grid/functionality/grouping/client-side-grouping-with-radclientdatasource
+components: ["grid"]
 tags: client-side,grouping,with,radclientdatasource
 published: True
 position: 5

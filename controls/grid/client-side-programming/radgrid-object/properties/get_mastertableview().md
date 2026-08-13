@@ -3,6 +3,7 @@ title: get_masterTableView()
 page_title: get_masterTableView() - RadGrid
 description: Check our Web Forms article about get_masterTableView().
 slug: grid/client-side-programming/radgrid-object/properties/get_mastertableview()
+components: ["grid"]
 tags: get_mastertableview()
 published: True
 position: 8

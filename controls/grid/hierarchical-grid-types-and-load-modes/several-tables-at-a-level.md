@@ -3,6 +3,7 @@ title: Several tables at a level
 page_title: Several tables at a level - RadGrid
 description: Check our Web Forms article about Several tables at a level.
 slug: grid/hierarchical-grid-types-and-load-modes/several-tables-at-a-level
+components: ["grid"]
 tags: several,tables,at,a,level
 published: True
 position: 7

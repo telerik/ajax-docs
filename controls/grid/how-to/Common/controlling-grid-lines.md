@@ -3,6 +3,7 @@ title: Controlling Grid Lines
 page_title: Controlling Grid Lines - RadGrid
 description: Check our Web Forms article about Controlling Grid Lines.
 slug: grid/how-to/common/controlling-grid-lines
+components: ["grid"]
 tags: controlling,grid,lines
 published: True
 position: 11

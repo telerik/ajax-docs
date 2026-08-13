@@ -3,6 +3,7 @@ title: Scroll with Static Headers
 page_title: Scroll with Static Headers - RadGrid
 description: Discover how to enable scrolling with static headers in the Grid control for better data navigation.
 slug: grid/functionality/scrolling/scroll-with-static-headers
+components: ["grid"]
 tags: scroll,with,static,headers
 published: True
 position: 1

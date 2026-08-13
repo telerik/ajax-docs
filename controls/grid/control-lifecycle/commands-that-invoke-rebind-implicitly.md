@@ -3,6 +3,7 @@ title: Commands that invoke Rebind Implicitly
 page_title: Commands that invoke Rebind Implicitly - RadGrid
 description: Check our Web Forms article about Commands that invoke Rebind Implicitly.
 slug: grid/control-lifecycle/commands-that-invoke-rebind-implicitly
+components: ["grid"]
 tags: commands,that,invoke,rebind,implicitly
 published: True
 position: 3

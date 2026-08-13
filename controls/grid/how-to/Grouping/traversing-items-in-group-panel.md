@@ -3,6 +3,7 @@ title: Traversing Items in Group Panel
 page_title: Traversing Items in Group Panel - RadGrid
 description: Check our Web Forms article about Traversing Items in Group Panel.
 slug: grid/how-to/grouping/traversing-items-in-group-panel
+components: ["grid"]
 previous_url: controls/grid/functionality/grouping/how-to/traversing-items-in-group-panel
 tags: traversing,items,in,group,panel
 published: True

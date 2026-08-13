@@ -3,6 +3,7 @@ title: Load
 page_title: Load Event - RadGrid
 description: Check our Web Forms article about Load Event.
 slug: grid/server-side-programming/events/load
+components: ["grid"]
 published: True
 position: 50
 ---

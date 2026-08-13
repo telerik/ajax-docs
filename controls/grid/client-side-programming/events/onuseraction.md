@@ -3,6 +3,7 @@ title: OnUserAction
 page_title: OnUserAction - RadGrid
 description: Check our Web Forms article about OnUserAction.
 slug: grid/client-side-programming/events/onuseraction
+components: ["grid"]
 tags: onuseraction
 published: True
 position: 76

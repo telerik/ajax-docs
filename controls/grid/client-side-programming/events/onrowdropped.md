@@ -3,6 +3,7 @@ title: OnRowDropped
 page_title: OnRowDropped - RadGrid
 description: Check our Web Forms article about OnRowDropped.
 slug: grid/client-side-programming/events/onrowdropped
+components: ["grid"]
 tags: onrowdropped
 published: True
 position: 61

@@ -3,6 +3,7 @@ title: OnGroupExpanded
 page_title: OnGroupExpanded - RadGrid
 description: Check our Web Forms article about OnGroupExpanded.
 slug: grid/client-side-programming/events/ongroupexpanded
+components: ["grid"]
 tags: ongroupexpanded
 published: True
 position: 38

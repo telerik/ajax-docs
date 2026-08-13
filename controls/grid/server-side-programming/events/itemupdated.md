@@ -3,6 +3,7 @@ title: ItemUpdated
 page_title: ItemUpdated Event - RadGrid
 description: Check our Web Forms article about ItemUpdated Event.
 slug: grid/server-side-programming/events/itemupdated
+components: ["grid"]
 published: True
 position: 50
 ---

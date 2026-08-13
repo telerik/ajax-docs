@@ -3,6 +3,7 @@ title: Binary Images and Upload in Grid
 page_title: Binary Images and Upload in Grid - RadGrid
 description: Check our Web Forms article about Binary Images and Upload in Grid.
 slug: grid/how-to/common/binary-images-and-upload-in-grid
+components: ["grid"]
 tags: binary,images,and,upload,in,grid
 published: True
 position: 7

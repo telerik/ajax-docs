@@ -3,6 +3,7 @@ title: get_insertItem()
 page_title: get_insertItem() - RadGrid
 description: Check our Web Forms article about get_insertItem().
 slug: grid/client-side-programming/gridtableview-object/properties/get_insertitem()
+components: ["grid"]
 tags: get_insertitem()
 published: True
 position: 9

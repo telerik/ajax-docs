@@ -3,6 +3,7 @@ title: Conditional Image Display in GridButtonColumn and GridTemplateColumn
 page_title: Conditional Image Display in GridButtonColumn and GridTemplateColumn - RadGrid
 description: Check our Web Forms article about Conditional Image Display in GridButtonColumn and GridTemplateColumn.
 slug: grid/how-to/common/conditional-image-display-in-gridbuttoncolumn-and-gridtemplatecolumn
+components: ["grid"]
 tags: conditional,image,display,in,gridbuttoncolumn,and,gridtemplatecolumn
 published: True
 position: 6

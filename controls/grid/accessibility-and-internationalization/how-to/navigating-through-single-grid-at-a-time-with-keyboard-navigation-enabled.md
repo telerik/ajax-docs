@@ -3,6 +3,7 @@ title: Navigating through single grid at a time with keyboard navigation enabled
 page_title: Navigating through single grid at a time with keyboard navigation enabled - RadGrid
 description: Check our Web Forms article about Navigating through single grid at a time with keyboard navigation enabled.
 slug: grid/accessibility-and-internationalization/how-to/navigating-through-single-grid-at-a-time-with-keyboard-navigation-enabled
+components: ["grid"]
 tags: navigating,through,single,grid,at,a,time,with,keyboard,navigation,enabled
 published: True
 position: 0

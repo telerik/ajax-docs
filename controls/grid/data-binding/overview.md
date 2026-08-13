@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadGrid
 description: Explore the data binding options available in the Grid control for connecting to various data sources.
 slug: grid/data-binding/overview
+components: ["grid"]
 tags: telerik,radgrid,data,binding,overview
 published: True
 position: 0

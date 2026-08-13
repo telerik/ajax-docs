@@ -3,6 +3,7 @@ title: get_visible()
 page_title: get_visible() - RadGrid
 description: Check our Web Forms article about get_visible().
 slug: grid/client-side-programming/radgrid-object/properties/get_visible()
+components: ["grid"]
 tags: get_visible()
 published: True
 position: 12

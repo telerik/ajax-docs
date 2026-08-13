@@ -3,6 +3,7 @@ title: Column Settings
 page_title: Column Settings - RadGrid
 description: Check our Web Forms article about Column Settings.
 slug: grid/mobile-support/mobile-rendering/column-settings
+components: ["grid"]
 tags: column,settings
 published: True
 position: 1

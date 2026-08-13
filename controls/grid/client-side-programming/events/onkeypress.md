@@ -3,6 +3,7 @@ title: OnKeyPress
 page_title: OnKeyPress - RadGrid
 description: Check our Web Forms article about OnKeyPress.
 slug: grid/client-side-programming/events/onkeypress
+components: ["grid"]
 tags: onkeypress
 published: True
 position: 44

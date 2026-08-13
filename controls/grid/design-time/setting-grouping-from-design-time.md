@@ -3,6 +3,7 @@ title: Setting grouping from Design-Time
 page_title: Setting grouping from Design-Time - RadGrid
 description: Check our Web Forms article about Setting grouping from Design-Time.
 slug: grid/design-time/setting-grouping-from-design-time
+components: ["grid"]
 tags: setting,grouping,from,design-time
 published: True
 position: 8

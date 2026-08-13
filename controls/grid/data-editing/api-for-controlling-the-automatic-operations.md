@@ -3,6 +3,7 @@ title: API for Controlling the Automatic Operations
 page_title: API for Controlling the Automatic Operations - RadGrid
 description: Check our Web Forms article about API for Controlling the Automatic Operations.
 slug: grid/data-editing/api-for-controlling-the-automatic-operations
+components: ["grid"]
 tags: api,for,controlling,the,automatic,operations
 published: True
 position: 14

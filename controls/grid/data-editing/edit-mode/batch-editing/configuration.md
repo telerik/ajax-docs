@@ -3,6 +3,7 @@ title: Configuration
 page_title: Batch Editing Configuration - RadGrid
 description: Check our Web Forms article about Batch Editing Configuration.
 slug: grid/data-editing/edit-mode/batch-editing/configuration
+components: ["grid"]
 tags: batch,editing,configuration
 published: True
 position: 1

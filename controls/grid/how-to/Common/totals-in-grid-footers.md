@@ -3,6 +3,7 @@ title: Totals in Grid Footers
 page_title: Totals in Grid Footers - RadGrid
 description: Learn how to calculate and display totals in the footers of the Grid control for summarized data.
 slug: grid/how-to/totals-in-grid-footers
+components: ["grid"]
 tags: totals,in,grid,footers
 published: True
 position: 0

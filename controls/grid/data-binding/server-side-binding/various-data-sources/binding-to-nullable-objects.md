@@ -3,6 +3,7 @@ title: Binding to Nullable Objects
 page_title: Binding to Nullable Objects - RadGrid
 description: Check our Web Forms article about Binding to Nullable Objects.
 slug: grid/data-binding/server-side-binding/various-data-sources/binding-to-nullable-objects
+components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-nullable-objects
 tags: binding,to,nullable,objects
 published: True

@@ -3,6 +3,7 @@ title: Events
 page_title: AIPrompt Client-side Events
 description: "Client-side Events of the Telerik WebForms AIPrompt component."
 slug: aiprompt/client-side-programming/events
+components: ["aiprompt"]
 tags: aiprompt,javascript
 published: True
 position: 2

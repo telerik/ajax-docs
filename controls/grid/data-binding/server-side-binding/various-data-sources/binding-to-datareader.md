@@ -3,6 +3,7 @@ title: Binding To DataReader
 page_title: Binding To DataReader - RadGrid
 description: Check our Web Forms article about Binding To DataReader.
 slug: grid/data-binding/server-side-binding/various-data-sources/binding-to-datareader
+components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-datareader
 tags: binding,to,datareader
 published: True

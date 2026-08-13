@@ -3,6 +3,7 @@ title: ExcelML (XLS)
 page_title: Excel-ExcelML (XLS) Export - RadGrid
 description: Learn how to export Grid data to ExcelML format for advanced Excel features and compatibility.
 slug: grid/functionality/exporting/excel-export/excel-excelml
+components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/excelml-export/excelml-basics
 tags: excelml,gridexcelbuilder,overview
 published: True

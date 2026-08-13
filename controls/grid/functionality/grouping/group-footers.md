@@ -3,6 +3,7 @@ title: Group Footers
 page_title: Group Footers - RadGrid
 description: Check our Web Forms article about Group Footers.
 slug: grid/functionality/grouping/group-footers
+components: ["grid"]
 tags: group,footers
 published: True
 position: 4

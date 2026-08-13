@@ -3,6 +3,7 @@ title: Styling from Design-Time
 page_title: Styling from Design-Time - RadGrid
 description: Check our Web Forms article about Styling from Design-Time.
 slug: grid/designеr/styling-from-design-time
+components: ["grid"]
 tags: styling,from,design-time
 published: True
 position: 7

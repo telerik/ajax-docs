@@ -3,6 +3,7 @@ title: Resizing RadGrid in RadSplitter
 page_title: Resizing RadGrid in RadSplitter - RadGrid
 description: Check our Web Forms article about Resizing RadGrid in RadSplitter.
 slug: grid/how-to/resizing/resizing-radgrid-in-radsplitter
+components: ["grid"]
 tags: resizing,radgrid,in,radsplitter
 published: True
 position: 6

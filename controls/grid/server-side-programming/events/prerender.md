@@ -3,6 +3,7 @@ title: PreRender
 page_title: PreRender Event - RadGrid
 description: Check our Web Forms article about PreRender Event.
 slug: grid/server-side-programming/events/prerender
+components: ["grid"]
 published: True
 position: 50
 ---

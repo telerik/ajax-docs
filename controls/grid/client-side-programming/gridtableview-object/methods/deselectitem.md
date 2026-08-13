@@ -3,6 +3,7 @@ title: deselectItem
 page_title: deselectItem - RadGrid
 description: Check our Web Forms article about deselectItem.
 slug: grid/client-side-programming/gridtableview-object/methods/deselectitem
+components: ["grid"]
 tags: deselectitem
 published: True
 position: 10

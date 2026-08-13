@@ -3,6 +3,7 @@ title: set_dataSource
 page_title: set_dataSource - RadGrid
 description: Check our Web Forms article about set_dataSource.
 slug: grid/client-side-programming/gridtableview-object/methods/set_datasource
+components: ["grid"]
 tags: set_datasource
 published: True
 position: 39

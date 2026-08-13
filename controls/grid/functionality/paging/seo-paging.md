@@ -3,6 +3,7 @@ title: SEO Paging
 page_title: SEO Paging - RadGrid
 description: Check our Web Forms article about SEO Paging.
 slug: grid/functionality/paging/seo-paging
+components: ["grid"]
 tags: seo,paging
 published: True
 position: 2

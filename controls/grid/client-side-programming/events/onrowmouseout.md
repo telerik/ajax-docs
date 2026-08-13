@@ -3,6 +3,7 @@ title: OnRowMouseOut
 page_title: OnRowMouseOut - RadGrid
 description: Check our Web Forms article about OnRowMouseOut.
 slug: grid/client-side-programming/events/onrowmouseout
+components: ["grid"]
 tags: onrowmouseout
 published: True
 position: 64

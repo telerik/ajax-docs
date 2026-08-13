@@ -3,6 +3,7 @@ title: Most Common Mistakes
 page_title: Most Common Mistakes - RadGrid
 description: Check our Web Forms article about Most Common Mistakes.
 slug: grid/troubleshooting/most-common-mistakes
+components: ["grid"]
 tags: most,common,mistakes
 published: True
 position: 0

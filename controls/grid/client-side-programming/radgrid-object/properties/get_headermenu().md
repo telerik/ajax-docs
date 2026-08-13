@@ -3,6 +3,7 @@ title: get_headerMenu()
 page_title: get_headerMenu() - RadGrid
 description: Check our Web Forms article about get_headerMenu().
 slug: grid/client-side-programming/radgrid-object/properties/get_headermenu()
+components: ["grid"]
 tags: get_headermenu()
 published: True
 position: 6

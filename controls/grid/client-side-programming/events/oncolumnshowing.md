@@ -3,6 +3,7 @@ title: OnColumnShowing
 page_title: OnColumnShowing - RadGrid
 description: Check our Web Forms article about OnColumnShowing.
 slug: grid/client-side-programming/events/oncolumnshowing
+components: ["grid"]
 tags: oncolumnshowing
 published: True
 position: 22

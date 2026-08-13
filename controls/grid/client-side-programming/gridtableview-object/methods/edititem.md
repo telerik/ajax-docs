@@ -3,6 +3,7 @@ title: editItem
 page_title: editItem - RadGrid
 description: Check our Web Forms article about editItem.
 slug: grid/client-side-programming/gridtableview-object/methods/edititem
+components: ["grid"]
 tags: edititem
 published: True
 position: 12

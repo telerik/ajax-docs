@@ -3,6 +3,7 @@ title: set_allowMultiColumnSorting()
 page_title: set_allowMultiColumnSorting() - RadGrid
 description: Check our Web Forms article about set_allowMultiColumnSorting().
 slug: grid/client-side-programming/gridtableview-object/properties/set_allowmulticolumnsorting()
+components: ["grid"]
 tags: set_allowmulticolumnsorting()
 published: True
 position: 1

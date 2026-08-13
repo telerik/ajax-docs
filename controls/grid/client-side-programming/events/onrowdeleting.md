@@ -3,6 +3,7 @@ title: OnRowDeleting
 page_title: OnRowDeleting - RadGrid
 description: Check our Web Forms article about OnRowDeleting.
 slug: grid/client-side-programming/events/onrowdeleting
+components: ["grid"]
 tags: onrowdeleting
 published: True
 position: 54

@@ -3,6 +3,7 @@ title: OnColumnContextMenu
 page_title: OnColumnContextMenu - RadGrid
 description: Check our Web Forms article about OnColumnContextMenu.
 slug: grid/client-side-programming/events/oncolumncontextmenu
+components: ["grid"]
 tags: oncolumncontextmenu
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: OnFilterMenuShowing
 page_title: OnFilterMenuShowing - RadGrid
 description: Check our Web Forms article about OnFilterMenuShowing.
 slug: grid/client-side-programming/events/onfiltermenushowing
+components: ["grid"]
 tags: onfiltermenushowing
 published: True
 position: 31

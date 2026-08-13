@@ -3,6 +3,7 @@ title: insertItem
 page_title: insertItem - RadGrid
 description: Check our Web Forms article about insertItem.
 slug: grid/client-side-programming/gridtableview-object/methods/insertitem
+components: ["grid"]
 tags: insertitem
 published: True
 position: 31

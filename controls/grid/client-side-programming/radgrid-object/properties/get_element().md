@@ -3,6 +3,7 @@ title: get_element()
 page_title: get_element() - RadGrid
 description: Check our Web Forms article about get_element().
 slug: grid/client-side-programming/radgrid-object/properties/get_element()
+components: ["grid"]
 tags: get_element()
 published: True
 position: 5

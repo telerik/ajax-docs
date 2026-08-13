@@ -3,6 +3,7 @@ title: HTML Output
 page_title: HTML Output - RadGrid
 description: Check our Web Forms article about HTML Output.
 slug: grid/appearance-and-styling/html-output
+components: ["grid"]
 tags: html,output
 published: True
 position: 1

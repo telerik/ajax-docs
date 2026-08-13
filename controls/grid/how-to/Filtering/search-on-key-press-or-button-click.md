@@ -3,6 +3,7 @@ title: Search on Key Press/Button Click
 page_title: Search on Key Press/Button Click - RadGrid
 description: Check our Web Forms article about Search on Key Press/Button Click.
 slug: grid/how-to/filtering/search-on-key-press-or-button-click
+components: ["grid"]
 previous_url: controls/grid/functionality/filtering/how-to/search-on-key-press-or-button-click
 tags: search,on,key,press/button,click
 published: True

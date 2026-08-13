@@ -3,6 +3,7 @@ title: Include Additional Action Button
 page_title: Include Additional Action Button - RadGrid
 description: Check our Web Forms article about Include Additional Action Button.
 slug: grid/how-to/data-editing/include-additional-action-button
+components: ["grid"]
 previous_url: controls/grid/data-editing/how-to/include-additional-action-button
 tags: include,additional,action,button
 published: True

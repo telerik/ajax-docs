@@ -3,6 +3,7 @@ title: repaint
 page_title: repaint - RadGrid
 description: Check our Web Forms article about repaint.
 slug: grid/client-side-programming/radgrid-object/methods/repaint
+components: ["grid"]
 tags: repaint
 published: True
 position: 2

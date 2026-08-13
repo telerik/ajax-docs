@@ -3,6 +3,7 @@ title: Overview
 page_title: Creating, Modifing the Grid structure - RadGrid
 description: Explore how to create and configure a RadGrid control for displaying and managing tabular data.
 slug: grid/create-radgrid/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

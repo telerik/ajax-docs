@@ -3,6 +3,7 @@ title: rebind
 page_title: rebind - RadGrid
 description: Check our Web Forms article about rebind.
 slug: grid/client-side-programming/gridtableview-object/methods/rebind
+components: ["grid"]
 tags: rebind
 published: True
 position: 33

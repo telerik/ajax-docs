@@ -3,6 +3,7 @@ title: Command Reference
 page_title: Command Reference - RadGrid
 description: Check our Web Forms article about Command Reference.
 slug: grid/control-lifecycle/command-reference-
+components: ["grid"]
 tags: command,reference,
 published: True
 position: 2

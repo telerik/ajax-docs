@@ -3,6 +3,7 @@ title: GridExcelBuilder for ExcelML
 page_title: GridExcelBuilder for ExcelML (XLS) Export - RadGrid
 description: GridExcelBuilder for ExcelML (XLS) Export
 slug: grid/functionality/exporting/excel-export/gridexcelbuilder
+components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/excelml-export/excelml-structure-/-gridexcelbuilder,controls/grid/functionality/exporting/export-formats/excelml-export/excelml-structure-gridexcelbuilder
 tags: excelml,gridexcelbuilder
 published: true

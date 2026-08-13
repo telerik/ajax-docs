@@ -3,6 +3,7 @@ title: get_nestedViews()
 page_title: get_nestedViews() - RadGrid
 description: Check our Web Forms article about get_nestedViews().
 slug: grid/client-side-programming/griddataitem-object/properties/get_nestedviews()
+components: ["grid"]
 tags: get_nestedviews()
 published: True
 position: 8

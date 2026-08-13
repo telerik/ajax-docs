@@ -3,6 +3,7 @@ title: Binding to SubObjects
 page_title: Binding to SubObjects - RadGrid
 description: Check our Web Forms article about Binding to SubObjects.
 slug: grid/data-binding/server-side-binding/various-data-sources/binding-to-subobjects
+components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-subobjects
 tags: binding,to,subobjects
 published: True

@@ -3,6 +3,7 @@ title: Scroll RadGrid to Specific item
 page_title: Scroll RadGrid to Specific item - RadGrid
 description: Check our Web Forms article about Scroll RadGrid to Specific item.
 slug: grid/how-to/scrolling/scroll-to-item
+components: ["grid"]
 tags: scroll,grid,to,specific,item
 published: True
 position: 10

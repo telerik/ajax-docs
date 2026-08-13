@@ -3,6 +3,7 @@ title: Performing Batch Updates
 page_title: Performing Batch Updates - RadGrid
 description: Check our Web Forms article about Performing Batch Updates.
 slug: grid/data-editing/update-records/performing-batch-updates
+components: ["grid"]
 tags: performing,batch,updates
 published: True
 position: 2

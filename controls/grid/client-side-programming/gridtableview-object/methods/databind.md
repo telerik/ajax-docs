@@ -3,6 +3,7 @@ title: dataBind
 page_title: dataBind - RadGrid
 description: Check our Web Forms article about dataBind.
 slug: grid/client-side-programming/gridtableview-object/methods/databind
+components: ["grid"]
 tags: databind
 published: True
 position: 7

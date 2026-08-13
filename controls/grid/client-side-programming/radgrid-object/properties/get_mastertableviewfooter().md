@@ -3,6 +3,7 @@ title: get_masterTableViewFooter()
 page_title: get_masterTableViewFooter() - RadGrid
 description: Check our Web Forms article about get_masterTableViewFooter().
 slug: grid/client-side-programming/radgrid-object/properties/get_mastertableviewfooter()
+components: ["grid"]
 tags: get_mastertableviewfooter()
 published: True
 position: 9

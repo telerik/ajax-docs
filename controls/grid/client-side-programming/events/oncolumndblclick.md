@@ -3,6 +3,7 @@ title: OnColumnDblClick
 page_title: OnColumnDblClick - RadGrid
 description: Check our Web Forms article about OnColumnDblClick.
 slug: grid/client-side-programming/events/oncolumndblclick
+components: ["grid"]
 tags: oncolumndblclick
 published: True
 position: 10

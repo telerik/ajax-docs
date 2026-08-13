@@ -3,6 +3,7 @@ title: Xlsx (XLSX)
 page_title: Excel-Xlsx (OOXML) Export - RadGrid
 description: Learn how to export Grid data to Excel in XLSX format for seamless data sharing and reporting.
 slug: grid/functionality/exporting/excel-export/excel-xlsx
+components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/xlsx-and-docx-export
 tags: xlsx,and,docx,export
 published: True

@@ -3,6 +3,7 @@ title: OnRowCreating
 page_title: OnRowCreating - RadGrid
 description: Check our Web Forms article about OnRowCreating.
 slug: grid/client-side-programming/events/onrowcreating
+components: ["grid"]
 tags: onrowcreating
 published: True
 position: 50

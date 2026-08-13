@@ -3,6 +3,7 @@ title: Automatic DataSource Operations
 page_title: Automatic DataSource Operations - RadGrid
 description: Check our Web Forms article about Automatic DataSource Operations.
 slug: grid/data-editing/automatic-datasource-operations
+components: ["grid"]
 tags: automatic,datasource,operations
 published: True
 position: 4

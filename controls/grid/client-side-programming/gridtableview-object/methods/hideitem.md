@@ -3,6 +3,7 @@ title: hideItem
 page_title: hideItem - RadGrid
 description: Check our Web Forms article about hideItem.
 slug: grid/client-side-programming/gridtableview-object/methods/hideitem
+components: ["grid"]
 tags: hideitem
 published: True
 position: 30

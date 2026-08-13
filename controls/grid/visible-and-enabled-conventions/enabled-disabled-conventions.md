@@ -3,6 +3,7 @@ title: Enabled Disabled Conventions
 page_title: Enabled Disabled Conventions - RadGrid
 description: Check our Web Forms article about Enabled Disabled Conventions.
 slug: grid/visible/enabled-conventions/enabled-disabled-conventions
+components: ["grid"]
 tags: enabled,disabled,conventions
 published: True
 position: 1

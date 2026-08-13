@@ -3,6 +3,7 @@ title: get_id()
 page_title: get_id() - RadGrid
 description: Check our Web Forms article about get_id().
 slug: grid/client-side-programming/radgrid-object/properties/get_id()
+components: ["grid"]
 tags: get_id()
 published: True
 position: 7

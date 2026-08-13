@@ -3,6 +3,7 @@ title: Loading User Control with Telerik RadGrid at Runtime
 page_title: Loading User Control with Telerik RadGrid at Runtime - RadGrid
 description: Check our Web Forms article about Loading User Control with Telerik RadGrid at Runtime.
 slug: grid/create-radgrid/loading-user-control-with-telerik-radgrid-at-runtime
+components: ["grid"]
 previous_url: controls/grid/defining-structure/loading-user-control-with-telerik-radgrid-at-runtime
 tags: loading,user,control,with,telerik,radgrid,at,runtime
 published: True

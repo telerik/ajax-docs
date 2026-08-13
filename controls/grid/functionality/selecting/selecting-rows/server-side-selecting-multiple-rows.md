@@ -3,6 +3,7 @@ title: Server-side Selecting Multiple Rows
 page_title: Server-side Selecting Multiple Rows - RadGrid
 description: Check our Web Forms article about Server-side Selecting Multiple Rows.
 slug: grid/functionality/selecting/selecting-rows/server-side-selecting-multiple-rows
+components: ["grid"]
 tags: server-side,selecting,multiple,rows
 published: True
 position: 4

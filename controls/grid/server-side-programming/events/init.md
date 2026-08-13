@@ -3,6 +3,7 @@ title: Init
 page_title: Init Event - RadGrid
 description: Check our Web Forms article about Init Event.
 slug: grid/server-side-programming/events/init
+components: ["grid"]
 published: True
 position: 50
 ---

@@ -3,6 +3,7 @@ title: BIFF (XLS)
 page_title: Excel-Biff (XLS) Export - RadGrid
 description: Export RadGrid to Binary Excel using the Excel Format Biff
 slug: grid/functionality/exporting/excel-export/excel-biff
+components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/excel-biff-export
 tags: excel,biff,export
 published: True

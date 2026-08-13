@@ -3,6 +3,7 @@ title: get_editItems()
 page_title: get_editItems() - RadGrid
 description: Check our Web Forms article about get_editItems().
 slug: grid/client-side-programming/radgrid-object/properties/get_edititems()
+components: ["grid"]
 tags: get_edititems()
 published: True
 position: 4

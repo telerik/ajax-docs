@@ -3,6 +3,7 @@ title: deleteItem
 page_title: deleteItem - RadGrid
 description: Check our Web Forms article about deleteItem.
 slug: grid/client-side-programming/gridtableview-object/methods/deleteitem
+components: ["grid"]
 tags: deleteitem
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: Declarative DataSource
 page_title: Declarative DataSource - RadGrid
 description: Learn how to use declarative data sources to bind data to the Grid control for simplified configuration.
 slug: grid/data-binding/server-side-binding/declarative-datasource
+components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/declarative-datasource
 tags: declarative,datasource
 published: True

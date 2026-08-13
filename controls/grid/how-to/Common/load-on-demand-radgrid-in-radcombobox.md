@@ -3,6 +3,7 @@ title: Load-on-demand RadGrid in RadComboBox
 page_title: Load-on-demand RadGrid in RadComboBox - RadGrid
 description: Check our Web Forms article about Load-on-demand RadGrid in RadComboBox.
 slug: grid/how-to/common/load-on-demand-radgrid-in-radcombobox
+components: ["grid"]
 tags: load-on-demand,radgrid,in,radcombobox
 published: True
 position: 2

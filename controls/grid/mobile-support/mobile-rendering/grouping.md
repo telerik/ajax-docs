@@ -3,6 +3,7 @@ title: Grouping
 page_title: Grouping - RadGrid
 description: Check our Web Forms article about Grouping.
 slug: grid/mobile-support/mobile-rendering/grouping
+components: ["grid"]
 tags: grouping
 published: True
 position: 3

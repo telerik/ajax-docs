@@ -3,6 +3,7 @@ title: ASP.NET AJAX Framework
 page_title: ASP.NET AJAX Framework - RadGrid
 description: Check our Web Forms article about ASP.NET AJAX Framework.
 slug: grid/ajaxified-radgrid/asp.net-ajax-framework
+components: ["grid"]
 previous_url: controls/grid/getting-started/asp.net-ajax-framework
 tags: asp.net,ajax,framework
 published: True

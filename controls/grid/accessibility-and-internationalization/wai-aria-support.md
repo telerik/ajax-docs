@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadGrid
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: grid/accessibility-and-internationalization/wai-aria-support
+components: ["grid"]
 tags: wai-aria,support
 published: True
 position: 10

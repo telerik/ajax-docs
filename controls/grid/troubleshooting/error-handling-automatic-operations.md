@@ -3,6 +3,7 @@ title: Error Handling Automatic Operations
 page_title: Error Handling Automatic Operations - RadGrid
 description: Check our Web Forms article about Error Handling Automatic Operations.
 slug: grid/troubleshooting/error-handling-automatic-operations
+components: ["grid"]
 tags: error,handling,automatic,operations
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnBatchEditSetEditorValue
 page_title: OnBatchEditSetEditorValue - RadGrid
 description: Check our Web Forms article about OnBatchEditSetEditorValue.
 slug: grid/client-side-programming/events/onbatcheditseteditorvalue
+components: ["grid"]
 tags: onbatcheditseteditorvalue
 published: True
 position: 77

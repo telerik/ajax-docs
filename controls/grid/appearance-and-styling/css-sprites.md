@@ -3,6 +3,7 @@ title: CSS sprites
 page_title: CSS sprites - RadGrid
 description: Check our Web Forms article about CSS sprites.
 slug: grid/appearance-and-styling/css-sprites
+components: ["grid"]
 tags: css,sprites
 published: True
 position: 3

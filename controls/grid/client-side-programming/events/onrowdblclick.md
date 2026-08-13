@@ -3,6 +3,7 @@ title: OnRowDblClick
 page_title: OnRowDblClick - RadGrid
 description: Check our Web Forms article about OnRowDblClick.
 slug: grid/client-side-programming/events/onrowdblclick
+components: ["grid"]
 tags: onrowdblclick
 published: True
 position: 53

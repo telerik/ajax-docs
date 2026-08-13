@@ -3,6 +3,7 @@ title: Client-side Selecting with a Click
 page_title: Client-side Selecting with a Click - RadGrid
 description: Check our Web Forms article about Client-side Selecting with a Click.
 slug: grid/functionality/selecting/selecting-rows/client-side-selecting-with-a-click
+components: ["grid"]
 tags: client-side,selecting,with,a,click
 published: True
 position: 0

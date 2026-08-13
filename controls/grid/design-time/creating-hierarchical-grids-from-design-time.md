@@ -3,6 +3,7 @@ title: Creating Hierarchical Grids from Design-Time
 page_title: Creating Hierarchical Grids from Design-Time - RadGrid
 description: Check our Web Forms article about Creating Hierarchical Grids from Design-Time.
 slug: grid/design-time/creating-hierarchical-grids-from-design-time
+components: ["grid"]
 tags: creating,hierarchical,grids,from,design-time
 published: True
 position: 6

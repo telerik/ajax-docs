@@ -3,6 +3,7 @@ title: OnTableCreating
 page_title: OnTableCreating - RadGrid
 description: Check our Web Forms article about OnTableCreating.
 slug: grid/client-side-programming/events/ontablecreating
+components: ["grid"]
 tags: ontablecreating
 published: True
 position: 73

@@ -3,6 +3,7 @@ title: get_dataItems()
 page_title: get_dataItems() - RadGrid
 description: Check our Web Forms article about get_dataItems().
 slug: grid/client-side-programming/gridtableview-object/properties/get_dataitems()
+components: ["grid"]
 tags: get_dataitems()
 published: True
 position: 6

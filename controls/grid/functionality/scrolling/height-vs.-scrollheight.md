@@ -3,6 +3,7 @@ title: Height vs. ScrollHeight
 page_title: Height vs. ScrollHeight - RadGrid
 description: Check our Web Forms article about Height vs. ScrollHeight.
 slug: grid/functionality/scrolling/height-vs.-scrollheight
+components: ["grid"]
 tags: height,vs.,scrollheight
 published: True
 position: 2

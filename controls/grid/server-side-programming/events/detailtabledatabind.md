@@ -3,6 +3,7 @@ title: DetailTableDataBind
 page_title: DetailTableDataBind Event - RadGrid
 description: Check our Web Forms article about DetailTableDataBind Event.
 slug: grid/server-side-programming/events/detailtabledatabind
+components: ["grid"]
 published: True
 position: 50
 ---

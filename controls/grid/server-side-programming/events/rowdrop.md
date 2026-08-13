@@ -3,6 +3,7 @@ title: RowDrop
 page_title: RowDrop Event - RadGrid
 description: Check our Web Forms article about RowDrop Event.
 slug: grid/server-side-programming/events/rowdrop
+components: ["grid"]
 published: True
 position: 50
 ---

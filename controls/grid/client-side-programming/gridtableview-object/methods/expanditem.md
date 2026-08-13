@@ -3,6 +3,7 @@ title: expandItem
 page_title: expandItem - RadGrid
 description: Check our Web Forms article about expandItem.
 slug: grid/client-side-programming/gridtableview-object/methods/expanditem
+components: ["grid"]
 tags: expanditem
 published: True
 position: 14

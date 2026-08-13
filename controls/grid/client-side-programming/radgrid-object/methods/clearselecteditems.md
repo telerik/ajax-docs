@@ -3,6 +3,7 @@ title: clearSelectedItems
 page_title: clearSelectedItems - RadGrid
 description: Check our Web Forms article about clearSelectedItems.
 slug: grid/client-side-programming/radgrid-object/methods/clearselecteditems
+components: ["grid"]
 tags: clearselecteditems
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: get_owner()
 page_title: get_owner() - RadGrid
 description: Check our Web Forms article about get_owner().
 slug: grid/client-side-programming/griddataitem-object/properties/get_owner()
+components: ["grid"]
 tags: get_owner()
 published: True
 position: 9

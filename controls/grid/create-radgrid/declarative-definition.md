@@ -3,6 +3,7 @@ title: Declarative Definition
 page_title: Declarative Definition - RadGrid
 description: Check our Web Forms article about Declarative Definition.
 slug: grid/create-radgrid/declarative-definition
+components: ["grid"]
 previous_url: controls/grid/defining-structure/declarative-definition
 tags: declarative,definition
 published: True

@@ -3,6 +3,7 @@ title: OnColumnDestroying
 page_title: OnColumnDestroying - RadGrid
 description: Check our Web Forms article about OnColumnDestroying.
 slug: grid/client-side-programming/events/oncolumndestroying
+components: ["grid"]
 tags: oncolumndestroying
 published: True
 position: 11

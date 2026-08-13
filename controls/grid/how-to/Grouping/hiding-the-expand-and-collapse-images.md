@@ -3,6 +3,7 @@ title: Hiding the Expand/Collapse Images
 page_title: Hiding the Expand/Collapse Images - RadGrid
 description: Check our Web Forms article about Hiding the Expand/Collapse Images.
 slug: grid/how-to/grouping/hiding-the-expand-and-collapse-images
+components: ["grid"]
 previous_url: controls/grid/functionality/grouping/how-to/hiding-the-expand-and-collapse-images
 tags: hiding,the,expand/collapse,images
 published: True

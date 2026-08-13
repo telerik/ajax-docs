@@ -3,6 +3,7 @@ title: get_allowMultiRowSelection()
 page_title: get_allowMultiRowSelection() - RadGrid
 description: Check our Web Forms article about get_allowMultiRowSelection().
 slug: grid/client-side-programming/radgrid-object/properties/get_allowmultirowselection()
+components: ["grid"]
 tags: get_allowmultirowselection()
 published: True
 position: 2

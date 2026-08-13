@@ -3,6 +3,7 @@ title: CancelCommand
 page_title: CancelCommand Event - RadGrid
 description: Check our Web Forms article about CancelCommand Event.
 slug: grid/server-side-programming/events/cancelcommand
+components: ["grid"]
 published: True
 position: 50
 ---

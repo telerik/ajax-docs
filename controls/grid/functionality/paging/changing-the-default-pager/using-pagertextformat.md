@@ -3,6 +3,7 @@ title: Using PagerTextFormat
 page_title: Using PagerTextFormat - RadGrid
 description: Check our Web Forms article about Using PagerTextFormat.
 slug: grid/functionality/paging/changing-the-default-pager/using-pagertextformat
+components: ["grid"]
 tags: using,pagertextformat
 published: True
 position: 2

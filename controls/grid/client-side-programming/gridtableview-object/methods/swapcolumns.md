@@ -3,6 +3,7 @@ title: swapColumns
 page_title: swapColumns - RadGrid
 description: Check our Web Forms article about swapColumns.
 slug: grid/client-side-programming/gridtableview-object/methods/swapcolumns
+components: ["grid"]
 tags: swapcolumns
 published: True
 position: 45

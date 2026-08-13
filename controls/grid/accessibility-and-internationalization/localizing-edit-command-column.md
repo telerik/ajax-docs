@@ -3,6 +3,7 @@ title: Localizing Edit Command Column
 page_title: Localizing Edit Command Column - RadGrid
 description: Check our Web Forms article about Localizing Edit Command Column.
 slug: grid/accessibility-and-internationalization/localizing-edit-command-column
+components: ["grid"]
 tags: localizing,edit,command,column
 published: True
 position: 2

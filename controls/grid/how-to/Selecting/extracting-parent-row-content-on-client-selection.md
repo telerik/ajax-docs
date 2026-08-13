@@ -3,6 +3,7 @@ title: Extracting Parent Row Content on Client Selection in Hierarchy
 page_title: Extracting Parent Row Content on Client Selection in Hierarchy - RadGrid
 description: Check our Web Forms article about Extracting Parent Row Content on Client Selection in Hierarchy.
 slug: grid/how-to/selecting/extracting-parent-row-content-on-client-selection
+components: ["grid"]
 previous_url: controls/grid/functionality/selecting/how-to/extracting-parent-row-content-on-client-selection
 tags: client-side,selecting, extracting
 published: True

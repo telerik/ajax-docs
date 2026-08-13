@@ -3,6 +3,7 @@ title: toggleGroup
 page_title: toggleGroup - RadGrid
 description: Check our Web Forms article about toggleGroup.
 slug: grid/client-side-programming/gridtableview-object/methods/togglegroup
+components: ["grid"]
 tags: togglegroup
 published: True
 position: 49

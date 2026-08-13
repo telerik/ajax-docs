@@ -3,6 +3,7 @@ title: Server Binding
 page_title: Server Binding - RadGrid
 description: Check our Web Forms article about Server Binding.
 slug: grid/data-binding/webservice-binding/server-binding
+components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/webservice-binding/server-binding
 tags: server,binding
 published: True

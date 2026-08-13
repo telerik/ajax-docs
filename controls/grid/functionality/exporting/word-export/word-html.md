@@ -3,6 +3,7 @@ title: Html (DOC)
 page_title: Word-Html (DOC) Export - RadGrid
 description: Word-Html (DOC) Export
 slug: grid/functionality/exporting/word-export/word-html
+components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/word-and-excel-export/html-based-export
 tags: html-based,export
 published: True

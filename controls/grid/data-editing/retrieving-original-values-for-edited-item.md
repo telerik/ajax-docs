@@ -3,6 +3,7 @@ title: Retrieving Original Values for Edited Item
 page_title: Retrieving Original Values for Edited Item - RadGrid
 description: Check our Web Forms article about Retrieving Original Values for Edited Item.
 slug: grid/data-editing/retrieving-original-values-for-edited-item
+components: ["grid"]
 tags: retrieving,original,values,for,edited,item
 published: True
 position: 3

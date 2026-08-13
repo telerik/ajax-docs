@@ -3,6 +3,7 @@ title: CreateColumnEditor
 page_title: CreateColumnEditor Event - RadGrid
 description: Check our Web Forms article about CreateColumnEditor Event.
 slug: grid/server-side-programming/events/createcolumneditor
+components: ["grid"]
 published: True
 position: 50
 ---

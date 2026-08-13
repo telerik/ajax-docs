@@ -3,6 +3,7 @@ title: Selecting
 page_title: Selecting - RadGrid
 description: Check our Web Forms article about Selecting.
 slug: grid/mobile-support/mobile-rendering/selecting
+components: ["grid"]
 tags: selecting
 published: True
 position: 4

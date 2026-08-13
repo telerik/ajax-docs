@@ -3,6 +3,7 @@ title: Filtering
 page_title: Filtering - RadGrid
 description: Check our Web Forms article about Filtering.
 slug: grid/mobile-support/mobile-rendering/filtering
+components: ["grid"]
 tags: filtering
 published: True
 position: 2

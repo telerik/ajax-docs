@@ -3,6 +3,7 @@ title: Conditional Formatting
 page_title: Conditional Formatting - RadGrid
 description: Learn how to apply conditional formatting in the Grid control for highlighting specific data patterns.
 slug: grid/appearance-and-styling/conditional-formatting
+components: ["grid"]
 tags: conditional,formatting
 published: True
 position: 5

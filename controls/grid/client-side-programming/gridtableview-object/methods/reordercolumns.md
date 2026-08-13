@@ -3,6 +3,7 @@ title: reorderColumns
 page_title: reorderColumns - RadGrid
 description: Check our Web Forms article about reorderColumns.
 slug: grid/client-side-programming/gridtableview-object/methods/reordercolumns
+components: ["grid"]
 tags: reordercolumns
 published: True
 position: 34

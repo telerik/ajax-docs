@@ -3,6 +3,7 @@ title: collapseAllGroups
 page_title: collapseAllGroups - RadGrid
 description: Check our Web Forms article about collapseAllGroups.
 slug: grid/client-side-programming/gridtableview-object/methods/collapseallgroups
+components: ["grid"]
 tags: collapseallgroups
 published: True
 position: 53

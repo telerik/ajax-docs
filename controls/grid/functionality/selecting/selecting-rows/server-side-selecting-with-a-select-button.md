@@ -3,6 +3,7 @@ title: Server-side Selecting with a Select Button
 page_title: Server-side Selecting with a Select Button - RadGrid
 description: Check our Web Forms article about Server-side Selecting with a Select Button.
 slug: grid/functionality/selecting/selecting-rows/server-side-selecting-with-a-select-button
+components: ["grid"]
 tags: server-side,selecting,with,a,select,button
 published: True
 position: 2

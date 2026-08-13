@@ -3,6 +3,7 @@ title: DataBound
 page_title: DataBound Event - RadGrid
 description: Check our Web Forms article about DataBound Event.
 slug: grid/server-side-programming/events/databound
+components: ["grid"]
 published: True
 position: 50
 ---

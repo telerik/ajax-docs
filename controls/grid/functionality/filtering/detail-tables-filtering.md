@@ -3,6 +3,7 @@ title: Detail Tables Filtering
 page_title: Detail Tables Filtering - RadGrid
 description: Check our Web Forms article about Detail Tables Filtering.
 slug: grid/functionality/filtering/detail-tables-filtering
+components: ["grid"]
 tags: detail,tables,filtering
 published: True
 position: 2

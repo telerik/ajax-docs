@@ -3,6 +3,7 @@ title: Filter Template
 page_title: Filter Template - RadGrid
 description: Explore how to use filter templates in the Grid control for creating custom filtering interfaces.
 slug: grid/functionality/filtering/filter-template
+components: ["grid"]
 tags: filter,template
 published: True
 position: 3

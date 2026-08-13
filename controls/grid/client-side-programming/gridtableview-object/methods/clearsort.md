@@ -3,6 +3,7 @@ title: clearSort
 page_title: clearSort - RadGrid
 description: Check our Web Forms article about clearSort.
 slug: grid/client-side-programming/gridtableview-object/methods/clearsort
+components: ["grid"]
 tags: clearsort
 published: True
 position: 5

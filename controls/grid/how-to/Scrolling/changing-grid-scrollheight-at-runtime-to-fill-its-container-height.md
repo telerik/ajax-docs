@@ -3,6 +3,7 @@ title: Changing Grid ScrollHeight at Runtime to Fill its Container Height
 page_title: Changing Grid ScrollHeight at Runtime to Fill its Container Height - RadGrid
 description: Check our Web Forms article about Changing Grid ScrollHeight at Runtime to Fill its Container Height.
 slug: grid/how-to/scrolling/changing-grid-scrollheight-at-runtime-to-fill-its-container-height
+components: ["grid"]
 previous_url: controls/grid/functionality/scrolling/how-to/changing-grid-scrollheight-at-runtime-to-fill-its-container-height
 tags: changing,grid,scrollheight,at,runtime,to,fill,its,container,height
 published: True

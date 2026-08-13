@@ -3,6 +3,7 @@ title: ItemEvent
 page_title: ItemEvent Event - RadGrid
 description: Check our Web Forms article about ItemEvent Event.
 slug: grid/server-side-programming/events/itemevent
+components: ["grid"]
 published: True
 position: 50
 ---

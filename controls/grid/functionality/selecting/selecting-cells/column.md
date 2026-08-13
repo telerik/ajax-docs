@@ -3,6 +3,7 @@ title: Column
 page_title: Selecting Column Cells - RadGrid
 description: Selecting Cells of a Column
 slug: grid/functionality/selecting/selecting-cells/column
+components: ["grid"]
 tags: selecting,cells,column
 published: True
 position: 2

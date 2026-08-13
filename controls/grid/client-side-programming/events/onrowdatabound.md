@@ -3,6 +3,7 @@ title: OnRowDataBound
 page_title: OnRowDataBound - RadGrid
 description: Check our Web Forms article about OnRowDataBound.
 slug: grid/client-side-programming/events/onrowdatabound
+components: ["grid"]
 tags: onrowdatabound
 published: True
 position: 52

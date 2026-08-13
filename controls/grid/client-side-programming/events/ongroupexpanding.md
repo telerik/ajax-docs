@@ -3,6 +3,7 @@ title: OnGroupExpanding
 page_title: OnGroupExpanding - RadGrid
 description: Check our Web Forms article about OnGroupExpanding.
 slug: grid/client-side-programming/events/ongroupexpanding
+components: ["grid"]
 tags: ongroupexpanding
 published: True
 position: 37

@@ -3,6 +3,7 @@ title: Accessing Cells and Values
 page_title: Accessing Cells Server-Side - RadGrid
 description: Learn how to access and manipulate Grid cells on the server side for advanced data customization.
 slug: grid/accessing-values-and-controls/server-side/accessing-cells
+components: ["grid"]
 published: True
 position: 3
 ---

@@ -3,6 +3,7 @@ title: Properties
 page_title: AIPrompt JavaScript Properties
 description: "JavaScript properties of the Telerik WebForms AIPrompt component."
 slug: aiprompt/client-side-programming/properties
+components: ["aiprompt"]
 tags: properties
 published: True
 position: 1

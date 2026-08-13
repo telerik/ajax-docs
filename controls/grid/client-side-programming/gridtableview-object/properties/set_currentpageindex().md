@@ -3,6 +3,7 @@ title: set_currentPageIndex()
 page_title: set_currentPageIndex() - RadGrid
 description: Check our Web Forms article about set_currentPageIndex().
 slug: grid/client-side-programming/gridtableview-object/properties/set_currentpageindex()
+components: ["grid"]
 tags: set_currentpageindex()
 published: True
 position: 5

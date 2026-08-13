@@ -3,6 +3,7 @@ title: Tooltipified RadGrid
 page_title: Tooltipified RadGrid - RadGrid
 description: Check our Web Forms article about Tooltipified RadGrid.
 slug: grid/how-to/common/tooltipified-radgrid
+components: ["grid"]
 tags: tooltipified,radgrid
 published: True
 position: 16

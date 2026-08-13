@@ -3,6 +3,7 @@ title: Virtual Scrolling
 page_title: Virtual Scrolling - RadGrid
 description: Check our Web Forms article about Virtual Scrolling.
 slug: grid/functionality/scrolling/virtual-scrolling
+components: ["grid"]
 tags: virtual,scrolling
 published: True
 position: 6

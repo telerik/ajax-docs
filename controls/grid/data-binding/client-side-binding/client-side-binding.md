@@ -3,6 +3,7 @@ title: Client-side Binding
 page_title: Client-side Binding - RadGrid
 description: Explore how to bind data to the Grid control on the client side for dynamic and responsive applications.
 slug: grid/data-binding/client-side-binding/client-side-binding
+components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/client-side-binding/client-side-binding
 tags: client-side,binding
 published: True

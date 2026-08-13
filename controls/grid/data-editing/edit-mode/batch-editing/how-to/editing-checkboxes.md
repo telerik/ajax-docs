@@ -3,6 +3,7 @@ title: Editing CheckBoxes
 page_title: Editing CheckBoxes - RadGrid
 description: Check our Web Forms article about Editing CheckBoxes.
 slug: grid/data-editing/edit-mode/batch-editing/how-to/editing-checkboxes
+components: ["grid"]
 tags: batch,editing,checkbox
 published: True
 position: 0

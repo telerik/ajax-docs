@@ -3,6 +3,7 @@ title: get_itemIndexHierarchical()
 page_title: get_itemIndexHierarchical() - RadGrid
 description: Check our Web Forms article about get_itemIndexHierarchical().
 slug: grid/client-side-programming/griddataitem-object/properties/get_itemindexhierarchical()
+components: ["grid"]
 tags: get_itemindexhierarchical()
 published: True
 position: 7

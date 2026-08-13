@@ -3,6 +3,7 @@ title: Multi-row Edit/Selection Only for Master Table
 page_title: Multi-row edit/selection only for master table in hierarchical grid - RadGrid
 description: Check our Web Forms article about Multi-row edit/selection only for master table in hierarchical grid.
 slug: grid/how-to/hierarchy/multi-row-edit-selection-only-for-master-table
+components: ["grid"]
 previous_url: controls/grid/hierarchical-grid-types-and-load-modes/how-to/multi-row-edit-selection-only-for-master-table
 tags: multi-row,edit/selection,only,for,master,table,in,hierarchical,grid
 published: True

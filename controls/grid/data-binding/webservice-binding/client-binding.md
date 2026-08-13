@@ -3,6 +3,7 @@ title: Client Binding
 page_title: Client Binding - RadGrid
 description: Check our Web Forms article about Client Binding.
 slug: grid/data-binding/webservice-binding/client-binding
+components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/webservice-binding/client-binding
 tags: client,binding
 published: True

@@ -3,6 +3,7 @@ title: Differences Between ItemCreated and ItemDataBound
 page_title: Differences Between ItemCreated and ItemDataBound - RadGrid
 description: Check our Web Forms article about Differences Between ItemCreated and ItemDataBound.
 slug: grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-
+components: ["grid"]
 tags: differences,between,itemcreated,and,itemdatabound,
 published: True
 position: 4

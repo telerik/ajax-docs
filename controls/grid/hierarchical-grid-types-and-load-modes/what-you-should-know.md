@@ -3,6 +3,7 @@ title: What you should know
 page_title: What you should know - RadGrid
 description: Check our Web Forms article about What you should know.
 slug: grid/hierarchical-grid-types-and-load-modes/what-you-should-know
+components: ["grid"]
 tags: what,you,should,know
 published: True
 position: 0

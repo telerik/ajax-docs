@@ -3,6 +3,7 @@ title: Get Delete Notification
 page_title: Get Delete Notification - RadGrid
 description: Check our Web Forms article about Get Delete Notification.
 slug: grid/data-editing/edit-mode/batch-editing/how-to/get-delete-notification
+components: ["grid"]
 tags: batch,editing,delete,notification
 published: True
 position: 2

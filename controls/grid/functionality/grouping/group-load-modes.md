@@ -3,6 +3,7 @@ title: Group Load Modes
 page_title: Group Load Modes - RadGrid
 description: Check our Web Forms article about Group Load Modes.
 slug: grid/functionality/grouping/group-load-modes
+components: ["grid"]
 tags: group,load,modes
 published: True
 position: 2

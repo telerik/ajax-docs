@@ -3,6 +3,7 @@ title: OnColumnCreated
 page_title: OnColumnCreated - RadGrid
 description: Check our Web Forms article about OnColumnCreated.
 slug: grid/client-side-programming/events/oncolumncreated
+components: ["grid"]
 tags: oncolumncreated
 published: True
 position: 9

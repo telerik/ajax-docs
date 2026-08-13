@@ -3,6 +3,7 @@ title: OnCommand
 page_title: OnCommand - RadGrid
 description: Check our Web Forms article about OnCommand.
 slug: grid/client-side-programming/events/oncommand
+components: ["grid"]
 tags: oncommand
 published: True
 position: 26

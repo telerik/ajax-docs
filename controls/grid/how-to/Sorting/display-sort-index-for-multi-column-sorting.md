@@ -3,6 +3,7 @@ title: Display Sort Index for Multi-Column Sorting
 page_title: Display Sort Index for Multi-Column Sorting - RadGrid
 description: Check our Web Forms article about Display Sort Index for Multi-Column Sorting.
 slug: grid/how-to/sorting/display-sort-index-for-multi-column-sorting
+components: ["grid"]
 tags: sort,index,grid,multi-column
 published: True
 position: 8

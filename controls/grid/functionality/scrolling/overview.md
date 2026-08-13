@@ -3,6 +3,7 @@ title: Overview
 page_title: Scrolling Overview - RadGrid
 description: Learn how to enable and customize scrolling in the Grid control for managing large datasets efficiently.
 slug: grid/functionality/scrolling/overview
+components: ["grid"]
 tags: overview
 published: True
 position: 0

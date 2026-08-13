@@ -3,6 +3,7 @@ title: showColumn
 page_title: showColumn - RadGrid
 description: Check our Web Forms article about showColumn.
 slug: grid/client-side-programming/gridtableview-object/methods/showcolumn
+components: ["grid"]
 tags: showcolumn
 published: True
 position: 40

@@ -3,6 +3,7 @@ title: Accessing Cells and Rows
 page_title: Accessing Cells and Rows - RadGrid
 description: Check our Web Forms article about Accessing Cells and Rows.
 slug: grid/rows/accessing-cells-and-rows
+components: ["grid"]
 tags: accessing,cells,and,rows
 published: False
 position: 3

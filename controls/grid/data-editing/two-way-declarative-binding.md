@@ -3,6 +3,7 @@ title: Two-way Declarative Binding
 page_title: Two-way Declarative Binding - RadGrid
 description: Check our Web Forms article about Two-way Declarative Binding.
 slug: grid/data-editing/two-way-declarative-binding
+components: ["grid"]
 tags: two-way,declarative,binding
 published: True
 position: 7

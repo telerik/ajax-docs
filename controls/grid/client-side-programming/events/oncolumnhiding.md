@@ -3,6 +3,7 @@ title: OnColumnHiding
 page_title: OnColumnHiding - RadGrid
 description: Check our Web Forms article about OnColumnHiding.
 slug: grid/client-side-programming/events/oncolumnhiding
+components: ["grid"]
 tags: oncolumnhiding
 published: True
 position: 12

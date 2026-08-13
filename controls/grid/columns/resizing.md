@@ -3,6 +3,7 @@ title: Resizing
 page_title: Resizing - RadGrid
 description: Learn how to enable and manage column resizing in the Grid control for better data visualization.
 slug: grid/columns/resizing
+components: ["grid"]
 tags: resizing
 published: True
 position: 3

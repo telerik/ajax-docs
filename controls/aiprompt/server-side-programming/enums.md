@@ -3,6 +3,7 @@ title: Enums
 page_title: AIPrompt Server-side Enums
 description: Server-side Enums of the Telerik WebForms AIPrompt component
 slug: aiprompt/server-side-programming/enums
+components: ["aiprompt"]
 tags: enums
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Case Sensitive Grouping
 page_title: Case Sensitive Grouping - RadGrid
 description: Check our Web Forms article about Case Sensitive Grouping.
 slug: grid/functionality/grouping/how-to/case-sensitive-grouping
+components: ["grid"]
 tags: case,sensitive,grouping
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: OnExcelMLExportStylesCreated
 page_title: OnExcelMLExportStylesCreated Event - RadGrid
 description: Check our Web Forms article about OnExcelMLExportStylesCreated Event.
 slug: grid/server-side-programming/events/onexcelmlexportstylescreated
+components: ["grid"]
 published: True
 position: 50
 ---

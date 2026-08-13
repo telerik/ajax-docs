@@ -3,6 +3,7 @@ title: Customizing Row Appearance
 page_title: Customizing Row Appearance - RadGrid
 description: Learn how to customize the appearance of rows in the Grid control for better data visualization.
 slug: grid/appearance-and-styling/customizing-row-appearance
+components: ["grid"]
 tags: customizing,row,appearance
 published: True
 position: 4
