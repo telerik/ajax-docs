@@ -37,6 +37,14 @@ Follow the steps below to create custom dropdown in-line in the editor's declara
 
 	To populate the items of the dropdown use the telerik:EditorDropDownItem inner tag of telerik:EditorDropDown. The **Name** attribute of the telerik:EditorDropDownItem tag represents the item name that will be rendered in the dropdown and the **Value** represents the value of the selected item.
 
+	The **ImageUrl** property of **EditorDropDown** sets the small toolbar icon when the editor uses RibbonBar mode. Set it to a URL or path that resolves to an image in the application, for example `ImageUrl="~/images/emoticons.png"`. It does not set an image for an individual dropdown item.
+
+	To display an image for an **EditorDropDownItem**, include an HTML `img` element in its **Name** attribute. The `src` can be an application-relative, relative, or absolute URL, and the **Value** can contain the image URL that your client-side command handler inserts into the editor. For example:
+
+	**ASP.NET**
+
+		<telerik:EditorDropDownItem Name="<img src='./Emoticons/smil1.gif' alt='Smile' />" Value="./Emoticons/smil1.gif" />
+
 1. To create and configure a custom dropdown dynamically on the server use the code below:
 
 	**C#**
