@@ -20,12 +20,19 @@ In order to enable the WAI-ARIA support, set the **RadRadioButtonList** control'
 
 ````ASP.NET
 <telerik:RadRadioButtonList runat="server" ID="RadRadioButtonList1" EnableAriaSupport="true">
+    <AriaSettings DescribedBy="radioButtonListDescription" Label="Preferred language" />
     <Items>
         <telerik:RadioButtonListItem Text="English" Selected="true" />
         <telerik:RadioButtonListItem Text="German" />
         <telerik:RadioButtonListItem Text="French" />
     </Items>
 </telerik:RadRadioButtonList>
+````
+
+The `Label` value is used for the `aria-label` attribute. The `DescribedBy` value must be the `id` of an element that contains additional descriptive text, such as the following:
+
+````ASP.NET
+<asp:Label ID="radioButtonListDescription" runat="server" Text="Select the language for the application." />
 ````
 
 >note The implementation of the WAI-ARIA support is achieved entirely on the client side (using JavaScript) by appending different attributes and appropriate WAI-ARIA roles to the DOM elements. This is done because an HTML document containing ARIA attributes will not pass validation if they are added on the server.
