@@ -120,18 +120,18 @@ You can set the following properties for a **ClientTemplate**:
 	* **PieSeries/DonutSeries** - Returns the value set in the **Name** property of the series item for a non-data bound chart and the corresponding value from the **NameField** column of the data source for a data bound chart.
 
 	
-	**ASP.NET**
-	
-		<LabelsAppearance>
-			<ClientTemplate>
-				Category: #=category#
-			</ClientTemplate>
-		</LabelsAppearance>
-		<TooltipsAppearance>
-			<ClientTemplate>
-				Category: #=category#
-			</ClientTemplate>
-		</TooltipsAppearance>
+	```ASP.NET
+	<LabelsAppearance>
+		<ClientTemplate>
+			Category: #=category#
+		</ClientTemplate>
+	</LabelsAppearance>
+	<TooltipsAppearance>
+		<ClientTemplate>
+			Category: #=category#
+		</ClientTemplate>
+	</TooltipsAppearance>
+	```
 
 * **dataItem** - Returns the original data item used to construct the point. You can see more information about using the **dataItem** object in a **ClientTemplate** in the previous section of this article — *Showing DataBase Values Using a ClientTemplate*.
 
@@ -151,106 +151,106 @@ You can set the following properties for a **ClientTemplate**:
 
 		* **custom string** - The string set in the **GroupName** property that clusters series in stacked groups.
 
-	**ASP.NET**
-
-		<LabelsAppearance>
-			<ClientTemplate>
-				Series Name: #=series.name# , Series Type: #=series.type# , Series Stack Status: #=series.stack #
-			</ClientTemplate>
-		</LabelsAppearance>
-		<TooltipsAppearance>
-			<ClientTemplate>
-				Series Name: #=series.name# <br/> 
-				Series Type: #=series.type# </br> 
-				Series Stack Status: #=series.stack #
-			</ClientTemplate>
-		</TooltipsAppearance>
+	```ASP.NET
+	<LabelsAppearance>
+		<ClientTemplate>
+			Series Name: #=series.name# , Series Type: #=series.type# , Series Stack Status: #=series.stack #
+		</ClientTemplate>
+	</LabelsAppearance>
+	<TooltipsAppearance>
+		<ClientTemplate>
+			Series Name: #=series.name# <br/> 
+			Series Type: #=series.type# </br> 
+			Series Stack Status: #=series.stack #
+		</ClientTemplate>
+	</TooltipsAppearance>
+	```
 
 * **value** - Returns the point value (either a number or an object).
 
 	* **BubbleSeries** - Returns an object that exposes three fields: x, y and size.
 
-		**ASP.NET**
-	
-			<LabelsAppearance>
-				<ClientTemplate>
-					X Value: #=value.x# , Y Value: #=value.y# , Size Value: #=value.size #
-				</ClientTemplate>
-			</LabelsAppearance>
-			<TooltipsAppearance>
-				<ClientTemplate>
-					X Value: #=value.x# <br/> 
-					Y Value: #=value.y# <br/> 
-					Size Value: #=value.size #
-				</ClientTemplate>
-			</TooltipsAppearance>
+		```ASP.NET
+		<LabelsAppearance>
+			<ClientTemplate>
+				X Value: #=value.x# , Y Value: #=value.y# , Size Value: #=value.size #
+			</ClientTemplate>
+		</LabelsAppearance>
+		<TooltipsAppearance>
+			<ClientTemplate>
+				X Value: #=value.x# <br/> 
+				Y Value: #=value.y# <br/> 
+				Size Value: #=value.size #
+			</ClientTemplate>
+		</TooltipsAppearance>
+		```
 
 
 	* **CandlestickSeries** - Returns an object that exposes four fields: open, high, low and close.
 
-		**ASP.NET**
-		
-			<TooltipsAppearance>
-				<ClientTemplate>
-					Open Value: #=value.open# <br/> 
-					High Value: #=value.high# <br/> 
-					Low Value: #=value.low # <br/> 
-					Close Value: #=value.close #
-				</ClientTemplate> 
-			</TooltipsAppearance>
+		```ASP.NET
+		<TooltipsAppearance>
+			<ClientTemplate>
+				Open Value: #=value.open# <br/> 
+				High Value: #=value.high# <br/> 
+				Low Value: #=value.low # <br/> 
+				Close Value: #=value.close #
+			</ClientTemplate> 
+		</TooltipsAppearance>
+		```
 
 	* **ScatterSeries** and **ScatterLineSeries** - Returns an object that exposes the x and y fields for the X-value and the Y-value of the item.
 
-		**ASP.NET**
-		
-			<LabelsAppearance>
-				<ClientTemplate>
-					X Value: #=value.x# , Y Value: #=value.y#
-				</ClientTemplate>
-			</LabelsAppearance>
-			<TooltipsAppearance>
-				<ClientTemplate>
-					X Value: #=value.x# <br/> 
-					Y Value: #=value.y#
-				</ClientTemplate>=""
-			</TooltipsAppearance>
+		```ASP.NET
+		<LabelsAppearance>
+			<ClientTemplate>
+				X Value: #=value.x# , Y Value: #=value.y#
+			</ClientTemplate>
+		</LabelsAppearance>
+		<TooltipsAppearance>
+			<ClientTemplate>
+				X Value: #=value.x# <br/> 
+				Y Value: #=value.y#
+			</ClientTemplate>=""
+		</TooltipsAppearance>
+		```
 
 	* **BoxPlot** - Returns an object that exposes the `lower`, `q1`, `median`, `mean`, `median`, `q3` and `upper` fields that contain the values from the corresponding fields of the series object.
 
-		**ASP.NET**
-		
-			<TooltipsAppearance>
-				<ClientTemplate>
-					<table cellpadding=7><tr><td><b>#= category #<br /> Lower: #=value.lower# <br /> Q1: #=value.q1# <br /> Median: #=value.median# <br /> Mean: #=value.mean# <br /> Q3: #=value.q3# <br /> Upper #=value.upper#</b></td></tr></table>
-				</ClientTemplate>=""
-			</TooltipsAppearance>
+		```ASP.NET
+		<TooltipsAppearance>
+			<ClientTemplate>
+				<table cellpadding=7><tr><td><b>#= category #<br /> Lower: #=value.lower# <br /> Q1: #=value.q1# <br /> Median: #=value.median# <br /> Mean: #=value.mean# <br /> Q3: #=value.q3# <br /> Upper #=value.upper#</b></td></tr></table>
+			</ClientTemplate>=""
+		</TooltipsAppearance>
+		```
 
 	* **BulletSeries** and **VerticalBulletSeries** - Returns an object that exposes the `current` and `target` fields that contain the values from the corresponding fields of the series item object.
 
-		**ASP.NET**
-		
-			<TooltipsAppearance>
-			    <ClientTemplate>
-			            current value is #=value.current#
-			            <br />
-			            desired value is: #=value.target#
-			    </ClientTemplate>
-			</TooltipsAppearance>
+		```ASP.NET
+		<TooltipsAppearance>
+		    <ClientTemplate>
+		            current value is #=value.current#
+		            <br />
+		            desired value is: #=value.target#
+		    </ClientTemplate>
+		</TooltipsAppearance>
+		```
 
 	* **Other Series Types** - Returns the Y value of the hovered series Item.
 
-		**ASP.NET**
-		
-			<LabelsAppearance>
-				<ClientTemplate>
-					Y Value: #=value#
-				</ClientTemplate>
-			</LabelsAppearance>
-			<TooltipsAppearance>
-				<ClientTemplate>
-					Y Value: #=value#
-				</ClientTemplate> 
-			</TooltipsAppearance>
+		```ASP.NET
+		<LabelsAppearance>
+			<ClientTemplate>
+				Y Value: #=value#
+			</ClientTemplate>
+		</LabelsAppearance>
+		<TooltipsAppearance>
+			<ClientTemplate>
+				Y Value: #=value#
+			</ClientTemplate> 
+		</TooltipsAppearance>
+		```
 
 ## See Also
 

@@ -316,9 +316,8 @@ This topic contains the following sections.
 
 1. Add your new template to the **RadWindowManager**. For example:
 
-	**ASP.NET**
-	    
-		<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
+	```ASP.NET
+	<telerik:RadWindowManager ID="RadWindowManager1" runat="server">
 			<AlertTemplate>
 				<div class="rwDialogPopup radalert">
 					<div class="rwDialogText">
@@ -331,7 +330,8 @@ This topic contains the following sections.
 					</div>
 				</div>
 			</AlertTemplate>
-		</telerik:RadWindowManager>
+	</telerik:RadWindowManager>
+	```
 
 ## Changing the Templates through the Code-Behind
 
@@ -343,9 +343,8 @@ The second way to change the template that the **RadWindowManager** in your appl
 
 1. In the AlertTemplate.ascx file, design your new template. For example
 
-	**ASP.NET**
-		
-		<%@  control language="C#" classname="AlertTemplate" %>
+	```ASP.NET
+	<%@  control language="C#" classname="AlertTemplate" %>
 		<div class="rwDialogPopup radalert">
 			<div class="rwDialogText">
 				{1}
@@ -355,53 +354,54 @@ The second way to change the template that the **RadWindowManager** in your appl
 					<span class="rwOuterSpan"><span class="rwInnerSpan">##LOC[OK]##</span> </span>
 				</a>
 			</div>
-		</div>
+	</div>
+	```
 
 1. Each of the Template properties is an ITemplate type. Implement an ITemplate class to load the new Web User Control that you defined. This class gains a reference to the web page in its constructor. The implementation of the one ITemplate method, **InstantiateIn**(), then loads the Web User Control onto that page and adds it to the supplied owner:
 
-	**C#**
-	
-		class AlertTemplate : ITemplate
+	```C#
+	class AlertTemplate : ITemplate
+	{
+		private Page _page;
+		public AlertTemplate(Page page)
 		{
-			private Page _page;
-			public AlertTemplate(Page page)
-			{
-				this._page = page;
-			}
-			void ITemplate.InstantiateIn(Control owner)
-			{
-				Control ctrl = _page.LoadControl("AlertTemplate.ascx");
-				owner.Controls.Add(ctrl);
-			}
-		} 
+			this._page = page;
+		}
+		void ITemplate.InstantiateIn(Control owner)
+		{
+			Control ctrl = _page.LoadControl("AlertTemplate.ascx");
+			owner.Controls.Add(ctrl);
+		}
+	} 
+	```
 	
-	**VB**	
-	
-	    Class AlertTemplate
-	        Implements ITemplate
-	        Private _page As Page
-	        Public Sub New(ByVal page As Page)
-	            Me._page = page
-	        End Sub
-	        Sub InstantiateIn(ByVal owner As Control) Implements ITemplate.InstantiateIn
-	            Dim ctrl As Control = _page.LoadControl("AlertTemplate.ascx")
-	            owner.Controls.Add(ctrl)
-	        End Sub
-	    End Class
+	```VB
+	Class AlertTemplate
+	    Implements ITemplate
+	    Private _page As Page
+	    Public Sub New(ByVal page As Page)
+	        Me._page = page
+	    End Sub
+	    Sub InstantiateIn(ByVal owner As Control) Implements ITemplate.InstantiateIn
+	        Dim ctrl As Control = _page.LoadControl("AlertTemplate.ascx")
+	        owner.Controls.Add(ctrl)
+	    End Sub
+	End Class
+	```
 
 1. In the **Page_Load** event handler of the page that contains your **RadWindowManager**, create an instance of your new ITemplate class and assign the instance as the value of the appropriate template property:
 
-	**C#**
+	```C#
+	protected void Page_Load(object sender, EventArgs e)
+	{
+		this.RadWindowManager1.AlertTemplate = new AlertTemplate(this.Page);
+	} 
+	```
 	
-		protected void Page_Load(object sender, EventArgs e)
-		{
-			this.RadWindowManager1.AlertTemplate = new AlertTemplate(this.Page);
-		} 
-	
-	**VB**
-	
-	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-	        Me.RadWindowManager1.AlertTemplate = New AlertTemplate(Me.Page)
-	    End Sub
+	```VB
+	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+	    Me.RadWindowManager1.AlertTemplate = New AlertTemplate(Me.Page)
+	End Sub
+	```
 
 

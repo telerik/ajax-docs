@@ -79,17 +79,17 @@ Before continuing with the multiple window example, you need to create a dialog 
 
 1. Move to the **Source** view and change the title for this form to **"My Dialog"**. The markup should look similar to this:
 
-	**ASP.NET**	     
-	
-		<head runat="server">
-		  <title>My Dialog</title>
-		</head>
-		<body>
-		  <form id="form1" runat="server">
-		  <div>
-			My dialog content here...</div>
-		  </form>
-		</body>
+	```ASP.NET
+	<head runat="server">
+	  <title>My Dialog</title>
+	</head>
+	<body>
+	  <form id="form1" runat="server">
+	  <div>
+		My dialog content here...</div>
+	  </form>
+	</body>
+	```
 
 
 ## Launching Windows from Another Control

@@ -48,7 +48,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 	**Example 1**
 
 
-	**ASP.NET**
+	```ASP.NET
 
 		<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowFilteringByColumn="True" runat="server" FilterType="Combined"
 		    AllowPaging="True" OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested"
@@ -79,8 +79,9 @@ To specify what values will be displayed in the ListBox control you need to defi
 		</telerik:RadGrid>
 		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 		    SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
+	```
 
-	**C#**
+	```C#
 
 		protected void RadGrid1_FilterCheckListItemsRequested(object sender, GridFilterCheckListItemsRequestedEventArgs e)
 		{
@@ -115,8 +116,9 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 		    return myDataTable;
 		}
+	```
 
-	**VB**
+	```VB
 
 		Protected Sub RadGrid1_FilterCheckListItemsRequested(sender As Object, e As GridFilterCheckListItemsRequestedEventArgs)
 		    Dim DataField As String = TryCast(e.Column, IGridDataColumn).GetActiveDataField()
@@ -146,6 +148,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 		    Return myDataTable
 		End Function
+	```
 
 
 2. By providing a path to a **Web Service** which will provide the data. You specify the path using the **CheckListWebServicePath** property of RadGrid. Beside that you may need to set the name of the method that will provide the actual data to the ListBox control using the **FilterCheckListWebServiceMethod** property if	you have more than one method defined in your web service. (See Example 2)
@@ -154,7 +157,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 
 
-	**ASP.NET**
+	```ASP.NET
 
 		<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid2" AllowFilteringByColumn="true" FilterType="CheckList"
 		    AllowPaging="true" PagerStyle-AlwaysVisible="true" AllowSorting="true">
@@ -193,8 +196,9 @@ To specify what values will be displayed in the ListBox control you need to defi
 		<asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 		    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server">
 		</asp:SqlDataSource>
+	```
 
-	**C#**
+	```C#
 
 		[ServiceKnownType(typeof(Customer))]
 		[ServiceContract(Namespace = "")]
@@ -326,8 +330,8 @@ To specify what values will be displayed in the ListBox control you need to defi
 		        public string Phone { get; set; }
 		    }
 		}
-
-	**VB**
+	```
+	```VB
 
 		<ServiceKnownType(GetType(Customer))> _
 		<ServiceContract([Namespace]:="")> _
@@ -504,6 +508,8 @@ To specify what values will be displayed in the ListBox control you need to defi
 		End Class
 
 
+
+	```
 
 ## FilterType HeaderContext
 

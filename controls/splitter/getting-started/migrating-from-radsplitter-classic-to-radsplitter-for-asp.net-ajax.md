@@ -22,35 +22,35 @@ To migrate a Web application from **RadSplitter** "Classic" to **RadSplitter** f
 
 1. Replace the classic **RadSplitter** directive
 
-	**ASP.NET**
-	
-		<%@ Register Assembly="RadSplitter.Net2" Namespace="Telerik.WebControls" TagPrefix="RadSpl" %>
+	```ASP.NET
+	<%@ Register Assembly="RadSplitter.Net2" Namespace="Telerik.WebControls" TagPrefix="RadSpl" %>
+	```
 
 	with the new one of **RadSplitter** for ASP.NET AJAX:
 
-	**ASP.NET**
-	
-		<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+	```ASP.NET
+	<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+	```
 
 1. Replace the classic **RadSplitter** controls declarations:
 
-	**ASP.NET**
-	     
-		<RadSpl:RadSplitter id="RadSplitter1" runat="server"/>
-		<RadSpl:RadPane id="RadPane1" runat="server"/>
-		<RadSpl:RadSplitBar id="RadSplitBar1" runat="server"/>
-		<RadSpl:RadSlidingZone id="RadSliding1" runat="server"/>
-		<RadSpl:RadSlidingPane id="RadSlidingPane1" runat="server"/>
+	```ASP.NET
+	<RadSpl:RadSplitter id="RadSplitter1" runat="server"/>
+	<RadSpl:RadPane id="RadPane1" runat="server"/>
+	<RadSpl:RadSplitBar id="RadSplitBar1" runat="server"/>
+	<RadSpl:RadSlidingZone id="RadSliding1" runat="server"/>
+	<RadSpl:RadSlidingPane id="RadSlidingPane1" runat="server"/>
+	```
 				
 	with the new **RadSplitter** declarations:
 
-	**ASP.NET**
-	     
-		<telerik:RadSplitter RenderMode="Lightweight" id="RadSplitter1" runat="server"/>
-		<telerik:RadPane id="RadPane1" runat="server"/>
-		<telerik:RadSplitBar id="RadSplitBar1" runat="server"/>
-		<telerik:RadSlidingZone id="RadSlidingZone1" runat="server"/>
-		<telerik:RadSlidingPane id="RadSlidingPane1" runat="server"/>
+	```ASP.NET
+	<telerik:RadSplitter RenderMode="Lightweight" id="RadSplitter1" runat="server"/>
+	<telerik:RadPane id="RadPane1" runat="server"/>
+	<telerik:RadSplitBar id="RadSplitBar1" runat="server"/>
+	<telerik:RadSlidingZone id="RadSlidingZone1" runat="server"/>
+	<telerik:RadSlidingPane id="RadSlidingPane1" runat="server"/>
+	```
 
 
 

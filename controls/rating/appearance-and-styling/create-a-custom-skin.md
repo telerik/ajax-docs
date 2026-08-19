@@ -44,14 +44,14 @@ In order to explain better the CSS classes of RadRating, we will use both **Rati
 
 1. Add a new server declaration of RadRating on your page, and set Skin="MyCustomSkin", EnableEmbeddedSkins="false" and EnableEmbeddedBasestylesheet="false":
 
-	**ASP.NET**
-
-		<telerik:RadRating RenderMode="Lightweight" 
-			ID="RadRating1" 
-			runat="server" 
-			Skin="MyCustomSkin" 
-			EnableEmbeddedSkins="false"
-			EnableEmbeddedBaseStylesheet="false" />
+	```ASP.NET
+	<telerik:RadRating RenderMode="Lightweight" 
+		ID="RadRating1" 
+		runat="server" 
+		Skin="MyCustomSkin" 
+		EnableEmbeddedSkins="false"
+		EnableEmbeddedBaseStylesheet="false" />
+	```
 
 1. Register **Rating.css** and **Rating.MyCustomSkin.css** in the <head>...</head> section of your webpage. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:(Make sure the paths to the files are correct; otherwise the skin will not apply correctly)
 

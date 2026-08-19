@@ -16,11 +16,11 @@ Upload files larger than 4096 kilobytes using Telerik RadEditor
 
 1. Set the desired max file size in the editor declaration in the aspx/ascx file:
 
-	**ASP.NET**
-
-		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
-			<ImageManager ViewPaths="~/Images" UploadPaths="~/Images" MaxUploadFileSize="7100000" />
-		</telerik:RadEditor>
+	```ASP.NET
+	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
+		<ImageManager ViewPaths="~/Images" UploadPaths="~/Images" MaxUploadFileSize="7100000" />
+	</telerik:RadEditor>
+	```
 
 2. By default, the maximum size of a file to be uploaded to the server using ASP.NET is around 4MB even if you have set **MaxUploadFileSize** > 4MB, due to security restrictions of the ASP.NET Framework. To set a larger size limit, you should make some changes in either the **web.config** file or in the **machine.config**.
 

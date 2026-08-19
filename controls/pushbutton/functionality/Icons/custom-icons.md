@@ -56,25 +56,25 @@ You can use custom font icons in **RadPushButton** as well. To do that, follow t
 
 1. Load the stylesheet with the desired font icons on the page.
 
-	**CSS**
-
-		<link rel="stylesheet" href="myCustomFontStyleSheet.css" />
+	```CSS
+	<link rel="stylesheet" href="myCustomFontStyleSheet.css" />
+	```
 
 1. Override the font-family of the button's icon element with the target one (see **Example 3**).
 
-	**CSS**
-
-		button.RadButton .rbIcon:before {
-			font-family: myCustomFont;
-		}
+	```CSS
+	button.RadButton .rbIcon:before {
+		font-family: myCustomFont;
+	}
+	```
 
 1. Set the custom font icon class to the **Icon.CssClass** property.
 
-	**ASP.NET**
-
-		<telerik:RadPushButton ID="RadButton1" runat="server" Text="Button With Custom Font Icon">
-			<Icon CssClass="myCustomFontIconClass" />
-		</telerik:RadPushButton>
+	```ASP.NET
+	<telerik:RadPushButton ID="RadButton1" runat="server" Text="Button With Custom Font Icon">
+		<Icon CssClass="myCustomFontIconClass" />
+	</telerik:RadPushButton>
+	```
 
 You can find below an example with [Font Awesome Icons](https://github.com/FortAwesome/Font-Awesome).
 

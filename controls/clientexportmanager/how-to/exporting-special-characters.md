@@ -62,73 +62,45 @@ Here is a process of how to define a font that contains the desired symbols for 
 
 1. Add the font to the **PdfSettings.Fonts** collection. 
 
-    **C#**
+    ```C#
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        RadClientExportManager1.PdfSettings.Fonts.Add("Arial Unicode MS", "Fonts/ArialUnicodeMS.ttf");
+    }
+    ```
 
-        protected void Page_Load(object sender, EventArgs e)
-        {
-            RadClientExportManager1.PdfSettings.Fonts.Add("Arial Unicode MS", "Fonts/ArialUnicodeMS.ttf");
-        }
-
-    **VB**
-
+    ```VB
     Protected Sub Page_Load(sender As Object, e As EventArgs)
         RadClientExportManager1.PdfSettings.Fonts.Add("Arial Unicode MS", "Fonts/ArialUnicodeMS.ttf")
     End Sub
+    ```
 
 1. Apply the font to the `<div>` "foo":
 
-    **CSS**
-
-        #foo {
-            font-family: 'Arial Unicode MS';
-            background-color: grey;
-            color: white;
-        }
+    ```CSS
+    #foo {
+        font-family: 'Arial Unicode MS';
+        background-color: grey;
+        color: white;
+    }
+    ```
 
 1. Export the `<div>`:
 
-    **ASP.NET**
+    ```ASP.NET
+    <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+        <pdfsettings filename="Myfile.pdf" />
+    </telerik:RadClientExportManager>
+    <input type="button" onclick="exportElement()" value="export" />
 
-        <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-            <pdfsettings filename="Myfile.pdf" />
-        </telerik:RadClientExportManager>
-        <input type="button" onclick="exportElement()" value="export" />
+    <script type="text/javascript">
+        function exportElement() {
+            var exp = $find("<%= RadClientExportManager1.ClientID %>");
+            exp.exportPDF($telerik.$("#foo"));
+        }
+    </script>
+    ```
 
-        <script type="text/javascript">
-            function exportElement() {
-                var exp = $find("<%= RadClientExportManager1.ClientID %>");
-                exp.exportPDF($telerik.$("#foo"));
-            }
-        </script>
-
-
-1. **Result**: The special characters are correctly exported and visible in the PDF file:
-
-    ![Special Characters Exported](images/clientexportmanager-special-characters-exported.png)
-
-
->important Some of the popular fonts (Segoe UI, Arial Unicode MS, Noto Serif) by default do not support the bold font. In the browser you see it working since there are many fonts the browser can fall back to, however, the exported content is not able to fall back to any font.
-To be able to export the bold text, you will need to add the bold font to the collection. Bold font for Segoe and bold font for Arial Unicode, etc.
->
-
-## Tips on defining fonts
-
-Defining a `@font-face` element in the CSS of the page is equivalent to populating the `Fonts` collection. For example:
-
-````CSS
-@font-face {
-   font-family: 'Arial Unicode MS';
-   src: url('Fonts/Arial Unicode MS.ttf');
-}
-````
-
-You can define the special font for the global PDF export through specific CSS classes that are added to it. This means you can have it rendered on the page according to the page/browser styleshets and only change the font for export without any additional code in your markup.
- 
-````CSS
- .k-pdf-export, .k-pdf-export * {
-    font-family: 'Arial Unicode MS';
- }
-````
 
 
 

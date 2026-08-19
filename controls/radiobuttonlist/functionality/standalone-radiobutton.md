@@ -29,55 +29,55 @@ These steps illustrate how to include a single **RadRadioButton**, handle the cl
 
 1. In the default page of a new ASP.NET AJAX-enabled Web Application, add a **RadRadioButton** control:
 	
-	**ASP.NET**
-
-		<telerik:RadRadioButton runat="server" ID="RadioButton1" />
+    ```ASP.NET
+    <telerik:RadRadioButton runat="server" ID="RadioButton1" />
+    ```
 
 1. Set the `Text` and `Value` properties to some desired values:
 
-	**ASP.NET**
-
-		<telerik:RadRadioButton runat="server" ID="RadioButton1" Value="radio" Text="Radio Button" />
+    ```ASP.NET
+    <telerik:RadRadioButton runat="server" ID="RadioButton1" Value="radio" Text="Radio Button" />
+    ```
 
 1. To handle the client-side `clicking` event, assign a JavaScript function to the `OnClientClicking` property:
 
-	**ASP.NET**
-
-		<telerik:RadRadioButton runat="server" ID="RadioButton1" Value="radio" Text="Radio Button" 
-			OnClientClicking="OnClientClicking" />
-		
-		<script>
-			function OnClientClicking(sender, args) {
-				args.set_cancel(!confirm("Are you sure?"));
-			}
-		</script>
+    ```ASP.NET
+    <telerik:RadRadioButton runat="server" ID="RadioButton1" Value="radio" Text="Radio Button" 
+        OnClientClicking="OnClientClicking" />
+	
+    <script>
+        function OnClientClicking(sender, args) {
+            args.set_cancel(!confirm("Are you sure?"));
+        }
+    </script>
+    ```
 
 1. To handle the server-side `CheckedChange` event, assign a server-side function to the `OnCheckedChanged` property:
 
-	**ASP.NET**
+    ```ASP.NET
+    <telerik:RadRadioButton runat="server" ID="RadioButton1" Value="radio" Text="Radio Button" 
+        OnClientClicking="OnClientClicking"
+        OnCheckedChanged="RadioButton1_CheckedChanged" />
+	
+    <script>
+        function OnClientClicking(sender, args) {
+            args.set_cancel(!confirm("Are you sure?"));
+        }
+    </script>
+    ```
 
-		<telerik:RadRadioButton runat="server" ID="RadioButton1" Value="radio" Text="Radio Button" 
-			OnClientClicking="OnClientClicking"
-			OnCheckedChanged="RadioButton1_CheckedChanged" />
-		
-		<script>
-			function OnClientClicking(sender, args) {
-				args.set_cancel(!confirm("Are you sure?"));
-			}
-		</script>
+    ```C#
+    protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
+    {
+        Response.Write("You selected this Radio Button");
+    }
+    ```
 
-	**C#**
-
-		protected void RadioButton1_CheckedChanged(object sender, EventArgs e)
-		{
-			Response.Write("You selected this Radio Button");
-		}
-
-	**VB**
-
-		Protected Sub RadioButton1_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs)
-			Response.Write("You selected this Radio Button")
-		End Sub
+    ```VB
+    Protected Sub RadioButton1_CheckedChanged(ByVal sender As Object, ByVal e As EventArgs)
+        Response.Write("You selected this Radio Button")
+    End Sub
+    ```
 
 ## Programming
 

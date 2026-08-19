@@ -30,19 +30,19 @@ You can configure a common step for all the base units through the following pro
 	 
 	>caption Example 1: Date axis with BaseUnitStep set to 3 shown in Figure 1.
 		 
-	**ASP.NET**
-
-		<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600" Height="400">
-			<PlotArea>
-				<XAxis BaseUnitStep="3" DataLabelsField="SellDate">
-					<LabelsAppearance RotationAngle="45" DataFormatString="d"></LabelsAppearance>
-				</XAxis>
-				<Series>
-					<telerik:LineSeries Name="Series 1" DataFieldY="SellQuantity">
-					</telerik:LineSeries>
-				</Series>
-			</PlotArea>
-		</telerik:RadHtmlChart>
+	```ASP.NET
+	<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600" Height="400">
+		<PlotArea>
+			<XAxis BaseUnitStep="3" DataLabelsField="SellDate">
+				<LabelsAppearance RotationAngle="45" DataFormatString="d"></LabelsAppearance>
+			</XAxis>
+			<Series>
+				<telerik:LineSeries Name="Series 1" DataFieldY="SellQuantity">
+				</telerik:LineSeries>
+			</Series>
+		</PlotArea>
+	</telerik:RadHtmlChart>
+	```
 		
 	*Chart data source can be obtained from Example 2 below.*
 
@@ -133,7 +133,7 @@ You can see how the **BaseUnit** property and the corresponding **BaseUnitStep**
 
 >caption Example 3: Setting arrays of steps for different units (e.g., "Months" and "Days"). The output is shown in Figure 3.1.
 
-**ASP.NET**
+```ASP.NET
 
 	<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="600" Height="400">
 		<PlotArea>
@@ -156,6 +156,7 @@ You can see how the **BaseUnit** property and the corresponding **BaseUnitStep**
 			</Series>
 		</PlotArea>
 	</telerik:RadHtmlChart>
+```
 
 *Chart data source can be obtained from Example 2 above.*
 

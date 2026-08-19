@@ -42,18 +42,18 @@ The following steps demonstrate how to create a new language pack for **RadImage
 
 1. Set the RadImageEditor’s Language property to the corresponding language:
 
-	**ASP.NET**
+	```ASP.NET
+	<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" Language="bg-BG">
+	</telerik:RadImageEditor>
+	```
 
-		<telerik:RadImageEditor RenderMode="Lightweight" runat="server" ID="RadImageEditor1" Language="bg-BG">
-		</telerik:RadImageEditor>
+	```C#
+	RadImageEditor1.Language = "bg-BG";
+	```
 
-	**C#**
-
-		RadImageEditor1.Language = "bg-BG";
-
-	**VB**
-
-		RadImageEditor1.Language = "bg-BG"
+	```VB
+	RadImageEditor1.Language = "bg-BG"
+	```
 
 
 

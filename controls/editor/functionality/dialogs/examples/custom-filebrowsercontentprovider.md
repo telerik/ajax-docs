@@ -26,31 +26,31 @@ The steps to implement a custom **FileBrowserContentProvider** are:
 
 1. Set the dialog's property *[ContentProviderTypeName](https://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html)* e.g. *RadEditor1.ImageManager.ContentProviderTypeName* = "**DatabaseFileBrowser, EditorWebApp"** where the value of the property [ContentProviderTypeName](https://www.telerik.com/help/aspnet-ajax/p_telerik_web_ui_filemanagerdialogconfiguration_contentprovidertypename.html) should be the qualified assembly name of your custom content provider. The general format of the assembly name should be **"Full.Class.Name.Including.The.Namespace, Assembly.Name"**. For example if your content provider class is in a separate project and is declared like this:
 
-	**C#**
-
-		using Telerik.Web.UI.Widgets;
-		
-		namespace RadEditorCustomProvider
-		{
-			public class MyContentProvider : FileBrowserContentProvider  
-			{    
-				//...override base methods  
-			}
-		}
-				
-	**VB**
+	```C#
+	using Telerik.Web.UI.Widgets;
 	
-		Imports Telerik.Web.UI.Widgets
-		
-		Namespace RadEditorCustomProvider
-		
-		
-				Public Class MyContentProvider
-					Inherits FileBrowserContentProvider
-					' ...override base methods 
-				End Class
-		
-		End Namespace
+	namespace RadEditorCustomProvider
+	{
+		public class MyContentProvider : FileBrowserContentProvider  
+		{    
+			//...override base methods  
+		}
+	}
+	```
+	
+	```VB
+	Imports Telerik.Web.UI.Widgets
+	
+	Namespace RadEditorCustomProvider
+	
+	
+			Public Class MyContentProvider
+				Inherits FileBrowserContentProvider
+				' ...override base methods 
+			End Class
+	
+	End Namespace
+	```
 	
 
 ...when it is compiled in the **ContentProviders.dll** assembly, you should set the following value:
@@ -105,25 +105,25 @@ To get started implementing FileBrowserContentProvider:
 
 1. Add a constructor with the signature shown in the code example below. The constructor provides basic dialog and path information.The "Context" parameter allows you to access the current HTTP state including the HTTP Request object:
 
-	**C#**
-	     
-		public MyFileBrowserContentProvider(HttpContext context, string[] searchPatterns, string[] viewPaths, string[] uploadPaths, string[] deletePaths, string selectedUrl, string selectedItemTag)    
-			:    base(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
-		{
-		}
-				
+	```C#
+	public MyFileBrowserContentProvider(HttpContext context, string[] searchPatterns, string[] viewPaths, string[] uploadPaths, string[] deletePaths, string selectedUrl, string selectedItemTag)    
+		:    base(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
+	{
+	}
+	```
+	
 	in VB.NET:
 
-	**VB**
+	```VB
+	Imports Telerik.Web.UI.Widgets
 
-		Imports Telerik.Web.UI.Widgets
-
-			Public MustInherit Class MyFileBrowserContentProvider
-				Inherits FileBrowserContentProvider
-				Public Sub New(ByVal context As HttpContext, ByVal searchPatterns As String(), ByVal viewPaths As String(), ByVal uploadPaths As String(), ByVal deletePaths As String(), ByVal selectedUrl As String, ByVal selectedItemTag As String)
-					MyBase.New(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
+		Public MustInherit Class MyFileBrowserContentProvider
+			Inherits FileBrowserContentProvider
+			Public Sub New(ByVal context As HttpContext, ByVal searchPatterns As String(), ByVal viewPaths As String(), ByVal uploadPaths As String(), ByVal deletePaths As String(), ByVal selectedUrl As String, ByVal selectedItemTag As String)
+				MyBase.New(context, searchPatterns, viewPaths, uploadPaths, deletePaths, selectedUrl, selectedItemTag)
 			End Sub
 		End Class
+	```
 
 
 From this starting point you can implement the FileBrowserContentProvider methods to suit your particular purpose. See [Custom File Dialogs Content Provider LiveDemo](https://demos.telerik.com/aspnet-ajax/editor/examples/dbfilebrowsercontentprovider/defaultcs.aspx) for a running example.

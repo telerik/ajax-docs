@@ -43,15 +43,14 @@ The following example illustrates how client-side events work.
 
 1. Go to the source view, and add the following code to the markup of your page:
 
-	**JavaScript**
-	
-		/**********************************************************
-		Window Events
-		**********************************************************/
-		function OnClientCommand(sender, eventArgs)
-		{
-			logEvent("<strong>OnClientCommand</strong>: Command is " + eventArgs.get_commandName());
-		}
+	```JavaScript
+	/**********************************************************
+	Window Events
+	**********************************************************/
+	function OnClientCommand(sender, eventArgs)
+	{
+		logEvent("<strong>OnClientCommand</strong>: Command is " + eventArgs.get_commandName());
+	}
 
 
 		function OnClientResizeEnd(sender, eventArgs)
@@ -122,12 +121,13 @@ The following example illustrates how client-side events work.
 		/**********************************************************
 		Helper
 		**********************************************************/
-		function LogEvent(eventString)
-		{
-			var d = new Date();
-			var dateStr = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "." + d.getMilliseconds();
-			document.getElementById("eventConsole").innerHTML = "[" + dateStr + "] " + eventString + "<br/>" + document.getElementById("eventConsole").innerHTML;
-		}
+	function LogEvent(eventString)
+	{
+		var d = new Date();
+		var dateStr = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "." + d.getMilliseconds();
+		document.getElementById("eventConsole").innerHTML = "[" + dateStr + "] " + eventString + "<br/>" + document.getElementById("eventConsole").innerHTML;
+	}
+	```
 
 	This markup first defines some JavaScript functions: a helper function called LogEvent which writes information about the event to a `<div>` element on the page (in the sample above its ID is "eventConsole") and a set of 12 event handlers (the OnClientResize would flood the console, this is why we leave it out), each of which takes two arguments and calls LogEvent to display information about the event. After the `<script>` section, the markup adds two links to the page for opening the windows, and a `<div>` section to display the information written by the `LogEvent` function.
 

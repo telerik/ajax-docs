@@ -18,40 +18,40 @@ The example below shows how to obtain the current selection using a custom butto
 
 1. Add the custom CustomSelectionTool button to the editor toolbar:
 
-	**ASP.NET**
-	
-		<style type="text/css">
-			.reToolbar.Default .CustomSelectionTool
-			{
-				background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/Custom.gif);
-			}
-		</style>
-		...
-		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
-			<Tools>
-				<telerik:EditorToolGroup>
-					<telerik:EditorTool Name="CustomSelectionTool" />
-				</telerik:EditorToolGroup>
-			</Tools>
-			<Content>        
-				sample lowercase content    
-			</Content>
-		</telerik:RadEditor>
+	```ASP.NET
+	<style type="text/css">
+		.reToolbar.Default .CustomSelectionTool
+		{
+			background-image: url(https://www.telerik.com/DEMOS/ASPNET/RadControls/Editor/Skins/Default/buttons/Custom.gif);
+		}
+	</style>
+	...
+	<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
+		<Tools>
+			<telerik:EditorToolGroup>
+				<telerik:EditorTool Name="CustomSelectionTool" />
+			</telerik:EditorToolGroup>
+		</Tools>
+		<Content>        
+			sample lowercase content    
+		</Content>
+	</telerik:RadEditor>
+	```
 
 
 1. Add the CustomSelectionTool javascript command under the editor declaration in your aspx / ascx:
 
-	**JavaScript**
-			 
-		Telerik.Web.UI.Editor.CommandList["CustomSelectionTool"] = function(commandName, editor, args)
-		{   
-			// To get the selected Html   
-			var currentSelectedHtml = editor.getSelectionHtml();   
-			// Convert it to upper case   
-			currentSelectedHtml = currentSelectedHtml.toUpperCase();
-			// To insert a Html portion at the current cursor position, you can use:   
-			editor.pasteHtml(currentSelectedHtml);
-		};
+	```JavaScript
+	Telerik.Web.UI.Editor.CommandList["CustomSelectionTool"] = function(commandName, editor, args)
+	{   
+		// To get the selected Html   
+		var currentSelectedHtml = editor.getSelectionHtml();   
+		// Convert it to upper case   
+		currentSelectedHtml = currentSelectedHtml.toUpperCase();
+		// To insert a Html portion at the current cursor position, you can use:   
+		editor.pasteHtml(currentSelectedHtml);
+	};
+	```
 
 
 

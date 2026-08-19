@@ -25,112 +25,111 @@ The following steps describe how to configure RadXmlHttpPanel so that it can use
 	* If WcfRequestMethod = "POST" the Value property should be set to "{"country": "value"}" or '{"country":"value"}'.
 	* If WcfRequestMethod = "GET" the Value property should be set to "country=value".
 
-		**ASP.NET**
-
-			<telerik:RadXmlHttpPanel runat="server" ID="XmlHttpPanelWCF"
-				Value="{&quot;country&quot;:&quot;Argentina&quot;}"
-				WcfServicePath="XmlHttpPanelWcfService.svc"
-				WcfServiceMethod="GetCustomersByCountry"
-				WcfRequestMethod="POST">
-			</telerik:RadXmlHttpPanel>
+		```ASP.NET
+		<telerik:RadXmlHttpPanel runat="server" ID="XmlHttpPanelWCF"
+			Value="{&quot;country&quot;:&quot;Argentina&quot;}"
+			WcfServicePath="XmlHttpPanelWcfService.svc"
+			WcfServiceMethod="GetCustomersByCountry"
+			WcfRequestMethod="POST">
+		</telerik:RadXmlHttpPanel>
+		```
 
 1. Define the Contracts of the WCF Service in an interface
 
-	**C#**
+	```C#
+	[ServiceContract]
+	public interface IXmlHttpPanelWcfService
+	{
+	    [OperationContract]
+	    [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
+	    string GetCustomersByCountry(string country);
+	}
+	```
 	
-	    [ServiceContract]
-	    public interface IXmlHttpPanelWcfService
-	    {
-	        [OperationContract]
-	        [WebInvoke(Method = "POST", BodyStyle = WebMessageBodyStyle.Wrapped, ResponseFormat = WebMessageFormat.Json)]
-	        string GetCustomersByCountry(string country);
-	    }
-	
-	**VB**
-	
-	    <ServiceContract()> _
-	    Public Interface IXmlHttpPanelWcfService
-	        <OperationContract()> _
-	        <WebInvoke(Method:="POST", BodyStyle:=WebMessageBodyStyle.Wrapped, ResponseFormat:=WebMessageFormat.Json)> _
-	        Function GetCustomersByCountry(ByVal country As String) As String
-	    End Interface
+	```VB
+	<ServiceContract()> _
+	Public Interface IXmlHttpPanelWcfService
+	    <OperationContract()> _
+	    <WebInvoke(Method:="POST", BodyStyle:=WebMessageBodyStyle.Wrapped, ResponseFormat:=WebMessageFormat.Json)> _
+	    Function GetCustomersByCountry(ByVal country As String) As String
+	End Interface
+	```
 	
 1. Implement the contract in the WCF Service class:
 
-	**C#**
+	```C#
+	[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
+	public class XmlHttpPanelWcfService : IXmlHttpPanelWcfService
+	{
+	    public string GetCustomersByCountry(string country)
+	    {
+	        return "The content of XmlHttpPanel";
+	    }
+	}
+	```
 	
-		[AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
-		public class XmlHttpPanelWcfService : IXmlHttpPanelWcfService
-		{
-		    public string GetCustomersByCountry(string country)
-		    {
-		        return "The content of XmlHttpPanel";
-		    }
-		}
-	
-	**VB**
-	
-		<AspNetCompatibilityRequirements(RequirementsMode:=AspNetCompatibilityRequirementsMode.Allowed)> _
-		Public Class XmlHttpPanelWcfService
-		    Implements IXmlHttpPanelWcfService
-		    Public Function GetCustomersByCountry(ByVal country As String) As String
-		        Return "The content of XmlHttpPanel"
-		    End Function
-		End Class
+	```VB
+	<AspNetCompatibilityRequirements(RequirementsMode:=AspNetCompatibilityRequirementsMode.Allowed)> _
+	Public Class XmlHttpPanelWcfService
+	    Implements IXmlHttpPanelWcfService
+	    Public Function GetCustomersByCountry(ByVal country As String) As String
+	        Return "The content of XmlHttpPanel"
+	    End Function
+	End Class
+	```
 	
 1. Define the configuration in web.config:
 
-	**XML**
-
-		<configuration>
-		    <system.serviceModel>
-		        <behaviors>
-		            <serviceBehaviors>
-		                <behavior name="XmlHttpPanelWcfBehavior">
-		                    <serviceMetadata httpGetEnabled="true" />
-		                    <serviceDebug includeExceptionDetailInFaults="true" />
-		                </behavior>
-		            </serviceBehaviors>
-		            <endpointBehaviors>
-		                <behavior name="XmlHttpPanelWcfBehavior">
-		                    <webHttp />
-		                </behavior>
-		            </endpointBehaviors>
-		        </behaviors>
-		        <services>
-		            <service behaviorConfiguration="XmlHttpPanelWcfBehavior" name="XmlHttpPanelWcfService">
-		                <endpoint address="" binding="webHttpBinding" contract="IXmlHttpPanelWcfService" behaviorConfiguration="XmlHttpPanelWcfBehavior"/>
-		            </service>
-		        </services>
-		    </system.serviceModel>
-		</configuration>
-		
+	```XML
+	<configuration>
+	    <system.serviceModel>
+	        <behaviors>
+	            <serviceBehaviors>
+	                <behavior name="XmlHttpPanelWcfBehavior">
+	                    <serviceMetadata httpGetEnabled="true" />
+	                    <serviceDebug includeExceptionDetailInFaults="true" />
+	                </behavior>
+	            </serviceBehaviors>
+	            <endpointBehaviors>
+	                <behavior name="XmlHttpPanelWcfBehavior">
+	                    <webHttp />
+	                </behavior>
+	            </endpointBehaviors>
+	        </behaviors>
+	        <services>
+	            <service behaviorConfiguration="XmlHttpPanelWcfBehavior" name="XmlHttpPanelWcfService">
+	                <endpoint address="" binding="webHttpBinding" contract="IXmlHttpPanelWcfService" behaviorConfiguration="XmlHttpPanelWcfBehavior"/>
+	            </service>
+	        </services>
+	    </system.serviceModel>
+	</configuration>
+	```
 1. Optionally, set the OnClientResponseEnding property to a client-side event handler that handles the response of the WCF Service.
 
-	**JavaScript**
-
-		function OnClientResponseEnding (sender, args)
-		{
-			//The actual result data is in the [WcfServiceMethod]Result property of the content object.
-			var data = args.get_content().GetCustomersByCountryResult,
-			args.set_cancel(true);
-		} 
+	```JavaScript
+	function OnClientResponseEnding (sender, args)
+	{
+		//The actual result data is in the [WcfServiceMethod]Result property of the content object.
+		var data = args.get_content().GetCustomersByCountryResult,
+		args.set_cancel(true);
+	} 
+	```
 			
 1. Optionally, set the OnClientResponseEnded and OnClientResponseError properties to client-side event handlers that respond when the WVF Service has successfully updated the panel’s content or when the WCF Service has generated an error while trying to service the item request, respectively.
 
-	**JavaScript**
+	```JavaScript
+	function OnClientResponseEnded (sender, args)
+	{
+		//...
+	}
 
-		function OnClientResponseEnded (sender, args)
-		{
-			//...
-		}
-
-		//Fired when the request for the items fails.
-		function OnClientResponseError (sender, args)
-		{
-			// Disable the notifing error alert.
-			args.set_cancelErrorAlert(true);
-			//...
-		}
+	//Fired when the request for the items fails.
+	function OnClientResponseError (sender, args)
+	{
+		// Disable the notifing error alert.
+		args.set_cancelErrorAlert(true);
+		//...
+	}
+	```
 
 

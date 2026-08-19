@@ -19,7 +19,7 @@ The "preview" functionality for user control edit form is easily achievable. To 
 
 1. Add **GridButtonColumn** to your grid instance with **CommandName = "Preview".**
 
-	**ASP.NET**
+	```ASP.NET
 
 		<MasterTableView CommandItemDisplay="Top" GridLines="None">
 		  <EditFormSettings UserControlName="EmployeeDetailsVB.ascx" EditFormType="WebUserControl">
@@ -43,12 +43,13 @@ The "preview" functionality for user control edit form is easily achievable. To 
 		      </telerik:GridBoundColumn>
 		   </Columns>
 		</MasterTableView>
+	```
 
 2. Handle the **Preview** command execution in your **ItemCommand** event handler and call the **SetPreviewMode**() method to force the user control in preview mode:
 
 
 
-	**VB**
+	```VB
 
 		Private Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
 		    If (e.CommandName = "Preview") Then
@@ -60,8 +61,9 @@ The "preview" functionality for user control edit form is easily achievable. To 
 		        MyUserControl.SetPreviewMode()
 		    End If
 		End Sub
+	```
 
-	**C#**
+	```C#
 
 		private void RadGrid1_ItemCommand(object source, Telerik.Web.UI.GridCommandEventArgs e)
 		{
@@ -75,10 +77,11 @@ The "preview" functionality for user control edit form is easily achievable. To 
 		        MyUserControl.SetPreviewMode();
 		    }
 		}
+	```
 
 3. In the **code-behind of the user control disable all controls** which reside in the edit form (except the cancel button) and change the cancel button text to **Close.**
 
-	**C#**
+	```C#
 
 		public void SetPreviewMode()
 		{
@@ -93,8 +96,9 @@ The "preview" functionality for user control edit form is easily achievable. To 
 		    btnCancel.Enabled = true;
 		    btnCancel.Text = "Close";
 		}
+	```
 
-	**VB**
+	```VB
 
 		Public Sub SetPreviewMode()
 		    btnUpdate.Visible = False
@@ -106,6 +110,7 @@ The "preview" functionality for user control edit form is easily achievable. To 
 		    btnCancel.Enabled = True
 		    btnCancel.Text = "Close"
 		End Sub
+	```
 
 
 

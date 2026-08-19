@@ -25,30 +25,30 @@ This tutorial will demonstrate localizing the RadChart title using a global reso
 
 1. Paste the following ASP.NET HTML definition of the chart:
 
-	**ASP.NET**
-
-		<telerik:RadChart ID="RadChart1" runat="server">
-		<PlotArea>
-		   <XAxis MaxValue="3" MinValue="1" Step="1"></XAxis>
-		   <YAxis MaxValue="50"></YAxis>
-		</PlotArea>
-		<ChartTitle><TextBlock Text="Sales"></TextBlock></ChartTitle>
-		<Series>
-		   <radC:ChartSeries Name="Series 1">
-			   <items>
-					   <radC:ChartSeriesItem YValue="50">
-						   <Label><TextBlock Text="One"></TextBlock></Label>
-					   </radC:ChartSeriesItem>
-					   <radC:ChartSeriesItem YValue="30">
-						   <Label><TextBlock Text="Two"></TextBlock></Label>
-					   </radC:ChartSeriesItem>
-					   <radC:ChartSeriesItem YValue="20">
-						   <Label><TextBlock Text="Three"></TextBlock></Label>
-					   </radC:ChartSeriesItem>
-				   </items>
-		   </radC:ChartSeries>
-		</Series>
-		</telerik:RadChart> 	
+	```ASP.NET
+	<telerik:RadChart ID="RadChart1" runat="server">
+	<PlotArea>
+	   <XAxis MaxValue="3" MinValue="1" Step="1"></XAxis>
+	   <YAxis MaxValue="50"></YAxis>
+	</PlotArea>
+	<ChartTitle><TextBlock Text="Sales"></TextBlock></ChartTitle>
+	<Series>
+	   <radC:ChartSeries Name="Series 1">
+		   <items>
+			   <radC:ChartSeriesItem YValue="50">
+				   <Label><TextBlock Text="One"></TextBlock></Label>
+			   </radC:ChartSeriesItem>
+			   <radC:ChartSeriesItem YValue="30">
+				   <Label><TextBlock Text="Two"></TextBlock></Label>
+			   </radC:ChartSeriesItem>
+			   <radC:ChartSeriesItem YValue="20">
+				   <Label><TextBlock Text="Three"></TextBlock></Label>
+			   </radC:ChartSeriesItem>
+		   </items>
+	   </radC:ChartSeries>
+	</Series>
+	</telerik:RadChart>
+	```
 
 1. In the Solution Explorer, right-click the project and select **Add** | **Add ASP.NET Folder** | **App_GlobalResources** from the context menu.
 
@@ -62,12 +62,12 @@ This tutorial will demonstrate localizing the RadChart title using a global reso
 
 1. In the ASP.NET HTML markup for the page add the explicit expression "<%$ Resources:MyGlobals, Title %>" to the **Text**attribute for the chart title. The ASP.NET HTML markup for the chart title should now look like this:
 
-	**ASP.NET**
-	
-		<ChartTitle>
-		   <TextBlock Text="<$ Resources>">
-		   </TextBlock>
-		</ChartTitle> 
+	```ASP.NET
+	<ChartTitle>
+	   <TextBlock Text="<$ Resources>">
+	   </TextBlock>
+	</ChartTitle>
+	```
 
 1. Run the application. The chart title should still be "Top Ten Sales".
 

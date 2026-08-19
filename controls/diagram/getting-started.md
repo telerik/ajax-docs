@@ -22,11 +22,11 @@ The following tutorial demonstrates how you can add a simple **RadDiagram** cont
 	
 	>caption **Example 1**: Declaration of a **RadDiagram** control.
 
-	**ASP.NET**
-
-		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
-		<telerik:RadDiagram ID="RadDiagram1" runat="server">
-		</telerik:RadDiagram>
+	```ASP.NET
+	<asp:ScriptManager runat="server" ID="ScriptManager1"  />
+	<telerik:RadDiagram ID="RadDiagram1" runat="server">
+	</telerik:RadDiagram>
+	```
 
 1. Add a few shapes in the **ShapesCollection** of the diagram. It is recommended to set different values for their **X** and **Y** properties so that they are not positioned on the same location.
 
@@ -36,11 +36,10 @@ The following tutorial demonstrates how you can add a simple **RadDiagram** cont
 
 	>caption **Example 2**: The diagram now contains several shapes
 
-	**ASP.NET**
-
-		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
-		<telerik:RadDiagram ID="RadDiagram1" runat="server">
-			<ShapesCollection>
+	```ASP.NET
+	<asp:ScriptManager runat="server" ID="ScriptManager1"  />
+	<telerik:RadDiagram ID="RadDiagram1" runat="server">
+		<ShapesCollection>
 				<telerik:DiagramShape Id="DiagramShape5" Width="100" Height="70" X="260" Y="100" Type="rectangle">
 					<ContentSettings Text="Parent" />
 					<FillSettings Color="#25a0da" />
@@ -58,7 +57,8 @@ The following tutorial demonstrates how you can add a simple **RadDiagram** cont
 					<FillSettings Color="#FFBE33" />
 				</telerik:DiagramShape>
 			</ShapesCollection>
-		</telerik:RadDiagram>
+	</telerik:RadDiagram>
+	```
 
 1. Add some connections between the shapes in the diagram to the **ConnectionsCollections**. It is important to specify valid shapes from which a connection starts and to which it ends. If the **ShapeId** property in **FromSettings** and **ToSettings** contains an Id of a non-existent shape, the connection will not be created.
 
@@ -68,11 +68,10 @@ The following tutorial demonstrates how you can add a simple **RadDiagram** cont
 
 	>caption **Example 3**: The shapes in the diagram are connected
 
-	**ASP.NET**
-
-		<asp:ScriptManager runat="server" ID="ScriptManager1"  />
-		<telerik:RadDiagram ID="RadDiagram1" runat="server">
-			<ShapesCollection>
+	```ASP.NET
+	<asp:ScriptManager runat="server" ID="ScriptManager1"  />
+	<telerik:RadDiagram ID="RadDiagram1" runat="server">
+		<ShapesCollection>
 				<telerik:DiagramShape Id="DiagramShape1" Width="100" Height="70" X="260" Y="100" Type="rectangle">
 					<ContentSettings Text="Parent" />
 					<FillSettings Color="#25a0da" />

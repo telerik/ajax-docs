@@ -78,88 +78,88 @@ In a new AJAX Enabled Web Application:
 1. In the code-behind, create helper methods to connect to the Email table and populate the grid:
 
 
-	**C#**
+	```C#
+	// Returns a connection to the Access Database
+	private OleDbConnection CreateConnection()
+	{
+		OleDbConnection connection = new OleDbConnection();
+		connection.ConnectionString =
+				"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" +
+				Request.MapPath("\\App_Data\\email.mdb") + ";User ID=;Password=;";
+		connection.Open();
+		return connection;
+	}
+	// Populates the grid with all columns and rows of the "Email" table.
+	private void ReadAllRecords()
+	{
+		OleDbConnection connection = CreateConnection();
+		OleDbCommand command2 = new OleDbCommand("SELECT * FROM email", connection);
+		MyDataGrid.DataSource = command2.ExecuteReader();
+		MyDataGrid.DataBind();
+		connection.Close();
+	} 	
 	
-		// Returns a connection to the Access Database
-		private OleDbConnection CreateConnection()
-		{
-			OleDbConnection connection = new OleDbConnection();
-			connection.ConnectionString =
-					"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" +
-					Request.MapPath("\\App_Data\\email.mdb") + ";User ID=;Password=;";
-			connection.Open();
-			return connection;
-		}
-		// Populates the grid with all columns and rows of the "Email" table.
-		private void ReadAllRecords()
-		{
-			OleDbConnection connection = CreateConnection();
-			OleDbCommand command2 = new OleDbCommand("SELECT * FROM email", connection);
-			MyDataGrid.DataSource = command2.ExecuteReader();
-			MyDataGrid.DataBind();
-			connection.Close();
-		} 	
-		
-	**VB**
+	```
 	
-		' Returns a connection to the Access Database
-		Private Function CreateConnection() As OleDbConnection
-			Dim connection As New OleDbConnection()
-			connection.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + Request.MapPath("\App_Data\email.mdb") + ";User ID=;Password=;"
-			connection.Open()
-			Return connection
-		End Function
-		' Populates the grid with all columns and rows of the "Email" table.
-		Private Sub ReadAllRecords()
-			Dim connection As OleDbConnection = CreateConnection()
-			Dim command2 As New OleDbCommand("SELECT * FROM email", connection)
-			MyDataGrid.DataSource = command2.ExecuteReader()
-			MyDataGrid.DataBind()
-			connection.Close()
-		End Sub
+	```VB
+	' Returns a connection to the Access Database
+	Private Function CreateConnection() As OleDbConnection
+		Dim connection As New OleDbConnection()
+		connection.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + Request.MapPath("\App_Data\email.mdb") + ";User ID=;Password=;"
+		connection.Open()
+		Return connection
+	End Function
+	' Populates the grid with all columns and rows of the "Email" table.
+	Private Sub ReadAllRecords()
+		Dim connection As OleDbConnection = CreateConnection()
+		Dim command2 As New OleDbCommand("SELECT * FROM email", connection)
+		MyDataGrid.DataSource = command2.ExecuteReader()
+		MyDataGrid.DataBind()
+		connection.Close()
+	End Sub
+	```
 
 
 1. Create event handlers for the grid Update, Edit and Cancel events. Also handle the Page_Load event to initially populate the grid. Replace the event handler code with the example below:
 
 
 
-	**C#**
-	
-		protected void Page_Load(object sender, EventArgs e)
+	```C#
+	protected void Page_Load(object sender, EventArgs e)
+	{
+		if (!IsPostBack)
 		{
-			if (!IsPostBack)
-			{
-				ReadAllRecords();
-			}
-		}
-		protected void MyDataGrid_Update(object sender, DataGridCommandEventArgs e)
-		{
-			RadEditor radEditor = ((RadEditor)e.Item.FindControl("RadEditor1"));
-			string content = radEditor.Content;
-			string itemID = ((Label)e.Item.FindControl("lblID")).Text;
-			const string updateCommand = "UPDATE Email SET [Date] = Now(), [Body] = @content WHERE [ID] = @nid";
-			OleDbConnection connection = CreateConnection();
-			OleDbCommand command = new OleDbCommand(updateCommand, connection);
-			command.Parameters.AddWithValue("content", content);
-			command.Parameters.AddWithValue("nid", Convert.ToInt32(itemID));
-			command.ExecuteNonQuery();
-			connection.Close();
-			MyDataGrid.EditItemIndex = -1;
 			ReadAllRecords();
 		}
-		protected void MyDataGrid_Edit(object sender, DataGridCommandEventArgs e)
-		{
-			MyDataGrid.EditItemIndex = e.Item.ItemIndex;
-			ReadAllRecords();
-		}
+	}
+	protected void MyDataGrid_Update(object sender, DataGridCommandEventArgs e)
+	{
+		RadEditor radEditor = ((RadEditor)e.Item.FindControl("RadEditor1"));
+		string content = radEditor.Content;
+		string itemID = ((Label)e.Item.FindControl("lblID")).Text;
+		const string updateCommand = "UPDATE Email SET [Date] = Now(), [Body] = @content WHERE [ID] = @nid";
+		OleDbConnection connection = CreateConnection();
+		OleDbCommand command = new OleDbCommand(updateCommand, connection);
+		command.Parameters.AddWithValue("content", content);
+		command.Parameters.AddWithValue("nid", Convert.ToInt32(itemID));
+		command.ExecuteNonQuery();
+		connection.Close();
+		MyDataGrid.EditItemIndex = -1;
+		ReadAllRecords();
+	}
+	protected void MyDataGrid_Edit(object sender, DataGridCommandEventArgs e)
+	{
+		MyDataGrid.EditItemIndex = e.Item.ItemIndex;
+		ReadAllRecords();
+	}
 
-		protected void MyDataGrid_CancelCommand(object source, DataGridCommandEventArgs e)
-		{
-			ReadAllRecords();
-		} 			
+	protected void MyDataGrid_CancelCommand(object source, DataGridCommandEventArgs e)
+	{
+		ReadAllRecords();
+	} 			
+	```
 
-	**VB**
-	
+	```VB
 	    Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	        If Not IsPostBack Then
 	            ReadAllRecords()
@@ -188,6 +188,7 @@ In a new AJAX Enabled Web Application:
 	    Protected Sub MyDataGrid_CancelCommand(ByVal source As Object, ByVal e As DataGridCommandEventArgs)
 	        ReadAllRecords()
 	    End Sub
+	```
 
 
 ## See Also

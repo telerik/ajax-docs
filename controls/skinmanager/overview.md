@@ -263,13 +263,13 @@ The steps that you need to take in order to load skins by specifying a path are:
 
 1. Add a **SkinReference** in the RadSkinManager and set the **Path** property to point to the name of the folder containing the skin folders.
 
-    **ASP.NET**
-
-        <telerik:RadSkinManager runat="server" ID="RadSkinManager1">
-            <Skins>
-                <telerik:SkinReference Path="~/MySkins" />
-            </Skins>
-        </telerik:RadSkinManager>
+    ```ASP.NET
+    <telerik:RadSkinManager runat="server" ID="RadSkinManager1">
+        <Skins>
+            <telerik:SkinReference Path="~/MySkins" />
+        </Skins>
+    </telerik:RadSkinManager>
+    ```
 
 
 1. Set the **EnableEmbeddedSkins** property of the controls which you want to skin through the manager to **false**. Set their **Skin** property to the name of the desired custom skin.
@@ -291,21 +291,21 @@ The steps that you need to take in order to load skins by specifying a path are:
 
     * When serving the custom skin stylesheets through RadStyleSheetManager, the urls in your skin file should declare a path starting from the skin folder name, because the handler that serves them is at the root of the app:
     
-       **CSS**
-
-            .RadCalendar_Yellow .rcTitlebar
-            {
-                background: #1b1b1b 0 -1000px repeat-x url('MySkins/Yellow/Calendar/sprite.gif');
-            }
+       ```CSS
+       .RadCalendar_Yellow .rcTitlebar
+       {
+           background: #1b1b1b 0 -1000px repeat-x url('MySkins/Yellow/Calendar/sprite.gif');
+       }
+       ```
 
     * If there is **no RadStyleSheetManager** on the page, the urls in your skin file should declare a path starting from the control folder name becaues the `<link>` elements point to the actual stylesheets:
 
-        **CSS**
-
-            .RadCalendar_Yellow .rcTitlebar
-            {
-                background: #1b1b1b 0 -1000px repeat-x url('Calendar/sprite.gif');
-            }
+        ```CSS
+        .RadCalendar_Yellow .rcTitlebar
+        {
+            background: #1b1b1b 0 -1000px repeat-x url('Calendar/sprite.gif');
+        }
+        ```
 
 >note RadSkinManager does not differentiate between the different [RenderModes]({%slug controls/render-modes%}) a control can have. This means it will register the same file with the control name in all cases.
 

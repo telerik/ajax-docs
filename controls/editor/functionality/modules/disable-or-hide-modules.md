@@ -14,16 +14,16 @@ There are a couple of ways to hide or remove the RadEditor's modules: inline, vi
 
 1. **Inline** In order to **disable** a specific module inside the RadEditor declaration define the needed modules (built-in or custom) only, or set its **Enabled** property to **false**. To **hide** a specific module set its **Visible** property to **false**, e.g.:
 
-	**ASP.NET**
-	
-		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
-			<Modules>
-				<telerik:EditorModule Name="RadEditorHtmlInspector" Enabled="true" Visible="true" />
-				<telerik:EditorModule Name="RadEditorNodeInspector" Enabled="true" Visible="false" />
-				<telerik:EditorModule Name="RadEditorDomInspector" Enabled="false" />
-				<telerik:EditorModule Name="RadEditorStatistics" Enabled="false" />
-			</Modules>
-		</telerik:RadEditor>
+	```ASP.NET
+	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
+		<Modules>
+			<telerik:EditorModule Name="RadEditorHtmlInspector" Enabled="true" Visible="true" />
+			<telerik:EditorModule Name="RadEditorNodeInspector" Enabled="true" Visible="false" />
+			<telerik:EditorModule Name="RadEditorDomInspector" Enabled="false" />
+			<telerik:EditorModule Name="RadEditorStatistics" Enabled="false" />
+		</Modules>
+	</telerik:RadEditor>
+	```
 
 	The declaration above will disable the DomInpector and Statistics modules and will render the real time HTMLmodule, while the NodeInspector will be hidden but available via ModuleManager tool.
 
@@ -34,15 +34,15 @@ There are a couple of ways to hide or remove the RadEditor's modules: inline, vi
 
 
 
-	**C#**
+	```C#
+	RadEditor1.EnsureToolsFileLoaded(); //ensure that the default (or custom) Toolsfile is loaded
+	RadEditor1.Modules.Remove("RadEditorDomInspector"); //remove a specific module
+	```
 	
-		RadEditor1.EnsureToolsFileLoaded(); //ensure that the default (or custom) Toolsfile is loaded
-		RadEditor1.Modules.Remove("RadEditorDomInspector"); //remove a specific module
-	
-	**VB**
-	
-		RadEditor1.EnsureToolsFileLoaded() 'ensure that the default (or custom) Toolsfile is loaded
-		RadEditor1.Modules.Remove("RadEditorDomInspector") 'remove a specific module
+	```VB
+	RadEditor1.EnsureToolsFileLoaded() 'ensure that the default (or custom) Toolsfile is loaded
+	RadEditor1.Modules.Remove("RadEditorDomInspector") 'remove a specific module
+	```
 
 
 	In order to hide a specific module via the code-behind, get a reference to it using the Modules collection and its index and set the Visible property to false. The indexes of the built-in modules are listed below:
@@ -60,15 +60,15 @@ There are a couple of ways to hide or remove the RadEditor's modules: inline, vi
 
 
 
-	**C#**
-	
-		RadEditor1.EnsureToolsFileLoaded(); //ensure that the default (or custom) Toolsfile is loaded
-		RadEditor1.Modules.Clear();//clear the module collections
+	```C#
+	RadEditor1.EnsureToolsFileLoaded(); //ensure that the default (or custom) Toolsfile is loaded
+	RadEditor1.Modules.Clear();//clear the module collections
+	```
 
-	**VB**
-	
-		RadEditor1.EnsureToolsFileLoaded() 'ensure that the default (or custom) Toolsfile is loaded
-		RadEditor1.Modules.Clear() 'clear the module collections
+	```VB
+	RadEditor1.EnsureToolsFileLoaded() 'ensure that the default (or custom) Toolsfile is loaded
+	RadEditor1.Modules.Clear() 'clear the module collections
+	```
 
 
 	The **Enabled** property set to **false** will disable the respective module. The **Visible** property will hide the module. To make it visible again use the Module Manager splitbutton.

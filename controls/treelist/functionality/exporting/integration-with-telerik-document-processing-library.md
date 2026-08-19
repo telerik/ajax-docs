@@ -32,11 +32,12 @@ The following steps walk you through the entire process of creating an Excel doc
 
 1. Create an instance of the Workbook class and add a new Worksheet object to the Worksheets collection.
 
-	**C#**
+	```C#
 	
 		Workbook workbook = new Workbook();
 		Worksheet worksheet = workbook.Worksheets.Add();
-	
+	```
+
 	**VB.NET**
 	
 		Dim workbook As New Workbook()
@@ -46,7 +47,7 @@ The following steps walk you through the entire process of creating an Excel doc
 
 
 
-	**C#**
+	```C#
 	
 		static TreeListItemType[] supportedItemTypes = new TreeListItemType[] 
 		{ 
@@ -54,13 +55,14 @@ The following steps walk you through the entire process of creating an Excel doc
 			TreeListItemType.AlternatingItem, 
 			TreeListItemType.Item 
 		};
-	
+	```
+
 	**VB.NET**
 	
 		Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 
 
-	**C#**
+	```C#
 	
 		TreeListItem item;
 
@@ -111,6 +113,7 @@ The following steps walk you through the entire process of creating an Excel doc
 				}
 			}
 		}
+	```
 
 	**VB.NET**
 	
@@ -155,9 +158,8 @@ The following steps walk you through the entire process of creating an Excel doc
 
 
 
-	**C#**
-	
-		Workbook workbook = structure as Workbook;
+	```C#
+	Workbook workbook = structure as Workbook;
 		byte[] output;
 
 		using (MemoryStream ms = new MemoryStream())
@@ -174,7 +176,8 @@ The following steps walk you through the entire process of creating an Excel doc
 		Response.AddHeader("content-disposition", "attachment; filename=" + fileName);
 		Response.BinaryWrite(output);
 		Response.Flush();
-		Response.Close();
+	Response.Close();
+	```
 
 	**VB.NET**
 	
@@ -443,11 +446,11 @@ The following steps walk you through the entire process of creating an Word docu
 
 
 
-	**C#**
-	
-		RadFlowDocument flowDoc = new RadFlowDocument();
-		Section section = flowDoc.Sections.AddSection();
-		Table mainTable = section.Blocks.AddTable();
+	```C#
+	RadFlowDocument flowDoc = new RadFlowDocument();
+	Section section = flowDoc.Sections.AddSection();
+	Table mainTable = section.Blocks.AddTable();
+	```
 
 	**VB.NET**
 	
@@ -459,23 +462,22 @@ The following steps walk you through the entire process of creating an Word docu
 
 
 
-	**C#**
-	
-		static TreeListItemType[] supportedItemTypes = new TreeListItemType[] 
-		{ 
-			TreeListItemType.HeaderItem, 
-			TreeListItemType.AlternatingItem, 
-			TreeListItemType.Item 
-		};
-	
+	```C#
+	static TreeListItemType[] supportedItemTypes = new TreeListItemType[] 
+	{ 
+		TreeListItemType.HeaderItem, 
+		TreeListItemType.AlternatingItem, 
+		TreeListItemType.Item 
+	};
+	```
+
 	**VB.NET**
 	
 		Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 	
 
-	**C#**
-	
-		TreeListItem item;
+	```C#
+	TreeListItem item;
 		TableRow row;
 
 		var treeListItems = RadTreeList1.GetItems(supportedItemTypes);
@@ -516,7 +518,8 @@ The following steps walk you through the entire process of creating an Word docu
 
 				SetDocxCellText(td, GetCellText(cellText));
 			}
-		}
+	}
+	```
 
 	**VB.NET**
 	
@@ -560,9 +563,8 @@ The following steps walk you through the entire process of creating an Word docu
 
 
 
-	**C#**
-	
-		RadFlowDocument flowDoc = structure as RadFlowDocument;
+	```C#
+	RadFlowDocument flowDoc = structure as RadFlowDocument;
 
 		byte[] output;
 
@@ -579,7 +581,8 @@ The following steps walk you through the entire process of creating an Word docu
 		Response.AddHeader("content-disposition", "attachment; filename=" + fileName);
 		Response.BinaryWrite(output);
 		Response.Flush();
-		Response.Close();
+	Response.Close();
+	```
 
 	**VB.NET**
 	
