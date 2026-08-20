@@ -14,39 +14,39 @@ The following help article demonstrates how to set up a page with a **RadRadioBu
 
 1. In the default page of a new ASP.NET AJAX-enabled Web Application, add a **RadRadioButtonList** control:
 
-	**ASP.NET**	
-	
-		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server">
-		</telerik:RadRadioButtonList>
+	```ASP.NET
+	<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server">
+	</telerik:RadRadioButtonList>
+	```
 
 1. Add two `RadioButtonListItem` objects to the `Items` collection and set the appropriate values for `Text` and `Selected` properties of each item:
 
-	**ASP.NET**
-
-		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server">
-			<Items>
-				<telerik:RadioButtonListItem Text="Accept" Value="0" Selected="true" />
-				<telerik:RadioButtonListItem Text="Decline" Value="1" />
-			</Items>
-		</telerik:RadRadioButtonList>
+	```ASP.NET
+	<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server">
+		<Items>
+			<telerik:RadioButtonListItem Text="Accept" Value="0" Selected="true" />
+			<telerik:RadioButtonListItem Text="Decline" Value="1" />
+		</Items>
+	</telerik:RadRadioButtonList>
+	```
 
 1. To hook to the **OnSelectedIndexChanged** server-side event of **RadRadioButtonList**, add an attribute to the main control tag and add the method signature:
 
-	**ASP.NET**
+	```ASP.NET
+	<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" OnSelectedIndexChanged="RadRadioButtonList1_SelectedIndexChanged">
+		<Items>
+			<telerik:RadioButtonListItem Text="Accept" Value="0" Selected="true" />
+			<telerik:RadioButtonListItem Text="Decline" Value="1" />
+		</Items>
+	</telerik:RadRadioButtonList>
+	```
 
-		<telerik:RadRadioButtonList ID="RadRadioButtonList1" runat="server" OnSelectedIndexChanged="RadRadioButtonList1_SelectedIndexChanged">
-			<Items>
-				<telerik:RadioButtonListItem Text="Accept" Value="0" Selected="true" />
-				<telerik:RadioButtonListItem Text="Decline" Value="1" />
-			</Items>
-		</telerik:RadRadioButtonList>
+	```C#
+	protected void RadRadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
+	{
 
-	**C#**
-	
-		protected void RadRadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
-		{
-
-		}
+	}
+	```
 
 	**VB.NET**
 	
@@ -55,23 +55,23 @@ The following help article demonstrates how to set up a page with a **RadRadioBu
 
 1. Add a Label control to write the information to:
 
-	**ASP.NET**
-
-		<asp:Label ID="Label1" Text="" runat="server" />
+	```ASP.NET
+	<asp:Label ID="Label1" Text="" runat="server" />
+	```
 
 1. Use the **OnSelectedIndexChanged** event handler to write information about the properties of the `SelectedItem` of the `RadRadioButtonList`:
 
-	**C#**
-	
-		protected void RadRadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
-		{
-			RadRadioButtonList radioButtonList = sender as RadRadioButtonList;
+	```C#
+	protected void RadRadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
+	{
+		RadRadioButtonList radioButtonList = sender as RadRadioButtonList;
 
 
-			string data = string.Format("selected index: {0}, selected value {1}, selected text: {2}",
-										radioButtonList.SelectedIndex, radioButtonList.SelectedValue, radioButtonList.SelectedItem.Text);
-			Label1.Text = data;
-		}
+		string data = string.Format("selected index: {0}, selected value {1}, selected text: {2}",
+									radioButtonList.SelectedIndex, radioButtonList.SelectedValue, radioButtonList.SelectedItem.Text);
+		Label1.Text = data;
+	}
+	```
 
 	**VB.NET**
 	

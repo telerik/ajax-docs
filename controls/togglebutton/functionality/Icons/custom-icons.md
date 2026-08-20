@@ -70,29 +70,28 @@ You can use custom font icons in **RadToggleButton** as well. To do that, follow
 
 1. Load the stylesheet with the desired font icons on the page.
 
-	**CSS**
-
-		<link rel="stylesheet" href="myCustomFontStyleSheet.css" />
+	```CSS
+	<link rel="stylesheet" href="myCustomFontStyleSheet.css" />
+	```
 
 1. Override the font-family of the button's icon element with the target one (see **Example 3**).
 
-	**CSS**
-
-		button.RadButton .rbIcon:before {
-			font-family: myCustomFont;
-		}
+	```CSS
+	button.RadButton .rbIcon:before {
+		font-family: myCustomFont;
+	}
+	```
 
 1. Set the custom font icon class to the **Icon.CssClass** property of the desired toggle state.
 
-	**ASP.NET**
-
-		<telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Button With Custom Font Icon">
-			<ToggleStates>
-				<telerik:ButtonToggleState>
-					<Icon CssClass="myCustomFontIconClass1" />
-				</telerik:ButtonToggleState>
-				<telerik:ButtonToggleState>
-					<Icon CssClass="myCustomFontIconClass2" />
+	```ASP.NET
+	<telerik:RadToggleButton ID="RadToggleButton1" runat="server" Text="Button With Custom Font Icon">
+		<ToggleStates>
+			<telerik:ButtonToggleState>
+				<Icon CssClass="myCustomFontIconClass1" />
+			</telerik:ButtonToggleState>
+			<telerik:ButtonToggleState>
+				<Icon CssClass="myCustomFontIconClass2" />
 				</telerik:ButtonToggleState>
 			</ToggleStates>
 		</telerik:RadToggleButton>

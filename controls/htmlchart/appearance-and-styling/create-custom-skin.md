@@ -34,16 +34,16 @@ To modify an existing chart skin you can follow the steps below:
 
 	>caption Example 1: Customize the Black skin of RadHtmlChart via the `RadHtmlChartSkins.js` file.
 
-	**JavaScript**
-
-		Black: {
-			chart: deepExtend({}, chartBaseTheme, {
-				chartArea: {
-					background: "silver"
-				},
-				seriesColors: ["green", "blue"],
-			})
-		},
+	```JavaScript
+	Black: {
+		chart: deepExtend({}, chartBaseTheme, {
+			chartArea: {
+				background: "silver"
+			},
+			seriesColors: ["green", "blue"],
+		})
+	},
+	```
 
 1. Set the name of the customized skin to the RadHtmlChart and reference the `RadHtmlChartSkins.js` file from the same page where the chart resides.
 

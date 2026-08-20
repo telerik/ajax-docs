@@ -29,69 +29,69 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 
 1. First add the namespaces that support the objects to be referenced. The Telerik.WebWinControls.UI namespace supports the RadChart declaration and the Telerik.Charting namespace supports the other RadChart objects, e.g. [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) and [ChartSeriesItem]({%slug chart/understanding-radchart-elements/series-items%}).
 
-	**C#**
+	```C#
+	using Telerik.Web.UI;
+	using Telerik.Charting;
+	```
 
-		using Telerik.Web.UI;
-		using Telerik.Charting;		
-
-	**VB**
-
-		Imports Telerik.Web.UI
-		Imports Telerik.Charting
+	```VB
+	Imports Telerik.Web.UI
+	Imports Telerik.Charting
+	```
 
 1. Next construct the RadChart itself. To the RadChart instance, assign the chart title using the ChartTitle.TextBlock.Text property.
 
-	**C#**
-	
-		RadChart radChart = new RadChart();
-		radChart.ChartTitle.TextBlock.Text = "My RadChart";		
+	```C#
+	RadChart radChart = new RadChart();
+	radChart.ChartTitle.TextBlock.Text = "My RadChart";
+	```
 		
-	**VB**
-	
-		Dim radChart As New RadChart()
-		radChart.ChartTitle.TextBlock.Text = "My RadChart"	
+	```VB
+	Dim radChart As New RadChart()
+	radChart.ChartTitle.TextBlock.Text = "My RadChart"
+	```
 
 1. Construct a new [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) object. Assign a name to the [ChartSeries.]({%slug chart/understanding-radchart-elements/series-overview%}) Set the ChartSeries.Type to be **Bar**. Using the ChartSeries.AddItem() method, add a series of [ChartSeriesItem]({%slug chart/understanding-radchart-elements/series-items%}) objects to the series Items collection. AddItem() takes as parameters a double "Value" and a string "Label".
 
-	**C#**
-	
-		// Create a ChartSeries and assign its name and chart type
-		ChartSeries chartSeries = new ChartSeries();
-		chartSeries.Name = "Sales";
-		chartSeries.Type = ChartSeriesType.Bar;
-		// add new items to the series,
-		// passing a value and a label string
-		chartSeries.AddItem(120, "Internet");
-		chartSeries.AddItem(140, "Retail");
-		chartSeries.AddItem(35, "Wholesale");	
+	```C#
+	// Create a ChartSeries and assign its name and chart type
+	ChartSeries chartSeries = new ChartSeries();
+	chartSeries.Name = "Sales";
+	chartSeries.Type = ChartSeriesType.Bar;
+	// add new items to the series,
+	// passing a value and a label string
+	chartSeries.AddItem(120, "Internet");
+	chartSeries.AddItem(140, "Retail");
+	chartSeries.AddItem(35, "Wholesale");
+	```
 		
-	**VB**
-	
-		' Create a ChartSeries and assign its name and chart type
-		Dim chartSeries As New ChartSeries()
-		chartSeries.Name = "Sales"
-		chartSeries.Type = ChartSeriesType.Bar
-		' add new items to the series,
-		' passing a value and a label string
-		chartSeries.AddItem(120, "Internet")
-		chartSeries.AddItem(140, "Retail")
-		chartSeries.AddItem(35, "Wholesale")	
+	```VB
+	' Create a ChartSeries and assign its name and chart type
+	Dim chartSeries As New ChartSeries()
+	chartSeries.Name = "Sales"
+	chartSeries.Type = ChartSeriesType.Bar
+	' add new items to the series,
+	' passing a value and a label string
+	chartSeries.AddItem(120, "Internet")
+	chartSeries.AddItem(140, "Retail")
+	chartSeries.AddItem(35, "Wholesale")
+	```
 
 1. Finally, add the [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) to the RadChart Series collection and add the RadChart to the page.
 
-	**C#**
+	```C#
+	// add the series to the RadChart Series collection
+	radChart.Series.Add(chartSeries);
+	// add the RadChart to the page.
+	this.Page.Controls.Add(radChart);
+	```
 	
-		// add the series to the RadChart Series collection
-			radChart.Series.Add(chartSeries);
-		// add the RadChart to the page.
-			this.Page.Controls.Add(radChart);	
-			
-	**VB**
-	
-		' add the series to the RadChart Series collection
-		radChart.Series.Add(chartSeries)
-		' add the RadChart to the page.
-		Me.Page.Controls.Add(radChart) 	
+	```VB
+	' add the series to the RadChart Series collection
+	radChart.Series.Add(chartSeries)
+	' add the RadChart to the page.
+	Me.Page.Controls.Add(radChart)
+	```
 
 1. The finished chart in the running project should look like this example:
 
@@ -99,16 +99,16 @@ Once the chart is created, the critical steps are creating the [ChartSeries]({%s
 
 	The alternative to using the [ChartSeries]({%slug chart/understanding-radchart-elements/series-overview%}) object constructor and assigning properties is to use the RadChart CreateSeries() method that lets you pass several properties in the call, including Name, MainColor, SecondColor and ChartSeriesType.
 
-	**C#**
-	
-		ChartSeries chartSeries = radChart.CreateSeries("Sales",
-		System.Drawing.Color.RoyalBlue,
-		System.Drawing.Color.LightSteelBlue,
-		ChartSeriesType.Bar);				
+	```C#
+	ChartSeries chartSeries = radChart.CreateSeries("Sales",
+	System.Drawing.Color.RoyalBlue,
+	System.Drawing.Color.LightSteelBlue,
+	ChartSeriesType.Bar);
+	```
 
-	**VB**	
-	
-	    Dim chartSeries As ChartSeries = radChart.CreateSeries("Sales", System.Drawing.Color.RoyalBlue, System.Drawing.Color.LightSteelBlue, ChartSeriesType.Bar)	
+	```VB
+	Dim chartSeries As ChartSeries = radChart.CreateSeries("Sales", System.Drawing.Color.RoyalBlue, System.Drawing.Color.LightSteelBlue, ChartSeriesType.Bar)
+	```
 
 # See Also
 

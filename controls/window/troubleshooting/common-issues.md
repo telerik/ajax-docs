@@ -81,24 +81,24 @@ This happens because, by default, when a RadWindow is closed, its object is not 
 
 	* use the `setUrl()` client-side method to change the content page’s URL which will stop the media as well. e.g.
 
-		**JavaScript**
+		```JavaScript
+		function ShowWindow() {
+			var oWnd = window.radopen('Dialog1.aspx', 'window1'); //Opens the window  
+			oWnd.add_close(OnClientClose); //set a function to be called when RadWindow is closed  
+		}
 
-			function ShowWindow() {
-				var oWnd = window.radopen('Dialog1.aspx', 'window1'); //Opens the window  
-				oWnd.add_close(OnClientClose); //set a function to be called when RadWindow is closed  
-			}
-
-			function OnClientClose(oWnd) {
-				oWnd.setUrl("about:blank"); // Sets url to blank 
-				oWnd.remove_close(OnClientClose); //remove the close handler - it will be set again on the next opening 
-			}      
+		function OnClientClose(oWnd) {
+			oWnd.setUrl("about:blank"); // Sets url to blank 
+			oWnd.remove_close(OnClientClose); //remove the close handler - it will be set again on the next opening 
+		}      
+		```
 
 
-		**ASP.NET**
-
-			<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server"> 
-			</telerik:RadWindowManager> 
-			<button onclick="ShowWindow(); return false;">open RadWindow</button> 
+		```ASP.NET
+		<telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server"> 
+		</telerik:RadWindowManager> 
+		<button onclick="ShowWindow(); return false;">open RadWindow</button> 
+		```
 
 
 
@@ -205,26 +205,26 @@ There are several workarounds you can consider implementing:
 * Make sure that the `<body>` or the `<form>` are the offset parents of the modal overlay. Further custom decoration should be applied to the form's content so that not affect RadWindow and its modality. 
 * Remove the scrollbars of the page when RadWindow opens and restore the when closed. Like in the example below: 
     
-    **JavaScript**
-
-        var bodyOverflow = "";   
-        var htmlOverflow = "";   
-        function openRadWindow()    
-        {   
-            //store the overflow   
-            bodyOverflow = document.body.style.overflow;   
-            htmlOverflow = document.documentElement.style.overflow;   
-            //hide the overflow   
-            document.body.style.overflow = "hidden";   
-            document.documentElement.style.overflow = "hidden";   
-            var oWnd = window.radopen(null, "RadWindow1");   
-            oWnd.add_close(closeHandler);   
-        }   
-               
-        function closeHandler(sender, args)   
-        {   
-            //restore the overflow   
-            document.body.style.overflow = bodyOverflow;   
-            document.documentElement.style.overflow = htmlOverflow;   
-            sender.remove_close(closeHandler);   
-        }
+	```JavaScript
+	var bodyOverflow = "";   
+	var htmlOverflow = "";   
+	function openRadWindow()    
+	{   
+		//store the overflow   
+		bodyOverflow = document.body.style.overflow;   
+		htmlOverflow = document.documentElement.style.overflow;   
+		//hide the overflow   
+		document.body.style.overflow = "hidden";   
+		document.documentElement.style.overflow = "hidden";   
+		var oWnd = window.radopen(null, "RadWindow1");   
+	 oWnd.add_close(closeHandler);   
+	}   
+	       
+	function closeHandler(sender, args)   
+	{   
+		//restore the overflow   
+		document.body.style.overflow = bodyOverflow;   
+		document.documentElement.style.overflow = htmlOverflow;   
+		sender.remove_close(closeHandler);   
+	} 
+	```

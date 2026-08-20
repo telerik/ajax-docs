@@ -52,10 +52,10 @@ The following steps will guide you on enabling the **Track Changes** feature and
 
 1. Set the **EnableTrackChanges** property to **true**:
 
-	**ASP.NET**
-	
-		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" EnableTrackChanges="true">
-		</telerik:RadEditor>
+	```ASP.NET
+	<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" EnableTrackChanges="true">
+	</telerik:RadEditor>
+	```
 	
 
 1. Enable the built-in **Track Changes** tools:

@@ -27,7 +27,7 @@ You should ensure that you have properly defined the HttpHandler that serves the
 
 >caption **Example 1**: Configure the HttpHandler that serves the CAPTCHA image in the web.config file.
 
-**XML**
+```XML
 
 	<configuration>
 		<system.web>
@@ -41,6 +41,7 @@ You should ensure that you have properly defined the HttpHandler that serves the
 			</handlers>
 		</system.webServer>
 	</configuration>
+```
 
 More information is available in the [Getting Started]({%slug captcha/getting-started%}) article.
 
@@ -58,11 +59,12 @@ To resolve the issue, you should ensure the HttpHandler that serves the CAPTCHA 
 
 >caption **Example 2**: Configure the HttpHandler that serves the CAPTCHA image to be requested in a folder that can be accessed by anonymous users.
 
-**ASP.NET**
+```ASP.NET
 
 	<telerik:RadCaptcha ID="RadCaptcha1" Runat="server" ErrorMessage="You have entered an invalid code." 
 		HttpHandlerUrl="~/_layouts/Telerik.Web.UI.WebResource.axd">
 	</telerik:RadCaptcha>
+```
 
 ## Authentication Blockage
 

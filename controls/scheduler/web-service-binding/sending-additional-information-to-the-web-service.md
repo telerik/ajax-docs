@@ -22,39 +22,39 @@ In our examples, the Web Service methods take SchedulerInfo as first parameter, 
 
 1. Create a custom ISchedulerInfo implementation by inheriting from SchedulerInfo:
 
-	**C#**
-	     
-		public class MySchedulerInfo : SchedulerInfo
-		{
-		   public string User { get; set; }
-		   public MySchedulerInfo(ISchedulerInfo baseInfo, string user)
-			   : base(baseInfo)
-		   {
-			   User = user;
-		   }
-			public MySchedulerInfo() {}
-		}  
+	```C#
+	public class MySchedulerInfo : SchedulerInfo
+	{
+	   public string User { get; set; }
+	   public MySchedulerInfo(ISchedulerInfo baseInfo, string user)
+		   : base(baseInfo)
+	   {
+		   User = user;
+	   }
+		public MySchedulerInfo() {}
+	}  
+	```
 		
-	**VB**
-	
-		Public Class MySchedulerInfo
-		 Inherits SchedulerInfo
-		 Public Property User() As String
-		  Get
-		   Return m_User
-		  End Get
-		  Set
-		   m_User = Value
-		  End Set
-		 End Property
-		 Private m_User As String
-		 Public Sub New(baseInfo As ISchedulerInfo, userParam As String)
-		  MyBase.New(baseInfo)
-		  User = userParam
-		 End Sub
-		 Public Sub New()
-			End Sub
-		End Class 
+	```VB
+	Public Class MySchedulerInfo
+	 Inherits SchedulerInfo
+	 Public Property User() As String
+	  Get
+	   Return m_User
+	  End Get
+	  Set
+	   m_User = Value
+	  End Set
+	 End Property
+	 Private m_User As String
+	 Public Sub New(baseInfo As ISchedulerInfo, userParam As String)
+	  MyBase.New(baseInfo)
+	  User = userParam
+	 End Sub
+	 Public Sub New()
+		End Sub
+	End Class 
+	```
 	
 
 2. Populate the MySchedulerInfo properties in one of the following client-side events:
@@ -68,32 +68,32 @@ In our examples, the Web Service methods take SchedulerInfo as first parameter, 
 	
 	For example:
 
-	**C#**
-		 
-		function appointmentsPopulating(sender, eventArgs)
-		{
-		   eventArgs.get_schedulerInfo().User = "UserA";
-		} 
+	```C#
+	function appointmentsPopulating(sender, eventArgs)
+	{
+	   eventArgs.get_schedulerInfo().User = "UserA";
+	} 
+	```
 				
 
 3. Change the corresponding Web Service method to take MySchedulerInfo as parameter:
 
 
-	**C#**
-					
-		public IEnumerable<AppointmentData> GetAppointments(MySchedulerInfo schedulerInfo)
-		{
-			// Access schedulerInfo.User
-			return Controller.GetAppointments(schedulerInfo);
-		}
+	```C#
+	public IEnumerable<AppointmentData> GetAppointments(MySchedulerInfo schedulerInfo)
+	{
+		// Access schedulerInfo.User
+		return Controller.GetAppointments(schedulerInfo);
+	}
+	```
 			
 
-	**VB**
-				
-		Public Function GetAppointments(schedulerInfo As MySchedulerInfo) As IEnumerable(Of AppointmentData)
-			' Access schedulerInfo.User
-			Return Controller.GetAppointments(schedulerInfo)
-		End Function
+	```VB
+	Public Function GetAppointments(schedulerInfo As MySchedulerInfo) As IEnumerable(Of AppointmentData)
+		' Access schedulerInfo.User
+		Return Controller.GetAppointments(schedulerInfo)
+	End Function
+	```
 				
 
 Note that the schedulerInfo will be forwarded to the underlying provider. In order to access it you mustimplement the provider methods that take ISchedulerInfo as parameter. These methods were introduced in the Q3 2010release. For more information see [Sending additionalinformation to the provider]({%slug scheduler/data-binding/providers/sending-additional-information-to-the-provider%}).

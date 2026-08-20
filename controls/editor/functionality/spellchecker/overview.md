@@ -20,9 +20,9 @@ To enable spell checking in your web application you need to accomplish the foll
 
 1. Manually add the handler in your __web.config__ file (in the __httpHandlers__ section):
 
-	**XML**
-	
-		<add verb="*" validate="false" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" />
+	```XML
+	<add verb="*" validate="false" path="Telerik.Web.UI.SpellCheckHandler.axd" type="Telerik.Web.UI.SpellCheckHandler" />
+	```
 	
 
 1. Use the RadEditor's Smart Tag in Visual Studio. Note that the smart tag will appear only if you have the __Telerik.Web.UI.dll__ file in your project's __bin__ folder or in the GAC:
@@ -33,13 +33,13 @@ To enable spell checking in your web application you need to accomplish the foll
 
 1. declaring the property in the RadEditor's declaration:
 
-	**ASP.NET**
-	
-		<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
-			<Languages>
-				<telerik:SpellCheckerLanguage Code="fr-FR" Title="French" />
-			</Languages>
-		</telerik:RadEditor>
+	```ASP.NET
+	<telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1">
+		<Languages>
+			<telerik:SpellCheckerLanguage Code="fr-FR" Title="French" />
+		</Languages>
+	</telerik:RadEditor>
+	```
 
 
 1. adding the language in the RadEditor's Languages collection. It is recommended to add the language in Page_Load

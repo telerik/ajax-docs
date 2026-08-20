@@ -92,15 +92,15 @@ A visual indication that the user is currently interacting with one of the FileE
 
 1. Use the following CSS code to set blue border to active controls. Note, that you could use the same selectors to apply your desired style.
 		
-	**CSS**	
-		
-		.rfeFocused:focus,
-		.rfeFocused.RadTreeView:focus,
-		.rfeFocused.RadGrid:focus,
-		.rfeFocused.RadToolBar:focus
-		{ 
-			border: 2px solid Blue !important;
-		} 
+	```CSS
+	.rfeFocused:focus,
+	.rfeFocused.RadTreeView:focus,
+	.rfeFocused.RadGrid:focus,
+	.rfeFocused.RadToolBar:focus
+	{ 
+		border: 2px solid Blue !important;
+	} 
+	```
 
 	![](images/radfileexplorer-focused-element.png)
 

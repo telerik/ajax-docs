@@ -22,16 +22,16 @@ RadMultiColumnComboBox is a server-side wrapper over the Kendo UI MultiColumnCom
 
 * Use the `get_kendoWidget()` method of the MS AJAX wrapper:
 
-    **JavaScript**
-    
-        var rmccbObject  = $find("<%=RadMultiColumnComboBox1.ClientID %>"); //the standard script control object
-        var kendoMccbm = rmccbObject.get_kendoWidget(); //the Kendo widget
+    ```JavaScript
+    var rmccbObject  = $find("<%=RadMultiColumnComboBox1.ClientID %>"); //the standard script control object
+    var kendoMccbm = rmccbObject.get_kendoWidget(); //the Kendo widget
+    ```
 
 * Get the Kendo Widget in its usual way. Make sure to use the `$telerik._kendo.jQuery` reference that has the Kendo widget data:
 
-    **JavaScript**
-    
-        var kendoMccbm = $telerik._kendo.jQuery("#<%=RadMultiColumnComboBox1.ClientID %>").data("kendoMultiColumnComboBox"); //the jQuery selector must get the RadMultiColumnComboBox1 wrapper span element
+    ```JavaScript
+    var kendoMccbm = $telerik._kendo.jQuery("#<%=RadMultiColumnComboBox1.ClientID %>").data("kendoMultiColumnComboBox"); //the jQuery selector must get the RadMultiColumnComboBox1 wrapper span element
+    ```
 
 >important As of the 2026 Q1 release, Kendo jQuery widget plugins and data are registered on `$telerik._kendo.jQuery` — a different jQuery instance from `$telerik.$`. If you use `$telerik.$` with `.data("kendoXxx")`, it will return `undefined`. Always use `$telerik._kendo.jQuery` when accessing the underlying Kendo widget via the `.data()` method. The recommended approach, however, is to use the `get_kendoWidget()` method shown above.
 

@@ -56,17 +56,17 @@ In some scenarios you might want to have direct control on which images are sele
 
 	1. Register the class you added on the page that you will use the custom RadRotator:
 
-		**ASP.NET**
-
-			<%@ Register Namespace="CustomWebControls" TagPrefix="webControls" %>
+		```ASP.NET
+		<%@ Register Namespace="CustomWebControls" TagPrefix="webControls" %>
+		```
 
 	1. Add an instance of the custom control:
 
-		**ASP.NET**
-		
-			<webControls:CustomRotator runat="server" ID="RadRotator1" Width="320px" ItemWidth="160px"
-				Height="120px" ItemHeight="113px" BannersPath="~/Images">
-			</webControls:CustomRotator>
+		```ASP.NET
+		<webControls:CustomRotator runat="server" ID="RadRotator1" Width="320px" ItemWidth="160px"
+			Height="120px" ItemHeight="113px" BannersPath="~/Images">
+		</webControls:CustomRotator>
+		```
 		
 >caption **Example 1**: Override the RadRotator's GetBanners method.
 
@@ -196,24 +196,24 @@ This tutorial shows how to create a simple web application with RadRotator that 
 
 1. Set the **BannersPath** property of the rotator to **“~/Images”**. The mark-up should look like the following:
 
-	**ASP.NET**
-
-		<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server"
-			Width="600px" Height="300px" ItemWidth="300px" ItemHeight="300px"
-			BannersPath="~/Images">
-		</telerik:RadRotator> 
+	```ASP.NET
+	<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server"
+		Width="600px" Height="300px" ItemWidth="300px" ItemHeight="300px"
+		BannersPath="~/Images">
+	</telerik:RadRotator> 
+	```
 
 1. View the page in the browser, and the Rotator will start animating through the images instantly.
 
 1. In case the images have different width and height than the ones of the RotatorItem, you can easily fix this by placing the following CSS code in the head tag of your page. Note that you must set the CssClass property of the Rotator to RotatorImages. Here is the code:
 
-	**ASP.NET**
-
-		<style type="text/css">
-			.RotatorImages .rrBanner
-			{
-				width: 300px;
-				height: 300px;
-			}
-		</style>
+	```ASP.NET
+	<style type="text/css">
+		.RotatorImages .rrBanner
+		{
+			width: 300px;
+			height: 300px;
+		}
+	</style>
+	```
 

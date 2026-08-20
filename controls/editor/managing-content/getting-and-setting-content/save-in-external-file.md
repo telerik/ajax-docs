@@ -23,71 +23,71 @@ You can save the RadEditor content in an external text or HTML file as well as l
 
 1. To save the RadEditor content in the external HTML file when the Submit button is pressed, add the following code inside the button click eventhandler in the codebehind:
 
-	**C#**
-	
-		protected string path = "test.html"; //specify the path to your file
-		...
-		protected void Button1_Click1(object sender, EventArgs e)
-		{
-		   //Open file for writing and write content
-		   using (StreamWriter externalFile = new StreamWriter(this.MapPath(path), false))
-		   {
-			   externalFile.Write(RadEditor1.Content);
-		   }
-		} 
+	```C#
+	protected string path = "test.html"; //specify the path to your file
+	...
+	protected void Button1_Click1(object sender, EventArgs e)
+	{
+	   //Open file for writing and write content
+	   using (StreamWriter externalFile = new StreamWriter(this.MapPath(path), false))
+	   {
+		   externalFile.Write(RadEditor1.Content);
+	   }
+	} 
+	```
 
-	**VB**
-		
-		Protected path As String = "test.html"
-		...
-		'specify the path to your file
-		Protected Sub Button1_Click1(ByVal sender As Object, ByVal e As EventArgs)
-			'Open file for writing and write content
-			Using externalFile As New StreamWriter(Me.MapPath(path), False)
-				externalFile.Write(RadEditor1.Content)
-			End Using
-		End Sub
+	```VB
+	Protected path As String = "test.html"
+	...
+	'specify the path to your file
+	Protected Sub Button1_Click1(ByVal sender As Object, ByVal e As EventArgs)
+		'Open file for writing and write content
+		Using externalFile As New StreamWriter(Me.MapPath(path), False)
+			externalFile.Write(RadEditor1.Content)
+		End Using
+	End Sub
+	```
 
 
 
 1. To load the external file content in the RadEditor, read the file content with the ReadFile function and assign the returned string to the Html property of RadEditor in the Page_Load event:
 
-	**C#**
+	```C#
+	protected void Page_Load(object sender, EventArgs e)
+	{
+	   if (!Page.IsPostBack)
+	   {
+		   RadEditor1.Content = ReadFile(Server.MapPath(path));
+	   }
+	}
 	
-		protected void Page_Load(object sender, EventArgs e)
-		{
-		   if (!Page.IsPostBack)
-		   {
-			   RadEditor1.Content = ReadFile(Server.MapPath(path));
-		   }
-		}
-		
-		protected string ReadFile(string path)
-		{
-		   if (!System.IO.File.Exists(path))
-		   {
-			   return string.Empty;
-		   }
-		   using (System.IO.StreamReader sr = new System.IO.StreamReader(path))
-		   {
-			   return sr.ReadToEnd();
-		   }
-		} 
+	protected string ReadFile(string path)
+	{
+	   if (!System.IO.File.Exists(path))
+	   {
+		   return string.Empty;
+	   }
+	   using (System.IO.StreamReader sr = new System.IO.StreamReader(path))
+	   {
+		   return sr.ReadToEnd();
+	   }
+	} 
+	```
 
-	**VB**
-
-		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
-			If Not Page.IsPostBack Then
-				RadEditor1.Content = ReadFile(Server.MapPath(path))
-			End If
-		End Sub
+	```VB
+	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+		If Not Page.IsPostBack Then
+			RadEditor1.Content = ReadFile(Server.MapPath(path))
+		End If
+	End Sub
 	
-		Protected Function ReadFile(ByVal path As String) As String
-			If Not System.IO.File.Exists(path) Then
-				Return String.Empty
-			End If
-			Using sr As New System.IO.StreamReader(path)
-				Return sr.ReadToEnd()
-			End Using
-		End Function
+	Protected Function ReadFile(ByVal path As String) As String
+		If Not System.IO.File.Exists(path) Then
+			Return String.Empty
+		End If
+		Using sr As New System.IO.StreamReader(path)
+			Return sr.ReadToEnd()
+		End Using
+	End Function
+	```
 

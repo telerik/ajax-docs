@@ -174,58 +174,58 @@ End Class
 	* Set the Method sub-property to the name of the method of the Web service that supplies child items.
 	* Set the UseHttpGet sub-property to True to change the default HTTP method (POST).
 	
-	**ASP.NET**
-	
-		<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" OnClientItemsRequesting="itemsRequesting" 
-			OnClientItemsRequested="itemsRequested"	OnClientItemsRequestFailed="itemsRequestFailed">
-			<WebServiceSettings Path="VehiclesWeightByRating.asmx" Method="GetRadTagCloudItems" />
-		</telerik:RadTagCloud>
+	```ASP.NET
+	<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server" OnClientItemsRequesting="itemsRequesting" 
+		OnClientItemsRequested="itemsRequested"	OnClientItemsRequestFailed="itemsRequestFailed">
+		<WebServiceSettings Path="VehiclesWeightByRating.asmx" Method="GetRadTagCloudItems" />
+	</telerik:RadTagCloud>
+	```
 
 2. When the WebServiceSettings property is set, an empty context request will be initiated automatically. You can trigger request to the service by calling the *requestItems()* client-side method. This method has a single parameter, which is sent as an argument to the Web service method.
 >important It is important to know that all current items will be removed, before the new ones are populated.
 >
 
-	**JavaScript**
-	
-		function clientFunction()
-		{
-			//...
-			var context = "some value";
-			tagCloud.requestItems(context);
-			//...
-		}	
+	```JavaScript
+	function clientFunction()
+	{
+		//...
+		var context = "some value";
+		tagCloud.requestItems(context);
+		//...
+	}	
+	```
 
 3. Optionally, set the **OnClientItemsRequesting** property to a client-side event handler that passes context information to the Web service. The Web service can use this context information to determine what child items to return or what properties to set on those child items.
 
-	**JavaScript**
-	
-		//Fired before the request is sent to the Web Service
-		function itemsRequesting(sender, args)
-		{
-			//If you want to cancel the request use
-			//args.set_cancel(true);
+	```JavaScript
+	//Fired before the request is sent to the Web Service
+	function itemsRequesting(sender, args)
+	{
+		//If you want to cancel the request use
+		//args.set_cancel(true);
 
-			//The args.get_context()/args.set_context(value) methods get/set the parameter which will be sent to the Web Service.
-			var context = args.get_context();
-		}
+		//The args.get_context()/args.set_context(value) methods get/set the parameter which will be sent to the Web Service.
+		var context = args.get_context();
+	}
+	```
 
 4. Optionally, set the **OnClientItemsRequested** and **OnClientItemsRequestFailed** properties to client-side event handlers that respond when the Web service has successfully loaded child items or when the Web service has generated an error while trying to service the item request, respectively.
 
-	**JavaScript**
-	
-		//Fired when the items are successfully loaded.
-		function itemsRequested(sender, args)
-		{
-			//...
-		}
+	```JavaScript
+	//Fired when the items are successfully loaded.
+	function itemsRequested(sender, args)
+	{
+		//...
+	}
 
-		//Fired when the request for the items fails.
-		function itemsRequestFailed(sender, args)
-		{
-			// Disable the notifying error alert.
-			args.set_cancelErrorAlert(true);
-			//...
-		}
+	//Fired when the request for the items fails.
+	function itemsRequestFailed(sender, args)
+	{
+		// Disable the notifying error alert.
+		args.set_cancelErrorAlert(true);
+		//...
+	}
+	```
 
 5. To use the integrated WebService support of **RadTagCloud**, the WebService should have the following signature:
 
@@ -289,20 +289,20 @@ For a live example of using a Web service to populate items, see the [Web Servic
 	* Set the Path sub-property to the URL for the Web service.
 	* Set the Method sub-property to the name of the method of the WCF Web service that supplies child items.
 
-	**ASP.NET**
-	
-		<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server"
-			OnClientItemsRequesting="itemsRequesting"
-			OnClientItemsRequested="itemsRequested"
-			OnClientItemsRequestFailed="itemsRequestFailed">
-			<WebServiceSettings Path="TagCloudWcfService.svc" Method="GetRadTagCloudItems" />
-		</telerik:RadTagCloud>
+	```ASP.NET
+	<telerik:RadTagCloud RenderMode="Lightweight" ID="RadTagCloud1" runat="server"
+		OnClientItemsRequesting="itemsRequesting"
+		OnClientItemsRequested="itemsRequested"
+		OnClientItemsRequestFailed="itemsRequestFailed">
+		<WebServiceSettings Path="TagCloudWcfService.svc" Method="GetRadTagCloudItems" />
+	</telerik:RadTagCloud>
+	```
 
 	where the WCF WebService must be in the website, e.g.:
 
-	**ASP.NET**
-	
-		<%@ ServiceHost Language="C#" Debug="true" Service="TagCloudWcfService" CodeBehind="~/App_Code/TagCloudWcfService.cs" %>
+	```ASP.NET
+	<%@ ServiceHost Language="C#" Debug="true" Service="TagCloudWcfService" CodeBehind="~/App_Code/TagCloudWcfService.cs" %>
+	```
 
 
 2. When the WebServiceSettings property is set, an empty context request will be initiated automatically. You can trigger request to the service by calling the *requestItems()* client-side method. This method has a single parameter, which is sent as an argument to the Web service method.
@@ -310,48 +310,48 @@ For a live example of using a Web service to populate items, see the [Web Servic
 
 	>note Passing a value to a WCF service requires creating an object that will hold the data. This object will be serialized automatically. This object is received by the WCF WebService as a parameter of type IDictionary and you can access the value of the object you provided according to its name.
 
-	**JavaScript**
-
-		function clientFunction()
-		{
-			//...
-			var context = { minUnitPrice: "500" };
-			tagCloud.requestItems(context);
-			//...
-		}
+	```JavaScript
+	function clientFunction()
+	{
+		//...
+		var context = { minUnitPrice: "500" };
+		tagCloud.requestItems(context);
+		//...
+	}
+	```
 
 
 3. Optionally, set the **OnClientItemsRequesting** property to a client-side event handler that passes context information to the Web service. The Web service can use this context information to determine what child items to return or what properties to set on those child items. Note that setting the context requires an object as shown above.
 
-	**JavaScript**
-	
-		//Fired before the request is sent to the Web Service
-		function itemsRequesting(sender, args)
-		{
-			//If you want to cancel the request use
-			//args.set_cancel(true);
+	```JavaScript
+	//Fired before the request is sent to the Web Service
+	function itemsRequesting(sender, args)
+	{
+		//If you want to cancel the request use
+		//args.set_cancel(true);
 
-			//The args.get_context()/args.set_context(value) methods get/set the parameter which will be sent to the Web Service.
-			var context = args.get_context();
-		}
+		//The args.get_context()/args.set_context(value) methods get/set the parameter which will be sent to the Web Service.
+		var context = args.get_context();
+	}
+	```
 
 4. Optionally, set the **OnClientItemsRequested** and **OnClientItemsRequestFailed** properties to client-side event handlers that respond when the Web service has successfully loaded child items or when the Web service has generated an error while trying to service the item request, respectively.
 
-	**JavaScript**
-	
-		//Fired when the items are successfully loaded.
-		function itemsRequested(sender, args)
-		{
-			//...
-		}
+	```JavaScript
+	//Fired when the items are successfully loaded.
+	function itemsRequested(sender, args)
+	{
+		//...
+	}
 
-		//Fired when the request for the items fails.
-		function itemsRequestFailed(sender, args)
-		{
-			// Disable the notifing error alert.
-			args.set_cancelErrorAlert(true);
-			//...
-		}
+	//Fired when the request for the items fails.
+	function itemsRequestFailed(sender, args)
+	{
+		// Disable the notifing error alert.
+		args.set_cancelErrorAlert(true);
+		//...
+	}
+	```
 
 5. To use the integrated WCF WebService support of **RadTagCloud**, the WCF WebService should have the following signature:
 

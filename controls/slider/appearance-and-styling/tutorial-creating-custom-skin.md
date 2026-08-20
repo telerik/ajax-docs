@@ -105,28 +105,28 @@ See [Understanding the Skin CSS File]({% slug slider/appearance-and-styling/unde
 		
 	The classes that control the appearance for the selected region (to the left of the drag handle) and the track (visible on the right of the drag handle) are "rslSelectedregion" and "rslTrack" respectively. Change "rslSelectedregion" to use "Blue" for the background color.
 	
-	**CSS**
-	
-		.RadSlider_MySkin .rslHorizontal .rslSelectedregion
-		{ 
-			background:Blue none repeat scroll 0%; 
-			height:6px;
-		}
+	```CSS
+	.RadSlider_MySkin .rslHorizontal .rslSelectedregion
+	{ 
+		background:Blue none repeat scroll 0%; 
+		height:6px;
+	}
+	```
 
 1. Change the "rslTrack" style to use "AliceBlue" for the background color, border-bottom to use "Blue" color and border-top to use "DarkBlue".
 
-	**CSS**
-		
-		.RadSlider_MySkin .rslHorizontal .rslTrack
-		{ 
-			background:AliceBlue none repeat scroll 0%; 
-			border-bottom:1px solid Blue; 
-			border-top:1px solid DarkBlue; 
-			height:3px; 
-			left:12px; 
-			margin-top:6px; 
-			top:0pt;
-		}
+	```CSS
+	.RadSlider_MySkin .rslHorizontal .rslTrack
+	{ 
+		background:AliceBlue none repeat scroll 0%; 
+		border-bottom:1px solid Blue; 
+		border-top:1px solid DarkBlue; 
+		height:3px; 
+		left:12px; 
+		margin-top:6px; 
+		top:0pt;
+	}
+	```
 		
 1. Press F5 to run the application. Notice that both the graphics and background colors have changed.
 
