@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadToolBar
 description: Check our Web Forms article about Overview.
 slug: toolbar/getting-started/overview
+components: ["toolbar"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Visual Configuration Manager
 page_title: Visual Configuration Manager - RadWindow
 description: Check our Web Forms article about Visual Configuration Manager.
 slug: window/design-time/visual-configuration-manager
+components: ["window"]
 tags: visual,configuration,manager
 published: True
 position: 1

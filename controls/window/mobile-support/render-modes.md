@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadWindow
 description: Check our Web Forms article about Render Modes.
 slug: window/mobile-support/render-modes
+components: ["window"]
 tags: render,modes
 published: True
 position: 1

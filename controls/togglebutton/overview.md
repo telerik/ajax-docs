@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadToggleButton
 description: Check our Web Forms article about Overview.
 slug: togglebutton/overview
+components: ["togglebutton"]
 tags: overview
 published: True
 position: 0

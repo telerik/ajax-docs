@@ -3,6 +3,7 @@ title: Icon Tile
 page_title: Icon Tile - RadTile
 description: Check our Web Forms article about Icon Tile.
 slug: tilelist/tiles/icon-tile
+components: ["tilelist"]
 tags: icon,tile
 published: True
 position: 3

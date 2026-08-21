@@ -3,6 +3,7 @@ title: OnClientBeforeClose
 page_title: OnClientBeforeClose - RadWindow
 description: Check our Web Forms article about OnClientBeforeClose.
 slug: window/client-side-programming/events/onclientbeforeclose
+components: ["window"]
 tags: onclientbeforeclose
 published: True
 position: 4

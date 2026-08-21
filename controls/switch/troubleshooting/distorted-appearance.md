@@ -3,6 +3,7 @@ title: Distorted Appearance
 page_title: Distorted Appearance - RadSwitch
 description: Check our Web Forms article about Distorted Appearance.
 slug: switch/troubleshooting/distorted-appearance
+components: ["switch"]
 tags: distorted,appearance
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Using Additional Columns
 page_title: Using Additional Columns - RadTreeView
 description: Check our Web Forms article about Using Additional Columns.
 slug: treeview/data-binding/using-additional-columns
+components: ["treeview"]
 tags: using,additional,columns
 published: True
 position: 6

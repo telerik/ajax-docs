@@ -3,6 +3,7 @@ title: Styles
 page_title: Styles - RadTimePicker
 description: Check our Web Forms article about Styles.
 slug: timepicker/appearance-and-styling/styles
+components: ["timepicker"]
 tags: styles
 published: True
 position: 1

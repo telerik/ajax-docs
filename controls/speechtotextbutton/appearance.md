@@ -3,6 +3,7 @@ title: Appearance
 page_title: SpeechToTextButton Appearance
 description: "Learn how to set the options to change the appearance such as, sizes, border radiuses, fill modes and theme colors."
 slug: speechtotextbutton/appearance
+components: ["speechtotextbutton"]
 tags: appearance,speechtotextbutton
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Customizing the Embedded Controls
 page_title: Customizing the Embedded Controls - RadTimePicker
 description: Check our Web Forms article about Customizing the Embedded Controls.
 slug: timepicker/functionality/customizing-the-embedded-controls
+components: ["timepicker"]
 tags: customizing,the,embedded,controls
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Defining the Structure in the Code-Behind
 page_title: Defining the Structure in the Code-Behind - RadTabStrip
 description: Check our Web Forms article about Defining the Structure in the Code-Behind.
 slug: tabstrip/radmultipage/defining-the-structure-in-the-code-behind
+components: ["tabstrip"]
 tags: defining,the,structure,in,the,code-behind
 published: True
 position: 2

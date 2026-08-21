@@ -3,6 +3,7 @@ title: RadToolTipManager Object
 page_title: RadToolTipManager Object - RadTooltip
 description: Check our Web Forms article about RadToolTipManager Object.
 slug: tooltip/client-side-programming/radtooltipmanager-object
+components: ["tooltip"]
 tags: radtooltipmanager,object
 published: True
 position: 2

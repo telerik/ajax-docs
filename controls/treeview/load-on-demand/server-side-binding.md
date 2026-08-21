@@ -3,6 +3,7 @@ title: Server-side Binding
 page_title: Server-side Binding - RadTreeView
 description: Check our Web Forms article about Server-side Binding.
 slug: treeview/load-on-demand/server-side-binding
+components: ["treeview"]
 tags: server-side,binding
 published: True
 position: 1

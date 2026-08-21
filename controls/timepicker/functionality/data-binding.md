@@ -3,6 +3,7 @@ title: Data Binding
 page_title: Data Binding - RadTimePicker
 description: Check our Web Forms article about Data Binding.
 slug: timepicker/functionality/data-binding
+components: ["timepicker"]
 tags: data,binding,
 published: True
 position: 3

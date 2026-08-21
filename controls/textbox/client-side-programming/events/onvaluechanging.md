@@ -3,6 +3,7 @@ title: OnValueChanging
 page_title: OnValueChanging - RadTextBox
 description: Check our Web Forms article about OnValueChanging.
 slug: radtextbox/client-side-programming/events/onvaluechanging
+components: ["textbox"]
 tags: onvaluechanging
 published: True
 position: 16

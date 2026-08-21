@@ -3,6 +3,7 @@ title: Add a Node in edit mode by Default
 page_title: Add a Node in edit mode by Default - RadTreeView
 description: Check our Web Forms article about Add a Node in edit mode by Default.
 slug: treeview/application-scenarios/general/add-a-node-in-edit-mode-by-default
+components: ["treeview"]
 tags: add,a,node,in,edit,mode,by,default
 published: True
 position: 2

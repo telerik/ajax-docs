@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadStepper
 description: Check our Web Forms article about Keyboard Support.
 slug: stepper/accessibility-and-internationalization/keyboard-support
+components: ["stepper"]
 tags: keyboard,support
 published: True
 position: 1

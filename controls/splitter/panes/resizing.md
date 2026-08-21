@@ -3,6 +3,7 @@ title: Resizing
 page_title: Resizing - RadSplitter
 description: Check our Web Forms article about Resizing.
 slug: splitter/panes/resizing
+components: ["splitter"]
 tags: resizing
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Using the TargetControls Collection
 page_title: Using the TargetControls Collection - RadTooltip
 description: Check our Web Forms article about Using the TargetControls Collection.
 slug: tooltip/radtooltipmanager/using-the-targetcontrols-collection
+components: ["tooltip"]
 tags: using,the,targetcontrols,collection
 published: True
 position: 1

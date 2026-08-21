@@ -3,6 +3,7 @@ title: TextChanged Event
 page_title: TextChanged Event - RadTextBox
 description: Explore how to handle the TextChanged event in the TextBox control for server-side input processing.
 slug: radtextbox/server-side-programming/textchanged-event
+components: ["textbox"]
 tags: textchanged,event
 published: True
 position: 1

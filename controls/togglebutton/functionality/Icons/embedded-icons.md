@@ -3,6 +3,7 @@ title: Embedded Icons
 page_title: Embedded Icons - RadToggleButton
 description: Check our Web Forms article about Embedded Icons.
 slug: togglebutton/functionality/icons/embedded-icons
+components: ["togglebutton"]
 tags: embedded,icons
 published: True
 position: 0

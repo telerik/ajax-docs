@@ -3,6 +3,7 @@ title: OnDisable
 page_title: OnDisable - RadTextBox
 description: Check our Web Forms article about OnDisable.
 slug: radtextbox/client-side-programming/events/ondisable
+components: ["textbox"]
 tags: ondisable
 published: True
 position: 4

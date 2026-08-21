@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events Overview - RadWindow
 description: Check our Web Forms article about Overview.
 slug: window/client-side-programming/events/overview
+components: ["window"]
 tags: overview
 published: True
 position: 0

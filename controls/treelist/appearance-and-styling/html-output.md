@@ -3,6 +3,7 @@ title: HTML Output
 page_title: HTML Output - RadTreeList
 description: Check our Web Forms article about HTML Output.
 slug: treelist/appearance-and-styling/html-output
+components: ["treelist"]
 tags: html,output
 published: True
 position: 1

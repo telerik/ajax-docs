@@ -3,6 +3,7 @@ title: Events
 page_title: Server-side Events - RadTabStrip
 description: Check our Web Forms article about Events.
 slug: tabstrip/server-side-programming/events
+components: ["tabstrip"]
 tags: events
 published: True
 position: 0

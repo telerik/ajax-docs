@@ -3,6 +3,7 @@ title: Uploading Files with AJAX
 page_title: Uploading Files with AJAX - RadUpload
 description: Check our Web Forms article about Uploading Files with AJAX.
 slug: upload/uploading-files/uploading-files-with-ajax
+components: ["upload"]
 tags: uploading,files,with,ajax
 published: True
 position: 3

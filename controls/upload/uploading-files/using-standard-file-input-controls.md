@@ -3,6 +3,7 @@ title: Using standard file input controls
 page_title: Using standard file input controls - RadUpload
 description: Check our Web Forms article about Using standard file input controls.
 slug: upload/uploading-files/using-standard-file-input-controls
+components: ["upload"]
 tags: using,standard,file,input,controls
 published: True
 position: 4

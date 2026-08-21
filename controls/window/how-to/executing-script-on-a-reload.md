@@ -3,6 +3,7 @@ title: Executing Script on a Reload
 page_title: Executing Script on a Reload - RadWindow
 description: Check our Web Forms article about Executing Script on a Reload.
 slug: window/how-to/executing-script-on-a-reload
+components: ["window"]
 tags: executing,script,on,a,reload
 published: True
 position: 6

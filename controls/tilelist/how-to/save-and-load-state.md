@@ -3,6 +3,7 @@ title: Save and Load State
 page_title: Save and Load State - RadTileList
 description: Check our Web Forms article about Save and Load State.
 slug: tilelist/how-to/save-and-load-state
+components: ["tilelist"]
 tags: save,load,state
 published: True
 position: 3

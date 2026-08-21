@@ -3,6 +3,7 @@ title: OnClientNodeDragStart
 page_title: OnClientNodeDragStart - RadTreeView
 description: Check our Web Forms article about OnClientNodeDragStart.
 slug: treeview/client-side-programming/events/onclientnodedragstart
+components: ["treeview"]
 tags: onclientnodedragstart
 published: True
 position: 12

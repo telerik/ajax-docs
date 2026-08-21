@@ -3,6 +3,7 @@ title: Drag-To-Reorder Tabs
 page_title: Drag-To-Reorder Tabs - RadTabStrip
 description: Check our Web Forms article about Drag-To-Reorder Tabs.
 slug: tabstrip/tabs/drag-to-reorder-tabs
+components: ["tabstrip"]
 tags: drag-to-reorder,tabs
 published: True
 position: 1

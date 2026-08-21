@@ -3,6 +3,7 @@ title: Using the TargetControlID Property
 page_title: Using the TargetControlID Property - RadTooltip
 description: Check our Web Forms article about Using the TargetControlID Property.
 slug: tooltip/radtooltip/using-the-targetcontrolid-property
+components: ["tooltip"]
 tags: using,the,targetcontrolid,property
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Design-time
 page_title: Design-time - RadTile
 description: Check our Web Forms article about Design-time.
 slug: tilelist/tiles/design-time
+components: ["tilelist"]
 tags: design-time
 published: True
 position: 1

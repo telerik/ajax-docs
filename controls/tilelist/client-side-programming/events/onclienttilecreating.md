@@ -3,6 +3,7 @@ title: OnClientTileCreating
 page_title: OnClientTileCreating - RadTileList
 description: Check our Web Forms article about OnClientTileCreating.
 slug: tilelist/client-side-programming/client-side-events/onclienttilecreating
+components: ["tilelist"]
 tags: onclienttilecreating
 published: True
 position: 14

@@ -3,6 +3,7 @@ title: Binding to OData
 page_title: Binding to OData - RadTreeView
 description: Check our Web Forms article about Binding to OData.
 slug: treeview/data-binding/binding-to-odata
+components: ["treeview"]
 tags: binding,to,odata
 published: True
 position: 7

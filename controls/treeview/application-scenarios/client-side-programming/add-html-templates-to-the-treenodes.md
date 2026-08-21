@@ -3,6 +3,7 @@ title: Add HTML Templates to the TreeNodes
 page_title: Add HTML Templates to the TreeNodes - RadTreeView
 description: Check our Web Forms article about Add HTML Templates to the TreeNodes.
 slug: treeview/application-scenarios/client-side-programming/add-html-templates-to-the-treenodes
+components: ["treeview"]
 tags: add,html,templates,to,the,treenodes
 published: True
 position: 6

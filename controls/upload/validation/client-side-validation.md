@@ -3,6 +3,7 @@ title: Client-side Validation
 page_title: Client-side Validation - RadUpload
 description: Check our Web Forms article about Client-side Validation.
 slug: upload/validation/client-side-validation
+components: ["upload"]
 tags: client-side,validation
 published: True
 position: 0

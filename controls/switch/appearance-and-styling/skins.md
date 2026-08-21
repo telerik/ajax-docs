@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadSwitch
 description: Check our Web Forms article about Skins.
 slug: switch/appearance-and-styling/skins
+components: ["switch"]
 tags: skins
 published: True
 position: 0

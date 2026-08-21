@@ -3,6 +3,7 @@ title: Change Tabs on Mouseover
 page_title: Change Tabs on Mouseover - RadTabStrip
 description: Check our Web Forms article about Change Tabs on Mouseover.
 slug: tabstrip/how-to/change-tabs-on-mouseover
+components: ["tabstrip"]
 tags: change,tabs,on,mouseover
 published: True
 position: 0

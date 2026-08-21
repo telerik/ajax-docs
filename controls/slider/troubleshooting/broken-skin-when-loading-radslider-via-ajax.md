@@ -3,6 +3,7 @@ title: Broken Skin When Loading RadSlider via AJAX
 page_title: Broken Skin When Loading RadSlider via AJAX - RadSlider
 description: Check our Web Forms article about Broken Skin When Loading RadSlider via AJAX.
 slug: slider/troubleshooting/broken-skin-when-loading-radslider-via-ajax
+components: ["slider"]
 tags: broken,skin,when,loading,radslider,via,ajax
 published: True
 position: 0

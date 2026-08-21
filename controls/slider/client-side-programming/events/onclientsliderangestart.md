@@ -3,6 +3,7 @@ title: OnClientSlideRangeStart
 page_title: OnClientSlideRangeStart - RadSlider
 description: Check our Web Forms article about OnClientSlideRangeStart.
 slug: slider/client-side-programming/events/onclientsliderangestart
+components: ["slider"]
 tags: onclientsliderangestart
 published: True
 position: 7

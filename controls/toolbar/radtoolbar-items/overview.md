@@ -3,6 +3,7 @@ title: Overview
 page_title: RadToolBar Items Overview - RadToolBar
 description: Check our Web Forms article about Overview.
 slug: toolbar/radtoolbar-items/overview
+components: ["toolbar"]
 tags: overview
 published: True
 position: 0

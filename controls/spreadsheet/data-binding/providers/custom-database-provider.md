@@ -3,6 +3,7 @@ title: Implementing Custom Provider
 page_title: Implementing Custom Provider - RadSpreadsheet
 description: Check our Web Forms article about Custom Database Provider.
 slug: spreadsheet/data-binding/providers/custom-database-provider
+components: ["spreadsheet"]
 tags: custom,database,provider
 published: True
 position: 1

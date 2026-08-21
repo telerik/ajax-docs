@@ -3,6 +3,7 @@ title: Specifying Tab appearance
 page_title: Specifying Tab appearance - RadSplitter
 description: Check our Web Forms article about Specifying Tab appearance.
 slug: splitter/sliding-zones/specifying-tab-appearance
+components: ["splitter"]
 tags: specifying,tab,appearance
 published: True
 position: 2

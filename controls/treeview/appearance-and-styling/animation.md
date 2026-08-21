@@ -3,6 +3,7 @@ title: Animation
 page_title: Animation - RadTreeView
 description: Check our Web Forms article about Animation.
 slug: treeview/appearance-and-styling/animation
+components: ["treeview"]
 tags: animation
 published: True
 position: 6

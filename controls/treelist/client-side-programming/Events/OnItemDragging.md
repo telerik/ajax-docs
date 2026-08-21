@@ -3,6 +3,7 @@ title: OnItemDragging
 page_title: OnItemDragging - RadTreeList
 description: Check our Web Forms article about OnItemDragging Event.
 slug: treelist/client-side-programming/Events/OnItemDragging
+components: ["treelist"]
 tags: events,OnItemDragging
 published: True
 position: 1

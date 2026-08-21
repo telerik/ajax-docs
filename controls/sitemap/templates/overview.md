@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview - RadSiteMap
 description: Check our Web Forms article about Overview.
 slug: sitemap/templates/overview
+components: ["sitemap"]
 tags: overview
 published: True
 position: 0

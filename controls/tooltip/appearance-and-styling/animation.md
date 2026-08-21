@@ -3,6 +3,7 @@ title: Animation
 page_title: Animation - RadTooltip
 description: Check our Web Forms article about Animation.
 slug: tooltip/appearance-and-styling/animation
+components: ["tooltip"]
 tags: animation
 published: True
 position: 2

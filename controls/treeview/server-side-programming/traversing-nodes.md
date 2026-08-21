@@ -3,6 +3,7 @@ title: Traversing Nodes
 page_title: Traversing Nodes - RadTreeView
 description: Check our Web Forms article about Traversing Nodes.
 slug: treeview/server-side-programming/traversing-nodes
+components: ["treeview"]
 tags: traversing,nodes
 published: True
 position: 1

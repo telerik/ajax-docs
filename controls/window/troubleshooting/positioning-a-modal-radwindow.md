@@ -3,6 +3,7 @@ title: Positioning a Modal RadWindow
 page_title: Positioning a Modal RadWindow - RadWindow
 description: Check our Web Forms article about Positioning a Modal RadWindow.
 slug: window/troubleshooting/positioning-a-modal-radwindow
+components: ["window"]
 tags: positioning,a,modal,radwindow
 published: True
 position: 8

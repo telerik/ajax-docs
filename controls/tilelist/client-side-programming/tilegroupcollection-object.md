@@ -3,6 +3,7 @@ title: TileGroupCollection Object
 page_title: TileGroupCollection Object - RadTileList
 description: Check our Web Forms article about TileGroupCollection Object.
 slug: tilelist/client-side-programming/tilegroupcollection-object
+components: ["tilelist"]
 tags: tilegroupcollection,object
 published: True
 position: 1

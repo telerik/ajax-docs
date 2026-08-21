@@ -3,6 +3,7 @@ title: AI Service Integration
 page_title: SmartPasteButton AI Service Integration
 description: "Learn how to integrate AI services with the Telerik WebForms SmartPasteButton to process clipboard content and extract structured data."
 slug: smartpastebutton/ai-service-integration
+components: ["smartpastebutton"]
 tags: smartpastebutton,ai,service,integration
 published: True
 position: 5

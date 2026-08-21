@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadToolBar
 description: Check our Web Forms article about Skins.
 slug: toolbar/appearance-and-styling/skins
+components: ["toolbar"]
 tags: skins
 published: True
 position: 3

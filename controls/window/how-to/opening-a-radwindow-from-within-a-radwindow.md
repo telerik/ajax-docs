@@ -3,6 +3,7 @@ title: Open a RadWindow from Within a RadWindow
 page_title: Open a RadWindow from Within a RadWindow - RadWindow
 description: Check our Web Forms article about How to open a RadWindow from Within a RadWindow.
 slug: window/how-to/opening-a-radwindow-from-within-a-radwindow
+components: ["window"]
 tags: opening, open,radwindow,from,within,inside,radwindow
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Localizing RadUpload
 page_title: Localizing RadUpload - RadUpload
 description: Check our Web Forms article about Localizing RadUpload.
 slug: upload/localization/localizing-radupload
+components: ["upload"]
 tags: localizing,radupload
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadSpreadsheet
 description: Learn how to set up and configure the Spreadsheet control for creating and managing Excel-like sheets.
 slug: spreadsheet/getting-started
+components: ["spreadsheet"]
 tags: getting,started
 published: True
 position: 1

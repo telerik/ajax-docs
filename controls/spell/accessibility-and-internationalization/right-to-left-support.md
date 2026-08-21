@@ -3,6 +3,7 @@ title: Right-to-left Support
 page_title: Right-to-left Support - RadSpell
 description: Check our Web Forms article about Right-to-left Support.
 slug: spell/accessibility-and-internationalization/right-to-left-support
+components: ["spell"]
 tags: right-to-left,support
 published: True
 position: 2

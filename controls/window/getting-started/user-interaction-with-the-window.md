@@ -3,6 +3,7 @@ title: User Interaction With The Window
 page_title: User Interaction With The Window - RadWindow
 description: Check our Web Forms article about User Interaction With The Window.
 slug: window/getting-started/user-interaction-with-the-window
+components: ["window"]
 tags: user,interaction,with,the,window
 published: True
 position: 6

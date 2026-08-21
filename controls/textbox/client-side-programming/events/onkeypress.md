@@ -3,6 +3,7 @@ title: OnKeyPress
 page_title: OnKeyPress - RadTextBox
 description: Discover how to handle the OnKeyPress event in the TextBox control for custom client-side logic.
 slug: radtextbox/client-side-programming/events/onkeypress
+components: ["textbox"]
 tags: onkeypress
 published: True
 position: 9

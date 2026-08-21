@@ -3,6 +3,7 @@ title: Improper Spelling Suggestions
 page_title: Improper Spelling Suggestions - RadSpell
 description: Check our Web Forms article about Improper Spelling Suggestions.
 slug: spell/troubleshooting/improper-spelling-suggestions
+components: ["spell"]
 tags: improper,spelling,suggestions
 published: True
 position: 0

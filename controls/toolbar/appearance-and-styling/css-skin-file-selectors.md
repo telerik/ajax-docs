@@ -3,6 +3,7 @@ title: CSS Skin File Selectors
 page_title: CSS Skin File Selectors - RadToolBar
 description: Check our Web Forms article about CSS Skin File Selectors.
 slug: toolbar/appearance-and-styling/css-skin-file-selectors
+components: ["toolbar"]
 tags: css,skin,file,selectors
 published: True
 position: 7

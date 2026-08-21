@@ -3,6 +3,7 @@ title: OnClientSlideRange
 page_title: OnClientSlideRange - RadSlider
 description: Check our Web Forms article about OnClientSlideRange.
 slug: slider/client-side-programming/events/onclientsliderange
+components: ["slider"]
 tags: onclientsliderange
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events - RadTabStrip
 description: Check our Web Forms article about Events overview.
 slug: tabstrip/client-side-programming/events
+components: ["tabstrip"]
 tags: events,overview
 published: True
 position: 0

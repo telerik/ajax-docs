@@ -3,6 +3,7 @@ title: Localize RadUpload Client-side
 page_title: Localize RadUpload Client-side - RadUpload
 description: Check our Web Forms article about Localize RadUpload Client-side.
 slug: upload/localization/localize-radupload-client-side
+components: ["upload"]
 tags: localize,radupload,client-side
 published: True
 position: 1

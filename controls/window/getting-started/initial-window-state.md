@@ -3,6 +3,7 @@ title: Initial Window State
 page_title: Initial Window State - RadWindow
 description: Check our Web Forms article about Initial Window State.
 slug: window/getting-started/initial-window-state
+components: ["window"]
 tags: initial,window,state
 published: True
 position: 7

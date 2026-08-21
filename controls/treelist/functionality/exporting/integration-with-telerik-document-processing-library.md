@@ -3,6 +3,7 @@ title: Integration with Telerik Document Processing Library
 page_title: Integration with Telerik Document Processing Library - RadTreeList
 description: Check our Web Forms article about Integration with Telerik Document Processing Library.
 slug: treelist/functionality/exporting/integration-with-telerik-document-processing-library
+components: ["treelist"]
 tags: integration,with,telerik,document,processing,library
 published: True
 position: 4

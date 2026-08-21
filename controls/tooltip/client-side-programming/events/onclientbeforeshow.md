@@ -3,6 +3,7 @@ title: OnClientBeforeShow
 page_title: OnClientBeforeShow - RadTooltip
 description: Check our Web Forms article about OnClientBeforeShow.
 slug: tooltip/client-side-programming/events/onclientbeforeshow
+components: ["tooltip"]
 tags: onclientbeforeshow
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Mutually Exclusive Scenarios
 page_title: Mutually Exclusive Scenarios - RadTreeView
 description: Check our Web Forms article about Mutually Exclusive Scenarios.
 slug: treeview/troubleshooting/mutually-exclusive-scenarios
+components: ["treeview"]
 tags: mutually,exclusive,scenarios
 published: True
 position: 10

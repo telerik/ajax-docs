@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadSiteMap
 description: Check our Web Forms article about Overview.
 slug: sitemap/data-binding/overview
+components: ["sitemap"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Setting a Control to Check
 page_title: Setting a Control to Check - RadSpell
 description: Check our Web Forms article about Setting a Control to Check.
 slug: spell/how-to/setting-a-control-to-check
+components: ["spell"]
 tags: setting,a,control,to,check
 published: True
 position: 0

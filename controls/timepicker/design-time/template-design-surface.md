@@ -3,6 +3,7 @@ title: Template Design Surface
 page_title: Template Design Surface - RadTimePicker
 description: Check our Web Forms article about Template Design Surface.
 slug: timepicker/design-time/template-design-surface
+components: ["timepicker"]
 tags: template,design,surface
 published: True
 position: 2

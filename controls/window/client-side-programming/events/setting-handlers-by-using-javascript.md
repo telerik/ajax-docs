@@ -3,6 +3,7 @@ title: Setting Handlers by Using JavaScript
 page_title: Setting Handlers by Using JavaScript - RadWindow
 description: Check our Web Forms article about Setting Handlers by Using JavaScript.
 slug: window/client-side-programming/events/setting-handlers-by-using-javascript
+components: ["window"]
 tags: setting,handlers,by,using,javascript
 published: True
 position: 1

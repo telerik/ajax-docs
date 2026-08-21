@@ -3,6 +3,7 @@ title: Trust Permissions Set
 page_title: Trust Permissions Set - RadUpload
 description: Check our Web Forms article about Trust Permissions Set.
 slug: upload/troubleshooting/trust-permissions-set
+components: ["upload"]
 tags: trust,permissions,set
 published: True
 position: 1

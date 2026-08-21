@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadTreeList
 description: Check our Web Forms article about Validation.
 slug: treelist/data-editing/validation
+components: ["treelist"]
 tags: validation
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: ItemDataBound
 page_title: ItemDataBound - RadTimePicker
 description: Check our Web Forms article about ItemDataBound.
 slug: timepicker/server-side-programming/events/itemdatabound
+components: ["timepicker"]
 tags: itemdatabound
 published: True
 position: 4

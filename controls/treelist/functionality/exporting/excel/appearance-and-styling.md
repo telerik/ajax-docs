@@ -3,6 +3,7 @@ title: Appearance and Styling
 page_title: Appearance and Styling - RadTreeList
 description: Check our Web Forms article about Appearance and Styling.
 slug: treelist/functionality/exporting/excel/appearance-and-styling
+components: ["treelist"]
 tags: appearance,and,styling
 published: True
 position: 0

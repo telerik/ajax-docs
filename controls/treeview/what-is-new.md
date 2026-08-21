@@ -3,6 +3,7 @@ title: What is New
 page_title: What is New - RadTreeView
 description: Check our Web Forms article about What is New.
 slug: treeview/what-is-new
+components: ["treeview"]
 tags: what,is,new
 published: False
 position: 2

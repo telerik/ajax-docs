@@ -3,6 +3,7 @@ title: Changes and Backwards Compatibility
 page_title: Changes and Backwards Compatibility - RadSocialShare
 description: Check our Web Forms article about Changes and Backwards Compatibility.
 slug: socialshare/changes-and-backwards-compatibility
+components: ["socialshare"]
 tags: changes,and,backwards,compatibility
 published: True
 position: 1

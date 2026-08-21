@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadTreeList
 description: Check our Web Forms article about Structure.
 slug: treelist/structure
+components: ["treelist"]
 tags: structure
 published: True
 position: 1

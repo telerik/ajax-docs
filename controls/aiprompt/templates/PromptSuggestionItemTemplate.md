@@ -3,6 +3,7 @@ title: Prompt Suggestion Template
 page_title: AIPrompt Suggestion Template
 description: "Learn about how to use the Prompt Suggestion Template with the WebForms AIPrompt"
 slug: templates/promptsuggestionitemtemplate
+components: ["aiprompt"]
 position: 2
 ---
 

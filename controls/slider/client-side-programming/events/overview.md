@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events Overview - RadSlider
 description: Check our Web Forms article about Overview.
 slug: slider/client-side-programming/events/overview
+components: ["slider"]
 tags: overview
 published: True
 position: 0

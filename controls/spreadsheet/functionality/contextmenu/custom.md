@@ -3,6 +3,7 @@ title: Custom
 page_title: RadSpreadsheet Custom Context Menu
 description: Check our Web Forms article about Custom ContextMenu.
 slug: spreadsheet/functionality/contextmenu/custom
+components: ["spreadsheet"]
 tags: custom
 published: True
 position: 1

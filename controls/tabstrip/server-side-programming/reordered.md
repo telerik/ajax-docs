@@ -3,6 +3,7 @@ title: Reordered
 page_title: Reordered - RadTabStrip
 description: Check our Web Forms article about Reordered.
 slug: tabstrip/server-side-programming/reordered
+components: ["tabstrip"]
 tags: reordered
 published: True
 position: 6

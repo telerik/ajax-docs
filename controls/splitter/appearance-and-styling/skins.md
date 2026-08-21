@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadSplitter
 description: Check our Web Forms article about Skins.
 slug: splitter/appearance-and-styling/skins
+components: ["splitter"]
 tags: skins
 published: True
 position: 1

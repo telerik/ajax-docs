@@ -3,6 +3,7 @@ title: Working with Nodes on the Client
 page_title: Working with Nodes on the Client - RadTreeView
 description: Check our Web Forms article about Working with Nodes on the Client.
 slug: treeview/radtreeview-nodes/working-with-nodes-at-the-client
+components: ["treeview"]
 tags: working,with,nodes,at,the,client
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientContextMenuItemClicked
 page_title: OnClientContextMenuItemClicked - RadTreeView
 description: Check our Web Forms article about OnClientContextMenuItemClicked.
 slug: treeview/client-side-programming/events/onclientcontextmenuitemclicked
+components: ["treeview"]
 tags: onclientcontextmenuitemclicked
 published: True
 position: 28

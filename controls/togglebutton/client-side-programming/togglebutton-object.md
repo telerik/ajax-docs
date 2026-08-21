@@ -3,6 +3,7 @@ title: ToggleButton Object
 page_title: ToggleButton Object - RadToggleButton
 description: Check our Web Forms article about ToggleButton Object.
 slug: togglebutton/client-side-programming/togglebutton-object
+components: ["togglebutton"]
 tags: togglebutton,object
 published: True
 position: 1

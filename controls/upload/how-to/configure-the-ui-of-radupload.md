@@ -3,6 +3,7 @@ title: Configure the UI of RadUpload
 page_title: Configure the UI of RadUpload - RadUpload
 description: Check our Web Forms article about Configure the UI of RadUpload.
 slug: upload/how-to/configure-the-ui-of-radupload
+components: ["upload"]
 tags: configure,the,ui,of,radupload
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadWindow
 description: Learn about the client-side programming features of the RadWindow control for dynamic interactions.
 slug: window/client-side-programming/overview
+components: ["window"]
 tags: overview
 published: True
 position: 0

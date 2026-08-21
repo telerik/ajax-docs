@@ -3,6 +3,7 @@ title: ValidatingFile
 page_title: ValidatingFile - RadUpload
 description: Check our Web Forms article about ValidatingFile.
 slug: upload/server-side-programming/validatingfile
+components: ["upload"]
 tags: validatingfile
 published: True
 position: 2

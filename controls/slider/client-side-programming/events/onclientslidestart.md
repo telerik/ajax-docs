@@ -3,6 +3,7 @@ title: OnClientSlideStart
 page_title: OnClientSlideStart - RadSlider
 description: Check our Web Forms article about OnClientSlideStart.
 slug: slider/client-side-programming/events/onclientslidestart
+components: ["slider"]
 tags: onclientslidestart
 published: True
 position: 5

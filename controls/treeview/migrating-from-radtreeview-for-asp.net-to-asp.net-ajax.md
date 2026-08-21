@@ -3,6 +3,7 @@ title: Migrating from RadTreeView for ASP.NET to ASP.NET AJAX
 page_title: Migrating from RadTreeView for ASP.NET to ASP.NET AJAX - RadTreeView
 description: Check our Web Forms article about Migrating from RadTreeView for ASP.NET to ASP.NET AJAX.
 slug: treeview/migrating-from-radtreeview-for-asp.net-to-asp.net-ajax
+components: ["treeview"]
 tags: migrating,from,radtreeview,for,asp.net,to,asp.net,ajax
 published: True
 position: 4

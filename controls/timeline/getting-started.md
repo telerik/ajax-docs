@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadTimeline
 description: Check our Web Forms article about Getting Started.
 slug: timeline/getting-started
+components: ["timeline"]
 tags: getting,started,
 published: True
 position: 1

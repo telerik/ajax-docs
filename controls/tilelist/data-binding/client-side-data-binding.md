@@ -3,6 +3,7 @@ title: Client-side Data Binding
 page_title: Client-side Data Binding - RadTileList
 description: Check our Web Forms article about Client-side Data Binding.
 slug: tilelist/data-binding/client-side-data-binding
+components: ["tilelist"]
 tags: client-side,data,binding
 published: True
 position: 3

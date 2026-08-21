@@ -3,6 +3,7 @@ title: OnClientActivate
 page_title: OnClientActivate - RadWindow
 description: Check our Web Forms article about OnClientActivate.
 slug: window/client-side-programming/events/onclientactivate
+components: ["window"]
 tags: onclientactivate
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Appearance
 page_title: SmartPasteButton Appearance
 description: "Learn how to set the options to change the appearance such as, sizes, border radiuses, fill modes and theme colors."
 slug: smartpastebutton/appearance
+components: ["smartpastebutton"]
 tags: appearance,smartpastebutton
 published: True
 position: 2

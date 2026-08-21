@@ -3,6 +3,7 @@ title: Declaring Sliding Zones
 page_title: Declaring Sliding Zones - RadSplitter
 description: Check our Web Forms article about Declaring Sliding Zones.
 slug: splitter/sliding-zones/declaring-sliding-zones
+components: ["splitter"]
 tags: declaring,sliding,zones
 published: True
 position: 0

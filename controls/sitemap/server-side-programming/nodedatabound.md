@@ -3,6 +3,7 @@ title: NodeDataBound
 page_title: NodeDataBound - RadSiteMap
 description: Check our Web Forms article about NodeDataBound.
 slug: sitemap/server-side-programming/nodedatabound
+components: ["sitemap"]
 tags: nodedatabound
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadToolBar
 description: Check our Web Forms article about Structure.
 slug: toolbar/structure
+components: ["toolbar"]
 tags: structure
 published: True
 position: 1

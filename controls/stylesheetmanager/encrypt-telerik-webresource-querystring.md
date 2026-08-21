@@ -3,6 +3,7 @@ title: Encrypt Telerik WebResource Querystring
 page_title: Encrypt Telerik WebResource Querystring - RadStyleSheetManager
 description: Check our Web Forms article about Encrypt Telerik WebResource Querystring.
 slug: stylesheetmanager/encrypt-telerik-webresource-querystring
+components: ["stylesheetmanager"]
 tags: encrypt,telerik,webresource,request,querystring
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSpreadsheet Overview
 description: Learn about the Spreadsheet control and its features for creating and managing Excel-like spreadsheets.
 slug: spreadsheet/overview
+components: ["spreadsheet"]
 tags: overview
 published: True
 position: 0

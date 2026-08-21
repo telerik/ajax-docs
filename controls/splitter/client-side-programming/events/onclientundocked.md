@@ -3,6 +3,7 @@ title: OnClientUndocked
 page_title: OnClientUndocked - RadSplitter
 description: Check our Web Forms article about OnClientUndocked.
 slug: splitter/client-side-programming/events/onclientundocked
+components: ["splitter"]
 tags: onclientundocked
 published: True
 position: 17

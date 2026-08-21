@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadTimeline
 description: Check our Web Forms article about Keyboard Support.
 slug: timeline/accessibility-and-internationalization/keyboard-support
+components: ["timeline"]
 tags: keyboard,support
 published: True
 position: 1

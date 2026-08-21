@@ -3,6 +3,7 @@ title: Google Analytics Integration
 page_title: Google Analytics Integration - RadSocialShare
 description: Check our Web Forms article about Google Analytics Integration.
 slug: socialshare/functionality/google-analytics-integration
+components: ["socialshare"]
 tags: google,analytics,integration
 published: True
 position: 2

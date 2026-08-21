@@ -3,6 +3,7 @@ title: Collapsing
 page_title: Collapsing - RadSplitter
 description: Check our Web Forms article about Collapsing.
 slug: splitter/panes/collapsing
+components: ["splitter"]
 tags: collapsing
 published: True
 position: 1

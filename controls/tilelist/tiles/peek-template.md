@@ -3,6 +3,7 @@ title: Peek Template
 page_title: Peek Template - RadTile
 description: Check our Web Forms article about Peek Template.
 slug: tilelist/tiles/peek-template
+components: ["tilelist"]
 tags: peek,template
 published: True
 position: 9

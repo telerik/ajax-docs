@@ -3,6 +3,7 @@ title: Select State
 page_title: Select State - RadToggleButton
 description: Check our Web Forms article about Select State.
 slug: togglebutton/functionality/select-state
+components: ["togglebutton"]
 tags: select,state
 published: True
 position: 0

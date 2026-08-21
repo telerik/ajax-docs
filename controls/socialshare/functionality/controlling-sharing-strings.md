@@ -3,6 +3,7 @@ title: Controlling Sharing Strings
 page_title: Controlling Sharing Strings - RadSocialShare
 description: Check our Web Forms article about Controlling Sharing Strings.
 slug: socialshare/functionality/controlling-sharing-strings
+components: ["socialshare"]
 tags: controlling,sharing,strings
 published: True
 position: 3

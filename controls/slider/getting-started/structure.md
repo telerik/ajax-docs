@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadSlider
 description: Check our Web Forms article about Structure.
 slug: slider/getting-started/structure
+components: ["slider"]
 tags: structure
 published: True
 position: 1

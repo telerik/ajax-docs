@@ -3,6 +3,7 @@ title: OnFacebookSend
 page_title: OnFacebookSend - RadSocialShare
 description: Check our Web Forms article about OnFacebookSend.
 slug: socialshare/client-side-programming/events/onfacebooksend
+components: ["socialshare"]
 tags: onfacebooksend
 published: True
 position: 2

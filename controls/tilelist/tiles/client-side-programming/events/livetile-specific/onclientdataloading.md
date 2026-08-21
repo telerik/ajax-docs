@@ -3,6 +3,7 @@ title: OnClientDataLoading
 page_title: OnClientDataLoading - RadTile
 description: Check our Web Forms article about OnClientDataLoading.
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloading
+components: ["tilelist"]
 tags: onclientdataloading
 published: True
 position: 1

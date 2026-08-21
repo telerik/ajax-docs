@@ -3,6 +3,7 @@ title: OnTweet
 page_title: OnTweet - RadSocialShare
 description: Check our Web Forms article about OnTweet.
 slug: socialshare/client-side-programming/events/ontweet
+components: ["socialshare"]
 tags: ontweet
 published: True
 position: 9

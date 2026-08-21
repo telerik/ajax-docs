@@ -3,6 +3,7 @@ title: OnFacebookUnLike
 page_title: OnFacebookUnLike - RadSocialShare
 description: Check our Web Forms article about OnFacebookUnLike.
 slug: socialshare/client-side-programming/events/onfacebookunlike
+components: ["socialshare"]
 tags: onfacebookunlike
 published: True
 position: 3

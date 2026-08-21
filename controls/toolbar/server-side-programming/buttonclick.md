@@ -3,6 +3,7 @@ title: ButtonClick
 page_title: ButtonClick - RadToolBar
 description: Check our Web Forms article about ButtonClick.
 slug: toolbar/server-side-programming/buttonclick
+components: ["toolbar"]
 tags: buttonclick
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Use Custom Icons for Styled Buttons
 page_title: Use Custom Icons for Styled Buttons - RadSocialShare
 description: Check our Web Forms article about Use Custom Icons for Styled Buttons.
 slug: socialshare/appearance-and-styling/use-custom-icons-for-styled-buttons
+components: ["socialshare"]
 tags: use,custom,icons,for,styled,buttons
 published: True
 position: 4

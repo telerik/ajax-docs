@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSpreadsheet Cell Hyperlink Overview
 description: Check our Web Forms article about CellHyperlink Overview.
 slug: spreadsheet/functionality/cellhyperlink/overview
+components: ["spreadsheet"]
 tags: overview
 published: True
 position: 0

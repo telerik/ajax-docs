@@ -3,6 +3,7 @@ title: Auto-Generated Editors
 page_title: Auto-Generated Editors - RadTreeList
 description: Check our Web Forms article about Auto-Generated Editors.
 slug: treelist/data-editing/column-editors/auto-generated-editors
+components: ["treelist"]
 tags: auto-generated,editors
 published: True
 position: 0

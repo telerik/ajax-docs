@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadToolBar
 description: Check our Web Forms article about Keyboard Support.
 slug: toolbar/accessibility-and-internationalization/keyboard-support
+components: ["toolbar"]
 tags: keyboard,support
 published: True
 position: 0

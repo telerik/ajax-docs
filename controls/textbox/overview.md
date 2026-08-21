@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadTextBox
 description: Learn about the TextBox control and its features for capturing and validating user input effectively.
 slug: radtextbox/overview
+components: ["textbox"]
 tags: overview
 published: True
 position: 0

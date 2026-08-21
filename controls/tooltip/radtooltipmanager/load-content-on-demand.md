@@ -3,6 +3,7 @@ title: Load Content On Demand
 page_title: Load Content On Demand - RadTooltip
 description: Check our Web Forms article about Load Content On Demand.
 slug: tooltip/radtooltipmanager/load-content-on-demand
+components: ["tooltip"]
 tags: load,content,on,demand
 published: True
 position: 2

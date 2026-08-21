@@ -3,6 +3,7 @@ title: Accessing Tabs
 page_title: Accessing Tabs - RadTabStrip
 description: Check our Web Forms article about Accessing Tabs.
 slug: tabstrip/server-side-programming/accessing-tabs
+components: ["tabstrip"]
 tags: accessing,tabs
 published: True
 position: 4

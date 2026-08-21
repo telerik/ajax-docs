@@ -3,6 +3,7 @@ title: RadToolTip Structure
 page_title: RadToolTip Structure - RadTooltip
 description: Check our Web Forms article about RadToolTip Structure.
 slug: tooltip/getting-started/radtooltip-structure
+components: ["tooltip"]
 tags: radtooltip,structure
 published: True
 position: 2

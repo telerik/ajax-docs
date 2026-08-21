@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadSplitter
 description: Check our Web Forms article about OnClientLoad.
 slug: splitter/client-side-programming/events/onclientload
+components: ["splitter"]
 tags: onclientload
 published: True
 position: 1

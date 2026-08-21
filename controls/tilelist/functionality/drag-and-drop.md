@@ -3,6 +3,7 @@ title: Drag and Drop
 page_title: Drag and Drop - RadTileList
 description: Check our Web Forms article about Drag and Drop.
 slug: tilelist/functionality/drag-and-drop
+components: ["tilelist"]
 tags: drag,and,drop
 published: True
 position: 3

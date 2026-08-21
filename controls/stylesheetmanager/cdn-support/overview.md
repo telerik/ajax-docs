@@ -3,6 +3,7 @@ title: Overview
 page_title: CDN Support Overview - RadStyleSheetManager
 description: Check our Web Forms article about Overview.
 slug: stylesheetmanager/cdn-support/overview
+components: ["stylesheetmanager"]
 tags: overview
 published: True
 position: 0

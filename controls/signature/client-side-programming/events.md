@@ -3,6 +3,7 @@ title: Events
 page_title: RadSignature Client-side Events
 description: Check our Web Forms article about the API of RadSignature object.
 slug: signature/client-side-programming/events
+components: ["signature"]
 tags: overview
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: Load On Demand Overview - RadTreeView
 description: Check our Web Forms article about Overview.
 slug: treeview/load-on-demand/overview
+components: ["treeview"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadTabStrip
 description: Check our Web Forms article about Overview.
 slug: tabstrip/data-binding/overview
+components: ["tabstrip"]
 tags: overview
 published: True
 position: 0

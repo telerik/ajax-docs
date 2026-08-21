@@ -3,6 +3,7 @@ title: OnTileCreated
 page_title: OnTileCreated - RadTileList
 description: Check our Web Forms article about OnTileCreated.
 slug: tilelist/server-side-programming/server-side-events/ontilecreated
+components: ["tilelist"]
 tags: ontilecreated
 published: True
 position: 2

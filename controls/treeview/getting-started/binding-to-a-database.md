@@ -3,6 +3,7 @@ title: Binding to a Database
 page_title: Binding to a Database - RadTreeView
 description: Check our Web Forms article about Binding to a Database.
 slug: treeview/getting-started/binding-to-a-database
+components: ["treeview"]
 tags: binding,to,a,database
 published: True
 position: 1

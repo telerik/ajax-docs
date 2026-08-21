@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadSplitter
 description: Check our Web Forms article about Controlling Appearance.
 slug: splitter/appearance-and-styling/controlling-appearance
+components: ["splitter"]
 tags: controlling,appearance
 published: True
 position: 0

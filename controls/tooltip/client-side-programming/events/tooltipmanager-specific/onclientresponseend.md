@@ -3,6 +3,7 @@ title: OnClientResponseEnd
 page_title: OnClientResponseEnd - RadTooltip
 description: Check our Web Forms article about OnClientResponseEnd.
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseend
+components: ["tooltip"]
 tags: onclientresponseend
 published: True
 position: 2

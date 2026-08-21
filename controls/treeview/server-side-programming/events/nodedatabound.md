@@ -3,6 +3,7 @@ title: NodeDataBound
 page_title: NodeDataBound - RadTreeView
 description: Check our Web Forms article about NodeDataBound.
 slug: treeview/server-side-programming/events/nodedatabound
+components: ["treeview"]
 tags: nodedatabound
 published: True
 position: 5

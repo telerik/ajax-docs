@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadTile
 description: Check our Web Forms article about Elastic Design.
 slug: tilelist/tiles/mobile-support/elastic-design
+components: ["tilelist"]
 tags: elastic,design,tile
 published: True
 position: 1

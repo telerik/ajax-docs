@@ -3,6 +3,7 @@ title: Displaying the Popup
 page_title: Displaying the Popup - RadTimePicker
 description: Check our Web Forms article about Displaying the Popup.
 slug: timepicker/functionality/displaying-the-popup
+components: ["timepicker"]
 tags: displaying,the,popup
 published: True
 position: 2

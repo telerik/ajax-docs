@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadSplitButton
 description: Check our Web Forms article about Render Modes.
 slug: splitbutton/mobile-support/render-modes
+components: ["splitbutton"]
 tags: render,modes
 published: True
 position: 3

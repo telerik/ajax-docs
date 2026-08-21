@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadTabStrip
 description: Check our Web Forms article about OnClientLoad.
 slug: tabstrip/client-side-programming/onclientload
+components: ["tabstrip"]
 tags: onclientload
 published: True
 position: 1

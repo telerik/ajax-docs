@@ -3,6 +3,7 @@ title: OnTileClick
 page_title: OnTileClick - RadTileList
 description: Check our Web Forms article about OnTileClick.
 slug: tilelist/server-side-programming/server-side-events/ontileclick
+components: ["tilelist"]
 tags: ontileclick
 published: True
 position: 1

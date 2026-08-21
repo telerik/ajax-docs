@@ -3,6 +3,7 @@ title: RadTabCollection Object
 page_title: RadTabCollection Object - RadTabStrip
 description: Check our Web Forms article about RadTabCollection Object.
 slug: tabstrip/client-side-programming/radtabcollection-object
+components: ["tabstrip"]
 tags: radtabcollection,object
 published: True
 position: 3

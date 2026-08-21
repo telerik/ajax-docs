@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadTimePicker
 description: Check our Web Forms article about Validation.
 slug: timepicker/functionality/validation
+components: ["timepicker"]
 tags: validation
 published: True
 position: 5

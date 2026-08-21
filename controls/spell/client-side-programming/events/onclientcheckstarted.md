@@ -3,6 +3,7 @@ title: OnClientCheckStarted
 page_title: OnClientCheckStarted - RadSpell
 description: Check our Web Forms article about OnClientCheckStarted.
 slug: spell/client-side-programming/events/onclientcheckstarted
+components: ["spell"]
 tags: onclientcheckstarted
 published: True
 position: 0

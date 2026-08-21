@@ -3,6 +3,7 @@ title: Commands Invoking Rebind Implicitly
 page_title: Commands Invoking Rebind Implicitly - RadTreeList
 description: Check our Web Forms article about Commands Invoking Rebind Implicitly.
 slug: treelist/control-lifecycle/commands-invoking-rebind-implicitly
+components: ["treelist"]
 tags: commands,invoking,rebind,implicitly
 published: True
 position: 3

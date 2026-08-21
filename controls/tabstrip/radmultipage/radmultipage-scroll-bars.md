@@ -3,6 +3,7 @@ title: RadMultiPage Scroll Bars
 page_title: RadMultiPage Scroll Bars - RadTabStrip
 description: Check our Web Forms article about RadMultiPage Scroll Bars.
 slug: tabstrip/radmultipage/radmultipage-scroll-bars
+components: ["tabstrip"]
 tags: radmultipage,scroll,bars
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: OnLinkedInShare
 page_title: OnLinkedInShare - RadSocialShare
 description: Check our Web Forms article about OnLinkedInShare.
 slug: socialshare/client-side-programming/events/onlinkedinshare
+components: ["socialshare"]
 tags: onlinkedinshare
 published: True
 position: 6

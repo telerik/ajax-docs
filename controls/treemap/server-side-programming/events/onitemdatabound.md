@@ -3,6 +3,7 @@ title: OnItemDataBound
 page_title: OnItemDataBound - RadTreeMap
 description: Check our Web Forms article about OnItemDataBound.
 slug: treemap/server-side-programming/events/onitemdatabound
+components: ["treemap"]
 tags: onitemdatabound
 published: True
 position: 0

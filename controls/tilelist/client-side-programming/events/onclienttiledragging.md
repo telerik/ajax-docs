@@ -3,6 +3,7 @@ title: OnClientTileDragging
 page_title: OnClientTileDragging - RadTileList
 description: Check our Web Forms article about OnClientTileDragging.
 slug: tilelist/client-side-programming/client-side-events/onclienttiledragging
+components: ["tilelist"]
 tags: onclienttiledragging
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTreeView Nodes Overview
 description: Check our Web Forms article about Overview.
 slug: treeview/radtreeview-nodes/overview
+components: ["treeview"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnClientNodeCollapsing
 page_title: OnClientNodeCollapsing - RadTreeView
 description: Check our Web Forms article about OnClientNodeCollapsing.
 slug: treeview/client-side-programming/events/onclientnodecollapsing
+components: ["treeview"]
 tags: onclientnodecollapsing
 published: True
 position: 15

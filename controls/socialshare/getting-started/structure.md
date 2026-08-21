@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadSocialShare
 description: Check our Web Forms article about Structure.
 slug: socialshare/getting-started/structure
+components: ["socialshare"]
 tags: structure
 published: True
 position: 1

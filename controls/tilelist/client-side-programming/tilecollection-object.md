@@ -3,6 +3,7 @@ title: TileCollection Object
 page_title: TileCollection Object - RadTileList
 description: Check our Web Forms article about TileCollection Object.
 slug: tilelist/client-side-programming/tilecollection-object
+components: ["tilelist"]
 tags: tilecollection,object
 published: True
 position: 3

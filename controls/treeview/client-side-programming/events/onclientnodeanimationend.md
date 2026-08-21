@@ -3,6 +3,7 @@ title: OnClientNodeAnimationEnd
 page_title: OnClientNodeAnimationEnd - RadTreeView
 description: Check our Web Forms article about OnClientNodeAnimationEnd.
 slug: treeview/client-side-programming/events/onclientnodeanimationend
+components: ["treeview"]
 tags: onclientnodeanimationend
 published: True
 position: 29

@@ -3,6 +3,7 @@ title: OnClientItemsRequesting
 page_title: OnClientItemsRequesting - RadTagCloud
 description: Check our Web Forms article about OnClientItemsRequesting.
 slug: tagcloud/client-side-programming/events/onclientitemsrequesting
+components: ["tagcloud"]
 tags: onclientitemsrequesting
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadTooltip
 description: Check our Web Forms article about Common Issues.
 slug: tooltip/troubleshooting/common-issues
+components: ["tooltip"]
 tags: common,issues
 published: True
 position: 0

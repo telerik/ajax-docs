@@ -3,6 +3,7 @@ title: Set the Tooltip of the Node with Javascript
 page_title: Set the Tooltip of the Node with Javascript - RadTreeView
 description: Check our Web Forms article about Set the Tooltip of the Node with Javascript.
 slug: treeview/application-scenarios/client-side-programming/set-the-tooltip-of-the-node-with-javascript
+components: ["treeview"]
 tags: set,the,tooltip,of,the,node,with,javascript
 published: True
 position: 20

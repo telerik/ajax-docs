@@ -3,6 +3,7 @@ title: Set selected item in RadToolBarSplitButton
 page_title: Set selected item in RadToolBarSplitButton
 description: Check our Web Forms article about How to pre-select an item in RadToolBarSplitButton
 slug: toolbar/how-to/set-selected-item-in-toolbarsplitbutton
+components: ["toolbar"]
 tags: associate,radtooltip,with,from,radtoolbarbutton
 published: True
 position: 2

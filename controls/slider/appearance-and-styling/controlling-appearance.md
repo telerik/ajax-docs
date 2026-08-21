@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadSlider
 description: Check our Web Forms article about Controlling Appearance.
 slug: slider/appearance-and-styling/controlling-appearance
+components: ["slider"]
 tags: controlling,appearance
 published: True
 position: 1

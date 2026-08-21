@@ -3,6 +3,7 @@ title: Events
 page_title: Client-side Events - RadStepper
 description: Check our the client-side events of RadStepper - OnInitialize, OnLoad, OnStepSelected, OnStepSelecting
 slug: stepper/client-side-programming/events
+components: ["stepper"]
 tags: events
 published: True
 position: 1

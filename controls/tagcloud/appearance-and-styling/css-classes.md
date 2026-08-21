@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadTagCloud
 description: Check our Web Forms article about CSS Classes.
 slug: tagcloud/appearance-and-styling/css-classes
+components: ["tagcloud"]
 tags: css,classes
 published: True
 position: 2

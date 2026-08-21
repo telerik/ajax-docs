@@ -3,6 +3,7 @@ title: Custom Icons
 page_title: Custom Icons - RadSplitButton
 description: Check our Web Forms article about Custom Icons.
 slug: splitbutton/functionality/icons/custom-icons
+components: ["splitbutton"]
 tags: custom,icons
 published: True
 position: 1

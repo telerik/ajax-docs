@@ -3,6 +3,7 @@ title: Binding to Array or ArrayList
 page_title: Binding to Array or ArrayList - RadTagCloud
 description: Check our Web Forms article about Binding to Array or ArrayList.
 slug: tagcloud/data-binding/binding-to-array-or-arraylist
+components: ["tagcloud"]
 tags: binding,to,array,or,arraylist
 published: True
 position: 2

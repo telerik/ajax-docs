@@ -3,6 +3,7 @@ title: RadTimeView object
 page_title: RadTimeView object - RadTimePicker
 description: Check our Web Forms article about RadTimeView object.
 slug: timepicker/client-side-programming/radtimeview-object
+components: ["timepicker"]
 tags: radtimeview,object
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Expanding and Collapsing All Nodes
 page_title: Expanding and Collapsing All Nodes - RadTreeView
 description: Check our Web Forms article about Expanding and Collapsing All Nodes.
 slug: treeview/application-scenarios/client-side-programming/expanding-and-collapsing-all-nodes
+components: ["treeview"]
 tags: expanding,and,collapsing,all,nodes
 published: True
 position: 2

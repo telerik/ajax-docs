@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadWindow
 description: Check our Web Forms article about Skins.
 slug: window/appearance-and-styling/skins
+components: ["window"]
 tags: skins
 published: True
 position: 0

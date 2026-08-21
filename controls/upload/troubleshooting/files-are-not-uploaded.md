@@ -3,6 +3,7 @@ title: Files Are Not Uploaded
 page_title: Files Are Not Uploaded - RadUpload
 description: Check our Web Forms article about Files Are Not Uploaded.
 slug: upload/troubleshooting/files-are-not-uploaded
+components: ["upload"]
 tags: files,are,not,uploaded
 published: True
 position: 5

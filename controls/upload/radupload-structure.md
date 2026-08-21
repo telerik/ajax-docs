@@ -3,6 +3,7 @@ title: RadUpload Structure
 page_title: RadUpload Structure - RadUpload
 description: Check our Web Forms article about RadUpload Structure.
 slug: upload/radupload-structure
+components: ["upload"]
 tags: radupload,structure
 published: True
 position: 3

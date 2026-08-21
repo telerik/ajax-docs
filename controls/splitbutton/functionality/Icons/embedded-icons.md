@@ -3,6 +3,7 @@ title: Embedded Icons
 page_title: Embedded Icons - RadSplitButton
 description: Check our Web Forms article about Embedded Icons.
 slug: splitbutton/functionality/icons/embedded-icons
+components: ["splitbutton"]
 tags: embedded,icons
 published: True
 position: 0

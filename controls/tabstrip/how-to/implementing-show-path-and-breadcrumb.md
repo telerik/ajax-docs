@@ -3,6 +3,7 @@ title: Implementing Show Path and BreadCrumb
 page_title: Implementing Show Path and BreadCrumb - RadTabStrip
 description: Check our Web Forms article about Implementing Show Path and BreadCrumb.
 slug: tabstrip/how-to/implementing-show-path-and-breadcrumb
+components: ["tabstrip"]
 tags: implementing,show,path,and,breadcrumb
 published: True
 position: 5

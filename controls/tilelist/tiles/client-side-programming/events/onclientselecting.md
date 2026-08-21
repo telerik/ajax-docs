@@ -3,6 +3,7 @@ title: OnClientSelecting
 page_title: OnClientSelecting - RadTile
 description: Check our Web Forms article about OnClientSelecting.
 slug: tilelist/tiles/client-side-programming/events/onclientselecting
+components: ["tilelist"]
 tags: onclientselecting
 published: True
 position: 3

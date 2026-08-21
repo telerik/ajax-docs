@@ -3,6 +3,7 @@ title: Tutorial on Creating Custom Skin
 page_title: Tutorial on Creating Custom Skin - RadUpload
 description: Check our Web Forms article about Tutorial on Creating Custom Skin.
 slug: upload/appearance-and-styling/tutorial-on-creating-custom-skin
+components: ["upload"]
 tags: tutorial,on,creating,custom,skin
 published: True
 position: 4

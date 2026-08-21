@@ -3,6 +3,7 @@ title: Client-side Data Binding
 page_title: Client-side Data Binding - RadTagCloud
 description: Check our Web Forms article about Client-side Data Binding.
 slug: tagcloud/data-binding/client-side-data-binding
+components: ["tagcloud"]
 tags: client-side,data,binding
 published: True
 position: 4

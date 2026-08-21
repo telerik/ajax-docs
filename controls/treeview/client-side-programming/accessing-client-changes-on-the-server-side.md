@@ -3,6 +3,7 @@ title: Accessing Client Changes on the Server Side
 page_title: Accessing Client Changes on the Server Side - RadTreeView
 description: Check our Web Forms article about Accessing Client Changes on the Server Side.
 slug: treeview/client-side-programming/accessing-client-changes-on-the-server-side
+components: ["treeview"]
 tags: accessing,client,changes,on,the,server,side
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Integrated Validation
 page_title: Integrated Validation - RadUpload
 description: Check our Web Forms article about Integrated Validation.
 slug: upload/validation/integrated-validation
+components: ["upload"]
 tags: integrated,validation
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Template Design Surface
 page_title: Template Design Surface - RadSiteMap
 description: Check our Web Forms article about Template Design Surface.
 slug: sitemap/design-time/radsitemap/template-design-surface
+components: ["sitemap"]
 tags: template,design,surface
 published: True
 position: 2

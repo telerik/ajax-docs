@@ -3,6 +3,7 @@ title: OnClientSubmitting
 page_title: OnClientSubmitting - RadUpload
 description: Check our Web Forms article about OnClientSubmitting.
 slug: upload/client-side-programming/onclientsubmitting
+components: ["upload"]
 tags: onclientsubmitting
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: Custom
 page_title: RadSpreadsheet CellFormat
 description: Check our Web Forms article about Custom Cell Format.
 slug: spreadsheet/functionality/cellformat/custom
+components: ["spreadsheet"]
 tags: cellformat
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: What is New
 page_title: What is New - RadUpload
 description: Check our Web Forms article about What is New.
 slug: upload/what-is-new
+components: ["upload"]
 tags: what,is,new
 published: False
 position: 4

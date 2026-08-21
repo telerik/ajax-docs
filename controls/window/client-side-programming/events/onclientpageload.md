@@ -3,6 +3,7 @@ title: OnClientPageLoad
 page_title: OnClientPageLoad - RadWindow
 description: Check our Web Forms article about OnClientPageLoad.
 slug: window/client-side-programming/events/onclientpageload
+components: ["window"]
 tags: onclientpageload
 published: True
 position: 10

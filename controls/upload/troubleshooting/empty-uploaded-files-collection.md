@@ -3,6 +3,7 @@ title: Empty Uploaded Files Collection
 page_title: Empty Uploaded Files Collection - RadUpload
 description: Check our Web Forms article about Empty Uploaded Files Collection.
 slug: upload/troubleshooting/empty-uploaded-files-collection
+components: ["upload"]
 tags: empty,uploaded,files,collection
 published: True
 position: 10

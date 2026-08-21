@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview - RadToolBar
 description: Check our Web Forms article about Overview.
 slug: toolbar/templates/overview
+components: ["toolbar"]
 tags: overview
 published: True
 position: 0

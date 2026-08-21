@@ -3,6 +3,7 @@ title: RadSiteMap Item Builder
 page_title: RadSiteMap Item Builder - RadSiteMap
 description: Check our Web Forms article about RadSiteMap Item Builder.
 slug: sitemap/design-time/radsitemap/radsitemap-item-builder
+components: ["sitemap"]
 tags: radsitemap,item,builder
 published: True
 position: 1

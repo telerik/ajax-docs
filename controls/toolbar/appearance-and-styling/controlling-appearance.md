@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadToolBar
 description: Check our Web Forms article about Controlling Appearance.
 slug: toolbar/appearance-and-styling/controlling-appearance
+components: ["toolbar"]
 tags: controlling,appearance
 published: True
 position: 0

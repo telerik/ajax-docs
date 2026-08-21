@@ -3,6 +3,7 @@ title: Footer Template
 page_title: AIPrompt Footer Template
 description: "Learn about how to use the Prompt Footer Template with the WebForms AIPrompt"
 slug: templates/footertemplate
+components: ["aiprompt"]
 position: 4
 ---
 

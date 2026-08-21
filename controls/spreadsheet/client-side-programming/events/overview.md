@@ -3,6 +3,7 @@ title: Events Overview
 page_title: RadSpreadsheet Client-side Events Overview
 description: Check our Web Forms article about RadSpreadsheet Client-side Events Overview.
 slug: spreadsheet/client-side-programming/events/overview
+components: ["spreadsheet"]
 tags: spreadsheetevents,overview,client,spreadsheet,events
 published: True
 position: 0

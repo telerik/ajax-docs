@@ -3,6 +3,7 @@ title: Using Sprite Images in RadToolBarSplitButton
 page_title: Using Sprite Images in RadToolBarSplitButton - RadToolBar
 description: Check our Web Forms article about Using Sprite Images in RadToolBarSplitButton.
 slug: toolbar/how-to/using-sprite-images-in-radtoolbarsplitbutton
+components: ["toolbar"]
 tags: using,sprite,images,in,radtoolbarsplitbutton
 published: True
 position: 1

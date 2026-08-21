@@ -3,6 +3,7 @@ title: Choosing Spell Check Provider
 page_title: Choosing Spell Check Provider - RadSpell
 description: Check our Web Forms article about Choosing Spell Check Provider.
 slug: spell/configuration/choosing-spell-check-provider
+components: ["spell"]
 tags: choosing,spell,check,provider
 published: True
 position: 3

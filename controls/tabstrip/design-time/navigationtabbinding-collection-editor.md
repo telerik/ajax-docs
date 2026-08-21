@@ -3,6 +3,7 @@ title: NavigationTabBinding Collection Editor
 page_title: NavigationTabBinding Collection Editor - RadTabStrip
 description: Check our Web Forms article about NavigationTabBinding Collection Editor.
 slug: tabstrip/design-time/navigationtabbinding-collection-editor
+components: ["tabstrip"]
 tags: navigationtabbinding,collection,editor
 published: True
 position: 2

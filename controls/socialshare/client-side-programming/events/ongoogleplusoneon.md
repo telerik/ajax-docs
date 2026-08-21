@@ -3,6 +3,7 @@ title: OnGooglePlusOneOn
 page_title: OnGooglePlusOneOn - RadSocialShare
 description: Check our Web Forms article about OnGooglePlusOneOn.
 slug: socialshare/client-side-programming/events/ongoogleplusoneon
+components: ["socialshare"]
 tags: ongoogleplusoneon
 published: True
 position: 5

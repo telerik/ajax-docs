@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadToggleButton
 description: Check our Web Forms article about Common Issues.
 slug: togglebutton/troubleshooting/common-issues
+components: ["togglebutton"]
 tags: common,issues
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSpreadsheet Filter Menu
 description: Check our Web Forms article about Overview.
 slug: spreadsheet/functionality/filtermenu/overview
+components: ["spreadsheet"]
 tags: overview
 published: True
 position: 0

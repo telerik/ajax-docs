@@ -3,6 +3,7 @@ title: Distorted Appearance
 page_title: Distorted Appearance - RadWindow
 description: Check our Web Forms article about Distorted Appearance.
 slug: window/troubleshooting/distorted-appearance
+components: ["window"]
 tags: distorted,appearance
 published: True
 position: 9

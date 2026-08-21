@@ -3,6 +3,7 @@ title: Binding to RadClientDataSource
 page_title: Binding to RadClientDataSource - RadTreeView
 description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: treeview/data-binding/binding-to-radclientdatasource
+components: ["treeview"]
 tags: binding,to,radclientdatasource
 published: True
 position: 8

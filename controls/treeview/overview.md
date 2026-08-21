@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTreeView Overview
 description: Learn about the TreeView control and its features for displaying hierarchical data structures.
 slug: treeview/overview
+components: ["treeview"]
 tags: overview
 published: True
 position: 0

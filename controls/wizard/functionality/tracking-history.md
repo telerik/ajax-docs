@@ -3,6 +3,7 @@ title: Tracking History
 page_title: Tracking History - RadWizard
 description: Check our Web Forms article about Tracking History.
 slug: wizard/functionality/tracking-history
+components: ["wizard"]
 tags: tracking,history
 published: True
 position: 2

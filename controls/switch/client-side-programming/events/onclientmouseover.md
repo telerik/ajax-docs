@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadSwitch
 description: Check our Web Forms article about OnClientMouseOver.
 slug: switch/client-side-programming/events/onclientmouseover
+components: ["switch"]
 tags: onclientmouseover
 published: True
 position: 7

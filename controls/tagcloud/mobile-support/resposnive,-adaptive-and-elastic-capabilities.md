@@ -3,6 +3,7 @@ title: Resposnive, Adaptive and Elastic Capabilities
 page_title: Resposnive, Adaptive and Elastic Capabilities - RadTagCloud
 description: Check our Web Forms article about Resposnive, Adaptive and Elastic Capabilities.
 slug: tagcloud/mobile-support/resposnive,-adaptive-and-elastic-capabilities
+components: ["tagcloud"]
 tags: resposnive,,adaptive,and,elastic,capabilities
 published: True
 position: 0

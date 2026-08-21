@@ -3,6 +3,7 @@ title: OnItemSelected
 page_title: OnItemSelected - RadTreeList
 description: Check our Web Forms article about OnItemSelected Event.
 slug: treelist/client-side-programming/Events/OnItemSelected
+components: ["treelist"]
 tags: events,OnItemSelected
 published: True
 position: 1

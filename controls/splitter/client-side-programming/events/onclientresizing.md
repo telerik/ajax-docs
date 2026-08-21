@@ -3,6 +3,7 @@ title: OnClientResizing
 page_title: OnClientResizing - RadSplitter
 description: Check our Web Forms article about OnClientResizing.
 slug: splitter/client-side-programming/events/onclientresizing
+components: ["splitter"]
 tags: onclientresizing
 published: True
 position: 4

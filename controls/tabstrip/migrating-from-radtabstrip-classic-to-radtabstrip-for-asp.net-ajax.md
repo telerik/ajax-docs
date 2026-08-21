@@ -3,6 +3,7 @@ title: Migrating From RadTabStrip Classic to RadTabStrip for ASP.NET Ajax
 page_title: Migrating From RadTabStrip Classic to RadTabStrip for ASP.NET Ajax - RadTabStrip
 description: Check our Web Forms article about Migrating From RadTabStrip Classic to RadTabStrip for ASP.NET Ajax.
 slug: tabstrip/migrating-from-radtabstrip-classic-to-radtabstrip-for-asp.net-ajax
+components: ["tabstrip"]
 tags: migrating,from,radtabstrip,classic,to,radtabstrip,for,asp.net,ajax
 published: True
 position: 6

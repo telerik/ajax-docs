@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadStepper
 description: Check our Web Forms article about RadStepper object.
 slug: stepper/client-side-programming/overview
+components: ["stepper"]
 tags: stepper,object
 published: True
 position: 0

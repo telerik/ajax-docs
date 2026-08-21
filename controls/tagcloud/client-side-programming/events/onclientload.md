@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadTagCloud
 description: Check our Web Forms article about OnClientLoad.
 slug: tagcloud/client-side-programming/events/onclientload
+components: ["tagcloud"]
 tags: onclientload
 published: True
 position: 1

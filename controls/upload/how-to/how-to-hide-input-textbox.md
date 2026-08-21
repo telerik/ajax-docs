@@ -3,6 +3,7 @@ title: How to Hide Input Textbox
 page_title: How to Hide Input Textbox - RadUpload
 description: Check our Web Forms article about How to Hide Input Textbox.
 slug: upload/how-to/how-to-hide-input-textbox
+components: ["upload"]
 tags: how,to,hide,input,textbox
 published: True
 position: 4

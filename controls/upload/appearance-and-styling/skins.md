@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadUpload
 description: Check our Web Forms article about Skins.
 slug: upload/appearance-and-styling/skins
+components: ["upload"]
 tags: skins
 published: True
 position: 3

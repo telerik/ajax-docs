@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadStepper
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: stepper/accessibility-and-internationalization/wai-aria-support
+components: ["stepper"]
 tags: wai-aria,support
 published: True
 position: 3

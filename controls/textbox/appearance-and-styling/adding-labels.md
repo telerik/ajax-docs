@@ -3,6 +3,7 @@ title: Adding Labels
 page_title: Adding Labels - RadTextBox
 description: Check our Web Forms article about Adding Labels.
 slug: radtextbox/appearance-and-styling/adding-labels
+components: ["textbox"]
 tags: adding,labels
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: Differences Between RadXmlHttpPanel and RadAjaxPanel
 page_title: Differences Between RadXmlHttpPanel and RadAjaxPanel - RadXmlHttpPanel
 description: Check our Web Forms article about Differences Between RadXmlHttpPanel and RadAjaxPanel.
 slug: xmlhttppanel/getting-started/differences-between-radxmlhttppanel-and-radajaxpanel
+components: ["xmlhttppanel"]
 tags: differences,between,radxmlhttppanel,and,radajaxpanel
 published: True
 position: 1

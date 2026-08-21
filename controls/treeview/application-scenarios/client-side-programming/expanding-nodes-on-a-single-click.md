@@ -3,6 +3,7 @@ title: Expanding Nodes on a Single Click
 page_title: Expanding Nodes on a Single Click - RadTreeView
 description: Check our Web Forms article about Expanding Nodes on a Single Click.
 slug: treeview/application-scenarios/client-side-programming/expanding-nodes-on-a-single-click
+components: ["treeview"]
 tags: expanding,nodes,on,a,single,click
 published: True
 position: 3

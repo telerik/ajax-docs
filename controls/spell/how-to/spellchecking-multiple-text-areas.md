@@ -3,6 +3,7 @@ title: Spellchecking Multiple Text Areas
 page_title: Spellchecking Multiple Text Areas - RadSpell
 description: Check our Web Forms article about Spellchecking Multiple Text Areas.
 slug: spell/how-to/spellchecking-multiple-text-areas
+components: ["spell"]
 tags: spellchecking,multiple,text,areas
 published: True
 position: 5

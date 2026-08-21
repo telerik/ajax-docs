@@ -3,6 +3,7 @@ title: OnClientCheckedChanging
 page_title: OnClientCheckedChanging - RadSwitch
 description: Check our Web Forms article about OnClientCheckedChanging.
 slug: switch/client-side-programming/events/onclientcheckedchanging
+components: ["switch"]
 tags: onclientcheckedchanging
 published: True
 position: 5

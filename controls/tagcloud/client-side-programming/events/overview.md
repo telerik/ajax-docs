@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events Overview - RadTagCloud
 description: Check our Web Forms article about Overview.
 slug: tagcloud/client-side-programming/events/overview
+components: ["tagcloud"]
 tags: overview
 published: True
 position: 0

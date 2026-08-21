@@ -3,6 +3,7 @@ title: NextButtonClick
 page_title: NextButtonClick - RadWizard
 description: Check our Web Forms article about NextButtonClick.
 slug: wizard/server-side-programming/events/nextbuttonclick
+components: ["wizard"]
 tags: nextbuttonclick
 published: True
 position: 5

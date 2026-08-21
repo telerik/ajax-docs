@@ -3,6 +3,7 @@ title: Load
 page_title: Load - RadWizard
 description: Check our Web Forms article about Load.
 slug: wizard/client-side-programming/events/load
+components: ["wizard"]
 tags: load
 published: True
 position: 1

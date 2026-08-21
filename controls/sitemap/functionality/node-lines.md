@@ -3,6 +3,7 @@ title: Node Lines
 page_title: Node Lines - RadSiteMap
 description: Check our Web Forms article about Node Lines.
 slug: sitemap/functionality/node-lines
+components: ["sitemap"]
 tags: node,lines
 published: True
 position: 2

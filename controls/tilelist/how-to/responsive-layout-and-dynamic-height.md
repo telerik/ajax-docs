@@ -3,6 +3,7 @@ title: Responsive Layout and Dynamic Height
 page_title: Responsive Layout and Dynamic Height - RadTileList
 description: Check our Web Forms article about Responsive Layout and Dynamic Height.
 slug: tilelist/how-to/responsive-layout-and-dynamic-height
+components: ["tilelist"]
 tags: responsive,layout,and,dynamic,height
 published: True
 position: 0

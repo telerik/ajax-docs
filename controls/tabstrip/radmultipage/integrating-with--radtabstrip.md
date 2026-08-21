@@ -3,6 +3,7 @@ title: Integrating with  RadTabStrip
 page_title: Integrating with RadTabStrip - RadTabStrip
 description: Check our Web Forms article about Integrating with  RadTabStrip.
 slug: tabstrip/radmultipage/integrating-with--radtabstrip
+components: ["tabstrip"]
 tags: integrating,with,,radtabstrip
 published: True
 position: 5

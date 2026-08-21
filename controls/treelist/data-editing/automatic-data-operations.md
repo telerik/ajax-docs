@@ -3,6 +3,7 @@ title: Automatic Data Operations
 page_title: Automatic Data Operations - RadTreeList
 description: Check our Web Forms article about Automatic Data Operations.
 slug: treelist/data-editing/automatic-data-operations
+components: ["treelist"]
 tags: automatic,data,operations
 published: True
 position: 2

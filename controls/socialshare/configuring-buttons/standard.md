@@ -3,6 +3,7 @@ title: Standard
 page_title: Standard - RadSocialShare
 description: Check our Web Forms article about Standard.
 slug: socialshare/configuring-buttons/standard
+components: ["socialshare"]
 tags: standard
 published: True
 position: 1

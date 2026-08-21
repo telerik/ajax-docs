@@ -3,6 +3,7 @@ title: Cross-Page Postback
 page_title: Cross-Page Postback - RadTabStrip
 description: Check our Web Forms article about Cross-Page Postback.
 slug: tabstrip/web-pages/cross-page-postback
+components: ["tabstrip"]
 tags: cross-page,postback
 published: True
 position: 1

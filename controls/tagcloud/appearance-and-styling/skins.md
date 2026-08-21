@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadTagCloud
 description: Check our Web Forms article about Skins.
 slug: tagcloud/appearance-and-styling/skins
+components: ["tagcloud"]
 tags: skins
 published: True
 position: 0

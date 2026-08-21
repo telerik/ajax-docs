@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadSplitter
 description: Check our Web Forms article about Elastic Design.
 slug: splitter/mobile-support/elastic-design
+components: ["splitter"]
 tags: elastic,design,splitter
 published: True
 position: 1

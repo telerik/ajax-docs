@@ -3,6 +3,7 @@ title: OnClientItemsCreated
 page_title: OnClientItemsCreated - RadSlider
 description: Check our Web Forms article about OnClientItemsCreated.
 slug: slider/client-side-programming/events/onclientitemscreated
+components: ["slider"]
 tags: onclientitemscreated
 published: True
 position: 1

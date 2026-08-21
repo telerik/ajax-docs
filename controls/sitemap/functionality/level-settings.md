@@ -3,6 +3,7 @@ title: Level Settings
 page_title: Level Settings - RadSiteMap
 description: Check our Web Forms article about Level Settings.
 slug: sitemap/functionality/level-settings
+components: ["sitemap"]
 tags: level,settings
 published: True
 position: 1

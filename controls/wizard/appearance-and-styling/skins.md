@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadWizard
 description: Check our Web Forms article about Skins.
 slug: wizard/appearance-and-styling/skins
+components: ["wizard"]
 tags: skins
 published: True
 position: 0

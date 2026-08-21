@@ -3,6 +3,7 @@ title: Changes And Backward Compatibility
 page_title: Changes And Backward Compatibility - RadSlider
 description: Check our Web Forms article about Changes And Backward Compatibility.
 slug: slider/changes-and-backward-compatibility
+components: ["slider"]
 tags: changes,and,backward,compatibility
 published: True
 position: 1

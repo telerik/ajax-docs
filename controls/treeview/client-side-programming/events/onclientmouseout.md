@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadTreeView
 description: Check our Web Forms article about OnClientMouseOut.
 slug: treeview/client-side-programming/events/onclientmouseout
+components: ["treeview"]
 tags: onclientmouseout
 published: True
 position: 23

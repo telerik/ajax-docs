@@ -3,6 +3,7 @@ title: RadWindowManager
 page_title: RadWindowManager - RadWindow
 description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
 slug: window/getting-started/radwindowmanager
+components: ["window"]
 tags: radwindowmanager
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientNodeCollapsed
 page_title: OnClientNodeCollapsed - RadTreeView
 description: Check our Web Forms article about OnClientNodeCollapsed.
 slug: treeview/client-side-programming/events/onclientnodecollapsed
+components: ["treeview"]
 tags: onclientnodecollapsed
 published: True
 position: 16

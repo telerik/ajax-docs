@@ -3,6 +3,7 @@ title: Server-side
 page_title: Server-side - RadTreeView
 description: Check our Web Forms article about Server-side.
 slug: treeview/checkboxes/server-side
+components: ["treeview"]
 tags: server-side
 published: True
 position: 1

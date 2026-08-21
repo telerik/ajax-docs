@@ -3,6 +3,7 @@ title: RadPageView Object
 page_title: RadPageView Object - RadTabStrip
 description: Check our Web Forms article about RadPageView Object.
 slug: tabstrip/client-side-programming/radpageview-object
+components: ["tabstrip"]
 tags: radpageview,object
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Custom Dictionaries
 page_title: Custom Dictionaries - RadSpell
 description: Check our Web Forms article about Custom Dictionaries.
 slug: spell/dictionaries/custom-dictionaries
+components: ["spell"]
 tags: custom,dictionaries
 published: True
 position: 1

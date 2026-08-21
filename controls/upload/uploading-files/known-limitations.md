@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadUpload
 description: Check our Web Forms article about Known Limitations.
 slug: upload/uploading-files/known-limitations
+components: ["upload"]
 tags: known,limitations
 published: True
 position: 2

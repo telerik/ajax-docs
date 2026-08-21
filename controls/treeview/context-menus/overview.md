@@ -3,6 +3,7 @@ title: Overview
 page_title: Context Menus Overview - RadTreeView
 description: Check our Web Forms article about Overview.
 slug: treeview/context-menus/overview
+components: ["treeview"]
 tags: overview
 published: True
 position: 0

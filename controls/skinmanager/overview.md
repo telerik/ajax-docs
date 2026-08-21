@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSkinManager
 description: Check our Web Forms article about RadSkinManager.
 slug: skinmanager/overview
+components: ["skinmanager"]
 previous_url: controls/radskinmanager
 tags: radskinmanager
 published: True

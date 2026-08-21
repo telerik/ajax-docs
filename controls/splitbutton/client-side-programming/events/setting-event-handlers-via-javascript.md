@@ -3,6 +3,7 @@ title: Setting Event Handlers via JavaScript
 page_title: Setting Event Handlers via JavaScript - RadSplitButton
 description: Check our Web Forms article about Setting Event Handlers via JavaScript.
 slug: splitbutton/client-side-programming/events/setting-event-handlers-via-javascript
+components: ["splitbutton"]
 tags: setting,event,handlers,via,javascript
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientClicked
 page_title: OnClientClicked - RadTile
 description: Check our Web Forms article about OnClientClicked.
 slug: tilelist/tiles/client-side-programming/events/onclientclicked
+components: ["tilelist"]
 tags: onclientclicked
 published: True
 position: 1

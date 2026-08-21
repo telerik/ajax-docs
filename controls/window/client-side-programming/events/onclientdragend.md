@@ -3,6 +3,7 @@ title: OnClientDragEnd
 page_title: OnClientDragEnd - RadWindow
 description: Check our Web Forms article about OnClientDragEnd.
 slug: window/client-side-programming/events/onclientdragend
+components: ["window"]
 tags: onclientdragend
 published: True
 position: 8

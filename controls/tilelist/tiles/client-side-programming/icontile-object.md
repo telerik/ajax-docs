@@ -3,6 +3,7 @@ title: IconTile Object
 page_title: IconTile Object - RadTile
 description: Check our Web Forms article about IconTile Object.
 slug: tilelist/tiles/client-side-programming/icontile-object
+components: ["tilelist"]
 tags: icontile,object
 published: True
 position: 3

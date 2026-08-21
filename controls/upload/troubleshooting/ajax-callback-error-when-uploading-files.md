@@ -3,6 +3,7 @@ title: Ajax Callback Error When Uploading Files
 page_title: Ajax Callback Error When Uploading Files - RadUpload
 description: Check our Web Forms article about Ajax Callback Error When Uploading Files.
 slug: upload/troubleshooting/ajax-callback-error-when-uploading-files
+components: ["upload"]
 tags: ajax,callback,error,when,uploading,files
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Standard Buttons' Events
 page_title: Standard Buttons' Events - RadSocialShare
 description: Check our Web Forms article about Standard Buttons' Events.
 slug: socialshare/troubleshooting/standard-buttons'-events
+components: ["socialshare"]
 previous_url: controls/socialshare/troubleshooting/standard-buttons
 tags: standard,buttons',events
 published: True

@@ -3,6 +3,7 @@ title: OnClientNodeChecking
 page_title: OnClientNodeChecking - RadTreeView
 description: Check our Web Forms article about OnClientNodeChecking.
 slug: treeview/client-side-programming/events/onclientnodechecking
+components: ["treeview"]
 tags: onclientnodechecking
 published: True
 position: 20

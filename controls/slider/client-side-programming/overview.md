@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadSlider
 description: Check our Web Forms article about Overview.
 slug: slider/client-side-programming/overview
+components: ["slider"]
 tags: overview
 published: True
 position: 0

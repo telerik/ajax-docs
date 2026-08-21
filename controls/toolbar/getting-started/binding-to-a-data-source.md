@@ -3,6 +3,7 @@ title: Binding to a Data Source
 page_title: Binding to a Data Source - RadToolBar
 description: Check our Web Forms article about Binding to a Data Source.
 slug: toolbar/getting-started/binding-to-a-data-source
+components: ["toolbar"]
 tags: binding,to,a,data,source
 published: True
 position: 1

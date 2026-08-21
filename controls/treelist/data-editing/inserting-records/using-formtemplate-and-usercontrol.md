@@ -3,6 +3,7 @@ title: Using FormTemplate and UserControl
 page_title: Using FormTemplate andUserControl - RadTreeList
 description: Check our Web Forms article about Using FormTemplate and UserControl.
 slug: treelist/data-editing/inserting-records/using-formtemplate-and-usercontrol
+components: ["treelist"]
 tags: using,formtemplate/usercontrol
 published: True
 position: 1

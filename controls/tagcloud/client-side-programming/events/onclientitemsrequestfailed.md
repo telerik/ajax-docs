@@ -3,6 +3,7 @@ title: OnClientItemsRequestFailed
 page_title: OnClientItemsRequestFailed - RadTagCloud
 description: Check our Web Forms article about OnClientItemsRequestFailed.
 slug: tagcloud/client-side-programming/events/onclientitemsrequestfailed
+components: ["tagcloud"]
 tags: onclientitemsrequestfailed
 published: True
 position: 6

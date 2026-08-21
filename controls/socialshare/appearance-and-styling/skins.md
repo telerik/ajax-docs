@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadSocialShare
 description: Check our Web Forms article about Skins.
 slug: socialshare/appearance-and-styling/skins
+components: ["socialshare"]
 tags: skins
 published: True
 position: 0

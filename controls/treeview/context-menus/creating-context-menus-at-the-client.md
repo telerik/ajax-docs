@@ -3,6 +3,7 @@ title: Creating Context Menus at the Client
 page_title: Creating Context Menus at the Client - RadTreeView
 description: Check our Web Forms article about Creating Context Menus at the Client.
 slug: treeview/context-menus/creating-context-menus-at-the-client
+components: ["treeview"]
 tags: creating,context,menus,at,the,client
 published: True
 position: 3

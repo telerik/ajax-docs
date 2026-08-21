@@ -3,6 +3,7 @@ title: OnClientContextMenuShowing
 page_title: OnClientContextMenuShowing - RadTreeView
 description: Check our Web Forms article about OnClientContextMenuShowing.
 slug: treeview/client-side-programming/events/onclientcontextmenushowing
+components: ["treeview"]
 tags: onclientcontextmenushowing
 published: True
 position: 26

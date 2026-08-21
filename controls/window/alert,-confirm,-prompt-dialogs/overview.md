@@ -3,6 +3,7 @@ title: Overview
 page_title: Alert, Confirm, Prompt Dialogs Overview - RadWindow
 description: Check our Web Forms article about Overview.
 slug: window/alert,-confirm,-prompt-dialogs/overview
+components: ["window"]
 tags: overview
 published: True
 position: 0

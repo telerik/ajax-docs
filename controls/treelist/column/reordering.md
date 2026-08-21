@@ -3,6 +3,7 @@ title: Reordering
 page_title: Reordering - RadTreeList
 description: Check our Web Forms article about Reordering.
 slug: treelist/column/reordering
+components: ["treelist"]
 tags: reordering
 published: True
 position: 3

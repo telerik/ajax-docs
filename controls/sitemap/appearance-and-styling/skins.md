@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadSiteMap
 description: Check our Web Forms article about Skins.
 slug: sitemap/appearance-and-styling/skins
+components: ["sitemap"]
 tags: skins
 published: True
 position: 0

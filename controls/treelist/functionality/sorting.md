@@ -3,6 +3,7 @@ title: Sorting
 page_title: Sorting - RadTreeList
 description: Check our Web Forms article about Sorting.
 slug: treelist/functionality/sorting
+components: ["treelist"]
 tags: sorting
 published: True
 position: 1

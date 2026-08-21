@@ -3,6 +3,7 @@ title: ShowLineImages Property
 page_title: ShowLineImages Property - RadTreeView
 description: Check our Web Forms article about ShowLineImages Property.
 slug: treeview/appearance-and-styling/showlineimages-property
+components: ["treeview"]
 tags: showlineimages,property
 published: True
 position: 8

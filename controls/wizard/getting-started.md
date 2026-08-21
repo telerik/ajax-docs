@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadWizard
 description: Check our Web Forms article about Getting Started.
 slug: wizard/getting-started
+components: ["wizard"]
 tags: getting,started
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: NodeEdit
 page_title: NodeEdit - RadTreeView
 description: Check our Web Forms article about NodeEdit.
 slug: treeview/server-side-programming/events/nodeedit
+components: ["treeview"]
 tags: nodeedit
 published: True
 position: 3

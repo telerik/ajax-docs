@@ -3,6 +3,7 @@ title: Autosizing Issues
 page_title: Autosizing Issues - RadWindow
 description: Check our Web Forms article about Autosizing Issues.
 slug: window/troubleshooting/autosizing-issues
+components: ["window"]
 tags: autosizing,issues
 published: True
 position: 2

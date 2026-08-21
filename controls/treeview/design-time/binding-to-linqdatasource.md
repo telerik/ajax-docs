@@ -3,6 +3,7 @@ title: Binding to LinqDataSource
 page_title: Binding to LinqDataSource - RadTreeView
 description: Check our Web Forms article about Binding to LinqDataSource.
 slug: treeview/design-time/binding-to-linqdatasource
+components: ["treeview"]
 tags: binding,to,linqdatasource
 published: True
 position: 3

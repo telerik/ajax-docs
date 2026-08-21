@@ -3,6 +3,7 @@ title: File Input Appearance
 page_title: File Input Appearance - RadUpload
 description: Check our Web Forms article about File Input Appearance.
 slug: upload/appearance-and-styling/file-input-appearance
+components: ["upload"]
 tags: file,input,appearance
 published: True
 position: 2

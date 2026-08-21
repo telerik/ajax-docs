@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadXmlHttpPanel
 description: Check our Web Forms article about Overview.
 slug: xmlhttppanel/getting-started/overview
+components: ["xmlhttppanel"]
 tags: overview
 published: True
 position: 0

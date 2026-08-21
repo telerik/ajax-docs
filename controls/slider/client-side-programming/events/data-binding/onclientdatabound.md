@@ -3,6 +3,7 @@ title: OnClientDataBound
 page_title: OnClientDataBound - RadSlider
 description: Check our Web Forms article about OnClientDataBound.
 slug: slider/client-side-programming/events/data-binding/onclientdatabound
+components: ["slider"]
 tags: onclientdatabound
 published: True
 position: 0

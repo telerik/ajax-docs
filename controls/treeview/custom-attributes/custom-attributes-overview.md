@@ -3,6 +3,7 @@ title: Overview
 page_title: Custom Attributes Overview - RadTreeView
 description: Check our Web Forms article about Custom Attributes Overview.
 slug: treeview/custom-attributes/custom-attributes-overview
+components: ["treeview"]
 tags: custom,attributes,overview
 published: True
 position: 0

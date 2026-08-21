@@ -3,6 +3,7 @@ title: Setting Dictionary Language
 page_title: Setting Dictionary Language - RadSpell
 description: Check our Web Forms article about Setting Dictionary Language.
 slug: spell/configuration/setting-dictionary-language
+components: ["spell"]
 tags: setting,dictionary,language
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Checked State
 page_title: Checked State - RadSwitch
 description: Check our Web Forms article about Checked State.
 slug: switch/functionality/checked-state
+components: ["switch"]
 tags: checked,state
 published: True
 position: 0

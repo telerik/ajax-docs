@@ -3,6 +3,7 @@ title: OnItemClick
 page_title: OnItemClick - RadTreeList
 description: Check our Web Forms article about OnItemClick Event.
 slug: treelist/client-side-programming/Events/OnItemClick
+components: ["treelist"]
 tags: events,OnItemClick
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: SpreadsheetSheet Object
 page_title: SpreadsheetSheet Object
 description: Check our Web Forms article about SpreadsheetSheet Object.
 slug: spreadsheet/client-side-programming/objects/spreadsheetsheet
+components: ["spreadsheet"]
 tags: spreadsheetsheet
 published: True
 position: 0

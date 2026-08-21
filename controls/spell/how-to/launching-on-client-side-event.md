@@ -3,6 +3,7 @@ title: Launching on Client-side Event
 page_title: Launching on Client-side Event - RadSpell
 description: Check our Web Forms article about Launching on Client-side Event.
 slug: spell/how-to/launching-on-client-side-event
+components: ["spell"]
 tags: launching,on,client-side,event
 published: True
 position: 1

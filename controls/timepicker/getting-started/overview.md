@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadTimePicker
 description: Check our Web Forms article about Overview.
 slug: timepicker/getting-started/overview
+components: ["timepicker"]
 tags: overview
 published: True
 position: 0

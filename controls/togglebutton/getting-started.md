@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadToggleButton
 description: Check our Web Forms article about Getting Started.
 slug: togglebutton/getting-started
+components: ["togglebutton"]
 tags: getting,started
 published: True
 position: 2

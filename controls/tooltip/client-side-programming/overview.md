@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadTooltip
 description: Check our Web Forms article about Overview.
 slug: tooltip/client-side-programming/overview
+components: ["tooltip"]
 tags: overview
 published: True
 position: 0

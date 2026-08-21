@@ -10,7 +10,7 @@ Use this skill to add the repository's `components` frontmatter field to article
 ## Workflow
 
 1. Identify exactly one component folder, such as `controls/grid`. The component value is the folder name, `grid` in this example.
-2. Recursively list Markdown files below that folder. Exclude image/template directories and do not process files outside the requested folder.
+2. Recursively list Markdown files below that folder. Include Markdown articles in directories named `templates`; do not exclude a file based only on its directory name. Exclude only clearly identified non-documentation assets, such as image directories, and do not process files outside the requested folder.
 3. Read the frontmatter of every candidate file before editing anything.
 4. Build a dry-run report with these groups: eligible files, files already containing the requested component, files with another `components` value, malformed or missing frontmatter, and excluded files.
 5. Stop and ask for guidance if any file has another component, a non-array `components` value, malformed/missing frontmatter, or unclear ownership.

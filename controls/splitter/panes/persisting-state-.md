@@ -3,6 +3,7 @@ title: Persisting State
 page_title: Persisting State - RadSplitter
 description: Check our Web Forms article about Persisting State.
 slug: splitter/panes/persisting-state-
+components: ["splitter"]
 tags: persisting,state,
 published: True
 position: 4

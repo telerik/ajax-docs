@@ -3,6 +3,7 @@ title: OnClientDataBound
 page_title: OnClientDataBound - RadTagCloud
 description: Check our Web Forms article about OnClientDataBound.
 slug: tagcloud/client-side-programming/events/onclientdatabound
+components: ["tagcloud"]
 tags: onclientdatabound
 published: True
 position: 7

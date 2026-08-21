@@ -3,6 +3,7 @@ title: Controlling Dialogs Position and Size
 page_title: Controlling Dialogs Position and Size - RadSocialShare
 description: Check our Web Forms article about Controlling Dialogs Position and Size.
 slug: socialshare/appearance-and-styling/controlling-dialogs-position-and-size
+components: ["socialshare"]
 tags: controlling,dialogs,position,and,size
 published: True
 position: 3

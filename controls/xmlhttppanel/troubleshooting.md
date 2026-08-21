@@ -3,6 +3,7 @@ title: Troubleshooting
 page_title: Troubleshooting - RadXmlHttpPanel
 description: Check our Web Forms article about Troubleshooting.
 slug: xmlhttppanel/troubleshooting
+components: ["xmlhttppanel"]
 tags: troubleshooting
 published: True
 position: 60

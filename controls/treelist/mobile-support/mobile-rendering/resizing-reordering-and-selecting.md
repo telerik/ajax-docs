@@ -3,6 +3,7 @@ title: Functionality
 page_title: Functionality - RadTreeList
 description: Check our Web Forms article about Mobile Functionality.
 slug: treelist/mobile-support/mobile-rendering/functionality
+components: ["treelist"]
 tags: resizing,reordering and selecting
 published: True
 position: 6

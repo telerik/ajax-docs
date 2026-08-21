@@ -3,6 +3,7 @@ title: FinishButtonClick
 page_title: FinishButtonClick - RadWizard
 description: Check our Web Forms article about FinishButtonClick.
 slug: wizard/server-side-programming/events/finishbuttonclick
+components: ["wizard"]
 tags: finishbuttonclick
 published: True
 position: 3

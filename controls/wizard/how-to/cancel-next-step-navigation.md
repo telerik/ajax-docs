@@ -3,6 +3,7 @@ title: Cancel Next Step Navigation
 page_title: Cancel Next Step Navigation - RadWizard
 description: Check our Web Forms article about Cancel Next Step Navigation.
 slug: wizard/how-to/cancel-next-step-navigation
+components: ["wizard"]
 tags: cancel,next,step,navigation
 published: True
 position: 0

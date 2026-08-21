@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTreeList Overview - RadTreeList
 description: Discover the TreeList control and its features for displaying hierarchical data in a tabular format.
 slug: treelist/overview
+components: ["treelist"]
 tags: overview
 published: True
 position: 0

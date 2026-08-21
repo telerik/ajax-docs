@@ -3,6 +3,7 @@ title: Error Handling
 page_title: SmartPasteButton Error Handling
 description: "Learn how to implement proper error handling when using the WebForms SmartPasteButton with AI services and form validation."
 slug: smartpastebutton/error-handling
+components: ["smartpastebutton"]
 tags: smartpastebutton,error-handling,validation
 published: True
 position: 4

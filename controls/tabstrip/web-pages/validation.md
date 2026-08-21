@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadTabStrip
 description: Check our Web Forms article about Validation.
 slug: tabstrip/web-pages/validation
+components: ["tabstrip"]
 tags: validation
 published: True
 position: 0

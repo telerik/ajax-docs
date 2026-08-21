@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadTreeView
 description: Check our Web Forms article about Overview.
 slug: treeview/data-binding/overview
+components: ["treeview"]
 tags: overview
 published: True
 position: 0

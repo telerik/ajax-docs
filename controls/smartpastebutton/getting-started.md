@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started with the SmartPasteButton
 description: "Get started with the WebForms SmartPasteButton by Telerik UI for ASP.NET AJAX and learn how to create, initialize, and enable the component."
 slug: smartpastebutton/getting-started
+components: ["smartpastebutton"]
 tags: smartpastebutton,getting started
 published: True
 position: 1

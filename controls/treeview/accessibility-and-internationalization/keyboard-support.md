@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadTreeView
 description: Check our Web Forms article about Keyboard Support.
 slug: treeview/accessibility-and-internationalization/keyboard-support
+components: ["treeview"]
 tags: keyboard,support
 published: True
 position: 0

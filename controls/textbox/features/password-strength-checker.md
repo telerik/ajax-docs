@@ -3,6 +3,7 @@ title: Password Strength Checker
 page_title: Password Strength Checker - RadTextBox
 description: Check our Web Forms article about Password Strength Checker.
 slug: radtextbox/features/password-strength-checker
+components: ["textbox"]
 tags: password,strength,checker
 published: True
 position: 4

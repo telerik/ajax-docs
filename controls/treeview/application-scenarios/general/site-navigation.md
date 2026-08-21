@@ -3,6 +3,7 @@ title: Site Navigation
 page_title: Site Navigation - RadTreeView
 description: Check our Web Forms article about Site Navigation.
 slug: treeview/application-scenarios/general/site-navigation
+components: ["treeview"]
 tags: site,navigation
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadSplitter
 description: Check our Web Forms article about Overview.
 slug: splitter/client-side-programming/overview
+components: ["splitter"]
 tags: overview
 published: True
 position: 0

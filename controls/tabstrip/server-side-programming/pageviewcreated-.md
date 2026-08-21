@@ -3,6 +3,7 @@ title: PageViewCreated
 page_title: PageViewCreated - RadTabStrip
 description: Check our Web Forms article about PageViewCreated.
 slug: tabstrip/server-side-programming/pageviewcreated-
+components: ["tabstrip"]
 tags: pageviewcreated,
 published: True
 position: 5

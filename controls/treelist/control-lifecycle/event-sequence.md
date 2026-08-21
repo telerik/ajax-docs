@@ -3,6 +3,7 @@ title: Event Sequence
 page_title: Event Sequence - RadTreeList
 description: Check our Web Forms article about Event Sequence.
 slug: treelist/control-lifecycle/event-sequence
+components: ["treelist"]
 tags: event,sequence
 published: True
 position: 1

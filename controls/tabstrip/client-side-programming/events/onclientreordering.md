@@ -3,6 +3,7 @@ title: OnClientReordering
 page_title: OnClientReordering - RadTabStrip
 description: Check our Web Forms article about OnClientReordering.
 slug: tabstrip/client-side-programming/onclientreordering
+components: ["tabstrip"]
 tags: onclientreordering
 published: True
 position: 7

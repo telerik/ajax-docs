@@ -3,6 +3,7 @@ title: Overview
 page_title: Tri-State CheckBoxes Overview - RadTreeView
 description: Check our Web Forms article about Tri-State CheckBoxes Overview.
 slug: treeview/checkboxes/tri-state/tri-state-checkboxes-overview
+components: ["treeview"]
 tags: tri-state,checkboxes,overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: RadTreeView Item Builder
 page_title: RadTreeView Item Builder - RadTreeView
 description: Check our Web Forms article about RadTreeView Item Builder.
 slug: treeview/design-time/radtreeview-item-builder
+components: ["treeview"]
 tags: radtreeview,item,builder
 published: True
 position: 1

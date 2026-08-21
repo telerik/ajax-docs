@@ -3,6 +3,7 @@ title: OnClientItemCreated
 page_title: OnClientItemCreated - RadTreeMap
 description: Check our Web Forms article about OnClientItemCreated.
 slug: treemap/client-side-programming/events/onclientitemcreated
+components: ["treemap"]
 tags: onclientitemcreated
 published: True
 position: 1

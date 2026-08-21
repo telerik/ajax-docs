@@ -3,6 +3,7 @@ title: Handles
 page_title: Handles - RadSlider
 description: Check our Web Forms article about Handles.
 slug: slider/getting-started/handles
+components: ["slider"]
 tags: handles
 published: True
 position: 5

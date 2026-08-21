@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadTooltip
 description: Check our Web Forms article about Server-side Programming.
 slug: tooltip/server-side-programming
+components: ["tooltip"]
 tags: server-side,programming
 published: True
 position: 9

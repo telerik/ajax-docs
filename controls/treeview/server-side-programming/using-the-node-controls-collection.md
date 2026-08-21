@@ -3,6 +3,7 @@ title: Using the Node Controls Collection
 page_title: Using the Node Controls Collection - RadTreeView
 description: Check our Web Forms article about Using the Node Controls Collection.
 slug: treeview/server-side-programming/using-the-node-controls-collection
+components: ["treeview"]
 tags: using,the,node,controls,collection
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Single Click Functionality
 page_title: Single Click Functionality - RadToolBar
 description: Check our Web Forms article about Single Click Functionality.
 slug: toolbar/functionality/single-click-functionality
+components: ["toolbar"]
 tags: single,click,functionality,
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Drag and Drop to HTML Elements That Have No ID
 page_title: Drag and Drop to HTML Elements That Have No ID - RadTreeView
 description: Check our Web Forms article about Drag and Drop to HTML Elements That Have No ID.
 slug: treeview/application-scenarios/client-side-programming/drag-and-drop-to-html-elements-that-have-no-id
+components: ["treeview"]
 tags: drag,and,drop,to,html,elements,that,have,no,id
 published: True
 position: 7

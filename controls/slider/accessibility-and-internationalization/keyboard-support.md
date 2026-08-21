@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadSlider
 description: Check our Web Forms article about Keyboard Support.
 slug: slider/accessibility-and-internationalization/keyboard-support
+components: ["slider"]
 tags: keyboard,support
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: AIPrompt Templates
 description: "Learn about how to use the Templates of the WebForms AIPrompt"
 slug: aiprompt/templates/overview
+components: ["aiprompt"]
 position: 1
 ---
 

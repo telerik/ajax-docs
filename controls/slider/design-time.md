@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadSlider
 description: Check our Web Forms article about Design Time.
 slug: slider/design-time
+components: ["slider"]
 tags: design,time
 published: True
 position: 3

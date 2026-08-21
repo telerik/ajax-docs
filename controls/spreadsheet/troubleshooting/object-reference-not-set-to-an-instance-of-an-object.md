@@ -3,6 +3,7 @@ title: Object reference not set to an instance of an object
 page_title: Object reference not set to an instance of an object - RadSpreadsheet
 description: Check our Web Forms article about Object reference not set to an instance of an object.
 slug: spreadsheet/troubleshooting/object-reference-not-set-to-an-instance-of-an-object
+components: ["spreadsheet"]
 tags: assembly,object,reference
 published: True
 position: 2
