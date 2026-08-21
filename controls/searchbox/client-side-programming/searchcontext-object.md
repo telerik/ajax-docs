@@ -3,6 +3,7 @@ title: SearchContext Object
 page_title: SearchContext Object - RadSearchBox
 description: Check our Web Forms article about SearchContext Object.
 slug: searchbox/client-side-programming/searchcontext-object
+components: ["searchbox"]
 tags: searchcontext,object
 published: True
 position: 1

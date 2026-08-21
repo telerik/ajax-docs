@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadImageButton
 description: Check our Web Forms article about Common Issues.
 slug: imagebutton/troubleshooting/common-issues
+components: ["imagebutton"]
 tags: common,issues
 published: True
 position: 0

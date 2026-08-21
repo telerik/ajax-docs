@@ -3,6 +3,7 @@ title: Overview
 page_title: Rotator Overview
 description: Check our Web Forms article about Overview.
 slug: rotator/overview
+components: ["rotator"]
 tags: overview
 published: True
 position: 0

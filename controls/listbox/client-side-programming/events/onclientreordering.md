@@ -3,6 +3,7 @@ title: OnClientReordering
 page_title: OnClientReordering - RadListBox
 description: Check our Web Forms article about OnClientReordering.
 slug: listbox/client-side-programming/events/onclientreordering
+components: ["listbox"]
 tags: onclientreordering
 published: True
 position: 17

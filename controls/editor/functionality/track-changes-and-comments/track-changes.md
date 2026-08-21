@@ -3,6 +3,7 @@ title: Track Changes
 page_title: Track Changes - RadEditor
 description: Check our Web Forms article about Track Changes.
 slug: editor/functionality/track-changes-and-comments/track-changes
+components: ["editor"]
 tags: track,changes
 published: True
 position: 0

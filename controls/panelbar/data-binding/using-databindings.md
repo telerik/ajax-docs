@@ -3,6 +3,7 @@ title: Using DataBindings
 page_title: Using DataBindings - RadPanelBar
 description: Check our Web Forms article about Using DataBindings.
 slug: panelbar/data-binding/using-databindings
+components: ["panelbar"]
 tags: using,databindings
 published: True
 position: 5

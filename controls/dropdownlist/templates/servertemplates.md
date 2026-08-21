@@ -3,6 +3,7 @@ title: ServerTemplates
 page_title: ServerTemplates - RadDropDownList
 description: Check our Web Forms article about ServerTemplates.
 slug: dropdownlist/templates/servertemplates
+components: ["dropdownlist"]
 tags: servertemplates
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadScheduler
 description: Check our Web Forms article about Getting Started.
 slug: scheduler/getting-started
+components: ["scheduler"]
 tags: getting,started
 published: True
 position: 3

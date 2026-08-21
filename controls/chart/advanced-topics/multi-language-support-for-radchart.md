@@ -3,6 +3,7 @@ title: Multi-Language Support for RadChart
 page_title: Multi-Language Support for RadChart - RadChart
 description: Check our Web Forms article about Multi-Language Support for RadChart.
 slug: chart/advanced-topics/multi-language-support-for-radchart
+components: ["chart"]
 tags: multi-language,support,for,radchart
 published: True
 position: 4

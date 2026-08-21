@@ -3,6 +3,7 @@ title: Change the appearance of the input element
 page_title: Change the appearance of the input element
 description: Check our Web Forms article about Change the appearance of the input element.
 slug: combobox/appearance-and-styling/change-the-appearance-of-the-input-element
+components: ["combobox"]
 tags: tutorial,change,appearance,input,element
 published: True
 position: 4

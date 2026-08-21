@@ -3,6 +3,7 @@ title: CSS Skin File Selectors
 page_title: CSS Skin File Selectors - RadComboBox
 description: Check our Web Forms article about CSS Skin File Selectors.
 slug: combobox/appearance-and-styling/css-skin-file-selectors
+components: ["combobox"]
 tags: css,skin,file,selectors
 published: True
 position: 7

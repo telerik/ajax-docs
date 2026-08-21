@@ -3,6 +3,7 @@ title: OutputType
 page_title: OutputType
 description: Check our Web Forms article about OutputType.
 slug: barcode/outputtype
+components: ["barcode"]
 tags: outputtype
 published: True
 position: 3

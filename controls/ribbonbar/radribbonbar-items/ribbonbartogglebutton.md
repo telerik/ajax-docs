@@ -3,6 +3,7 @@ title: RibbonBarToggleButton
 page_title: RibbonBarToggleButton - RadRibbonBar
 description: Check our Web Forms article about RibbonBarToggleButton.
 slug: ribbonbar/radribbonbar-items/ribbonbartogglebutton
+components: ["ribbonbar"]
 tags: ribbonbartogglebutton
 published: True
 position: 4

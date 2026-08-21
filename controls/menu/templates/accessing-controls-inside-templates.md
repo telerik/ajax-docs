@@ -3,6 +3,7 @@ title: Accessing Controls Inside Templates
 page_title: Accessing Controls Inside Templates - RadMenu
 description: Check our Web Forms article about Accessing Controls Inside Templates.
 slug: menu/templates/accessing-controls-inside-templates
+components: ["menu"]
 tags: accessing,controls,inside,templates
 published: True
 position: 3

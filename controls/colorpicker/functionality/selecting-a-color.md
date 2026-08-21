@@ -3,6 +3,7 @@ title: Selecting a Color
 page_title: Selecting a Color - RadColorPicker
 description: Check our Web Forms article about Selecting a Color.
 slug: colorpicker/functionality/selecting-a-color
+components: ["colorpicker"]
 tags: selecting,a,color
 published: True
 position: 1

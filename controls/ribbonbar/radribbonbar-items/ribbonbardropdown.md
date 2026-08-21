@@ -3,6 +3,7 @@ title: RibbonBarDropDown
 page_title: RibbonBarDropDown - RadRibbonBar
 description: Check our Web Forms article about RibbonBarDropDown.
 slug: ribbonbar/radribbonbar-items/ribbonbardropdown
+components: ["ribbonbar"]
 tags: ribbonbardropdown
 published: True
 position: 11

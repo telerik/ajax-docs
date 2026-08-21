@@ -3,6 +3,7 @@ title: Banners
 page_title: Banners - RadMediaPlayer
 description: Check our Web Forms article about Banners.
 slug: mediaplayer/functionality/banners
+components: ["mediaplayer"]
 tags: banners
 published: True
 position: 1

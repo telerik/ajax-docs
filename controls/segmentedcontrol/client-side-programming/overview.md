@@ -3,6 +3,7 @@ title: Overview
 page_title: SegmentedControl Client-side Programming
 description: "Overview of the Client-side APIs you can use to configure the Telerik WebForms SegmentedControl."
 slug: segmentedcontrol/client-side-programming/overview
+components: ["segmentedcontrol"]
 tags: client-side, client-side programming
 published: True
 position: 0

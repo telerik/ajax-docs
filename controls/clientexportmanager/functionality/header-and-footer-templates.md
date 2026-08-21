@@ -3,6 +3,7 @@ title: Page Templates
 page_title: Page Templates - RadClientExportManager
 description: Render header and footer templates on each page when you export content in PDF with RadClientExportManager for ASP.NET AJAX
 slug: clientexportmanager/functionality/header-and-footer-templates
+components: ["clientexportmanager"]
 tags: header,footer,headers,export,template
 published: True
 position: 4

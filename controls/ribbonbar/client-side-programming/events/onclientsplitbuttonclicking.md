@@ -3,6 +3,7 @@ title: OnClientSplitButtonClicking
 page_title: OnClientSplitButtonClicking - RadRibbonBar
 description: Check our Web Forms article about OnClientSplitButtonClicking.
 slug: ribbonbar/client-side-programming/events/onclientsplitbuttonclicking
+components: ["ribbonbar"]
 tags: onclientsplitbuttonclicking
 published: True
 position: 9

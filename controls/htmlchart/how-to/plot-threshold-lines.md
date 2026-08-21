@@ -3,6 +3,7 @@ title: Plot Threshold Lines
 page_title: Plot Threshold Lines - RadHtmlChart
 description: Check our Web Forms article about Plot Threshold Lines.
 slug: htmlchart/how-to/plot-threshold-lines
+components: ["htmlchart"]
 tags: plot,threshold,lines
 published: True
 position: 8

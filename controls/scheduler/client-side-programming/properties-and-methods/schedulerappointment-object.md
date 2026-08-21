@@ -3,6 +3,7 @@ title: SchedulerAppointment Object
 page_title: SchedulerAppointment Object - RadScheduler
 description: Check our Web Forms article about SchedulerAppointment Object.
 slug: scheduler/client-side-programming/properties-and-methods/schedulerappointment-object
+components: ["scheduler"]
 tags: schedulerappointment,object
 published: True
 position: 1

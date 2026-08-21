@@ -3,6 +3,7 @@ title: OnClientImageChanging
 page_title: OnClientImageChanging - RadImageEditor
 description: Check our Web Forms article about OnClientImageChanging.
 slug: imageeditor/client-side-programming/events/onclientimagechanging
+components: ["imageeditor"]
 tags: onclientimagechanging
 published: True
 position: 5

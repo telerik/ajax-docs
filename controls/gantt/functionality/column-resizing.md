@@ -3,6 +3,7 @@ title: Column Resizing
 page_title: Column Resizing - RadGantt
 description: Check our Web Forms article about Column Resizing.
 slug: gantt/functionality/column-resizing
+components: ["gantt"]
 tags: column,resizing
 published: True
 position: 2

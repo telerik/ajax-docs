@@ -3,6 +3,7 @@ title: getToolByName
 page_title: getToolByName - RadEditor
 description: Check our Web Forms article about getToolByName.
 slug: editor/client-side-programming/methods/gettoolbyname
+components: ["editor"]
 tags: gettoolbyname
 published: True
 position: 11

@@ -3,6 +3,7 @@ title: Overview
 page_title: Search Context Overview - RadSearchBox
 description: Check our Web Forms article about Overview.
 slug: searchbox/search-context/overview
+components: ["searchbox"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Change the End Date When the Start Date Changes
 page_title: Change the End Date When the Start Date Changes - RadScheduler
 description: Check our Web Forms article about Change the End Date When the Start Date Changes.
 slug: scheduler/how-to/change-the-end-date-when-the-start-date-changes
+components: ["scheduler"]
 tags: change,the,end,date,when,the,start,date,changes
 published: True
 position: 8

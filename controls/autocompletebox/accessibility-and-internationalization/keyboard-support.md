@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadAutoCompleteBox
 description: Check our Web Forms article about Keyboard Support.
 slug: autocompletebox/accessibility-and-internationalization/keyboard-support
+components: ["autocompletebox"]
 tags: keyboard,support
 published: True
 position: 0

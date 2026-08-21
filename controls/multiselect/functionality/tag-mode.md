@@ -3,6 +3,7 @@ title: Tag Mode
 page_title: Tag Mode - RadMultiSelect
 description: Check our Web Forms article about Tag Mode.
 slug: multiselect/functionality/tag-mode
+components: ["multiselect"]
 tags: tags,tag,mode,client,customize
 published: True
 position: 3

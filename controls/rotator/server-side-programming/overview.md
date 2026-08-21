@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadRotator
 description: Check our Web Forms article about Overview.
 slug: rotator/server-side-programming/overview
+components: ["rotator"]
 tags: overview
 published: True
 position: 0

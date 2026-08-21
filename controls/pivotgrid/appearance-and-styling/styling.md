@@ -3,6 +3,7 @@ title: Styling
 page_title: Styling - RadPivotGrid
 description: Check our Web Forms article about Styling.
 slug: pivotgrid/appearance-and-styling/styling
+components: ["pivotgrid"]
 tags: styling
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadNavigation
 description: Check our Web Forms article about Keyboard Support.
 slug: navigation/accessibility-and-internationalization/keyboard-support
+components: ["navigation"]
 tags: keyboard,support
 published: True
 position: 1

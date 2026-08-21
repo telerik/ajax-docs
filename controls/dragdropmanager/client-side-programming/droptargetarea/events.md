@@ -3,6 +3,7 @@ title: Events
 page_title: RadDropTargetArea Client-Side Events - RadDragDropManager
 description: Client-Side Events of RadDropTargetArea, child component of RadDragDropManager
 slug: dragdropmanager/client-side-programming/droptargetarea/events
+components: ["dragdropmanager"]
 tags: client-side events, events, raddroptargetarea
 published: True
 ---

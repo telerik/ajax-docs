@@ -3,6 +3,7 @@ title: Using FontAwesome in RadDiagram Visual Templates
 page_title: Using FontAwesome in RadDiagram Visual Templates - RadDiagram
 description: Check our Web Forms article about Using FontAwesome in RadDiagram Visual Templates.
 slug: diagram/how-to/using-fontawesome-visual-templates
+components: ["diagram"]
 tags: custom,shapes,templates, visual, fontawesome, css, font, awesome
 published: True
 position: 1

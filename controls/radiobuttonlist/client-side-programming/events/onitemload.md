@@ -3,6 +3,7 @@ title: OnItemLoad
 page_title: OnItemLoad - RadRadioButtonList
 description: Check our Web Forms article about OnItemLoad.
 slug: radiobuttonlist/client-side-programming/events/onitemload
+components: ["radiobuttonlist"]
 tags: onitemload
 published: True
 position: 3

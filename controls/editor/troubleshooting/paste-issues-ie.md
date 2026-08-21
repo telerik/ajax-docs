@@ -3,6 +3,7 @@ title: Pasting Issues Under IE
 page_title: Pasting Issues Under IE - RadEditor
 description: Check our Web Forms article about Pasting Issues Under IE.
 slug: editor/troubleshooting/paste-issues-ie
+components: ["editor"]
 tags: pasting,issues,with,ie,internet explorer,editor,paste
 published: True
 position: 12

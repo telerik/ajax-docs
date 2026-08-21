@@ -3,6 +3,7 @@ title: ItemChecked
 page_title: ItemChecked - RadComboBox
 description: Check our Web Forms article about ItemChecked.
 slug: combobox/server-side-programming/itemchecked
+components: ["combobox"]
 tags: itemchecked
 published: True
 position: 6

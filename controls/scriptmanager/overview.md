@@ -3,6 +3,7 @@ title: Overview
 page_title: RadScriptManager Overview
 description: Discover the ScriptManager control and its role in managing client-side scripts in web applications.
 slug: scriptmanager/overview
+components: ["scriptmanager"]
 tags: overview
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Bullet Chart
 page_title: Bullet Chart - RadHtmlChart
 description: Check our Web Forms article about Bullet Chart.
 slug: htmlchart/chart-types/bullet-chart
+components: ["htmlchart"]
 tags: bullet,chart
 published: True
 position: 5

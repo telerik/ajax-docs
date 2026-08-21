@@ -3,6 +3,7 @@ title: SaveCustomSettings
 page_title: SaveCustomSettings - RadPersistenceFramework
 description: Check our Web Forms article about SaveCustomSettings.
 slug: persistenceframework/server-side-programming/events/savecustomsettings
+components: ["persistenceframework"]
 tags: savecustomsettings
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadColorPicker
 description: Check our Web Forms article about Keyboard Support.
 slug: colorpicker/accessibility-and-internationalization/keyboard-support
+components: ["colorpicker"]
 tags: keyboard,support
 published: True
 position: 1

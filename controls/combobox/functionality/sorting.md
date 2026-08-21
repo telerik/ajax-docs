@@ -3,6 +3,7 @@ title: Sorting
 page_title: Sorting - RadComboBox
 description: Check our Web Forms article about Sorting.
 slug: combobox/functionality/sorting
+components: ["combobox"]
 tags: sorting
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientProgressBarUpdating
 page_title: OnClientProgressBarUpdating - RadProgressArea
 description: Check our Web Forms article about OnClientProgressBarUpdating.
 slug: progressarea/client-side-programming/onclientprogressbarupdating
+components: ["progressarea"]
 tags: onclientprogressbarupdating
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Month View
 page_title: Month View - RadScheduler
 description: Check our Web Forms article about Month View.
 slug: scheduler/views/month-view
+components: ["scheduler"]
 tags: month,view
 published: True
 position: 3

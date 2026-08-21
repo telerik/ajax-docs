@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadRibbonBar
 description: Check our Web Forms article about Render Modes.
 slug: ribbonbar/mobile-support/render-modes
+components: ["ribbonbar"]
 tags: render,modes
 published: True
 position: 2

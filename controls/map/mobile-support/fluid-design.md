@@ -3,6 +3,7 @@ title: Fluid Design
 page_title: Fluid Design - RadMap
 description: Check our Web Forms article about Fluid Design.
 slug: map/mobile-support/fluid-design
+components: ["map"]
 tags: fluid,design
 published: True
 position: 3

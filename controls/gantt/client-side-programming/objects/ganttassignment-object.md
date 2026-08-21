@@ -3,6 +3,7 @@ title: GanttAssignment Object
 page_title: GanttAssignment Object - RadGantt
 description: Check our Web Forms article about GanttAssignment Object.
 slug: gantt/client-side-programming/objects/ganttassignment-object
+components: ["gantt"]
 tags: ganttassignment,object
 published: True
 position: 5

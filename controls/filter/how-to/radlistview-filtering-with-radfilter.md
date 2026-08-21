@@ -3,6 +3,7 @@ title: RadListView Filtering with RadFilter
 page_title: RadListView Filtering with RadFilter - RadFilter
 description: Check our Web Forms article about RadListView Filtering with RadFilter.
 slug: filter/how-to/radlistview-filtering-with-radfilter
+components: ["filter"]
 tags: radlistview,filtering,with,radfilter
 published: True
 position: 2

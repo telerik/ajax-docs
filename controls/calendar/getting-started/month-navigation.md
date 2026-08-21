@@ -3,6 +3,7 @@ title: Month Navigation
 page_title: RadCalendar Month Navigation - RadCalendar
 description: Check our Web Forms article about RadCalendar Month Navigation.
 slug: calendar/accessibility-and-internationalization/radcalendar-month-navigation
+components: ["calendar"]
 tags: radcalendar,month,navigation
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Date Format Patterns
 page_title: Date Format Patterns - RadCalendar
 description: Check our Web Forms article about Date Format Patterns.
 slug: calendar/accessibility-and-internationalization/date-format-patterns
+components: ["calendar"]
 tags: date,format,patterns
 published: True
 position: 1

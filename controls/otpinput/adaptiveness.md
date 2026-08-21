@@ -3,6 +3,7 @@ title: Adaptviness
 page_title: Separator
 description: Learn how to configure the input mode of the WebForms OTPInput component.
 slug: otpinput/adaptiveness
+components: ["otpinput"]
 tags: otpinput,adaptiveness
 published: True
 position: 4

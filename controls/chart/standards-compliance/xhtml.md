@@ -3,6 +3,7 @@ title: XHTML
 page_title: XHTML - RadChart
 description: Check our Web Forms article about XHTML.
 slug: chart/standards-compliance/xhtml
+components: ["chart"]
 tags: xhtml
 published: True
 position: 1

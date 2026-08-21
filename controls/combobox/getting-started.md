@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadComboBox
 description: Learn how to set up and configure the ComboBox control for efficient data selection and user interaction.
 slug: combobox/getting-started
+components: ["combobox"]
 tags: getting,started
 published: True
 position: 1

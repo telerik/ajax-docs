@@ -3,6 +3,7 @@ title: Stacked Area 100% Charts
 page_title: Stacked Area 100% Charts - RadChart
 description: Check our Web Forms article about Stacked Area 100% Charts.
 slug: chart/understanding-radchart-types/stacked-area-100%-charts
+components: ["chart"]
 previous_url: controls/chart/understanding-radchart-types/stacked-area-100%-charts
 tags: stacked,area,100%,charts
 published: True

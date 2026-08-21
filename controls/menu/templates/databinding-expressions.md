@@ -3,6 +3,7 @@ title: DataBinding expressions
 page_title: DataBinding expressions - RadMenu
 description: Check our Web Forms article about DataBinding expressions.
 slug: menu/templates/databinding-expressions
+components: ["menu"]
 tags: databinding,expressions
 published: True
 position: 4

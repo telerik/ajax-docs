@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadEditor
 description: Check our Web Forms article about Overview.
 slug: editor/client-side-programming/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

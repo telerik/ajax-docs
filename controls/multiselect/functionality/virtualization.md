@@ -3,6 +3,7 @@ title: Virtualization
 page_title: Virtualization - RadMultiSelect
 description: Check our Web Forms article about Virtualization.
 slug: multiselect/functionality/virtualization
+components: ["multiselect"]
 tags: Virtualization
 published: True
 position: 5

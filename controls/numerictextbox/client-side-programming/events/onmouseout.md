@@ -3,6 +3,7 @@ title: OnMouseOut
 page_title: OnMouseOut - RadNumericTextBox
 description: Check our Web Forms article about OnMouseOut.
 slug: numerictextbox/client-side-programming/events/onmouseout
+components: ["numerictextbox"]
 tags: onmouseout
 published: True
 position: 11

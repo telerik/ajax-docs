@@ -3,6 +3,7 @@ title: Inserting
 page_title: Inserting - RadListBox
 description: Check our Web Forms article about Inserting.
 slug: listbox/server-side-programming/server-events/inserting
+components: ["listbox"]
 tags: inserting
 published: True
 position: 15

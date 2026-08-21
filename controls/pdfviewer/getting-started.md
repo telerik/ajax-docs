@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadPdfViewer
 description: Check our Web Forms article about Getting Started.
 slug: pdfviewer/getting-started
+components: ["pdfviewer"]
 tags: getting,started,
 published: True
 position: 1

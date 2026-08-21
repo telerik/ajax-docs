@@ -3,6 +3,7 @@ title: Templates
 page_title: Templates - RadDrawer
 description: Check our Web Forms article about Templates.
 slug: drawer/functionality/templates
+components: ["drawer"]
 tags: template,client
 published: True
 position: 4

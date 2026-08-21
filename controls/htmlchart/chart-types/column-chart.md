@@ -3,6 +3,7 @@ title: Column Chart
 page_title: Column Chart - RadHtmlChart
 description: Discover the Column Chart type in the HTMLChart control for visualizing data in a column format.
 slug: htmlchart/chart-types/column-chart
+components: ["htmlchart"]
 tags: column,chart
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Adding Templates at Designtime
 page_title: Adding Templates at Designtime - RadPanelBar
 description: Check our Web Forms article about Adding Templates at Designtime.
 slug: panelbar/templates/adding-templates-at-designtime
+components: ["panelbar"]
 tags: adding,templates,at,designtime
 published: True
 position: 1

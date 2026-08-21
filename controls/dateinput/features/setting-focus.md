@@ -3,6 +3,7 @@ title: Setting Focus
 page_title: Setting Focus - RadDateInput
 description: Check our Web Forms article about Setting Focus.
 slug: raddateinput/features/setting-focus
+components: ["dateinput"]
 tags: setting,focus
 published: True
 position: 7

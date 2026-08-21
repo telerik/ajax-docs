@@ -3,6 +3,7 @@ title: OnClientFilesUploaded
 page_title: OnClientFilesUploaded - RadCloudUpload
 description: Check our Web Forms article about OnClientFilesUploaded.
 slug: cloudupload/client-side-programming/events/onclientfilesuploaded
+components: ["cloudupload"]
 tags: onclientfilesuploaded
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: get_pageCount
 page_title: get_pageCount - RadListView
 description: Check our Web Forms article about get_pageCount.
 slug: listview/client-side-programming/radlistview/properties/get_pagecount
+components: ["listview"]
 tags: get_pagecount
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Accessing Client Changes on the Server
 page_title: Accessing Client Changes on the Server - RadPanelBar
 description: Check our Web Forms article about Accessing Client Changes on the Server.
 slug: panelbar/client-side-programming/accessing-client-changes-on-the-server
+components: ["panelbar"]
 tags: accessing,client,changes,on,the,server
 published: True
 position: 4

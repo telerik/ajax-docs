@@ -3,6 +3,7 @@ title: Show and Hide Layers According to Zoom Level
 page_title: Show and Hide Layers According to Zoom Level - RadMap
 description: Check our Web Forms article about How to configure RadMap layers to show and hide on predefined zoom levels.
 slug: map/how-to/show-hide-layers-on-zoom
+components: ["map"]
 tags: custer, clustering, map, radmap, zoom, minzoom, maxzoom, level, layer
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadFilter Overview
 description: Check our Web Forms article about Overview.
 slug: filter/overview
+components: ["filter"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Drag and Drop Fields
 page_title: Drag and Drop Fields - RadPivotGrid
 description: Check our Web Forms article about Drag and Drop Fields.
 slug: pivotgrid/fields/drag-and-drop-fields
+components: ["pivotgrid"]
 tags: drag,and,drop,fields
 published: True
 position: 2

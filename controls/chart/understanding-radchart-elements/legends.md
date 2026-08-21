@@ -3,6 +3,7 @@ title: Legends
 page_title: Legends - RadChart
 description: Check our Web Forms article about Legends.
 slug: chart/understanding-radchart-elements/legends
+components: ["chart"]
 tags: legends
 published: True
 position: 5

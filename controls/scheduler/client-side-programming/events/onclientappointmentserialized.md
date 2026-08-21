@@ -3,6 +3,7 @@ title: OnClientAppointmentSerialized
 page_title: OnClientAppointmentSerialized - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentSerialized.
 slug: scheduler/client-side-programming/events/onclientappointmentserialized
+components: ["scheduler"]
 tags: onclientappointmentserialized
 published: True
 position: 29

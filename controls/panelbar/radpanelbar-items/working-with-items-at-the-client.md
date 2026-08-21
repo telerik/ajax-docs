@@ -3,6 +3,7 @@ title: Working With Items at the Client
 page_title: Working With Items at the Client - RadPanelBar
 description: Check our Web Forms article about Working With Items at the Client.
 slug: panelbar/radpanelbar-items/working-with-items-at-the-client
+components: ["panelbar"]
 tags: working,with,items,at,the,client
 published: True
 position: 4

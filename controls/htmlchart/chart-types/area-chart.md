@@ -3,6 +3,7 @@ title: Area Chart
 page_title: Area Chart - RadHtmlChart
 description: Check our Web Forms article about Area Chart.
 slug: htmlchart/chart-types/area-chart
+components: ["htmlchart"]
 tags: area,chart
 published: True
 position: 1

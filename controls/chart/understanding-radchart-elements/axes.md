@@ -3,6 +3,7 @@ title: Axes
 page_title: Axes - RadChart
 description: Check our Web Forms article about Axes.
 slug: chart/understanding-radchart-elements/axes
+components: ["chart"]
 tags: axes
 published: True
 position: 2

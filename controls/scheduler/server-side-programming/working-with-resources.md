@@ -3,6 +3,7 @@ title: Working with Resources
 page_title: Working with Resources - RadScheduler
 description: Check our Web Forms article about Working with Resources.
 slug: scheduler/server-side-programming/working-with-resources
+components: ["scheduler"]
 tags: working,with,resources
 published: True
 position: 1

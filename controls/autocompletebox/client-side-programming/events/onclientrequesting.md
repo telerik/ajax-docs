@@ -3,6 +3,7 @@ title: OnClientRequesting
 page_title: OnClientRequesting - RadAutoCompleteBox
 description: Check our Web Forms article about OnClientRequesting.
 slug: autocompletebox/client-side-programming/events/onclientrequesting
+components: ["autocompletebox"]
 tags: onclientrequesting
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: ResourcesPopulating
 page_title: ResourcesPopulating - RadScheduler
 description: Check our Web Forms article about ResourcesPopulating.
 slug: scheduler/server-side-programming/server-events/resourcespopulating
+components: ["scheduler"]
 tags: resourcespopulating
 published: True
 position: 16

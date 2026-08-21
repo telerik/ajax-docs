@@ -3,6 +3,7 @@ title: AddText Limitation
 page_title: AddText Limitation - RadImageEditor
 description: Check our Web Forms article about AddText Limitation.
 slug: imageeditor/troubleshooting/known-issues/addtext-limitation
+components: ["imageeditor"]
 tags: addtext,limitation
 published: True
 position: 1

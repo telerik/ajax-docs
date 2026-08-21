@@ -3,6 +3,7 @@ title: API
 page_title: API - RadListView
 description: Check our Web Forms article about API.
 slug: listview/data-binding/client-side/api
+components: ["listview"]
 tags: api
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Arc
 page_title: RadArcGauge
 description: Check our Web Forms article about Arc Gauge.
 slug: gauge/gauge-types/arc
+components: ["gauge"]
 tags: arc
 published: True
 position: 0

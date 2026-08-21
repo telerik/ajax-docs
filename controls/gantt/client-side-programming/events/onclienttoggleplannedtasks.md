@@ -3,6 +3,7 @@ title: OnClientTogglePlannedTasks
 page_title: OnClientTogglePlannedTasks - RadGantt
 description: Check our Web Forms article about OnClientTogglePlannedTasks.
 slug: gantt/client-side-programming/events/onclienttoggleplannedtasks
+components: ["gantt"]
 tags: onclienttoggleplannedtasks
 published: True
 position: 19

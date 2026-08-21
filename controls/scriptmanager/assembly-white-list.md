@@ -3,6 +3,7 @@ title: Assembly White List
 page_title: Assembly White List - RadScriptManager
 description: Check our Web Forms article about Assembly White List.
 slug: scriptmanager/assembly-white-list
+components: ["scriptmanager"]
 tags: assembly,white,list
 published: True
 position: 6

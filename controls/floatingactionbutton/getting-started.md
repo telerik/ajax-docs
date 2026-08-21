@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadFloatingActionButton
 description: Getting Started with the Telerik RadFloatingActionButton. 
 slug: floatingactionbutton/getting-started
+components: ["floatingactionbutton"]
 tags: getting-started, floatingactionbutton
 published: True
 position: 1

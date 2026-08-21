@@ -3,6 +3,7 @@ title: Extend the Displayable Area for YAxis Data
 page_title: How to Extend the Displayable Area for YAxis Data
 description: Check our Web Forms article about How to Extend the Displayable Area for YAxis Data.
 slug: chart/how-to/extend-displayable-area-yaxis-data
+components: ["chart"]
 tags: how to, extend, area, yaxis, data
 published: True
 position: 0

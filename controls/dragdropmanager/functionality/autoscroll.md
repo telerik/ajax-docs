@@ -3,6 +3,7 @@ title: AutoScroll
 page_title: AutoScroll - RadDragDropManager
 description: AutoScroll
 slug: dragdropmanager/functionality/autoscroll
+components: ["dragdropmanager"]
 tags: AutoScroll
 published: True
 ---

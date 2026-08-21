@@ -3,6 +3,7 @@ title: AssignmentUpdate
 page_title: AssignmentUpdate - RadGantt
 description: Check our Web Forms article about AssignmentUpdate.
 slug: gantt/server-side-programming/events/assignmentupdate
+components: ["gantt"]
 tags: assignmentupdate
 published: True
 position: 10

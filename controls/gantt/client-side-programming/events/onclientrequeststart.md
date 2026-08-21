@@ -3,6 +3,7 @@ title: OnClientRequestStart
 page_title: OnClientRequestStart - RadGantt
 description: Check our Web Forms article about OnClientRequestStart.
 slug: gantt/client-side-programming/events/onclientrequeststart
+components: ["gantt"]
 tags: onclientrequeststart
 published: True
 position: 8

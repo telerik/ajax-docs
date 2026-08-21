@@ -3,6 +3,7 @@ title: DropDown Settings
 page_title: DropDown Settings - RadDropDownTree
 description: Check our Web Forms article about DropDown Settings.
 slug: dropdowntree/functionality/dropdown-settings
+components: ["dropdowntree"]
 tags: dropdown,settings
 published: True
 position: 2

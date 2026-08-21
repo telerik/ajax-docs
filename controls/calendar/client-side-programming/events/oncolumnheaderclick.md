@@ -3,6 +3,7 @@ title: OnColumnHeaderClick
 page_title: OnColumnHeaderClick - RadCalendar
 description: Check our Web Forms article about OnColumnHeaderClick.
 slug: calendar/client-side-programming/events/oncolumnheaderclick
+components: ["calendar"]
 tags: oncolumnheaderclick
 published: True
 position: 9

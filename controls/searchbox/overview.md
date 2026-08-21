@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSearchBox Overview
 description: Explore the SearchBox control and its features for implementing search functionality in your app.
 slug: searchbox/overview
+components: ["searchbox"]
 tags: overview
 published: True
 position: 0

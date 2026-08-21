@@ -3,6 +3,7 @@ title: Crosshairs
 page_title: Crosshairs - RadHtmlChart
 description: Check our Web Forms article about Crosshairs.
 slug: htmlchart/functionality/crosshairs
+components: ["htmlchart"]
 tags: crosshairs, crosshair, cross-hair, cross hair
 published: True
 position: 8

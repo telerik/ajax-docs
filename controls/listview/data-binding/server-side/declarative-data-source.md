@@ -3,6 +3,7 @@ title: Declarative Data Source
 page_title: Declarative Data Source - RadListView
 description: Check our Web Forms article about Declarative Data Source.
 slug: listview/data-binding/server-side/declarative-data-source
+components: ["listview"]
 tags: declarative,data,source
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Validated
 page_title: Validated - RadInputManager
 description: Check our Web Forms article about Validated.
 slug: radinputmanager/server-side-events/validated
+components: ["inputmanager"]
 tags: validated
 published: True
 position: 2

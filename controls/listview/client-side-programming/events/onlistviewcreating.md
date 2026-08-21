@@ -3,6 +3,7 @@ title: OnListViewCreating
 page_title: OnListViewCreating - RadListView
 description: Check our Web Forms article about OnListViewCreating.
 slug: listview/client-side-programming/events/onlistviewcreating
+components: ["listview"]
 tags: onlistviewcreating
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadPushButton
 description: Check our Web Forms article about Skins.
 slug: pushbutton/appearance-and-styling/skins
+components: ["pushbutton"]
 tags: skins
 published: True
 position: 0

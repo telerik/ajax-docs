@@ -3,6 +3,7 @@ title: Custom Sorting
 page_title: Custom Sorting - RadListView
 description: Check our Web Forms article about Custom Sorting.
 slug: listview/fuctionality/sorting/custom-sorting
+components: ["listview"]
 tags: custom,sorting
 published: True
 position: 1

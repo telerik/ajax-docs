@@ -3,6 +3,7 @@ title: HTML Output
 page_title: RadLabel HTML Output
 description: Check our Web Forms article about RadLabel HTML Output.
 slug: label/html-output
+components: ["label"]
 tags: overview
 published: True
 position: 0

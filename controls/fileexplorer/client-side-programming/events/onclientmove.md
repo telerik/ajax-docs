@@ -3,6 +3,7 @@ title: OnClientMove
 page_title: OnClientMove - RadFileExplorer
 description: Check our Web Forms article about OnClientMove.
 slug: fileexplorer/client-side-programming/events/onclientmove
+components: ["fileexplorer"]
 tags: onclientmove
 published: True
 position: 13

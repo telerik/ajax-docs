@@ -3,6 +3,7 @@ title: Footers
 page_title: Footers - RadComboBox
 description: Check our Web Forms article about Footers.
 slug: combobox/templates/footers
+components: ["combobox"]
 tags: footers
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnActionClick
 page_title: OnActionClick - RadChat
 description: Check our Web Forms article about OnActionClick.
 slug: chat/client-side-programming/events/onactionclick
+components: ["chat"]
 tags: onactionclick
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadDateRangePicker
 description: Check our Web Forms article about Getting Started.
 slug: daterangepicker/getting-started
+components: ["daterangepicker"]
 tags: getting,started,
 published: True
 position: 1

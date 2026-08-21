@@ -3,6 +3,7 @@ title: RadSearchBox Object
 page_title: RadSearchBox Object - RadSearchBox
 description: Check our Web Forms article about RadSearchBox Object.
 slug: searchbox/client-side-programming/radsearchbox-object
+components: ["searchbox"]
 tags: radsearchbox,object
 published: True
 position: 0

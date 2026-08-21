@@ -3,6 +3,7 @@ title: Highlight Today Date
 page_title: Highlight Today Date - RadCalendar
 description: Check our Web Forms article about Highlight Today Date.
 slug: calendar/how-to/highlight-today-date
+components: ["calendar"]
 tags: highlight,today,date
 published: True
 position: 2

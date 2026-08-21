@@ -3,6 +3,7 @@ title: Web API
 page_title: Web API - RadGantt
 description: Check our Web Forms article about Web API.
 slug: gantt/data-binding/client-side-binding/web-api
+components: ["gantt"]
 tags: web,api
 published: False
 position: 3

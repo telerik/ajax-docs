@@ -3,6 +3,7 @@ title: CheckAllCheck
 page_title: CheckAllCheck - RadComboBox
 description: Check our Web Forms article about CheckAllCheck.
 slug: combobox/server-side-programming/checkallcheck
+components: ["combobox"]
 tags: checkallcheck
 published: True
 position: 7

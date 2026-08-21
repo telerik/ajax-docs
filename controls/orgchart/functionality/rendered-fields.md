@@ -3,6 +3,7 @@ title: Rendered Fields
 page_title: Rendered Fields - RadOrgChart
 description: Check our Web Forms article about Rendered Fields.
 slug: orgchart/functionality/rendered-fields
+components: ["orgchart"]
 tags: rendered,fields
 published: True
 position: 2

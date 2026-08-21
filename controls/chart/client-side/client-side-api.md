@@ -3,6 +3,7 @@ title: Client-Side API
 page_title: Client-Side API - RadChart
 description: Check our Web Forms article about Client-Side API.
 slug: chart/client-side/client-side-api
+components: ["chart"]
 tags: client-side,api
 published: True
 position: 0

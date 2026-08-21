@@ -3,6 +3,7 @@ title: OnRequestFail
 page_title: OnRequestFail - RadODataDataSource
 description: Check our Web Forms article about OnRequestFail.
 slug: odatadatasource/client-side-programming/events/onrequestfail
+components: ["odatadatasource"]
 tags: onrequestfail
 published: True
 position: 3

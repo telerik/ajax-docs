@@ -3,6 +3,7 @@ title: Data Binding
 page_title: Data Binding - RadMonthYearPicker
 description: Check our Web Forms article about Data Binding.
 slug: monthyearpicker/functionality/data-binding
+components: ["monthyearpicker"]
 tags: data,binding
 published: True
 position: 2

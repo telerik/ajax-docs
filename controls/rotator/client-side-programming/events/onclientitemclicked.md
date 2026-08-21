@@ -3,6 +3,7 @@ title: OnClientItemClicked
 page_title: OnClientItemClicked - RadRotator
 description: Check our Web Forms article about OnClientItemClicked.
 slug: rotator/client-side-programming/events/onclientitemclicked
+components: ["rotator"]
 tags: onclientitemclicked
 published: True
 position: 2

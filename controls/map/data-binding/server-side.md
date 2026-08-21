@@ -3,6 +3,7 @@ title: Server-side
 page_title: Server-side - RadMap
 description: Check our Web Forms article about Server-side.
 slug: map/data-binding/server-side
+components: ["map"]
 tags: server-side
 published: True
 position: 1

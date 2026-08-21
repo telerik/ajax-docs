@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadImageGallery
 description: Check our Web Forms article about Render Modes.
 slug: imagegallery/mobile-support/render-modes
+components: ["imagegallery"]
 tags: render,modes
 published: True
 position: 2

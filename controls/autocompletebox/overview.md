@@ -3,6 +3,7 @@ title: Overview
 page_title: RadAutoCompleteBox Overview
 description: Discover the AutoCompleteBox control and its features for providing suggestions as users type input.
 slug: autocompletebox/overview
+components: ["autocompletebox"]
 tags: overview
 published: True
 position: 0

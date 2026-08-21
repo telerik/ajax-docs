@@ -3,6 +3,7 @@ title: Important Changes Regarding Data Binding DateTime Parsable String Fields
 page_title: Important Changes Regarding Data Binding DateTime Parsable String Fields - RadHtmlChart
 description: Check our Web Forms article about Important Changes Regarding Data Binding DateTime Parsable String Fields.
 slug: htmlchart/changes-and-backwards-compatibility/important-changes-regarding-data-binding-datetime-parsable-string-fields
+components: ["htmlchart"]
 tags: important,changes,regarding,data,binding,datetime,parsable,string,fields
 published: True
 position: 2

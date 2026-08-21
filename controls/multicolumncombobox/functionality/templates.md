@@ -3,6 +3,7 @@ title: Templates
 page_title: Templates - RadMultiColumnComboBox
 description: Check our Web Forms article about Templates.
 slug: multicolumncombobox/functionality/templates
+components: ["multicolumncombobox"]
 tags: template,client
 published: True
 position: 1

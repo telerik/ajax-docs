@@ -3,6 +3,7 @@ title: Dropping
 page_title: Dropping - RadListBox
 description: Check our Web Forms article about Dropping.
 slug: listbox/server-side-programming/server-events/dropping
+components: ["listbox"]
 tags: dropping
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Binding to OData
 page_title: Binding to OData - RadScheduler
 description: Check our Web Forms article about Binding to OData.
 slug: scheduler/data-binding/binding-to-odata
+components: ["scheduler"]
 tags: binding,to,odata
 published: True
 position: 6

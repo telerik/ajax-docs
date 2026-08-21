@@ -3,6 +3,7 @@ title: Introduction
 page_title: Introduction - RadInputManager
 description: Check our Web Forms article about Introduction.
 slug: radinputmanager/introduction
+components: ["inputmanager"]
 tags: introduction
 published: True
 position: 1

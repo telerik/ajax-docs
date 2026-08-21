@@ -3,6 +3,7 @@ title: Adding Buttons
 page_title: Adding Buttons - RadNumericTextBox
 description: Check our Web Forms article about Adding Buttons.
 slug: numerictextbox/features/adding-buttons
+components: ["numerictextbox"]
 tags: adding,buttons
 published: True
 position: 4

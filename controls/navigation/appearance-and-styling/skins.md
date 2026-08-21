@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadNavigation
 description: Check our Web Forms article about Skins.
 slug: navigation/appearance-and-styling/skins
+components: ["navigation"]
 tags: skins
 published: True
 position: 0

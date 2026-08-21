@@ -3,6 +3,7 @@ title: Dialogs
 page_title: Mobile Dialogs - RadEditor
 description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/dialogs
+components: ["editor"]
 tags: editor,support,mobile,rendering,dialogs
 published: True
 position: 5

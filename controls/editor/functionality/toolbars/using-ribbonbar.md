@@ -3,6 +3,7 @@ title: Using RibbonBar Toolbar
 page_title: Using RibbonBar Toolbar - RadEditor
 description: Check our Web Forms article about Using RibbonBar Toolbar.
 slug: editor/functionality/toolbars/using-ribbonbar
+components: ["editor"]
 tags: editor, ribbonbarm toolbar, mode
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientSubmit
 page_title: OnClientSubmit - RadEditor
 description: Check our Web Forms article about OnClientSubmit.
 slug: editor/client-side-programming/events/onclientsubmit
+components: ["editor"]
 tags: onclientsubmit
 published: True
 position: 9

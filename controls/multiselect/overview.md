@@ -3,6 +3,7 @@ title: Overview
 page_title: RadMultiSelect Overview
 description: Learn about the MultiSelect control and its features for selecting multiple items from a dropdown list.
 slug: multiselect/overview
+components: ["multiselect"]
 tags: overview
 published: True
 position: 0

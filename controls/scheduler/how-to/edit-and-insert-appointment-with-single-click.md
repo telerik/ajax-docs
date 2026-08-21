@@ -3,6 +3,7 @@ title: Edit and Insert Appointment with Single Click
 page_title: Edit and Insert Appointment with Single Click - RadScheduler
 description: Check our Web Forms article about Edit and Insert Appointment with Single Click.
 slug: scheduler/how-to/edit-and-insert-appointment-with-single-click
+components: ["scheduler"]
 tags: edit,and,insert,appointment,with,single,click
 published: True
 position: 9

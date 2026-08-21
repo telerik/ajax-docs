@@ -3,6 +3,7 @@ title: ResourceHeaderCreated
 page_title: ResourceHeaderCreated - RadScheduler
 description: Check our Web Forms article about ResourceHeaderCreated.
 slug: scheduler/server-side-programming/server-events/resourceheadercreated
+components: ["scheduler"]
 tags: resourceheadercreated
 published: True
 position: 15

@@ -3,6 +3,7 @@ title: Using Javascript jQuery and CSS
 page_title: Using Javascript jQuery and CSS - RadScheduler
 description: Check our Web Forms article about Using Javascript jQuery and CSS.
 slug: scheduler/customizing-the-advanced-form/using-javascript-jquery-and-css
+components: ["scheduler"]
 tags: using,javascript,jquery,and,css
 published: True
 position: 2

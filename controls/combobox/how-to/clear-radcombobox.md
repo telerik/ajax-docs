@@ -3,6 +3,7 @@ title: Clear RadComboBox
 page_title: Clear RadComboBox - RadComboBox
 description: Check our Web Forms article about Clear RadComboBox.
 slug: combobox/how-to/clear-radcombobox
+components: ["combobox"]
 tags: clear,radcombobox
 published: True
 position: 9

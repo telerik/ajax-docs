@@ -3,6 +3,7 @@ title: OnClientCommand
 page_title: OnClientCommand - RadDock
 description: Check our Web Forms article about OnClientCommand.
 slug: dock/client-side-programming/events/onclientcommand
+components: ["dock"]
 tags: onclientcommand
 published: True
 position: 2

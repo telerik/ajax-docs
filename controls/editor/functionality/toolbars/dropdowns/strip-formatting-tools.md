@@ -3,6 +3,7 @@ title: Strip Formatting Tools
 page_title: Strip Formatting Tools - RadEditor
 description: Check our Web Forms article about Strip Formatting Tools.
 slug: editor/functionality/toolbars/dropdowns/strip-formatting-tools
+components: ["editor"]
 tags: strip,formatting,tools
 published: True
 position: 13

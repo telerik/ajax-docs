@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadImageEditor
 description: Check our Web Forms article about Common Issues.
 slug: imageeditor/troubleshooting/common-issues
+components: ["imageeditor"]
 tags: common,issues
 published: True
 position: 1

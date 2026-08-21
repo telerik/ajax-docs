@@ -3,6 +3,7 @@ title: Range Column Chart
 page_title: Range Column Chart - RadHtmlChart
 description: Check our Web Forms article about Range Column Chart.
 slug: htmlchart/chart-types/range-column-chart
+components: ["htmlchart"]
 tags: range,column,chart
 published: True
 position: 17

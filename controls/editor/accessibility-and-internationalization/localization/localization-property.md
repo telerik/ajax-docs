@@ -3,6 +3,7 @@ title: Localization Property
 page_title: Localization Property - RadEditor
 description: Check our Web Forms article about Localization Property.
 slug: editor/accessibility-and-internationalization/localization/localization-property
+components: ["editor"]
 tags: localization,property
 published: True
 position: 1

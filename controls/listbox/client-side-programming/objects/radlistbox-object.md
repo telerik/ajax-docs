@@ -3,6 +3,7 @@ title: RadListBox Object
 page_title: RadListBox Object - RadListBox
 description: Check our Web Forms article about RadListBox Object.
 slug: listbox/client-side-programming/objects/radlistbox-object
+components: ["listbox"]
 tags: radlistbox,object
 published: True
 position: 0

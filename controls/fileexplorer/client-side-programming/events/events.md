@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadFileExplorer
 description: Check our Web Forms article about Events.
 slug: fileexplorer/client-side-programming/events
+components: ["fileexplorer"]
 tags: events
 published: True
 position: 1

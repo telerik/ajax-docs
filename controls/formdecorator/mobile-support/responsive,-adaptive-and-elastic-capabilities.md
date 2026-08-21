@@ -3,6 +3,7 @@ title: Responsive, Adaptive and Elastic Capabilities
 page_title: Responsive, Adaptive and Elastic Capabilities - RadFormDecorator
 description: Check our Web Forms article about Responsive, Adaptive and Elastic Capabilities.
 slug: formdecorator/mobile-support/responsive,-adaptive-and-elastic-capabilities
+components: ["formdecorator"]
 tags: responsive,,adaptive,and,elastic,capabilities
 published: True
 position: 0

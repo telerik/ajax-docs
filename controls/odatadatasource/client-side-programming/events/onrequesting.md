@@ -3,6 +3,7 @@ title: OnRequesting
 page_title: OnRequesting - RadODataDataSource
 description: Check our Web Forms article about OnRequesting.
 slug: odatadatasource/client-side-programming/events/onrequesting
+components: ["odatadatasource"]
 tags: onrequesting
 published: True
 position: 1

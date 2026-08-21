@@ -3,6 +3,7 @@ title: HTML Output and CSS Styling
 page_title: HTML Output and CSS Styling - RadMaksedTextBox
 description: Check our Web Forms article about HTML Output and CSS Styling.
 slug: radmaskedtextbox/appearance-and-styling/html-output-and-css-styling
+components: ["maskedtextbox"]
 tags: html,output,and,css,styling
 published: True
 position: 4

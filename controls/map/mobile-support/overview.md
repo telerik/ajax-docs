@@ -3,6 +3,7 @@ title: Overview
 page_title: Mobile Support Overview - RadMap
 description: Check our Web Forms article about Overview.
 slug: map/mobile-support/overview
+components: ["map"]
 tags: overview
 published: True
 position: 0

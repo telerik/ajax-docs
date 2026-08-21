@@ -3,6 +3,7 @@ title: OnMoveUp
 page_title: OnMoveUp - RadMaskedTextBox
 description: Check our Web Forms article about OnMoveUp.
 slug: radmaskedtextbox/client-side-programming/events/onmoveup
+components: ["maskedtextbox"]
 tags: onmoveup
 published: True
 position: 13

@@ -3,6 +3,7 @@ title: Limit the Number of the Uploaded Files
 page_title: Limit the Number of the Uploaded Files - RadCloudUpload
 description: Check our Web Forms article about Limit the Number of the Uploaded Files.
 slug: cloudupload/how-to/limit-the-number-of-the-uploaded-files
+components: ["cloudupload"]
 tags: limit,the,number,of,the,uploaded,files
 published: True
 position: 3

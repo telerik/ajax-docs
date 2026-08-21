@@ -3,6 +3,7 @@ title: ContentAreaMode Property
 page_title: ContentAreaMode Property - RadEditor
 description: Check our Web Forms article about ContentAreaMode Property.
 slug: editor/functionality/editor-views-and-modes/contentareamode-property
+components: ["editor"]
 tags: contentareamode,property
 published: True
 position: 1

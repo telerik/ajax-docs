@@ -3,6 +3,7 @@ title: OnClientItemsRequested
 page_title: OnClientItemsRequested - RadComboBox
 description: Check our Web Forms article about OnClientItemsRequested.
 slug: combobox/client-side-programming/events/onclientitemrequested
+components: ["combobox"]
 tags: onclientitemsrequested
 published: True
 position: 10

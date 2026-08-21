@@ -3,6 +3,7 @@ title: Overview
 page_title: RadHtmlChart Overview
 description: Explore the HTMLChart control for creating interactive and visually appealing data visualizations.
 slug: htmlchart/overview
+components: ["htmlchart"]
 tags: overview
 published: True
 position: 0

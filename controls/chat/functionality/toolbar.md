@@ -3,6 +3,7 @@ title: Toolbar
 page_title: Toolbar - RadChat
 description: Check our Web Forms article about Toolbar.
 slug: chat/functionality/toolbar
+components: ["chat"]
 tags: toolbar, buttons
 published: True
 position: 4

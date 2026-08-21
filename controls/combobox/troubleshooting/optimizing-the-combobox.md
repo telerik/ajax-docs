@@ -3,6 +3,7 @@ title: Optimizing the Combobox
 page_title: Optimizing the Combobox - RadComboBox
 description: Check our Web Forms article about Optimizing the Combobox.
 slug: combobox/troubleshooting/optimizing-the-combobox
+components: ["combobox"]
 tags: optimizing,the,combobox
 published: True
 position: 1

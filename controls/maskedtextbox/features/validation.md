@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadMaskedTextBox
 description: Check our Web Forms article about Validation.
 slug: radmaskedtextbox/features/validation
+components: ["maskedtextbox"]
 tags: validation
 published: True
 position: 1

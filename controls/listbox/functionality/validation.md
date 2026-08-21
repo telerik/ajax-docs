@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadListBox
 description: Check our Web Forms article about Validation.
 slug: listbox/functionality/validation
+components: ["listbox"]
 tags: validation
 published: True
 position: 6

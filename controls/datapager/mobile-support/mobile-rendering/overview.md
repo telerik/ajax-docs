@@ -3,6 +3,7 @@ title: Mobile Rendering Overview
 page_title: Overview - RadDataPager
 description: Check our Web Forms article about Overview.
 slug: datapager/mobile-support/mobile-rendering/overview
+components: ["datapager"]
 tags: overview
 published: True
 position: 0

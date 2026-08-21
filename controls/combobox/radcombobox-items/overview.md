@@ -3,6 +3,7 @@ title: Overview
 page_title: RadComboBox Items Overview - RadComboBox
 description: Explore the structure and features of RadComboBox items for managing dropdown list data effectively.
 slug: combobox/radcombobox-items/overview
+components: ["combobox"]
 tags: overview
 published: True
 position: 0

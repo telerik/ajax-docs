@@ -3,6 +3,7 @@ title: Understanding the Skin CSS File
 page_title: Understanding the Skin CSS File - RadPanelBar
 description: Check our Web Forms article about Understanding the Skin CSS File.
 slug: panelbar/appearance-and-styling/understanding-the-skin-css-file
+components: ["panelbar"]
 tags: understanding,the,skin,css,file
 published: True
 position: 6

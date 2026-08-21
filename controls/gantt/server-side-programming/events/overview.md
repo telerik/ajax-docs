@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadGantt
 description: Check our Web Forms article about Overview.
 slug: gantt/server-side-programming/events/overview
+components: ["gantt"]
 tags: overview
 published: True
 position: 0

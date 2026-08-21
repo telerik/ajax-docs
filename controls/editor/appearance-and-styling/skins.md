@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadEditor
 description: Check our Web Forms article about Skins.
 slug: editor/appearance-and-styling/skins
+components: ["editor"]
 tags: skins
 published: True
 position: 0

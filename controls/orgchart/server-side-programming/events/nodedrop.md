@@ -3,6 +3,7 @@ title: NodeDrop
 page_title: NodeDrop - RadOrgChart
 description: Check our Web Forms article about NodeDrop.
 slug: orgchart/server-side-programming/events/nodedrop
+components: ["orgchart"]
 tags: nodedrop
 published: True
 position: 4

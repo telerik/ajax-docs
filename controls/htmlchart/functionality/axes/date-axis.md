@@ -3,6 +3,7 @@ title: Date Axis
 page_title: Date Axis - RadHtmlChart
 description: Check our Web Forms article about Date Axis.
 slug: htmlchart/functionality/axes/date-axis
+components: ["htmlchart"]
 tags: date,axis
 published: True
 position: 0

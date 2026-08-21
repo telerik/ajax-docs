@@ -3,6 +3,7 @@ title: Defining Client-Side HTML Templates
 page_title: Defining Client-Side HTML Templates - RadListView
 description: Check our Web Forms article about Defining Client-Side HTML Templates.
 slug: listview/data-binding/client-side/defining-client-side-html-templates
+components: ["listview"]
 tags: defining,client-side,html,templates
 published: True
 position: 1

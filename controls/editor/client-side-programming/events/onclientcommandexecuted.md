@@ -3,6 +3,7 @@ title: OnClientCommandExecuted
 page_title: OnClientCommandExecuted - RadEditor
 description: Check our Web Forms article about OnClientCommandExecuted.
 slug: editor/client-side-programming/events/onclientcommandexecuted
+components: ["editor"]
 tags: onclientcommandexecuted
 published: True
 position: 4

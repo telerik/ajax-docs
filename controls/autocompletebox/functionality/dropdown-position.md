@@ -3,6 +3,7 @@ title: DropDown Position
 page_title: DropDown Position - RadAutoCompleteBox
 description: Check our Web Forms article about DropDown Position.
 slug: autocompletebox/functionality/dropdown-position
+components: ["autocompletebox"]
 tags: dropdown,position
 published: True
 position: 5

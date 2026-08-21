@@ -3,6 +3,7 @@ title: Overview
 page_title: Chip Client-side Programming
 description: "Overview of the Client-side APIs you can use to create and configure the Telerik WebForms Chip Control."
 slug: chip/client-side-programming/overview
+components: ["chip"]
 tags: overview
 published: True
 position: 0

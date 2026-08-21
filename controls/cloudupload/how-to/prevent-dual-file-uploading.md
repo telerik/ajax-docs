@@ -3,6 +3,7 @@ title: Prevent Dual File Uploading
 page_title: Prevent Dual File Uploading - RadCloudUpload
 description: Check our Web Forms article about Prevent Dual File Uploading.
 slug: cloudupload/how-to/prevent-dual-file-uploading
+components: ["cloudupload"]
 tags: prevent,dual,file,uploading
 published: True
 position: 4

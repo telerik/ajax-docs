@@ -3,6 +3,7 @@ title: How to Subscribe to Blur Event
 page_title: How to Subscribe to Blur Event - RadMultiSelect
 description: Check our Web Forms article about How to Subscribe to Blur Events.
 slug: multiselect/how-to/how-to-subscribe-to-blur-event
+components: ["multiselect"]
 tags: how,to,subscribe,blur,events
 published: True
 position: 4

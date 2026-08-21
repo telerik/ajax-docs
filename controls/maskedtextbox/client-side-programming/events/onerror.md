@@ -3,6 +3,7 @@ title: OnError
 page_title: OnError - RadMaskedTextBox
 description: Check our Web Forms article about OnError.
 slug: radmaskedtextbox/client-side-programming/events/onerror
+components: ["maskedtextbox"]
 tags: onerror
 published: True
 position: 7

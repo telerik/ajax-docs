@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadClientExportManager
 description: Check our Web Forms article about Known Limitations.
 slug: clientexportmanager/troubleshooting/known-limitations
+components: ["clientexportmanager"]
 tags: known,limitations
 published: True
 position: 3

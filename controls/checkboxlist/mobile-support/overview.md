@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadCheckBoxList
 description: Check our Web Forms article about Overview.
 slug: checkboxlist/mobile-support/overview
+components: ["checkboxlist"]
 tags: overview
 published: True
 position: 0

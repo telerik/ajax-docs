@@ -3,6 +3,7 @@ title: NavigationNodeCollection Object
 page_title: NavigationNodeCollection Object - RadNavigation
 description: Check our Web Forms article about NavigationNodeCollection Object.
 slug: navigation/client-side-programming/objects/navigationnodecollection-object
+components: ["navigation"]
 tags: navigationnodecollection,object
 published: True
 position: 3

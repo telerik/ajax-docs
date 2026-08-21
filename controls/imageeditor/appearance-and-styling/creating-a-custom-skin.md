@@ -3,6 +3,7 @@ title: Creating a Custom Skin
 page_title: Creating a Custom Skin - RadImageEditor
 description: Check our Web Forms article about Creating a Custom Skin.
 slug: imageeditor/appearance-and-styling/creating-a-custom-skin
+components: ["imageeditor"]
 tags: creating,a,custom,skin
 published: True
 position: 1

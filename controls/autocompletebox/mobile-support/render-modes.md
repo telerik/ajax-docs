@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadAutoCompleteBox
 description: Check our Web Forms article about Render Modes.
 slug: autocompletebox/mobile-support/render-modes
+components: ["autocompletebox"]
 tags: render,modes
 published: True
 position: 5

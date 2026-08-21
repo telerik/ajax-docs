@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadPushButton
 description: Check our Web Forms article about Elastic Design.
 slug: pushbutton/mobile-support/elastic-design
+components: ["pushbutton"]
 tags: elastic,design
 published: True
 position: 1

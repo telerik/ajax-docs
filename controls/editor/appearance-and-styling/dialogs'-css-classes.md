@@ -3,6 +3,7 @@ title: Dialogs' CSS Classes
 page_title: Dialogs' CSS Classes - RadEditor
 description: Check our Web Forms article about Dialogs' CSS Classes.
 slug: editor/appearance-and-styling/dialogs'-css-classes
+components: ["editor"]
 tags: dialogs',css,classes
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Step-By-Step Skinning Example
 page_title: Step-By-Step Skinning Example - RadChart
 description: Check our Web Forms article about Step-By-Step Skinning Example.
 slug: chart/styling-radcharts/step-by-step-skinning-example
+components: ["chart"]
 tags: step-by-step,skinning,example
 published: True
 position: 4

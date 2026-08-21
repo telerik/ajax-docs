@@ -3,6 +3,7 @@ title: Month View
 page_title: Month View - RadGantt
 description: Check our Web Forms article about Month View.
 slug: gantt/views/month-view
+components: ["gantt"]
 tags: month,view
 published: True
 position: 3

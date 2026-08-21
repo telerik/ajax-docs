@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadComboBox
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: combobox/accessibility-and-internationalization/wai-aria-support
+components: ["combobox"]
 tags: wai-aria,support
 published: True
 position: 3

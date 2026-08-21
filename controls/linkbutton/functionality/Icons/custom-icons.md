@@ -3,6 +3,7 @@ title: Custom Icons
 page_title: Custom Icons - RadLinkButton
 description: Check our Web Forms article about Custom Icons.
 slug: linkbutton/functionality/icons/custom-icons
+components: ["linkbutton"]
 tags: custom,icons
 published: True
 position: 1

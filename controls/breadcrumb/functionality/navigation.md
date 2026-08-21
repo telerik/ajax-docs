@@ -3,6 +3,7 @@ title: Navigation
 page_title: Navigation - RadBreadcrumb
 description: Check our Web Forms article about Navigation.
 slug: breadcrumb/functionality/navigation
+components: ["breadcrumb"]
 tags: navigation
 published: True
 position: 3

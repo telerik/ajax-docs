@@ -3,6 +3,7 @@ title: Disable the Anchor Tab on the Link Manager
 page_title: Disable the Anchor Tab on the Link Manager - RadEditor
 description: Check our Web Forms article about Disable the Anchor Tab on the Link Manager.
 slug: editor/functionality/dialogs/examples/disable-the-anchor-tab-on-the-link-manager
+components: ["editor"]
 tags: disable,the,anchor,tab,on,the,link,manager
 published: True
 position: 0

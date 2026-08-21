@@ -3,6 +3,7 @@ title: DataForm Object
 page_title: DataForm Object - RadDataForm
 description: Check our Web Forms article about DataForm Object.
 slug: dataform/server-side-programming/dataform-object
+components: ["dataform"]
 tags: dataform,object
 published: True
 position: 0

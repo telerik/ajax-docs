@@ -3,6 +3,7 @@ title: Overview
 page_title: RadLabel Overview
 description: Check our Web Forms article about Overview.
 slug: label/overview
+components: ["label"]
 tags: overview
 published: True
 position: 0

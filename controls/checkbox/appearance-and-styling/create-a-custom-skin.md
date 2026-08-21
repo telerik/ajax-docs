@@ -3,6 +3,7 @@ title: Create a Custom Skin
 page_title: Create a Custom Skin - RadCheckBox
 description: Check our Web Forms article about Create a Custom Skin.
 slug: checkbox/appearance-and-styling/create-a-custom-skin
+components: ["checkbox"]
 tags: create,a,custom,skin
 published: True
 position: 1

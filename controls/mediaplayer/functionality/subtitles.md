@@ -3,6 +3,7 @@ title: Subtitles
 page_title: Subtitles - RadMediaPlayer
 description: Check our Web Forms article about Subtitles.
 slug: mediaplayer/functionality/subtitles
+components: ["mediaplayer"]
 tags: subtitles
 published: True
 position: 2

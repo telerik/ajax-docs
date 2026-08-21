@@ -3,6 +3,7 @@ title: Single Click Button
 page_title: Single Click Button - RadButton
 description: Learn how to configure a single-click button in the Button control to prevent duplicate submissions.
 slug: button/functionality/single-click-button
+components: ["button"]
 tags: single,click,button
 published: True
 position: 0

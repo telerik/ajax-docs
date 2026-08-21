@@ -3,6 +3,7 @@ title: OnClientEntryRemoving
 page_title: OnClientEntryRemoving - RadDropDownTree
 description: Check our Web Forms article about OnClientEntryRemoving.
 slug: dropdowntree/client-side-programming/events/oncliententryremoving
+components: ["dropdowntree"]
 tags: oncliententryremoving
 published: True
 position: 8

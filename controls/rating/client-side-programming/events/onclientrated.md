@@ -3,6 +3,7 @@ title: OnClientRated
 page_title: OnClientRated - RadRating
 description: Check our Web Forms article about OnClientRated.
 slug: rating/client-side-programming/events/onclientrated
+components: ["rating"]
 tags: onclientrated
 published: True
 position: 3

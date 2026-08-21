@@ -3,6 +3,7 @@ title: ItemDataBound
 page_title: ItemDataBound - RadComboBox
 description: Check our Web Forms article about ItemDataBound.
 slug: combobox/server-side-programming/itemdatabound
+components: ["combobox"]
 tags: itemdatabound
 published: True
 position: 3

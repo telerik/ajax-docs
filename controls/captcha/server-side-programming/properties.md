@@ -3,6 +3,7 @@ title: Properties
 page_title: Properties - RadCaptcha
 description: Check our Web Forms article about Properties.
 slug: captcha/server-side-programming/properties
+components: ["captcha"]
 tags: properties
 published: True
 position: 1

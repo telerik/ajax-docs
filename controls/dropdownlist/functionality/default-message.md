@@ -3,6 +3,7 @@ title: Default Message
 page_title: Default Message - RadDropDownList
 description: Check our Web Forms article about Default Message.
 slug: dropdownlist/functionality/default-message
+components: ["dropdownlist"]
 tags: default,message
 published: True
 position: 1

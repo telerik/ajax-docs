@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadNotification
 description: Check our Web Forms article about Render Modes in RadNotification for ASP.NET AJAX.
 slug: notification/mobile-support/render-modes
+components: ["notification"]
 tags: mobile,support, render, mode
 published: True
 position: 1

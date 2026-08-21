@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadNotification
 description: Check our Web Forms article about Overview.
 slug: notification/client-side-programming/overview
+components: ["notification"]
 tags: overview
 published: True
 position: 0

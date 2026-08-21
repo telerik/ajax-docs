@@ -3,6 +3,7 @@ title: Wai-Aria Support
 page_title: SegmentedControl Accessibility
 description: "Learn about the accessibility support provided by the Telerik WebForms SegmentedControl, including WAI-ARIA, Section 508, and WCAG 2.2."
 slug: segmentedcontrol/accessibility/overview
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, accessibility, wai-aria
 published: True
 position: 1

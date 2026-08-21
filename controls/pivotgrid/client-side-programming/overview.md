@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadPivotGrid
 description: Check our Web Forms article about Overview.
 slug: pivotgrid/client-side-programming/overview
+components: ["pivotgrid"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDrawer Overview
 description: Check our Web Forms article about Overview.
 slug: drawer/overview
+components: ["drawer"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Export to JSON
 page_title: Export to JSON - RadDiagram
 description: Check our Web Forms article about Export to JSON.
 slug: diagram/import-and-export/export-to-json
+components: ["diagram"]
 tags: export,to,json
 published: True
 position: 2

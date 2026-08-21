@@ -3,6 +3,7 @@ title: Overview
 page_title: ChipList Overview
 description: The ChipList is a container for two or more individual Chip components. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI ChipList widget.
 slug: chiplist/overview
+components: ["chiplist"]
 tags: chiplist,overview
 published: True
 position: 0

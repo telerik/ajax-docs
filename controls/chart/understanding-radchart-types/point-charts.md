@@ -3,6 +3,7 @@ title: Point Charts
 page_title: Point Charts - RadChart
 description: Check our Web Forms article about Point Charts.
 slug: chart/understanding-radchart-types/point-charts
+components: ["chart"]
 tags: point,charts
 published: True
 position: 9

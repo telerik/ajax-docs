@@ -3,6 +3,7 @@ title: Properties
 page_title: Server-side Programming Overview - RadNumericTextBox
 description: Check our Web Forms article about Overview.
 slug: numerictextbox/server-side-programming/properties
+components: ["numerictextbox"]
 tags: overview
 published: True
 position: 0

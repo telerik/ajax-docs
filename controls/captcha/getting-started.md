@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadCaptcha
 description: Check our Web Forms article about Getting Started.
 slug: captcha/getting-started
+components: ["captcha"]
 tags: getting,started
 published: True
 position: 2

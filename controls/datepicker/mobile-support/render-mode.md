@@ -3,6 +3,7 @@ title: Render Mode
 page_title: Render Mode - RadDatePicker
 description: Check our Web Forms article about Render Mode.
 slug: datepicker/mobile-support/render-mode
+components: ["datepicker"]
 tags: render,mode
 published: True
 position: 0

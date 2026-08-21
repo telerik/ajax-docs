@@ -3,6 +3,7 @@ title: RadButton Known Issues in IE6 and IE7
 page_title: RadButton Known Issues in IE6 and IE7 - RadButton
 description: Check our Web Forms article about RadButton Known Issues in IE6 and IE7.
 slug: button/troubleshooting/radbutton-known-issues-in-ie6-and-ie7
+components: ["button"]
 tags: radbutton,known,issues,in,ie6,and,ie7
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Events
 page_title: Client-side Events - RadPanelBar
 description: Check our Web Forms article about Events.
 slug: panelbar/client-side-programming/events
+components: ["panelbar"]
 tags: events
 published: True
 position: 5

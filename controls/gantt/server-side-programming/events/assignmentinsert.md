@@ -3,6 +3,7 @@ title: AssignmentInsert
 page_title: AssignmentInsert - RadGantt
 description: Check our Web Forms article about AssignmentInsert.
 slug: gantt/server-side-programming/events/assignmentinsert
+components: ["gantt"]
 tags: assignmentinsert
 published: True
 position: 9

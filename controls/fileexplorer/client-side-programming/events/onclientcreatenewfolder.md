@@ -3,6 +3,7 @@ title: OnClientCreateNewFolder
 page_title: OnClientCreateNewFolder - RadFileExplorer
 description: Check our Web Forms article about OnClientCreateNewFolder.
 slug: fileexplorer/client-side-programming/events/onclientcreatenewfolder
+components: ["fileexplorer"]
 tags: onclientcreatenewfolder
 published: True
 position: 5

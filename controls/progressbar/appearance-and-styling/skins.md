@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadProgressBar
 description: Check our Web Forms article about Skins.
 slug: progressbar/appearance-and-styling/skins
+components: ["progressbar"]
 tags: skins
 published: True
 position: 0

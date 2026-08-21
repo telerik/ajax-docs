@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadDateInput
 description: Check our Web Forms article about Validation.
 slug: dateinput/features/validation
+components: ["dateinput"]
 tags: dateinput,features,validation
 published: True
 position: 5

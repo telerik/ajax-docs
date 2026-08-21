@@ -3,6 +3,7 @@ title: Sparkline Chart
 page_title: Sparkline Chart - RadHtmlChart
 description: Check our Web Forms article about Sparkline Chart.
 slug: htmlchart/chart-types/sparkline-chart
+components: ["htmlchart"]
 tags: sparkline,chart
 published: True
 position: 20

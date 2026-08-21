@@ -3,6 +3,7 @@ title: Structure
 page_title: RadGauge Structure - RadGauge
 description: Check our Web Forms article about RadGauge Structure.
 slug: gauge/radgauge-structure
+components: ["gauge"]
 tags: radgauge,structure
 published: True
 position: 1

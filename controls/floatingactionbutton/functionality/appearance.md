@@ -3,6 +3,7 @@ title: Appearance
 page_title: Appearance - RadFloatingActionButton
 description: Check our Web Forms article about RadFloatingActionButton Appearance.
 slug: floatingactionbutton/functionality/appearance
+components: ["floatingactionbutton"]
 published: True
 position: 2
 ---

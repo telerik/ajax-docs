@@ -3,6 +3,7 @@ title: Empty Values
 page_title: Empty Values - RadChart
 description: Check our Web Forms article about Empty Values.
 slug: chart/features/empty-values
+components: ["chart"]
 tags: empty,values
 published: True
 position: 4

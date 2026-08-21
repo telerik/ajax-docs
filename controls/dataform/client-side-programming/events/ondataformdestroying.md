@@ -3,6 +3,7 @@ title: OnDataFormDestroying
 page_title: OnDataFormDestroying - RadDataForm
 description: Check our Web Forms article about OnDataFormDestroying.
 slug: dataform/client-side-programming/events/ondataformdestroying
+components: ["dataform"]
 tags: ondataformdestroying
 published: True
 position: 4

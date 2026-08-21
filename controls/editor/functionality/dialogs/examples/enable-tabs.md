@@ -3,6 +3,7 @@ title: Enable Tabs
 page_title: Enable Tabs - RadEditor
 description: Check our Web Forms article about Enable Tabs.
 slug: editor/functionality/dialogs/examples/enable-tabs
+components: ["editor"]
 tags: enable,tabs
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadRating Overview
 description: Check our Web Forms article about Overview.
 slug: rating/overview
+components: ["rating"]
 tags: overview
 published: True
 position: 0

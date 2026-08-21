@@ -3,6 +3,7 @@ title: WCF Service
 page_title: WCF Service - RadGantt
 description: Check our Web Forms article about WCF Service.
 slug: gantt/data-binding/client-side-binding/wcf-service
+components: ["gantt"]
 tags: wcf,service
 published: False
 position: 2

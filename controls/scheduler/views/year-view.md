@@ -3,6 +3,7 @@ title: Year View
 page_title: Year View - RadScheduler
 description: Check our Web Forms article about Year View.
 slug: scheduler/views/year-view
+components: ["scheduler"]
 tags: year,view
 published: True
 position: 9

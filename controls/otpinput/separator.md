@@ -3,6 +3,7 @@ title: Separator
 page_title: Separator
 description: "Learn how to configure different separators between the items of the OTPInput component."
 slug: otpinput/separator
+components: ["otpinput"]
 tags: otpinput,separator
 published: True
 position: 3

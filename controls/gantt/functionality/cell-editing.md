@@ -3,6 +3,7 @@ title: Cell Editing
 page_title: Cell Editing - RadGantt
 description: Check our Web Forms article about Cell Editing.
 slug: gantt/functionality/cell-editing
+components: ["gantt"]
 tags: cell,editing
 published: True
 position: 3

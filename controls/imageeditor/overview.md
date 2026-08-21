@@ -3,6 +3,7 @@ title: Overview
 page_title: RadImageEditor Overview
 description: Check our Web Forms article about Overview.
 slug: imageeditor/overview
+components: ["imageeditor"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnItemCheckedChanged
 page_title: OnItemCheckedChanged - RadCheckBoxList
 description: Check our Web Forms article about OnItemCheckedChanged.
 slug: checkboxlist/client-side-programming/events/onitemcheckedchanged
+components: ["checkboxlist"]
 tags: onitemcheckedchanged
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadOrgChart Overview
 description: Check our Web Forms article about Overview.
 slug: orgchart/overview/overview
+components: ["orgchart"]
 tags: overview
 published: True
 position: 0

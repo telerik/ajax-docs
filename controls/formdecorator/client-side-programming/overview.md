@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadFormDecorator
 description: Check our Web Forms article about Overview.
 slug: formdecorator/client-side-programming/overview
+components: ["formdecorator"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnClientItemDataBound
 page_title: OnClientItemDataBound - RadComboBox
 description: Check our Web Forms article about OnClientItemDataBound.
 slug: combobox/client-side-programming/events/onclientitemdatabound
+components: ["combobox"]
 tags: onclientitemdatabound
 published: True
 position: 8

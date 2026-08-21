@@ -3,6 +3,7 @@ title: OnPageIndexChanging
 page_title: OnPageIndexChanging - RadDataPager
 description: Check our Web Forms article about OnPageIndexChanging.
 slug: datapager/client-side-programming/events/onpageindexchanging
+components: ["datapager"]
 tags: onpageindexchanging
 published: True
 position: 3

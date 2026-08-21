@@ -3,6 +3,7 @@ title: Horizontal Orientation
 page_title: Horizontal Orientation - RadOrgChart
 description: Check our Web Forms article about Horizontal Orientation.
 slug: orgchart/functionality/horizontal-orientation
+components: ["orgchart"]
 tags: horizontal,orientation
 published: True
 position: 7

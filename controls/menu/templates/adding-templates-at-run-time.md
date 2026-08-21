@@ -3,6 +3,7 @@ title: Adding Templates at Run-time
 page_title: Adding Templates at Run-time - RadMenu
 description: Check our Web Forms article about Adding Templates at Run-time.
 slug: menu/templates/adding-templates-at-run-time
+components: ["menu"]
 tags: adding,templates,at,run-time
 published: True
 position: 5

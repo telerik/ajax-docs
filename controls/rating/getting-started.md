@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadRating
 description: Check our Web Forms article about Getting Started.
 slug: rating/getting-started
+components: ["rating"]
 tags: getting,started
 published: True
 position: 2

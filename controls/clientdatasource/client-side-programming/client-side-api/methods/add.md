@@ -3,6 +3,7 @@ title: add
 page_title: ClientDataSource Object add() - RadClientDataSource
 description: Check our Web Forms article about add.
 slug: clientdatasource/client-side-programming/client-side-api/methods/add
+components: ["clientdatasource"]
 tags: add
 published: True
 position: 0

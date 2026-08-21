@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadImageEditor
 description: Check our Web Forms article about Structure.
 slug: imageeditor/getting-started/structure
+components: ["imageeditor"]
 tags: structure
 published: True
 position: 1

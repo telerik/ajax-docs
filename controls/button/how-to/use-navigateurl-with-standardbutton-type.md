@@ -3,6 +3,7 @@ title: Use NavigateUrl with StandardButton Type
 page_title: Use NavigateUrl with StandardButton Type - RadButton
 description: Check our Web Forms article about Use NavigateUrl with StandardButton Type.
 slug: button/how-to/use-navigateurl-with-standardbutton-type
+components: ["button"]
 tags: use,navigateurl,with,standardbutton,type
 published: True
 position: 1

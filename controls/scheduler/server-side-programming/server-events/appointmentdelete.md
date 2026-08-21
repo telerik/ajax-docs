@@ -3,6 +3,7 @@ title: AppointmentDelete
 page_title: AppointmentDelete - RadScheduler
 description: Check our Web Forms article about AppointmentDelete.
 slug: scheduler/server-side-programming/server-events/appointmentdelete
+components: ["scheduler"]
 tags: appointmentdelete
 published: True
 position: 6

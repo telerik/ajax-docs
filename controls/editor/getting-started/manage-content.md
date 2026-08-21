@@ -3,6 +3,7 @@ title: Manage Content
 page_title: Manage Content - RadEditor
 description: Check our Web Forms article about Manage Content.
 slug: editor/getting-started/manage-content
+components: ["editor"]
 tags: manage,content
 published: True
 position: 3

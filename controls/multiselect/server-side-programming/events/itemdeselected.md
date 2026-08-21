@@ -3,6 +3,7 @@ title: ItemDeselected
 page_title: ItemDeselected - RadMultiSelect
 description: Check our Web Forms article about ItemDeselected.
 slug: multiselect/server-side-programming/events/itemdeselected
+components: ["multiselect"]
 tags: itemdeselected
 published: True
 position: 2

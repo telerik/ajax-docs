@@ -3,6 +3,7 @@ title: OnTextChanged
 page_title: OnTextChanged - RadAutoCompleteBox
 description: Check our Web Forms article about OnTextChanged.
 slug: autocompletebox/server-side-programming/events/ontextchanged
+components: ["autocompletebox"]
 tags: ontextchanged
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnEntryAdded
 page_title: OnEntryAdded - RadDropDownTree
 description: Check our Web Forms article about OnEntryAdded.
 slug: dropdowntree/server-side-programming/events/onentryadded
+components: ["dropdowntree"]
 tags: onentryadded
 published: True
 position: 2

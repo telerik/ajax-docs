@@ -3,6 +3,7 @@ title: Adding Images and Checkboxes to Items
 page_title: Adding Images and Checkboxes to Items - RadListBox
 description: Check our Web Forms article about Adding Images and Checkboxes to Items.
 slug: listbox/functionality/adding-images-and-checkboxes-to-items
+components: ["listbox"]
 tags: adding,images,and,checkboxes,to,items
 published: True
 position: 5

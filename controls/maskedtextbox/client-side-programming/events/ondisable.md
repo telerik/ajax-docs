@@ -3,6 +3,7 @@ title: OnDisable
 page_title: OnDisable - RadMaksedTextBox
 description: Check our Web Forms article about OnDisable.
 slug: radmaskedtextbox/client-side-programming/events/ondisable
+components: ["maskedtextbox"]
 tags: ondisable
 published: True
 position: 4

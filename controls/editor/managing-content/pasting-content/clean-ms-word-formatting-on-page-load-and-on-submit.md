@@ -3,6 +3,7 @@ title: Clean MS Word Formatting on Page Load and on Submit
 page_title: Clean MS Word Formatting on Page Load and on Submit - RadEditor
 description: Check our Web Forms article about Clean MS Word Formatting on Page Load and on Submit.
 slug: editor/managing-content/pasting-content/clean-ms-word-formatting-on-page-load-and-on-submit
+components: ["editor"]
 tags: clean,ms,word,formatting,on,page,load,and,on,submit
 published: True
 position: 2

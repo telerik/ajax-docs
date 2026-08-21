@@ -3,6 +3,7 @@ title: Styling Chart Elements
 page_title: Styling Chart Elements - RadChart
 description: Check our Web Forms article about Styling Chart Elements.
 slug: chart/styling-radcharts/styling-chart-elements
+components: ["chart"]
 tags: styling,chart,elements
 published: True
 position: 0

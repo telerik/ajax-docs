@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadCheckBox
 description: Check our Web Forms article about OnClientMouseOver.
 slug: checkbox/client-side-programming/events/onclientmouseover
+components: ["checkbox"]
 tags: onclientmouseover
 published: True
 position: 7

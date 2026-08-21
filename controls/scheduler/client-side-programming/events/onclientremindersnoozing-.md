@@ -3,6 +3,7 @@ title: OnClientReminderSnoozing
 page_title: OnClientReminderSnoozing - RadScheduler
 description: Check our Web Forms article about OnClientReminderSnoozing.
 slug: scheduler/client-side-programming/events/onclientremindersnoozing-
+components: ["scheduler"]
 tags: onclientremindersnoozing,
 published: True
 position: 40

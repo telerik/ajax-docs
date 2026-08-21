@@ -3,6 +3,7 @@ title: Performance Optimization by Disabling Audio Handler
 page_title: Performance Optimization by Disabling Audio Handler - RadCaptcha
 description: Check our Web Forms article about Improve the performance of your application by disabling the audio handler of RadCaptcha.
 slug: captcha/troubleshooting/optimize-application-performance-disable-audio
+components: ["captcha"]
 tags: improve, performance, application, disabling, disable, audio, handler, RadCaptcha, captcha
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnPopupOpening
 page_title: OnPopupOpening - RadDateRangePicker
 description: Check our Web Forms article about OnPopupOpening.
 slug: daterangepicker/client-side-programming/events/onpopupopening
+components: ["daterangepicker"]
 tags: onpopupopening
 published: True
 position: 1

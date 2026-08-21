@@ -3,6 +3,7 @@ title: Display HTML and Execute JavaScript
 page_title: Display HTML and Execute JavaScript - RadHtmlChart
 description: Check our Web Forms article about Display HTML and Execute JavaScript.
 slug: htmlchart/functionality/clienttemplate/display-html-and-execute-javascript
+components: ["htmlchart"]
 tags: display,html,and,execute,javascript
 published: True
 position: 2

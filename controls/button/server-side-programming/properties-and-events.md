@@ -3,6 +3,7 @@ title: Properties and Events
 page_title: Properties and Events - RadButton
 description: Learn about the server-side properties and events of the Button control for advanced customization.
 slug: button/server-side-programming/properties-and-events
+components: ["button"]
 tags: properties,and,events
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnClientItemSelected
 page_title: OnClientItemSelected - RadFileExplorer
 description: Check our Web Forms article about OnClientItemSelected.
 slug: fileexplorer/client-side-programming/events/onclientitemselected
+components: ["fileexplorer"]
 tags: onclientitemselected
 published: True
 position: 12

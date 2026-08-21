@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadImageGallery
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: imagegallery/accessibility-and-internationalization/wai-aria-support
+components: ["imagegallery"]
 tags: wai-aria,support
 published: True
 position: 2

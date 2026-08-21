@@ -3,6 +3,7 @@ title: Formatting Values
 page_title: Formatting Values - RadMonthYearPicker
 description: Check our Web Forms article about Formatting Values.
 slug: monthyearpicker/functionality/formatting-values
+components: ["monthyearpicker"]
 tags: formatting,values
 published: True
 position: 3

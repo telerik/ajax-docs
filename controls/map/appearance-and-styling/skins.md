@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadMap
 description: Check our Web Forms article about Skins.
 slug: map/appearance-and-styling/skins
+components: ["map"]
 tags: skins
 published: True
 position: 0

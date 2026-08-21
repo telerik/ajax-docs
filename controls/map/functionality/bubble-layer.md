@@ -3,6 +3,7 @@ title: Bubble Layer
 page_title: Bubble Layer - RadMap
 description: Check our Web Forms article about Bubble Layer.
 slug: map/functionality/bubble-layer
+components: ["map"]
 tags: bubble,layer
 published: True
 position: 4

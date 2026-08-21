@@ -3,6 +3,7 @@ title: OnClientAppointmentDataBound
 page_title: OnClientAppointmentDataBound - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentDataBound.
 slug: scheduler/client-side-programming/events/onclientappointmentdatabound
+components: ["scheduler"]
 tags: onclientappointmentdatabound
 published: True
 position: 20

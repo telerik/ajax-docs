@@ -3,6 +3,7 @@ title: OnInitialize
 page_title: OnInitialize - RadProgressBar
 description: Check our Web Forms article about OnInitialize.
 slug: progressbar/client-side-programming/events/oninitialize
+components: ["progressbar"]
 tags: oninitialize
 published: True
 position: 1

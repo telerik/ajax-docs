@@ -3,6 +3,7 @@ title: Browser Support
 page_title: Browser Support - RadClientExportManager
 description: Check our Web Forms article about Browser Support.
 slug: clientexportmanager/browser-support
+components: ["clientexportmanager"]
 tags: browser,support
 published: True
 position: 3

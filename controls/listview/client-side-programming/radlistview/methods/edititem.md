@@ -3,6 +3,7 @@ title: editItem
 page_title: editItem - RadListView
 description: Check our Web Forms article about editItem.
 slug: listview/client-side-programming/radlistview/methods/edititem
+components: ["listview"]
 tags: edititem
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientDropDownClosed
 page_title: OnClientDropDownClosed - RadDropDownList
 description: Check our Web Forms article about OnClientDropDownClosed.
 slug: dropdownlist/client-side-programming/events/onclientdropdownclosed
+components: ["dropdownlist"]
 tags: onclientdropdownclosed
 published: True
 position: 0

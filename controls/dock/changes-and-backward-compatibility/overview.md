@@ -3,6 +3,7 @@ title: Overview
 page_title: Changes and Backward Compatibility Overview - RadDock
 description: Check our Web Forms article about Overview.
 slug: dock/changes-and-backward-compatibility/overview
+components: ["dock"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadColorPicker
 description: Check our Web Forms article about Overview.
 slug: colorpicker/getting-started/overview
+components: ["colorpicker"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Design Time Overview - RadGauge
 description: Check our Web Forms article about Overview.
 slug: gauge/design-time/overview
+components: ["gauge"]
 tags: overview
 published: True
 position: 0

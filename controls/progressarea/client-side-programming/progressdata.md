@@ -3,6 +3,7 @@ title: ProgressData
 page_title: ProgressData - RadProgressArea
 description: Check our Web Forms article about ProgressData.
 slug: progressarea/client-side-programming/progressdata
+components: ["progressarea"]
 tags: progressdata
 published: True
 position: 2

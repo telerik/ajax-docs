@@ -3,6 +3,7 @@ title: Disable Context Menu
 page_title: Disable Context Menu - RadEditor
 description: Check our Web Forms article about Disable Context Menu.
 slug: editor/functionality/context-menus/disable-context-menu-
+components: ["editor"]
 tags: disable,context,menu,
 published: True
 position: 2 

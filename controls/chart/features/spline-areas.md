@@ -3,6 +3,7 @@ title: Spline Areas
 page_title: Spline Areas - RadChart
 description: Check our Web Forms article about Spline Areas.
 slug: chart/features/spline-areas
+components: ["chart"]
 tags: spline,areas
 published: True
 position: 3

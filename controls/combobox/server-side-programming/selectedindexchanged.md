@@ -3,6 +3,7 @@ title: SelectedIndexChanged
 page_title: SelectedIndexChanged - RadComboBox
 description: Discover how to handle the SelectedIndexChanged event in the ComboBox control for server-side logic.
 slug: combobox/server-side-programming/selectedindexchanged
+components: ["combobox"]
 tags: selectedindexchanged
 published: True
 position: 4

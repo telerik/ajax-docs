@@ -3,6 +3,7 @@ title: Optimizing RadMenu Performance
 page_title: Optimizing RadMenu Performance - RadMenu
 description: Check our Web Forms article about Optimizing RadMenu Performance.
 slug: menu/performance/optimizing-radmenu-performance
+components: ["menu"]
 tags: performance,optimizing
 published: True
 position: 0

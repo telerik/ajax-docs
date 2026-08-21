@@ -3,6 +3,7 @@ title: OnClientCommandExecuted
 page_title: OnClientCommandExecuted - RadImageEditor
 description: Check our Web Forms article about OnClientCommandExecuted.
 slug: imageeditor/client-side-programming/events/onclientcommandexecuted
+components: ["imageeditor"]
 tags: onclientcommandexecuted
 published: True
 position: 3

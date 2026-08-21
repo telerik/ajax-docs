@@ -3,6 +3,7 @@ title: OnClientRecurrenceExceptionCreating
 page_title: OnClientRecurrenceExceptionCreating - RadScheduler
 description: Check our Web Forms article about OnClientRecurrenceExceptionCreating.
 slug: scheduler/client-side-programming/events/onclientrecurrenceexceptioncreating
+components: ["scheduler"]
 tags: onclientrecurrenceexceptioncreating
 published: True
 position: 30

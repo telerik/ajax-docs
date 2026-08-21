@@ -3,6 +3,7 @@ title: OnClientClicked
 page_title: OnClientClicked - RadButton
 description: Explore how to handle the OnClientClicked event in the Button control for custom client-side logic.
 slug: button/client-side-programming/events/onclientclicked
+components: ["button"]
 tags: onclientclicked
 published: True
 position: 4

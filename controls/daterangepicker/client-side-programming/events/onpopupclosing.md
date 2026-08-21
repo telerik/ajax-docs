@@ -3,6 +3,7 @@ title: OnPopupClosing
 page_title: OnPopupClosing - RadDateRangePicker
 description: Check our Web Forms article about OnPopupClosing.
 slug: daterangepicker/client-side-programming/events/onpopupclosing
+components: ["daterangepicker"]
 tags: onpopupclosing
 published: True
 position: 2

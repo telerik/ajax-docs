@@ -3,6 +3,7 @@ title: Dialogs
 page_title: Dialogs - RadScheduler
 description: Check our Web Forms article about Dialogs.
 slug: scheduler/mobile-support/dialogs
+components: ["scheduler"]
 tags: dialogs
 published: True
 position: 6

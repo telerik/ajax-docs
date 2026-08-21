@@ -3,6 +3,7 @@ title: RadProgressBar Object
 page_title: RadProgressBar Object - RadProgressBar
 description: Check our Web Forms article about RadProgressBar Object.
 slug: progressbar/client-side-programming/radprogressbar-object
+components: ["progressbar"]
 tags: radprogressbar,object
 published: True
 position: 0

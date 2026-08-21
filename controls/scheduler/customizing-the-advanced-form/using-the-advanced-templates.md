@@ -3,6 +3,7 @@ title: Using the Advanced Templates
 page_title: Using the Advanced Templates - RadScheduler
 description: Check our Web Forms article about Using the Advanced Templates.
 slug: scheduler/customizing-the-advanced-form/using-the-advanced-templates
+components: ["scheduler"]
 tags: using,the,advanced,templates
 published: True
 position: 3

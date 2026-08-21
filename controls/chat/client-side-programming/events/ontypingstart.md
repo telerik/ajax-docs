@@ -3,6 +3,7 @@ title: OnTypingStart
 page_title: OnTypingStart - RadChat
 description: Check our Web Forms article about OnTypingStart.
 slug: chat/client-side-programming/events/ontypingstart
+components: ["chat"]
 tags: ontypingstart
 published: True
 position: 6

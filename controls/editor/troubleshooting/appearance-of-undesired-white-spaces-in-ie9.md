@@ -3,6 +3,7 @@ title: Appearance of Undesired White Spaces in IE9
 page_title: Appearance of Undesired White Spaces in IE9 - RadEditor
 description: Check our Web Forms article about Appearance of Undesired White Spaces in IE9.
 slug: editor/troubleshooting/appearance-of-undesired-white-spaces-in-ie9
+components: ["editor"]
 tags: appearance,of,undesired,white,spaces,in,ie9
 published: True
 position: 8

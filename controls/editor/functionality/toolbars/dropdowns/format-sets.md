@@ -3,6 +3,7 @@ title: Format Sets
 page_title: Format Sets - RadEditor
 description: Check our Web Forms article about Format Sets.
 slug: editor/functionality/toolbars/dropdowns/format-sets
+components: ["editor"]
 tags: format,sets
 published: True
 position: 4

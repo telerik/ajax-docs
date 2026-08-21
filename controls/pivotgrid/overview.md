@@ -3,6 +3,7 @@ title: Overview
 page_title: RadPivotGrid Overview
 description: Check our Web Forms article about Overview.
 slug: pivotgrid/overview
+components: ["pivotgrid"]
 tags: overview
 published: True
 position: 0

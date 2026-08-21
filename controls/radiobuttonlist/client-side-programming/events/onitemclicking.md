@@ -3,6 +3,7 @@ title: OnItemClicking
 page_title: OnItemClicking - RadRadioButtonList
 description: Check our Web Forms article about OnItemClicking.
 slug: radiobuttonlist/client-side-programming/events/onitemclicking
+components: ["radiobuttonlist"]
 tags: onitemclicking
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Appearance
 page_title: OTPInput Appearance
 description: "Learn how to apply different styling options to the OTPInput control."
 slug: otpinput/appearance
+components: ["otpinput"]
 tags: otpInput,appearance
 published: True
 position: 2

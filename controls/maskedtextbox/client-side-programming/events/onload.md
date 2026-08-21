@@ -3,6 +3,7 @@ title: OnLoad
 page_title: OnLoad - RadMaskedTextBox
 description: Check our Web Forms article about OnLoad.
 slug: radmaskedtextbox/client-side-programming/events/onload
+components: ["maskedtextbox"]
 tags: onload
 published: True
 position: 10

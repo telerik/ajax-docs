@@ -3,6 +3,7 @@ title: Drill-Down
 page_title: Drill-Down - RadChart
 description: Check our Web Forms article about Drill-Down.
 slug: chart/advanced-topics/drill-down
+components: ["chart"]
 tags: drill-down
 published: True
 position: 1

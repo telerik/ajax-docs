@@ -3,6 +3,7 @@ title: ItemSelected
 page_title: ItemSelected - RadMultiSelect
 description: Check our Web Forms article about ItemSelected.
 slug: multiselect/server-side-programming/events/itemselected
+components: ["multiselect"]
 tags: itemselected
 published: True
 position: 1

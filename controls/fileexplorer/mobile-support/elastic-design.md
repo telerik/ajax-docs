@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadFileExplorer
 description: Check our Web Forms article about Elastic Design.
 slug: fileexplorer/mobile-support/elastic-design
+components: ["fileexplorer"]
 tags: elastic,design,file explorer
 published: True
 position: 1

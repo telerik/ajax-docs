@@ -3,6 +3,7 @@ title: Media
 page_title: Media - RadEditor
 description: Check our Web Forms article about Media.
 slug: editor/functionality/dialogs/file-browser-dialogs/media
+components: ["editor"]
 tags: media
 published: True
 position: 4

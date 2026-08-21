@@ -3,6 +3,7 @@ title: Overview
 page_title: RadClientExportManager Overview
 description: Check our Web Forms article about Telerik's ASP.NET ClientExportManager Overview.
 slug: clientexportmanager/overview
+components: ["clientexportmanager"]
 tags: overview, clientexportmanager, export
 published: True
 position: 0

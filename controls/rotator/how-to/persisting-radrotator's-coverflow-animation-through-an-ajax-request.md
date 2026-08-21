@@ -3,6 +3,7 @@ title: Persisting RadRotator's CoverFlow Animation Through an AJAX Request
 page_title: Persisting RadRotator's CoverFlow Animation Through an AJAX Request - RadRotator
 description: Check our Web Forms article about Persisting RadRotator's CoverFlow Animation Through an AJAX Request.
 slug: rotator/how-to/persisting-radrotator's-coverflow-animation-through-an-ajax-request
+components: ["rotator"]
 tags: persisting,radrotator's,coverflow,animation,through,an,ajax,request
 published: True
 position: 0

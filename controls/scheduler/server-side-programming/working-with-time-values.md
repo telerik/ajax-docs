@@ -3,6 +3,7 @@ title: Working with Time Values
 page_title: Working with Time Values - RadScheduler
 description: Check our Web Forms article about Working with Time Values.
 slug: scheduler/server-side-programming/working-with-time-values
+components: ["scheduler"]
 tags: working,with,time,values
 published: True
 position: 2

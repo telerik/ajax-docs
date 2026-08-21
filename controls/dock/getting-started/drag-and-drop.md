@@ -3,6 +3,7 @@ title: Drag And Drop
 page_title: Drag And Drop - RadDock
 description: Check our Web Forms article about Drag And Drop.
 slug: dock/getting-started/drag-and-drop
+components: ["dock"]
 tags: drag,and,drop
 published: True
 position: 1

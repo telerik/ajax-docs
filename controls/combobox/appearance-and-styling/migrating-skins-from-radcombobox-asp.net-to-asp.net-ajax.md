@@ -3,6 +3,7 @@ title: Migrating Skins from RadComboBox ASP.NET to ASP.NET AJAX
 page_title: Migrating Skins from RadComboBox ASP.NET to ASP.NET AJAX - RadComboBox
 description: Check our Web Forms article about Migrating Skins from RadComboBox ASP.NET to ASP.NET AJAX.
 slug: combobox/appearance-and-styling/migrating-skins-from-radcombobox-asp.net-to-asp.net-ajax
+components: ["combobox"]
 tags: migrating,skins,from,radcombobox,asp.net,to,asp.net,ajax
 published: True
 position: 0

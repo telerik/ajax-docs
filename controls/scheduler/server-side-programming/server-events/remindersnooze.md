@@ -3,6 +3,7 @@ title: ReminderSnooze
 page_title: ReminderSnooze - RadScheduler
 description: Check our Web Forms article about ReminderSnooze.
 slug: scheduler/server-side-programming/server-events/remindersnooze
+components: ["scheduler"]
 tags: remindersnooze
 published: True
 position: 22

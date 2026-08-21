@@ -3,6 +3,7 @@ title: Assignments
 page_title: Assignments - RadGantt
 description: Check our Web Forms article about Assignments.
 slug: gantt/server-side-programming/objects/assignments
+components: ["gantt"]
 tags: assignments
 published: True
 position: 4

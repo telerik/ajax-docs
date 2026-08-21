@@ -3,6 +3,7 @@ title: OnDateSelected
 page_title: OnDateSelected - RadMonthYearPicker
 description: Check our Web Forms article about OnDateSelected.
 slug: monthyearpicker/client-side-programming/events/ondateselected
+components: ["monthyearpicker"]
 tags: ondateselected
 published: True
 position: 1

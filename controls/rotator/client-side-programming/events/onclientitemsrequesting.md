@@ -3,6 +3,7 @@ title: OnClientItemsRequesting
 page_title: OnClientItemsRequesting - RadRotator
 description: Check our Web Forms article about OnClientItemsRequesting.
 slug: rotator/client-side-programming/events/onclientitemsrequesting
+components: ["rotator"]
 tags: onclientitemsrequesting
 published: True
 position: 8

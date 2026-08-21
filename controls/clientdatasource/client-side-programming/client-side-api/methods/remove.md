@@ -3,6 +3,7 @@ title: remove
 page_title: ClientDataSource Object remove() - RadClientDataSource
 description: Check our Web Forms article about remove.
 slug: clientdatasource/client-side-programming/client-side-api/methods/remove
+components: ["clientdatasource"]
 tags: remove
 published: True
 position: 2

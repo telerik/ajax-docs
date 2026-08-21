@@ -3,6 +3,7 @@ title: SelectedIndexChanged
 page_title: SelectedIndexChanged - RadMultiColumnComboBox
 description: Check our Web Forms article about SelectedIndexChanged.
 slug: multicolumncombobox/server-side-programming/events/selectedindexchanged
+components: ["multicolumncombobox"]
 tags: selectedindexchanged
 published: True
 position: 1

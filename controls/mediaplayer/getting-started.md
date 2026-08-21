@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadMediaPlayer
 description: Check our Web Forms article about Getting Started.
 slug: mediaplayer/getting-started
+components: ["mediaplayer"]
 tags: getting,started
 published: True
 position: 1

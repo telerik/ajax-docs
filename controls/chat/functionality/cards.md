@@ -3,6 +3,7 @@ title: Default Cards
 page_title: Default Cards - RadChat
 description: Check our Web Forms article about Default Cards.
 slug: chat/functionality/cards
+components: ["chat"]
 tags: default,cards
 published: True
 position: 1

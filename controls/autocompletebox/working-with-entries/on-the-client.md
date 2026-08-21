@@ -3,6 +3,7 @@ title: On the Client
 page_title: On the Client - RadAutoCompleteBox
 description: Check our Web Forms article about On the Client.
 slug: autocompletebox/working-with-entries/on-the-client
+components: ["autocompletebox"]
 tags: on,the,client
 published: True
 position: 1

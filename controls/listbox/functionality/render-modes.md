@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadListBox
 description: Check our Web Forms article about Render Modes.
 slug: listbox/functionality/render-modes
+components: ["listbox"]
 tags: render,modes
 published: True
 position: 0

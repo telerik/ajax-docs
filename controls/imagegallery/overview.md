@@ -3,6 +3,7 @@ title: Overview
 page_title: RadImageGallery Overview
 description: Discover the ImageGallery control and its features for displaying and navigating image collections.
 slug: imagegallery/overview
+components: ["imagegallery"]
 tags: overview
 published: True
 position: 0

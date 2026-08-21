@@ -3,6 +3,7 @@ title: OnDataPagerDestroying
 page_title: OnDataPagerDestroying - RadDataPager
 description: Check our Web Forms article about OnDataPagerDestroying.
 slug: datapager/client-side-programming/events/ondatapagerdestroying
+components: ["datapager"]
 tags: ondatapagerdestroying
 published: True
 position: 2

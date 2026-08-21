@@ -3,6 +3,7 @@ title: RadSearchBoxButtonCollection Object
 page_title: RadSearchBoxButtonCollection Object - RadSearchBox
 description: Check our Web Forms article about RadSearchBoxButtonCollection Object.
 slug: searchbox/client-side-programming/radsearchboxbuttoncollection-object
+components: ["searchbox"]
 tags: radsearchboxbuttoncollection,object
 published: True
 position: 5

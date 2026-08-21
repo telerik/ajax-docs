@@ -3,6 +3,7 @@ title: Server Templates
 page_title: Server Templates - RadMenu
 description: Check our Web Forms article about Server Templates.
 slug: menu/templates/server-templates
+components: ["menu"]
 tags: server,templates
 published: True
 position: 2

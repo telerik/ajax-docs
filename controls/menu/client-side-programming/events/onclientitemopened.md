@@ -3,6 +3,7 @@ title: OnClientItemOpened
 page_title: OnClientItemOpened - RadMenu
 description: Check our Web Forms article about OnClientItemOpened.
 slug: menu/client-side-programming/events/onclientitemopened
+components: ["menu"]
 tags: onclientitemopened
 published: True
 position: 8

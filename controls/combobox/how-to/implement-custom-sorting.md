@@ -3,6 +3,7 @@ title: Implement Custom Sorting
 page_title: Implement Custom Sorting - RadComboBox
 description: Check our Web Forms article about Implement Custom Sorting.
 slug: combobox/how-to/implement-custom-sorting
+components: ["combobox"]
 tags: implement,custom,sorting
 published: True
 position: 3

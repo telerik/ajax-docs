@@ -3,6 +3,7 @@ title: Properties and Events
 page_title: Properties and Events - RadCheckBoxList
 description: Check our Web Forms article about Properties and Events.
 slug: checkboxlist/server-side-programming/properties-and-events
+components: ["checkboxlist"]
 tags: properties,and,events
 published: True
 position: 0

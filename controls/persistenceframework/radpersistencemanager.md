@@ -3,6 +3,7 @@ title: RadPersistenceManager
 page_title: RadPersistenceManager - RadPersistenceFramework
 description: Check our Web Forms article about RadPersistenceManager.
 slug: persistenceframework/radpersistencemanager
+components: ["persistenceframework"]
 tags: radpersistencemanager
 published: True
 position: 3

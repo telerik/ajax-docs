@@ -3,6 +3,7 @@ title: RadMonthYearPicker Structure
 page_title: RadMonthYearPicker Structure - RadMonthYearPicker
 description: Check our Web Forms article about RadMonthYearPicker Structure.
 slug: monthyearpicker/getting-started/radmonthyearpicker-structure
+components: ["monthyearpicker"]
 tags: radmonthyearpicker,structure
 published: True
 position: 4

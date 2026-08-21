@@ -3,6 +3,7 @@ title: OnClientItemFocus
 page_title: OnClientItemFocus - RadPanelBar
 description: Check our Web Forms article about OnClientItemFocus.
 slug: panelbar/client-side-programming/onclientitemfocus
+components: ["panelbar"]
 tags: onclientitemfocus
 published: True
 position: 11

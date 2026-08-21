@@ -3,6 +3,7 @@ title: Fluid behavior
 page_title: Fluid behavior - RadNavigation
 description: Check our Web Forms article about Fluid behavior.
 slug: navigation/mobile-support/fluid-behavior
+components: ["navigation"]
 tags: fluid,behavior
 published: False
 position: 1

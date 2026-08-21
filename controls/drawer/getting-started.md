@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadDrawer
 description: Check our Web Forms article about Getting Started.
 slug: drawer/getting-started
+components: ["drawer"]
 tags: getting,started,
 published: True
 position: 1

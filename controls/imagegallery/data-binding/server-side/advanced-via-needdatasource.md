@@ -3,6 +3,7 @@ title: Advanced via NeedDataSource
 page_title: Advanced via NeedDataSource - RadImageGallery
 description: Check our Web Forms article about Advanced via NeedDataSource.
 slug: imagegallery/data-binding/server-side/advanced-via-needdatasource
+components: ["imagegallery"]
 tags: advanced,via,needdatasource
 published: True
 position: 3

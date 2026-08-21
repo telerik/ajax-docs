@@ -3,6 +3,7 @@ title: Structure
 page_title: RadEditor Structure - RadEditor
 description: Explore the structure of the Editor control and learn how to configure its components effectively.
 slug: editor/getting-started/radeditor-structure
+components: ["editor"]
 tags: radeditor,structure
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Changes and backward compatibility
 page_title: Changes and backward compatibility - RadPanelBar
 description: Check our Web Forms article about Changes and backward compatibility.
 slug: panelbar/getting-started/changes-and-backward-compatibility
+components: ["panelbar"]
 previous_url: controls/panelbar/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
 published: True

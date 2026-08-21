@@ -3,6 +3,7 @@ title: Space Is Ignored in Textbox Placed in ItemTemplate
 page_title: Space Is Ignored in Textbox Placed in ItemTemplate - RadListBox
 description: Check our Web Forms article about Space Is Ignored in Textbox Placed in ItemTemplate.
 slug: listbox/troubleshooting/space-is-ignored-in-textbox-placed-in-itemtemplate
+components: ["listbox"]
 tags: space,is,ignored,in,textbox,placed,in,itemtemplate
 published: True
 position: 1

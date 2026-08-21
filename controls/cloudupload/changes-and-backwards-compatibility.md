@@ -3,6 +3,7 @@ title: Changes and Backward Compatibility
 page_title: Changes and backward compatibility - RadCloudUpload
 description: Check our Web Forms article about Changes and backward compatibility.
 slug: cloudupload/changes-and-backward-compatibility
+components: ["cloudupload"]
 tags: changes,and,backward,compatibility
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadImageEditor
 description: Check our Web Forms article about CSS Classes.
 slug: imageeditor/appearance-and-styling/css-classes
+components: ["imageeditor"]
 tags: css,classes
 published: True
 position: 2

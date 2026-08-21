@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadMediaPlayer
 description: Check our Web Forms article about Design Time.
 slug: mediaplayer/design-time
+components: ["mediaplayer"]
 tags: design,time
 published: True
 position: 2

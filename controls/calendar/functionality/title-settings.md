@@ -3,6 +3,7 @@ title: Title Settings
 page_title: Title Settings - RadCalendar
 description: Check our Web Forms article about Title Settings.
 slug: calendar/functionality/title-settings
+components: ["calendar"]
 tags: title,settings
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadCheckBox
 description: Check our Web Forms article about Render Modes.
 slug: checkbox/mobile-support/render-modes
+components: ["checkbox"]
 tags: render,modes
 published: True
 position: 2

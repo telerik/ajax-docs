@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadFormDecorator
 description: Check our Web Forms article about CSS Classes.
 slug: formdecorator/appearance-and-styling/css-classes
+components: ["formdecorator"]
 tags: css,classes
 published: True
 position: 2

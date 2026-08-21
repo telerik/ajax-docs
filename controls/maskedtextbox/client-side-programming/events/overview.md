@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadMaskedTextBox
 description: Check our Web Forms article about Overview.
 slug: radmaskedtextbox/client-side-programming/events/overview
+components: ["maskedtextbox"]
 tags: overview
 published: True
 position: 0

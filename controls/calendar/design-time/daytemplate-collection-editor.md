@@ -3,6 +3,7 @@ title: DayTemplate Collection Editor
 page_title: DayTemplate Collection Editor - RadCalendar
 description: Check our Web Forms article about DayTemplate Collection Editor.
 slug: calendar/design-time/daytemplate-collection-editor
+components: ["calendar"]
 tags: daytemplate,collection,editor
 published: True
 position: 5

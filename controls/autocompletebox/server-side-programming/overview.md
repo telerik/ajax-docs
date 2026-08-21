@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-Side Programming Overview - RadAutoCompleteBox
 description: Check our Web Forms article about Telerik's ASP.NET AutoCompleteBox Server-Side Programming Overview.
 slug: autocompletebox/server-side-programming/overview
+components: ["autocompletebox"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadFloatingActionButton
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: floatingactionbutton/accessibility-and-internationalization/wai-aria-support
+components: ["floatingactionbutton"]
 tags: wai-aria,support
 published: True
 position: 2

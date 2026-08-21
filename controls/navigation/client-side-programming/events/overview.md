@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadNavigation
 description: Check our Web Forms article about Overview.
 slug: navigation/client-side-programming/events/overview
+components: ["navigation"]
 tags: overview
 published: True
 position: 0

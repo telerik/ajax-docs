@@ -3,6 +3,7 @@ title: Showing the Path to an Item
 page_title: Showing the Path to an Item - RadMenu
 description: Check our Web Forms article about Showing the Path to an Item.
 slug: menu/how-to/showing-the-path-to-an-item
+components: ["menu"]
 tags: showing,the,path,to,an,item
 published: True
 position: 10

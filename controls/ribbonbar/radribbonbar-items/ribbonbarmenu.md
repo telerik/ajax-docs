@@ -3,6 +3,7 @@ title: RibbonBarMenu
 page_title: RibbonBarMenu - RadRibbonBar
 description: Check our Web Forms article about RibbonBarMenu.
 slug: ribbonbar/radribbonbar-items/ribbonbarmenu
+components: ["ribbonbar"]
 tags: ribbonbarmenu
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview - RadNavigation
 description: Check our Web Forms article about Overview.
 slug: navigation/templates/overview
+components: ["navigation"]
 tags: overview
 published: True
 position: 0

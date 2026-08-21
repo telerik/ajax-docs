@@ -3,6 +3,7 @@ title: RadDatePicker Object
 page_title: RadDatePicker Client-side Object - RadDatePicker
 description: Discover the RadDatePicker object and its client-side API for advanced date selection and customization.
 slug: datepicker/client-side-programming/raddatepicker-object
+components: ["datepicker"]
 tags: raddatepicker,object
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Styles
 page_title: Styles - RadDateInput
 description: Check our Web Forms article about Styles.
 slug: raddateinput/appearance-and-styling/styles
+components: ["dateinput"]
 tags: styles
 published: True
 position: 1

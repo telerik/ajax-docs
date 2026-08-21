@@ -3,6 +3,7 @@ title: Web Service Binding
 page_title: Web Service Binding - RadMenu
 description: Check our Web Forms article about Web Service Binding.
 slug: menu/data-binding/web-service-binding
+components: ["menu"]
 tags: web,service,binding
 published: True
 position: 9

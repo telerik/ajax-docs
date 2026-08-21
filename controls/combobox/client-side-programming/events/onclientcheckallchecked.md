@@ -3,6 +3,7 @@ title: OnClientCheckAllChecked
 page_title: OnClientCheckAllChecked - RadComboBox
 description: Check our Web Forms article about OnClientCheckAllChecked.
 slug: combobox/client-side-programming/events/onclientcheckallchecked
+components: ["combobox"]
 tags: onclientcheckallchecked
 published: True
 position: 18

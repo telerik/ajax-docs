@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadRotator
 description: Check our Web Forms article about OnClientMouseOver.
 slug: rotator/client-side-programming/events/onclientmouseover
+components: ["rotator"]
 tags: onclientmouseover
 published: True
 position: 10

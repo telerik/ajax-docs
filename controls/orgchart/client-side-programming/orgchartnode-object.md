@@ -3,6 +3,7 @@ title: OrgChartNode Object
 page_title: OrgChartNode Object - RadOrgChart
 description: Check our Web Forms article about OrgChartNode Object.
 slug: orgchart/client-side-programming/orgchartnode-object
+components: ["orgchart"]
 tags: orgchartnode,object
 published: True
 position: 2

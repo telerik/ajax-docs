@@ -3,6 +3,7 @@ title: Customization
 page_title: Chip Customization
 description: "Try now the Telerik WebForms Chip component and learn how to customize it by configuring its icons and avatars."
 slug: chip/customization
+components: ["chip"]
 tags: chip,customization
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Setting The Background
 page_title: Setting The Background - RadChart
 description: Check our Web Forms article about Setting The Background.
 slug: chart/styling-radcharts/setting-the-background
+components: ["chart"]
 tags: setting,the,background
 published: True
 position: 1

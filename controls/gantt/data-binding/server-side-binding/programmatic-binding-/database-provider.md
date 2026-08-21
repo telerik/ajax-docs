@@ -3,6 +3,7 @@ title: Database Provider
 page_title: Database Provider - RadGantt
 description: Check our Web Forms article about Database Provider.
 slug: gantt/data-binding/server-side-binding/programmatic-binding-/database-provider
+components: ["gantt"]
 tags: database,provider
 published: True
 position: 1

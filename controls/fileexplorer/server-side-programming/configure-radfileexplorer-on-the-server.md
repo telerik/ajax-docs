@@ -3,6 +3,7 @@ title: Configure RadFileExplorer on the Server
 page_title: Configure RadFileExplorer on the Server - RadFileExplorer
 description: Check our Web Forms article about Configure RadFileExplorer on the Server.
 slug: fileexplorer/server-side-programming/configure-radfileexplorer-on-the-server
+components: ["fileexplorer"]
 tags: configure,radfileexplorer,on,the,server
 published: True
 position: 2

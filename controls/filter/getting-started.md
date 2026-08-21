@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadFilter
 description: Check our Web Forms article about Getting Started.
 slug: filter/getting-started
+components: ["filter"]
 tags: getting,started
 published: True
 position: 1

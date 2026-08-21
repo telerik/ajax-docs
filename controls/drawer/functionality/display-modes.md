@@ -3,6 +3,7 @@ title: Display Modes
 page_title: Display Modes - RadDrawer
 description: Check our Web Forms article about Display Modes.
 slug: drawer/functionality/display-modes
+components: ["drawer"]
 tags: display,mode,interaction
 published: True
 position: 1

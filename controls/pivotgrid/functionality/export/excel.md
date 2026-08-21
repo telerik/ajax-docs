@@ -3,6 +3,7 @@ title: Excel
 page_title: Excel - RadPivotGrid
 description: Check our Web Forms article about Excel.
 slug: pivotgrid/functionality/export/excel
+components: ["pivotgrid"]
 tags: excel
 published: True
 position: 0

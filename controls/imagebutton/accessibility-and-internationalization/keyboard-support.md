@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadImageButton
 description: Check our Web Forms article about Keyboard Support.
 slug: imagebutton/accessibility-and-internationalization/keyboard-support
+components: ["imagebutton"]
 tags: keyboard,support
 published: True
 position: 2

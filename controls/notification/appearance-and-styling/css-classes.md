@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadNotification
 description: Check our Web Forms article about CSS Classes.
 slug: notification/appearance-and-styling/css-classes
+components: ["notification"]
 tags: css,classes
 published: True
 position: 1

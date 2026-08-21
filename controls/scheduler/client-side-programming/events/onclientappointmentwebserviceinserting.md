@@ -3,6 +3,7 @@ title: OnClientAppointmentWebServiceInserting
 page_title: OnClientAppointmentWebServiceInserting - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentWebServiceInserting.
 slug: scheduler/client-side-programming/events/onclientappointmentwebserviceinserting
+components: ["scheduler"]
 tags: onclientappointmentwebserviceinserting
 published: True
 position: 26

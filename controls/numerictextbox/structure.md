@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadNumericTextBox
 description: Check our Web Forms article about Structure.
 slug: numerictextbox/structure
+components: ["numerictextbox"]
 tags: structure
 published: True
 position: 4

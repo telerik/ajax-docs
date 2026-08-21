@@ -3,6 +3,7 @@ title: OnClientInlineEditCompleted
 page_title: OnClientInlineEditCompleted - RadEditor
 description: Check our Web Forms article about OnClientInlineEditCompleted.
 slug: editor/client-side-programming/events/onclientinlineeditcompleted
+components: ["editor"]
 tags: onclientinlineeditcompleted
 published: True
 position: 10

@@ -3,6 +3,7 @@ title: get_html
 page_title: get_html - RadEditor
 description: Check our Web Forms article about get_html.
 slug: editor/client-side-programming/methods/get_html
+components: ["editor"]
 tags: get_html
 published: True
 position: 6

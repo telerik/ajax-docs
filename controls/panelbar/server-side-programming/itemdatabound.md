@@ -3,6 +3,7 @@ title: ItemDataBound
 page_title: ItemDataBound - RadPanelBar
 description: Check our Web Forms article about ItemDataBound.
 slug: panelbar/server-side-programming/itemdatabound
+components: ["panelbar"]
 tags: itemdatabound
 published: True
 position: 3

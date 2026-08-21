@@ -3,6 +3,7 @@ title: Overview
 page_title: Phone Layout Overview - RadEditor
 description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/overview
+components: ["editor"]
 tags: editor,support,mobile,rendering,overview
 published: True
 position: 0

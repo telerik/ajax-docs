@@ -3,6 +3,7 @@ title: RadDateInput Client Object
 page_title: RadDateInput Client Object - RadDateInput
 description: Check our Web Forms article about RadDateInput Client Object.
 slug: raddateinput/client-side-programming/raddateinput-client-object
+components: ["dateinput"]
 tags: raddateinput,client,object
 published: True
 position: 4

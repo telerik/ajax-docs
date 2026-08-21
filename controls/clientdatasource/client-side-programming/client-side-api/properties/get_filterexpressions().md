@@ -3,6 +3,7 @@ title: get_filterExpressions()
 page_title: get_filterExpressions() - RadClientDataSource
 description: Check our Web Forms article about get_filterExpressions().
 slug: clientdatasource/client-side-programming/client-side-api/properties/get_filterexpressions()
+components: ["clientdatasource"]
 tags: get_filterexpressions()
 published: True
 position: 0

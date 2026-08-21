@@ -3,6 +3,7 @@ title: Virtualization
 page_title: Virtualization - RadMultiColumnComboBox
 description: Check our Web Forms article about Virtualization.
 slug: multicolumncombobox/functionality/virtualization
+components: ["multicolumncombobox"]
 tags: Virtualization
 published: True
 position: 5

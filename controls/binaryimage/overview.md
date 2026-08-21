@@ -3,6 +3,7 @@ title: Overview
 page_title: RadBinaryImage Overview
 description: Check our Web Forms article about RadBinaryImage.
 slug: binaryimage/overview
+components: ["binaryimage"]
 previous_url: controls/radbinaryimage
 published: True
 position: 0

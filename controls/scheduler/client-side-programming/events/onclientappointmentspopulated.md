@@ -3,6 +3,7 @@ title: OnClientAppointmentsPopulated
 page_title: OnClientAppointmentsPopulated - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentsPopulated.
 slug: scheduler/client-side-programming/events/onclientappointmentspopulated
+components: ["scheduler"]
 tags: onclientappointmentspopulated
 published: True
 position: 19

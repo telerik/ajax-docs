@@ -3,6 +3,7 @@ title: Date and Time Formats
 page_title: Date and Time Formats - RadScheduler
 description: Check our Web Forms article about Date and Time Formats.
 slug: scheduler/accessibility-and-internationalization/date-and-time-formats
+components: ["scheduler"]
 tags: date,and,time,formats
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Make Colors Display with Partial Transparency
 page_title: How to Make Colors Display with Partial Transparency
 description: Check our Web Forms article about How to Make Colors Display with Partial Transparency.
 slug: chart/how-to/make-colors-display-with-partial-transparency
+components: ["chart"]
 tags: how to, color, partial, transparency
 published: True
 position: 3

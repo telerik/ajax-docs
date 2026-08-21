@@ -3,6 +3,7 @@ title: ColumnCreating
 page_title: ColumnCreating - RadGantt
 description: Check our Web Forms article about ColumnCreating.
 slug: gantt/server-side-programming/events/columncreating
+components: ["gantt"]
 tags: columncreating
 published: True
 position: 1

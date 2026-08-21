@@ -3,6 +3,7 @@ title: OnClientItemChecking
 page_title: OnClientItemChecking - RadListBox
 description: Check our Web Forms article about OnClientItemChecking.
 slug: listbox/client-side-programming/events/onclientitemchecking
+components: ["listbox"]
 tags: onclientitemchecking
 published: True
 position: 10

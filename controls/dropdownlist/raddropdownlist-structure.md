@@ -3,6 +3,7 @@ title: RadDropDownList Structure
 page_title: RadDropDownList Structure - RadDropDownList
 description: Explore the structure of the RadDropDownList control and its components for managing dropdown lists.
 slug: dropdownlist/raddropdownlist-structure
+components: ["dropdownlist"]
 tags: raddropdownlist,structure
 published: True
 position: 2

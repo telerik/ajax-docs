@@ -3,6 +3,7 @@ title: Conditional Item Colorization
 page_title: Conditional Item Colorization - RadHtmlChart
 description: Check our Web Forms article about Conditional Item Colorization.
 slug: htmlchart/appearance-and-styling/conditional-item-colorization
+components: ["htmlchart"]
 tags: conditional,item,colorization
 published: True
 position: 1

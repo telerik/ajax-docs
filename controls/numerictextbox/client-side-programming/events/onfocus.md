@@ -3,6 +3,7 @@ title: OnFocus
 page_title: OnFocus - RadNumericTextBox
 description: Check our Web Forms article about OnFocus.
 slug: numerictextbox/client-side-programming/events/onfocus
+components: ["numerictextbox"]
 tags: onfocus
 published: True
 position: 8

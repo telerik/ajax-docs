@@ -3,6 +3,7 @@ title: OnInit
 page_title: OnInit - RadCalendar
 description: Check our Web Forms article about OnInit.
 slug: calendar/client-side-programming/events/oninit
+components: ["calendar"]
 tags: oninit
 published: True
 position: 1

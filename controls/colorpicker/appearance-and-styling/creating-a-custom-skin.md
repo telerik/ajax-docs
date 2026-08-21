@@ -3,6 +3,7 @@ title: Creating a Custom Skin
 page_title: Creating a Custom Skin - RadColorPicker
 description: Check our Web Forms article about Creating a Custom Skin.
 slug: colorpicker/appearance-and-styling/creating-a-custom-skin
+components: ["colorpicker"]
 tags: creating,a,custom,skin
 published: True
 position: 4

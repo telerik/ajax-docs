@@ -3,6 +3,7 @@ title: RadMenu Item Builder
 page_title: RadMenu Item Builder - RadMenu
 description: Check our Web Forms article about RadMenu Item Builder.
 slug: menu/design-time/radmenu-item-builder
+components: ["menu"]
 tags: radmenu,item,builder
 published: True
 position: 1

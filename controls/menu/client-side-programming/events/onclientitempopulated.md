@@ -3,6 +3,7 @@ title: OnClientItemPopulated
 page_title: OnClientItemPopulated - RadMenu
 description: Check our Web Forms article about OnClientItemPopulated.
 slug: menu/client-side-programming/events/onclientitempopulated
+components: ["menu"]
 tags: onclientitempopulated
 published: True
 position: 14

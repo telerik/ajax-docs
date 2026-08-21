@@ -3,6 +3,7 @@ title: Strip Pasting Tools
 page_title: Strip Pasting Tools - RadEditor
 description: Check our Web Forms article about Strip Pasting Tools.
 slug: editor/functionality/toolbars/dropdowns/strip-pasting-tools
+components: ["editor"]
 tags: strip,pasting,tools
 published: True
 position: 14

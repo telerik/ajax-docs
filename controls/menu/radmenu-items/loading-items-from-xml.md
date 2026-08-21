@@ -3,6 +3,7 @@ title: Loading Items from XML
 page_title: Loading Items from XML - RadMenu
 description: Check our Web Forms article about Loading Items from XML.
 slug: menu/radmenu-items/loading-items-from-xml
+components: ["menu"]
 tags: loading,items,from,xml
 published: True
 position: 5

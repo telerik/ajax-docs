@@ -3,6 +3,7 @@ title: Upload Files to a Shared Drive
 page_title: Upload Files to a Shared Drive - RadEditor
 description: Check our Web Forms article about Upload Files to a Shared Drive.
 slug: editor/functionality/dialogs/examples/upload-files-to-a-shared-drive
+components: ["editor"]
 tags: upload,files,to,a,shared,drive
 published: True
 position: 4

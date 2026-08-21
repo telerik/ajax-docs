@@ -3,6 +3,7 @@ title: Load
 page_title: Load - RadClientExportManager
 description: Check our Web Forms article about Load.
 slug: clientexportmanager/client-side-programming/events/load
+components: ["clientexportmanager"]
 tags: load
 published: True
 position: 0

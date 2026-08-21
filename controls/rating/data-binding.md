@@ -3,6 +3,7 @@ title: Data Binding
 page_title: Data Binding - RadRating
 description: Check our Web Forms article about Data Binding.
 slug: rating/data-binding
+components: ["rating"]
 tags: data,binding
 published: True
 position: 4

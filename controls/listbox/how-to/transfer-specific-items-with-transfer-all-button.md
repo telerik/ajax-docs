@@ -3,6 +3,7 @@ title: Transfer Specific Items with Transfer All Button
 page_title: Transfer Specific Items with Transfer All Button - RadListBox
 description: Check our Web Forms article about Transfer Specific Items with Transfer All Button.
 slug: listbox/how-to/transfer-specific-items-with-transfer-all-button
+components: ["listbox"]
 tags: transfer,specific,items,with,transfer,all,button
 published: True
 position: 2

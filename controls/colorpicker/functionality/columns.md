@@ -3,6 +3,7 @@ title: Columns
 page_title: Columns - RadColorPicker
 description: Check our Web Forms article about Columns.
 slug: colorpicker/functionality/columns
+components: ["colorpicker"]
 tags: columns
 published: True
 position: 5

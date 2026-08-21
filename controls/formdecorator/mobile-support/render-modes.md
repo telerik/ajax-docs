@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadFormDecorator
 description: Check our Web Forms article about Render Modes.
 slug: formdecorator/mobile-support/render-modes
+components: ["formdecorator"]
 tags: render,modes
 published: True
 position: 1

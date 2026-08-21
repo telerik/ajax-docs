@@ -3,6 +3,7 @@ title: What's New
 page_title: What's New - RadEditor
 description: Check our Web Forms article about What's New.
 slug: editor/changes-and-backwards-compatibility/what's-new
+components: ["editor"]
 tags: what's,new
 published: False
 position: 3

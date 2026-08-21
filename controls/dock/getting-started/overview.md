@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadDock
 description: Check our Web Forms article about Overview.
 slug: dock/getting-started/overview
+components: ["dock"]
 tags: overview
 published: True
 position: 0

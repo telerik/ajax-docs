@@ -3,6 +3,7 @@ title: Properties and Events
 page_title: Properties and Events - RadRadioButtonList
 description: Check our Web Forms article about Properties and Events.
 slug: radiobuttonlist/server-side-programming/properties-and-events
+components: ["radiobuttonlist"]
 tags: properties,and,events
 published: True
 position: 0

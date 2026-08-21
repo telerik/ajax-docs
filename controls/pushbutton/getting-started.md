@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadPushButton
 description: Check our Web Forms article about Getting Started.
 slug: pushbutton/getting-started
+components: ["pushbutton"]
 tags: getting,started
 published: True
 position: 2

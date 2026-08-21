@@ -3,6 +3,7 @@ title: Overview
 page_title: OTPInput Server-side Programming
 description: "Overview of the Server-side APIs you can use to create and configure the Telerik WebForms OTPInput Control."
 slug: otpinput/server-side-programming/overview
+components: ["otpinput"]
 tags: overview, otpinput, server-side
 published: True
 position: 0

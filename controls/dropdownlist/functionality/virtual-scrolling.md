@@ -3,6 +3,7 @@ title: Virtual Scrolling
 page_title: Virtual Scrolling - RadDropDownList
 description: Check our Web Forms article about Virtual Scrolling.
 slug: dropdownlist/functionality/virtual-scrolling
+components: ["dropdownlist"]
 tags: virtual,scrolling
 published: True
 position: 0

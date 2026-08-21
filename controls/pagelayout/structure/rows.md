@@ -3,6 +3,7 @@ title: Rows
 page_title: Rows - RadPageLayout
 description: Check our Web Forms article about Rows.
 slug: pagelayout/structure/rows
+components: ["pagelayout"]
 tags: rows
 published: True
 position: 1

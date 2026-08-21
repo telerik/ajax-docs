@@ -3,6 +3,7 @@ title: OnClientSelectionChange
 page_title: OnClientSelectionChange - RadEditor
 description: Check our Web Forms article about OnClientSelectionChange.
 slug: editor/client-side-programming/events/onclientselectionchange
+components: ["editor"]
 tags: onclientselectionchange
 published: True
 position: 8

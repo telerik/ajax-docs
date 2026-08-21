@@ -3,6 +3,7 @@ title: Properties
 page_title: Server-side Programming Overview - RadDateInput
 description: Check our Web Forms article about Overview.
 slug: raddateinput/server-side-programming/properties
+components: ["dateinput"]
 tags: overview
 published: True
 position: 0

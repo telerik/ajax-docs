@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadMultiColumnComboBox
 description: Check our Web Forms article about Overview.
 slug: multicolumncombobox/client-side-programming/events
+components: ["multicolumncombobox"]
 tags: overview,events
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Styles
 page_title: Styles - RadNumericTextBox
 description: Check our Web Forms article about Styles.
 slug: numerictextbox/appearance-and-styling/styles
+components: ["numerictextbox"]
 tags: styles
 published: True
 position: 1

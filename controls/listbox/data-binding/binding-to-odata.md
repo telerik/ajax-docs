@@ -3,6 +3,7 @@ title: Binding to OData
 page_title: Binding to OData - RadListBox
 description: Check our Web Forms article about Binding to OData.
 slug: listbox/data-binding/binding-to-odata
+components: ["listbox"]
 tags: binding,to,odata
 published: True
 position: 5

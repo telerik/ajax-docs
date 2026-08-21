@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadListBox
 description: Check our Web Forms article about OnClientMouseOut.
 slug: listbox/client-side-programming/events/onclientmouseout
+components: ["listbox"]
 tags: onclientmouseout
 published: True
 position: 24

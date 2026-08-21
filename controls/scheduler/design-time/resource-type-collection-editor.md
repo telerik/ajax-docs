@@ -3,6 +3,7 @@ title: Resource Type Collection Editor
 page_title: Resource Type Collection Editor - RadScheduler
 description: Check our Web Forms article about Resource Type Collection Editor.
 slug: scheduler/design-time/resource-type-collection-editor
+components: ["scheduler"]
 tags: resource,type,collection,editor
 published: True
 position: 2

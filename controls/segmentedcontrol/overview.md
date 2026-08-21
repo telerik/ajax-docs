@@ -3,6 +3,7 @@ title: Overview
 page_title: SegmentedControl Overview
 description: "Try now the Telerik UI for ASP.NET AJAX SegmentedControl component that renders a group of buttons allowing users to select a single option from a set of mutually exclusive choices. Each segment can display a text label, an icon, or both. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI for jQuery SegmentedControl widget"
 slug: segmentedcontrol/overview
+components: ["segmentedcontrol"]
 tags: overview
 published: True
 position: 0

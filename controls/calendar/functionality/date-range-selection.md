@@ -3,6 +3,7 @@ title: Date Range Selection
 page_title: Date Range Selection - RadCalendar
 description: Check our Web Forms article about Date Range Selection.
 slug: calendar/functionality/date-range-selection
+components: ["calendar"]
 tags: date,range,selection
 published: True
 position: 8

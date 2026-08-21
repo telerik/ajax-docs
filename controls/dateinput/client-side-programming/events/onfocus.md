@@ -3,6 +3,7 @@ title: OnFocus
 page_title: OnFocus - RadDateInput
 description: Check our Web Forms article about OnFocus.
 slug: raddateinput/client-side-programming/events/onfocus
+components: ["dateinput"]
 tags: onfocus
 published: True
 position: 8

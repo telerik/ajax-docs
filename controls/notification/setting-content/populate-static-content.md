@@ -3,6 +3,7 @@ title: Populate Static Content
 page_title: Populate Static Content - RadNotification
 description: Check our Web Forms article about Populate Static Content.
 slug: notification/setting-content/populate-static-content
+components: ["notification"]
 tags: populate,static,content
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Binding to Table-Based DataSource
 page_title: Binding to Table-Based DataSource - RadPanelBar
 description: Check our Web Forms article about Binding to Table-Based DataSource.
 slug: panelbar/data-binding/binding-to-table-based-datasource
+components: ["panelbar"]
 tags: binding,to,table-based,datasource
 published: True
 position: 3

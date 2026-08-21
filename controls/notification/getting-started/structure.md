@@ -3,6 +3,7 @@ title: Structure
 page_title: RadNotification Structure - RadNotification
 description: Check our Web Forms article about RadNotification Structure.
 slug: notification/getting-started/radnotification-structure
+components: ["notification"]
 tags: radnotification,structure
 published: True
 position: 1

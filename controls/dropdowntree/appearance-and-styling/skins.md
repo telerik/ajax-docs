@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadDropDownTree
 description: Check our Web Forms article about Skins.
 slug: dropdowntree/appearance-and-styling/skins
+components: ["dropdowntree"]
 tags: skins
 published: True
 position: 0

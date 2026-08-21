@@ -3,6 +3,7 @@ title: OnClientItemsRequestFailed
 page_title: OnClientItemsRequestFailed - RadComboBox
 description: Check our Web Forms article about OnClientItemsRequestFailed.
 slug: combobox/client-side-programming/events/onclientitemrequestfailed
+components: ["combobox"]
 tags: onclientitemsrequestfailed
 published: True
 position: 9

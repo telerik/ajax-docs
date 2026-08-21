@@ -3,6 +3,7 @@ title: OnClientApplicationMenuItemClicked
 page_title: OnClientApplicationMenuItemClicked - RadRibbonBar
 description: Check our Web Forms article about OnClientApplicationMenuItemClicked.
 slug: ribbonbar/client-side-programming/events/onclientapplicationmenuitemclicked
+components: ["ribbonbar"]
 tags: onclientapplicationmenuitemclicked
 published: True
 position: 17

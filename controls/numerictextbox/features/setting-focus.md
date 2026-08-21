@@ -3,6 +3,7 @@ title: Setting Focus
 page_title: Setting Focus - RadInput
 description: Check our Web Forms article about Setting Focus.
 slug: numerictextbox/features/setting-focus
+components: ["numerictextbox"]
 tags: setting,focus
 published: True
 position: 7

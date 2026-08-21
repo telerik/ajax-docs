@@ -3,6 +3,7 @@ title: Format Dates
 page_title: Format Dates - RadHtmlChart
 description: Learn how to format date values in the HTMLChart control for better data visualization and clarity.
 slug: htmlchart/appearance-and-styling/format-dates
+components: ["htmlchart"]
 tags: format,dates
 published: True
 position: 4

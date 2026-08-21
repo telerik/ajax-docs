@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadEditor
 description: Check our Web Forms article about Smart Tag.
 slug: editor/design-time/smart-tag
+components: ["editor"]
 tags: smart,tag
 published: True
 position: 0

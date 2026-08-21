@@ -3,6 +3,7 @@ title: Integration With Standard Controls
 page_title: Integration With Standard Controls - RadFormDecorator
 description: Check our Web Forms article about Integration With Standard Controls.
 slug: formdecorator/integration-with-standard-controls
+components: ["formdecorator"]
 tags: integration,with,standard,controls
 published: True
 position: 3

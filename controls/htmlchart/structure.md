@@ -3,6 +3,7 @@ title: Structure
 page_title: RadHtmlChart Structure - RadHtmlChart
 description: Discover the structure of the HTMLChart control and its components for creating interactive charts.
 slug: htmlchart/radhtmlchart-structure
+components: ["htmlchart"]
 tags: radhtmlchart,structure
 published: True
 position: 1

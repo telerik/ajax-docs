@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadCaptcha
 description: Check our Web Forms article about CSS Classes.
 slug: captcha/appearance-and-styling/css-classes
+components: ["captcha"]
 tags: css,classes
 published: True
 position: 0

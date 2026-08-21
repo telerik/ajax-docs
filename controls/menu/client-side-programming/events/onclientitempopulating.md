@@ -3,6 +3,7 @@ title: OnClientItemPopulating
 page_title: OnClientItemPopulating - RadMenu
 description: Check our Web Forms article about OnClientItemPopulating.
 slug: menu/client-side-programming/events/onclientitempopulating
+components: ["menu"]
 tags: onclientitempopulating
 published: True
 position: 13

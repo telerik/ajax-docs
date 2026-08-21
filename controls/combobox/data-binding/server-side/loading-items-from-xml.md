@@ -3,6 +3,7 @@ title: Loading Items from XML
 page_title: Loading Items from XML - RadComboBox
 description: Simple way to load ComboBox Items from an XML file on Server-side. 
 slug: combobox/data-binding/server-side/loading-items-from-xml
+components: ["combobox"]
 previous_url: controls/combobox/radcombobox-items/loading-items-from-xml
 tags: server-side, data-binding, loading, items, xml
 published: True

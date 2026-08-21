@@ -3,6 +3,7 @@ title: OnRequestSucceeded
 page_title: OnRequestSucceeded - RadODataDataSource
 description: Check our Web Forms article about OnRequestSucceeded.
 slug: odatadatasource/client-side-programming/events/onrequestsucceeded
+components: ["odatadatasource"]
 tags: onrequestsucceeded
 published: True
 position: 2

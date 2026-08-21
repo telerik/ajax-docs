@@ -3,6 +3,7 @@ title: Overview
 page_title: RadNumericTextBox Overview
 description: Learn about the NumericTextBox control and its features for handling numeric input with validation.
 slug: numerictextbox/overview
+components: ["numerictextbox"]
 tags: overview
 published: True
 position: 0

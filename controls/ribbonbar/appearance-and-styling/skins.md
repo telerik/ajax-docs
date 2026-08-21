@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadRibbonBar
 description: Check our Web Forms article about Skins.
 slug: ribbonbar/appearance-and-styling/skins
+components: ["ribbonbar"]
 tags: skins
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Loading the Dialogs from External Files
 page_title: Loading the Dialogs from External Files - RadImageEditor
 description: Check our Web Forms article about Loading the Dialogs from External Files.
 slug: imageeditor/functionality/loading-the-dialogs-from-external-files
+components: ["imageeditor"]
 tags: loading,the,dialogs,from,external,files
 published: True
 position: 0

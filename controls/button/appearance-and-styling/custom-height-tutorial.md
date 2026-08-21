@@ -3,6 +3,7 @@ title: Custom Height Tutorial
 page_title: Custom Height Tutorial - RadButton
 description: Check our Web Forms article about Custom Height Tutorial.
 slug: button/appearance-and-styling/custom-height-tutorial
+components: ["button"]
 tags: custom,height,tutorial
 published: True
 position: 6

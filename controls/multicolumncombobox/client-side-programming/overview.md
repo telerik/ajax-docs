@@ -3,6 +3,7 @@ title: RadMultiColumnComboBox Object
 page_title: RadMultiColumnComboBox Object - RadMultiColumnComboBox
 description: Check our Web Forms article about RadMultiColumnComboBox Object.
 slug: multicolumncombobox/client-side-programming/overview
+components: ["multicolumncombobox"]
 tags: multicolumncombobox,object
 published: True
 position: 0

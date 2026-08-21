@@ -3,6 +3,7 @@ title: RadNumericTextBox Client Object
 page_title: RadNumericTextBox Client Object - RadNumericTextBox
 description: Check our Web Forms article about RadNumericTextBox Client Object.
 slug: numerictextbox/client-side-programming/radnumerictextbox-client-object
+components: ["numerictextbox"]
 tags: radnumerictextbox,client,object
 published: True
 position: 2

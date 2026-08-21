@@ -3,6 +3,7 @@ title: OnClientAppointmentResizeStart
 page_title: OnClientAppointmentResizeStart - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentResizeStart.
 slug: scheduler/client-side-programming/events/onclientappointmentresizestart
+components: ["scheduler"]
 tags: onclientappointmentresizestart
 published: True
 position: 7

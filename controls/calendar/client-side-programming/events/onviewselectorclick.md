@@ -3,6 +3,7 @@ title: OnViewSelectorClick
 page_title: OnViewSelectorClick - RadCalendar
 description: Check our Web Forms article about OnViewSelectorClick.
 slug: calendar/client-side-programming/events/onviewselectorclick
+components: ["calendar"]
 tags: onviewselectorclick
 published: True
 position: 11

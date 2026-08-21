@@ -3,6 +3,7 @@ title: Overview
 page_title: RadListView Overview
 description: Explore the ListView control and its features for displaying data in a customizable layout.
 slug: listview/overview
+components: ["listview"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Properties
 page_title: Chip JavaScript Properties
 description: "JavaScript properties of the Telerik WebForms Chip component."
 slug: chip/client-side-programming/properties
+components: ["chip"]
 tags: properties
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Strict Mode
 page_title: Strict Mode - RadChart
 description: Check our Web Forms article about Strict Mode.
 slug: chart/features/strict-mode
+components: ["chart"]
 tags: strict,mode
 published: True
 position: 8

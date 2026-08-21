@@ -3,6 +3,7 @@ title: Basic Configuration
 page_title: Basic Configuration - RadHtmlChart
 description: Check our Web Forms article about Basic Configuration.
 slug: htmlchart/server-side-programming/basic-configuration
+components: ["htmlchart"]
 tags: basic,configuration
 published: True
 position: 1

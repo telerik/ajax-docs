@@ -3,6 +3,7 @@ title: pasteHtml
 page_title: pasteHtml - RadEditor
 description: Check our Web Forms article about pasteHtml.
 slug: editor/client-side-programming/methods/pastehtml
+components: ["editor"]
 tags: pastehtml
 published: True
 position: 13

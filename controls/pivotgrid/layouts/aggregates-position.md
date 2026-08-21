@@ -3,6 +3,7 @@ title: Aggregates Position
 page_title: Aggregates Position - RadPivotGrid
 description: Check our Web Forms article about Aggregates Position.
 slug: pivotgrid/layouts/aggregates-position
+components: ["pivotgrid"]
 tags: aggregates,position
 published: True
 position: 1

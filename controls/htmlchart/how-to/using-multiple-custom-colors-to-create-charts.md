@@ -3,6 +3,7 @@ title: Using Multiple Custom Colors to Create Charts
 page_title: Using Multiple Custom Colors to Create Charts - RadHtmlChart
 description: Check our Web Forms article about Using Multiple Custom Colors to Create Charts.
 slug: htmlchart/how-to/using-multiple-custom-colors-to-create-charts
+components: ["htmlchart"]
 tags: using,multiple,custom,colors,to,create,charts
 published: True
 position: 4

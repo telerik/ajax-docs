@@ -3,6 +3,7 @@ title: Disabling the Embedded jQuery
 page_title: Disabling the Embedded jQuery - RadScriptManager
 description: Explore how to disable the embedded jQuery in the ScriptManager control for custom script management.
 slug: scriptmanager/disabling-the-embedded-jquery
+components: ["scriptmanager"]
 tags: disabling,the,embedded,jquery
 published: True
 position: 5

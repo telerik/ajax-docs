@@ -3,6 +3,7 @@ title: Upload Modules
 page_title: Upload Modules - RadCloudUpload
 description: Check our Web Forms article about Upload Modules.
 slug: cloudupload/upload-modules
+components: ["cloudupload"]
 tags: upload,modules
 published: True
 position: 10

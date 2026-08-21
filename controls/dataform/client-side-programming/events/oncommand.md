@@ -3,6 +3,7 @@ title: OnCommand
 page_title: OnCommand - RadDataForm
 description: Check our Web Forms article about OnCommand.
 slug: dataform/client-side-programming/events/oncommand
+components: ["dataform"]
 tags: oncommand
 published: True
 position: 1

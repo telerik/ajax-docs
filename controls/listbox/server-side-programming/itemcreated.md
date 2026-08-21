@@ -3,6 +3,7 @@ title: ItemCreated
 page_title: ItemCreated - RadListBox
 description: Check our Web Forms article about ItemCreated.
 slug: listbox/server-side-programming/server-events/itemcreated
+components: ["listbox"]
 tags: itemcreated
 published: True
 position: 17

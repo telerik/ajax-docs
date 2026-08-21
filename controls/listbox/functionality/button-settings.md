@@ -3,6 +3,7 @@ title: Button Settings
 page_title: Button Settings - RadListBox
 description: Check our Web Forms article about Button Settings.
 slug: listbox/functionality/button-settings
+components: ["listbox"]
 tags: button,settings
 published: True
 position: 4

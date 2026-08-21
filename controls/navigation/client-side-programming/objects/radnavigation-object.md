@@ -3,6 +3,7 @@ title: RadNavigation Object
 page_title: RadNavigation Object - RadNavigation
 description: Check our Web Forms article about RadNavigation Object.
 slug: navigation/client-side-programming/objects/radnavigation-object
+components: ["navigation"]
 tags: navigation,object
 published: True
 position: 1

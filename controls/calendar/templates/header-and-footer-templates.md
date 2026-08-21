@@ -3,6 +3,7 @@ title: Header and Footer Templates
 page_title: RadCalendar Header and Footer Templates - RadCalendar
 description: Check our Web Forms article about RadCalendar Header and Footer Templates.
 slug: calendar/functionality/templates/header-and-footer-templates
+components: ["calendar"]
 tags: radcalendar,header,and,footer,templates
 published: True
 position: 1

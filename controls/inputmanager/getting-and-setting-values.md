@@ -3,6 +3,7 @@ title: Getting and Setting Values
 page_title: Getting and Setting Values - RadInputManager
 description: Check our Web Forms article about Getting and Setting Values.
 slug: radinputmanager/getting-and-setting-values
+components: ["inputmanager"]
 tags: getting,and,setting,values
 published: True
 position: 3

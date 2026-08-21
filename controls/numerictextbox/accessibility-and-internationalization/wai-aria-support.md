@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadNumericTextBox
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: numerictextbox/accessibility-and-internationalization/wai-aria-support
+components: ["numerictextbox"]
 tags: wai-aria,support
 published: True
 position: 2

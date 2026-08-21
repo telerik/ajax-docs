@@ -3,6 +3,7 @@ title: Finding Controls inside RadTimeView Templates
 page_title: Finding Controls inside RadTimeView Templates - RadDateTimePicker
 description: Check our Web Forms article about Finding Controls inside RadTimeView Templates.
 slug: datetimepicker/functionality/templates/finding-controls-inside-radtimeview-templates
+components: ["datetimepicker"]
 tags: finding,controls,inside,radtimeview,templates
 published: True
 position: 3

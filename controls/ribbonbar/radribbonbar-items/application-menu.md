@@ -3,6 +3,7 @@ title: Application Menu
 page_title: Application Menu - RadRibbonBar
 description: Check our Web Forms article about Application Menu.
 slug: ribbonbar/radribbonbar-items/application-menu
+components: ["ribbonbar"]
 tags: application,menu
 published: True
 position: 1

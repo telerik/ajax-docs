@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadFilter
 description: Check our Web Forms article about Skins.
 slug: filter/appearance-and-styling/skins
+components: ["filter"]
 tags: skins
 published: True
 position: 0

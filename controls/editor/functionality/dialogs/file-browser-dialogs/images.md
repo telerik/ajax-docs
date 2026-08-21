@@ -3,6 +3,7 @@ title: Images
 page_title: Images - RadEditor
 description: Check our Web Forms article about Images.
 slug: editor/functionality/dialogs/file-browser-dialogs/images
+components: ["editor"]
 tags: images
 published: True
 position: 1

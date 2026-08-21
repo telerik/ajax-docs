@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadFileExplorer
 description: Check our Web Forms article about Keyboard Support.
 slug: fileexplorer/accessibility-and-internationalization/keyboard-support
+components: ["fileexplorer"]
 tags: keyboard,support
 published: True
 position: 2

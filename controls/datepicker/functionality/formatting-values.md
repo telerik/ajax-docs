@@ -3,6 +3,7 @@ title: Formatting Values
 page_title: RadDatePicker Formatting Values - RadDatePicker
 description: Learn how to format date values in the DatePicker control for better presentation and usability.
 slug: datepicker/functionality/formatting-values
+components: ["datepicker"]
 tags: formatting,values
 published: True
 position: 3

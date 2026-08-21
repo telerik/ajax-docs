@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadFilter
 description: Check our Web Forms article about Design Time.
 slug: filter/design-time
+components: ["filter"]
 tags: design,time
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Vertical Bullet Chart
 page_title: Vertical Bullet Chart - RadHtmlChart
 description: Check our Web Forms article about Vertical Bullet Chart.
 slug: htmlchart/chart-types/vertical-bullet-chart
+components: ["htmlchart"]
 tags: vertical,bullet,chart
 published: True
 position: 23

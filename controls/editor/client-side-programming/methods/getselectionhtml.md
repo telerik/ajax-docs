@@ -3,6 +3,7 @@ title: getSelectionHtml
 page_title: getSelectionHtml - RadEditor
 description: Check our Web Forms article about getSelectionHtml.
 slug: editor/client-side-programming/methods/getselectionhtml
+components: ["editor"]
 tags: getselectionhtml
 published: True
 position: 9

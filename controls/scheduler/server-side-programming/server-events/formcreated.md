@@ -3,6 +3,7 @@ title: FormCreated
 page_title: FormCreated - RadScheduler
 description: Check our Web Forms article about FormCreated.
 slug: scheduler/server-side-programming/server-events/formcreated
+components: ["scheduler"]
 tags: formcreated
 published: True
 position: 12

@@ -3,6 +3,7 @@ title: RadChart Wizard
 page_title: RadChart Wizard - RadChart
 description: Check our Web Forms article about RadChart Wizard.
 slug: chart/understanding-radchart-ui/radchart-wizard
+components: ["chart"]
 tags: radchart,wizard
 published: True
 position: 2

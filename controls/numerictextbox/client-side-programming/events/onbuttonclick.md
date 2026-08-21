@@ -3,6 +3,7 @@ title: OnButtonClick
 page_title: OnButtonClick - RadNumericTextBox
 description: Check our Web Forms article about OnButtonClick.
 slug: numerictextbox/client-side-programming/events/onbuttonclick
+components: ["numerictextbox"]
 tags: onbuttonclick
 published: True
 position: 2

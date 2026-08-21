@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadPushButton
 description: Check our Web Forms article about Keyboard Support.
 slug: pushbutton/accessibility-and-internationalization/keyboard-support
+components: ["pushbutton"]
 tags: keyboard,support
 published: True
 position: 2

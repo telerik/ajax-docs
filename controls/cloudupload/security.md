@@ -3,6 +3,7 @@ title: Security
 page_title: Security - RadCloudUpload
 description: Check our Web Forms article about Apply security in RadCloudUpload and enforce information encryption to prevent attacks.
 slug: cloudupload-security
+components: ["cloudupload"]
 tags: security
 published: True
 position: 14

@@ -3,6 +3,7 @@ title: Edit and Insert
 page_title: Edit and Insert - RadListView
 description: Check our Web Forms article about Edit and Insert.
 slug: listview/templates/edit-and-insert
+components: ["listview"]
 tags: edit,and,insert
 published: True
 position: 1

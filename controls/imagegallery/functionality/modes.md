@@ -3,6 +3,7 @@ title: Modes
 page_title: Modes - RadImageGallery
 description: Check our Web Forms article about Modes.
 slug: imagegallery/functionality/modes
+components: ["imagegallery"]
 tags: modes
 published: True
 position: 0

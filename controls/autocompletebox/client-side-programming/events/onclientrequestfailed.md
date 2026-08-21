@@ -3,6 +3,7 @@ title: OnClientRequestFailed
 page_title: OnClientRequestFailed - RadAutoCompleteBox
 description: Check our Web Forms article about OnClientRequestFailed.
 slug: autocompletebox/client-side-programming/events/onclientrequestfailed
+components: ["autocompletebox"]
 tags: onclientrequestfailed
 published: True
 position: 11

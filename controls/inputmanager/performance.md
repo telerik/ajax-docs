@@ -3,6 +3,7 @@ title: Performance
 page_title: Performance - RadInputManager
 description: Check our Web Forms article about Performance.
 slug: radinputmanager/performance
+components: ["inputmanager"]
 tags: performance
 published: True
 position: 4

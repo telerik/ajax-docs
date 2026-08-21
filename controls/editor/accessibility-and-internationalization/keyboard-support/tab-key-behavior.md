@@ -3,6 +3,7 @@ title: Tab Key Behavior
 page_title: Tab Key Behavior - RadEditor
 description: Check our Web Forms article about Tab Key Behavior.
 slug: editor/accessibility-and-internationalization/keyboard-support/tab-key-behavior
+components: ["editor"]
 tags: tab,key,behavior
 published: True
 position: 2

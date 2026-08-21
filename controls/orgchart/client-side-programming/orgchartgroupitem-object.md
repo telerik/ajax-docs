@@ -3,6 +3,7 @@ title: OrgChartGroupItem Object
 page_title: OrgChartGroupItem Object - RadOrgChart
 description: Check our Web Forms article about OrgChartGroupItem Object.
 slug: orgchart/client-side-programming/orgchartgroupitem-object
+components: ["orgchart"]
 tags: orgchartgroupitem,object
 published: True
 position: 3

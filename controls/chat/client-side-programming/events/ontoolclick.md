@@ -3,6 +3,7 @@ title: OnToolClick
 page_title: OnToolClick - RadChat
 description: Check our Web Forms article about OnToolClick.
 slug: chat/client-side-programming/events/ontoolclick
+components: ["chat"]
 tags: ontoolclick
 published: True
 position: 0

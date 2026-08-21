@@ -3,6 +3,7 @@ title: OnClientItemsRequestFailed
 page_title: OnClientItemsRequestFailed - RadDropDownList
 description: Check our Web Forms article about OnClientItemsRequestFailed.
 slug: dropdownlist/client-side-programming/events/onclientitemsrequestfailed
+components: ["dropdownlist"]
 tags: onclientitemsrequestfailed
 published: True
 position: 9

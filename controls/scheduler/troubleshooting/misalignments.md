@@ -3,6 +3,7 @@ title: Misalignments
 page_title: Misalignments - RadScheduler
 description: Check our Web Forms article about Misalignments.
 slug: scheduler/troubleshootings/misalignments
+components: ["scheduler"]
 tags: misalignments
 published: True
 position: 0

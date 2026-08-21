@@ -3,6 +3,7 @@ title: Connections
 page_title: Connections - RadDiagram
 description: Check our Web Forms article about Connections.
 slug: diagram/data-binding/server-side/connections
+components: ["diagram"]
 tags: connections
 published: True
 position: 1

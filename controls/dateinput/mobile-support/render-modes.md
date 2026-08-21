@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadDateInput
 description: Check our Web Forms article about Render Modes.
 slug: raddateinput/mobile-support/render-modes
+components: ["dateinput"]
 tags: render,modes
 published: True
 position: 0

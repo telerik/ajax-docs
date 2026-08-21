@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadImageButton
 description: Check our Web Forms article about Design Time.
 slug: imagebutton/design-time
+components: ["imagebutton"]
 tags: design,time
 published: True
 position: 3

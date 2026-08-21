@@ -3,6 +3,7 @@ title: Drag and Drop
 page_title: Drag and Drop - RadListBox
 description: Check our Web Forms article about Drag and Drop.
 slug: listbox/functionality/drag-and-drop
+components: ["listbox"]
 tags: drag,and,drop
 published: True
 position: 3

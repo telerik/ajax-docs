@@ -3,6 +3,7 @@ title: Modify the Tooltip Text of RadRating Items
 page_title: Modify the Tooltip Text of RadRating Items - RadRating
 description: Check our Web Forms article about Modify the Tooltip Text of RadRating Items.
 slug: rating/how-to/modify-the-tooltip-text-of-radrating-items
+components: ["rating"]
 tags: modify,the,tooltip,text,of,radrating,items
 published: True
 position: 1

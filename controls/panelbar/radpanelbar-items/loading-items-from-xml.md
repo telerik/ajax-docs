@@ -3,6 +3,7 @@ title: Loading Items from XML
 page_title: Loading Items from XML - RadPanelBar
 description: Check our Web Forms article about Loading Items from XML.
 slug: panelbar/radpanelbar-items/loading-items-from-xml
+components: ["panelbar"]
 tags: loading,items,from,xml
 published: True
 position: 5

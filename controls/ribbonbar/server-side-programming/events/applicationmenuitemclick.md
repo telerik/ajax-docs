@@ -3,6 +3,7 @@ title: ApplicationMenuItemClick
 page_title: ApplicationMenuItemClick - RadRibbonBar
 description: Check our Web Forms article about ApplicationMenuItemClick.
 slug: ribbonbar/server-side-programming/events/applicationmenuitemclick
+components: ["ribbonbar"]
 tags: applicationmenuitemclick
 published: True
 position: 1

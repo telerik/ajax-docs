@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview - RadListBox
 description: Check our Web Forms article about Overview.
 slug: listbox/templates/overview
+components: ["listbox"]
 tags: overview
 published: True
 position: 0

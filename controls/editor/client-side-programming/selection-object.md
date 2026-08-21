@@ -3,6 +3,7 @@ title: Selection Object
 page_title: Selection Object - RadEditor
 description: Check our Web Forms article about Selection Object.
 slug: editor/client-side-programming/selection-object
+components: ["editor"]
 tags: selection,object
 published: True
 position: 4

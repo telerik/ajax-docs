@@ -3,6 +3,7 @@ title: OnClientFilesSelecting
 page_title: OnClientFilesSelecting - RadCloudUpload
 description: Check our Web Forms article about OnClientFilesSelecting.
 slug: cloudupload/client-side-programming/events/onclientfilesselecting
+components: ["cloudupload"]
 tags: onclientfilesselecting
 published: True
 position: 1

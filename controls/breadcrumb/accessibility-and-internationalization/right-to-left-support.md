@@ -3,6 +3,7 @@ title: Right-to-left Support
 page_title: Right-to-left Support - RadBreadcrumb
 description: Check our Web Forms article about Right-to-left Support.
 slug: breadcrumb/accessibility-and-internationalization/right-to-left-support
+components: ["breadcrumb"]
 tags: right-to-left,support
 published: True
 position: 0

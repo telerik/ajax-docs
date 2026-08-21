@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Overview - RadListView
 description: Check our Web Forms article about Overview.
 slug: listview/data-binding/client-side/overview
+components: ["listview"]
 tags: overview
 published: True
 position: 0

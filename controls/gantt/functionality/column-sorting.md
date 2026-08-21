@@ -3,6 +3,7 @@ title: Column Sorting
 page_title: Column Sorting - RadGantt
 description: Check our Web Forms article about Column Sorting.
 slug: gantt/functionality/column-sorting
+components: ["gantt"]
 tags: column,sorting
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Creating a Custom Skin
 page_title: Creating a Custom Skin - RadMaskedTextBox
 description: Check our Web Forms article about Creating a Custom Skin.
 slug: radmaskedtextbox/appearance-and-styling/creating-a-custom-skin
+components: ["maskedtextbox"]
 tags: creating,a,custom,skin
 published: True
 position: 3

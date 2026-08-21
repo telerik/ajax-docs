@@ -3,6 +3,7 @@ title: Settings
 page_title: Settings - RadPivotGrid
 description: Check our Web Forms article about Settings.
 slug: pivotgrid/totals/settings
+components: ["pivotgrid"]
 tags: settings
 published: True
 position: 1

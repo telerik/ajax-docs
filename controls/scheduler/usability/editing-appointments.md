@@ -3,6 +3,7 @@ title: Editing Appointments
 page_title: Editing Appointments - RadScheduler
 description: Check our Web Forms article about Editing Appointments.
 slug: scheduler/usability/editing-appointments
+components: ["scheduler"]
 tags: editing,appointments
 published: True
 position: 3

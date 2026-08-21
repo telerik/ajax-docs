@@ -3,6 +3,7 @@ title: WCAG 2.1 and Section 508 Accessibility Compliance
 page_title: WCAG 2.1 and Section 508 Accessibility Compliance - RadBreadcrumb
 description: Check our Web Forms article about WCAG 2.1 and Section 508 Accessibility Compliance.
 slug: breadcrumb/accessibility-and-internationalization/wcag-2.1-and-section-508-accessibility-compliance
+components: ["breadcrumb"]
 tags: wcag,2.1,and,section,508,accessibility,compliance
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadColorPicker
 description: Check our Web Forms article about Events.
 slug: colorpicker/server-side-programming/events
+components: ["colorpicker"]
 tags: events
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Docking Zones
 page_title: Docking Zones - RadEditor
 description: Check our Web Forms article about Docking Zones.
 slug: editor/functionality/toolbars/docking-zones
+components: ["editor"]
 tags: docking,zones
 published: True
 position: 3

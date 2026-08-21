@@ -3,6 +3,7 @@ title: CommandsManager Object
 page_title: CommandsManager Object - RadEditor
 description: Check our Web Forms article about CommandsManager Object.
 slug: editor/client-side-programming/commandsmanager-object
+components: ["editor"]
 tags: commandsmanager,object
 published: True
 position: 6

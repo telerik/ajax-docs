@@ -3,6 +3,7 @@ title: Format Code Block
 page_title: Format Code Block - RadEditor
 description: Check our Web Forms article about Format Code Block.
 slug: editor/functionality/dialogs/format-code-block
+components: ["editor"]
 tags: format,code,block
 published: True
 position: 5

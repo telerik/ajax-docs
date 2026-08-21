@@ -3,6 +3,7 @@ title: Overview
 page_title: RadChart Types Overview - RadChart
 description: Check our Web Forms article about RadChart Types Overview.
 slug: chart/understanding-radchart-types/radchart-types-overview
+components: ["chart"]
 tags: radchart,types,overview
 published: True
 position: 0

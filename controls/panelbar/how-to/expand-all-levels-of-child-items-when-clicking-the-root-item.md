@@ -3,6 +3,7 @@ title: Expand All Levels of Child Items When Clicking the Root Item
 page_title: Expand All Levels of Child Items When Clicking the Root Item - RadPanelBar
 description: Check our Web Forms article about Expand All Levels of Child Items When Clicking the Root Item.
 slug: panelbar/how-to/expand-all-levels-of-child-items-when-clicking-the-root-item
+components: ["panelbar"]
 tags: expand,all,levels,of,child,items,when,clicking,the,root,item
 published: True
 position: 1

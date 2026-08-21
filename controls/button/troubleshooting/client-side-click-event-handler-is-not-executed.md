@@ -3,6 +3,7 @@ title: Client-side Click Event Handler Is Not Executed
 page_title: Client-side Click Event Handler Is Not Executed - RadButton
 description: Check our Web Forms article about Client-side Click Event Handler Is Not Executed.
 slug: button/troubleshooting/client-side-click-event-handler-is-not-executed
+components: ["button"]
 tags: client-side,click,event,handler,is,not,executed
 published: True
 position: 3

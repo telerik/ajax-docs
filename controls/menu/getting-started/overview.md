@@ -3,6 +3,7 @@ title: Getting Started Overview
 page_title: Overview - RadMenu
 description: Check our Web Forms article about Overview.
 slug: menu/getting-started/overview
+components: ["menu"]
 tags: overview
 published: True
 position: 0

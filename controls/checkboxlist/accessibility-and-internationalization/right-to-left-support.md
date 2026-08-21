@@ -3,6 +3,7 @@ title: Right-to-Left Support
 page_title: Right-to-Left Support - RadCheckBoxList
 description: Check our Web Forms article about Right-to-Left Support.
 slug: checkboxlist/accessibility-and-internationalization/right-to-left-support
+components: ["checkboxlist"]
 tags: right-to-left,support
 published: True
 position: 1

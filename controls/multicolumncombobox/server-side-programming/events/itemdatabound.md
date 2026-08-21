@@ -3,6 +3,7 @@ title: ItemDataBound
 page_title: ItemDataBound - RadMultiColumnComboBox
 description: Check our Web Forms article about ItemDataBound.
 slug: multicolumncombobox/server-side-programming/events/itemdatabound
+components: ["multicolumncombobox"]
 tags: itemdatabound
 published: True
 position: 0

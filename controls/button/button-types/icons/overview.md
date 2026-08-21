@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadButton
 description: Discover how to use icons in the Button control to enhance visual appeal and improve user experience.
 slug: button/button-types/icons/overview
+components: ["button"]
 tags: overview
 published: True
 position: 0

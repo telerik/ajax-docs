@@ -3,6 +3,7 @@ title: Styles
 page_title: Styles - RadCalendar
 description: Check our Web Forms article about Styles.
 slug: calendar/appearance-and-styling/styles
+components: ["calendar"]
 tags: styles
 published: True
 position: 1

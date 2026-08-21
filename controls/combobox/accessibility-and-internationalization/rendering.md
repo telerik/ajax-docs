@@ -3,6 +3,7 @@ title: Rendering
 page_title: Rendering - RadComboBox
 description: Check our Web Forms article about Rendering.
 slug: combobox/accessibility-and-internationalization/rendering
+components: ["combobox"]
 tags: rendering
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: HTML Output and CSS Styling
 page_title: HTML Output and CSS Styling - RadDateInput
 description: Check our Web Forms article about HTML Output and CSS Styling.
 slug: raddateinput/appearance-and-styling/html-output-and-css-styling
+components: ["dateinput"]
 tags: html,output,and,css,styling
 published: True
 position: 4

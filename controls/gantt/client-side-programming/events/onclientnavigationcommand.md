@@ -3,6 +3,7 @@ title: OnClientNavigationCommand
 page_title: OnClientNavigationCommand - RadGantt
 description: Check our Web Forms article about OnClientNavigationCommand.
 slug: gantt/client-side-programming/events/onclientnavigationcommand
+components: ["gantt"]
 tags: onclientnavigationcommand
 published: True
 position: 18

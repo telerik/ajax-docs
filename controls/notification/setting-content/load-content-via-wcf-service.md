@@ -3,6 +3,7 @@ title: Load Content Via WCF Service
 page_title: Load Content Via WCF Service - RadNotification
 description: Check our Web Forms article about Load Content Via WCF Service.
 slug: notification/setting-content/load-content-via-wcf-service
+components: ["notification"]
 tags: load,content,via,wcf,service
 published: True
 position: 3

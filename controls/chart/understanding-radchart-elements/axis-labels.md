@@ -3,6 +3,7 @@ title: Axis Labels
 page_title: Axis Labels - RadChart
 description: Check our Web Forms article about Axis Labels.
 slug: chart/understanding-radchart-elements/axis-labels
+components: ["chart"]
 tags: axis,labels
 published: True
 position: 3

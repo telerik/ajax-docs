@@ -3,6 +3,7 @@ title: Issues With Initially Invisible ComboBox and Width Is in Percentage
 page_title: Issues With Initially Invisible ComboBox and Width Is in Percentage - RadComboBox
 description: Check our Web Forms article about Issues With Initially Invisible ComboBox and Width Is in Percentage.
 slug: combobox/troubleshooting/issues-with-initially-invisible-combobox-and-width-is-in-percentage
+components: ["combobox"]
 tags: issues,with,initially,invisible,combobox,and,width,is,in,percentage
 published: True
 position: 11

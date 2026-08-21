@@ -3,6 +3,7 @@ title: Declarative Data Source
 page_title: Declarative Data Source - RadImageGallery
 description: Check our Web Forms article about Declarative Data Source.
 slug: imagegallery/data-binding/server-side/declarative-data-source
+components: ["imagegallery"]
 tags: declarative,data,source
 published: True
 position: 2

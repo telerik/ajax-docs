@@ -3,6 +3,7 @@ title: OnClientUpdating
 page_title: OnClientUpdating - RadNotification
 description: Check our Web Forms article about OnClientUpdating.
 slug: notification/client-side-programming/events/onclientupdating
+components: ["notification"]
 tags: onclientupdating
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: NavigationItemBinding Collection Editor
 page_title: NavigationItemBinding Collection Editor - RadMenu
 description: Check our Web Forms article about NavigationItemBinding Collection Editor.
 slug: menu/design-time/navigationitembinding-collection-editor
+components: ["menu"]
 tags: navigationitembinding,collection,editor
 published: True
 position: 3

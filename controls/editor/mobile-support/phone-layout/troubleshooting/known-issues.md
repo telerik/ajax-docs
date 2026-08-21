@@ -3,6 +3,7 @@ title: Known Issues
 page_title: Phone Layout Known Issues - RadEditor
 description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/troubleshooting/known-issues
+components: ["editor"]
 tags: editor,support,mobile,rendering,issues
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: DataKeyNames
 page_title: DataKeyNames - RadSearchBox
 description: Check our Web Forms article about DataKeyNames.
 slug: searchbox/functionality/datakeynames
+components: ["searchbox"]
 tags: datakeynames
 published: True
 position: 4

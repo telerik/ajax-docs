@@ -3,6 +3,7 @@ title: Drag and Drop Files
 page_title: Drag and Drop Files - RadFileExplorer
 description: Check our Web Forms article about Drag and Drop Files.
 slug: fileexplorer/functionality/drag-and-drop-files
+components: ["fileexplorer"]
 tags: drag,and,dorp,files
 published: True
 position: 3

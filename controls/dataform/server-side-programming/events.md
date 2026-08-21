@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadDataForm
 description: Check our Web Forms article about Events.
 slug: dataform/server-side-programming/events
+components: ["dataform"]
 tags: events
 published: True
 position: 1

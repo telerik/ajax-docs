@@ -3,6 +3,7 @@ title: DataBinding Expressions
 page_title: DataBinding Expressions - RadPanelBar
 description: Check our Web Forms article about DataBinding Expressions.
 slug: panelbar/templates/databinding-expressions
+components: ["panelbar"]
 tags: databinding,expressions
 published: True
 position: 4

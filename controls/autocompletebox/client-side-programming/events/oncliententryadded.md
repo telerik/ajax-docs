@@ -3,6 +3,7 @@ title: OnClientEntryAdded
 page_title: OnClientEntryAdded - RadAutoCompleteBox
 description: Check our Web Forms article about OnClientEntryAdded.
 slug: autocompletebox/client-side-programming/events/oncliententryadded
+components: ["autocompletebox"]
 tags: oncliententryadded
 published: True
 position: 5

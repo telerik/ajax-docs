@@ -3,6 +3,7 @@ title: Loading Items from WebService
 page_title: Client-side Data Binding using ASP.NET Web Service - RadComboBox
 description: Fetching server data using ASP.NET Web Services to ensure responsive, dynamic applications with minimal overhead, enhancing both performance and user experience.
 slug: combobox/data-binding/client-side/loading-items-from-webservice
+components: ["combobox"]
 previous_url: controls/combobox/load-on-demand/loading-items-from-a-web-service, controls/combobox/load-on-demand/loading-items-from-wcf-service
 tags: client-side, data binding, loading, items, aspnet, webservice
 published: True

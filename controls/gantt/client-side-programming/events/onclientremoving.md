@@ -3,6 +3,7 @@ title: OnClientRemoving
 page_title: OnClientRemoving - RadGantt
 description: Check our Web Forms article about OnClientRemoving.
 slug: gantt/client-side-programming/events/onclientremoving
+components: ["gantt"]
 tags: onclientremoving
 published: True
 position: 4

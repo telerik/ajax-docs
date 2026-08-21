@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadEditor
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: editor/accessibility-and-internationalization/standards-compliance/wai-aria-support
+components: ["editor"]
 tags: wai-aria,support
 published: True
 position: 3

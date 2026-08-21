@@ -3,6 +3,7 @@ title: Scatter Chart
 page_title: Scatter Chart - RadHtmlChart
 description: Check our Web Forms article about Scatter Chart.
 slug: htmlchart/chart-types/scatter-chart
+components: ["htmlchart"]
 tags: scatter,chart
 published: True
 position: 18

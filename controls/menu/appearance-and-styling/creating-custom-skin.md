@@ -3,6 +3,7 @@ title: Creating Custom Skin
 page_title: Creating Custom Skin - RadMenu
 description: Check our Web Forms article about Creating Custom Skin.
 slug: menu/appearance-and-styling/creating-custom-skin
+components: ["menu"]
 tags: css,skin,file,selectors
 published: True
 position: 11

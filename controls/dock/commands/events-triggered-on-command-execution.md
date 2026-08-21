@@ -3,6 +3,7 @@ title: Events Triggered on Command Execution
 page_title: Events Triggered on Command Execution - RadDock
 description: Check our Web Forms article about Events Triggered on Command Execution.
 slug: dock/commands/events-triggered-on-command-execution
+components: ["dock"]
 tags: events,triggered,on,command,execution
 published: True
 position: 1

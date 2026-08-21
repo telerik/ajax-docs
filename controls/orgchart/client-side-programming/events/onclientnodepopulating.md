@@ -3,6 +3,7 @@ title: OnClientNodePopulating
 page_title: OnClientNodePopulating - RadOrgChart
 description: Check our Web Forms article about OnClientNodePopulating.
 slug: orgchart/client-side-programming/events/onclientnodepopulating
+components: ["orgchart"]
 tags: onclientnodepopulating
 published: True
 position: 5

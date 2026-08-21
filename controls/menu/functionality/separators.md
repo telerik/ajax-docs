@@ -3,6 +3,7 @@ title: Separators
 page_title: Separators - RadMenu
 description: Check our Web Forms article about Separators.
 slug: menu/functionality/separators
+components: ["menu"]
 tags: separators
 published: True
 position: 4

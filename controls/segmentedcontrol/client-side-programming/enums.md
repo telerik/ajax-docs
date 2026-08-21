@@ -3,6 +3,7 @@ title: Enums
 page_title: SegmentedControl Client-side Enums
 description: "Client-side Enums of the Telerik WebForms SegmentedControl component."
 slug: segmentedcontrol/client-side-programming/enums
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, javascript, enums
 published: True
 position: 3

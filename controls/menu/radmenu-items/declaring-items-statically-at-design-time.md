@@ -3,6 +3,7 @@ title: Declaring Items Statically at Design Time
 page_title: Declaring Items Statically at Design Time - RadMenu
 description: Check our Web Forms article about Declaring Items Statically at Design Time.
 slug: menu/radmenu-items/declaring-items-statically-at-design-time
+components: ["menu"]
 tags: declaring,items,statically,at,design,time
 published: True
 position: 2

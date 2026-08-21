@@ -3,6 +3,7 @@ title: Binding to Collections
 page_title: Binding to Collections - RadComboBox
 description: Overview of the Server-side Data binding options for the Telerik WebForms Combobox.
 slug: combobox/data-binding/server-side/binding-to-collections
+components: ["combobox"]
 tags: server-side, data binding, array, arraylist, datatable, dataset, dataview
 published: True
 position: 2

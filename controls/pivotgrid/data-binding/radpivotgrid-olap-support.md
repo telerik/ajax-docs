@@ -3,6 +3,7 @@ title: RadPivotGrid OLAP Support
 page_title: RadPivotGrid OLAP Support - RadPivotGrid
 description: Check our Web Forms article about RadPivotGrid OLAP Support.
 slug: pivotgrid/data-binding/radpivotgrid-olap-support
+components: ["pivotgrid"]
 tags: radpivotgrid,olap,support
 published: True
 position: 2

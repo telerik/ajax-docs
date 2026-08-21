@@ -3,6 +3,7 @@ title: OnClientCheckedChanging
 page_title: OnClientCheckedChanging - RadButton
 description: Check our Web Forms article about OnClientCheckedChanging.
 slug: button/client-side-programming/events/onclientcheckedchanging
+components: ["button"]
 tags: onclientcheckedchanging
 published: True
 position: 2

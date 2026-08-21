@@ -3,6 +3,7 @@ title: Page Settings
 page_title: Page Settings - RadScheduler
 description: Check our Web Forms article about Page Settings.
 slug: scheduler/export/pdf/page-settings
+components: ["scheduler"]
 tags: page,settings
 published: True
 position: 2

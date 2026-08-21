@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadCheckBox
 description: Check our Web Forms article about OnClientMouseOut.
 slug: checkbox/client-side-programming/events/onclientmouseout
+components: ["checkbox"]
 tags: onclientmouseout
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: Does not Validate the First Time
 page_title: Does not Validate the First Time - RadCaptcha
 description: Check our Web Forms article about Does not Validate the First Time only the second time after an ajax request or callback.
 slug: captcha/troubleshooting/does-not-validate-the-first-time
+components: ["captcha"]
 tags: validate,ajax,callback,first,time,second,time,works
 published: True
 position: 3

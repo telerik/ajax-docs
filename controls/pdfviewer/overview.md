@@ -3,6 +3,7 @@ title: Overview
 page_title: RadPdfViewer Overview
 description: Learn about the PDFViewer control and its features for displaying and interacting with PDF documents.
 slug: pdfviewer/overview
+components: ["pdfviewer"]
 tags: overview
 published: True
 position: 0

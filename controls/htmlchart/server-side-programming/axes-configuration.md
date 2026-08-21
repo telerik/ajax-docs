@@ -3,6 +3,7 @@ title: Axes Configuration
 page_title: Axes Configuration - RadHtmlChart
 description: Check our Web Forms article about Axes Configuration.
 slug: htmlchart/server-side-programming/axes-configuration
+components: ["htmlchart"]
 tags: axes,configuration
 published: True
 position: 5

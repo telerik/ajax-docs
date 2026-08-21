@@ -3,6 +3,7 @@ title: ChildrenCreated
 page_title: ChildrenCreated - RadDateTimePicker
 description: Check our Web Forms article about ChildrenCreated.
 slug: datetimepicker/server-side-programming/events/childrencreated
+components: ["datetimepicker"]
 tags: childrencreated
 published: True
 position: 1

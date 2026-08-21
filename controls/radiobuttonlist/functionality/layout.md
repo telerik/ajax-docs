@@ -3,6 +3,7 @@ title: Layout
 page_title: Layout - RadRadioButtonList
 description: Check our Web Forms article about Layout.
 slug: radiobuttonlist/functionality/layout
+components: ["radiobuttonlist"]
 tags: layout
 published: True
 position: 0

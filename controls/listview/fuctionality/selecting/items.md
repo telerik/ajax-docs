@@ -3,6 +3,7 @@ title: Items
 page_title: Items - RadListView
 description: Check our Web Forms article about Items.
 slug: listview/fuctionality/selecting/items
+components: ["listview"]
 tags: items
 published: True
 position: 0

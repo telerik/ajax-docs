@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadLinkButton
 description: Check our Web Forms article about Design Time.
 slug: linkbutton/design-time
+components: ["linkbutton"]
 tags: design,time
 published: True
 position: 3

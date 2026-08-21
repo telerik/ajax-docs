@@ -3,6 +3,7 @@ title: Hide the Delete Button of Appointments
 page_title: Hide the Delete Button of Appointments - RadScheduler
 description: Check our Web Forms article about Hide the Delete Button of Appointments.
 slug: scheduler/how-to/hide-the-delete-button-of-appointments
+components: ["scheduler"]
 tags: hide,the,delete,button,of,appointments
 published: True
 position: 6

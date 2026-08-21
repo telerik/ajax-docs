@@ -3,6 +3,7 @@ title: Overview
 page_title: Toolbars Overview - RadEditor
 description: Learn about the toolbars in the Editor control and how to customize them for specific editing needs.
 slug: editor/functionality/toolbars/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

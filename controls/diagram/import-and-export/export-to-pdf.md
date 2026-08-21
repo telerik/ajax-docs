@@ -3,6 +3,7 @@ title: Export to PDF
 page_title: Export to PDF - RadDiagram
 description: Check our Web Forms article about Export to PDF.
 slug: diagram/import-and-export/export-to-pdf
+components: ["diagram"]
 tags: export,to,pdf
 published: True
 position: 3

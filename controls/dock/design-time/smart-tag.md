@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadDock
 description: Check our Web Forms article about Smart Tag.
 slug: dock/design-time/smart-tag
+components: ["dock"]
 tags: smart,tag
 published: True
 position: 0

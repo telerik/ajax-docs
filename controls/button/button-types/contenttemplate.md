@@ -3,6 +3,7 @@ title: ContentTemplate
 page_title: ContentTemplate - RadButton
 description: Check our Web Forms article about ContentTemplate.
 slug: button/button-types/contenttemplate
+components: ["button"]
 tags: contenttemplate
 published: True
 position: 4

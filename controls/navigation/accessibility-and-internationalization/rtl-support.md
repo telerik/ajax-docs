@@ -3,6 +3,7 @@ title: RTL Support
 page_title: RTL Support - RadNavigation
 description: Check our Web Forms article about RTL Support.
 slug: navigation/accessibility-and-internationalization/rtl-support
+components: ["navigation"]
 tags: rtl,support
 published: False
 position: 2

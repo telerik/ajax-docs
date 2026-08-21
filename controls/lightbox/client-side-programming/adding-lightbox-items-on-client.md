@@ -3,6 +3,7 @@ title: Adding LightBox Items on Client
 page_title: Adding LightBox Items on Client - RadLightBox
 description: Check our Web Forms article about Adding LightBox Items on Client.
 slug: lightbox/client-side-programming/adding-lightbox-items-on-client
+components: ["lightbox"]
 tags: adding,lightbox,items,on,client
 published: True
 position: 1

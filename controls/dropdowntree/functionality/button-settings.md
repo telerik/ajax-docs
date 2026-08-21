@@ -3,6 +3,7 @@ title: Button Settings
 page_title: Button Settings - RadDropDownTree
 description: Check our Web Forms article about Button Settings.
 slug: dropdowntree/functionality/button-settings
+components: ["dropdowntree"]
 tags: button,settings
 published: True
 position: 3

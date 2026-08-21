@@ -3,6 +3,7 @@ title: Item Builder
 page_title: Item Builder - RadListBox
 description: Check our Web Forms article about Item Builder.
 slug: listbox/design-time/item-builder
+components: ["listbox"]
 tags: item,builder
 published: True
 position: 1

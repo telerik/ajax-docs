@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadSearchBox
 description: Check our Web Forms article about Overview.
 slug: searchbox/data-binding/overview
+components: ["searchbox"]
 tags: overview
 published: True
 position: 0

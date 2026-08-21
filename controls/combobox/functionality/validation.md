@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadComboBox
 description: Check our Web Forms article about Validation.
 slug: combobox/functionality/validation
+components: ["combobox"]
 tags: validation
 published: True
 position: 2

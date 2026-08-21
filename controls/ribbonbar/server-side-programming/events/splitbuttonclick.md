@@ -3,6 +3,7 @@ title: SplitButtonClick
 page_title: SplitButtonClick - RadRibbonBar
 description: Check our Web Forms article about SplitButtonClick.
 slug: ribbonbar/server-side-programming/events/splitbuttonclick
+components: ["ribbonbar"]
 tags: splitbuttonclick
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview - RadComboBox
 description: Check our Web Forms article about Overview.
 slug: combobox/templates/overview
+components: ["combobox"]
 tags: overview, templates
 published: True
 position: 0

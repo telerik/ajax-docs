@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadEditor
 description: Check our Web Forms article about Overview.
 slug: editor/server-side-programming/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

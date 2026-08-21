@@ -3,6 +3,7 @@ title: Prevent from Typing Particular Characters
 page_title: Prevent from Typing Particular Characters - RadComboBox
 description: Check our Web Forms article about Prevent from Typing Particular Characters.
 slug: combobox/how-to/prevent-from-typing-particular-characters
+components: ["combobox"]
 tags: prevent,from,typing,particular,characters
 published: True
 position: 5

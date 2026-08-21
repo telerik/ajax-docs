@@ -3,6 +3,7 @@ title: ItemClick
 page_title: ItemClick - RadMenu
 description: Check our Web Forms article about ItemClick.
 slug: menu/server-side-programming/itemclick
+components: ["menu"]
 tags: itemclick
 published: True
 position: 1

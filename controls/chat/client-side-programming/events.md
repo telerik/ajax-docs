@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadChat
 description: Check our Web Forms article about Events.
 slug: chat/client-side-programming/events
+components: ["chat"]
 tags: events
 published: True
 position: 1

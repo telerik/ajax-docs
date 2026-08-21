@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadDropDownTree
 description: Check our Web Forms article about Telerik's ASP.NET RadDropDownTree Getting Started.
 slug: dropdowntree/getting-started
+components: ["dropdowntree"]
 tags: getting,started
 published: True
 position: 1

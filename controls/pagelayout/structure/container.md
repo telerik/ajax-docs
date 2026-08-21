@@ -3,6 +3,7 @@ title: Container
 page_title: Container - RadPageLayout
 description: Check our Web Forms article about Container.
 slug: pagelayout/structure/container
+components: ["pagelayout"]
 tags: container
 published: True
 position: 0

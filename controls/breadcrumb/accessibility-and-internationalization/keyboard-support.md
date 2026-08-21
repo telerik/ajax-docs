@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadBreadcrumb
 description: Check our Web Forms article about Keyboard Support.
 slug: breadcrumb/accessibility-and-internationalization/keyboard-support
+components: ["breadcrumb"]
 tags: keyboard,support
 published: True
 position: 1

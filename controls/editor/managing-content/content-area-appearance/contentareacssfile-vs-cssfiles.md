@@ -3,6 +3,7 @@ title: ContentAreaCssFile vs. CssFiles
 page_title: ContentAreaCssFile vs. CssFiles - RadEditor
 description: Check our Web Forms article about ContentAreaCssFile versus CssFiles.
 slug: editor/managing-content/content-area-appearance/contentareacssfile-vs-cssfiles
+components: ["editor"]
 tags: contentareacssfile, cssfiles, custom, stylization, content, area, css
 published: True
 position: 2

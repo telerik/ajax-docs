@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadDateTimePicker
 description: Check our Web Forms article about Keyboard Support.
 slug: datetimepicker/accessibility-and-internationalization/keyboard-support
+components: ["datetimepicker"]
 tags: keyboard,support
 published: True
 position: 7

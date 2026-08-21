@@ -3,6 +3,7 @@ title: OnClientItemChecked
 page_title: OnClientItemChecked - RadComboBox
 description: Check our Web Forms article about OnClientItemChecked.
 slug: combobox/client-side-programming/events/onclientitemchecked
+components: ["combobox"]
 tags: onclientitemchecked
 published: True
 position: 6

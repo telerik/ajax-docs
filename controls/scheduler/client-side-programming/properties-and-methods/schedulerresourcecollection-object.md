@@ -3,6 +3,7 @@ title: SchedulerResourceCollection Object
 page_title: SchedulerResourceCollection Object - RadScheduler
 description: Check our Web Forms article about SchedulerResourceCollection Object.
 slug: scheduler/client-side-programming/properties-and-methods/schedulerresourcecollection-object
+components: ["scheduler"]
 tags: schedulerresourcecollection,object
 published: True
 position: 4

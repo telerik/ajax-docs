@@ -3,6 +3,7 @@ title: OnClientFilter
 page_title: OnClientFilter - RadFileExplorer
 description: Check our Web Forms article about OnClientFilter.
 slug: fileexplorer/client-side-programming/events/onclientfilter
+components: ["fileexplorer"]
 tags: onclientfilter
 published: True
 position: 9

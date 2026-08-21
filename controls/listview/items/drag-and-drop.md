@@ -3,6 +3,7 @@ title: Drag and Drop
 page_title: Drag and Drop - RadListView
 description: Check our Web Forms article about Drag and Drop.
 slug: listview/items/drag-and-drop
+components: ["listview"]
 tags: drag,and,drop
 published: True
 position: 0

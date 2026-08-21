@@ -3,6 +3,7 @@ title: OnLoad
 page_title: OnLoad - RadNumericTextBox
 description: Check our Web Forms article about OnLoad.
 slug: numerictextbox/client-side-programming/events/onload
+components: ["numerictextbox"]
 tags: onload
 published: True
 position: 10

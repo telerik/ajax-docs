@@ -3,6 +3,7 @@ title: Binding to Array, ArrayList and Generic List
 page_title: Binding to Array, ArrayList and Generic List - RadDropDownTree
 description: Check our Web Forms article about Binding to Array, ArrayList and Generic List.
 slug: dropdowntree/data-binding/binding-to-array,-arraylist-and-generic-list
+components: ["dropdowntree"]
 tags: binding,to,array,,arraylist,and,generic,list
 published: True
 position: 1

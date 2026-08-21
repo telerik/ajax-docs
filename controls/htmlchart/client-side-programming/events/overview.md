@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadHtmlChart
 description: Check our Web Forms article about Events Overview.
 slug: htmlchart/client-side-programming/events/overview
+components: ["htmlchart"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Adding Images to Items
 page_title: Adding Images to Items - RadMenu
 description: Check our Web Forms article about Adding Images to Items.
 slug: menu/appearance-and-styling/adding-images-to-items
+components: ["menu"]
 tags: adding,images,to,items
 published: True
 position: 1

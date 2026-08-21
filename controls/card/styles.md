@@ -3,6 +3,7 @@ title: Styles
 page_title: RadCard Styles
 description: Check our Web Forms article about Styles.
 slug: card/styles
+components: ["card"]
 tags: styles
 published: True
 position: 4

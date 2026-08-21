@@ -3,6 +3,7 @@ title: Order Series via ZIndex Property
 page_title: Order Series via ZIndex Property - RadHtmlChart
 description: Check our Web Forms article about Order Series via ZIndex Property.
 slug: htmlchart/appearance-and-styling/order-series-via-zindex-property
+components: ["htmlchart"]
 tags: order,series,via,zindex,property
 published: True
 position: 0

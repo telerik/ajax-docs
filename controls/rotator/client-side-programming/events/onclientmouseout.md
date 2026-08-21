@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadRotator
 description: Check our Web Forms article about OnClientMouseOut.
 slug: rotator/client-side-programming/events/onclientmouseout
+components: ["rotator"]
 tags: onclientmouseout
 published: True
 position: 9

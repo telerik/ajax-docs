@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadCloudUpload
 description: Check our Web Forms article about Skins.
 slug: cloudupload/appearance-and-styling/skins
+components: ["cloudupload"]
 tags: skins
 published: True
 position: 0

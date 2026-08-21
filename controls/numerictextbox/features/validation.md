@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadInput
 description: Check our Web Forms article about Validation.
 slug: numerictextbox/features/validation
+components: ["numerictextbox"]
 tags: validation
 published: True
 position: 1

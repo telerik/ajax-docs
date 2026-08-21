@@ -3,6 +3,7 @@ title: OnLoad
 page_title: OnLoad - RadDateInput
 description: Check our Web Forms article about OnLoad.
 slug: raddateinput/client-side-programming/events/onload
+components: ["dateinput"]
 tags: onload
 published: True
 position: 10

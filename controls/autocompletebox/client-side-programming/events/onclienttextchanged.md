@@ -3,6 +3,7 @@ title: OnClientTextChanged
 page_title: OnClientTextChanged - RadAutoCompleteBox
 description: Check our Web Forms article about OnClientTextChanged.
 slug: autocompletebox/client-side-programming/events/onclienttextchanged
+components: ["autocompletebox"]
 tags: onclienttextchanged
 published: True
 position: 8

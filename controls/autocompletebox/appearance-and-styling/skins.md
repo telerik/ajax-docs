@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadAutoCompleteBox
 description: Check our Web Forms article about Skins.
 slug: autocompletebox/appearance-and-styling/skins
+components: ["autocompletebox"]
 tags: skins
 published: False
 position: 0

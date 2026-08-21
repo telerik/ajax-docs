@@ -3,6 +3,7 @@ title: OnLoad
 page_title: OnLoad - RadCalendar
 description: Check our Web Forms article about OnLoad.
 slug: calendar/client-side-programming/events/onload
+components: ["calendar"]
 tags: onload
 published: True
 position: 2

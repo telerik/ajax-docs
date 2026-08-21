@@ -3,6 +3,7 @@ title: Patterns
 page_title: Patterns
 description: "Learn how to use Series Patterns of the Telerik UI for ASP.NET AJAX Chart."
 slug: htmlchart/appearance-and-styling/patterns
+components: ["htmlchart"]
 tags: patterns
 published: True
 position: 8

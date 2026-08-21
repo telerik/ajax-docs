@@ -3,6 +3,7 @@ title: RadioButtonList Object
 page_title: RadioButtonList Object - RadRadioButtonList
 description: Check our Web Forms article about RadioButtonList Object.
 slug: radiobuttonlist/client-side-programming/radiobuttonlist-object
+components: ["radiobuttonlist"]
 tags: radiobutton, button, radiobuttonlist, list, radio ,object
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Gestures
 page_title: Gestures - RadImageGallery
 description: Check our Web Forms article about Gestures.
 slug: imagegallery/mobile-support/gestures
+components: ["imagegallery"]
 tags: gestures
 published: True
 position: 3

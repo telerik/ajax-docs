@@ -3,6 +3,7 @@ title: Range Grouping
 page_title: Range Grouping - RadPivotGrid
 description: Check our Web Forms article about Range Grouping.
 slug: pivotgrid/functionality/range-grouping
+components: ["pivotgrid"]
 tags: range,grouping
 published: True
 position: 3

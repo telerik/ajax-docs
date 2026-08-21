@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadLightBox
 description: Check our Web Forms article about Design Time.
 slug: lightbox/design-time
+components: ["lightbox"]
 tags: design,time
 published: True
 position: 3

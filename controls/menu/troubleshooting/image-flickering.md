@@ -3,6 +3,7 @@ title: Image flickering
 page_title: Image flickering - RadMenu
 description: Check our Web Forms article about Image flickering.
 slug: menu/troubleshooting/image-flickering
+components: ["menu"]
 tags: image,flickering
 published: False
 position: 0

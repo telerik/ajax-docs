@@ -3,6 +3,7 @@ title: AllowCustomText Cannot Be Disabled When Loading Items on Demand
 page_title: AllowCustomText Cannot Be Disabled When Loading Items on Demand - RadComboBox
 description: Check our Web Forms article about AllowCustomText Cannot Be Disabled When Loading Items on Demand.
 slug: combobox/troubleshooting/allowcustomtext-cannot-be-disabled-when-loading-items-on-demand
+components: ["combobox"]
 tags: allowcustomtext,cannot,be,disabled,when,loading,items,on,demand
 published: True
 position: 5

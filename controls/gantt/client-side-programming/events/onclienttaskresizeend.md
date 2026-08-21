@@ -3,6 +3,7 @@ title: OnClientTaskResizeEnd
 page_title: OnClientTaskResizeEnd - RadGantt
 description: Check our Web Forms article about OnClientTaskResizeEnd.
 slug: gantt/client-side-programming/events/onclienttaskresizeend
+components: ["gantt"]
 tags: onclienttaskresizeend
 published: True
 position: 16

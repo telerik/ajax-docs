@@ -3,6 +3,7 @@ title: Radar Chart
 page_title: Radar Chart - RadHtmlChart
 description: Check our Web Forms article about Radar Chart.
 slug: htmlchart/chart-types/radar-chart
+components: ["htmlchart"]
 tags: radar,chart
 published: True
 position: 15

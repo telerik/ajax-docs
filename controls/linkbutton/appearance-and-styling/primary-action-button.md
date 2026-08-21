@@ -3,6 +3,7 @@ title: Primary Action Button
 page_title: Primary Action Button - RadLinkButton
 description: Check our Web Forms article about Primary Action Button.
 slug: linkbutton/appearance-and-styling/primary-action-button
+components: ["linkbutton"]
 tags: primary,and,secondary,action,buttons,state
 published: True
 position: 2

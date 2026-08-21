@@ -3,6 +3,7 @@ title: Dock Collection Editor
 page_title: Dock Collection Editor - RadDock
 description: Check our Web Forms article about Dock Collection Editor.
 slug: dock/design-time/dock-collection-editor
+components: ["dock"]
 tags: dock,collection,editor
 published: True
 position: 1

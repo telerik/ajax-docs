@@ -3,6 +3,7 @@ title: NodeExpandCollapse
 page_title: NodeExpandCollapse - RadOrgChart
 description: Check our Web Forms article about NodeExpandCollapse.
 slug: orgchart/server-side-programming/events/nodeexpandcollapse
+components: ["orgchart"]
 tags: nodeexpandcollapse
 published: True
 position: 6

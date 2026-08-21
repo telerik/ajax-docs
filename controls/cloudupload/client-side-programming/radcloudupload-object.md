@@ -3,6 +3,7 @@ title: RadCloudUpload Object
 page_title: RadCloudUpload Object - RadCloudUpload
 description: Check our Web Forms article about RadCloudUpload Object.
 slug: cloudupload/client-side-programming/radcloudupload-object
+components: ["cloudupload"]
 tags: radcloudupload,object
 published: True
 position: 1

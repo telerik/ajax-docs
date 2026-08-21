@@ -3,6 +3,7 @@ title: Defining Color Palettes
 page_title: Defining Color Palettes - RadColorPicker
 description: Check our Web Forms article about Defining Color Palettes.
 slug: colorpicker/functionality/defining-color-palettes
+components: ["colorpicker"]
 tags: defining,color,palettes
 published: True
 position: 0

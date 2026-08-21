@@ -3,6 +3,7 @@ title: Client-side Binding
 page_title: Client-side Binding - RadSearchBox
 description: Check our Web Forms article about Client-side Binding.
 slug: searchbox/search-context/data-binding/client-side-binding
+components: ["searchbox"]
 tags: client-side,binding
 published: True
 position: 1

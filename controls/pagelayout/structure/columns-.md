@@ -3,6 +3,7 @@ title: Columns
 page_title: Columns - RadPageLayout
 description: Check our Web Forms article about Columns.
 slug: pagelayout/structure/columns-
+components: ["pagelayout"]
 tags: columns,
 published: True
 position: 2

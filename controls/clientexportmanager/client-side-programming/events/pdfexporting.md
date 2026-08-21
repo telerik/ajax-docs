@@ -3,6 +3,7 @@ title: PdfExporting
 page_title: PdfExporting - RadClientExportManager
 description: Check our Web Forms article about PdfExporting.
 slug: clientexportmanager/client-side-programming/events/pdfexporting
+components: ["clientexportmanager"]
 tags: pdfexporting
 published: True
 position: 1

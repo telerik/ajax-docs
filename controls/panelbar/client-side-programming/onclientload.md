@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadPanelBar
 description: Check our Web Forms article about OnClientLoad.
 slug: panelbar/client-side-programming/onclientload
+components: ["panelbar"]
 tags: onclientload
 published: True
 position: 12

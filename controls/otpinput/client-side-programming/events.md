@@ -3,6 +3,7 @@ title: Events
 page_title: OTPInput Client-side Events
 description: "Client-side Events of the Telerik WebForms OTPInput component."
 slug: otpinput/client-side-programming/events
+components: ["otpinput"]
 tags: otpinput,javascript
 published: True
 position: 2

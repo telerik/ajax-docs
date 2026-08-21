@@ -3,6 +3,7 @@ title: OnClientInitialize
 page_title: OnClientInitialize - RadDock
 description: Check our Web Forms article about OnClientInitialize.
 slug: dock/client-side-programming/events/onclientinitialize
+components: ["dock"]
 tags: onclientinitialize
 published: True
 position: 1

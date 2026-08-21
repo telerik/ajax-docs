@@ -3,6 +3,7 @@ title: Add a Check All Item
 page_title: Add a Check All Item - RadListBox
 description: Check our Web Forms article about Add a Check All Item.
 slug: listbox/how-to/add-a-check-all-item
+components: ["listbox"]
 tags: add,a,check,all,item
 published: True
 position: 4

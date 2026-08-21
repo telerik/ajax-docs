@@ -3,6 +3,7 @@ title: Fluid and Elastic Capabilities
 page_title: Fluid and Elastic Capabilities - RadPivotGrid
 description: Check our Web Forms article about Fluid and Elastic Capabilities.
 slug: pivotgrid/mobile-support/fluid-and-elastic-capabilities
+components: ["pivotgrid"]
 tags: fluid,and,elastic,capabilities
 published: True
 position: 1

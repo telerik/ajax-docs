@@ -3,6 +3,7 @@ title: Intelligent Labels
 page_title: Intelligent Labels - RadChart
 description: Check our Web Forms article about Intelligent Labels.
 slug: chart/features/intelligent-labels
+components: ["chart"]
 tags: intelligent,labels
 published: True
 position: 7

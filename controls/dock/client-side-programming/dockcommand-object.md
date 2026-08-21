@@ -3,6 +3,7 @@ title: DockCommand Object
 page_title: DockCommand Object - RadDock
 description: Check our Web Forms article about DockCommand Object.
 slug: dock/client-side-programming/dockcommand-object
+components: ["dock"]
 tags: dockcommand,object
 published: True
 position: 3

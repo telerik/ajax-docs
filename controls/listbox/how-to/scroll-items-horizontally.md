@@ -3,6 +3,7 @@ title: Scroll Items Horizontally
 page_title: Scroll Items Horizontally - RadListBox
 description: Check our Web Forms article about Scroll Items Horizontally.
 slug: listbox/how-to/scroll-items-horizontally
+components: ["listbox"]
 tags: scroll,items,horizontally
 published: True
 position: 0

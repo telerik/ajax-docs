@@ -3,6 +3,7 @@ title: Methods
 page_title: Methods - RadButton
 description: Check our Web Forms article about Methods.
 slug: button/server-side-programming/methods
+components: ["button"]
 tags: methods
 published: True
 position: 1

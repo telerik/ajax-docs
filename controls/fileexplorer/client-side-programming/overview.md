@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadFileExplorer
 description: Check our Web Forms article about Overview.
 slug: fileexplorer/client-side-programming/overview
+components: ["fileexplorer"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Reordering Tasks
 page_title: Reordering Tasks - RadGantt
 description: Check our Web Forms article about Reordering Tasks.
 slug: gantt/functionality/reordering-tasks-
+components: ["gantt"]
 tags: reordering,tasks,
 published: True
 position: 1

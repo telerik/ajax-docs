@@ -3,6 +3,7 @@ title: set_mode
 page_title: set_mode - RadEditor
 description: Check our Web Forms article about set_mode.
 slug: editor/client-side-programming/methods/set_mode
+components: ["editor"]
 tags: set_mode
 published: True
 position: 15

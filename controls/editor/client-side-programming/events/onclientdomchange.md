@@ -3,6 +3,7 @@ title: OnClientDomChange
 page_title: OnClientDomChange - RadEditor
 description: Check our Web Forms article about OnClientDomChange.
 slug: editor/client-side-programming/events/onclientdomchange
+components: ["editor"]
 tags: onclientdomchange
 published: True
 position: 5

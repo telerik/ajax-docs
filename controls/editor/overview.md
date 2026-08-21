@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview
 description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
 slug: editor/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

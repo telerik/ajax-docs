@@ -3,6 +3,7 @@ title: deleteItem
 page_title: deleteItem - RadListView
 description: Check our Web Forms article about deleteItem.
 slug: listview/client-side-programming/radlistview/methods/deleteitem
+components: ["listview"]
 tags: deleteitem
 published: True
 position: 3

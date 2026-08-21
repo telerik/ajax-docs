@@ -3,6 +3,7 @@ title: ItemDataBound
 page_title: ItemDataBound - RadMultiSelect
 description: Check our Web Forms article about ItemDataBound.
 slug: multiselect/server-side-programming/events/itemdatabound
+components: ["multiselect"]
 tags: itemdatabound
 published: True
 position: 0

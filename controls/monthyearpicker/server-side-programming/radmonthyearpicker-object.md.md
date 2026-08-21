@@ -3,6 +3,7 @@ title: RadMonthYearPicker Object
 page_title: RadMonthYearPicker Server-Side Objects - RadMonthYearPicker
 description: Check our Web Forms article about RadMonthYearPickerServer-Side Objects.
 slug: monthyearpicker/server-side-programming/radmonthyearpicker-object
+components: ["monthyearpicker"]
 tags: radmonthyearpicker,server-side,object
 published: True
 position: 0

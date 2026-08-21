@@ -3,6 +3,7 @@ title: Localization Example Using Local Resources, Implicit Expression
 page_title: Localization Example Using Local Resources, Implicit Expression - RadChart
 description: Check our Web Forms article about Localization Example Using Local Resources, Implicit Expression.
 slug: chart/advanced-topics/localization-example-using-local-resources,-implicit-expression
+components: ["chart"]
 tags: localization,example,using,local,resources,,implicit,expression
 published: True
 position: 5

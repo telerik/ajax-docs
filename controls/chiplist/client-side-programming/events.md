@@ -3,6 +3,7 @@ title: Events
 page_title: ChipList Client-side Events
 description: "Client-side Events of the Telerik WebForms ChipList component."
 slug: chiplist/client-side-programming/events
+components: ["chiplist"]
 tags: chiplist,javascript,enums
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: GanttTaskCollection Object
 page_title: GanttTaskCollection Object - RadGantt
 description: Check our Web Forms article about GanttTaskCollection Object.
 slug: gantt/client-side-programming/objects/gantttaskcollection-object
+components: ["gantt"]
 tags: gantttaskcollection,object
 published: True
 position: 1

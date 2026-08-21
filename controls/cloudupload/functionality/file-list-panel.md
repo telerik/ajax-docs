@@ -3,6 +3,7 @@ title: File List Panel
 page_title: File List Panel - RadCloudUpload
 description: Check our Web Forms article about File List Panel.
 slug: cloudupload/functionality/file-list-panel
+components: ["cloudupload"]
 tags: file,list,panel
 published: True
 position: 1

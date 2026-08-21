@@ -3,6 +3,7 @@ title: How to Create An Entry or Select a Node
 page_title: How to Create An Entry or Select a Node - RadDropDownTree
 description: Check our Web Forms article about How to Create An Entry or Select a Node.
 slug: dropdowntree/how-to/how-to-create-an-entry-or-select-a-node
+components: ["dropdowntree"]
 tags: how,to,create,an,entry,or,select,a,node
 published: True
 position: 1

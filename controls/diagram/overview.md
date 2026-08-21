@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDiagram Overview - RadDiagram
 description: Check our Web Forms article about RadDiagram Overview.
 slug: diagram/overview
+components: ["diagram"]
 tags: overview
 published: True
 position: 0

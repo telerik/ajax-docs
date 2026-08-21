@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadButton
 description: Check our Web Forms article about Render Modes.
 slug: button/mobile-support/render-modes
+components: ["button"]
 tags: render,modes
 published: True
 position: 3

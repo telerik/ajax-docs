@@ -3,6 +3,7 @@ title: Overview
 page_title: RadNotification Overview
 description: Explore the Notification control and its features for displaying alerts and messages to users.
 slug: notification/overview
+components: ["notification"]
 tags: overview
 published: True
 position: 0

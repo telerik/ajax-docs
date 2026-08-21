@@ -3,6 +3,7 @@ title: Types
 page_title: Types - RadProgressBar
 description: Check our Web Forms article about Types.
 slug: progressbar/functionality/types
+components: ["progressbar"]
 tags: types
 published: True
 position: 0

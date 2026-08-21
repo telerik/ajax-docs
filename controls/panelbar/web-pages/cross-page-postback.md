@@ -3,6 +3,7 @@ title: Cross-Page Postback
 page_title: Cross-Page Postback - RadPanelBar
 description: Check our Web Forms article about Cross-Page Postback.
 slug: panelbar/web-pages/cross-page-postback
+components: ["panelbar"]
 tags: cross-page,postback
 published: True
 position: 1

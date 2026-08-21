@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadGantt
 description: Check our Web Forms article about Localization.
 slug: gantt/accessibility-and-internationalization/localization
+components: ["gantt"]
 tags: localization
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Save in External File
 page_title: Save in External File - RadEditor
 description: Check our Web Forms article about Save in External File.
 slug: editor/managing-content/getting-and-setting-content/save-in-external-file
+components: ["editor"]
 tags: save,in,external,file
 published: True
 position: 2

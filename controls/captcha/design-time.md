@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadCaptcha
 description: Check our Web Forms article about Design Time.
 slug: captcha/design-time
+components: ["captcha"]
 tags: design,time
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: ObjectDataSource
 page_title: ObjectDataSource - RadHtmlChart
 description: Check our Web Forms article about ObjectDataSource.
 slug: htmlchart/data-binding/objectdatasource
+components: ["htmlchart"]
 tags: objectdatasource
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Embedded Icons
 page_title: Embedded Icons - RadPushButton
 description: Check our Web Forms article about Embedded Icons.
 slug: pushbutton/functionality/icons/embedded-icons
+components: ["pushbutton"]
 tags: embedded,icons
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Nodes and Items
 page_title: Nodes and Items - RadOrgChart
 description: Check our Web Forms article about Nodes and Items.
 slug: orgchart/overview/nodes-and-items
+components: ["orgchart"]
 tags: nodes,and,items
 published: True
 position: 1

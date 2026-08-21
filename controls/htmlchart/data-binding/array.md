@@ -3,6 +3,7 @@ title: Array
 page_title: Array - RadHtmlChart
 description: Check our Web Forms article about Array.
 slug: htmlchart/data-binding/array
+components: ["htmlchart"]
 tags: array
 published: True
 position: 7

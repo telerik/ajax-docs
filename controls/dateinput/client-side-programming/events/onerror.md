@@ -3,6 +3,7 @@ title: OnError
 page_title: OnError - RadDateInput
 description: Check our Web Forms article about OnError.
 slug: raddateinput/client-side-programming/events/onerror
+components: ["dateinput"]
 tags: onerror
 published: True
 position: 7

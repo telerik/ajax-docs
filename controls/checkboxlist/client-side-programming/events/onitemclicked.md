@@ -3,6 +3,7 @@ title: OnItemClicked
 page_title: OnItemClicked - RadCheckBoxList
 description: Check our Web Forms article about OnItemClicked.
 slug: checkboxlist/client-side-programming/events/onitemclicked
+components: ["checkboxlist"]
 tags: onitemclicked
 published: True
 position: 5

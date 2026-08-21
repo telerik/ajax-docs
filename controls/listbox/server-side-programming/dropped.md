@@ -3,6 +3,7 @@ title: Dropped
 page_title: Dropped - RadListBox
 description: Check our Web Forms article about Dropped.
 slug: listbox/server-side-programming/server-events/dropped
+components: ["listbox"]
 tags: dropped
 published: True
 position: 2

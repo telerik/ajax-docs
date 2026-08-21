@@ -3,6 +3,7 @@ title: Dropdown AutoWidth
 page_title: Dropdown AutoWidth - RadComboBox
 description: Check our Web Forms article about Dropdown AutoWidth.
 slug: combobox/functionality/dropdown-autowidth
+components: ["combobox"]
 tags: dropdown,autowidth
 published: True
 position: 7

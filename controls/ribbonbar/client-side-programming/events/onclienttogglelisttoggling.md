@@ -3,6 +3,7 @@ title: OnClientToggleListToggling
 page_title: OnClientToggleListToggling - RadRibbonBar
 description: Check our Web Forms article about OnClientToggleListToggling.
 slug: ribbonbar/client-side-programming/events/onclienttogglelisttoggling
+components: ["ribbonbar"]
 tags: onclienttogglelisttoggling
 published: True
 position: 15

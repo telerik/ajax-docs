@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadRating
 description: Check our Web Forms article about Render Modes.
 slug: rating/mobile-support/render-modes
+components: ["rating"]
 tags: render,modes
 published: True
 position: 0

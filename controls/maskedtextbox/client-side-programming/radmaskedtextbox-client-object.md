@@ -3,6 +3,7 @@ title: RadMaskedTextBox Client Object
 page_title: RadMaskedTextBox Client Object - RadMaskedTextBox
 description: Check our Web Forms article about RadMaskedTextBox Client Object.
 slug: radmaskedtextbox/client-side-programming/radmaskedtextbox-client-object
+components: ["maskedtextbox"]
 tags: radmaskedtextbox,client,object
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnDropDownTemplateNeeded
 page_title: OnDropDownTemplateNeeded - RadAutoCompleteBox
 description: Check our Web Forms article about OnDropDownTemplateNeeded.
 slug: autocompletebox/server-side-programming/events/ondropdowntemplateneeded
+components: ["autocompletebox"]
 tags: ondropdowntemplateneeded
 published: True
 position: 3

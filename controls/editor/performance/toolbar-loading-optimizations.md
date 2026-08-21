@@ -3,6 +3,7 @@ title: Toolbar Loading Optimizations
 page_title: Toolbar Loading Optimizations - RadEditor
 description: Check our Web Forms article about Toolbar Loading Optimizations.
 slug: editor/performance/toolbar-loading-optimizations
+components: ["editor"]
 tags: toolbar,loading,optimizations
 published: True
 position: 1

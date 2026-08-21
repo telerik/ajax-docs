@@ -3,6 +3,7 @@ title: Create Drawer items server-side
 page_title: Create Drawer items server-side - RadDrawer
 description: Check our Web Forms article about How to create RadDrawer items server-side.
 slug: drawer/how-to/create-items-server-side
+components: ["drawer"]
 tags: how,to,items,server,server-side,raddrawer,drawer
 published: True
 position: 1

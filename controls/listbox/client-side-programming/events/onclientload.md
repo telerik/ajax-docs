@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadListBox
 description: Check our Web Forms article about OnClientLoad.
 slug: listbox/client-side-programming/events/onclientload
+components: ["listbox"]
 tags: onclientload
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Resizing Moving and Deleting Appointments
 page_title: Resizing Moving and Deleting Appointments - RadScheduler
 description: Check our Web Forms article about Resizing Moving and Deleting Appointments.
 slug: scheduler/usability/resizing-moving-and-deleting-appointments
+components: ["scheduler"]
 tags: resizing,moving,and,deleting,appointments
 published: True
 position: 4

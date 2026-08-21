@@ -3,6 +3,7 @@ title: Properties
 page_title: ChipList JavaScript Properties
 description: "JavaScript Properties of the Telerik WebForms ChipList component."
 slug: chiplist/client-side-programming/properties
+components: ["chiplist"]
 tags: chiplist,client-side,properties
 published: True
 position: 2

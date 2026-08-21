@@ -3,6 +3,7 @@ title: Controlling the Point of Collapsing All Nodes
 page_title: Controlling the Point of Collapsing All Nodes - RadNavigation
 description: Check our Web Forms article about Controlling the Point of Collapsing All Nodes.
 slug: navigation/how-to/controlling-the-point-of-collapsing-all-nodes
+components: ["navigation"]
 tags: controlling,point,collapsing,all,nodes
 published: True
 position: 1

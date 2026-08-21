@@ -3,6 +3,7 @@ title: AppointmentDataBound
 page_title: AppointmentDataBound - RadScheduler
 description: Check our Web Forms article about AppointmentDataBound.
 slug: scheduler/server-side-programming/server-events/appointmentdatabound
+components: ["scheduler"]
 tags: appointmentdatabound
 published: True
 position: 7

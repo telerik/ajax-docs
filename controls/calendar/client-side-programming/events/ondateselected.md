@@ -3,6 +3,7 @@ title: OnDateSelected
 page_title: OnDateSelected - RadCalendar
 description: Check our Web Forms article about OnDateSelected.
 slug: calendar/client-side-programming/events/ondateselected
+components: ["calendar"]
 tags: ondateselected
 published: True
 position: 5

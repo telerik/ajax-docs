@@ -3,6 +3,7 @@ title: setSize
 page_title: setSize - RadEditor
 description: Check our Web Forms article about setSize.
 slug: editor/client-side-programming/methods/setsize
+components: ["editor"]
 tags: setsize
 published: True
 position: 16

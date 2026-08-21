@@ -3,6 +3,7 @@ title: Line Spacing Dropdown
 page_title: Line Spacing Dropdown - RadEditor
 description: Check our Web Forms article about Line Spacing Dropdown.
 slug: editor/functionality/toolbars/dropdowns/examples/line-spacing-dropdown
+components: ["editor"]
 tags: line,spacing,dropdown
 published: True
 position: 0

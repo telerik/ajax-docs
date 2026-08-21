@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started
 description: Check our Web Forms article about Getting Started.
 slug: label/getting-started
+components: ["label"]
 tags: getting,started
 published: True
 position: 1

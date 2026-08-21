@@ -3,6 +3,7 @@ title: UI Interaction Controls
 page_title: UI Interaction Controls - RadMap
 description: Check our Web Forms article about UI Interaction Controls.
 slug: map/functionality/ui-interaction-controls
+components: ["map"]
 tags: ui,interaction,controls
 published: True
 position: 0

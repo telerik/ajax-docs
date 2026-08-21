@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadDateInput
 description: Check our Web Forms article about Overview.
 slug: raddateinput/client-side-programming/overview
+components: ["dateinput"]
 tags: overview
 published: True
 position: 0

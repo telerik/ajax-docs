@@ -3,6 +3,7 @@ title: OnClientDrag
 page_title: OnClientDrag - RadDock
 description: Check our Web Forms article about OnClientDrag.
 slug: dock/client-side-programming/events/onclientdrag
+components: ["dock"]
 tags: onclientdrag
 published: True
 position: 3

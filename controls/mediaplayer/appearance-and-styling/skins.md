@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadMediaPlayer
 description: Check our Web Forms article about Skins.
 slug: mediaplayer/appearance-and-styling/skins
+components: ["mediaplayer"]
 tags: skins
 published: True
 position: 0

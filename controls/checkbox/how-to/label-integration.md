@@ -3,6 +3,7 @@ title: Label Integration
 page_title: Label Integration - RadCheckBox
 description: Check our Web Forms article about Label Integration.
 slug: checkbox/how-to/label-integration
+components: ["checkbox"]
 tags: label,integration
 published: True
 position: 0

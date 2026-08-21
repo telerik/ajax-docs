@@ -3,6 +3,7 @@ title: Hiding and Displaying Color Picker Elements
 page_title: Hiding and Displaying Color Picker Elements - RadColorPicker
 description: Check our Web Forms article about Hiding and Displaying Color Picker Elements.
 slug: colorpicker/functionality/hiding-and-displaying-color-picker-elements
+components: ["colorpicker"]
 tags: hiding,and,displaying,color,picker,elements
 published: True
 position: 6

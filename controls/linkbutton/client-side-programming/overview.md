@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadLinkButton
 description: Check our Web Forms article about Overview.
 slug: linkbutton/client-side-programming/overview
+components: ["linkbutton"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadInputManager
 description: Check our Web Forms article about Design Time.
 slug: radinputmanager/design-time
+components: ["inputmanager"]
 tags: design,time
 published: True
 position: 2

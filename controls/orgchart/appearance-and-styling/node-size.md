@@ -3,6 +3,7 @@ title: Node Size
 page_title: Node Size - RadOrgChart
 description: Check our Web Forms article about Node Size.
 slug: orgchart/appearance-and-styling/node-size
+components: ["orgchart"]
 tags: node,size
 published: True
 position: 2

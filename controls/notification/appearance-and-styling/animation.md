@@ -3,6 +3,7 @@ title: Animation
 page_title: Animation - RadNotification
 description: Check our Web Forms article about Animation.
 slug: notification/appearance-and-styling/animation
+components: ["notification"]
 tags: animation
 published: True
 position: 4

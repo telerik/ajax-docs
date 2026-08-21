@@ -3,6 +3,7 @@ title: Translating Strings
 page_title: Translating Strings - RadScheduler
 description: Check our Web Forms article about Translating Strings.
 slug: scheduler/recurrence-editor/localization/translating-strings
+components: ["scheduler"]
 tags: translating,strings
 published: True
 position: 0

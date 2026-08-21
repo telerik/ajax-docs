@@ -3,6 +3,7 @@ title: Overview
 page_title: Changes and Backwards Compatibility Overview - RadEditor
 description: Check our Web Forms article about Overview.
 slug: editor/changes-and-backwards-compatibility/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

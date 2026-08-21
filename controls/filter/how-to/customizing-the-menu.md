@@ -3,6 +3,7 @@ title: Customizing the Menu
 page_title: Customizing the Menu - RadFilter
 description: Check our Web Forms article about Customizing the Menu.
 slug: filter/how-to/customizing-the-menu
+components: ["filter"]
 tags: customizing,the,menu
 published: True
 position: 4

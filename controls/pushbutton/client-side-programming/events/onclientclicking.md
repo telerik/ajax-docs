@@ -3,6 +3,7 @@ title: OnClientClicking
 page_title: OnClientClicking - RadPushButton
 description: Check our Web Forms article about OnClientClicking.
 slug: pushbutton/client-side-programming/events/onclientclicking
+components: ["pushbutton"]
 tags: onclientclicking
 published: True
 position: 3

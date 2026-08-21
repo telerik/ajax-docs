@@ -3,6 +3,7 @@ title: Tooltips not updated with AJAX in Webkit browsers
 page_title: Tooltips not updated with AJAX in Webkit browsers - RadChart
 description: Check our Web Forms article about Tooltips not updated with AJAX in Webkit browsers.
 slug: chart/troubleshooting/tooltips-not-updated-with-ajax-in-webkit-browsers
+components: ["chart"]
 tags: tooltips,not,updated,with,ajax,in,webkit,browsers
 published: True
 position: 3

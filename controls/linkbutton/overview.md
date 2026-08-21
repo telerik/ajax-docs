@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadLinkButton
 description: Discover the LinkButton control and its features for creating hyperlinks with server-side functionality.
 slug: linkbutton/overview
+components: ["linkbutton"]
 tags: overview
 published: True
 position: 0

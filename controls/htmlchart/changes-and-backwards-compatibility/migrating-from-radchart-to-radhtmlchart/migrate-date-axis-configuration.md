@@ -3,6 +3,7 @@ title: Migrate Date Axis Configuration
 page_title: Migrate Date Axis Configuration - RadHtmlChart
 description: Check our Web Forms article about Migrate Date Axis Configuration.
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-date-axis-configuration
+components: ["htmlchart"]
 tags: migrate,date,axis,configuration
 published: True
 position: 3

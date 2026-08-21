@@ -3,6 +3,7 @@ title: Binding to Array or ArrayList
 page_title: Binding to Array or ArrayList - RadDropDownList
 description: Check our Web Forms article about Binding to Array or ArrayList.
 slug: dropdownlist/databinding/server-side-binding-/binding-to-array-or-arraylist
+components: ["dropdownlist"]
 tags: binding,to,array,or,arraylist
 published: True
 position: 0

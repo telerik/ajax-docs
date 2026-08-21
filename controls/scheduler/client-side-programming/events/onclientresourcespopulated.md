@@ -3,6 +3,7 @@ title: OnClientResourcesPopulated
 page_title: OnClientResourcesPopulated - RadScheduler
 description: Check our Web Forms article about OnClientResourcesPopulated.
 slug: scheduler/client-side-programming/events/onclientresourcespopulated
+components: ["scheduler"]
 tags: onclientresourcespopulated
 published: True
 position: 23

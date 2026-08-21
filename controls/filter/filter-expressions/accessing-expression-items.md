@@ -3,6 +3,7 @@ title: Accessing Expression Items
 page_title: Accessing Expression Items - RadFilter
 description: Check our Web Forms article about Accessing Expression Items.
 slug: filter/filter-expressions/accessing-expression-items
+components: ["filter"]
 tags: accessing,expression,items
 published: True
 position: 3

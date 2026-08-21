@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadMenu
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: menu/accessibility-and-internationalization/wai-aria-support
+components: ["menu"]
 tags: wai,aria,support
 published: True
 position: 5

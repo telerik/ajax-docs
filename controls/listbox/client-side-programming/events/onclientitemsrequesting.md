@@ -3,6 +3,7 @@ title: OnClientItemsRequesting
 page_title: OnClientItemsRequesting - RadListBox
 description: Check our Web Forms article about OnClientItemsRequesting.
 slug: listbox/client-side-programming/events/onclientitemsrequesting
+components: ["listbox"]
 tags: onclientitemsrequesting
 published: True
 position: 14

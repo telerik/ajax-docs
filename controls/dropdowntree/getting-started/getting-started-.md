@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadDropDownTree
 description: Check our Web Forms article about Getting Started.
 slug: dropdowntree/getting-started/getting-started-
+components: ["dropdowntree"]
 tags: getting,started,
 published: False
 position: 0

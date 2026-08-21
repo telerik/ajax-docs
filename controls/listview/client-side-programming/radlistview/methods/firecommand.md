@@ -3,6 +3,7 @@ title: fireCommand
 page_title: fireCommand - RadListView
 description: Check our Web Forms article about fireCommand.
 slug: listview/client-side-programming/radlistview/methods/firecommand
+components: ["listview"]
 tags: firecommand
 published: True
 position: 0

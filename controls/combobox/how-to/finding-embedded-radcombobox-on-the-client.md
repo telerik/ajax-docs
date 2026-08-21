@@ -3,6 +3,7 @@ title: Finding Embedded RadComboBox on the Client
 page_title: Finding Embedded RadComboBox on the Client - RadComboBox
 description: Check our Web Forms article about Finding Embedded RadComboBox on the Client.
 slug: combobox/how-to/finding-embedded-radcombobox-on-the-client
+components: ["combobox"]
 tags: finding,embedded,radcombobox,on,the,client
 published: True
 position: 1

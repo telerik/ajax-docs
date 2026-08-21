@@ -3,6 +3,7 @@ title: Overview
 page_title: Customizing the Advanced Form Overview - RadScheduler
 description: Check our Web Forms article about Overview.
 slug: scheduler/customizing-the-advanced-form/overview
+components: ["scheduler"]
 tags: overview
 published: True
 position: 0

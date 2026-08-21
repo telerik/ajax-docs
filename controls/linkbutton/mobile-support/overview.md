@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadLinkButton
 description: Check our Web Forms article about Overview.
 slug: linkbutton/mobile-support/overview
+components: ["linkbutton"]
 tags: overview
 published: True
 position: 0

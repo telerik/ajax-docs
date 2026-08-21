@@ -3,6 +3,7 @@ title: Gestures Support
 page_title: Gestures Support - RadScheduler
 description: Check our Web Forms article about Gestures Support.
 slug: scheduler/mobile-support/gestures-support
+components: ["scheduler"]
 tags: gestures,support
 published: True
 position: 2

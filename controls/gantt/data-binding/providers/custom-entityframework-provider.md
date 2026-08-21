@@ -3,6 +3,7 @@ title: Custom EntityFramework Provider
 page_title: Custom EntityFramework Provider - RadGantt
 description: Check our Web Forms article about Custom EntityFramework Provider.
 slug: gantt/data-binding/providers/custom-entityframework-provider
+components: ["gantt"]
 tags: custom,entityframework,provider
 published: True
 position: 0

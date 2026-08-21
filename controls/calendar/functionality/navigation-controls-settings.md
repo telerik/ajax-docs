@@ -3,6 +3,7 @@ title: Navigation Controls Settings
 page_title: Navigation Controls Settings - RadCalendar
 description: Check our Web Forms article about Navigation Controls Settings.
 slug: calendar/functionality/navigation-controls-settings
+components: ["calendar"]
 tags: navigation,controls,settings
 published: True
 position: 1

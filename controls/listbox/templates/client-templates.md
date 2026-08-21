@@ -3,6 +3,7 @@ title: Client Templates
 page_title: Client Templates - RadListBox
 description: Check our Web Forms article about Client Templates.
 slug: listbox/templates/client-templates
+components: ["listbox"]
 tags: client,templates
 published: True
 position: 3

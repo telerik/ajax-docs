@@ -3,6 +3,7 @@ title: Export Whole Pages
 page_title: Export Whole Pages - RadClientExportManager
 description: Check our Web Forms article about Export Whole Pages.
 slug: clientexportmanager/functionality/export-whole-pages
+components: ["clientexportmanager"]
 tags: export,whole,pages
 published: True
 position: 1

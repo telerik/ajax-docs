@@ -3,6 +3,7 @@ title: Properties
 page_title: OTPInput Server-side Properties
 description: "Server-side properties of the WebForms OTPInput component."
 slug: otpinput/server-side-programming/properties
+components: ["otpinput"]
 tags: otpinput,server-side,properties
 published: True
 position: 1

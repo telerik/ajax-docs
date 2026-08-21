@@ -3,6 +3,7 @@ title: Structure
 page_title: RadCalendar Structure - RadCalendar
 description: Check our Web Forms article about RadCalendar Structure.
 slug: calendar/getting-started/structure
+components: ["calendar"]
 tags: radcalendar,structure
 published: True
 position: 1

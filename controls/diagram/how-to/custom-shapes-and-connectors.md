@@ -3,6 +3,7 @@ title: Custom Shapes and Connectors
 page_title: Custom Shapes and Connectors - RadDiagram
 description: Check our Web Forms article about Custom Shapes and Connectors.
 slug: diagram/how-to/custom-shapes-and-connectors
+components: ["diagram"]
 tags: custom,shapes,and,connectors
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Custom Modules
 page_title: Custom Modules - RadEditor
 description: Check our Web Forms article about Custom Modules.
 slug: editor/functionality/modules/custom-modules
+components: ["editor"]
 tags: custom,modules
 published: True
 position: 2

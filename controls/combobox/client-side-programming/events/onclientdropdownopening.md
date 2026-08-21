@@ -3,6 +3,7 @@ title: OnClientDropDownOpening
 page_title: OnClientDropDownOpening - RadComboBox
 description: Check our Web Forms article about OnClientDropDownOpening.
 slug: combobox/client-side-programming/events/onclientdropdownopening
+components: ["combobox"]
 tags: onclientdropdownopening
 published: True
 position: 4

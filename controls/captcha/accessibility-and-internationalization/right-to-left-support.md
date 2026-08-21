@@ -3,6 +3,7 @@ title: Right-to-left Support
 page_title: Right-to-left Support - RadCaptcha
 description: Check our Web Forms article about Right-to-left Support.
 slug: captcha/accessibility-and-internationalization/right-to-left-support
+components: ["captcha"]
 tags: right-to-left,support
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: HTML Output and CSS Styling
 page_title: HTML Output and CSS Styling - RadDataForm
 description: Check our Web Forms article about HTML Output and CSS Styling.
 slug: dataform/appearance-and-styling/html-output-and-css-styling
+components: ["dataform"]
 tags: html,output,and,css,styling
 published: True
 position: 1

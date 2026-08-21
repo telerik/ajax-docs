@@ -3,6 +3,7 @@ title: Service Configuration
 page_title: Service Configuration - RadClientDataSource
 description: Check our Web Forms article about Service Configuration.
 slug: clientdatasource/service-configuration
+components: ["clientdatasource"]
 tags: service,configuration
 published: True
 position: 3

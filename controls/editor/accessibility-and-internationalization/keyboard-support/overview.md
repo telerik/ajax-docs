@@ -3,6 +3,7 @@ title: Overview
 page_title: Keyboard Support Overview - RadEditor
 description: Check our Web Forms article about Keyboard Support Overview.
 slug: editor/accessibility-and-internationalization/keyboard-support/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

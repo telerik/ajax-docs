@@ -3,6 +3,7 @@ title: Overview
 page_title: Web Service Binding Overview - RadScheduler
 description: Check our Web Forms article about Overview.
 slug: scheduler/web-service-binding/overview
+components: ["scheduler"]
 tags: overview
 published: True
 position: 0

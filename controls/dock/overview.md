@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDock Overview
 description: Learn about the Dock control and its features for creating movable and customizable content containers.
 slug: dock/overview
+components: ["dock"]
 tags: overview
 published: True
 position: 0

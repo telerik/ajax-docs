@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadSearchBox
 description: Check our Web Forms article about Skins.
 slug: searchbox/appearance-and-styling/skins
+components: ["searchbox"]
 tags: skins
 published: False
 position: 0

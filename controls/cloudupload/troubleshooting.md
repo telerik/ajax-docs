@@ -3,6 +3,7 @@ title: Troubleshooting
 page_title: Troubleshooting - RadCloudUpload
 description: Check our Web Forms article about Telerik's ASP.NET CloudUpload Overview.
 slug: cloudupload/troubleshooting
+components: ["cloudupload"]
 tags: troubleshooting, cloudupload, asp.net
 published: True
 position: 60

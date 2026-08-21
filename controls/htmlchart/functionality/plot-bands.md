@@ -3,6 +3,7 @@ title: Plot Bands
 page_title: Plot Bands - RadHtmlChart
 description: Check our Web Forms article about Plot Bands.
 slug: htmlchart/functionality/plot-bands
+components: ["htmlchart"]
 tags: plot,bands
 published: True
 position: 4

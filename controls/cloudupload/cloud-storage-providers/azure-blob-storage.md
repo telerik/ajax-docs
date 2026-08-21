@@ -3,6 +3,7 @@ title: Azure Blob Storage
 page_title: Azure Blob Storage - RadCloudUpload
 description: Instructions for setting up the environment to upload files to Azure Blob Storage.
 slug: cloudupload/cloud-storage-providers/azure-blob-storage
+components: ["cloudupload"]
 tags: azure,blob,storage
 published: True
 position: 1

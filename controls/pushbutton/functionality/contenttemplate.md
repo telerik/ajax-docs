@@ -3,6 +3,7 @@ title: ContentTemplate
 page_title: ContentTemplate - RadPushButton
 description: Check our Web Forms article about ContentTemplate.
 slug: pushbutton/functionality/contenttemplate
+components: ["pushbutton"]
 tags: contenttemplate
 published: True
 position: 1

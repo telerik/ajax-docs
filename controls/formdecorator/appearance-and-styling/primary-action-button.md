@@ -3,6 +3,7 @@ title: Primary Action Button
 page_title: Primary Action Button - RadFormDecorator
 description: Check our Web Forms article about Primary Action Button.
 slug: formdecorator/appearance-and-styling/primary-action-button
+components: ["formdecorator"]
 tags: primary,action,button
 published: True
 position: 0

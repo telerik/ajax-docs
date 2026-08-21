@@ -3,6 +3,7 @@ title: OnClientPopUpShow
 page_title: OnClientPopUpShow - RadColorPicker
 description: Check our Web Forms article about OnClientPopUpShow.
 slug: colorpicker/client-side-programming/events/onclientpopupshow
+components: ["colorpicker"]
 tags: onclientpopupshow
 published: True
 position: 5

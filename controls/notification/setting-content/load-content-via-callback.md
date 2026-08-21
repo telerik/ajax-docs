@@ -3,6 +3,7 @@ title: Load Content Via Callback
 page_title: Load Content Via Callback - RadNotification
 description: Check our Web Forms article about Load Content Via Callback.
 slug: notification/setting-content/load-content-via-callback
+components: ["notification"]
 tags: load,content,via,callback
 published: True
 position: 1

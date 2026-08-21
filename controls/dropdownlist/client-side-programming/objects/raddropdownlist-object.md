@@ -3,6 +3,7 @@ title: RadDropDownList Object
 page_title: RadDropDownList Object - RadDropDownList
 description: Explore the RadDropDownList object and its client-side API for managing dropdown list functionality.
 slug: dropdownlist/client-side-programming/objects/raddropdownlist-object
+components: ["dropdownlist"]
 tags: raddropdownlist,object
 published: True
 position: 0

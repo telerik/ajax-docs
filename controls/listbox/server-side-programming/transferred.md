@@ -3,6 +3,7 @@ title: Transferred
 page_title: Transferred - RadListBox
 description: Check our Web Forms article about Transferred.
 slug: listbox/server-side-programming/server-events/transferred
+components: ["listbox"]
 tags: transferred
 published: True
 position: 12

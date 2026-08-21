@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadProgressArea
 description: Check our Web Forms article about Structure.
 slug: progressarea/structure
+components: ["progressarea"]
 tags: structure
 published: True
 position: 1

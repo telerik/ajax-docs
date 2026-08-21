@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadLightBox
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: lightbox/accessibility-and-internationalization/wai-aria-support
+components: ["lightbox"]
 tags: wai-aria,support
 published: True
 position: 2

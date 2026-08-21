@@ -3,6 +3,7 @@ title: Overview
 page_title: Events Overview - RadLinkButton
 description: Check our Web Forms article about Events Overview.
 slug: linkbutton/client-side-programming/events/overview
+components: ["linkbutton"]
 tags: events,overview
 published: True
 position: 0

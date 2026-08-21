@@ -3,6 +3,7 @@ title: Stacked Series
 page_title: Stacked Series - RadHtmlChart
 description: Check our Web Forms article about Stacked Series.
 slug: htmlchart/functionality/stacked-series
+components: ["htmlchart"]
 tags: stacked,series
 published: True
 position: 5

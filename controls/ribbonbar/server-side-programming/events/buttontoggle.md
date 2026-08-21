@@ -3,6 +3,7 @@ title: ButtonToggle
 page_title: ButtonToggle - RadRibbonBar
 description: Check our Web Forms article about ButtonToggle.
 slug: ribbonbar/server-side-programming/events/buttontoggle
+components: ["ribbonbar"]
 tags: buttontoggle
 published: True
 position: 4

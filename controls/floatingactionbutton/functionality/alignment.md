@@ -3,6 +3,7 @@ title: Alignment
 page_title: Alignment - RadFloatingActionButton
 description: Check our Web Forms article about the Alignment of RadFloatingActionButton.
 slug: floatingactionbutton/functionality/alignment
+components: ["floatingactionbutton"]
 published: True
 position: 1
 ---

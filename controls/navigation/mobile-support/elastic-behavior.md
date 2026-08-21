@@ -3,6 +3,7 @@ title: Elastic behavior
 page_title: Elastic behavior - RadNavigation
 description: Check our Web Forms article about Elastic behavior.
 slug: navigation/mobile-support/elastic-behavior
+components: ["navigation"]
 tags: elastic,behavior
 published: False
 position: 2

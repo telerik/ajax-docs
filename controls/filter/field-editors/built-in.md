@@ -3,6 +3,7 @@ title: Built-in
 page_title: Built-in - RadFilter
 description: Check our Web Forms article about Built-in.
 slug: filter/field-editors/built-in
+components: ["filter"]
 tags: built-in
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadClientExportManager
 description: Check our Web Forms article about Overview.
 slug: clientexportmanager/client-side-programming/overview
+components: ["clientexportmanager"]
 tags: overview
 published: True
 position: 0

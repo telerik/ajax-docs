@@ -3,6 +3,7 @@ title: Setting Default Styles
 page_title: Setting Default Styles - RadEditor
 description: Check our Web Forms article about Setting Default Styles.
 slug: editor/managing-content/content-area-appearance/set-defaults
+components: ["editor"]
 previous_url: controls/editor/managing-content/content-area-appearance/custom-stylization
 tags: set,defaults
 published: True

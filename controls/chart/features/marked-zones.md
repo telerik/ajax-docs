@@ -3,6 +3,7 @@ title: Marked Zones
 page_title: Marked Zones - RadChart
 description: Check our Web Forms article about Marked Zones.
 slug: chart/features/marked-zones
+components: ["chart"]
 tags: marked,zones
 published: True
 position: 9

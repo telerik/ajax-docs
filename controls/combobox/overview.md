@@ -3,6 +3,7 @@ title: Overview
 page_title: RadComboBox Overview
 description: Learn about the ComboBox control, its features, and how to implement it for efficient data selection.
 slug: combobox/overview
+components: ["combobox"]
 tags: overview, combobox
 published: True
 position: 0

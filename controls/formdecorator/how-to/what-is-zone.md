@@ -3,6 +3,7 @@ title: What is Zone
 page_title: What is Zone - RadFormDecorator
 description: Check our Web Forms article about What is Zone.
 slug: formdecorator/how-to/what-is-zone
+components: ["formdecorator"]
 tags: what,is,zone
 published: True
 position: 0

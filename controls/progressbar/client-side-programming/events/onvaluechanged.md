@@ -3,6 +3,7 @@ title: OnValueChanged
 page_title: OnValueChanged - RadProgressBar
 description: Check our Web Forms article about OnValueChanged.
 slug: progressbar/client-side-programming/events/onvaluechanged
+components: ["progressbar"]
 tags: onvaluechanged
 published: True
 position: 4

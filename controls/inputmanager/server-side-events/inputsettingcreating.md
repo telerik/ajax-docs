@@ -3,6 +3,7 @@ title: InputSettingCreating
 page_title: InputSettingCreating - RadInputManager
 description: Check our Web Forms article about InputSettingCreating.
 slug: radinputmanager/server-side-events/inputsettingcreating
+components: ["inputmanager"]
 tags: inputsettingcreating
 published: True
 position: 0

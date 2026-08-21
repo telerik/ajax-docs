@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDataPager Overview
 description: Check our Web Forms article about Overview.
 slug: datapager/overview
+components: ["datapager"]
 tags: overview
 published: True
 position: 0

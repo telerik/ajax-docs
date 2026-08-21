@@ -3,6 +3,7 @@ title: Visual Template
 page_title: Visual Template - RadHtmlChart
 description: Check our Web Forms article about Custom Visual Template for Chart Elements.
 slug: htmlchart/functionality/visual-template
+components: ["htmlchart"]
 tags: custom,visual,template,visualization
 published: True
 position: 7

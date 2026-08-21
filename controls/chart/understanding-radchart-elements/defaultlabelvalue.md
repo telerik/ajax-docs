@@ -3,6 +3,7 @@ title: DefaultLabelValue
 page_title: DefaultLabelValue - RadChart
 description: Check our Web Forms article about DefaultLabelValue.
 slug: chart/understanding-radchart-elements/defaultlabelvalue
+components: ["chart"]
 tags: defaultlabelvalue
 published: True
 position: 12

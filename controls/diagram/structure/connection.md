@@ -3,6 +3,7 @@ title: Connection
 page_title: Connection - RadDiagram
 description: Check our Web Forms article about Connection.
 slug: diagram/structure/connection
+components: ["diagram"]
 tags: connection
 published: True
 position: 2

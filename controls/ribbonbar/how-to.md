@@ -3,6 +3,7 @@ title: How To
 page_title: How To - RadRibbonBar
 description: Check our Web Forms article about How To.
 slug: ribbonbar/how-to
+components: ["ribbonbar"]
 tags: application,scenarios
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: NavigationCommand
 page_title: NavigationCommand - RadScheduler
 description: Check our Web Forms article about NavigationCommand.
 slug: scheduler/server-side-programming/server-events/navigationcommand
+components: ["scheduler"]
 tags: navigationcommand
 published: True
 position: 9

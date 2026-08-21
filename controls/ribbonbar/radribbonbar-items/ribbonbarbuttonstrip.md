@@ -3,6 +3,7 @@ title: RibbonBarButtonStrip
 page_title: RibbonBarButtonStrip - RadRibbonBar
 description: Check our Web Forms article about RibbonBarButtonStrip.
 slug: ribbonbar/radribbonbar-items/ribbonbarbuttonstrip
+components: ["ribbonbar"]
 tags: ribbonbarbuttonstrip
 published: True
 position: 5

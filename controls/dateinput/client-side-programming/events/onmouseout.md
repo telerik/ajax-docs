@@ -3,6 +3,7 @@ title: OnMouseOut
 page_title: OnMouseOut - RadDateInput
 description: Check our Web Forms article about OnMouseOut.
 slug: raddateinput/client-side-programming/events/onmouseout
+components: ["dateinput"]
 tags: onmouseout
 published: True
 position: 11

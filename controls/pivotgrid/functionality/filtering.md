@@ -3,6 +3,7 @@ title: Filtering
 page_title: Filtering - RadPivotGrid
 description: Check our Web Forms article about Filtering.
 slug: pivotgrid/functionality/filtering
+components: ["pivotgrid"]
 tags: filtering
 published: True
 position: 2

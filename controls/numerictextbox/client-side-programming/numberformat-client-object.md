@@ -3,6 +3,7 @@ title: NumberFormat Client Object
 page_title: NumberFormat Client Object - RadNumericTextBox
 description: Check our Web Forms article about NumberFormat Client Object.
 slug: numerictextbox/client-side-programming/numberformat-client-object
+components: ["numerictextbox"]
 tags: numberformat,client,object
 published: True
 position: 7

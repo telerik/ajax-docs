@@ -3,6 +3,7 @@ title: AutoLayout
 page_title: AutoLayout - RadChart
 description: Check our Web Forms article about AutoLayout.
 slug: chart/features/autolayout
+components: ["chart"]
 tags: autolayout
 published: True
 position: 0

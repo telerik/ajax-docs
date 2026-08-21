@@ -3,6 +3,7 @@ title: Creating a Custom Skin
 page_title: Creating a Custom Skin - RadNumericTextBox
 description: Check our Web Forms article about Creating a Custom Skin.
 slug: numerictextbox/appearance-and-styling/creating-a-custom-skin
+components: ["numerictextbox"]
 tags: creating,a,custom,skin
 published: True
 position: 3

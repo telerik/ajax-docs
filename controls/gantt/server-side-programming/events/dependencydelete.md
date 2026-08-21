@@ -3,6 +3,7 @@ title: DependencyDelete
 page_title: DependencyDelete - RadGantt
 description: Check our Web Forms article about DependencyDelete.
 slug: gantt/server-side-programming/events/dependencydelete
+components: ["gantt"]
 tags: dependencydelete
 published: True
 position: 7

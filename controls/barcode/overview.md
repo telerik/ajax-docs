@@ -3,6 +3,7 @@ title: Overview
 page_title: RadBarcode Overview
 description: Check our Web Forms article about Overview.
 slug: barcode/overview
+components: ["barcode"]
 tags: overview
 published: True
 position: 0

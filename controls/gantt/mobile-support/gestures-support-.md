@@ -3,6 +3,7 @@ title: Gestures Support
 page_title: Gestures Support - RadGantt
 description: Check our Web Forms article about Gestures Support.
 slug: gantt/mobile-support/gestures-support-
+components: ["gantt"]
 tags: gestures,support,
 published: False
 position: 1

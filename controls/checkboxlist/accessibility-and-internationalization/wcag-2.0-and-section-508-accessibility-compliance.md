@@ -3,6 +3,7 @@ title: WCAG 2.0 and Section 508 Accessibility Compliance
 page_title: WCAG 2.0 and Section 508 Accessibility Compliance - RadCheckBoxList
 description: Check our Web Forms article about WCAG 2.0 and Section 508 Accessibility Compliance.
 slug: checkboxlist/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
+components: ["checkboxlist"]
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time
 description: Check our Web Forms article about Design Time.
 slug: diagram/design-time
+components: ["diagram"]
 tags: design,time
 published: True
 position: 2

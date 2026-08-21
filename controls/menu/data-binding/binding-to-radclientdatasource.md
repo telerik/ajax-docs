@@ -3,6 +3,7 @@ title: Binding to RadClientDataSource
 page_title: Binding to RadClientDataSource - RadMenu
 description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: menu/data-binding/binding-to-radclientdatasource
+components: ["menu"]
 tags: binding,to,radclientdatasource
 published: True
 position: 7

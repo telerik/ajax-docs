@@ -3,6 +3,7 @@ title: RadLinkButton Object
 page_title: RadLinkButton Object - RadLinkButton
 description: Check our Web Forms article about RadLinkButton Object.
 slug: linkbutton/client-side-programming/linkbutton-object
+components: ["linkbutton"]
 tags: linkbutton,object
 published: True
 position: 1

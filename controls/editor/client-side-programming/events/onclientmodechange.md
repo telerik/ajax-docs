@@ -3,6 +3,7 @@ title: OnClientModeChange
 page_title: OnClientModeChange - RadEditor
 description: Check our Web Forms article about OnClientModeChange.
 slug: editor/client-side-programming/events/onclientmodechange
+components: ["editor"]
 tags: onclientmodechange
 published: True
 position: 6

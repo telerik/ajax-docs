@@ -3,6 +3,7 @@ title: GroupItemDrop
 page_title: GroupItemDrop - RadOrgChart
 description: Check our Web Forms article about GroupItemDrop.
 slug: orgchart/server-side-programming/events/groupitemdrop
+components: ["orgchart"]
 tags: groupitemdrop
 published: True
 position: 3

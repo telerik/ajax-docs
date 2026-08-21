@@ -3,6 +3,7 @@ title: Paging
 page_title: Paging - RadImageGallery
 description: Check our Web Forms article about Paging.
 slug: imagegallery/functionality/paging
+components: ["imagegallery"]
 tags: paging
 published: True
 position: 3

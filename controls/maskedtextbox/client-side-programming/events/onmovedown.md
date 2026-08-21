@@ -3,6 +3,7 @@ title: OnMoveDown
 page_title: OnMoveDown - RadMaksedTextBox
 description: Check our Web Forms article about OnMoveDown.
 slug: radmaskedtextbox/client-side-programming/events/onmovedown
+components: ["maskedtextbox"]
 tags: onmovedown
 published: True
 position: 14

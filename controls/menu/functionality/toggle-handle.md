@@ -3,6 +3,7 @@ title: Toggle Handle
 page_title: Toggle Handle - RadMenu
 description: Check our Web Forms article about Toggle Handle.
 slug: menu/functionality/toggle-handle
+components: ["menu"]
 tags: toggle,handle
 published: True
 position: 0

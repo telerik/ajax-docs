@@ -3,6 +3,7 @@ title: Skin Selectors
 page_title: Skin Selectors - RadSearchBox
 description: Check our Web Forms article about Skin Selectors.
 slug: searchbox/appearance-and-styling/skin-selectors
+components: ["searchbox"]
 tags: skin,selectors
 published: True
 position: 2

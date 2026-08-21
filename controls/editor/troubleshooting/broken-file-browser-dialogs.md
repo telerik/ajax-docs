@@ -3,6 +3,7 @@ title: Broken File Browser Dialogs
 page_title: Broken File Browser Dialogs - RadEditor
 description: Check our Web Forms article about Broken File Browser Dialogs.
 slug: editor/troubleshooting/broken-file-browser-dialogs
+components: ["editor"]
 tags: broken,file,browser,dialogs
 published: True
 position: 10

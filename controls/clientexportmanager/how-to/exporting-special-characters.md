@@ -3,6 +3,7 @@ title: Exporting Special Characters
 page_title: Exporting Special Characters - RadClientExportManager
 description: Check our Web Forms article about Exporting Special Characters.
 slug: clientexportmanager/how-to/exporting-special-characters
+components: ["clientexportmanager"]
 tags: custom,font,ASCII,special,characters,pdf
 published: True
 position: 3

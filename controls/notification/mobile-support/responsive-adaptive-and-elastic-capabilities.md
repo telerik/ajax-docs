@@ -3,6 +3,7 @@ title: Responsive, Adaptive and Elastic Capabilities
 page_title: Responsive, Adaptive and Elastic Capabilities - RadNotification
 description: Check our Web Forms article about Responsive, Adaptive and Elastic Capabilities in RadNotification for ASP.NET AJAX.
 slug: notification/mobile-support/responsive-adaptive-and-elastic-capabilities
+components: ["notification"]
 previous_url: controls/notification/mobile-support
 tags: mobile,support, responsive, adaptive, elastic, fluid, capabilities
 published: True

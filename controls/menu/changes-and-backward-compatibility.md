@@ -3,6 +3,7 @@ title: Changes and Backward Compatibility
 page_title: Changes and Backward Compatibility - RadMenu
 description: Check our Web Forms article about Changes and Backward Compatibility.
 slug: menu/changes-and-backward-compatibility
+components: ["menu"]
 tags: changes,and,backward,compatibility
 published: False
 position: 3

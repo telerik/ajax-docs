@@ -3,6 +3,7 @@ title: Events Lifecycle
 page_title: Events Lifecycle - RadDataForm
 description: Check our Web Forms article about Events Lifecycle.
 slug: dataform/server-side-programming/events-lifecycle
+components: ["dataform"]
 tags: events,lifecycle
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnClientShowing
 page_title: OnClientShowing - RadMenu
 description: Check our Web Forms article about OnClientShowing.
 slug: menu/client-side-programming/events/onclientshowing
+components: ["menu"]
 tags: onclientshowing
 published: True
 position: 16

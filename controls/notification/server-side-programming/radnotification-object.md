@@ -3,6 +3,7 @@ title: RadNotification Object
 page_title: RadNotification Object - RadNotification
 description: Check our Web Forms article about RadNotification Object.
 slug: notification/server-side-programming/radnotification-object
+components: ["notification"]
 tags: radnotification,object
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Save in File
 page_title: Save in File - RadEditor
 description: Check our Web Forms article about Save in File.
 slug: editor/managing-content/getting-and-setting-content/save-in-file
+components: ["editor"]
 tags: save,in,file
 published: True
 position: 1

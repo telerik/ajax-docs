@@ -3,6 +3,7 @@ title: The Wizard Axis Tab
 page_title: The Wizard Axis Tab - RadChart
 description: Check our Web Forms article about The Wizard Axis Tab.
 slug: chart/understanding-radchart-ui/the-wizard-axis-tab
+components: ["chart"]
 tags: the,wizard,axis,tab
 published: True
 position: 7

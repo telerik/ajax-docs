@@ -3,6 +3,7 @@ title: OnMouseOver
 page_title: OnMouseOver - RadNumericTextBox
 description: Check our Web Forms article about OnMouseOver.
 slug: numerictextbox/client-side-programming/events/onmouseover
+components: ["numerictextbox"]
 tags: onmouseover
 published: True
 position: 12

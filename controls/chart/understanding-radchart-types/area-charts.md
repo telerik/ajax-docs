@@ -3,6 +3,7 @@ title: Area Charts
 page_title: Area Charts - RadChart
 description: Check our Web Forms article about Area Charts.
 slug: chart/understanding-radchart-types/area-charts
+components: ["chart"]
 tags: area,charts
 published: True
 position: 14

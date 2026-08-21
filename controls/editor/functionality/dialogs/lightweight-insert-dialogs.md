@@ -3,6 +3,7 @@ title: Lightweight Insert Dialogs
 page_title: Lightweight Insert Dialogs - RadEditor
 description: Check our Web Forms article about Lightweight Insert Dialogs.
 slug: editor/functionality/dialogs/lightweight-insert-dialogs
+components: ["editor"]
 tags: lightweight,insert,dialogs
 published: True
 position: 4
