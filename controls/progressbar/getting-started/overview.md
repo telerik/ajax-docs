@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadProgressBar
 description: Check our Web Forms article about Overview.
 slug: progressbar/getting-started/overview
+components: ["progressbar"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: GroupItemDataBound
 page_title: GroupItemDataBound - RadOrgChart
 description: Check our Web Forms article about GroupItemDataBound.
 slug: orgchart/server-side-programming/events/groupitemdatabound
+components: ["orgchart"]
 tags: groupitemdatabound
 published: True
 position: 1

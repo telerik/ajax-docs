@@ -3,6 +3,7 @@ title: Reordering
 page_title: Reordering - RadListBox
 description: Check our Web Forms article about Reordering.
 slug: listbox/server-side-programming/server-events/reordering
+components: ["listbox"]
 tags: reordering
 published: True
 position: 3

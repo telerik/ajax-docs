@@ -3,6 +3,7 @@ title: Specifying Size
 page_title: Specifying Size - RadSplitter
 description: Check our Web Forms article about Specifying Size.
 slug: splitter/layout/specifying-size
+components: ["splitter"]
 tags: specifying,size
 published: True
 position: 2

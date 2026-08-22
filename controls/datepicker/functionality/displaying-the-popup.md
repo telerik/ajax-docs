@@ -3,6 +3,7 @@ title: Displaying the Popup
 page_title: Displaying RadDatePicker Popup - RadDatePicker
 description: Check our Web Forms article about Displaying RadDatePicker Popup.
 slug: datepicker/functionality/displaying-the-popup
+components: ["datepicker"]
 tags: displaying,the,popup
 published: True
 position: 1

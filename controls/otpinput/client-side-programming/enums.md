@@ -3,6 +3,7 @@ title: Enums
 page_title: OTPInput Client-side Enums
 description: Client-side Enums of the Telerik WebForms OTPInput component
 slug: otpinput/client-side-programming/enums
+components: ["otpinput"]
 tags: otpinput,javascript,enums
 published: True
 position: 3

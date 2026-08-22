@@ -3,6 +3,7 @@ title: OnClientTaskMoveEnd
 page_title: OnClientTaskMoveEnd - RadGantt
 description: Check our Web Forms article about OnClientTaskMoveEnd.
 slug: gantt/client-side-programming/events/onclienttaskmoveend
+components: ["gantt"]
 tags: onclienttaskmoveend
 published: True
 position: 13

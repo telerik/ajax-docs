@@ -3,6 +3,7 @@ title: Column And Row Headers Settings
 page_title: Column And Row Headers Settings - RadCalendar
 description: Check our Web Forms article about Column And Row Headers Settings.
 slug: calendar/functionality/column-and-row-headers-settings
+components: ["calendar"]
 tags: column,and,row,headers,settings
 published: True
 position: 2

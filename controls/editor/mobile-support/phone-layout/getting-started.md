@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Phone Layout Getting Started - RadEditor
 description: Check our Web Forms article about Getting Started.
 slug: editor/mobile-support/phone-layout/getting-started
+components: ["editor"]
 tags: editor,support,mobile,rendering,overview, getting, started
 published: True
 position: 1

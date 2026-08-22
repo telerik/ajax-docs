@@ -3,6 +3,7 @@ title: Supported Controls
 page_title: Supported Controls - RadPersistenceFramework
 description: Check our Web Forms article about Supported Controls.
 slug: persistenceframework/getting-started/supported-controls
+components: ["persistenceframework"]
 tags: supported,controls
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Data Navigation
 page_title: Data Navigation - RadHtmlChart
 description: Check our Web Forms article about Data Navigation.
 slug: htmlchart/functionality/data-navigation
+components: ["htmlchart"]
 tags: data,navigation
 published: True
 position: 3

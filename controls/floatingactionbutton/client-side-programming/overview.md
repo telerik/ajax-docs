@@ -3,6 +3,7 @@ title: Overview
 page_title: RadFloatingActionButton object
 description: Check our Web Forms article about the API of RadFloatingActionButton object.
 slug: floatingactionbutton/client-side-programming/overview
+components: ["floatingactionbutton"]
 tags: overview
 published: True
 position: 0

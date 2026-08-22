@@ -3,6 +3,7 @@ title: Create a New Language
 page_title: Create a New Language - RadEditor
 description: Check our Web Forms article about Create a New Language.
 slug: editor/accessibility-and-internationalization/localization/create-a-new-language
+components: ["editor"]
 tags: create,a,new,language
 published: True
 position: 3

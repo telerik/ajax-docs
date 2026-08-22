@@ -3,6 +3,7 @@ title: Cloning a RadTreeView
 page_title: Cloning a RadTreeView - RadTreeView
 description: Check our Web Forms article about Cloning a RadTreeView.
 slug: treeview/application-scenarios/server-side-programming/cloning-a-radtreeview
+components: ["treeview"]
 tags: cloning,a,radtreeview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Declaring Items Statically at Design Time
 page_title: Declaring Items Statically at Design Time - RadToolBar
 description: Check our Web Forms article about Declaring Items Statically at Design Time.
 slug: toolbar/radtoolbar-items/declaring-items-statically-at-design-time
+components: ["toolbar"]
 tags: declaring,items,statically,at,design,time
 published: True
 position: 1

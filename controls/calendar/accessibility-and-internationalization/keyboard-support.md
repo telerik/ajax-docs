@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadCalendar
 description: Check our Web Forms article about Keyboard Support.
 slug: calendar/accessibility-and-internationalization/keyboard-support
+components: ["calendar"]
 tags: keyboard,support
 published: True
 position: 5

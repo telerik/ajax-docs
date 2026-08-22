@@ -3,6 +3,7 @@ title: Accessing Items
 page_title: Accessing Items - RadPanelBar
 description: Check our Web Forms article about Accessing Items.
 slug: panelbar/server-side-programming/accessing-items
+components: ["panelbar"]
 tags: accessing,items
 published: True
 position: 4

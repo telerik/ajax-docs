@@ -3,6 +3,7 @@ title: Symbols
 page_title: Symbols - RadEditor
 description: Check our Web Forms article about Symbols.
 slug: editor/functionality/toolbars/dropdowns/symbols
+components: ["editor"]
 tags: symbols
 published: True
 position: 10

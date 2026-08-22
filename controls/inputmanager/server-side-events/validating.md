@@ -3,6 +3,7 @@ title: Validating
 page_title: Validating - RadInputManager
 description: Check our Web Forms article about Validating.
 slug: radinputmanager/server-side-events/validating
+components: ["inputmanager"]
 tags: validating
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientResizeStart
 page_title: OnClientResizeStart - RadDock
 description: Check our Web Forms article about OnClientResizeStart.
 slug: dock/client-side-programming/events/onclientresizestart
+components: ["dock"]
 tags: onclientresizestart
 published: True
 position: 8

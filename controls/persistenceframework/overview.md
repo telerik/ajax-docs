@@ -3,6 +3,7 @@ title: Overview
 page_title: RadPersistenceFramework Overview
 description: Check our Web Forms article about Overview.
 slug: persistenceframework/overview
+components: ["persistenceframework"]
 tags: overview
 published: True
 position: 0

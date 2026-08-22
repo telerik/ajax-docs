@@ -3,6 +3,7 @@ title: Scrolling Tabs
 page_title: Scrolling Tabs - RadTabStrip
 description: Check our Web Forms article about Scrolling Tabs.
 slug: tabstrip/tabs/scrolling-tabs
+components: ["tabstrip"]
 tags: scrolling,tabs
 published: True
 position: 2

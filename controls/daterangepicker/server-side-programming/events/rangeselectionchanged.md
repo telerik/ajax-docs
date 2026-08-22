@@ -3,6 +3,7 @@ title: RangeSelectionChanged
 page_title: RangeSelectionChanged - RadDateRangePicker
 description: Check our Web Forms article about RangeSelectionChanged.
 slug: daterangepicker/server-side-programming/events/rangeselectionchanged
+components: ["daterangepicker"]
 tags: selecteddatechanged
 published: True
 position: 6

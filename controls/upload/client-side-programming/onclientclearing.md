@@ -3,6 +3,7 @@ title: OnClientClearing
 page_title: OnClientClearing - RadUpload
 description: Check our Web Forms article about OnClientClearing.
 slug: upload/client-side-programming/onclientclearing
+components: ["upload"]
 tags: onclientclearing
 published: True
 position: 8

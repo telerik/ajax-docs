@@ -3,6 +3,7 @@ title: AppointmentCancelingEdit
 page_title: AppointmentCancelingEdit - RadScheduler
 description: Check our Web Forms article about AppointmentCancelingEdit.
 slug: scheduler/server-side-programming/server-events/appointmentcancelingedit
+components: ["scheduler"]
 tags: appointmentcancelingedit
 published: True
 position: 8

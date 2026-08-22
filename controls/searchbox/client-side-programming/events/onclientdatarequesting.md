@@ -3,6 +3,7 @@ title: OnClientDataRequesting
 page_title: OnClientDataRequesting - RadSearchBox
 description: Check our Web Forms article about OnClientDataRequesting.
 slug: searchbox/client-side-programming/events/onclientdatarequesting
+components: ["searchbox"]
 tags: onclientdatarequesting
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnClientSearch
 page_title: OnClientSearch - RadSearchBox
 description: Check our Web Forms article about OnClientSearch.
 slug: searchbox/client-side-programming/events/onclientsearch
+components: ["searchbox"]
 tags: onclientsearch
 published: True
 position: 1

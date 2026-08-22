@@ -3,6 +3,7 @@ title: Create a Custom Skin
 page_title: Create a Custom Skin - RadSplitter
 description: Check our Web Forms article about Create a Custom Skin.
 slug: splitter/appearance-and-styling/create-a-custom-skin
+components: ["splitter"]
 tags: create,custom,skin, tutorial
 published: True
 position: 0

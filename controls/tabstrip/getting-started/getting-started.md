@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadTabStrip
 description: Check our Web Forms article about Getting Started.
 slug: tabstrip/getting-started/getting-started
+components: ["tabstrip"]
 tags: getting,started
 published: True
 position: 0

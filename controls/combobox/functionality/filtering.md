@@ -3,6 +3,7 @@ title: Filtering
 page_title: Filtering - RadComboBox
 description: Discover how to enable and customize filtering in the ComboBox control for efficient data selection.
 slug: combobox/functionality/filtering
+components: ["combobox"]
 tags: filtering
 published: True
 position: 0

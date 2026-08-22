@@ -3,6 +3,7 @@ title: RadSlider Object
 page_title: RadSlider Object - RadSlider
 description: Check our Web Forms article about RadSlider Object.
 slug: slider/client-side-programming/radslider-object
+components: ["slider"]
 tags: radslider,object
 published: True
 position: 1

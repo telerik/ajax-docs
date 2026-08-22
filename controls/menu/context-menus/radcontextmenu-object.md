@@ -3,6 +3,7 @@ title: RadContextMenu Object
 page_title: RadContextMenu Object - RadMenu
 description: Explore the RadContextMenu object and its API for creating and managing context menus dynamically.
 slug: menu/context-menus/radcontextmenu-object
+components: ["menu"]
 tags: radcontextmenu,object
 published: True
 position: 0

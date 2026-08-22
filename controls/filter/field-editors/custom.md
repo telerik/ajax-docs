@@ -3,6 +3,7 @@ title: Custom
 page_title: Custom - RadFilter
 description: Check our Web Forms article about Custom.
 slug: filter/field-editors/custom
+components: ["filter"]
 tags: custom
 published: True
 position: 1

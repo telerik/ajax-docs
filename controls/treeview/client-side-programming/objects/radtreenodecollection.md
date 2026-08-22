@@ -3,6 +3,7 @@ title: RadTreeNodeCollection
 page_title: RadTreeNodeCollection - RadTreeView
 description: Check our Web Forms article about RadTreeNodeCollection.
 slug: treeview/client-side-programming/objects/radtreenodecollection
+components: ["treeview"]
 tags: radtreenodecollection
 published: True
 position: 2

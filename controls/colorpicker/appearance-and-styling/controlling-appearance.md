@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadColorPicker
 description: Check our Web Forms article about Controlling Appearance.
 slug: colorpicker/appearance-and-styling/controlling-appearance
+components: ["colorpicker"]
 tags: controlling,appearance
 published: True
 position: 1

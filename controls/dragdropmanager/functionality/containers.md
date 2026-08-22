@@ -3,6 +3,7 @@ title: Containers
 page_title: Container - RadDragDropManager
 description: Container
 slug: dragdropmanager/functionality/container
+components: ["dragdropmanager"]
 tags: Container
 published: True
 ---

@@ -3,6 +3,7 @@ title: OnClientUploadFailed
 page_title: OnClientUploadFailed - RadCloudUpload
 description: Check our Web Forms article about OnClientUploadFailed.
 slug: cloudupload/client-side-programming/events/onclientuploadfailed
+components: ["cloudupload"]
 tags: onclientuploadfailed
 published: True
 position: 6

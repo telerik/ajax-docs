@@ -3,6 +3,7 @@ title: Server-side Programming
 page_title: Server-side Programming - RadProgressBar
 description: Check our Web Forms article about Server-side Programming.
 slug: progressbar/server-side-programming
+components: ["progressbar"]
 tags: server-side,programming
 published: True
 position: 45

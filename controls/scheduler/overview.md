@@ -3,6 +3,7 @@ title: Overview
 page_title: RadScheduler Overview
 description: Learn about the Scheduler control and its features for managing and displaying events in a calendar view.
 slug: scheduler/overview
+components: ["scheduler"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: XHTML Compliance
 page_title: XHTML Compliance - RadEditor
 description: Check our Web Forms article about XHTML Compliance.
 slug: editor/accessibility-and-internationalization/standards-compliance/xhtml-compliance
+components: ["editor"]
 tags: xhtml,compliance
 published: True
 position: 1

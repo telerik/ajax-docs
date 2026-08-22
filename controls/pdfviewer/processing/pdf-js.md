@@ -3,6 +3,7 @@ title: PDF.js Processing
 page_title: PDF.js Processing - RadPdfViewer
 description: Check our Web Forms article about PDF.js Processing.
 slug: pdfviewer/processing/pdf-js
+components: ["pdfviewer"]
 tags: data,processing,pdfjs,pdf,client,server
 published: True
 position: 0

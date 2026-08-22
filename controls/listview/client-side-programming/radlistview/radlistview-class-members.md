@@ -3,6 +3,7 @@ title: RadListView Class Members
 page_title: RadListView Class Members - RadListView
 description: Check our Web Forms article about RadListView Class Members.
 slug: listview/client-side-programming/radlistview/radlistview-class-members
+components: ["listview"]
 tags: radlistview,class,members
 published: True
 position: 0

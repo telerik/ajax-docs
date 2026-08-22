@@ -3,6 +3,7 @@ title: OnClientAppointmentClick
 page_title: OnClientAppointmentClick - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentClick.
 slug: scheduler/client-side-programming/events/onclientappointmentclick
+components: ["scheduler"]
 tags: onclientappointmentclick
 published: True
 position: 1

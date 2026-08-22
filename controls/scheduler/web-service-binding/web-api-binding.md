@@ -3,6 +3,7 @@ title: Web API Binding
 page_title: Web API Binding - RadScheduler
 description: Check our Web Forms article about Web API Binding.
 slug: scheduler/web-service-binding/web-api-binding
+components: ["scheduler"]
 tags: web,api,binding
 published: True
 position: 1

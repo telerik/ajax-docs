@@ -3,6 +3,7 @@ title: Chat Object
 page_title: RadChat Object - RadChat
 description: Check our Web Forms article about RadChat Object.
 slug: chat/client-side-programming/objects/radchat
+components: ["chat"]
 tags: chatobject
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadWizard
 description: Check our Web Forms article about Validation.
 slug: wizard/functionality/validation
+components: ["wizard"]
 tags: validation
 published: True
 position: 1

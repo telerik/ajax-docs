@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadListView
 description: Check our Web Forms article about Overview.
 slug: listview/server-side-programming/overview
+components: ["listview"]
 tags: overview
 published: True
 position: 0

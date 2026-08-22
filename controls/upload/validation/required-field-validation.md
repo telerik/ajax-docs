@@ -3,6 +3,7 @@ title: Required Field Validation
 page_title: Required Field Validation - RadUpload
 description: Check our Web Forms article about Required Field Validation.
 slug: upload/validation/required-field-validation
+components: ["upload"]
 tags: required,field,validation
 published: True
 position: 3

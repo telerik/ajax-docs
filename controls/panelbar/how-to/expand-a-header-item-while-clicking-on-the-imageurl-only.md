@@ -3,6 +3,7 @@ title: Expand a Header Item While Clicking on the ImageUrl Only
 page_title: Expand a Header Item While Clicking on the ImageUrl Only - RadPanelBar
 description: Check our Web Forms article about Expand a Header Item While Clicking on the ImageUrl Only.
 slug: panelbar/how-to/expand-a-header-item-while-clicking-on-the-imageurl-only
+components: ["panelbar"]
 tags: expand,a,header,item,while,clicking,on,the,imageurl,only
 published: True
 position: 2

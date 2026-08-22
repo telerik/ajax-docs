@@ -3,6 +3,7 @@ title: Load On Demand
 page_title: Load On Demand - RadOrgChart
 description: Check our Web Forms article about Load On Demand.
 slug: orgchart/functionality/load-on-demand
+components: ["orgchart"]
 tags: load,on,demand
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Add Axis Labels Programmatically
 page_title: How to Add Axis Labels Programmatically
 description: Check our Web Forms article about How to Extend the Displayable Area for YAxis Data.
 slug: chart/how-to/add-axis-labels-programmatically
+components: ["chart"]
 tags: how to, add, axis, label, programmatically
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Prevent a Specific Button from Performing Postback
 page_title: Prevent a Specific Button from Performing Postback - RadToolBar
 description: Check our Web Forms article about Prevent a Specific Button from Performing Postback.
 slug: toolbar/how-to/prevent-a-specific-button-from-performing-postback
+components: ["toolbar"]
 tags: prevent,a,specific,button,from,performing,postback
 published: True
 position: 0

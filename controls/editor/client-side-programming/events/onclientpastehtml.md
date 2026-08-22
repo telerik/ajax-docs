@@ -3,6 +3,7 @@ title: OnClientPasteHtml
 page_title: OnClientPasteHtml - RadEditor
 description: Check our Web Forms article about OnClientPasteHtml.
 slug: editor/client-side-programming/events/onclientpastehtml
+components: ["editor"]
 tags: onclientpastehtml
 published: True
 position: 7

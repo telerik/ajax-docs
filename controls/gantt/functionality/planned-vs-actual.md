@@ -3,6 +3,7 @@ title: Planned vs Actual
 page_title: Planned vs Actual - RadGantt
 description:  Check our Web Forms article about PDF Export.
 slug: gantt/functionality/planned-vs-actual
+components: ["gantt"]
 tags: planned,actual,task,baseline
 published: True
 position: 9

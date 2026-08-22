@@ -3,6 +3,7 @@ title: RibbonBarTab
 page_title: RibbonBarTab - RadRibbonBar
 description: Check our Web Forms article about RibbonBarTab.
 slug: ribbonbar/radribbonbar-items/ribbonbartab
+components: ["ribbonbar"]
 tags: ribbonbartab
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Command Reference
 page_title: Command Reference - RadTreeList
 description: Check our Web Forms article about Command Reference.
 slug: treelist/control-lifecycle/command-reference
+components: ["treelist"]
 tags: command,reference
 published: True
 position: 2

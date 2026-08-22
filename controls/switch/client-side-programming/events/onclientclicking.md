@@ -3,6 +3,7 @@ title: OnClientClicking
 page_title: OnClientClicking - RadSwitch
 description: Check our Web Forms article about OnClientClicking.
 slug: switch/client-side-programming/events/onclientclicking
+components: ["switch"]
 tags: onclientclicking
 published: True
 position: 3

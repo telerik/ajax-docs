@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadScheduler
 description: Check our Web Forms article about Keyboard Support.
 slug: scheduler/accessibility-and-internationalization/keyboard-support
+components: ["scheduler"]
 tags: keyboard,support
 published: True
 position: 4

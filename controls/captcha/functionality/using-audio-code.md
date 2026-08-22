@@ -3,6 +3,7 @@ title: Using Audio Code
 page_title: Using Audio Code - RadCaptcha
 description: Check our Web Forms article about Using Audio Code.
 slug: captcha/functionality/using-audio-code
+components: ["captcha"]
 tags: using,audio,code
 published: True
 position: 1

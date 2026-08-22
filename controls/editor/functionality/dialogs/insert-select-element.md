@@ -3,6 +3,7 @@ title: Insert Select Element
 page_title: Insert Select Element - RadEditor
 description: Check our Web Forms article about Insert Select Element.
 slug: editor/functionality/dialogs/insert-select-element
+components: ["editor"]
 tags: insert,select,element
 published: True
 position: 3

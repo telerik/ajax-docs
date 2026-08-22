@@ -3,6 +3,7 @@ title: Automatic Text-wrapping
 page_title: Automatic Text-wrapping - RadChart
 description: Check our Web Forms article about Automatic Text-wrapping.
 slug: chart/features/automatic-text-wrapping
+components: ["chart"]
 tags: automatic,text-wrapping
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadSpell
 description: Check our Web Forms article about Render Modes.
 slug: spell/mobile-support/render-modes
+components: ["spell"]
 tags: render,modes
 published: True
 position: 1

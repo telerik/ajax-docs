@@ -3,6 +3,7 @@ title: Show RadAlert that Blocks the Entire Page
 page_title: Show RadAlert that Blocks the Entire Page - RadWindow
 description: Check our Web Forms article about Show RadAlert that Blocks the Entire Page.
 slug: window/how-to/show-radalert-that-blocks-the-entire-page
+components: ["window"]
 tags: show,radalert,that,blocks,the,entire,page
 published: True
 position: 8

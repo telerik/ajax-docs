@@ -3,6 +3,7 @@ title: Mouse Wheel Support
 page_title: Mouse Wheel Support - RadDateInput
 description: Check our Web Forms article about Mouse Wheel Support.
 slug: raddateinput/accessibility-and-internationalization/mouse-wheel-support
+components: ["dateinput"]
 tags: mouse,wheel,support
 published: True
 position: 3

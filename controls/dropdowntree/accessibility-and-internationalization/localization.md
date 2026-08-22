@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadDropDownTree
 description: Check our Web Forms article about Localization.
 slug: dropdowntree/accessibility-and-internationalization/localization
+components: ["dropdowntree"]
 tags: localization
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Styled
 page_title: Styled - RadSocialShare
 description: Check our Web Forms article about Styled.
 slug: socialshare/configuring-buttons/styled
+components: ["socialshare"]
 tags: styled
 published: True
 position: 0

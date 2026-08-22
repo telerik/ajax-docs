@@ -3,6 +3,7 @@ title: Layout
 page_title: Layout - RadSiteMap
 description: Check our Web Forms article about Layout.
 slug: sitemap/functionality/layout
+components: ["sitemap"]
 tags: layout
 published: True
 position: 0

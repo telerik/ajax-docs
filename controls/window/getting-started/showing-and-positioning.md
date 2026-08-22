@@ -3,6 +3,7 @@ title: Showing and Positioning
 page_title: Showing and Positioning - RadWindow
 description: Learn how to show and position RadWindow instances dynamically for enhanced user interface interactions.
 slug: window/getting-started/showing-and-positioning
+components: ["window"]
 tags: showing,and,positioning
 published: True
 position: 8

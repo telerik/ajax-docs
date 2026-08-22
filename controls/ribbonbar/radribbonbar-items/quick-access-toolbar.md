@@ -3,6 +3,7 @@ title: Quick Access Toolbar
 page_title: Quick Access Toolbar - RadRibbonBar
 description: Check our Web Forms article about Quick Access Toolbar.
 slug: ribbonbar/radribbonbar-items/quick-access-toolbar
+components: ["ribbonbar"]
 tags: quick,access,toolbar
 published: True
 position: 10

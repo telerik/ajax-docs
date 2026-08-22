@@ -3,6 +3,7 @@ title: OnClientDropped
 page_title: OnClientDropped - RadListBox
 description: Check our Web Forms article about OnClientDropped.
 slug: listbox/client-side-programming/events/onclientdropped
+components: ["listbox"]
 tags: onclientdropped
 published: True
 position: 7

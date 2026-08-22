@@ -3,6 +3,7 @@ title: How To Configure Animations
 page_title: How To Configure Animations - RadRotator
 description: Check our Web Forms article about How To Configure Animations.
 slug: rotator/getting-started/how-to-configure-animations
+components: ["rotator"]
 tags: how,to,configure,animations
 published: True
 position: 2

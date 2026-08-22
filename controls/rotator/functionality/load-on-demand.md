@@ -3,6 +3,7 @@ title: Load On Demand
 page_title: Load On Demand - RadRotator
 description: Check our Web Forms article about Load On Demand.
 slug: rotator/functionality/load-on-demand
+components: ["rotator"]
 tags: load,on,demand
 published: True
 position: 2

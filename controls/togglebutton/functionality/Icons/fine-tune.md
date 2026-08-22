@@ -3,6 +3,7 @@ title: Fine-tune
 page_title: Fine-tune - RadToggleButton
 description: Check our Web Forms article about Fine-tune.
 slug: togglebutton/functionality/icons/fine-tune
+components: ["togglebutton"]
 tags: fine,tune
 published: True
 position: 2

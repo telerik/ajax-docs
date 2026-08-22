@@ -3,6 +3,7 @@ title: OnPopupOpening
 page_title: OnPopupOpening - RadDateTimePicker
 description: Check our Web Forms article about OnPopupOpening.
 slug: datetimepicker/client-side-programming/events/onpopupopening
+components: ["datetimepicker"]
 tags: onpopupopening
 published: True
 position: 1

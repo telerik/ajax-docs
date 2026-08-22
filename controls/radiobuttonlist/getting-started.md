@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadRadioButtonList
 description: Check our Web Forms article about Getting Started.
 slug: radiobuttonlist/getting-started
+components: ["radiobuttonlist"]
 tags: getting,started
 published: True
 position: 2

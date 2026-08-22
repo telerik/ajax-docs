@@ -3,6 +3,7 @@ title: Color Ranges
 page_title: Color Ranges - RadGauge
 description: Check our Web Forms article about Color Ranges.
 slug: gauge/gauge-types/color-ranges
+components: ["gauge"]
 published: True
 position: 1
 ---

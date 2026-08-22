@@ -3,6 +3,7 @@ title: Overview
 page_title: Mobile Support Overview - RadMediaPlayer
 description: Check our Web Forms article about Overview.
 slug: mediaplayer/mobile-support/overview
+components: ["mediaplayer"]
 tags: overview
 published: True
 position: 0

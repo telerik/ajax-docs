@@ -3,6 +3,7 @@ title: Sorting
 page_title: Sorting - RadTimeline
 description: Check our Web Forms article about Sorting.
 slug: timeline/functionality/sorting
+components: ["timeline"]
 tags: sorting,client,server
 published: True
 position: 4

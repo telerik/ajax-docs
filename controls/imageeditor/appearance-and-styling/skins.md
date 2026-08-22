@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadImageEditor
 description: Check our Web Forms article about Skins.
 slug: imageeditor/appearance-and-styling/skins
+components: ["imageeditor"]
 tags: skins
 published: True
 position: 0

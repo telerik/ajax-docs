@@ -3,6 +3,7 @@ title: Buttons Collection
 page_title: Buttons Collection - RadSearchBox
 description: Check our Web Forms article about Buttons Collection.
 slug: searchbox/functionality/buttons-collection
+components: ["searchbox"]
 tags: buttons,collection
 published: True
 position: 1

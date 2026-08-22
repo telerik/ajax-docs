@@ -3,6 +3,7 @@ title: OnScroll
 page_title: OnScroll - RadTreeList
 description: Check our Web Forms article about OnScroll Event.
 slug: treelist/client-side-programming/Events/OnScroll
+components: ["treelist"]
 tags: events,OnScroll
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadFormDecorator Overview
 description: Check our Web Forms article about Overview.
 slug: formdecorator/overview
+components: ["formdecorator"]
 tags: overview
 published: True
 position: 0

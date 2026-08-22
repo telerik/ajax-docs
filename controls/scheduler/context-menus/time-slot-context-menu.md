@@ -3,6 +3,7 @@ title: Time Slot Context Menu
 page_title: Time Slot Context Menu - RadScheduler
 description: Check our Web Forms article about Time Slot Context Menu.
 slug: scheduler/context-menus/time-slot-context-menu
+components: ["scheduler"]
 tags: time,slot,context,menu
 published: True
 position: 1

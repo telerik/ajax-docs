@@ -3,6 +3,7 @@ title: Two State Buttons
 page_title: Two State Buttons - RadToolBar
 description: Check our Web Forms article about Two State Buttons.
 slug: toolbar/radtoolbar-items/two-state-buttons
+components: ["toolbar"]
 tags: two,state,buttons
 published: True
 position: 4

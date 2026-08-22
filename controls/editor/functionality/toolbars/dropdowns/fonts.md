@@ -3,6 +3,7 @@ title: Fonts
 page_title: Fonts - RadEditor
 description: Check our Web Forms article about Fonts.
 slug: editor/functionality/toolbars/dropdowns/fonts
+components: ["editor"]
 tags: fonts
 published: True
 position: 0

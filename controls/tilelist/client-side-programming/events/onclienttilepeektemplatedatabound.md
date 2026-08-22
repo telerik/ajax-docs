@@ -3,6 +3,7 @@ title: OnClientTilePeekTemplateDataBound
 page_title: OnClientTilePeekTemplateDataBound - RadTileList
 description: Check our Web Forms article about OnClientTilePeekTemplateDataBound.
 slug: tilelist/client-side-programming/client-side-events/onclienttilepeektemplatedatabound
+components: ["tilelist"]
 tags: onclienttilepeektemplatedatabound
 published: True
 position: 13

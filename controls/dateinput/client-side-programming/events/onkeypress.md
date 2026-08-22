@@ -3,6 +3,7 @@ title: OnKeyPress
 page_title: OnKeyPress - RadDateInput
 description: Check our Web Forms article about OnKeyPress.
 slug: raddateinput/client-side-programming/events/onkeypress
+components: ["dateinput"]
 tags: onkeypress
 published: True
 position: 9

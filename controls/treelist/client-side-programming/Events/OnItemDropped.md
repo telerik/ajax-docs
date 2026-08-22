@@ -3,6 +3,7 @@ title: OnItemDropped
 page_title: OnItemDropped - RadTreeList
 description: Check our Web Forms article about OnItemDropped Event.
 slug: treelist/client-side-programming/Events/OnItemDropped
+components: ["treelist"]
 tags: events,OnItemDropped
 published: True
 position: 1

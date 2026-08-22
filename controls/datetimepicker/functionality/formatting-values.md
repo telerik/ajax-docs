@@ -3,6 +3,7 @@ title: Formatting Values
 page_title: Formatting Values - RadDateTimePicker
 description: Check our Web Forms article about Formatting Values.
 slug: datetimepicker/functionality/formatting-values
+components: ["datetimepicker"]
 tags: formatting,values
 published: True
 position: 5

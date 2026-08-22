@@ -3,6 +3,7 @@ title: Scale Map to Markers
 page_title: Scale Map to Markers - RadMap
 description: Check our Web Forms article about How to programmatically scale RadMap to show all markers.
 slug: map/how-to/scale-to-markers
+components: ["map"]
 previous_url: map/how-to/layer-clustering-on-zoom
 tags: client-side,programming, scale, markers, view-port, view, map, zoom, cluster
 published: True

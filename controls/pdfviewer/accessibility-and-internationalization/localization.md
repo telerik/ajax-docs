@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadPdfViewer
 description: Check our Web Forms article about Localization.
 slug: pdfviewer/accessibility-and-internationalization/localization
+components: ["pdfviewer"]
 tags: localization,string
 published: True
 position: 0

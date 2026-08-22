@@ -3,6 +3,7 @@ title: What is New
 page_title: What is New - RadComboBox
 description: Check our Web Forms article about What is New.
 slug: combobox/what-is-new
+components: ["combobox"]
 tags: what,is,new
 published: False
 position: 3

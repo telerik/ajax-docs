@@ -3,6 +3,7 @@ title: ItemCreated
 page_title: ItemCreated - RadComboBox
 description: Check our Web Forms article about ItemCreated.
 slug: combobox/server-side-programming/itemcreated
+components: ["combobox"]
 tags: itemcreated
 published: True
 position: 2

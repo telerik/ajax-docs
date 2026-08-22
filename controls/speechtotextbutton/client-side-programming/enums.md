@@ -3,6 +3,7 @@ title: Enums
 page_title: SpeechToTextButton Client-side Enums
 description: Client-side Enums of the Telerik WebForms SpeechToTextButton component
 slug: speechtotextbutton/client-side-programming/enums
+components: ["speechtotextbutton"]
 tags: speechtotextbutton,javascript,enums
 published: True
 position: 3

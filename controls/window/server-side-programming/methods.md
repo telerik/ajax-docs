@@ -3,6 +3,7 @@ title: Methods
 page_title: Methods - RadWindow
 description: Check our Web Forms article about Methods.
 slug: window/server-side-programming/methods
+components: ["window"]
 tags: methods
 published: True
 position: 1

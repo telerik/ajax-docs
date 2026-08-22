@@ -3,6 +3,7 @@ title: RTL Support
 page_title: RTL Support - RadWizard
 description: Check our Web Forms article about RTL Support.
 slug: wizard/accessibility-and-internationalization/rtl-support
+components: ["wizard"]
 tags: rtl,support
 published: True
 position: 2

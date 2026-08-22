@@ -3,6 +3,7 @@ title: Configuration Wizard
 page_title: Configuration Wizard - RadEditor
 description: Check our Web Forms article about Configuration Wizard.
 slug: editor/design-time/configuration-wizard
+components: ["editor"]
 tags: configuration,wizard
 published: True
 position: 1

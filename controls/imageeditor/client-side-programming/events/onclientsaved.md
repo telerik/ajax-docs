@@ -3,6 +3,7 @@ title: OnClientSaved
 page_title: OnClientSaved - RadImageEditor
 description: Check our Web Forms article about OnClientSaved.
 slug: imageeditor/client-side-programming/events/onclientsaved
+components: ["imageeditor"]
 tags: onclientsaved
 published: True
 position: 11

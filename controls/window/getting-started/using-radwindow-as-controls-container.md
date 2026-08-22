@@ -3,6 +3,7 @@ title: Using RadWindow as Controls Container
 page_title: Using RadWindow as Controls Container - RadWindow
 description: Check our Web Forms article about Using RadWindow as Controls Container.
 slug: window/getting-started/using-radwindow-as-controls-container
+components: ["window"]
 tags: using,radwindow,as,controls,container
 published: True
 position: 5

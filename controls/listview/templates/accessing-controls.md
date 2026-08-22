@@ -3,6 +3,7 @@ title: Accessing Controls
 page_title: Accessing Controls - RadListView
 description: Check our Web Forms article about Accessing Controls.
 slug: listview/templates/accessing-controls
+components: ["listview"]
 tags: accessing,controls
 published: True
 position: 2

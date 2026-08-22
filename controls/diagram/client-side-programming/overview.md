@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadDiagram
 description: Check our Web Forms article about Client-side Programming Overview.
 slug: diagram/client-side-programming/overview
+components: ["diagram"]
 tags: overview
 published: True
 position: 0

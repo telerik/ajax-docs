@@ -3,6 +3,7 @@ title: Content Filters
 page_title: Content Filters - RadEditor
 description: Explore how to use content filters in the Editor control for managing and transforming user input.
 slug: editor/managing-content/content-filters
+components: ["editor"]
 tags: content,filters
 published: True
 position: 3

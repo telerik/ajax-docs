@@ -3,6 +3,7 @@ title: Using ISO Standard Week Numbers
 page_title: Using ISO Standard Week Numbers - RadCalendar
 description: Check our Web Forms article about Using ISO Standard Week Numbers.
 slug: calendar/accessibility-and-internationalization/using-iso-standard-week-numbers
+components: ["calendar"]
 tags: using,iso,standard,week,numbers
 published: True
 position: 4

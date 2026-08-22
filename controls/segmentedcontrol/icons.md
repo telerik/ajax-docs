@@ -3,6 +3,7 @@ title: Icons
 page_title: SegmentedControl Icons
 description: "Configure icons and text labels for the individual segment buttons of the Telerik WebForms SegmentedControl."
 slug: segmentedcontrol/icons
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, icons
 published: True
 position: 4

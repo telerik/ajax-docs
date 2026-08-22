@@ -3,6 +3,7 @@ title: Using ContentAreaCssFile Property
 page_title: Using ContentAreaCssFile Property - RadEditor
 description: Check our Web Forms article about Using ContentAreaCssFile Property.
 slug: editor/managing-content/content-area-appearance/using-contentareacssfile-property
+components: ["editor"]
 tags: content, area, css, file, property, stylization, custom, CSS
 published: True
 position: 1

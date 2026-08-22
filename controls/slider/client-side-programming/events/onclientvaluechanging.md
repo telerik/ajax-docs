@@ -3,6 +3,7 @@ title: OnClientValueChanging
 page_title: OnClientValueChanging - RadSlider
 description: Check our Web Forms article about OnClientValueChanging.
 slug: slider/client-side-programming/events/onclientvaluechanging
+components: ["slider"]
 tags: onclientvaluechanging
 published: True
 position: 10

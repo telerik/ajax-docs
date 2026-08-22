@@ -3,6 +3,7 @@ title: SaveSettings
 page_title: SaveSettings - RadPersistenceFramework
 description: Check our Web Forms article about SaveSettings.
 slug: persistenceframework/server-side-programming/events/savesettings
+components: ["persistenceframework"]
 tags: savesettings
 published: True
 position: 3

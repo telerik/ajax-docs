@@ -3,6 +3,7 @@ title: OnClientClicked
 page_title: OnClientClicked - RadImageButton
 description: Check our Web Forms article about OnClientClicked.
 slug: imagebutton/client-side-programming/events/onclientclicked
+components: ["imagebutton"]
 tags: onclientclicked
 published: True
 position: 4

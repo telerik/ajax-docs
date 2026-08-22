@@ -3,6 +3,7 @@ title: Structure
 page_title: RadMap Structure - RadMap
 description: Check our Web Forms article about RadMap Structure.
 slug: map/getting-started/radmap-structure
+components: ["map"]
 tags: radmap,structure
 published: True
 position: 1

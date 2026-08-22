@@ -3,6 +3,7 @@ title: Adding and Editing Templates at Design Time
 page_title: Adding and Editing Templates at Design Time - RadTreeView
 description: Check our Web Forms article about Adding and Editing Templates at Design Time.
 slug: treeview/templates/adding-and-editing-templates-at-design-time
+components: ["treeview"]
 tags: adding,and,editing,templates,at,design,time
 published: True
 position: 3

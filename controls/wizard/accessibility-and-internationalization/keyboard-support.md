@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadWizard
 description: Check our Web Forms article about Keyboard Support.
 slug: wizard/accessibility-and-internationalization/keyboard-support
+components: ["wizard"]
 tags: keyboard,support
 published: True
 position: 0

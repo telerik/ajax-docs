@@ -3,6 +3,7 @@ title: RadOrgChart Object
 page_title: RadOrgChart Object - RadOrgChart
 description: Check our Web Forms article about RadOrgChart Object.
 slug: orgchart/client-side-programming/radorgchart-object
+components: ["orgchart"]
 tags: radorgchart,object
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Print the Content of the Selected RadPageView only
 page_title: Print the Content of the Selected RadPageView only - RadTabStrip
 description: Check our Web Forms article about Print the Content of the Selected RadPageView only.
 slug: tabstrip/how-to/print-the-content-of-the-selected-radpageview-only
+components: ["tabstrip"]
 tags: print,the,content,of,the,selected,radpageview,only
 published: True
 position: 2

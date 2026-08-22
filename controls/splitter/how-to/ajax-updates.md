@@ -3,6 +3,7 @@ title: AJAX updates
 page_title: AJAX updates - RadSplitter
 description: Check our Web Forms article about AJAX updates.
 slug: splitter/how-to/ajax-updates
+components: ["splitter"]
 tags: ajax,updates
 published: True
 position: 0

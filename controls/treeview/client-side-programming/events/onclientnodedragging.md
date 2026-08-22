@@ -3,6 +3,7 @@ title: OnClientNodeDragging
 page_title: OnClientNodeDragging - RadTreeView
 description: Check our Web Forms article about OnClientNodeDragging.
 slug: treeview/client-side-programming/events/onclientnodedragging
+components: ["treeview"]
 tags: onclientnodedragging
 published: True
 position: 14

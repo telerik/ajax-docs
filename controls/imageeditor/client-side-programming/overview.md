@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadImageEditor
 description: Check our Web Forms article about Overview.
 slug: imageeditor/client-side-programming/overview
+components: ["imageeditor"]
 tags: overview
 published: True
 position: 0

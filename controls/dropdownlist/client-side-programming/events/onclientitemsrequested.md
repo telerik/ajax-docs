@@ -3,6 +3,7 @@ title: OnClientItemsRequested
 page_title: OnClientItemsRequested - RadDropDownList
 description: Check our Web Forms article about OnClientItemsRequested.
 slug: dropdownlist/client-side-programming/events/onclientitemsrequested
+components: ["dropdownlist"]
 tags: onclientitemsrequested
 published: True
 position: 11

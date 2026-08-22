@@ -3,6 +3,7 @@ title: OnClientAppointmentDoubleClick
 page_title: OnClientAppointmentDoubleClick - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentDoubleClick.
 slug: scheduler/client-side-programming/events/onclientappointmentdoubleclick
+components: ["scheduler"]
 tags: onclientappointmentdoubleclick
 published: True
 position: 2

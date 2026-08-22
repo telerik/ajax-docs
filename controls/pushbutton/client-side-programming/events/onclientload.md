@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadPushButton
 description: Check our Web Forms article about OnClientLoad.
 slug: pushbutton/client-side-programming/events/onclientload
+components: ["pushbutton"]
 tags: onclientload
 published: True
 position: 2

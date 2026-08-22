@@ -3,6 +3,7 @@ title: RadToolBar Object
 page_title: RadToolBar Object - RadToolBar
 description: Check our Web Forms article about RadToolBar Object.
 slug: toolbar/client-side-programming/radtoolbar-object
+components: ["toolbar"]
 tags: radtoolbar,object
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Week View
 page_title: Week View - RadGantt
 description: Check our Web Forms article about Week View.
 slug: gantt/views/week-view
+components: ["gantt"]
 tags: week,view
 published: True
 position: 2

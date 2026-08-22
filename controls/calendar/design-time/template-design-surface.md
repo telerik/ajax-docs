@@ -3,6 +3,7 @@ title: Template Design Surface
 page_title: Template Design Surface - RadCalendar
 description: Check our Web Forms article about Template Design Surface.
 slug: calendar/design-time/template-design-surface
+components: ["calendar"]
 tags: template,design,surface
 published: True
 position: 4

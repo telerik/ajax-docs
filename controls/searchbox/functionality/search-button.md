@@ -3,6 +3,7 @@ title: Search Button
 page_title: Search Button - RadSearchBox
 description: Check our Web Forms article about Search Button.
 slug: searchbox/functionality/search-button
+components: ["searchbox"]
 tags: search,button
 published: True
 position: 2

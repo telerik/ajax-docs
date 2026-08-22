@@ -3,6 +3,7 @@ title: TreeList Object
 page_title: TreeList Object - RadTreeList
 description: Check our Web Forms article about TreeList Object.
 slug: treelist/server-side-programming/treelist-object
+components: ["treelist"]
 tags: treelist,object
 published: True
 position: 0

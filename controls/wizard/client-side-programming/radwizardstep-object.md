@@ -3,6 +3,7 @@ title: RadWizardStep Object
 page_title: RadWizardStep Object - RadWizard
 description: Check our Web Forms article about RadWizardStep Object.
 slug: wizard/client-side-programming/radwizardstep-object
+components: ["wizard"]
 tags: radwizardstep,object
 published: True
 position: 2

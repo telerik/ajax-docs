@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadTreeMap
 description: Check our Web Forms article about Skins.
 slug: treemap/appearance-and-styling/skins
+components: ["treemap"]
 tags: skins
 published: True
 position: 0

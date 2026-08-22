@@ -3,6 +3,7 @@ title: Data Grouping
 page_title: Data Grouping - RadListView
 description: Check our Web Forms article about Data Grouping.
 slug: listview/fuctionality/grouping/data-grouping
+components: ["listview"]
 tags: data,grouping
 published: True
 position: 1

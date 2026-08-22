@@ -3,6 +3,7 @@ title: RadPanelBar Object
 page_title: RadPanelBar Object - RadPanelBar
 description: Check our Web Forms article about RadPanelBar Object.
 slug: panelbar/client-side-programming/radpanelbar-object
+components: ["panelbar"]
 tags: radpanelbar,object
 published: True
 position: 1

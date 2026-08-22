@@ -3,6 +3,7 @@ title: Funnel Chart
 page_title: Funnel Chart - RadHtmlChart
 description: Check our Web Forms article about Funnel Chart.
 slug: htmlchart/chart-types/funnel-chart
+components: ["htmlchart"]
 tags: funnel,chart
 published: True
 position: 9

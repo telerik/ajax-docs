@@ -3,6 +3,7 @@ title: Enums
 page_title: SpeechToTextButton Server-side Enums
 description: Server-side Enums of the Telerik WebForms SpeechToTextButton component
 slug: speechtotextbutton/server-side-programming/enums
+components: ["speechtotextbutton"]
 tags: speechtotextbutton,server,enums
 published: True
 position: 2

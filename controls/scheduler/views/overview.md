@@ -3,6 +3,7 @@ title: Overview
 page_title: Views Overview - RadScheduler
 description: Check our Web Forms article about Overview.
 slug: scheduler/views/overview
+components: ["scheduler"]
 tags: overview
 published: True
 position: 0

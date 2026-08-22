@@ -3,6 +3,7 @@ title: Toolbars and Menus
 page_title: Toolbars and Menus - RadEditor
 description: Check our Web Forms article about Toolbars and Menus.
 slug: editor/getting-started/toolbars-and-menus
+components: ["editor"]
 tags: toolbars,and,menus
 published: True
 position: 4

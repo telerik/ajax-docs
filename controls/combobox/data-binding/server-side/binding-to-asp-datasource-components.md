@@ -3,6 +3,7 @@ title: Binding to ASP DataSource components
 page_title: Server-side Data Binding Overview - RadComboBox
 description: Overview of the Server-side Data binding options for the Telerik WebForms Combobox.
 slug: combobox/data-binding/server-side/binding-to-asp-datasource-components
+components: ["combobox"]
 previous_url: controls/combobox/data-binding/binding-to-asp-datasource-components
 tags: server-side, data binding, overview
 published: True

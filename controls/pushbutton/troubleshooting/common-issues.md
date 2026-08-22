@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadPushButton
 description: Check our Web Forms article about Common Issues.
 slug: pushbutton/troubleshooting/common-issues
+components: ["pushbutton"]
 tags: common,issues
 published: True
 position: 0

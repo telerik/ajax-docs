@@ -3,6 +3,7 @@ title: HTML Output
 page_title: HTML Output - RadFilter
 description: Check our Web Forms article about HTML Output.
 slug: filter/appearance-and-styling/html-output
+components: ["filter"]
 tags: html,output
 published: True
 position: 1

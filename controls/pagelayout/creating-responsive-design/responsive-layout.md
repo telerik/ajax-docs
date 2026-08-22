@@ -3,6 +3,7 @@ title: Responsive Layout
 page_title: Responsive Layout - RadPageLayout
 description: Check our Web Forms article about Responsive Layout.
 slug: pagelayout/creating-responsive-design/responsive-layout
+components: ["pagelayout"]
 tags: responsive,layout
 published: True
 position: 1

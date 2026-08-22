@@ -3,6 +3,7 @@ title: SvgExporting
 page_title: SvgExporting - RadClientExportManager
 description: Check our Web Forms article about SvgExporting.
 slug: clientexportmanager/client-side-programming/events/svgexporting
+components: ["clientexportmanager"]
 tags: svgexporting
 published: True
 position: 5

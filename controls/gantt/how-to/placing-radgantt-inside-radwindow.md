@@ -3,6 +3,7 @@ title: Placing RadGantt inside RadWindow
 page_title: Placing RadGantt inside RadWindow
 description: Check our Web Forms article about Placing RadGantt inside RadWindow.
 slug: gantt/how-to/placing-radgantt-inside-radwindow
+components: ["gantt"]
 tags: placing,radgantt,inside,radwindow
 published: True
 position: 0

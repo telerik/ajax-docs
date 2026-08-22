@@ -3,6 +3,7 @@ title: Using a Custom Content Provider
 page_title: Using a Custom Content Provider - RadImageEditor
 description: Check our Web Forms article about Using a Custom Content Provider.
 slug: imageeditor/functionality/using-custom-content-provider
+components: ["imageeditor"]
 tags: using,custom,content,provider
 published: True
 position: 3

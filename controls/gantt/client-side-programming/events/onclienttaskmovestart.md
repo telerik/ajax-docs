@@ -3,6 +3,7 @@ title: OnClientTaskMoveStart
 page_title: OnClientTaskMoveStart - RadGantt
 description: Check our Web Forms article about OnClientTaskMoveStart.
 slug: gantt/client-side-programming/events/onclienttaskmovestart
+components: ["gantt"]
 tags: onclienttaskmovestart
 published: True
 position: 11

@@ -3,6 +3,7 @@ title: Range Bar Chart
 page_title: Range Bar Chart - RadHtmlChart
 description: Check our Web Forms article about Range Bar Chart.
 slug: htmlchart/chart-types/range-bar-chart
+components: ["htmlchart"]
 tags: range,bar,chart
 published: True
 position: 16

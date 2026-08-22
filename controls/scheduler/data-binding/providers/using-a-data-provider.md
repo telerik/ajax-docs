@@ -3,6 +3,7 @@ title: Using a Data Provider
 page_title: Using a Data Provider - RadScheduler
 description: Check our Web Forms article about Using a Data Provider.
 slug: scheduler/data-binding/providers/using-a-data-provider
+components: ["scheduler"]
 tags: using,a,data,provider
 published: True
 position: 0

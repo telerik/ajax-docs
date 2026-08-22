@@ -3,6 +3,7 @@ title: Tooltips
 page_title: Tooltips - RadPivotGrid
 description: Check our Web Forms article about Tooltips.
 slug: pivotgrid/tooltips
+components: ["pivotgrid"]
 tags: tooltips
 published: True
 position: 10

@@ -3,6 +3,7 @@ title: End User Restriction
 page_title: End User Restriction - RadComboBox
 description: Check our Web Forms article about End User Restriction.
 slug: combobox/functionality/end-user-restriction
+components: ["combobox"]
 tags: end,user,restriction
 published: True
 position: 5

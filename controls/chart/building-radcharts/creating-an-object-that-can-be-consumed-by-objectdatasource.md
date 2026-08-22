@@ -3,6 +3,7 @@ title: Creating an Object that can be Consumed by ObjectDataSource
 page_title: Creating an Object that can be Consumed by ObjectDataSource - RadChart
 description: Check our Web Forms article about Creating an Object that can be Consumed by ObjectDataSource.
 slug: chart/building-radcharts/creating-an-object-that-can-be-consumed-by-objectdatasource
+components: ["chart"]
 tags: creating,an,object,that,can,be,consumed,by,objectdatasource
 published: True
 position: 12

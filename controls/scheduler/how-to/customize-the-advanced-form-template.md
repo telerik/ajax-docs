@@ -3,6 +3,7 @@ title: Customize the Advanced Form Template
 page_title: Customize the Advanced Form Template - RadScheduler
 description: Check our Web Forms article about Customize the Advanced Form Template.
 slug: scheduler/how-to/customize-the-advanced-form-template
+components: ["scheduler"]
 tags: customize,the,advanced,form,template
 published: True
 position: 2

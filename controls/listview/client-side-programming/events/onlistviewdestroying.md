@@ -3,6 +3,7 @@ title: OnListViewDestroying
 page_title: OnListViewDestroying - RadListView
 description: Check our Web Forms article about OnListViewDestroying.
 slug: listview/client-side-programming/events/onlistviewdestroying
+components: ["listview"]
 tags: onlistviewdestroying
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnItemClicked
 page_title: OnItemClicked - RadRadioButtonList
 description: Check our Web Forms article about OnItemClicked.
 slug: radiobuttonlist/client-side-programming/events/onitemclicked
+components: ["radiobuttonlist"]
 tags: onitemclicked
 published: True
 position: 5

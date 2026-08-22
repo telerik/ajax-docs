@@ -3,6 +3,7 @@ title: OnClientCheckFinished
 page_title: OnClientCheckFinished - RadSpell
 description: Check our Web Forms article about OnClientCheckFinished.
 slug: spell/client-side-programming/events/onclientcheckfinished
+components: ["spell"]
 tags: onclientcheckfinished
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: ContentTemplate
 page_title: ContentTemplate - RadImageButton
 description: Check our Web Forms article about ContentTemplate.
 slug: imagebutton/functionality/contenttemplate
+components: ["imagebutton"]
 tags: contenttemplate
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnSelectionChanged
 page_title: OnSelectionChanged - RadTileList
 description: Check our Web Forms article about OnSelectionChanged.
 slug: tilelist/server-side-programming/server-side-events/onselectionchanged
+components: ["tilelist"]
 tags: onselectionchanged
 published: True
 position: 0

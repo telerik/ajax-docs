@@ -3,6 +3,7 @@ title: Defining Declaratively
 page_title: Defining Declaratively - RadTabStrip
 description: Check our Web Forms article about Defining Declaratively.
 slug: tabstrip/radmultipage/defining-declaratively
+components: ["tabstrip"]
 tags: defining,declaratively
 published: True
 position: 1

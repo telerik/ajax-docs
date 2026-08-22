@@ -3,6 +3,7 @@ title: OnClientItemChecked
 page_title: OnClientItemChecked - RadListBox
 description: Check our Web Forms article about OnClientItemChecked.
 slug: listbox/client-side-programming/events/onclientitemchecked
+components: ["listbox"]
 tags: onclientitemchecked
 published: True
 position: 11

@@ -3,6 +3,7 @@ title: Blank Dialogs Problem
 page_title: Blank Dialogs Problem - RadEditor
 description: Check our Web Forms article about Blank Dialogs Problem.
 slug: editor/troubleshooting/blank-dialogs-problem
+components: ["editor"]
 tags: blank,dialogs,problem
 published: True
 position: 4

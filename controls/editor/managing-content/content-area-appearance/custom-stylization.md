@@ -3,6 +3,7 @@ title: Custom Stylization
 page_title: Custom Stylization - RadEditor
 description: Check our Web Forms article about Custom Stylization.
 slug: editor/managing-content/content-area-appearance/custom-stylization
+components: ["editor"]
 tags: custom,stylization
 published: False
 position: 2

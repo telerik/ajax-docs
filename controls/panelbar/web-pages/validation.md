@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadPanelBar
 description: Check our Web Forms article about Validation.
 slug: panelbar/web-pages/validation
+components: ["panelbar"]
 tags: validation
 published: True
 position: 0

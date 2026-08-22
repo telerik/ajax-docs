@@ -3,6 +3,7 @@ title: How to Change Height of RadMenu
 page_title: How to Change Height of RadMenu - RadMenu
 description: Check our Web Forms article about How to Change Height of RadMenu.
 slug: menu/how-to/how-to-change-height-of-radmenu
+components: ["menu"]
 tags: how,to,change,height,of,radmenu
 published: True
 position: 9

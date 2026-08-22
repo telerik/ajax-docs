@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadImageButton
 description: Check our Web Forms article about Overview.
 slug: imagebutton/client-side-programming/overview
+components: ["imagebutton"]
 tags: overview
 published: True
 position: 0

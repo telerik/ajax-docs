@@ -3,6 +3,7 @@ title: Input Types
 page_title: Input Types - RadAutoCompleteBox
 description: Check our Web Forms article about Input Types.
 slug: autocompletebox/functionality/input-types
+components: ["autocompletebox"]
 tags: input,types
 published: True
 position: 0

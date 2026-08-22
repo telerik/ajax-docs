@@ -3,6 +3,7 @@ title: Layout
 page_title: Layout - RadSpreadsheet
 description: Check our Web Forms article about Layout.
 slug: spreadsheet/structure/layout
+components: ["spreadsheet"]
 tags: layout
 published: True
 position: 0

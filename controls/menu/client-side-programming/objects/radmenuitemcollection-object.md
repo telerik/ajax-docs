@@ -3,6 +3,7 @@ title: RadMenuItemCollection Object
 page_title: RadMenuItemCollection Object - RadMenu
 description: Check our Web Forms article about RadMenuItemCollection Object.
 slug: menu/client-side-programming/objects/radmenuitemcollection-object
+components: ["menu"]
 tags: radmenuitemcollection,object
 published: True
 position: 2

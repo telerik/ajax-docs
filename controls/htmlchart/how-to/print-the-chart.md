@@ -3,6 +3,7 @@ title: Print the Chart
 page_title: Print the Chart - RadHtmlChart
 description: Check our Web Forms article about Print the Chart.
 slug: htmlchart/how-to/print-the-chart
+components: ["htmlchart"]
 tags: print,the,chart
 published: True
 position: 1

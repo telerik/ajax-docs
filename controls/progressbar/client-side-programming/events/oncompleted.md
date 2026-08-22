@@ -3,6 +3,7 @@ title: OnCompleted
 page_title: OnCompleted - RadProgressBar
 description: Check our Web Forms article about OnCompleted.
 slug: progressbar/client-side-programming/events/oncompleted
+components: ["progressbar"]
 tags: oncompleted
 published: True
 position: 5

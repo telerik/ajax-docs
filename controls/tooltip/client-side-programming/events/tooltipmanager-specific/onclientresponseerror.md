@@ -3,6 +3,7 @@ title: OnClientResponseError
 page_title: OnClientResponseError - RadTooltip
 description: Check our Web Forms article about OnClientResponseError.
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientresponseerror
+components: ["tooltip"]
 tags: onclientresponseerror
 published: True
 position: 3

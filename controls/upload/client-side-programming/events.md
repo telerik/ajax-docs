@@ -3,6 +3,7 @@ title: Events
 page_title: Client-side Events - RadUpload
 description: Check our Web Forms article about Events.
 slug: upload/client-side-programming/events
+components: ["upload"]
 tags: events
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Missing Borders, TitleBar, Commands
 page_title: Missing Borders, TitleBar, Commands - RadWindow
 description: Check our Web Forms article about Missing Borders, TitleBar, Commands.
 slug: window/troubleshooting/missing-borders,-titlebar,-commands
+components: ["window"]
 tags: missing,borders,,titlebar,,commands
 published: True
 position: 7

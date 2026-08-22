@@ -3,6 +3,7 @@ title: OnClientDropDownClosing
 page_title: OnClientDropDownClosing - RadComboBox
 description: Check our Web Forms article about OnClientDropDownClosing.
 slug: combobox/client-side-programming/events/onclientdropdownclosing
+components: ["combobox"]
 tags: onclientdropdownclosing
 published: True
 position: 2

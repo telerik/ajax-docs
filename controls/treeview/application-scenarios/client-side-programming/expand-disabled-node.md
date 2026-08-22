@@ -3,6 +3,7 @@ title: Expand Disabled Node
 page_title: Expand Disabled Node - RadTreeView
 description: Check our Web Forms article about Expand Disabled Node.
 slug: treeview/application-scenarios/client-side-programming/expand-disabled-node
+components: ["treeview"]
 tags: expand,disabled,node
 published: True
 position: 8

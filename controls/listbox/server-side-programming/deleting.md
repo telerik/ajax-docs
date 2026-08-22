@@ -3,6 +3,7 @@ title: Deleting
 page_title: Deleting - RadListBox
 description: Check our Web Forms article about Deleting.
 slug: listbox/server-side-programming/server-events/deleting
+components: ["listbox"]
 tags: deleting
 published: True
 position: 13

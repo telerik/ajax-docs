@@ -3,6 +3,7 @@ title: Fluid Design
 page_title: Fluid Design - RadSplitButton
 description: Check our Web Forms article about Fluid Design.
 slug: splitbutton/mobile-support/fluid-design
+components: ["splitbutton"]
 tags: fluid,design
 published: True
 position: 2

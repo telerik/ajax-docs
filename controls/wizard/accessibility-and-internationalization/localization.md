@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadWizard
 description: Check our Web Forms article about Localization.
 slug: wizard/accessibility-and-internationalization/localization
+components: ["wizard"]
 tags: localization
 published: True
 position: 1

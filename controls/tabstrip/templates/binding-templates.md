@@ -3,6 +3,7 @@ title: Binding Templates
 page_title: Binding Templates - RadTabStrip
 description: Check our Web Forms article about Binding Templates.
 slug: tabstrip/templates/binding-templates
+components: ["tabstrip"]
 tags: binding,templates
 published: True
 position: 5

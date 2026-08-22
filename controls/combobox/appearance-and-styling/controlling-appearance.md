@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadComboBox
 description: Learn how to control the appearance of the ComboBox control using built-in styles and custom CSS.
 slug: combobox/appearance-and-styling/controlling-appearance
+components: ["combobox"]
 tags: controlling,appearance
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadSplitButton
 description: Check our Web Forms article about OnClientMouseOver.
 slug: splitbutton/client-side-programming/events/onclientmouseover
+components: ["splitbutton"]
 tags: onclientmouseover
 published: True
 position: 5

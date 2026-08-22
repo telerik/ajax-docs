@@ -3,6 +3,7 @@ title: OnTypingEnd
 page_title: OnTypingEnd - RadChat
 description: Check our Web Forms article about OnTypingEnd.
 slug: chat/client-side-programming/events/ontypingend
+components: ["chat"]
 tags: ontypingend
 published: True
 position: 5

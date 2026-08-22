@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadBreadcrumb
 description: Check our Web Forms article about Getting Started.
 slug: breadcrumb/getting-started
+components: ["breadcrumb"]
 tags: getting,started,
 published: True
 position: 1

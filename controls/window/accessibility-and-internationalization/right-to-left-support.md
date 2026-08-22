@@ -3,6 +3,7 @@ title: Right-to-left Support
 page_title: Right-to-left Support - RadWindow
 description: Check our Web Forms article about Right-to-left Support.
 slug: window/accessibility-and-internationalization/right-to-left-support
+components: ["window"]
 tags: right-to-left,support
 published: True
 position: 2

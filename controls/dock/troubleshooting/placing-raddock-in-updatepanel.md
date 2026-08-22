@@ -3,6 +3,7 @@ title: Placing RadDock In UpdatePanel
 page_title: Placing RadDock In UpdatePanel - RadDock
 description: Check our Web Forms article about Placing RadDock In UpdatePanel.
 slug: dock/troubleshooting/placing-raddock-in-updatepanel
+components: ["dock"]
 tags: placing,raddock,in,updatepanel
 published: True
 position: 0

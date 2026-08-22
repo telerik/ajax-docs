@@ -3,6 +3,7 @@ title: Region and Composite Region
 page_title: Region and Composite Region - RadPageLayout
 description: Check our Web Forms article about Region and Composite Region.
 slug: pagelayout/structure/region-and-composite-region
+components: ["pagelayout"]
 tags: region,and,composite,region
 published: False
 position: 3

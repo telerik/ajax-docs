@@ -3,6 +3,7 @@ title: get_clientDataKeyValue
 page_title: get_clientDataKeyValue - RadListView
 description: Check our Web Forms article about get_clientDataKeyValue.
 slug: listview/client-side-programming/radlistview/properties/get_clientdatakeyvalue
+components: ["listview"]
 tags: get_clientdatakeyvalue
 published: True
 position: 1

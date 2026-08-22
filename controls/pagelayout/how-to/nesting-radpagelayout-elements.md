@@ -3,6 +3,7 @@ title: Nesting RadPageLayout Elements
 page_title: Nesting RadPageLayout Elements - RadPageLayout
 description: Check our Web Forms article about Nesting RadPageLayout Elements.
 slug: pagelayout/how-to/nesting-radpagelayout-elements
+components: ["pagelayout"]
 tags: nesting,radpagelayout,elements
 published: True
 position: 2

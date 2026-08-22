@@ -3,6 +3,7 @@ title: Overview
 page_title: RadHtmlChart Types Overview - RadHtmlChart
 description: Explore the various chart types available in the HTMLChart control for visualizing different data sets.
 slug: htmlchart/chart-types/overview
+components: ["htmlchart"]
 tags: radchart,types,overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: XML Provider Binding
 page_title: XML Provider Binding - RadGantt
 description: Check our Web Forms article about XML Provider Binding.
 slug: gantt/resources/data-binding/xml-provider-binding
+components: ["gantt"]
 tags: xml,provider,binding
 published: True
 position: 2

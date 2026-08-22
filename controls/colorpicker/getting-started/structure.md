@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadColorPicker
 description: Check our Web Forms article about Structure.
 slug: colorpicker/getting-started/structure
+components: ["colorpicker"]
 tags: structure
 published: True
 position: 1

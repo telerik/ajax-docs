@@ -3,6 +3,7 @@ title: WizardStepCreated
 page_title: WizardStepCreated - RadWizard
 description: Check our Web Forms article about WizardStepCreated.
 slug: wizard/server-side-programming/events/wizardstepcreated
+components: ["wizard"]
 tags: wizardstepcreated
 published: True
 position: 7

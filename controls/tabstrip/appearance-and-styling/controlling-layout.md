@@ -3,6 +3,7 @@ title: Controlling Layout
 page_title: Controlling Layout - RadTabStrip
 description: Check our Web Forms article about Controlling Layout.
 slug: tabstrip/appearance-and-styling/controlling-layout
+components: ["tabstrip"]
 tags: controlling,layout
 published: True
 position: 8

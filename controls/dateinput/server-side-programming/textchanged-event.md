@@ -3,6 +3,7 @@ title: TextChanged Event
 page_title: TextChanged Event - RadDateInput
 description: Check our Web Forms article about TextChanged Event.
 slug: raddateinput/server-side-programming/textchanged-event
+components: ["dateinput"]
 tags: textchanged,event
 published: True
 position: 1

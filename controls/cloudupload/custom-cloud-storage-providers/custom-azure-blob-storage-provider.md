@@ -3,6 +3,7 @@ title: Custom Azure Blob Storage Provider
 page_title: Custom Azure Blob Storage Provider - RadCloudUpload
 description: Create Custom Azure Blob Providers to extend or take over the built-in functionality.
 slug: cloudupload/custom-cloud-storage-providers/custom-azure-blob-storage-provider
+components: ["cloudupload"]
 tags: custom,azure,blob,storage,provider
 published: True
 position: 2

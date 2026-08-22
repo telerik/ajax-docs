@@ -3,6 +3,7 @@ title: Data Source String Fields Are Not Parsed to Decimal
 page_title: Data Source String Fields Are Not Parsed to Decimal - RadHtmlChart
 description: Check our Web Forms article about Data Source String Fields Are Not Parsed to Decimal.
 slug: htmlchart/changes-and-backwards-compatibility/data-source-string-fields-are-not-parsed-to-decimal
+components: ["htmlchart"]
 tags: data,source,string,fields,are,not,parsed,to,decimal
 published: True
 position: 3

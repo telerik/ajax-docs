@@ -3,6 +3,7 @@ title: Properties
 page_title: Chip Server-side Properties
 description: "Server-side properties of the WebForms Chip component."
 slug: chip/server-side-programming/properties
+components: ["chip"]
 tags: chip,server-side,properties
 published: True
 position: 1

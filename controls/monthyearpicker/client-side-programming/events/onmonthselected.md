@@ -3,6 +3,7 @@ title: OnMonthSelected
 page_title: OnMonthSelected - RAdMonthYearPicker
 description: Check our Web Forms article about OnMonthSelected.
 slug: monthyearpicker/client-side-programming/events/onmonthselected
+components: ["monthyearpicker"]
 tags: onmonthselected
 published: True
 position: 4

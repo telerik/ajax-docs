@@ -3,6 +3,7 @@ title: DataSet
 page_title: DataSet - RadHtmlChart
 description: Check our Web Forms article about DataSet.
 slug: htmlchart/data-binding/dataset
+components: ["htmlchart"]
 tags: dataset
 published: True
 position: 6

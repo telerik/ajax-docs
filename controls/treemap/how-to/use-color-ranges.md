@@ -3,6 +3,7 @@ title: Use Color Ranges
 page_title: Use Color Ranges - RadTreeMap
 description: Check our Web Forms article about Use Color Ranges for items to have sibling and child items take different shades of the main color.
 slug: treemap/how-to/use-color-ranges
+components: ["treemap"]
 tags: use,color,range,kendo,widget,sibing,shade
 published: True
 position: 0

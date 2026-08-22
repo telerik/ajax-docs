@@ -3,6 +3,7 @@ title: Inner Toolbars are Displayed in Multiple Lines
 page_title: Inner Toolbars are Displayed in Multiple Lines - RadEditor
 description: Check our Web Forms article about Inner Toolbars are Displayed in Multiple Lines.
 slug: editor/troubleshooting/inner-toolbars-are-displayed-in-multiple-lines
+components: ["editor"]
 tags: inner,toolbars,are,displayed,in,multiple,lines
 published: True
 position: 2

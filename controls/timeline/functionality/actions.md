@@ -3,6 +3,7 @@ title: Actions
 page_title: Actions - RadTimeline
 description: Check our Web Forms article about Actions.
 slug: timeline/functionality/actions
+components: ["timeline"]
 tags: actions,client,server
 published: True
 position: 0

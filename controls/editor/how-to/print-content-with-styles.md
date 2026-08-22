@@ -3,6 +3,7 @@ title: Print Content with Styles
 page_title: Print Content with Styles - RadEditor
 description: Check our Web Forms article about Print Content with Styles.
 slug: editor/how-to/print-content-with-styles
+components: ["editor"]
 tags: print,content,with,styles
 published: True
 position: 3

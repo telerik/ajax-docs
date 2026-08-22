@@ -3,6 +3,7 @@ title: What is New
 page_title: What is New - RadMenu
 description: Check our Web Forms article about What is New.
 slug: menu/what-is-new
+components: ["menu"]
 tags: what,is,new
 published: False
 position: 2

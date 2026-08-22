@@ -3,6 +3,7 @@ title: Templates
 page_title: Templates - RadLightBox
 description: Check our Web Forms article about Templates.
 slug: lightbox/functionality/templates
+components: ["lightbox"]
 tags: templates
 published: True
 position: 0

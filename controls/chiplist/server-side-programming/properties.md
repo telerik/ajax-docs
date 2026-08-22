@@ -3,6 +3,7 @@ title: Properties
 page_title: ChipList Server-side Properties
 description: "Server-side properties of the WebForms ChipList component."
 slug: chiplist/server-side-programming/properties
+components: ["chiplist"]
 tags: chiplist,server-side,properties
 published: True
 position: 1

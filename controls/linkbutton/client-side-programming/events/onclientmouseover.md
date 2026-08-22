@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadLinkButton
 description: Check our Web Forms article about OnClientMouseOver.
 slug: linkbutton/client-side-programming/events/onclientmouseover
+components: ["linkbutton"]
 tags: onclientmouseover
 published: True
 position: 4

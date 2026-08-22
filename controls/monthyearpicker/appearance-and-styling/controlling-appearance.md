@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadMonthYearPicker
 description: Check our Web Forms article about Controlling Appearance.
 slug: montyearpicker/appearance-and-styling/controlling-appearance
+components: ["monthyearpicker"]
 tags: controlling,appearance
 published: True
 position: 0

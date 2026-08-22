@@ -3,6 +3,7 @@ title: XmlDataSource
 page_title: XmlDataSource - RadHtmlChart
 description: Check our Web Forms article about XmlDataSource.
 slug: htmlchart/data-binding/xmldatasource
+components: ["htmlchart"]
 tags: xmldatasource
 published: True
 position: 4

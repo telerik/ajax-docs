@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadCloudUpload
 description: Check our Web Forms article about Getting Started.
 slug: cloudupload/getting-started
+components: ["cloudupload"]
 tags: getting,started
 published: True
 position: 1

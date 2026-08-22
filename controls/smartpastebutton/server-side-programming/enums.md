@@ -3,6 +3,7 @@ title: Enums
 page_title: SmartPasteButton Server-side Enums
 description: Server-side Enums of the Telerik WebForms SmartPasteButton component
 slug: smartpastebutton/server-side-programming/enums
+components: ["smartpastebutton"]
 tags: smartpastebutton,server,enums
 published: True
 position: 2

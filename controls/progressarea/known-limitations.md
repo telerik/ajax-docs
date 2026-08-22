@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadProgressArea
 description: Check our Web Forms article about Known Limitations.
 slug: progressarea/known-limitations
+components: ["progressarea"]
 tags: known,limitations
 published: True
 position: 11

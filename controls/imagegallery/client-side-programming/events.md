@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadImageGallery
 description: Check our Web Forms article about Events.
 slug: imagegallery/client-side-programming/events
+components: ["imagegallery"]
 tags: events
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadDock
 description: Check our Web Forms article about CSS Classes.
 slug: dock/appearance-and-styling/css-classes
+components: ["dock"]
 tags: css,classes
 published: True
 position: 5

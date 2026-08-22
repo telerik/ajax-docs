@@ -3,6 +3,7 @@ title: OnLoad
 page_title: OnLoad - RadChat
 description: Check our Web Forms article about OnLoad.
 slug: chat/client-side-programming/events/onload
+components: ["chat"]
 tags: onload
 published: True
 position: 2

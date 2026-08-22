@@ -3,6 +3,7 @@ title: Command Item with Export Buttons
 page_title: Command Item - RadTreeList
 description: Check our Web Forms article about Command Item for built in export.
 slug: treelist/items/command-item
+components: ["treelist"]
 tags: command,item,export
 published: True
 position: 2

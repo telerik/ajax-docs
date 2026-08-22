@@ -3,6 +3,7 @@ title: OnClientTransferred
 page_title: OnClientTransferred - RadListBox
 description: Check our Web Forms article about OnClientTransferred.
 slug: listbox/client-side-programming/events/onclienttransferred
+components: ["listbox"]
 tags: onclienttransferred
 published: True
 position: 20

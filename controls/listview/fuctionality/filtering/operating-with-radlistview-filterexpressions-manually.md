@@ -3,6 +3,7 @@ title: Operating with RadListView FilterExpressions Manually
 page_title: Operating with RadListView FilterExpressions Manually - RadListView
 description: Check our Web Forms article about Operating with RadListView FilterExpressions Manually.
 slug: listview/fuctionality/filtering/operating-with-radlistview-filterexpressions-manually
+components: ["listview"]
 tags: operating,with,radlistview,filterexpressions,manually
 published: True
 position: 1

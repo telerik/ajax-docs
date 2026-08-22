@@ -3,6 +3,7 @@ title: Overview
 page_title: RadMultiPage Overview - RadTabStrip
 description: Learn about the RadMultiPage control and its integration with the TabStrip for managing page views.
 slug: tabstrip/radmultipage/overview
+components: ["tabstrip"]
 tags: overview
 published: True
 position: 0

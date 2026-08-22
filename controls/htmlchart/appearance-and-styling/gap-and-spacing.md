@@ -3,6 +3,7 @@ title: Gap and Spacing
 page_title: Gap and Spacing - RadHtmlChart
 description: Check our Web Forms article about Gap and Spacing.
 slug: htmlchart/appearance-and-styling/gap-and-spacing
+components: ["htmlchart"]
 tags: gap,and,spacing
 published: True
 position: 2

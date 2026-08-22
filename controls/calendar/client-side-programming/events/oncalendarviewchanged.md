@@ -3,6 +3,7 @@ title: OnCalendarViewChanged
 page_title: OnCalendarViewChanged - RadCalendar
 description: Check our Web Forms article about OnCalendarViewChanged.
 slug: calendar/client-side-programming/events/oncalendarviewchanged
+components: ["calendar"]
 tags: oncalendarviewchanged
 published: True
 position: 8

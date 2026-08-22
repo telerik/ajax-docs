@@ -3,6 +3,7 @@ title: OnClientItemDataBound
 page_title: OnClientItemDataBound - RadRotator
 description: Check our Web Forms article about OnClientItemDataBound.
 slug: rotator/client-side-programming/events/onclientitemdatabound
+components: ["rotator"]
 tags: onclientitemdatabound
 published: True
 position: 12

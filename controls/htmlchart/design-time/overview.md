@@ -3,6 +3,7 @@ title: Overview
 page_title: Design Time Overview - RadHtmlChart
 description: Check our Web Forms article about Overview.
 slug: htmlchart/design-time/overview
+components: ["htmlchart"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Optimizing RadToolTip Performance
 page_title: Optimizing RadToolTip Performance - RadToolTip
 description: Check our Web Forms article about Optimizing RadToolTip Performance.
 slug: tooltip/performance/optimizing-radtooltip-performance
+components: ["tooltip"]
 tags: performance,optimizing
 published: True
 position: 0

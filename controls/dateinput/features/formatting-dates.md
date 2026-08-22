@@ -3,6 +3,7 @@ title: Formatting Dates
 page_title: Formatting Dates - RadDateInput
 description: Check our Web Forms article about Formatting Dates.
 slug: raddateinput/features/formatting-dates
+components: ["dateinput"]
 tags: formatting,dates
 published: True
 position: 1

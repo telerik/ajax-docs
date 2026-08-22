@@ -3,6 +3,7 @@ title: Events
 page_title: Client-side Events - RadBreadcrumb
 description: Check our Web Forms article about Events.
 slug: breadcrumb/client-side-programming/events
+components: ["breadcrumb"]
 tags: events
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: LinqDataSource
 page_title: LinqDataSource - RadHtmlChart
 description: Check our Web Forms article about LinqDataSource.
 slug: htmlchart/data-binding/linqdatasource
+components: ["htmlchart"]
 tags: linqdatasource
 published: True
 position: 1

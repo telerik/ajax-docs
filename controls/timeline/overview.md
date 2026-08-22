@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTimeline Overview
 description: Check our Web Forms article about Overview.
 slug: timeline/overview
+components: ["timeline"]
 tags: overview
 published: True
 position: 0

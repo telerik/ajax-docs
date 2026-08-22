@@ -3,6 +3,7 @@ title: Items Drag and Drop
 page_title: Items Drag and Drop - RadTreeList
 description: Check our Web Forms article about Items Drag and Drop.
 slug: treelist/items/items-drag-and-drop
+components: ["treelist"]
 tags: items,drag,and,drop
 published: True
 position: 3

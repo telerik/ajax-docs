@@ -3,6 +3,7 @@ title: Adding Images to Steps
 page_title: Adding Images to Steps - RadWizard
 description: Check our Web Forms article about Adding Images to Steps.
 slug: wizard/appearance-and-styling/adding-images-to-steps
+components: ["wizard"]
 tags: adding,images,to,steps
 published: True
 position: 2

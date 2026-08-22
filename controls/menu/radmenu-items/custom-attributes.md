@@ -3,6 +3,7 @@ title: Custom Attributes
 page_title: Custom Attributes - RadMenu
 description: Check our Web Forms article about Custom Attributes.
 slug: menu/radmenu-items/custom-attributes
+components: ["menu"]
 tags: custom,attributes
 published: True
 position: 1

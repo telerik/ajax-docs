@@ -3,6 +3,7 @@ title: Overview
 page_title: RadColorPicker Overview
 description: Check our Web Forms article about Overview.
 slug: colorpicker/overview
+components: ["colorpicker"]
 tags: overview
 published: True
 position: 0

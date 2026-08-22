@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadBarcode
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: barcode/wai-aria-support
+components: ["barcode"]
 tags: wai-aria,support
 published: True
 position: 6

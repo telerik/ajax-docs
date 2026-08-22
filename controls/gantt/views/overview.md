@@ -3,6 +3,7 @@ title: Overview
 page_title: Views Overview - RadGantt
 description: Check our Web Forms article about Overview.
 slug: gantt/views/overview
+components: ["gantt"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnClientSelectedIndexChanging
 page_title: OnClientSelectedIndexChanging - RadListBox
 description: Check our Web Forms article about OnClientSelectedIndexChanging.
 slug: listbox/client-side-programming/events/onclientselectedindexchanging
+components: ["listbox"]
 tags: onclientselectedindexchanging
 published: True
 position: 21

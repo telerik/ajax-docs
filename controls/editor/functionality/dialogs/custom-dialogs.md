@@ -3,6 +3,7 @@ title: Custom Dialogs
 page_title: Custom Dialogs - RadEditor
 description: Check our Web Forms article about Custom Dialogs.
 slug: editor/functionality/dialogs/custom-dialogs
+components: ["editor"]
 tags: custom,dialogs
 published: True
 position: 8

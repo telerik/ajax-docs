@@ -3,6 +3,7 @@ title: WebConfig Configuraton
 page_title: WebConfing Configuraton - RadProgressArea
 description: Check our Web Forms article about WebConfing Configuraton.
 slug: progressarea/webconfing-configuraton
+components: ["progressarea"]
 tags: webconfing,configuraton
 published: True
 position: 7

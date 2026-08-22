@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadMap
 description: Check our Web Forms article about Elastic Design.
 slug: map/mobile-support/elastic-design
+components: ["map"]
 tags: elastic,design
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Manual Hierarchy of RadTreeView
 page_title: Manual Hierarchy of RadTreeView - RadODataDataSource
 description: Check our Web Forms article about Manual Hierarchy of RadTreeView.
 slug: odatadatasource/how-to/manual-hierarchy-of-radtreeview
+components: ["odatadatasource"]
 tags: manual,hierarchy,of,radtreeview
 published: True
 position: 1

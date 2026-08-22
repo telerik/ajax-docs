@@ -3,6 +3,7 @@ title: Change the Style of the Today Cell in Month View
 page_title: Change the Style of the Today Cell in Month View - RadScheduler
 description: Check our Web Forms article about Change the Style of the Today Cell in Month View.
 slug: scheduler/how-to/change-the-style-of-the-today-cell-in-month-view
+components: ["scheduler"]
 tags: change,the,style,of,the,today,cell,in,month,view
 published: True
 position: 5

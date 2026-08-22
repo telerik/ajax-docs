@@ -3,6 +3,7 @@ title: RadComboBox Selects a Different Item
 page_title: RadComboBox Selects a Different Item - RadComboBox
 description: Check our Web Forms article about RadComboBox Selects a Different Item.
 slug: combobox/troubleshooting/radcombobox-selects-a-different-item
+components: ["combobox"]
 tags: radcombobox,selects,a,different,item
 published: True
 position: 10

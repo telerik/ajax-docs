@@ -3,6 +3,7 @@ title: RTL Support
 page_title: RTL Support - RadComboBox
 description: Check our Web Forms article about RTL Support.
 slug: combobox/appearance-and-styling/rtl-support
+components: ["combobox"]
 tags: rtl,support
 published: True
 position: 11

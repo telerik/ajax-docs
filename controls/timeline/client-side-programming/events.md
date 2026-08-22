@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadTimeline
 description: Check our Web Forms article about Overview.
 slug: timeline/client-side-programming/events
+components: ["timeline"]
 tags: overview,events
 published: True
 position: 1

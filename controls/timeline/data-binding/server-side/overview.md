@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadTimeline
 description: Check our Web Forms article about Overview.
 slug: timeline/data-binding/server-side/overview
+components: ["timeline"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Loading Related SQL Tables
 page_title: Loading Related SQL Tables - RadTreeView
 description: Check our Web Forms article about Loading Related SQL Tables.
 slug: treeview/application-scenarios/data-binding/loading-related-sql-tables
+components: ["treeview"]
 tags: loading,related,sql,tables
 published: True
 position: 0

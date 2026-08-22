@@ -3,6 +3,7 @@ title: OnBlur
 page_title: OnBlur - RadNumericTextBox
 description: Check our Web Forms article about OnBlur.
 slug: numerictextbox/client-side-programming/events/onblur
+components: ["numerictextbox"]
 tags: onblur
 published: True
 position: 1

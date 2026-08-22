@@ -3,6 +3,7 @@ title: Migrating from RadUpload Classic to RadUpload for ASP.NET AJAX
 page_title: Migrating from RadUpload Classic to RadUpload - RadUpload
 description: Check our Web Forms article about Migrating from RadUpload Classic to RadUpload for ASP.NET AJAX.
 slug: upload/migrating-from-radupload-classic-to-radupload-for-asp.net-ajax
+components: ["upload"]
 tags: migrating,from,radupload,classic,to,radupload,for,asp.net,ajax
 published: True
 position: 6

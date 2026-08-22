@@ -3,6 +3,7 @@ title: Hide the Transfer to Left button
 page_title: Hide the Transfer to Left button - RadListBox
 description: Check our Web Forms article about Hide the Transfer to Left button.
 slug: listbox/how-to/hide-the-transfer-to-left-button
+components: ["listbox"]
 tags: hide,the,transfer,to,left,button
 published: True
 position: 3

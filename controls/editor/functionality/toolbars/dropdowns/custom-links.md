@@ -3,6 +3,7 @@ title: Custom Links
 page_title: Custom Links - RadEditor
 description: Check our Web Forms article about Custom Links.
 slug: editor/functionality/toolbars/dropdowns/custom-links
+components: ["editor"]
 tags: custom,links
 published: True
 position: 9

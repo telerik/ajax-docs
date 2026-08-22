@@ -3,6 +3,7 @@ title: GanttResourceCollection Object
 page_title: GanttResourceCollection Object - RadGantt
 description: Check our Web Forms article about GanttResourceCollection Object.
 slug: gantt/client-side-programming/objects/ganttresourcecollection-object
+components: ["gantt"]
 tags: ganttresourcecollection,object
 published: True
 position: 8

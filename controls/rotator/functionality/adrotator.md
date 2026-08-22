@@ -3,6 +3,7 @@ title: AdRotator
 page_title: AdRotator - RadRotator
 description: Check our Web Forms article about AdRotator.
 slug: rotator/functionality/adrotator
+components: ["rotator"]
 tags: adrotator
 published: True
 position: 1

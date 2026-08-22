@@ -3,6 +3,7 @@ title: Declarative Definition
 page_title: Declarative Definition - RadListView
 description: Check our Web Forms article about Declarative Definition.
 slug: listview/defining-structure/declarative-definition
+components: ["listview"]
 tags: declarative,definition
 published: True
 position: 0

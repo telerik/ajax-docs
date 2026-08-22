@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadScheduler
 description: Check our Web Forms article about Smart Tag.
 slug: scheduler/design-time/smart-tag
+components: ["scheduler"]
 tags: smart,tag
 published: True
 position: 0

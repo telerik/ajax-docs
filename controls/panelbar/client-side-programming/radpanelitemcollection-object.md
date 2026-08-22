@@ -3,6 +3,7 @@ title: RadPanelItemCollection Object
 page_title: RadPanelItemCollection Object - RadPanelBar
 description: Check our Web Forms article about RadPanelItemCollection Object.
 slug: panelbar/client-side-programming/radpanelitemcollection-object
+components: ["panelbar"]
 tags: radpanelitemcollection,object
 published: True
 position: 3

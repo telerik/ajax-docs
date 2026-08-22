@@ -3,6 +3,7 @@ title: OnClientTileDataBound
 page_title: OnClientTileDataBound - RadTileList
 description: Check our Web Forms article about OnClientTileDataBound.
 slug: tilelist/client-side-programming/client-side-events/onclienttiledatabound
+components: ["tilelist"]
 tags: onclienttiledatabound
 published: True
 position: 11

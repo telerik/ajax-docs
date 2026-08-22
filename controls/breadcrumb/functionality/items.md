@@ -3,6 +3,7 @@ title: Items
 page_title: Items - RadBreadcrumb
 description: Check our Web Forms article about Items.
 slug: breadcrumb/functionality/items
+components: ["breadcrumb"]
 tags: items
 published: True
 position: 0

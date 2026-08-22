@@ -3,6 +3,7 @@ title: Removing the Borders
 page_title: Removing the Borders - RadWindow
 description: Check our Web Forms article about Removing the Borders.
 slug: window/appearance-and-styling/removing-the-borders
+components: ["window"]
 tags: removing,the,borders
 published: True
 position: 2

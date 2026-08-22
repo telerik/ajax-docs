@@ -3,6 +3,7 @@ title: Localizing RadCloudUpload
 page_title: Localizing RadCloudUpload - RadCloudUpload
 description: Check our Web Forms article about Localizing RadCloudUpload.
 slug: cloudupload/accessibility-and-internationalization/localizing-radcloudupload
+components: ["cloudupload"]
 tags: localizing,radcloudupload
 published: True
 position: 0

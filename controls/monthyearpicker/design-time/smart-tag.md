@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadMonthYearPicker
 description: Check our Web Forms article about Smart Tag.
 slug: monthyearpicker/design-time/smart-tag
+components: ["monthyearpicker"]
 tags: smart,tag
 published: True
 position: 0

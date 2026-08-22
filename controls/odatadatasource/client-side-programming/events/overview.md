@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadODataDataSource
 description: Check our Web Forms article about Overview.
 slug: odatadatasource/client-side-programming/events/overview
+components: ["odatadatasource"]
 tags: overview
 published: True
 position: 0

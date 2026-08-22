@@ -3,6 +3,7 @@ title: OnClientReminderDismissing
 page_title: OnClientReminderDismissing - RadScheduler
 description: Check our Web Forms article about OnClientReminderDismissing.
 slug: scheduler/client-side-programming/events/onclientreminderdismissing-
+components: ["scheduler"]
 tags: onclientreminderdismissing,
 published: True
 position: 41

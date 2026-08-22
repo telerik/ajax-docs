@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadDataPager
 description: Check our Web Forms article about Render Modes.
 slug: datapager/mobile-support/render-modes
+components: ["datapager"]
 tags: render,modes
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Distance
 page_title: Distance - RadDragDropManager
 description: Distance
 slug: dragdropmanager/functionality/distance
+components: ["dragdropmanager"]
 tags: filter
 published: True
 ---

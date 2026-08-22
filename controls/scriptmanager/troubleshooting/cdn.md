@@ -3,6 +3,7 @@ title: CDN
 page_title: CDN - RadScriptManager
 description: Check our Web Forms article about CDN.
 slug: scriptmanager/troubleshooting/cdn
+components: ["scriptmanager"]
 tags: cdn
 published: True
 position: 1

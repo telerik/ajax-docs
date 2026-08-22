@@ -3,6 +3,7 @@ title: Working with Items at Server-Side
 page_title: Working with Items at Server-Side - RadComboBox
 description: Discover how to manage RadComboBox items on the server side for dynamic and efficient data handling.
 slug: combobox/radcombobox-items/working-with-items-at-server-side
+components: ["combobox"]
 tags: working,with,items,at,server-side
 published: True
 position: 3

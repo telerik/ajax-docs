@@ -3,6 +3,7 @@ title: Overview
 page_title: Badge Server-side Programming
 description: "Overview of the Server-side APIs you can use to create and configure the Telerik WebForms Badge Control."
 slug: badge/server-side-programming/overview
+components: ["badge"]
 tags: overview
 published: True
 position: 0

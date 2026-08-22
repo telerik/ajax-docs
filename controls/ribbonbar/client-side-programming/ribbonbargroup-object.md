@@ -3,6 +3,7 @@ title: RibbonBarGroup Object
 page_title: RibbonBarGroup Object - RadRibbonBar
 description: Check our Web Forms article about RibbonBarGroup Object.
 slug: ribbonbar/client-side-programming/ribbonbargroup-object
+components: ["ribbonbar"]
 tags: ribbonbargroup,object
 published: True
 position: 4

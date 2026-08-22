@@ -3,6 +3,7 @@ title: Navigating to a URL
 page_title: Navigating to a URL - RadTreeView
 description: Check our Web Forms article about Navigating to a URL.
 slug: treeview/server-side-programming/navigating-to-a-url
+components: ["treeview"]
 tags: navigating,to,a,url
 published: True
 position: 5

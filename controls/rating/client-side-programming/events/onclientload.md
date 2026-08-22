@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadRating
 description: Check our Web Forms article about OnClientLoad.
 slug: rating/client-side-programming/events/onclientload
+components: ["rating"]
 tags: onclientload
 published: True
 position: 1

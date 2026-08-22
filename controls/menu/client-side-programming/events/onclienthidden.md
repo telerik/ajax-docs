@@ -3,6 +3,7 @@ title: OnClientHidden
 page_title: OnClientHidden - RadMenu
 description: Check our Web Forms article about OnClientHidden.
 slug: menu/client-side-programming/events/onclienthidden
+components: ["menu"]
 tags: onclienthidden
 published: True
 position: 19

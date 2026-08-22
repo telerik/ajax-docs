@@ -3,6 +3,7 @@ title: Client-Side
 page_title: Client-Side - RadTreeView
 description: Check our Web Forms article about Client-Side.
 slug: treeview/checkboxes/client-side
+components: ["treeview"]
 tags: client-side
 published: True
 position: 2

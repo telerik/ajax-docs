@@ -3,6 +3,7 @@ title: OnClientGalleryCommandPreview
 page_title: OnClientGalleryCommandPreview - RadRibbonBar
 description: Check our Web Forms article about OnClientGalleryCommandPreview.
 slug: ribbonbar/client-side-programming/events/onclientgallerycommandpreview-
+components: ["ribbonbar"]
 tags: onclientgallerycommandpreview,
 published: True
 position: 27

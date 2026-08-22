@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started - RadPersistenceFramework
 description: Check our Web Forms article about RadPersistenceManager Getting Started Overview.
 slug: persistenceframework/getting-started/overview
+components: ["persistenceframework"]
 tags: overview
 published: True
 position: 0

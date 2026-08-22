@@ -3,6 +3,7 @@ title: Create Closable Tabs Client-Side
 page_title: Create Closable Tabs Client-Side - RadTabStrip
 description: Check our Web Forms article about Create Closable Tabs Client-Side.
 slug: tabstrip/how-to/create-closable-tabs-client-side
+components: ["tabstrip"]
 tags: create,closable,tabs,client-side
 published: True
 position: 4

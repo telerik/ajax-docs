@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadSwitch
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: switch/accessibility-and-internationalization/wai-aria-support
+components: ["switch"]
 tags: wai-aria,support
 published: True
 position: 3

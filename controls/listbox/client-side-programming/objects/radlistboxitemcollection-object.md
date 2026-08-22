@@ -3,6 +3,7 @@ title: RadListBoxItemCollection Object
 page_title: RadListBoxItemCollection Object - RadListBox
 description: Check our Web Forms article about RadListBoxItemCollection Object.
 slug: listbox/client-side-programming/objects/radlistboxitemcollection-object
+components: ["listbox"]
 tags: radlistboxitemcollection,object
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: RibbonBarSplitButton
 page_title: RibbonBarSplitButton - RadRibbonBar
 description: Check our Web Forms article about RibbonBarSplitButton.
 slug: ribbonbar/radribbonbar-items/ribbonbarsplitbutton
+components: ["ribbonbar"]
 tags: ribbonbarsplitbutton
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientTemplateDataBound
 page_title: OnClientTemplateDataBound - RadTile
 description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclienttemplatedatabound
+components: ["tilelist"]
 tags: onclienttemplatedatabound
 published: True
 position: 3

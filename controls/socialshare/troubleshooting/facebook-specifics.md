@@ -3,6 +3,7 @@ title: Facebook Specifics
 page_title: Facebook Specifics - RadSocialShare
 description: Check our Web Forms article about Facebook Specifics.
 slug: socialshare/troubleshooting/facebook-specifics
+components: ["socialshare"]
 tags: facebook,specifics
 published: True
 position: 2

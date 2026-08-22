@@ -3,6 +3,7 @@ title: Reordered
 page_title: Reordered - RadListBox
 description: Check our Web Forms article about Reordered.
 slug: listbox/server-side-programming/server-events/reordered
+components: ["listbox"]
 tags: reordered
 published: True
 position: 4

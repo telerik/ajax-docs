@@ -3,6 +3,7 @@ title: SelectedTabChange
 page_title: SelectedTabChange - RadRibbonBar
 description: Check our Web Forms article about SelectedTabChange.
 slug: ribbonbar/server-side-programming/events/selectedtabchange
+components: ["ribbonbar"]
 tags: selectedtabchange
 published: True
 position: 8

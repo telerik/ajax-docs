@@ -3,6 +3,7 @@ title: OnClientDropDownOpening
 page_title: OnClientDropDownOpening - RadAutoCompleteBox
 description: Check our Web Forms article about OnClientDropDownOpening.
 slug: autocompletebox/client-side-programming/events/onclientdropdownopening
+components: ["autocompletebox"]
 tags: onclientdropdownopening
 published: True
 position: 0

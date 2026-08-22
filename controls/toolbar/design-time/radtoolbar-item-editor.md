@@ -3,6 +3,7 @@ title: RadToolBar Item Editor
 page_title: RadToolBar Item Editor - RadToolBar
 description: Check our Web Forms article about RadToolBar Item Editor.
 slug: toolbar/design-time/radtoolbar-item-editor
+components: ["toolbar"]
 tags: radtoolbar,item,editor
 published: True
 position: 1

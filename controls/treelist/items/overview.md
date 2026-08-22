@@ -3,6 +3,7 @@ title: Overview
 page_title: Items Overview - RadTreeList
 description: Check our Web Forms article about Overview.
 slug: treelist/items/overview
+components: ["treelist"]
 tags: overview
 published: True
 position: 0

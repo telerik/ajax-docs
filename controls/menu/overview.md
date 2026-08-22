@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadMenu
 description: Learn about the Menu control and its features for creating hierarchical navigation menus.
 slug: menu/overview
+components: ["menu"]
 tags: overview
 published: True
 position: 0

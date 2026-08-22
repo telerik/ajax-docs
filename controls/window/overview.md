@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadWindow
 description: Discover the RadWindow control and its features for creating modal and non-modal dialog windows.
 slug: window/overview
+components: ["window"]
 tags: overview
 published: True
 position: 0

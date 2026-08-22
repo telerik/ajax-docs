@@ -3,6 +3,7 @@ title: DateTimeFormatInfo object
 page_title: DateTimeFormatInfo object - RadCalendar
 description: Check our Web Forms article about DateTimeFormatInfo object.
 slug: calendar/client-side-programming/datetimeformatinfo-object
+components: ["calendar"]
 tags: datetimeformatinfo,object
 published: True
 position: 8

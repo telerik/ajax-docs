@@ -3,6 +3,7 @@ title: Simple Binding
 page_title: Simple Binding - RadOrgChart
 description: Check our Web Forms article about Simple Binding.
 slug: orgchart/data-binding/simple-binding
+components: ["orgchart"]
 tags: simple,binding
 published: True
 position: 1

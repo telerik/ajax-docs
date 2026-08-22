@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadPanelBar
 description: Check our Web Forms article about Structure.
 slug: panelbar/structure
+components: ["panelbar"]
 previous_url: controls/panelbar/overview/structure
 tags: structure
 published: True

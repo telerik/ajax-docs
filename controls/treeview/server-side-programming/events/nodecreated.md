@@ -3,6 +3,7 @@ title: NodeCreated
 page_title: NodeCreated - RadTreeView
 description: Check our Web Forms article about NodeCreated.
 slug: treeview/server-side-programming/events/nodecreated
+components: ["treeview"]
 tags: nodecreated
 published: True
 position: 6

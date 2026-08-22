@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadSwitch
 description: Explore the Switch control and its features for toggling between two states in your application.
 slug: switch/overview
+components: ["switch"]
 tags: overview
 published: True
 position: 0

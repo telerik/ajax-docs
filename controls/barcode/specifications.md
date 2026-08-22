@@ -3,6 +3,7 @@ title: Specifications
 page_title: Specifications - RadBarcode
 description: Check our Web Forms article about Specifications.
 slug: barcode/specifications
+components: ["barcode"]
 tags: specifications
 published: True
 position: 4

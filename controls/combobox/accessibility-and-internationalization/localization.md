@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadComboBox
 description: Check our Web Forms article about Localization.
 slug: combobox/accessibility-and-internationalization/localization
+components: ["combobox"]
 tags: localization
 published: True
 position: 2

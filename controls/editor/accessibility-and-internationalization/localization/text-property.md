@@ -3,6 +3,7 @@ title: Text Property
 page_title: Text Property - RadEditor
 description: Check our Web Forms article about Text Property.
 slug: editor/accessibility-and-internationalization/localization/text-property
+components: ["editor"]
 tags: text,property
 published: True
 position: 2

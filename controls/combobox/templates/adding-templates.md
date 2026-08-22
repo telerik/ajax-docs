@@ -3,6 +3,7 @@ title: Adding Templates
 page_title: Adding Templates - RadComboBox
 description: Check our Web Forms article about Adding Templates.
 slug: combobox/templates/adding-templates
+components: ["combobox"]
 tags: adding,templates
 published: True
 position: 1

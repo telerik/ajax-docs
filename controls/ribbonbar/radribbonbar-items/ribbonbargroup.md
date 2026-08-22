@@ -3,6 +3,7 @@ title: RibbonBarGroup
 page_title: RibbonBarGroup - RadRibbonBar
 description: Check our Web Forms article about RibbonBarGroup.
 slug: ribbonbar/radribbonbar-items/ribbonbargroup
+components: ["ribbonbar"]
 tags: ribbonbargroup
 published: True
 position: 8

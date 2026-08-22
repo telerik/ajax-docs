@@ -3,6 +3,7 @@ title: RadODataDataSource Object
 page_title: RadODataDataSource Object - RadODataDataSource
 description: Check our Web Forms article about RadODataDataSource Object.
 slug: odatadatasource/client-side-programming/objects/radodatadatasource-object
+components: ["odatadatasource"]
 tags: radodatadatasource,object
 published: True
 position: 0

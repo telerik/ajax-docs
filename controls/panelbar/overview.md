@@ -3,6 +3,7 @@ title: Overview
 page_title: RadPanelBar Overview
 description: Discover the PanelBar control and its features for creating collapsible and hierarchical navigation menus.
 slug: panelbar/overview
+components: ["panelbar"]
 previous_url: controls/panelbar/overview/overview
 tags: overview
 published: True

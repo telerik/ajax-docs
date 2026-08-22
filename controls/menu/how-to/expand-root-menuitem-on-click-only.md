@@ -3,6 +3,7 @@ title: Expand Root MenuItem on Click Only
 page_title: Expand Root MenuItem on Click Only - RadMenu
 description: Check our Web Forms article about Expand Root MenuItem on Click Only.
 slug: menu/how-to/expand-root-menuitem-on-click-only
+components: ["menu"]
 tags: expand,root,menuitem,on,click,only
 published: True
 position: 3

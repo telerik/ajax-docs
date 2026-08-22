@@ -3,6 +3,7 @@ title: Grouping
 page_title: Grouping - RadMultiSelect
 description: Check our Web Forms article about Grouping.
 slug: multiselect/functionality/grouping
+components: ["multiselect"]
 tags: Grouping
 published: True
 position: 4

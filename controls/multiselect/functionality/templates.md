@@ -3,6 +3,7 @@ title: Templates
 page_title: Templates - RadMultiSelect
 description: Check our Web Forms article about Templates.
 slug: multiselect/functionality/templates
+components: ["multiselect"]
 tags: template,client
 published: True
 position: 1

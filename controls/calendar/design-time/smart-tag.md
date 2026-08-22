@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadCalendar
 description: Check our Web Forms article about Smart Tag.
 slug: calendar/design-time/smart-tag
+components: ["calendar"]
 tags: smart,tag
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadSpell
 description: Check our Web Forms article about Skins.
 slug: spell/appearance-and-styling/skins
+components: ["spell"]
 tags: skins
 published: True
 position: 0

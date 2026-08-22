@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadImageGallery
 description: Check our Web Forms article about Design Time.
 slug: imagegallery/design-time
+components: ["imagegallery"]
 tags: design,time
 published: True
 position: 2

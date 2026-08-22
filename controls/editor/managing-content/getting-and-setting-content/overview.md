@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadEditor
 description: Check our Web Forms article about Getting and Setting Content Overview.
 slug: editor/managing-content/getting-and-setting-content/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

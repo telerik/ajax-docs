@@ -3,6 +3,7 @@ title: Working With Tabs at the Server
 page_title: Working With Tabs at the Server - RadTabStrip
 description: Check our Web Forms article about Working With Tabs at the Server.
 slug: tabstrip/tabs/working-with-tabs-at-the-server
+components: ["tabstrip"]
 tags: working,with,tabs,at,the,server
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadDatePicker
 description: Check our Web Forms article about Overview.
 slug: datepicker/server-side-programming/events/overview
+components: ["datepicker"]
 tags: server-side,events,overview
 published: True
 position: 0

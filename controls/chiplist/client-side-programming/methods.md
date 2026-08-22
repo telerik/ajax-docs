@@ -3,6 +3,7 @@ title: Methods
 page_title: ChipList JavaScript Methods
 description: JavaScript Methods of the Telerik WebForms ChipList Control.
 slug: chiplist/client-side-programming/methods
+components: ["chiplist"]
 tags: chiplist,client-side,methods
 published: True
 position: 3

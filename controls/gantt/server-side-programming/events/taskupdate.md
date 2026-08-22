@@ -3,6 +3,7 @@ title: TaskUpdate
 page_title: TaskUpdate - RadGantt
 description: Check our Web Forms article about TaskUpdate.
 slug: gantt/server-side-programming/events/taskupdate
+components: ["gantt"]
 tags: taskupdate
 published: True
 position: 4

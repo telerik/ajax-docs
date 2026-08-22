@@ -3,6 +3,7 @@ title: TreeListButtonColumn Confirm Dialog
 page_title: TreeListButtonColumn Confirm Dialog - RadTreeList
 description: Check our Web Forms article about TreeListButtonColumn Confirm Dialog.
 slug: treelist/column/treelistbuttoncolumn-confirm-dialog
+components: ["treelist"]
 tags: treelistbuttoncolumn,confirm,dialog
 published: True
 position: 4

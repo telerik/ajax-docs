@@ -3,6 +3,7 @@ title: ScatterLine Chart
 page_title: ScatterLine Chart - RadHtmlChart
 description: Check our Web Forms article about ScatterLine Chart.
 slug: htmlchart/chart-types/scatterline-chart
+components: ["htmlchart"]
 tags: scatterline,chart
 published: True
 position: 19

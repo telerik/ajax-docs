@@ -3,6 +3,7 @@ title: OnClientContextMenu
 page_title: OnClientContextMenu - RadPanelBar
 description: Check our Web Forms article about OnClientContextMenu.
 slug: panelbar/client-side-programming/onclientcontextmenu
+components: ["panelbar"]
 tags: onclientcontextmenu
 published: True
 position: 15

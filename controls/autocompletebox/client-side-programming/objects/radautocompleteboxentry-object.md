@@ -3,6 +3,7 @@ title: AutoCompleteBoxEntry Object
 page_title: AutoCompleteBoxEntry Object - AutoCompleteBox
 description: Check our Web Forms article about AutoCompleteBoxEntry Object.
 slug: autocompletebox/client-side-programming/objects/autocompleteboxentry-object
+components: ["autocompletebox"]
 tags: autocompletebox,object
 published: True
 position: 1

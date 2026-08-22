@@ -3,6 +3,7 @@ title: AppointmentClick
 page_title: AppointmentClick - RadScheduler
 description: Check our Web Forms article about AppointmentClick.
 slug: scheduler/server-side-programming/server-events/appointmentclick
+components: ["scheduler"]
 tags: appointmentclick
 published: True
 position: 1

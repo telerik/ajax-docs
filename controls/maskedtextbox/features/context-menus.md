@@ -3,6 +3,7 @@ title: Context Menus
 page_title: Context Menus - RadMaskedTextBox
 description: Check our Web Forms article about Context Menus.
 slug: radmaskedtextbox/getting-started/context-menus
+components: ["maskedtextbox"]
 tags: context,menus
 published: True
 position: 2

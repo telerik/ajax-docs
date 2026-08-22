@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadFloatingActionButton
 description: Check our Web Forms article about the Server API of RadFloatingActionButton.
 slug: floatingactionbutton/server-side-programming/overview
+components: ["floatingactionbutton"]
 tags: overview
 published: True
 position: 0

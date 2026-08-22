@@ -3,6 +3,7 @@ title: OnMouseOut
 page_title: OnMouseOut - RadTextBox
 description: Check our Web Forms article about OnMouseOut.
 slug: radtextbox/client-side-programming/events/onmouseout
+components: ["textbox"]
 tags: onmouseout
 published: True
 position: 11

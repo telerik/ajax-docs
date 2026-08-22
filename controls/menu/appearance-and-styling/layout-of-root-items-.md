@@ -3,6 +3,7 @@ title: Layout of Root Items
 page_title: Layout of Root Items - RadMenu
 description: Check our Web Forms article about Layout of Root Items.
 slug: menu/appearance-and-styling/layout-of-root-items-
+components: ["menu"]
 tags: layout,of,root,items,
 published: True
 position: 2

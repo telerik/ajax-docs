@@ -3,6 +3,7 @@ title: Web Service Binding
 page_title: Web Service Binding - RadTreeView
 description: Check our Web Forms article about Web Service Binding.
 slug: treeview/load-on-demand/web-service-binding
+components: ["treeview"]
 tags: web,service,binding
 published: True
 position: 4

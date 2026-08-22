@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadMap
 description: Check our Web Forms article about Design Time.
 slug: map/design-time
+components: ["map"]
 tags: design,time
 published: True
 position: 2

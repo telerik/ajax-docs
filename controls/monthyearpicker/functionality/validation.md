@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadMonthYearPicker
 description: Check our Web Forms article about Validation.
 slug: monthyearpicker/functionality/validation
+components: ["monthyearpicker"]
 tags: validation
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Tree
 page_title: Tree - RadDiagram
 description: Check our Web Forms article about Tree.
 slug: diagram/structure/layout/tree
+components: ["diagram"]
 tags: tree
 published: True
 position: 1

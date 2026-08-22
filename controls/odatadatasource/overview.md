@@ -3,6 +3,7 @@ title: Overview
 page_title: RadODataDataSource Overview
 description: Check our Web Forms article about Overview.
 slug: odatadatasource/overview
+components: ["odatadatasource"]
 tags: overview
 published: True
 position: 0

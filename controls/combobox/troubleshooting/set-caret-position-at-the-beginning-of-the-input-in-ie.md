@@ -3,6 +3,7 @@ title: Set Caret Position at the Beginning of the Input in IE
 page_title: Set Caret Position at the Beginning of the Input in IE - RadComboBox
 description: Check our Web Forms article about Set Caret Position at the Beginning of the Input in IE.
 slug: combobox/troubleshooting/set-caret-position-at-the-beginning-of-the-input-in-ie
+components: ["combobox"]
 tags: set,caret,position,at,the,beginning,of,the,input,in,ie
 published: True
 position: 12

@@ -3,6 +3,7 @@ title: Custom Label
 page_title: Custom Label - RadProgressBar
 description: Check our Web Forms article about Custom Label.
 slug: progressbar/functionality/custom-label-
+components: ["progressbar"]
 tags: custom,label,
 published: True
 position: 1

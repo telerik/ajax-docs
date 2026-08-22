@@ -3,6 +3,7 @@ title: OnItemDragStarted
 page_title: OnItemDragStarted - RadTreeList
 description: Check our Web Forms article about OnItemDragStarted Event.
 slug: treelist/client-side-programming/Events/OnItemDragStarted
+components: ["treelist"]
 tags: events,OnItemDragStarted
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadSplitButton
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: splitbutton/accessibility-and-internationalization/wai-aria-support
+components: ["splitbutton"]
 tags: wai-aria,support
 published: True
 position: 3

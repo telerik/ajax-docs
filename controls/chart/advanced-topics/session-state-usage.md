@@ -3,6 +3,7 @@ title: Session State Usage
 page_title: Session State Usage - RadChart
 description: Check our Web Forms article about Session State Usage.
 slug: chart/advanced-topics/session-state-usage
+components: ["chart"]
 tags: session,state,usage
 published: True
 position: 8

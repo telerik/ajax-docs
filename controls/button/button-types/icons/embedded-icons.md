@@ -3,6 +3,7 @@ title: Embedded Icons
 page_title: Embedded Icons - RadButton
 description: Learn how to use embedded icons in Button controls to enhance visual appeal and improve user experience.
 slug: button/button-types/icons/embedded-icons
+components: ["button"]
 tags: embedded,icons
 published: True
 position: 1

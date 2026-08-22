@@ -3,6 +3,7 @@ title: Accessibility
 page_title: Accessibility - RadChart
 description: Check our Web Forms article about Accessibility.
 slug: chart/standards-compliance/accessibility
+components: ["chart"]
 tags: accessibility
 published: True
 position: 0

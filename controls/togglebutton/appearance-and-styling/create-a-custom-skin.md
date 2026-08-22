@@ -3,6 +3,7 @@ title: Create a Custom Skin
 page_title: Create a Custom Skin - RadToggleButton
 description: Check our Web Forms article about Create a Custom Skin.
 slug: togglebutton/appearance-and-styling/create-a-custom-skin
+components: ["togglebutton"]
 tags: create,a,custom,skin
 published: True
 position: 3

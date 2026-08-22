@@ -3,6 +3,7 @@ title: WCAG 2.0 and Section 508 Accessibility Compliance
 page_title: WCAG 2.0 and Section 508 Accessibility Compliance - RadNotification
 description: Check our Web Forms article about WCAG 2.0 and Section 508 Accessibility Compliance.
 slug: notification/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
+components: ["notification"]
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True
 position: 0

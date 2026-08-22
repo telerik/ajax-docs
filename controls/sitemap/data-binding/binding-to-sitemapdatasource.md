@@ -3,6 +3,7 @@ title: Binding to SiteMapDataSource
 page_title: Binding to SiteMapDataSource - RadSiteMap
 description: Check our Web Forms article about Binding to SiteMapDataSource.
 slug: sitemap/data-binding/binding-to-sitemapdatasource
+components: ["sitemap"]
 tags: binding,to,sitemapdatasource
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Using Inplace and EditForms Modes
 page_title: Using Inplace and EditForms Modes - RadTreeList
 description: Check our Web Forms article about Using Inplace and EditForms Modes.
 slug: treelist/data-editing/updating-records/using-inplace-and-editforms-modes
+components: ["treelist"]
 tags: using,inplace,and,editforms,modes
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Gridlines
 page_title: Gridlines - RadChart
 description: Check our Web Forms article about Gridlines.
 slug: chart/understanding-radchart-elements/gridlines
+components: ["chart"]
 tags: gridlines
 published: True
 position: 4

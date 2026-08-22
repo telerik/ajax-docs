@@ -3,6 +3,7 @@ title: Overview
 page_title: Building RadCharts - RadChart
 description: Check our Web Forms article about Building RadCharts.
 slug: chart/building-radcharts/building-radcharts
+components: ["chart"]
 tags: building,radcharts
 published: True
 position: 0

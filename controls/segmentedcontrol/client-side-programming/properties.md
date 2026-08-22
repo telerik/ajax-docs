@@ -3,6 +3,7 @@ title: Properties
 page_title: SegmentedControl JavaScript Properties
 description: "JavaScript properties and methods of the Telerik WebForms SegmentedControl component."
 slug: segmentedcontrol/client-side-programming/properties
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, javascript, properties
 published: True
 position: 1

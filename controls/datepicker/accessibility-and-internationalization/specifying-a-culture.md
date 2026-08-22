@@ -3,6 +3,7 @@ title: Specifying a Culture
 page_title: Specifying a Culture - RadDatePicker
 description: Check our Web Forms article about Specifying a Culture.
 slug: datepicker/accessibility-and-internationalization/specifying-a-culture
+components: ["datepicker"]
 tags: specifying,a,culture
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Custom Progress
 page_title: Custom Progress - RadProgressArea
 description: Check our Web Forms article about Custom Progress.
 slug: progressarea/custom-progress
+components: ["progressarea"]
 tags: custom,progress
 published: True
 position: 6

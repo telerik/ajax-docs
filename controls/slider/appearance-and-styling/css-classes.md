@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadSlider
 description: Check our Web Forms article about CSS Classes.
 slug: slider/appearance-and-styling/css-classes
+components: ["slider"]
 tags: css,classes
 published: True
 position: 4

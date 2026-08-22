@@ -3,6 +3,7 @@ title: Summarize By Settings Dialogue
 page_title: Summarize By Settings Dialogue - RadPivotGrid
 description: Check our Web Forms article about Summarize By Settings Dialogue.
 slug: pivotgrid/fields/summarize-by-settings-dialogue
+components: ["pivotgrid"]
 tags: summarize,by,settings,dialogue
 published: True
 position: 1

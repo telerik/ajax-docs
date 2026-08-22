@@ -3,6 +3,7 @@ title: Responsive, Adaptive and Elastic Capabilities
 page_title: Responsive, Adaptive and Elastic Capabilities - RadTooltip
 description: Check our Web Forms article about Responsive, Adaptive and Elastic Capabilities.
 slug: tooltip/mobile-support/responsive,-adaptive-and-elastic-capabilities
+components: ["tooltip"]
 tags: responsive,,adaptive,and,elastic,capabilities
 published: True
 position: 0

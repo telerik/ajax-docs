@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadTabStrip
 description: Check our Web Forms article about Smart Tag.
 slug: tabstrip/design-time/smart-tag
+components: ["tabstrip"]
 tags: smart,tag
 published: True
 position: 0

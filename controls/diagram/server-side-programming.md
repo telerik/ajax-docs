@@ -3,6 +3,7 @@ title: Server-side Programming
 page_title: Server-side Programming - RadDiagram
 description: Check our Web Forms article about Server-side Programming.
 slug: diagram/server-side-programming
+components: ["diagram"]
 tags: server-side,programming
 published: True
 position: 46

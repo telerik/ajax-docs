@@ -3,6 +3,7 @@ title: OnClientColorChange
 page_title: OnClientColorChange - RadColorPicker
 description: Check our Web Forms article about OnClientColorChange.
 slug: colorpicker/client-side-programming/events/onclientcolorchange
+components: ["colorpicker"]
 tags: onclientcolorchange
 published: True
 position: 4

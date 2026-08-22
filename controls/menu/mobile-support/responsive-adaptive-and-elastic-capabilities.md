@@ -3,6 +3,7 @@ title: Responsive Adaptive and Elastic Capabilities
 page_title: Responsive Adaptive and Elastic Capabilities - RadMenu
 description: Check our Web Forms article about Responsive Adaptive and Elastic Capabilities.
 slug: menu/mobile-support/responsive-adaptive-and-elastic-capabilities
+components: ["menu"]
 tags: responsive,adaptive,and,elastic,capabilities
 published: True
 position: 0

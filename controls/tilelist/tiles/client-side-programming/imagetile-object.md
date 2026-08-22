@@ -3,6 +3,7 @@ title: ImageTile Object
 page_title: ImageTile Object - RadTile
 description: Check our Web Forms article about ImageTile Object.
 slug: tilelist/tiles/client-side-programming/imagetile-object
+components: ["tilelist"]
 tags: imagetile,object
 published: True
 position: 5

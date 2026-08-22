@@ -3,6 +3,7 @@ title: RadDateRangePicker object
 page_title: RadDateRangePicker object - RadDateRangePicker
 description: Check our Web Forms article about RadDateRangePicker object.
 slug: daterangepicker/client-side-programming/overview
+components: ["daterangepicker"]
 tags: raddaterangepicker,object
 published: True
 position: 0

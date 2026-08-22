@@ -3,6 +3,7 @@ title: Shape
 page_title: Shape - RadDiagram
 description: Check our Web Forms article about Shape.
 slug: diagram/structure/shape
+components: ["diagram"]
 tags: shape
 published: True
 position: 1

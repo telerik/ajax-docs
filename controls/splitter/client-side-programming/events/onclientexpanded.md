@@ -3,6 +3,7 @@ title: OnClientExpanded
 page_title: OnClientExpanded - RadSplitter
 description: Check our Web Forms article about OnClientExpanded.
 slug: splitter/client-side-programming/events/onclientexpanded
+components: ["splitter"]
 tags: onclientexpanded
 published: True
 position: 11

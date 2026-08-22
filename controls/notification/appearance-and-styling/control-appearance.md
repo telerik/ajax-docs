@@ -3,6 +3,7 @@ title: Control Appearance
 page_title: Control Appearance - RadNotification
 description: Check our Web Forms article about Control Appearance.
 slug: notification/appearance-and-styling/control-appearance
+components: ["notification"]
 tags: control,appearance
 published: True
 position: 2

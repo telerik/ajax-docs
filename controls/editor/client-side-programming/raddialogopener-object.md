@@ -3,6 +3,7 @@ title: RadDialogOpener Object
 page_title: RadDialogOpener Object - RadEditor
 description: Check our Web Forms article about RadDialogOpener Object.
 slug: editor/client-side-programming/raddialogopener-object
+components: ["editor"]
 tags: raddialogopener,object
 published: True
 position: 12

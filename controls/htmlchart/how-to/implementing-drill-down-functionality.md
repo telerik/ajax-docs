@@ -3,6 +3,7 @@ title: Implementing Drill-Down Functionality
 page_title: Implementing Drill-Down Functionality - RadHtmlChart
 description: Check our Web Forms article about Implementing Drill-Down Functionality.
 slug: htmlchart/how-to/implementing-drill-down-functionality
+components: ["htmlchart"]
 tags: implementing,drill-down,functionality
 published: True
 position: 0

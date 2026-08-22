@@ -3,6 +3,7 @@ title: OnMouseOver
 page_title: OnMouseOver - RadDateInput
 description: Check our Web Forms article about OnMouseOver.
 slug: raddateinput/client-side-programming/events/onmouseover
+components: ["dateinput"]
 tags: onmouseover
 published: True
 position: 12

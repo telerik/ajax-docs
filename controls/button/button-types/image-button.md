@@ -3,6 +3,7 @@ title: Image Button
 page_title: Image Button - RadButton
 description: Learn how to use the Image Button type in the Button control for creating visually appealing buttons.
 slug: button/button-types/image-button
+components: ["button"]
 tags: image,button
 published: True
 position: 2

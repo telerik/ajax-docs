@@ -3,6 +3,7 @@ title: Event Templates
 page_title: Event Templates - RadTimeline
 description: Check our Web Forms article about Event Templates.
 slug: timeline/functionality/client-side-templates
+components: ["timeline"]
 tags: event,templates,client-side
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Events Overview - RadScheduler
 description: Check our Web Forms article about Overview.
 slug: scheduler/server-side-programming/server-events/overview
+components: ["scheduler"]
 tags: overview
 published: True
 position: 0

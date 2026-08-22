@@ -3,6 +3,7 @@ title: Templates
 page_title: Templates - RadEditor
 description: Check our Web Forms article about Templates.
 slug: editor/functionality/dialogs/file-browser-dialogs/templates
+components: ["editor"]
 tags: templates
 published: True
 position: 3

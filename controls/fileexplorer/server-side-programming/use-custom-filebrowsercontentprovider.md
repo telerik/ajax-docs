@@ -3,6 +3,7 @@ title: Use Custom FileBrowserContentProvider
 page_title: Use Custom FileBrowserContentProvider - RadFileExplorer
 description: Check our Web Forms article about Use Custom FileBrowserContentProvider.
 slug: fileexplorer/server-side-programming/use-custom-filebrowsercontentprovider
+components: ["fileexplorer"]
 tags: use,custom,filebrowsercontentprovider
 published: True
 position: 3

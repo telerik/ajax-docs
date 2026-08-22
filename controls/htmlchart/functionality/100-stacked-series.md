@@ -3,6 +3,7 @@ title: 100% Stacked Series
 page_title: 100% Stacked Series - RadHtmlChart
 description: Check our Web Forms article about 100% Stacked Series.
 slug: htmlchart/functionality/100-stacked-series
+components: ["htmlchart"]
 tags: 100%,stacked,series
 published: True
 position: 6

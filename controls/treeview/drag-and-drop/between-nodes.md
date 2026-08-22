@@ -3,6 +3,7 @@ title: Between Nodes
 page_title: Between Nodes - RadTreeView
 description: Check our Web Forms article about Between Nodes.
 slug: treeview/drag-and-drop/between-nodes
+components: ["treeview"]
 tags: between,nodes
 published: True
 position: 1

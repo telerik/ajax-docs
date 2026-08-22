@@ -3,6 +3,7 @@ title: Columns
 page_title: Columns - RadMultiColumnComboBox
 description: Check our Web Forms article about Columns.
 slug: multicolumncombobox/functionality/columns
+components: ["multicolumncombobox"]
 tags: Columns
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadSplitter
 description: Check our Web Forms article about Design Time.
 slug: splitter/design-time
+components: ["splitter"]
 tags: design,time
 published: True
 position: 3

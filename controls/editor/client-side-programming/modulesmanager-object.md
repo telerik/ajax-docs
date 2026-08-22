@@ -3,6 +3,7 @@ title: ModulesManager Object
 page_title: ModulesManager Object - RadEditor
 description: Check our Web Forms article about ModulesManager Object.
 slug: editor/client-side-programming/modulesmanager-object
+components: ["editor"]
 tags: modulesmanager,object
 published: True
 position: 11

@@ -3,6 +3,7 @@ title: Export Header Areas
 page_title: Export Header Areas - RadPivotGrid
 description: Check our Web Forms article about Export Header Areas.
 slug: pivotgrid/how-to/export-header-areas
+components: ["pivotgrid"]
 tags: export,header,areas
 published: True
 ---

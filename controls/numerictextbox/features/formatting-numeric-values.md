@@ -3,6 +3,7 @@ title: Formatting Numeric Values
 page_title: Formatting Numeric Values
 description: Learn how to format numeric values in the NumericTextBox control for better data presentation.
 slug: numerictextbox/features/formatting-numeric-values
+components: ["numerictextbox"]
 tags: formatting,numeric,values
 published: True
 position: 1

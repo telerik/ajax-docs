@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadImageEditor
 description: Check our Web Forms article about OnClientLoad.
 slug: imageeditor/client-side-programming/events/onclientload
+components: ["imageeditor"]
 tags: onclientload
 published: True
 position: 1

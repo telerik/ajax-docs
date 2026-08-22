@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadCaptcha
 description: Check our Web Forms article about OnClientLoad.
 slug: captcha/client-side-programming/events/onclientload
+components: ["captcha"]
 tags: onclientload
 published: True
 position: 0

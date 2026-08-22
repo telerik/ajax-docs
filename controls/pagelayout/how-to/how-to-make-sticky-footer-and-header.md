@@ -3,6 +3,7 @@ title: How to Make Sticky Footer and Header
 page_title: How to Make Sticky Footer and Header - RadPageLayout
 description: Check our Web Forms article about How to Make Sticky Footer and Header.
 slug: pagelayout/how-to/how-to-make-sticky-footer-and-header
+components: ["pagelayout"]
 tags: how,to,make,sticky,footer,and,header
 published: True
 position: 4

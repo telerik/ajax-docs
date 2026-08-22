@@ -3,6 +3,7 @@ title: Set Event Handlers via JavaScript
 page_title: Set Event Handlers via JavaScript - RadNotification
 description: Check our Web Forms article about Set Event Handlers via JavaScript.
 slug: notification/client-side-programming/events/set-event-handlers-via-javascript
+components: ["notification"]
 tags: set,event,handlers,via,javascript
 published: True
 position: 1

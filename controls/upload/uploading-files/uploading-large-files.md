@@ -3,6 +3,7 @@ title: Uploading Large Files
 page_title: Uploading Large Files - RadUpload
 description: Learn how to configure the Upload control for handling large file uploads with progress tracking.
 slug: upload/uploading-files/uploading-large-files
+components: ["upload"]
 tags: uploading,large,files
 published: True
 position: 1

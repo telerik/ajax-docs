@@ -3,6 +3,7 @@ title: Integration with DataSource Controls
 page_title: Integration with DataSource Controls - RadFilter
 description: Check our Web Forms article about Integration with DataSource Controls.
 slug: filter/how-to/integration-with-datasource-controls
+components: ["filter"]
 tags: integration,with,datasource,controls
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadButton
 description: Discover how to set up and configure the Button control for interactive user actions in your application.
 slug: button/getting-started
+components: ["button"]
 tags: getting,started
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Binding to Object-Based Data Sources
 page_title: Binding to Object-Based Data Sources - RadMenu
 description: Check our Web Forms article about Binding to Object-Based Data Sources.
 slug: menu/data-binding/binding-to-object-based-data-sources
+components: ["menu"]
 tags: binding,to,object-based,data,sources
 published: True
 position: 1

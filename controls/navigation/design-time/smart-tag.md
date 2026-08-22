@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadNavigation
 description: Check our Web Forms article about Smart Tag.
 slug: navigation/design-time/smart-tag
+components: ["navigation"]
 tags: smart,tag
 published: True
 position: 0

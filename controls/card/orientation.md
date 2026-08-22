@@ -3,6 +3,7 @@ title: Orientation
 page_title: RadCard Orientation
 description: Check our Web Forms article about Orientation.
 slug: card/orientation
+components: ["card"]
 tags: orientation
 published: True
 position: 3

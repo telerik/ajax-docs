@@ -3,6 +3,7 @@ title: Date Selection
 page_title: Date Selection - RadCalendar
 description: Check our Web Forms article about Date Selection.
 slug: calendar/functionality/date-selection
+components: ["calendar"]
 tags: date,selection
 published: True
 position: 7

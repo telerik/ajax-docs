@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadMenu
 description: Check our Web Forms article about Structure.
 slug: menu/structure
+components: ["menu"]
 tags: structure
 published: True
 position: 1

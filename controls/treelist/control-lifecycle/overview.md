@@ -3,6 +3,7 @@ title: Overview
 page_title: Control Lifecycle Overview - RadTreeList
 description: Check our Web Forms article about Overview.
 slug: treelist/control-lifecycle/overview
+components: ["treelist"]
 tags: overview
 published: True
 position: 0

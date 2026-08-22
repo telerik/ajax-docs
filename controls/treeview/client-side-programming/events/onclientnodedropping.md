@@ -3,6 +3,7 @@ title: OnClientNodeDropping
 page_title: OnClientNodeDropping - RadTreeView
 description: Check our Web Forms article about OnClientNodeDropping.
 slug: treeview/client-side-programming/events/onclientnodedropping
+components: ["treeview"]
 tags: onclientnodedropping
 published: True
 position: 11

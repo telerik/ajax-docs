@@ -3,6 +3,7 @@ title: Progress Template
 page_title: Progress Template - RadProgressArea
 description: Check our Web Forms article about Progress Template.
 slug: progressarea/progress-template
+components: ["progressarea"]
 tags: progress,template
 published: True
 position: 4

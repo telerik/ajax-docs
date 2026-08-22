@@ -3,6 +3,7 @@ title: Pinterest Specifics
 page_title: Pinterest Specifics - RadSocialShare
 description: Check our Web Forms article about Pinterest Specifics.
 slug: socialshare/troubleshooting/pinterest-specifics
+components: ["socialshare"]
 tags: pinterest,specifics
 published: True
 position: 5

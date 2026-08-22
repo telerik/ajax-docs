@@ -3,6 +3,7 @@ title: Server-side
 page_title: Server-side - RadNavigation
 description: Check our Web Forms article about Server-side.
 slug: navigation/data-binding/server-side
+components: ["navigation"]
 tags: server-side
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnPopupClosing
 page_title: OnPopupClosing - RAdMonthYearPicker
 description: Check our Web Forms article about OnPopupClosing.
 slug: monthyearpicker/client-side-programming/events/onpopupclosing
+components: ["monthyearpicker"]
 tags: onpopupclosing
 published: True
 position: 3

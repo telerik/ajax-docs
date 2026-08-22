@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadSocialShare
 description: Check our Web Forms article about Elastic Design.
 slug: socialshare/mobile-support/elastic-design
+components: ["socialshare"]
 tags: elastic,design,social share
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Right-to-left Support
 page_title: Right-to-left Support - Stepper
 description: Check our Web Forms article about Right-to-left Support.
 slug: stepper/accessibility-and-internationalization/right-to-left-support
+components: ["stepper"]
 tags: right-to-left,support
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadPushButton
 description: Check our Web Forms article about Overview.
 slug: pushbutton/client-side-programming/events/overview
+components: ["pushbutton"]
 tags: overview
 published: True
 position: 0

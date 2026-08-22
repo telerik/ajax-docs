@@ -3,6 +3,7 @@ title: Declaring Tabs Statically in Design Time
 page_title: Declaring Tabs Statically in Design Time - RadTabStrip
 description: Check our Web Forms article about Declaring Tabs Statically in Design Time.
 slug: tabstrip/tabs/declaring-tabs-statically-in-design-time
+components: ["tabstrip"]
 tags: declaring,tabs,statically,in,design,time
 published: True
 position: 4

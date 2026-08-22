@@ -3,6 +3,7 @@ title: Silverlight Manager
 page_title: Silverlight Manager - RadEditor
 description: Check our Web Forms article about Silverlight Manager.
 slug: editor/functionality/dialogs/file-browser-dialogs/silverlight-manager
+components: ["editor"]
 tags: silverlight,manager
 published: True
 position: 6

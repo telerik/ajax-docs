@@ -3,6 +3,7 @@ title: Day View
 page_title: Day View - RadGantt
 description: Check our Web Forms article about Day View.
 slug: gantt/views/day-view
+components: ["gantt"]
 tags: day,view
 published: True
 position: 1

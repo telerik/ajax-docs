@@ -3,6 +3,7 @@ title: OnClientGalleryCommandPreviewEnd
 page_title: OnClientGalleryCommandPreviewEnd - RadRibbonBar
 description: Check our Web Forms article about OnClientGalleryCommandPreviewEnd.
 slug: ribbonbar/client-side-programming/events/onclientgallerycommandpreviewend-
+components: ["ribbonbar"]
 tags: onclientgallerycommandpreviewend,
 published: True
 position: 28

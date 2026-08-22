@@ -3,6 +3,7 @@ title: Color Presets
 page_title: Color Presets - RadColorPicker
 description: Check our Web Forms article about Color Presets.
 slug: colorpicker/functionality/color-presets
+components: ["colorpicker"]
 tags: color,presets
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Enums
 page_title: Avatar JavaScript Enums
 description: "Client-side Enums of the Telerik WebForms Avatar component"
 slug: avatar/client-side-programming/enums
+components: ["avatar"]
 tags: enums
 published: True
 position: 2

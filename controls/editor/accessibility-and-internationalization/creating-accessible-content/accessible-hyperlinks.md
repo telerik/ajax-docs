@@ -3,6 +3,7 @@ title: Accessible Hyperlinks
 page_title: Accessible Hyperlinks - RadEditor
 description: Check our Web Forms article about Accessible Hyperlinks.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/accessible-hyperlinks
+components: ["editor"]
 tags: accessible,hyperlinks
 published: True
 position: 2

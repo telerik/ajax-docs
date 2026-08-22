@@ -3,6 +3,7 @@ title: XHTML Validator
 page_title: XHTML Validator - RadEditor
 description: Check our Web Forms article about XHTML Validator.
 slug: editor/functionality/dialogs/xhtml-validator
+components: ["editor"]
 tags: xhtml,validator
 published: True
 position: 6

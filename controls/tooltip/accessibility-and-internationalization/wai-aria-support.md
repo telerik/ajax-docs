@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadTooltip
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: tooltip/accessibility-and-internationalization/wai-aria-support
+components: ["tooltip"]
 tags: wai-aria,support
 published: True
 position: 2

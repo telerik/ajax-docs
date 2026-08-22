@@ -3,6 +3,7 @@ title: OnClientClicked
 page_title: OnClientClicked - RadLinkButton
 description: Check our Web Forms article about OnClientClicked.
 slug: linkbutton/client-side-programming/events/onclientclicked
+components: ["linkbutton"]
 tags: onclientclicked
 published: True
 position: 3

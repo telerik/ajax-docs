@@ -3,6 +3,7 @@ title: Load All Items on Initial Page Load
 page_title: Load All Items on Initial Page Load - RadMenu
 description: Check our Web Forms article about Load All Items on Initial Page Load.
 slug: menu/troubleshooting/load-all-items-on-initial-page-load
+components: ["menu"]
 tags: load,all,items,on,initial,page,load
 published: True
 position: 4

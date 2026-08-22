@@ -3,6 +3,7 @@ title: Overview
 page_title: Accessibility Overview - RadComboBox
 description: Enable accessibility for the ComboBox to make it usable by as many people as possible.
 slug: combobox/accessibility-and-internationalization/accessibility
+components: ["combobox"]
 tags: accessibility
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadDiagram
 description: Check our Web Forms article about Events.
 slug: diagram/client-side-programming/events
+components: ["diagram"]
 tags: events
 published: True
 position: 1

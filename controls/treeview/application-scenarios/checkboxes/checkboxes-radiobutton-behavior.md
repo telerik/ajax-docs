@@ -3,6 +3,7 @@ title: CheckBoxes RadioButton Behavior
 page_title: CheckBoxes RadioButton Behavior - RadTreeView
 description: Check our Web Forms article about CheckBoxes RadioButton Behavior.
 slug: treeview/application-scenarios/checkboxes/checkboxes-radiobutton-behavior
+components: ["treeview"]
 tags: checkboxes,radiobutton,behavior
 published: True
 position: 1

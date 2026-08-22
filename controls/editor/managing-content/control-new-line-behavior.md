@@ -3,6 +3,7 @@ title: Control New Line Behavior
 page_title: Control New Line Behavior - RadEditor
 description: Check our Web Forms article about Control New Line Behavior.
 slug: editor/managing-content/control-new-line-behavior
+components: ["editor"]
 tags: control,new,line,behavior
 published: True
 position: 5

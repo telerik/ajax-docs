@@ -3,6 +3,7 @@ title: RadMenuItem Object
 page_title: RadMenuItem Object - RadMenu
 description: Check our Web Forms article about RadMenuItem Object.
 slug: menu/client-side-programming/objects/radmenuitem-object
+components: ["menu"]
 tags: radmenuitem,object
 published: True
 position: 1

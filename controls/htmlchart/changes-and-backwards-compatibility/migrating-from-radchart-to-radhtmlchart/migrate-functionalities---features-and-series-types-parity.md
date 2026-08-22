@@ -3,6 +3,7 @@ title: Migrate Functionalities - Features and Series Types Parity
 page_title: Migrate Functionalities - Features and Series Types Parity - RadHtmlChart
 description: Check our Web Forms article about Migrate Functionalities - Features and Series Types Parity.
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-functionalities---features-and-series-types-parity
+components: ["htmlchart"]
 tags: migrate,functionalities,-,features,and,series,types,parity
 published: True
 position: 0

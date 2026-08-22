@@ -3,6 +3,7 @@ title: OnClientDropDownClosed
 page_title: OnClientDropDownClosed - RadToolBar
 description: Check our Web Forms article about OnClientDropDownClosed.
 slug: toolbar/client-side-programming/onclientdropdownclosed
+components: ["toolbar"]
 tags: onclientdropdownclosed
 published: True
 position: 4

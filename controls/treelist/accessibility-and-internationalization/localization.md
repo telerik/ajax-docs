@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadTreeList
 description: Check our Web Forms article about Localization.
 slug: treelist/accessibility-and-internationalization/localization
+components: ["treelist"]
 tags: localization
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: Reminders Overview - RadScheduler
 description: Check our Web Forms article about Overview.
 slug: scheduler/reminders/overview
+components: ["scheduler"]
 tags: overview
 published: True
 position: 0

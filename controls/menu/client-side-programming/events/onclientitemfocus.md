@@ -3,6 +3,7 @@ title: OnClientItemFocus
 page_title: OnClientItemFocus - RadMenu
 description: Check our Web Forms article about OnClientItemFocus.
 slug: menu/client-side-programming/events/onclientitemfocus
+components: ["menu"]
 tags: onclientitemfocus
 published: True
 position: 11

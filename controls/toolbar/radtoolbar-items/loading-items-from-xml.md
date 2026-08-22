@@ -3,6 +3,7 @@ title: Loading Items from XML
 page_title: Loading Items from XML - RadToolBar
 description: Check our Web Forms article about Loading Items from XML.
 slug: toolbar/radtoolbar-items/loading-items-from-xml
+components: ["toolbar"]
 tags: loading,items,from,xml
 published: True
 position: 6

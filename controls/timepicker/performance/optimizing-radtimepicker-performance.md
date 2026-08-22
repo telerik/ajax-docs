@@ -3,6 +3,7 @@ title: Optimizing RadTimePicker Performance
 page_title: Optimizing RadTimePicker Performance - RadTimePicker
 description: Check our Web Forms article about Optimizing RadTimePicker Performance.
 slug: timepicker/performance/optimizing-radtimepicker-performance
+components: ["timepicker"]
 tags: performance,optimizing
 published: True
 position: 0

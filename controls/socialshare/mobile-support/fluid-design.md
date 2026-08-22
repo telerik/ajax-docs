@@ -3,6 +3,7 @@ title: Fluid Design
 page_title: Fluid Design - RadSocialShare
 description: Check our Web Forms article about Fluid Design.
 slug: socialshare/mobile-support/fluid-design
+components: ["socialshare"]
 tags: fluid,design,social share
 published: True
 position: 3

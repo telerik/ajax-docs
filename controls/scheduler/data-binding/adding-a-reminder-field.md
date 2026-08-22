@@ -3,6 +3,7 @@ title: Adding a Reminder Field
 page_title: Adding a Reminder Field - RadScheduler
 description: Check our Web Forms article about Adding a Reminder Field.
 slug: scheduler/data-binding/adding-a-reminder-field
+components: ["scheduler"]
 tags: adding,a,reminder,field
 published: True
 position: 4

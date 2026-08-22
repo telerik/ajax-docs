@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure Overview - RadChat
 description: Check our Web Forms article about Structure Overview.
 slug: chat/structure
+components: ["chat"]
 tags: structure
 published: True
 position: 2

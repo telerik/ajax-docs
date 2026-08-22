@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTagCloud Overview
 description: Check our Web Forms article about Overview.
 slug: tagcloud/overview
+components: ["tagcloud"]
 tags: overview
 published: True
 position: 0

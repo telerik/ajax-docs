@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadDrawer
 description: Check our Web Forms article about Overview.
 slug: drawer/client-side-programming/events
+components: ["drawer"]
 tags: overview,events
 published: True
 position: 1

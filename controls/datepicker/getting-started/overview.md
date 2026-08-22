@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDatePicker Getting Started Overview - RadDatePicker
 description: Check our Web Forms article about RadDatePicker Getting Started Overview.
 slug: datepicker/getting-started/overview
+components: ["datepicker"]
 tags: overview
 published: True
 position: 0

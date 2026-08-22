@@ -3,6 +3,7 @@ title: OnGooglePlusOneOff
 page_title: OnGooglePlusOneOff - RadSocialShare
 description: Check our Web Forms article about OnGooglePlusOneOff.
 slug: socialshare/client-side-programming/events/ongoogleplusoneoff
+components: ["socialshare"]
 tags: ongoogleplusoneoff
 published: True
 position: 4

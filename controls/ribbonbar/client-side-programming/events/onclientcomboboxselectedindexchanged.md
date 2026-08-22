@@ -3,6 +3,7 @@ title: OnClientComboBoxSelectedIndexChanged
 page_title: OnClientComboBoxSelectedIndexChanged - RadRibbonBar
 description: Check our Web Forms article about OnClientComboBoxSelectedIndexChanged.
 slug: ribbonbar/client-side-programming/events/onclientcomboboxselectedindexchanged
+components: ["ribbonbar"]
 tags: onclientcomboboxselectedindexchanged
 published: True
 position: 21

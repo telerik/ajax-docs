@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadDiagram
 description: Check our Web Forms article about Getting Started.
 slug: diagram/getting-started
+components: ["diagram"]
 tags: getting,started
 published: True
 position: 1

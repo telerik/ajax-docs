@@ -3,6 +3,7 @@ title: Custom Dropdown
 page_title: Custom Dropdown - RadEditor
 description: Check our Web Forms article about Custom Dropdown.
 slug: editor/functionality/toolbars/dropdowns/custom-dropdown
+components: ["editor"]
 tags: custom,dropdown
 published: True
 position: 15

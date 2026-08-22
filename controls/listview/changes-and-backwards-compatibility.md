@@ -3,6 +3,7 @@ title: Changes and Backwards Compatibility
 page_title: Changes and Backwards Compatibility - RadListView
 description: Check our Web Forms article about Changes and Backwards Compatibility.
 slug: listview/changes-and-backwards-compatibility
+components: ["listview"]
 tags: changes,and,backwards,compatibility
 published: True
 position: 1

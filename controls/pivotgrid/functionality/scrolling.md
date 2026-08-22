@@ -3,6 +3,7 @@ title: Scrolling
 page_title: Scrolling - RadPivotGrid
 description: Check our Web Forms article about Scrolling.
 slug: pivotgrid/functionality/scrolling
+components: ["pivotgrid"]
 tags: scrolling
 published: True
 position: 4

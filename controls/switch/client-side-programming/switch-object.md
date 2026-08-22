@@ -3,6 +3,7 @@ title: Switch Object
 page_title: Switch Object - RadSwitch
 description: Check our Web Forms article about Switch Object.
 slug: switch/client-side-programming/switch-object
+components: ["switch"]
 tags: switch,object
 published: True
 position: 1

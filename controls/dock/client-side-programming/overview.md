@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-Side Programming Overview - RadDock
 description: Check our Web Forms article about Overview.
 slug: dock/client-side-programming/overview
+components: ["dock"]
 tags: overview
 published: True
 position: 0

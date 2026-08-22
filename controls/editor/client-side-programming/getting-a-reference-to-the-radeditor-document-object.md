@@ -3,6 +3,7 @@ title: Getting a Reference to the RadEditor Document Object
 page_title: Getting a Reference to the RadEditor Document Object - RadEditor
 description: Check our Web Forms article about Getting a Reference to the RadEditor Document Object.
 slug: editor/client-side-programming/getting-a-reference-to-the-radeditor-document-object
+components: ["editor"]
 tags: getting,a,reference,to,the,radeditor,document,object
 published: True
 position: 2

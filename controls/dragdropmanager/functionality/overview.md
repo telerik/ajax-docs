@@ -3,6 +3,7 @@ title: Overview
 page_title: Functionalities - RadDragDropManager
 description: Overview of RadDragDropManager Functionalities
 slug: dragdropmanager/functionality/overview
+components: ["dragdropmanager"]
 tags: dragdropmanager, drag & drop, features, overview, functionalities
 published: True
 position: 1

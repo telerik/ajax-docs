@@ -3,6 +3,7 @@ title: RadRibbonBar Object
 page_title: RadRibbonBar Object - RadRibbonBar
 description: Check our Web Forms article about RadRibbonBar Object.
 slug: ribbonbar/client-side-programming/radribbonbar-object-
+components: ["ribbonbar"]
 tags: radribbonbar,object,
 published: True
 position: 1

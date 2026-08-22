@@ -3,6 +3,7 @@ title: Autocomplete
 page_title: Autocomplete - RadComboBox
 description: Check our Web Forms article about Autocomplete.
 slug: combobox/functionality/autocomplete
+components: ["combobox"]
 tags: autocomplete
 published: True
 position: 3

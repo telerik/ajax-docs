@@ -3,6 +3,7 @@ title: Block Commands Behavior Change
 page_title: Block Commands Behavior Change - RadEditor
 description: Check our Web Forms article about Block Commands Behavior Change.
 slug: editor/changes-and-backwards-compatibility/block-commands-behavior-change
+components: ["editor"]
 tags: block,commands,behavior,change
 published: False
 position: 2

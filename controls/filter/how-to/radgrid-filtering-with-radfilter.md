@@ -3,6 +3,7 @@ title: RadGrid Filtering with RadFilter
 page_title: RadGrid Filtering with RadFilter - RadFilter
 description: Check our Web Forms article about RadGrid Filtering with RadFilter.
 slug: filter/how-to/radgrid-filtering-with-radfilter
+components: ["filter"]
 tags: radgrid,filtering,with,radfilter
 published: True
 position: 1

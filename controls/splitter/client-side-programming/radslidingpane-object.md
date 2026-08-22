@@ -3,6 +3,7 @@ title: RadSlidingPane Object
 page_title: RadSlidingPane Object - RadSplitter
 description: Check our Web Forms article about RadSlidingPane Object.
 slug: splitter/client-side-programming/radslidingpane-object
+components: ["splitter"]
 tags: radslidingpane,object
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Context Menus
 page_title: Context Menus - RadNumericTextBox
 description: Check our Web Forms article about Context Menus.
 slug: numerictextbox/features/context-menus
+components: ["numerictextbox"]
 tags: context,menus
 published: True
 position: 2

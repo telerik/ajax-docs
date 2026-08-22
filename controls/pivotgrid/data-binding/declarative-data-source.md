@@ -3,6 +3,7 @@ title: Declarative Data Source
 page_title: Declarative Data Source - RadPivotGrid
 description: Check our Web Forms article about Declarative Data Source.
 slug: pivotgrid/data-binding/declarative-data-source
+components: ["pivotgrid"]
 tags: declarative,data,source
 published: True
 position: 0

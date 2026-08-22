@@ -3,6 +3,7 @@ title: Full Set of Tools
 page_title: Full Set of Tools - RadImageEditor
 description: Check our Web Forms article about Full Set of Tools.
 slug: imageeditor/getting-started/full-set-of-tools
+components: ["imageeditor"]
 tags: full,set,of,tools
 published: True
 position: 2

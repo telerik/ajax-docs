@@ -3,6 +3,7 @@ title: Localizing Strings
 page_title: Localizing Strings - RadCalendar
 description: Check our Web Forms article about Localizing Strings.
 slug: calendar/accessibility-and-internationalization/localizing-strings
+components: ["calendar"]
 tags: localizing,strings
 published: True
 position: 3

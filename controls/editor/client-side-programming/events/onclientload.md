@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadEditor
 description: Check our Web Forms article about OnClientLoad.
 slug: editor/client-side-programming/events/onclientload
+components: ["editor"]
 tags: onclientload
 published: True
 position: 2

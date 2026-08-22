@@ -3,6 +3,7 @@ title: OnExportContent
 page_title: OnExportContent - RadEditor
 description: Check our Web Forms article about OnExportContent.
 slug: editor/server-side-programming/events/onexportcontent
+components: ["editor"]
 tags: onexportcontent
 published: True
 position: 0

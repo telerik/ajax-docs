@@ -3,6 +3,7 @@ title: GanttResource Object
 page_title: GanttResource Object - RadGantt
 description: Check our Web Forms article about GanttResource Object.
 slug: gantt/client-side-programming/objects/ganttresource-object
+components: ["gantt"]
 tags: ganttresource,object
 published: True
 position: 7

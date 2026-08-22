@@ -3,6 +3,7 @@ title: Hierarchical Self-Reference Binding of RadTreeView
 page_title: Hierarchical Self-Reference Binding of RadTreeView - RadODataDataSource
 description: Check our Web Forms article about Hierarchical Self-Reference Binding of RadTreeView.
 slug: odatadatasource/how-to/hierarchical-self-reference-binding-of-radtreeview-
+components: ["odatadatasource"]
 tags: hierarchical,self-reference,binding,of,radtreeview,
 published: True
 position: 0

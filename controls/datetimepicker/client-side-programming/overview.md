@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadDateTimePicker
 description: Check our Web Forms article about RadDateTimePicker Client-side Events Overview.
 slug: datetimepicker/client-side-programming/overview
+components: ["datetimepicker"]
 tags: overview
 published: True
 position: 0

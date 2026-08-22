@@ -3,6 +3,7 @@ title: Design-time
 page_title: Design-time - RadSearchBox
 description: Check our Web Forms article about Design-time.
 slug: searchbox/design-time
+components: ["searchbox"]
 tags: design-time
 published: true
 previous_url: controls/searchbox/design-time/design-time

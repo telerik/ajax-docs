@@ -3,6 +3,7 @@ title: Codeless Save in Database ASP.NET
 page_title: Codeless Save in Database ASP.NET - RadEditor
 description: Check our Web Forms article about Codeless Save in Database ASP.NET.
 slug: editor/managing-content/getting-and-setting-content/codeless-save-in-database-asp.net
+components: ["editor"]
 tags: codeless,save,in,database,asp.net
 published: True
 position: 4

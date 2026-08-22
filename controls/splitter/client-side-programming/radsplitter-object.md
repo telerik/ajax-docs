@@ -3,6 +3,7 @@ title: RadSplitter Object
 page_title: RadSplitter Object - RadSplitter
 description: Check our Web Forms article about RadSplitter Object.
 slug: splitter/client-side-programming/radsplitter-object
+components: ["splitter"]
 tags: radsplitter,object
 published: True
 position: 1

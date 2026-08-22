@@ -3,6 +3,7 @@ title: Database Structure
 page_title: Database Structure - RadScheduler
 description: Check our Web Forms article about Database Structure.
 slug: scheduler/data-binding/database-structure
+components: ["scheduler"]
 tags: database,structure
 published: True
 position: 1

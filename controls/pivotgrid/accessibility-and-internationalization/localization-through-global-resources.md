@@ -3,6 +3,7 @@ title: Localization through global resources
 page_title: Localization through global resources - RadPivotGrid
 description: Check our Web Forms article about Localization through global resources.
 slug: pivotgrid/accessibility-and-internationalization/localization-through-global-resources
+components: ["pivotgrid"]
 tags: localization,through,global,resources
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Properties and Events
 page_title: Properties and Events - RadImageButton
 description: Check our Web Forms article about Properties and Events.
 slug: imagebutton/server-side-programming/properties-and-events
+components: ["imagebutton"]
 tags: properties,and,events
 published: True
 position: 0

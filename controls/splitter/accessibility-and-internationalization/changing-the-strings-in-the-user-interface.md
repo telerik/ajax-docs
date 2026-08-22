@@ -3,6 +3,7 @@ title: Changing the Strings in the User Interface
 page_title: Changing the Strings in the User Interface - RadSplitter
 description: Check our Web Forms article about Changing the Strings in the User Interface.
 slug: splitter/accessibility-and-internationalization/changing-the-strings-in-the-user-interface
+components: ["splitter"]
 tags: changing,the,strings,in,the,user,interface
 published: True
 position: 2

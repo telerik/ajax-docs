@@ -3,6 +3,7 @@ title: OnClientFolderLoaded
 page_title: OnClientFolderLoaded - RadFileExplorer
 description: Check our Web Forms article about OnClientFolderLoaded.
 slug: fileexplorer/client-side-programming/events/onclientfolderloaded
+components: ["fileexplorer"]
 tags: onclientfolderloaded
 published: True
 position: 11

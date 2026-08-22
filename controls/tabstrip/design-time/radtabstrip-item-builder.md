@@ -3,6 +3,7 @@ title: RadTabStrip Item Builder
 page_title: RadTabStrip Item Builder - RadTabStrip
 description: Check our Web Forms article about RadTabStrip Item Builder.
 slug: tabstrip/design-time/radtabstrip-item-builder
+components: ["tabstrip"]
 tags: radtabstrip,item,builder
 published: True
 position: 1

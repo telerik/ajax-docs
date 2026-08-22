@@ -3,6 +3,7 @@ title: Binding to a Data Source
 page_title: Binding to a Data Source - RadTabStrip
 description: Check our Web Forms article about Binding to a Data Source.
 slug: tabstrip/getting-started/binding-to-a-data-source
+components: ["tabstrip"]
 tags: binding,to,a,data,source
 published: True
 position: 1

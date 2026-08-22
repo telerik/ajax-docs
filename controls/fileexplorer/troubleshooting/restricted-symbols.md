@@ -3,6 +3,7 @@ title: Restricted Symbols
 page_title: Restricted Symbols - RadFileExplorer
 description: Check our Web Forms article about Restricted Symbols.
 slug: fileexplorer/troubleshooting/restricted-symbols
+components: ["fileexplorer"]
 tags: restricted,symbols
 published: True
 position: 1

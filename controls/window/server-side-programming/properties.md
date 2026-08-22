@@ -3,6 +3,7 @@ title: Properties
 page_title: Properties - RadWindow
 description: Learn about the server-side properties of the RadWindow control for configuring its behavior and appearance.
 slug: window/server-side-programming/properties
+components: ["window"]
 tags: properties
 published: True
 position: 0

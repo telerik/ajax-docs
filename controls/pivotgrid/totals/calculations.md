@@ -3,6 +3,7 @@ title: Calculations
 page_title: Calculations - RadPivotGrid
 description: Check our Web Forms article about Calculations.
 slug: pivotgrid/totals/calculations
+components: ["pivotgrid"]
 tags: calculations
 published: True
 position: 2

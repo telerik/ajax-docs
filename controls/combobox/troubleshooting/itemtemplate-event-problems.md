@@ -3,6 +3,7 @@ title: ItemTemplate Event Problems
 page_title: ItemTemplate Event Problems - RadComboBox
 description: Check our Web Forms article about ItemTemplate Event Problems.
 slug: combobox/troubleshooting/itemtemplate-event-problems
+components: ["combobox"]
 tags: itemtemplate,event,problems
 published: True
 position: 4

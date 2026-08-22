@@ -3,6 +3,7 @@ title: Mobile Rendering Overview
 page_title: Overview - RadTreeList
 description: Check our Web Forms article about Overview.
 slug: treelist/mobile-support/mobile-rendering/overview
+components: ["treelist"]
 tags: overview
 published: True
 position: 0

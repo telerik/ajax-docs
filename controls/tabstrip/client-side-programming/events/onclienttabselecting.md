@@ -3,6 +3,7 @@ title: OnClientTabSelecting
 page_title: OnClientTabSelecting - RadTabStrip
 description: Check our Web Forms article about OnClientTabSelecting.
 slug: tabstrip/client-side-programming/onclienttabselecting
+components: ["tabstrip"]
 tags: onclienttabselecting
 published: True
 position: 11

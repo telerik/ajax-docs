@@ -3,6 +3,7 @@ title: EditorContextMenu Object
 page_title: EditorContextMenu Object - RadEditor
 description: Check our Web Forms article about EditorContextMenu Object.
 slug: editor/client-side-programming/editorcontextmenu-object
+components: ["editor"]
 tags: editorcontextmenu,object
 published: True
 position: 10

@@ -3,6 +3,7 @@ title: Programmatic Creation
 page_title: Programmatic Creation - RadFilter
 description: Check our Web Forms article about Programmatic Creation.
 slug: filter/field-editors/programmatic-creation
+components: ["filter"]
 tags: programmatic,creation
 published: True
 position: 2

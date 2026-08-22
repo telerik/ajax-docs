@@ -3,6 +3,7 @@ title: Gestures Support
 page_title: Gestures Support - RadLightBox
 description: Check our Web Forms article about Gestures Support.
 slug: lightbox/mobile-support/gestures-support
+components: ["lightbox"]
 tags: gestures,support
 published: True
 position: 1

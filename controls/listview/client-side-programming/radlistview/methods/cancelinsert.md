@@ -3,6 +3,7 @@ title: cancelInsert
 page_title: cancelInsert - RadListView
 description: Check our Web Forms article about cancelInsert.
 slug: listview/client-side-programming/radlistview/methods/cancelinsert
+components: ["listview"]
 tags: cancelinsert
 published: True
 position: 6

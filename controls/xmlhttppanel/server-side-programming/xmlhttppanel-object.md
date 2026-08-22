@@ -3,6 +3,7 @@ title: XmlHttpPanel Object
 page_title: XmlHttpPanel Object - RadXmlHttpPanel
 description: Check our Web Forms article about XmlHttpPanel Object.
 slug: xmlhttppanel/server-side-programming/xmlhttppanel-object
+components: ["xmlhttppanel"]
 tags: xmlhttppanel,object
 published: True
 position: 0

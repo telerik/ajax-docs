@@ -3,6 +3,7 @@ title: ItemsRequested
 page_title: ItemsRequested - RadListBox
 description: Check our Web Forms article about ItemsRequested.
 slug: listbox/server-side-programming/server-events/itemsrequested
+components: ["listbox"]
 tags: itemsrequested
 published: True
 position: 18

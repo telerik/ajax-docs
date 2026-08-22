@@ -3,6 +3,7 @@ title: Displaying the Popup
 page_title: Displaying the Popup - RadMonthYearPicker
 description: Check our Web Forms article about Displaying the Popup.
 slug: monthyearpicker/functionality/displaying-the-popup
+components: ["monthyearpicker"]
 tags: displaying,the,popup
 published: True
 position: 1

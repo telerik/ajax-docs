@@ -3,6 +3,7 @@ title: Configure Browser Spellcheck in RadEditor
 page_title: Configure Browser Spellcheck in RadEditor - RadEditor
 description: Check our Web Forms article about Configure Browser Spellcheck in RadEditor.
 slug: editor/how-to/configure-browser-spellcheck
+components: ["editor"]
 tags: configure, browser, spellcheck, underline, red, color, wrong, word, ajaxspellcheck, spelling, editor, lang
 published: True
 position: 10

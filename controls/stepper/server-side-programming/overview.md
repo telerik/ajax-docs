@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadStepper
 description: Check our Web Forms article about Overview.
 slug: stepper/server-side-programming/overview
+components: ["stepper"]
 tags: overview
 published: True
 position: 0

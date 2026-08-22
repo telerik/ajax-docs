@@ -3,6 +3,7 @@ title: OnClientDropDownClosed
 page_title: OnClientDropDownClosed - RadAutoCompleteBox
 description: Check our Web Forms article about OnClientDropDownClosed.
 slug: autocompletebox/client-side-programming/events/onclientdropdownclosed
+components: ["autocompletebox"]
 tags: onclientdropdownclosed
 published: True
 position: 3

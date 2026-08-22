@@ -3,6 +3,7 @@ title: OnClientDragging
 page_title: OnClientDragging - RadListBox
 description: Check our Web Forms article about OnClientDragging.
 slug: listbox/client-side-programming/events/onclientdragging
+components: ["listbox"]
 tags: onclientdragging
 published: True
 position: 5

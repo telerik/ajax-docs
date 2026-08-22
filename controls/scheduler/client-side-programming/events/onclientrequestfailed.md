@@ -3,6 +3,7 @@ title: OnClientRequestFailed
 page_title: OnClientRequestFailed - RadScheduler
 description: Check our Web Forms article about OnClientRequestFailed.
 slug: scheduler/client-side-programming/events/onclientrequestfailed
+components: ["scheduler"]
 tags: onclientrequestfailed
 published: True
 position: 25

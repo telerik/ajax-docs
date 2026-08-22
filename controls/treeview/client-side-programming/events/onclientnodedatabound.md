@@ -3,6 +3,7 @@ title: OnClientNodeDataBound
 page_title: OnClientNodeDataBound - RadTreeView
 description: Check our Web Forms article about OnClientNodeDataBound.
 slug: treeview/client-side-programming/events/onclientnodedatabound
+components: ["treeview"]
 tags: onclientnodedatabound
 published: True
 position: 19

@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadXmlHttpPanel
 description: Check our Web Forms article about Design Time.
 slug: xmlhttppanel/design-time
+components: ["xmlhttppanel"]
 tags: design,time
 published: True
 position: 3

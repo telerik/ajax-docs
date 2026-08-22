@@ -3,6 +3,7 @@ title: OnItemContextMenu
 page_title: OnItemContextMenu - RadTreeList
 description: Check our Web Forms article about OnItemContextMenu Event.
 slug: treelist/client-side-programming/Events/OnItemContextMenu
+components: ["treelist"]
 tags: events,OnItemContextMenu
 published: True
 position: 1

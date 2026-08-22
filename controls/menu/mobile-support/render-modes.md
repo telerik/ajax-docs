@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadMenu
 description: Check our Web Forms article about Render Modes.
 slug: menu/mobile-support/render-modes
+components: ["menu"]
 tags: render,modes
 published: True
 position: 1

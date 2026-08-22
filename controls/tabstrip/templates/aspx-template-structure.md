@@ -3,6 +3,7 @@ title: ASPX Template Structure
 page_title: ASPX Template Structure - RadTabStrip
 description: Check our Web Forms article about ASPX Template Structure.
 slug: tabstrip/templates/aspx-template-structure
+components: ["tabstrip"]
 tags: aspx,template,structure
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Known Issues
 page_title: Known Issues - RadProgressBar
 description: Check our Web Forms article about Known Issues in RadProgressBar.
 slug: progressbar/known-issues
+components: ["progressbar"]
 tags: known,issues,progressbar,radprogressbar
 published: True
 position: 80

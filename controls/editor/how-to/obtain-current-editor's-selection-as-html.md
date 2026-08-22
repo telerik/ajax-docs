@@ -3,6 +3,7 @@ title: Obtain Current Editor's Selection as HTML
 page_title: Obtain Current Editor's Selection as HTML - RadEditor
 description: Check our Web Forms article about Obtain Current Editor's Selection as HTML.
 slug: editor/how-to/obtain-current-editor's-selection-as-html
+components: ["editor"]
 tags: obtain,current,editor's,selection,as,html
 published: True
 position: 4

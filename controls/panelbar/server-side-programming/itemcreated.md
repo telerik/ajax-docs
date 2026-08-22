@@ -3,6 +3,7 @@ title: ItemCreated
 page_title: ItemCreated - RadPanelBar
 description: Check our Web Forms article about ItemCreated.
 slug: panelbar/server-side-programming/itemcreated
+components: ["panelbar"]
 tags: itemcreated
 published: True
 position: 2

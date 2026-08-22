@@ -3,6 +3,7 @@ title: NodeDataBound
 page_title: NodeDataBound - RadDropDownTree
 description: Check our Web Forms article about NodeDataBound.
 slug: dropdowntree/server-side-programming/events/nodedatabound
+components: ["dropdowntree"]
 tags: nodedatabound
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientItemBlur
 page_title: OnClientItemBlur - RadPanelBar
 description: Check our Web Forms article about OnClientItemBlur.
 slug: panelbar/client-side-programming/onclientitemblur
+components: ["panelbar"]
 tags: onclientitemblur
 published: True
 position: 10

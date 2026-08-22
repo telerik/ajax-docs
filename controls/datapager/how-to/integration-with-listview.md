@@ -3,6 +3,7 @@ title: Integration with ListView
 page_title: Integration with ListView - RadDataPager
 description: Check our Web Forms article about Integration with ListView.
 slug: datapager/how-to/integration-with-listview
+components: ["datapager"]
 tags: integration,with,listview
 published: True
 position: 0

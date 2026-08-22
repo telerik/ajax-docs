@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadWindow
 description: Discover common issues with the RadWindow control and learn how to troubleshoot and resolve them.
 slug: window/troubleshooting/common-issues
+components: ["window"]
 tags: common,issues
 published: True
 position: 1

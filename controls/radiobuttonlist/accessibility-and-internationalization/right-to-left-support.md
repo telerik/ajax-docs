@@ -3,6 +3,7 @@ title: Right-to-Left Support
 page_title: Right-to-Left Support - RadRadioButtonList
 description: Check our Web Forms article about Right-to-Left Support.
 slug: radiobuttonlist/accessibility-and-internationalization/right-to-left-support
+components: ["radiobuttonlist"]
 tags: right-to-left,support
 published: True
 position: 1

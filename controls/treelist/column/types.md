@@ -3,6 +3,7 @@ title: Types
 page_title: Types - RadTreeList
 description: Check our Web Forms article about Types.
 slug: treelist/column/types
+components: ["treelist"]
 tags: types
 published: True
 position: 0

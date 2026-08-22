@@ -3,6 +3,7 @@ title: Styles
 page_title: Styles - RadTextBox
 description: Check our Web Forms article about Styles.
 slug: radtextbox/appearance-and-styling/styles
+components: ["textbox"]
 tags: styles
 published: True
 position: 1

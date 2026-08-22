@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadMultiSelect
 description: Check our Web Forms article about Getting Started.
 slug: multiselect/getting-started
+components: ["multiselect"]
 tags: getting,started,
 published: True
 position: 1

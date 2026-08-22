@@ -3,6 +3,7 @@ title: SelectedDateChanged
 page_title: SelectedDateChanged - RadDatePicker
 description: Check our Web Forms article about SelectedDateChanged.
 slug: datepicker/server-side-programming/events/selecteddatechanged
+components: ["datepicker"]
 tags: selecteddatechanged
 published: True
 position: 6

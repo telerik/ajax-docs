@@ -3,6 +3,7 @@ title: OnClientDelete
 page_title: OnClientDelete - RadFileExplorer
 description: Check our Web Forms article about OnClientDelete.
 slug: fileexplorer/client-side-programming/events/onclientdelete
+components: ["fileexplorer"]
 tags: onclientdelete
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Populating the Recurrence Rule
 page_title: Populating the Recurrence Rule - RadScheduler
 description: Check our Web Forms article about Populating the Recurrence Rule.
 slug: scheduler/recurrence-editor/client-side-programming/populating-the-recurrence-rule
+components: ["scheduler"]
 tags: populating,the,recurrence,rule
 published: True
 position: 1

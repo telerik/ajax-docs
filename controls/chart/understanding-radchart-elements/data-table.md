@@ -3,6 +3,7 @@ title: Data Table
 page_title: Data Table - RadChart
 description: Check our Web Forms article about Data Table.
 slug: chart/understanding-radchart-elements/data-table
+components: ["chart"]
 tags: data,table
 published: True
 position: 15

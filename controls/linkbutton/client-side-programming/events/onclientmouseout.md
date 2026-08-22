@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadLinkButton
 description: Check our Web Forms article about OnClientMouseOut.
 slug: linkbutton/client-side-programming/events/onclientmouseout
+components: ["linkbutton"]
 tags: onclientmouseout
 published: True
 position: 5

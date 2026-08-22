@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-Side Events Overview - RadCalendar
 description: Check our Web Forms article about Server-Side Events Overview.
 slug: calendar/server-side-programming/events/overview
+components: ["calendar"]
 tags: server-side,events,basics
 published: True
 position: 0

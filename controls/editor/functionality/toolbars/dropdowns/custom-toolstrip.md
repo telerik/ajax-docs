@@ -3,6 +3,7 @@ title: Custom ToolStrip
 page_title: Custom ToolStrip - RadEditor
 description: Check our Web Forms article about Custom ToolStrip.
 slug: editor/functionality/toolbars/dropdowns/custom-toolstrip
+components: ["editor"]
 tags: custom,toolstrip
 published: True
 position: 16

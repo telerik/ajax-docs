@@ -3,6 +3,7 @@ title: OnClientAppointmentEditing
 page_title: OnClientAppointmentEditing - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentEditing.
 slug: scheduler/client-side-programming/events/onclientappointmentediting
+components: ["scheduler"]
 tags: onclientappointmentediting
 published: True
 position: 5

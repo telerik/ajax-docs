@@ -3,6 +3,7 @@ title: RadSpell Object
 page_title: RadSpell Object - RadSpell
 description: Check our Web Forms article about RadSpell Object.
 slug: spell/client-side-programming/radspell-object
+components: ["spell"]
 tags: radspell,object
 published: True
 position: 1

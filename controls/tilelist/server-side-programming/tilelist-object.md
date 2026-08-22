@@ -3,6 +3,7 @@ title: TileList Object
 page_title: TileList Object - RadTileList
 description: Check our Web Forms article about TileList Object.
 slug: tilelist/server-side-programming/tilelist-object
+components: ["tilelist"]
 tags: tilelist,object
 published: True
 position: 0

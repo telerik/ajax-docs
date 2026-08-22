@@ -3,6 +3,7 @@ title: Simple vs Advanced
 page_title: Simple vs Advanced - RadTreeList
 description: Check our Web Forms article about Simple vs Advanced.
 slug: treelist/data-binding/simple-vs-advanced
+components: ["treelist"]
 tags: simple,vs,advanced
 published: True
 position: 0

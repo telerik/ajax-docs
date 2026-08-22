@@ -3,6 +3,7 @@ title: OnClientAppointmentCreated
 page_title: OnClientAppointmentCreated - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentCreated.
 slug: scheduler/client-side-programming/events/onclientappointmentcreated
+components: ["scheduler"]
 tags: onclientappointmentcreated
 published: True
 position: 21

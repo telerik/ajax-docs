@@ -3,6 +3,7 @@ title: RenderDay object
 page_title: RenderDay object - RadCalendar
 description: Check our Web Forms article about RenderDay object.
 slug: calendar/client-side-programming/renderday-object
+components: ["calendar"]
 tags: renderday,object
 published: True
 position: 7

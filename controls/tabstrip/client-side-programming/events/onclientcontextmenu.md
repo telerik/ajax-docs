@@ -3,6 +3,7 @@ title: OnClientContextMenu
 page_title: OnClientContextMenu - RadTabStrip
 description: Check our Web Forms article about OnClientContextMenu.
 slug: tabstrip/client-side-programming/onclientcontextmenu
+components: ["tabstrip"]
 tags: onclientcontextmenu
 published: True
 position: 2

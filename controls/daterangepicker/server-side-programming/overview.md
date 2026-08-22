@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadDateRangePicker
 description: Check our Web Forms article about Overview.
 slug: daterangepicker/server-side-programming/overview
+components: ["daterangepicker"]
 tags: overview
 published: True
 position: 0

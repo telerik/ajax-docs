@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadDataPager
 description: Check our Web Forms article about Design Time.
 slug: datapager/design-time
+components: ["datapager"]
 tags: design,time
 published: True
 position: 1

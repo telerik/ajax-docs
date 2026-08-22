@@ -3,6 +3,7 @@ title: Data Binding Overview
 page_title: Overview - RadSearchBox
 description: Check our Web Forms article about Overview.
 slug: searchbox/search-context/data-binding/overview
+components: ["searchbox"]
 tags: overview
 published: True
 position: 0

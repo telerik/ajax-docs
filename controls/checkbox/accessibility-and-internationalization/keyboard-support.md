@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadCheckBox
 description: Check our Web Forms article about Keyboard Support.
 slug: checkbox/accessibility-and-internationalization/keyboard-support
+components: ["checkbox"]
 tags: keyboard,support
 published: True
 position: 2

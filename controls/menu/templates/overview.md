@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadMenu
 description: Check our Web Forms article about Overview.
 slug: menu/templates/overview
+components: ["menu"]
 tags: overview
 published: True
 position: 0

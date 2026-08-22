@@ -3,6 +3,7 @@ title: OnClientNavigationComplete
 page_title: OnClientNavigationComplete - RadScheduler
 description: Check our Web Forms article about OnClientNavigationComplete.
 slug: scheduler/client-side-programming/events/onclientnavigationcomplete
+components: ["scheduler"]
 tags: onclientnavigationcomplete
 published: True
 position: 33

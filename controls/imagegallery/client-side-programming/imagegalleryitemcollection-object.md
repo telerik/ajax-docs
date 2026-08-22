@@ -3,6 +3,7 @@ title: ImageGalleryItemCollection Object
 page_title: ImageGalleryItemCollection Object - RadImageGallery
 description: Check our Web Forms article about ImageGalleryItemCollection Object.
 slug: imagegallery/client-side-programming/imagegalleryitemcollection-object
+components: ["imagegallery"]
 tags: imagegalleryitemcollection,object
 published: True
 position: 2

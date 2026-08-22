@@ -3,6 +3,7 @@ title: ClientDataSource Object
 page_title: ClientDataSource Object - RadClientDataSource
 description: Check our Web Forms article about ClientDataSource Object.
 slug: clientdatasource/client-side-programming/clientdatasource-object
+components: ["clientdatasource"]
 tags: clientdatasource,object
 published: True
 position: 1

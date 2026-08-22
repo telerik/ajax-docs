@@ -3,6 +3,7 @@ title: Setting Focus
 page_title: Setting Focus - RadMaskedTextBox
 description: Check our Web Forms article about Setting Focus.
 slug: radmaskedtextbox/getting-started/setting-focus
+components: ["maskedtextbox"]
 tags: setting,focus
 published: True
 position: 7

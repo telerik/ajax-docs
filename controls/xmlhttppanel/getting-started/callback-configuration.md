@@ -3,6 +3,7 @@ title: Callback Configuration
 page_title: Callback Configuration - RadXmlHttpPanel
 description: Check our Web Forms article about Callback Configuration.
 slug: xmlhttppanel/getting-started/callback-configuration
+components: ["xmlhttppanel"]
 tags: callback,configuration
 published: True
 position: 2

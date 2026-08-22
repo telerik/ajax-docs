@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadButton
 description: Check our Web Forms article about CSS Classes.
 slug: button/appearance-and-styling/css-classes
+components: ["button"]
 tags: css,classes
 published: True
 position: 3

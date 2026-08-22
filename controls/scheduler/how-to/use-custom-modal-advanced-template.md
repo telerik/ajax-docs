@@ -3,6 +3,7 @@ title: Use Custom Modal Advanced Template
 page_title: Use Custom Modal Advanced Template - RadScheduler
 description: Check our Web Forms article about Use Custom Modal Advanced Template.
 slug: scheduler/how-to/use-custom-modal-advanced-template
+components: ["scheduler"]
 tags: use,custom,modal,advanced,template
 published: True
 position: 3

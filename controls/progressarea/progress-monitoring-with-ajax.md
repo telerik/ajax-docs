@@ -3,6 +3,7 @@ title: Progress Monitoring With Ajax
 page_title: Progress Monitoring With Ajax - RadProgressArea
 description: Check our Web Forms article about Progress Monitoring With Ajax.
 slug: progressarea/progress-monitoring-with-ajax
+components: ["progressarea"]
 tags: progress,monitoring,with,ajax
 published: True
 position: 5

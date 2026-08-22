@@ -3,6 +3,7 @@ title: Web Service Binding
 page_title: Web Service Binding - RadDropDownTree
 description: Check our Web Forms article about Web Service Binding.
 slug: dropdowntree/data-binding/web-service-binding
+components: ["dropdowntree"]
 tags: web,service,binding
 published: True
 position: 3

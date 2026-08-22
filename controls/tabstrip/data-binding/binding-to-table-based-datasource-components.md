@@ -3,6 +3,7 @@ title: Binding to Table-Based DataSource Components
 page_title: Binding to Table-Based DataSource Components - RadTabStrip
 description: Check our Web Forms article about Binding to Table-Based DataSource Components.
 slug: tabstrip/data-binding/binding-to-table-based-datasource-components
+components: ["tabstrip"]
 tags: binding,to,table-based,datasource,components
 published: True
 position: 3

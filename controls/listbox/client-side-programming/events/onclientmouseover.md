@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadListBox
 description: Check our Web Forms article about OnClientMouseOver.
 slug: listbox/client-side-programming/events/onclientmouseover
+components: ["listbox"]
 tags: onclientmouseover
 published: True
 position: 23

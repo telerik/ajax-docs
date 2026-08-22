@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadWindow
 description: Check our Web Forms article about RadWindow Structure.
 slug: window/getting-started/element-structure
+components: ["window"]
 tags: element,structure
 published: True
 position: 1

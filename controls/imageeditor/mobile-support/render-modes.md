@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadImageEditor
 description: Check our Web Forms article about Render Modes.
 slug: imageeditor/mobile-support/render-modes
+components: ["imageeditor"]
 tags: render,modes
 published: True
 position: 1

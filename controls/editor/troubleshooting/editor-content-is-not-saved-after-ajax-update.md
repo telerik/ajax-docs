@@ -3,6 +3,7 @@ title: Editor Content Is Not Saved After AJAX Update
 page_title: Editor Content Is Not Saved After AJAX Update - RadEditor
 description: Check our Web Forms article about Editor Content Is Not Saved After AJAX Update.
 slug: editor/troubleshooting/editor-content-is-not-saved-after-ajax-update
+components: ["editor"]
 tags: editor,content,is,not,saved,after,ajax,update
 published: True
 position: 11

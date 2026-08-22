@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started
 description: Check our Web Forms article about Getting Started.
 slug: treelist/getting-started
+components: ["treelist"]
 tags: getting,started
 published: True
 position: 2

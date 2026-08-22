@@ -3,6 +3,7 @@ title: Primary Action Button
 page_title: Primary Action Button - RadPushButton
 description: Check our Web Forms article about Primary Action Button.
 slug: pushbutton/appearance-and-styling/primary-action-button
+components: ["pushbutton"]
 tags: primary,and,secondary,action,buttons,state
 published: True
 position: 1

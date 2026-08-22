@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadSwitch
 description: Check our Web Forms article about OnClientMouseOut.
 slug: switch/client-side-programming/events/onclientmouseout
+components: ["switch"]
 tags: onclientmouseout
 published: True
 position: 8

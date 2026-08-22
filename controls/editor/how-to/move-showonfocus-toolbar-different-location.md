@@ -3,6 +3,7 @@ title: Move ShowOnFocus Toolbar to a Different Location
 page_title: Move ShowOnFocus Toolbar to a Different Location - RadEditor
 description: Check our Web Forms article about This is a how-to article about moving the popup element of the ShowOnFocus Toolbar to a different location on the page.
 slug: editor/how-to/move-showonfocus-toolbar-different-location
+components: ["editor"]
 tags: custom, solution, paste, strip, HTML, editor, content area
 published: True
 position: 8

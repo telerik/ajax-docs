@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview - RadDropDownTree
 description: Check our Web Forms article about Telerik's ASP.NET RadDropDownTree Templates Overview.
 slug: dropdowntree/templates/templates-overview
+components: ["dropdowntree"]
 tags: templates,overview
 published: True
 position: 0

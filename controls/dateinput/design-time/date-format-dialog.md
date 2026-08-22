@@ -3,6 +3,7 @@ title: Date Format Dialog
 page_title: Date Format Dialog - RadDateInput
 description: Check our Web Forms article about Date Format Dialog.
 slug: raddateinput/design-time/date-format-dialog
+components: ["dateinput"]
 tags: date,format,dialog
 published: True
 position: 3

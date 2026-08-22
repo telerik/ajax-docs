@@ -3,6 +3,7 @@ title: OnItemMouseOver
 page_title: OnItemMouseOver - RadRadioButtonList
 description: Check our Web Forms article about OnItemMouseOver.
 slug: radiobuttonlist/client-side-programming/events/onitemmouseover
+components: ["radiobuttonlist"]
 tags: onitemmouseover
 published: True
 position: 8

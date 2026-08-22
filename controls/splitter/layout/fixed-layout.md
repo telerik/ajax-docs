@@ -3,6 +3,7 @@ title: Fixed Layout
 page_title: Fixed Layout - RadSplitter
 description: Check our Web Forms article about Fixed Layout.
 slug: splitter/layout/fixed-layout
+components: ["splitter"]
 tags: fixed,layout
 published: True
 position: 5

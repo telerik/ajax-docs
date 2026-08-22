@@ -3,6 +3,7 @@ title: Animations
 page_title: Animations - RadAutoCompleteBox
 description: Check our Web Forms article about Animations.
 slug: autocompletebox/appearance-and-styling/animations
+components: ["autocompletebox"]
 tags: animations
 published: True
 position: 2

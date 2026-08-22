@@ -3,6 +3,7 @@ title: Automatic CRUD Operations
 page_title: Automatic CRUD Operations - RadListView
 description: Check our Web Forms article about Automatic CRUD Operations.
 slug: listview/data-editing/automatic-crud-operations
+components: ["listview"]
 tags: automatic,crud,operations
 published: True
 position: 0

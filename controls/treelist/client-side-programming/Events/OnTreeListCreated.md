@@ -3,6 +3,7 @@ title: OnTreeListCreated
 page_title: OnTreeListCreated - RadTreeList
 description: Check our Web Forms article about OnTreeListCreated Event.
 slug: treelist/client-side-programming/Events/OnTreeListCreated
+components: ["treelist"]
 tags: events,OnTreeListCreated
 published: True
 position: 1

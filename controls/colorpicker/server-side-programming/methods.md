@@ -3,6 +3,7 @@ title: Methods
 page_title: Methods - RadColorPicker
 description: Check our Web Forms article about Methods.
 slug: colorpicker/server-side-programming/methods
+components: ["colorpicker"]
 tags: methods
 published: True
 position: 0

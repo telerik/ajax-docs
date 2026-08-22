@@ -3,6 +3,7 @@ title: RibbonBarContextualTabGroup Object
 page_title: RibbonBarContextualTabGroup Object - RadRibbonBar
 description: Check our Web Forms article about RibbonBarContextualTabGroup Object.
 slug: ribbonbar/client-side-programming/ribbonbarcontextualtabgroup-object
+components: ["ribbonbar"]
 tags: ribbonbarcontextualtabgroup,object
 published: True
 position: 3

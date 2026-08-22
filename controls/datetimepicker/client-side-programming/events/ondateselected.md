@@ -3,6 +3,7 @@ title: OnDateSelected
 page_title: OnDateSelected - RadDateTimePicker
 description: Check our Web Forms article about OnDateSelected.
 slug: datetimepicker/client-side-programming/events/ondateselected
+components: ["datetimepicker"]
 tags: ondateselected
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Controlling RadDock's Appearance
 page_title: Controlling RadDock's Appearance - RadDock
 description: Check our Web Forms article about Controlling RadDock's Appearance.
 slug: dock/appearance-and-styling/controlling-raddock's-appearance
+components: ["dock"]
 previous_url: controls/dock/appearance-and-styling/controlling-raddock
 tags: controlling,raddock,appearance
 published: True

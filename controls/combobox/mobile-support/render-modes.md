@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadComboBox
 description: Check our Web Forms article about Render Modes.
 slug: combobox/mobile-support/render-modes
+components: ["combobox"]
 tags: render,modes
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadTimePicker
 description: Check our Web Forms article about Skins.
 slug: timepicker/appearance-and-styling/skins
+components: ["timepicker"]
 tags: skins
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadTreeView
 description: Check our Web Forms article about Controlling Appearance.
 slug: treeview/appearance-and-styling/controlling-appearance
+components: ["treeview"]
 tags: controlling,appearance
 published: True
 position: 1

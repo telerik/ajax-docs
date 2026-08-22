@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Phone Layout Known Limitations - RadEditor
 description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/troubleshooting/known-limitations
+components: ["editor"]
 tags: editor,support,mobile,rendering,limitations
 published: True
 position: 1

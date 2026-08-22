@@ -3,6 +3,7 @@ title: RadWindow Object
 page_title: RadWindow Object - RadWindow
 description: Discover the RadWindow object and its client-side programming capabilities for enhanced user interaction.
 slug: window/client-side-programming/radwindow-object
+components: ["window"]
 tags: radwindow,object
 published: True
 position: 1

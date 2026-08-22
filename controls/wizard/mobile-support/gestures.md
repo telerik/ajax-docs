@@ -3,6 +3,7 @@ title: Gestures
 page_title: Gestures - RadWizard
 description: Check our Web Forms article about Gestures.
 slug: wizard/mobile-support/gestures
+components: ["wizard"]
 tags: gestures
 published: True
 position: 1

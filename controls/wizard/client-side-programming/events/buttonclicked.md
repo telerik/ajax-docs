@@ -3,6 +3,7 @@ title: ButtonClicked
 page_title: ButtonClicked - RadWizard
 description: Check our Web Forms article about ButtonClicked.
 slug: wizard/client-side-programming/events/buttonclicked
+components: ["wizard"]
 tags: buttonclicked
 published: True
 position: 3

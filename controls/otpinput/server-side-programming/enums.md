@@ -3,6 +3,7 @@ title: Enums
 page_title: OTPInput Server-side Enums
 description: Server-side Enums of the Telerik WebForms OTPInput component
 slug: otpinput/server-side-programming/enums
+components: ["otpinput"]
 tags: enums
 published: True
 position: 2

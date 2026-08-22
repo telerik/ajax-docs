@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadGantt
 description: Check our Web Forms article about Keyboard Support.
 slug: gantt/accessibility-and-internationalization/keyboard-support
+components: ["gantt"]
 tags: keyboard,support
 published: True
 position: 0

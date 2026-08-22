@@ -3,6 +3,7 @@ title: Client Templates
 page_title: Client Templates - RadSearchBox
 description: Check our Web Forms article about Client Templates.
 slug: searchbox/templates/client-templates
+components: ["searchbox"]
 tags: client,templates
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Export from Ajaxified RadTreeList
 page_title: Export from Ajaxified RadTreeList - RadTreeList
 description: Check our Web Forms article about Export from Ajaxified RadTreeList.
 slug: treelist/functionality/exporting/export-from-ajaxified-radtreelist
+components: ["treelist"]
 tags: export,from,ajaxified,radtreelist
 published: True
 position: 1

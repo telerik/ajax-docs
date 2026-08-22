@@ -3,6 +3,7 @@ title: OnKeyPress
 page_title: OnKeyPress - RadMaksedTextBox
 description: Check our Web Forms article about OnKeyPress.
 slug: radmaskedtextbox/client-side-programming/events/onkeypress
+components: ["maskedtextbox"]
 tags: onkeypress
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: Creating A Custom Skin
 page_title: Creating A Custom Skin
 description: Check our Web Forms article about Creating A Custom Skin.
 slug: panelbar/appearance-and-styling/creating-a-custom-skin
+components: ["panelbar"]
 tags: creating,custom,skin
 published: True
 position: 6

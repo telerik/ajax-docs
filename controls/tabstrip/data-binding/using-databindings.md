@@ -3,6 +3,7 @@ title: Using DataBindings
 page_title: Using DataBindings - RadTabStrip
 description: Check our Web Forms article about Using DataBindings.
 slug: tabstrip/data-binding/using-databindings
+components: ["tabstrip"]
 tags: using,databindings
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Template
 page_title: Template - RadDataPager
 description: Check our Web Forms article about Template.
 slug: datapager/elements-and-templates/template
+components: ["datapager"]
 tags: template
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Executing JavaScript Code from Server
 page_title: Executing JavaScript Code from Server - RadWindow
 description: Check our Web Forms article about Executing JavaScript Code from Server.
 slug: window/troubleshooting/executing-javascript-code-from-server
+components: ["window"]
 tags: executing,javascript,code,from,server
 published: True
 position: 4

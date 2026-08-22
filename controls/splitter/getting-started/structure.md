@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadSplitter
 description: Check our Web Forms article about Structure.
 slug: splitter/getting-started/structure
+components: ["splitter"]
 tags: structure
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnLoad
 page_title: OnLoad - RadTextBox
 description: Check our Web Forms article about OnLoad.
 slug: radtextbox/client-side-programming/events/onload
+components: ["textbox"]
 tags: onload
 published: True
 position: 10

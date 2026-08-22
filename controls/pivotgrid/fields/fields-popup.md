@@ -3,6 +3,7 @@ title: Fields Popup
 page_title: Fields Popup - RadPivotGrid
 description: Check our Web Forms article about Fields Popup.
 slug: pivotgrid/fields/fields-popup
+components: ["pivotgrid"]
 tags: fields,popup
 published: True
 position: 4

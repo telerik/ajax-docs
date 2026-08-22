@@ -3,6 +3,7 @@ title: PDF Overview
 page_title: Overview - RadScheduler
 description: Check our Web Forms article about Overview.
 slug: scheduler/export/pdf/overview
+components: ["scheduler"]
 tags: overview
 published: True
 position: 0

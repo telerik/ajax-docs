@@ -3,6 +3,7 @@ title: OnClientFocus
 page_title: OnClientFocus - RadComboBox
 description: Check our Web Forms article about OnClientFocus.
 slug: combobox/client-side-programming/events/onclientfocus
+components: ["combobox"]
 tags: onclientfocus
 published: True
 position: 5

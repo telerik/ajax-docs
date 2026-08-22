@@ -3,6 +3,7 @@ title: Switching between Insert/Update/Regular Modes
 page_title: Switching between Insert/Update/Regular Modes - RadListView
 description: Check our Web Forms article about Switching between Insert/Update/Regular Modes.
 slug: listview/data-editing/how-to/switching-between-insert/update/regular-modes
+components: ["listview"]
 tags: switching,between,insert/update/regular,modes
 published: True
 position: 0

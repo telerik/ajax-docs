@@ -3,6 +3,7 @@ title: ChildrenCreated
 page_title: ChildrenCreated - RadMonthYearPicker
 description: Check our Web Forms article about ChildrenCreated.
 slug: monthyearpicker/server-side-programming/events/childrencreated
+components: ["monthyearpicker"]
 tags: childrencreated
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnViewChanged
 page_title: OnViewChanged - RadMonthYearPicker
 description: Check our Web Forms article about OnViewChanged.
 slug: monthyearpicker/client-side-programming/events/onviewchanged
+components: ["monthyearpicker"]
 tags: onviewchanged
 published: True
 position: 6

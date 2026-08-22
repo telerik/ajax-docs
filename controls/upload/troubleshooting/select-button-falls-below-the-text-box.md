@@ -3,6 +3,7 @@ title: Select Button Falls Below The Text Box
 page_title: Select Button Falls Below The Text Box - RadUpload
 description: Check our Web Forms article about Select Button Falls Below The Text Box.
 slug: upload/troubleshooting/select-button-falls-below-the-text-box
+components: ["upload"]
 tags: select,button,falls,below,the,text,box
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: Filter Items
 page_title: Filter Items - RadFileExplorer
 description: Check our Web Forms article about Filter Items.
 slug: fileexplorer/functionality/filter-items
+components: ["fileexplorer"]
 tags: filter,items
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDateRangePicker Overview
 description: Check our Web Forms article about Overview.
 slug: daterangepicker/overview
+components: ["daterangepicker"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadTimePicker
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: timepicker/accessibility-and-internationalization/wai-aria-support
+components: ["timepicker"]
 tags: wai-aria,support
 published: True
 position: 5

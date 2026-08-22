@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadOrgChart
 description: Check our Web Forms article about Skins.
 slug: orgchart/appearance-and-styling/skins
+components: ["orgchart"]
 tags: skins
 published: True
 position: 0

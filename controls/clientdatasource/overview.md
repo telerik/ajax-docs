@@ -3,6 +3,7 @@ title: Overview
 page_title: RadClientDataSource Overview
 description: Check our Web Forms article about Overview.
 slug: clientdatasource/overview
+components: ["clientdatasource"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: TileGroup Object
 page_title: TileGroup Object - RadTileList
 description: Check our Web Forms article about TileGroup Object.
 slug: tilelist/server-side-programming/tilegroup-object
+components: ["tilelist"]
 tags: tilegroup,object
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: RadTreeView
 page_title: RadTreeView - RadTreeView
 description: Discover the RadTreeView object and its client-side API for managing hierarchical data structures.
 slug: treeview/client-side-programming/objects/radtreeview
+components: ["treeview"]
 tags: radtreeview
 published: True
 position: 0

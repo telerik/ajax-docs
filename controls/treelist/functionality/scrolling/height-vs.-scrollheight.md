@@ -3,6 +3,7 @@ title: Height vs. ScrollHeight
 page_title: Height vs. ScrollHeight - RadTreeList
 description: Check our Web Forms article about Height vs. ScrollHeight.
 slug: treelist/functionality/scrolling/height-vs.-scrollheight
+components: ["treelist"]
 tags: height,vs.,scrollheight
 published: True
 position: 1

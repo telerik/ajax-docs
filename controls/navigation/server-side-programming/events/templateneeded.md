@@ -3,6 +3,7 @@ title: TemplateNeeded
 page_title: TemplateNeeded - RadNavigation
 description: Check our Web Forms article about TemplateNeeded.
 slug: navigation/server-side-programming/events/templateneeded
+components: ["navigation"]
 tags: templateneeded
 published: True
 position: 2

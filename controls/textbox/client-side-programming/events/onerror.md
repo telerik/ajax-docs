@@ -3,6 +3,7 @@ title: OnError
 page_title: OnError - RadTextBox
 description: Check our Web Forms article about OnError.
 slug: radtextbox/client-side-programming/events/onerror
+components: ["textbox"]
 tags: onerror
 published: True
 position: 7

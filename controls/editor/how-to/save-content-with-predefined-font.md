@@ -3,6 +3,7 @@ title: Save Content with Predefined Font
 page_title: Save Content with Predefined Font - RadEditor
 description: Check our Web Forms article about Save RadEditor Content with Predefined Font.
 slug: editor/how-to/save-content-with-predefined-font
+components: ["editor"]
 tags: save, content, with, predefined, font
 published: True
 position: 12

@@ -3,6 +3,7 @@ title: Accessible Images
 page_title: Accessible Images - RadEditor
 description: Check our Web Forms article about Accessible Images.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/accessible-images
+components: ["editor"]
 tags: accessible,images
 published: True
 position: 3

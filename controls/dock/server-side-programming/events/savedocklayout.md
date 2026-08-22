@@ -3,6 +3,7 @@ title: SaveDockLayout
 page_title: SaveDockLayout - RadDock
 description: Check our Web Forms article about SaveDockLayout.
 slug: dock/server-side-programming/events/savedocklayout
+components: ["dock"]
 tags: savedocklayout
 published: True
 position: 3

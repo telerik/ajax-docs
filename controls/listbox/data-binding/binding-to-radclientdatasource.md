@@ -3,6 +3,7 @@ title: Binding to RadClientDataSource
 page_title: Binding to RadClientDataSource - RadListBox
 description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: listbox/data-binding/binding-to-radclientdatasource
+components: ["listbox"]
 tags: binding,to,radclientdatasource
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: The Value of RadUpload does not Persist
 page_title: The Value of RadUpload does not Persist - RadUpload
 description: Check our Web Forms article about The Value of RadUpload does not Persist.
 slug: upload/troubleshooting/the-value-of-radupload-does-not-persist
+components: ["upload"]
 tags: the,value,of,radupload,does,not,persist
 published: True
 position: 2

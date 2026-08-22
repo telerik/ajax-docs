@@ -3,6 +3,7 @@ title: showInsertItem
 page_title: showInsertItem - RadListView
 description: Check our Web Forms article about showInsertItem.
 slug: listview/client-side-programming/radlistview/methods/showinsertitem
+components: ["listview"]
 tags: showinsertitem
 published: True
 position: 7

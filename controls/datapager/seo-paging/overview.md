@@ -3,6 +3,7 @@ title: Overview
 page_title: SEO Paging Overview - RadDataPager
 description: Check our Web Forms article about Overview.
 slug: datapager/seo-paging/overview
+components: ["datapager"]
 tags: overview
 published: True
 position: 0

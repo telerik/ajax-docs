@@ -3,6 +3,7 @@ title: Overview
 page_title: SmartPasteButton Overview
 description: "Try now the Telerik UI for ASP.NET AJAX SmartPasteButton component that intelligently extracts structured data from clipboard content and automatically fills form fields using AI processing. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI for jQuery SmartPasteButton widget"
 slug: smartpastebutton/overview
+components: ["smartpastebutton"]
 tags: overview
 published: True
 position: 0

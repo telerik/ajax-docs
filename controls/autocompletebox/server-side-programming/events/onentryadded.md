@@ -3,6 +3,7 @@ title: OnEntryAdded
 page_title: OnEntryAdded - RadAutoCompleteBox
 description: Check our Web Forms article about OnEntryAdded.
 slug: autocompletebox/server-side-programming/events/onentryadded
+components: ["autocompletebox"]
 tags: onentryadded
 published: True
 position: 0

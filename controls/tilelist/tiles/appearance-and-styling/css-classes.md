@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadTile
 description: Check our Web Forms article about CSS Classes.
 slug: tilelist/tiles/appearance-and-styling/css-classes
+components: ["tilelist"]
 tags: css,classes
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadComboBox
 description: Discover how to bind data to the ComboBox control for dynamic and efficient dropdown list management.
 slug: combobox/data-binding/overview
+components: ["combobox"]
 tags: overview
 published: True
 position: 0

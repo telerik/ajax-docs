@@ -3,6 +3,7 @@ title: NavigationNode Object
 page_title: NavigationNode Object - RadNavigation
 description: Check our Web Forms article about NavigationNode Object.
 slug: navigation/client-side-programming/objects/navigationnode-object
+components: ["navigation"]
 tags: navigationnode,object
 published: True
 position: 2

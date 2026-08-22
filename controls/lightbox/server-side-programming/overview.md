@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadLightBox
 description: Check our Web Forms article about Overview.
 slug: lightbox/server-side-programming/overview
+components: ["lightbox"]
 tags: overview
 published: True
 position: 0

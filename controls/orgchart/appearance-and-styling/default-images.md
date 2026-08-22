@@ -3,6 +3,7 @@ title: Default Images
 page_title: Default Images - RadOrgChart
 description: Check our Web Forms article about Default Images.
 slug: orgchart/appearance-and-styling/default-images
+components: ["orgchart"]
 tags: default,images
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Distorted Appearance
 page_title: Distorted Appearance - RadRadioButtonList
 description: Check our Web Forms article about Distorted Appearance.
 slug: radiobuttonlist/troubleshooting/distorted-appearance
+components: ["radiobuttonlist"]
 tags: distorted,appearance
 published: True
 position: 1

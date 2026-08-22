@@ -3,6 +3,7 @@ title: Binding to Array or IEnumerable
 page_title: Binding to Array or IEnumerable - RadTimeline
 description: Check our Web Forms article about Binding to Array or IEnumerable.
 slug: timeline/data-binding/server-side/binding-to-array-or-ienumerable
+components: ["timeline"]
 tags: binding,to,array,or,ienumerable
 published: True
 position: 1

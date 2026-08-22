@@ -3,6 +3,7 @@ title: Custom Attributes
 page_title: Custom Attributes - RadTreeView
 description: Check our Web Forms article about Custom Attributes.
 slug: treeview/troubleshooting/custom-attributes
+components: ["treeview"]
 tags: custom,attributes
 published: True
 position: 12

@@ -3,6 +3,7 @@ title: OnFocus
 page_title: OnFocus - RadMaksedTextBox
 description: Check our Web Forms article about OnFocus.
 slug: radmaskedtextbox/client-side-programming/events/onfocus
+components: ["maskedtextbox"]
 tags: onfocus
 published: True
 position: 8

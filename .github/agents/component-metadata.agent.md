@@ -9,7 +9,7 @@ You maintain `components` metadata in Markdown frontmatter. Work directly with t
 For each requested component:
 
 1. Confirm one component folder and derive its value from the folder name. For `controls/grid`, use `grid`.
-2. Search recursively for `.md` files under that folder only.
+2. Search recursively for `.md` files under that folder only. Include Markdown articles in directories named `templates`; do not exclude a file based only on its directory name. Exclude only clearly identified non-documentation assets, such as image directories.
 3. Read every candidate's frontmatter before editing.
 4. Present a dry-run summary: eligible, already correct, conflicts, malformed/missing frontmatter, and excluded files.
 5. Do not edit if any conflict, malformed frontmatter, missing frontmatter, or ambiguous ownership is found. Report the exact files needing review.

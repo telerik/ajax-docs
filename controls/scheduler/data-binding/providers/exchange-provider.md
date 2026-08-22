@@ -3,6 +3,7 @@ title: Exchange Provider
 page_title: Exchange Provider - RadScheduler
 description: Check our Web Forms article about Exchange Provider.
 slug: scheduler/data-binding/providers/exchange-provider
+components: ["scheduler"]
 tags: exchange,provider
 published: True
 position: 5

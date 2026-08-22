@@ -3,6 +3,7 @@ title: AppointmentUpdate
 page_title: AppointmentUpdate - RadScheduler
 description: Check our Web Forms article about AppointmentUpdate.
 slug: scheduler/server-side-programming/server-events/appointmentupdate
+components: ["scheduler"]
 tags: appointmentupdate
 published: True
 position: 4

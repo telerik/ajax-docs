@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadMonthYearPicker
 description: Check our Web Forms article about Overview.
 slug: monthyearpicker/client-side-programming/events/overview
+components: ["monthyearpicker"]
 tags: overview
 published: True
 position: 0

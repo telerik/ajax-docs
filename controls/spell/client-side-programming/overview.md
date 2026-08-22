@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadSpell
 description: Check our Web Forms article about Overview.
 slug: spell/client-side-programming/overview
+components: ["spell"]
 tags: overview
 published: True
 position: 0

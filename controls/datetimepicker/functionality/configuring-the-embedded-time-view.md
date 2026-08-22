@@ -3,6 +3,7 @@ title: Configuring the Embedded Time View
 page_title: Configuring the Embedded Time View - RadDateTimePicker
 description: Check our Web Forms article about Configuring the Embedded Time View.
 slug: datetimepicker/functionality/configuring-the-embedded-time-view
+components: ["datetimepicker"]
 tags: configuring,the,embedded,time,view
 published: True
 position: 1

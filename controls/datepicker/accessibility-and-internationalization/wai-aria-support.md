@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadDatePicker
 description: Check our Web Forms article about RadDatePicker WAI-ARIA Support.
 slug: datepicker/accessibility-and-internationalization/wai-aria-support
+components: ["datepicker"]
 tags: wai-aria,support
 published: True
 position: 6

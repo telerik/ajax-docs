@@ -3,6 +3,7 @@ title: External CSS Files
 page_title: External CSS Files - RadEditor
 description: Check our Web Forms article about External CSS Files.
 slug: editor/functionality/toolbars/dropdowns/external-css-files
+components: ["editor"]
 tags: external,css,files
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadSplitButton
 description: Check our Web Forms article about Overview.
 slug: splitbutton/client-side-programming/overview
+components: ["splitbutton"]
 tags: overview
 published: True
 position: 0

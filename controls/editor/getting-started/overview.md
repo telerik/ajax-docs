@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadEditor
 description: Check our Web Forms article about Overview.
 slug: editor/getting-started/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

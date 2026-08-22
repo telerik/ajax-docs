@@ -3,6 +3,7 @@ title: Elastic Capabilities
 page_title: Elastic Capabilities - RadTileList
 description: Check our Web Forms article about Elastic Capabilities.
 slug: tilelist/mobile-support/elastic-capabilities
+components: ["tilelist"]
 tags: elastic,capabilities
 published: True
 position: 1

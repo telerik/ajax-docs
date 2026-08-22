@@ -3,6 +3,7 @@ title: Receiving Focus
 page_title: Receiving Focus - RadDateInput
 description: Check our Web Forms article about Receiving Focus.
 slug: raddateinput/features/receiving-focus
+components: ["dateinput"]
 tags: receiving,focus
 published: True
 position: 5

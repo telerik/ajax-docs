@@ -3,6 +3,7 @@ title: OnItemDragStarted
 page_title: OnItemDragStarted - RadListView
 description: Check our Web Forms article about OnItemDragStarted.
 slug: listview/client-side-programming/events/onitemdragstarted
+components: ["listview"]
 tags: onitemdragstarted
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: showDialog
 page_title: showDialog - RadEditor
 description: Check our Web Forms article about showDialog.
 slug: editor/client-side-programming/methods/showdialog
+components: ["editor"]
 tags: showdialog
 published: True
 position: 18

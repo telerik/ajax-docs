@@ -3,6 +3,7 @@ title: Right-to-Left Support
 page_title: Right-to-Left Support - RadButton
 description: Check our Web Forms article about Right-to-Left Support.
 slug: button/accessibility-and-internationalization/right-to-left-support
+components: ["button"]
 tags: right-to-left,support
 published: True
 position: 1

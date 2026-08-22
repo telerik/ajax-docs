@@ -3,6 +3,7 @@ title: Elastic Capabilities
 page_title: Elastic Capabilities - RadRotator
 description: Check our Web Forms article about Elastic Capabilities.
 slug: rotator/mobile-support/elastic-capabilities
+components: ["rotator"]
 tags: elastic,capabilities
 published: True
 position: 1

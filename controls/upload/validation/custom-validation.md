@@ -3,6 +3,7 @@ title: Custom Validation
 page_title: Custom Validation - RadUpload
 description: Check our Web Forms article about Custom Validation.
 slug: upload/validation/custom-validation
+components: ["upload"]
 tags: custom,validation
 published: True
 position: 1

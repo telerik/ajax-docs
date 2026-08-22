@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadCheckBoxList
 description: Explore the CheckBoxList control and its features for presenting a list of selectable checkboxes.
 slug: checkboxlist/overview
+components: ["checkboxlist"]
 tags: overview
 published: True
 position: 0

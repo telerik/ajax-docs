@@ -3,6 +3,7 @@ title: Spline Chart
 page_title: Spline Chart - RadHtmlChart
 description: Check our Web Forms article about Spline Chart.
 slug: htmlchart/chart-types/spline-chart
+components: ["htmlchart"]
 tags: spline,chart
 published: True
 position: 21

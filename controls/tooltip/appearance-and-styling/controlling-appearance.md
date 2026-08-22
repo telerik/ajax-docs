@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadTooltip
 description: Check our Web Forms article about Controlling Appearance.
 slug: tooltip/appearance-and-styling/controlling-appearance
+components: ["tooltip"]
 tags: controlling,appearance
 published: True
 position: 0

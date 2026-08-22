@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadTileList
 description: Check our Web Forms article about Render Modes.
 slug: tilelist/mobile-support/render-modes
+components: ["tilelist"]
 tags: render,modes
 published: True
 position: 1

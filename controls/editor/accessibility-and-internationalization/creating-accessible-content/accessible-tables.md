@@ -3,6 +3,7 @@ title: Accessible Tables
 page_title: Accessible Tables - RadEditor
 description: Check our Web Forms article about Accessible Tables.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/accessible-tables
+components: ["editor"]
 tags: accessible,tables
 published: True
 position: 1

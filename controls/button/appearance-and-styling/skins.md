@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadButton
 description: Check our Web Forms article about Skins.
 slug: button/appearance-and-styling/skins
+components: ["button"]
 tags: skins
 published: True
 position: 0

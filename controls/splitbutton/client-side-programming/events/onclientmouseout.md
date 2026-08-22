@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadSplitButton
 description: Check our Web Forms article about OnClientMouseOut.
 slug: splitbutton/client-side-programming/events/onclientmouseout
+components: ["splitbutton"]
 tags: onclientmouseout
 published: True
 position: 6

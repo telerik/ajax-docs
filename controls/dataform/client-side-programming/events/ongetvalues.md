@@ -3,6 +3,7 @@ title: OnGetValues
 page_title: OnGetValues - RadDataForm
 description: Check our Web Forms article about OnGetValues.
 slug: dataform/client-side-programming/events/ongetvalues
+components: ["dataform"]
 tags: ongetvalues
 published: True
 position: 5

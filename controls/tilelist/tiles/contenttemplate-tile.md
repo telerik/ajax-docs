@@ -3,6 +3,7 @@ title: ContentTemplate Tile
 page_title: ContentTemplate Tile - RadTile
 description: Check our Web Forms article about ContentTemplate Tile.
 slug: tilelist/tiles/contenttemplate-tile
+components: ["tilelist"]
 tags: contenttemplate,tile
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDropDownTree Overview
 description: Explore the DropDownTree control and its features for displaying hierarchical data in a dropdown format.
 slug: dropdowntree/overview
+components: ["dropdowntree"]
 tags: overview
 published: True
 position: 0

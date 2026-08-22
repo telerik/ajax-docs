@@ -3,6 +3,7 @@ title: Recursive Selection
 page_title: Recursive Selection - RadTreeList
 description: Check our Web Forms article about Recursive Selection.
 slug: treelist/functionality/selecting/recursive-selection
+components: ["treelist"]
 tags: recursive,selection
 published: True
 position: 2

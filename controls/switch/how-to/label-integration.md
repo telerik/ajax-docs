@@ -3,6 +3,7 @@ title: Label Integration
 page_title: Label Integration - RadSwitch
 description: Check our Web Forms article about Label Integration.
 slug: switch/how-to/label-integration
+components: ["switch"]
 tags: label,integration
 published: True
 position: 0

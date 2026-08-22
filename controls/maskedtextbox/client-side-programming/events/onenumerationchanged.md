@@ -3,6 +3,7 @@ title: OnEnumerationChanged
 page_title: OnEnumerationChanged - RadMaksedTextBox
 description: Check our Web Forms article about OnEnumerationChanged.
 slug: radmaskedtextbox/client-side-programming/events/onenumerationchanged
+components: ["maskedtextbox"]
 tags: onenumerationchanged
 published: True
 position: 6

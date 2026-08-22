@@ -3,6 +3,7 @@ title: Server-Side
 page_title: Server-Side Data Binding - RadMultiSelect
 description: Check our Web Forms article about Server data binding overview of RadMultiSelect.
 slug: multiselect/data-binding/server-side
+components: ["multiselect"]
 tags: data,binding,overview,server,side,list,object,data,table,sqldatasource,declarative
 published: True
 position: 0

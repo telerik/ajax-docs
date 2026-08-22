@@ -3,6 +3,7 @@ title: OnFileUploaded
 page_title: OnFileUploaded - RadCloudUpload
 description: Check our Web Forms article about OnFileUploaded.
 slug: cloudupload/server-side-programming/onfileuploaded
+components: ["cloudupload"]
 tags: onfileuploaded
 published: True
 position: 1

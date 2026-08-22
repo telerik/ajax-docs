@@ -3,6 +3,7 @@ title: Data Binding
 page_title: Data Binding - RadComboBox
 description: Check our Web Forms article about Data Binding.
 slug: combobox/design-time/data-binding
+components: ["combobox"]
 tags: data,binding
 published: True
 position: 3

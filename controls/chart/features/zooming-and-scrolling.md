@@ -3,6 +3,7 @@ title: Zooming and Scrolling
 page_title: Zooming and Scrolling - RadChart
 description: Check our Web Forms article about Zooming and Scrolling.
 slug: chart/features/zooming-and-scrolling
+components: ["chart"]
 tags: zooming,and,scrolling
 published: True
 position: 2

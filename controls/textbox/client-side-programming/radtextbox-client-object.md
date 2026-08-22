@@ -3,6 +3,7 @@ title: RadTextBox Client Object
 page_title: RadTextBox Client Object - RadTextBox
 description: Learn about the RadTextBox client-side object and its API for managing text input dynamically.
 slug: radtextbox/client-side-programming/radtextbox-client-object
+components: ["textbox"]
 tags: radtextbox,client,object
 published: True
 position: 1

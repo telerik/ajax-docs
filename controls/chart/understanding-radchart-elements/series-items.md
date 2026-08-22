@@ -3,6 +3,7 @@ title: Series Items
 page_title: Series Items - RadChart
 description: Check our Web Forms article about Series Items.
 slug: chart/understanding-radchart-elements/series-items
+components: ["chart"]
 tags: series,items
 published: True
 position: 9

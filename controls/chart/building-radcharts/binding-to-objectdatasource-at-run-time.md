@@ -3,6 +3,7 @@ title: Binding to ObjectDataSource at Run-Time
 page_title: Binding to ObjectDataSource at Run-Time - RadChart
 description: Check our Web Forms article about Binding to ObjectDataSource at Run-Time.
 slug: chart/building-radcharts/binding-to-objectdatasource-at-run-time
+components: ["chart"]
 tags: binding,to,objectdatasource,at,run-time
 published: True
 position: 13

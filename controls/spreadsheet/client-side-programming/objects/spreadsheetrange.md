@@ -3,6 +3,7 @@ title: SpreadsheetRange Object
 page_title: SpreadsheetRange Object
 description: Check our Web Forms article about SpreadsheetRange Object.
 slug: spreadsheet/client-side-programming/objects/spreadsheetrange
+components: ["spreadsheet"]
 tags: spreadsheetrange
 published: True
 position: 0

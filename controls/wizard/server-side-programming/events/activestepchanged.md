@@ -3,6 +3,7 @@ title: ActiveStepChanged
 page_title: ActiveStepChanged - RadWizard
 description: Check our Web Forms article about ActiveStepChanged.
 slug: wizard/server-side-programming/events/activestepchanged
+components: ["wizard"]
 tags: activestepchanged
 published: True
 position: 1

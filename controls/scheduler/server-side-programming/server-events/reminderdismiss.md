@@ -3,6 +3,7 @@ title: ReminderDismiss
 page_title: ReminderDismiss - RadScheduler
 description: Check our Web Forms article about ReminderDismiss.
 slug: scheduler/server-side-programming/server-events/reminderdismiss
+components: ["scheduler"]
 tags: reminderdismiss
 published: True
 position: 23

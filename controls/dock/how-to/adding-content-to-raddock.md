@@ -3,6 +3,7 @@ title: Adding Content to RadDock
 page_title: Adding Content to RadDock - RadDock
 description: Check our Web Forms article about Adding Content to RadDock.
 slug: dock/how-to/adding-content-to-raddock
+components: ["dock"]
 tags: adding,content,to,raddock
 published: True
 position: 0

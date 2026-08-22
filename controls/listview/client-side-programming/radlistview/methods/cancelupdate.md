@@ -3,6 +3,7 @@ title: cancelUpdate
 page_title: cancelUpdate - RadListView
 description: Check our Web Forms article about cancelUpdate.
 slug: listview/client-side-programming/radlistview/methods/cancelupdate
+components: ["listview"]
 tags: cancelupdate
 published: True
 position: 5

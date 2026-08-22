@@ -3,6 +3,7 @@ title: NodeDataBound
 page_title: NodeDataBound - RadNavigation
 description: Check our Web Forms article about NodeDataBound.
 slug: navigation/server-side-programming/events/nodedatabound
+components: ["navigation"]
 tags: nodedatabound
 published: True
 position: 1

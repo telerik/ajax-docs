@@ -3,6 +3,7 @@ title: DefaultToolAdapter Object
 page_title: DefaultToolAdapter Object - RadEditor
 description: Check our Web Forms article about DefaultToolAdapter Object.
 slug: editor/client-side-programming/defaulttooladapter-object
+components: ["editor"]
 tags: defaulttooladapter,object
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Binding RadTicker
 page_title: Binding RadTicker - RadRotator
 description: Check our Web Forms article about Binding RadTicker.
 slug: rotator/data-binding/binding-radticker
+components: ["rotator"]
 tags: binding,radticker
 published: True
 position: 1

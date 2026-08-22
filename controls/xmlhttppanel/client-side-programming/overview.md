@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadXmlHttpPanel
 description: Check our Web Forms article about Overview.
 slug: xmlhttppanel/client-side-programming/overview
+components: ["xmlhttppanel"]
 tags: overview
 published: True
 position: 0

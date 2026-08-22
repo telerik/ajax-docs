@@ -3,6 +3,7 @@ title: Binding to LinqDataSource
 page_title: Binding to LinqDataSource - RadMenu
 description: Check our Web Forms article about Binding to LinqDataSource.
 slug: menu/design-time/binding-to-linqdatasource
+components: ["menu"]
 tags: binding,to,linqdatasource
 published: True
 position: 4

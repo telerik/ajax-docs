@@ -3,6 +3,7 @@ title: Properties
 page_title: SpeechToTextButton Server-side Properties
 description: "Server-side properties of the WebForms SpeechToTextButton component."
 slug: speechtotextbutton/server-side-programming/properties
+components: ["speechtotextbutton"]
 tags: speechtotextbutton,server-side,properties
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Programmatic Creation
 page_title: Programmatic Creation - RadMediaPlayer
 description: Check our Web Forms article about Programmatic Creation.
 slug: mediaplayer/server-side-programming/programmatic-creation
+components: ["mediaplayer"]
 tags: programmatic,creation
 published: True
 position: 1

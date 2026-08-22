@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadCheckBox
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: checkbox/accessibility-and-internationalization/wai-aria-support
+components: ["checkbox"]
 tags: wai-aria,support
 published: True
 position: 3

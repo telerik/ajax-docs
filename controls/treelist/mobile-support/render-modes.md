@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadTreeList
 description: Check our Web Forms article about Render Modes.
 slug: treelist/mobile-support/render-modes
+components: ["treelist"]
 tags: render,modes
 published: True
 position: 2

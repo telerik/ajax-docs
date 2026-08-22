@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadRotator
 description: Check our Web Forms article about Events.
 slug: rotator/server-side-programming/events
+components: ["rotator"]
 tags: events
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Axis
 page_title: Axis - RadDragDropManager
 description: Axis
 slug: dragdropmanager/functionality/axis
+components: ["dragdropmanager"]
 tags: Axis
 published: True
 ---

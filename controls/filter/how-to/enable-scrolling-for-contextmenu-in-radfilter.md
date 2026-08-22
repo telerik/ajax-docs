@@ -3,6 +3,7 @@ title: Enable Scrolling for ContextMenu in RadFilter
 page_title: Enable Scrolling for ContextMenu in RadFilter - RadFilter
 description: Check our Web Forms article about Enable Scrolling for ContextMenu in RadFilter.
 slug: filter/how-to/enable-scrolling-for-contextmenu-in-radfilter
+components: ["filter"]
 tags: enable,scrolling,for,contextmenu,in,radfilter
 published: True
 position: 3

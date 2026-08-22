@@ -3,6 +3,7 @@ title: OnClientResize
 page_title: OnClientResize - RadWindow
 description: Check our Web Forms article about OnClientResize.
 slug: window/client-side-programming/events/onclientresize
+components: ["window"]
 tags: onclientresize
 published: True
 position: 11

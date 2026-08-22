@@ -3,6 +3,7 @@ title: Play Sound on Show
 page_title: Play Sound on Show - RadNotification
 description: Check our Web Forms article about Play Sound on Show.
 slug: notification/functionality/play-sound-on-show
+components: ["notification"]
 tags: play,sound,on,show
 published: True
 position: 2

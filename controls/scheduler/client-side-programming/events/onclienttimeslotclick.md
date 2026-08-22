@@ -3,6 +3,7 @@ title: OnClientTimeSlotClick
 page_title: OnClientTimeSlotClick - RadScheduler
 description: Check our Web Forms article about OnClientTimeSlotClick.
 slug: scheduler/client-side-programming/events/onclienttimeslotclick
+components: ["scheduler"]
 tags: onclienttimeslotclick
 published: True
 position: 13

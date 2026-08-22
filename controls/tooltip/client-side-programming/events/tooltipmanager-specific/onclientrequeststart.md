@@ -3,6 +3,7 @@ title: OnClientRequestStart
 page_title: OnClientRequestStart - RadTooltip
 description: Check our Web Forms article about OnClientRequestStart.
 slug: tooltip/client-side-programming/events/tooltipmanager-specific/onclientrequeststart
+components: ["tooltip"]
 tags: onclientrequeststart
 published: True
 position: 1

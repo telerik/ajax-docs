@@ -3,6 +3,7 @@ title: Overview
 page_title: Pasting Content Overview - RadEditor
 description: Check our Web Forms article about Pasting Content Overview.
 slug: editor/managing-content/pasting-content/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

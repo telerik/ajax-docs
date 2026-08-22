@@ -3,6 +3,7 @@ title: OnClientAdded
 page_title: OnClientAdded - RadUpload
 description: Check our Web Forms article about OnClientAdded.
 slug: upload/client-side-programming/onclientadded
+components: ["upload"]
 tags: onclientadded
 published: True
 position: 6

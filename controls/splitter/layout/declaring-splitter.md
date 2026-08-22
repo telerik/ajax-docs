@@ -3,6 +3,7 @@ title: Declaring Splitter
 page_title: Declaring Splitter - RadSplitter
 description: Check our Web Forms article about Declaring Splitter.
 slug: splitter/layout/declaring-splitter
+components: ["splitter"]
 tags: declaring,splitter
 published: True
 position: 0

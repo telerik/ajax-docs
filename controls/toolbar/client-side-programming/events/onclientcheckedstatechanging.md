@@ -3,6 +3,7 @@ title: OnClientCheckedStateChanging
 page_title: OnClientCheckedStateChanging - RadToolBar
 description: Check our Web Forms article about OnClientCheckedStateChanging.
 slug: toolbar/client-side-programming/onclientcheckedstatechanging
+components: ["toolbar"]
 tags: onclientcheckedstatechanging
 published: True
 position: 9

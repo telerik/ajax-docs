@@ -3,6 +3,7 @@ title: Overview
 page_title: Control Lifecycle Overview - RadListView
 description: Check our Web Forms article about Overview.
 slug: listview/control-lifecycle/overview
+components: ["listview"]
 tags: overview
 published: True
 position: 0

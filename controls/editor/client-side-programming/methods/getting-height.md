@@ -3,6 +3,7 @@ title: getting height
 page_title: getting height - RadEditor
 description: Check our Web Forms article about getting height.
 slug: editor/client-side-programming/methods/getting-height
+components: ["editor"]
 tags: getting,height
 published: True
 position: 5

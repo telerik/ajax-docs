@@ -3,6 +3,7 @@ title: Properties
 page_title: Badge JavaScript Properties
 description: "JavaScript properties of the Telerik WebForms Badge component."
 slug: badge/client-side-programming/properties
+components: ["badge"]
 tags: properties
 published: True
 position: 1

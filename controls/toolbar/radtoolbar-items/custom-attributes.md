@@ -3,6 +3,7 @@ title: Custom Attributes
 page_title: Custom Attributes - RadToolBar
 description: Check our Web Forms article about Custom Attributes.
 slug: toolbar/radtoolbar-items/custom-attributes
+components: ["toolbar"]
 tags: custom,attributes
 published: True
 position: 7

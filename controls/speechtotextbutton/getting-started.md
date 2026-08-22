@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started with the SpeechToTextButton
 description: "Get started with the WebForms SpeechToTextButton by Telerik UI for ASP.NET AJAX and learn how to create, initialize, and enable the component."
 slug: speechtotextbutton/getting-started
+components: ["speechtotextbutton"]
 tags: speechtotextbutton,getting started
 published: True
 position: 1

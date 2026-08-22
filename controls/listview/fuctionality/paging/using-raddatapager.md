@@ -3,6 +3,7 @@ title: Using RadDataPager
 page_title: Using RadDataPager - RadListView
 description: Check our Web Forms article about Using RadDataPager.
 slug: listview/fuctionality/paging/using-raddatapager
+components: ["listview"]
 tags: using,raddatapager
 published: True
 position: 1

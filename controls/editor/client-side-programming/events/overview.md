@@ -3,6 +3,7 @@ title: Overview
 page_title: Events Overview - RadEditor
 description: Check our Web Forms article about Overview.
 slug: editor/client-side-programming/events/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

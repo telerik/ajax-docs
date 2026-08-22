@@ -3,6 +3,7 @@ title: TextChanged
 page_title: TextChanged - RadComboBox
 description: Check our Web Forms article about TextChanged.
 slug: combobox/server-side-programming/textchanged
+components: ["combobox"]
 tags: textchanged
 published: True
 position: 5

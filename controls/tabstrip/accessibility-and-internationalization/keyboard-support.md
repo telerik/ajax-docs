@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadTabStrip
 description: Check our Web Forms article about Keyboard Support.
 slug: tabstrip/accessibility-and-internationalization/keyboard-support
+components: ["tabstrip"]
 tags: keyboard,support
 published: True
 position: 0

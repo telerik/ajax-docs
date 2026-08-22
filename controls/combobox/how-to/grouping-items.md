@@ -3,6 +3,7 @@ title: Grouping Items
 page_title: Grouping Items - RadComboBox
 description: Check our Web Forms article about Grouping Items.
 slug: combobox/how-to/grouping-items
+components: ["combobox"]
 tags: grouping,items
 published: True
 position: 8

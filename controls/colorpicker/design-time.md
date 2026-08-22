@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadColorPicker
 description: Check our Web Forms article about Design Time.
 slug: colorpicker/design-time
+components: ["colorpicker"]
 tags: design,time
 published: True
 position: 3

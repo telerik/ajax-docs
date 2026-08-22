@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadProgressBar
 description: Check our Web Forms article about Design Time.
 slug: progressbar/design-time
+components: ["progressbar"]
 tags: design,time
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Appearance Skins
 page_title: Appearance Skins - RadMenu
 description: Check our Web Forms article about Appearance Skins.
 slug: menu/appearance-and-styling/appearance-skins
+components: ["menu"]
 tags: appearance,skins
 published: True
 position: 5

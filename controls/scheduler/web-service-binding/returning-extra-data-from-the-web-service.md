@@ -3,6 +3,7 @@ title: Returning Extra Data from the Web Service
 page_title: Returning Extra Data from the Web Service - RadScheduler
 description: Check our Web Forms article about Returning Extra Data from the Web Service.
 slug: scheduler/web-service-binding/returning-extra-data-from-the-web-service
+components: ["scheduler"]
 tags: returning,extra,data,from,the,web,service
 published: True
 position: 5

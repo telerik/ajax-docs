@@ -3,6 +3,7 @@ title: Disable RadEditor
 page_title: Disable RadEditor - RadEditor
 description: Check our Web Forms article about Disable RadEditor.
 slug: editor/functionality/editor-views-and-modes/disable-radeditor
+components: ["editor"]
 tags: disable,radeditor
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: OnItemMouseOver
 page_title: OnItemMouseOver - RadCheckBoxList
 description: Check our Web Forms article about OnItemMouseOver.
 slug: checkboxlist/client-side-programming/events/onitemmouseover
+components: ["checkboxlist"]
 tags: onitemmouseover
 published: True
 position: 10

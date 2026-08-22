@@ -3,6 +3,7 @@ title: Binding RadSlider to ASP DataSource components
 page_title: Binding RadSlider to ASP DataSource components - RadSlider
 description: Check our Web Forms article about Binding RadSlider to ASP DataSource components.
 slug: slider/data-binding/binding-radslider-to-asp-datasource-components
+components: ["slider"]
 tags: binding,radslider,to,asp,datasource,components
 published: True
 position: 0

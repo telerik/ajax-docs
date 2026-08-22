@@ -3,6 +3,7 @@ title: OnClientRequestFailed
 page_title: OnClientRequestFailed - RadDropDownTree
 description: Check our Web Forms article about OnClientRequestFailed.
 slug: dropdowntree/client-side-programming/events/onclientrequestfailed
+components: ["dropdowntree"]
 tags: onclientrequestfailed
 published: False
 position: 11

@@ -3,6 +3,7 @@ title: Binding to DataTable, DataSet or DataView
 page_title: Binding to DataTable, DataSet or DataView - RadTagCloud
 description: Check our Web Forms article about Binding to DataTable, DataSet or DataView.
 slug: tagcloud/data-binding/binding-to-datatable,-dataset-or-dataview
+components: ["tagcloud"]
 tags: binding,to,datatable,,dataset,or,dataview
 published: True
 position: 1

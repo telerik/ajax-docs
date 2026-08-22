@@ -3,6 +3,7 @@ title: ImageExporting
 page_title: ImageExporting - RadClientExportManager
 description: Check our Web Forms article about ImageExporting.
 slug: clientexportmanager/client-side-programming/events/imageexporting
+components: ["clientexportmanager"]
 tags: imageexporting
 published: True
 position: 3

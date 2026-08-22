@@ -3,6 +3,7 @@ title: Change Mouse Pointer on MenuItem Hover
 page_title: Change Mouse Pointer on MenuItem Hover - RadMenu
 description: Check our Web Forms article about Change Mouse Pointer on MenuItem Hover.
 slug: menu/how-to/change-mouse-pointer-on-menuitem-hover
+components: ["menu"]
 tags: change,mouse,pointer,on,menuitem,hover
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Custom Paging
 page_title: Custom Paging - RadListView
 description: Check our Web Forms article about Custom Paging.
 slug: listview/fuctionality/paging/custom-paging
+components: ["listview"]
 tags: custom,paging
 published: True
 position: 2

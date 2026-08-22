@@ -3,6 +3,7 @@ title: Agenda View
 page_title: Agenda View - RadScheduler
 description: Check our Web Forms article about Agenda View.
 slug: scheduler/views/agenda-view
+components: ["scheduler"]
 tags: agenda,view
 published: True
 position: 6

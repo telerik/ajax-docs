@@ -3,6 +3,7 @@ title: CSS Skin File Selectors
 page_title: CSS Skin File Selectors - RadTreeView
 description: Check our Web Forms article about CSS Skin File Selectors.
 slug: treeview/appearance-and-styling/css-skin-file-selectors
+components: ["treeview"]
 tags: css,skin,file,selectors
 published: True
 position: 5

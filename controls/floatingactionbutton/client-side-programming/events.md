@@ -3,6 +3,7 @@ title: Events
 page_title: RadFloatingActionButton Client-side Events
 description: Check our Web Forms article about the API of RadFloatingActionButton object.
 slug: floatingactionbutton/client-side-programming/events
+components: ["floatingactionbutton"]
 tags: overview
 published: True
 position: 1

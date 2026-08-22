@@ -3,6 +3,7 @@ title: Declarative Binding
 page_title: Declarative Binding - RadGantt
 description: Check our Web Forms article about Declarative Binding.
 slug: gantt/data-binding/server-side-binding/declarative-binding
+components: ["gantt"]
 tags: declarative,binding
 published: True
 position: 0

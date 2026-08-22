@@ -3,6 +3,7 @@ title: HTML Encode the Entry Text
 page_title: HTML Encode the Entry Text - RadDropDownTree
 description: Check our Web Forms article about HTML Encode the Entry Text.
 slug: dropdowntree/how-to/html-encode-the-entry-text
+components: ["dropdowntree"]
 tags: html,encode,entry,text
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Navigation
 page_title: Navigation - RadTileList
 description: Check our Web Forms article about Navigation.
 slug: tilelist/functionality/navigation
+components: ["tilelist"]
 tags: navigation
 published: True
 position: 0

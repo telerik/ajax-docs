@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadDropDownTree
 description: Check our Web Forms article about OnClientLoad.
 slug: dropdowntree/client-side-programming/events/onclientload
+components: ["dropdowntree"]
 tags: onclientload
 published: True
 position: 1

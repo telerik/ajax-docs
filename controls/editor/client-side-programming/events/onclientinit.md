@@ -3,6 +3,7 @@ title: OnClientInit
 page_title: OnClientInit - RadEditor
 description: Check our Web Forms article about OnClientInit.
 slug: editor/client-side-programming/events/onclientinit
+components: ["editor"]
 tags: onclientinit
 published: True
 position: 1

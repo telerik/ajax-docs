@@ -3,6 +3,7 @@ title: aggregates
 page_title: ClientDataSource Object aggregates() - RadClientDataSource
 description: Check our Web Forms article about aggregates.
 slug: clientdatasource/client-side-programming/client-side-api/methods/aggregates
+components: ["clientdatasource"]
 tags: aggregates
 published: True
 position: 3

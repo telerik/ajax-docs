@@ -3,6 +3,7 @@ title: Rendering
 page_title: Rendering - RadTreeView
 description: Check our Web Forms article about Rendering.
 slug: treeview/web-pages/rendering
+components: ["treeview"]
 tags: rendering
 published: True
 position: 2

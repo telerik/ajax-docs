@@ -3,6 +3,7 @@ title: Overview
 page_title: Troubleshooting Overview - RadScriptManager
 description: Check our Web Forms article about Overview.
 slug: scriptmanager/troubleshooting/overview
+components: ["scriptmanager"]
 tags: overview
 published: True
 position: 0

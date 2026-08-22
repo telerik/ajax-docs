@@ -3,6 +3,7 @@ title: Wrong Results at Medium Typing Speed
 page_title: Wrong Results at Medium Typing Speed - RadSearchBox
 description: Check our Web Forms article about Wrong Results at Medium Typing Speed for users because of overlapping requests.
 slug: controls/searchbox/troubleshooting/wrong-results-at-medium-typing-speed
+components: ["searchbox"]
 tags: wrong,results,search,request,delay,user,typing,speed
 published: true
 position: 0

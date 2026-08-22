@@ -3,6 +3,7 @@ title: set_html
 page_title: set_html - RadEditor
 description: Check our Web Forms article about set_html.
 slug: editor/client-side-programming/methods/set_html
+components: ["editor"]
 tags: set_html
 published: True
 position: 12

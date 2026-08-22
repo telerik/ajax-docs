@@ -3,6 +3,7 @@ title: Custom Components
 page_title: Custom Components - RadChat
 description: Check our Web Forms article about Custom Components.
 slug: chat/functionality/components
+components: ["chat"]
 tags: custom,components
 published: True
 position: 3

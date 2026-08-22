@@ -3,6 +3,7 @@ title: ItemCreated
 page_title: ItemCreated - RadTimePicker
 description: Check our Web Forms article about ItemCreated.
 slug: timepicker/server-side-programming/events/itemcreated
+components: ["timepicker"]
 tags: itemcreated
 published: True
 position: 3

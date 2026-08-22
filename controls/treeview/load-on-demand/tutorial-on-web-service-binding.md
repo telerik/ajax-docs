@@ -3,6 +3,7 @@ title: Tutorial on Web Service Binding
 page_title: Tutorial on Web Service Binding - RadTreeView
 description: Check our Web Forms article about Tutorial on Web Service Binding.
 slug: treeview/load-on-demand/tutorial-on-web-service-binding
+components: ["treeview"]
 tags: tutorial,on,web,service,binding
 published: True
 position: 3

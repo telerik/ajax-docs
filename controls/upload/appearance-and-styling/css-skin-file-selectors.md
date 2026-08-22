@@ -3,6 +3,7 @@ title: CSS Skin File Selectors
 page_title: CSS Skin File Selectors - RadUpload
 description: Check our Web Forms article about CSS Skin File Selectors.
 slug: upload/appearance-and-styling/css-skin-file-selectors
+components: ["upload"]
 tags: css,skin,file,selectors
 published: True
 position: 5

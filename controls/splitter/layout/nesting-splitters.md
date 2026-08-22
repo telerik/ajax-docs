@@ -3,6 +3,7 @@ title: Nesting Splitters
 page_title: Nesting Splitters - RadSplitter
 description: Check our Web Forms article about Nesting Splitters.
 slug: splitter/layout/nesting-splitters
+components: ["splitter"]
 tags: nesting,splitters
 published: True
 position: 4

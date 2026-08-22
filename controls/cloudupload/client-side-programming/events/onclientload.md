@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadCloudUpload
 description: Check our Web Forms article about OnClientLoad.
 slug: cloudupload/client-side-programming/events/onclientload
+components: ["cloudupload"]
 tags: onclientload
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnEntryRemoved
 page_title: OnEntryRemoved - RadAutoCompleteBox
 description: Check our Web Forms article about OnEntryRemoved.
 slug: autocompletebox/server-side-programming/events/onentryremoved
+components: ["autocompletebox"]
 tags: onentryremoved
 published: True
 position: 1

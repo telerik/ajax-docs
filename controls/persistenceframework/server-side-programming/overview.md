@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadPersistenceFramework
 description: Check our Web Forms article about Overview.
 slug: persistenceframework/server-side-programming/overview
+components: ["persistenceframework"]
 tags: overview
 published: True
 position: 0

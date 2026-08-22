@@ -3,6 +3,7 @@ title: Standards Compliance
 page_title: Standards Compliance - RadSpell
 description: Check our Web Forms article about Standards Compliance.
 slug: spell/accessibility-and-internationalization/standards-compliance
+components: ["spell"]
 tags: standards,compliance
 published: True
 position: 0

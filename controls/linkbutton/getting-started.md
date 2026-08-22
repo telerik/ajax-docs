@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadLinkButton
 description: Check our Web Forms article about Getting Started.
 slug: linkbutton/getting-started
+components: ["linkbutton"]
 tags: getting,started
 published: True
 position: 2

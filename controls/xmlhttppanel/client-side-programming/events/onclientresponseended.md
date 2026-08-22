@@ -3,6 +3,7 @@ title: OnClientResponseEnded
 page_title: OnClientResponseEnded - RadXmlHttpPanel
 description: Check our Web Forms article about OnClientResponseEnded.
 slug: xmlhttppanel/client-side-programming/events/onclientresponseended
+components: ["xmlhttppanel"]
 tags: onclientresponseended
 published: True
 position: 1

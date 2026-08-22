@@ -3,6 +3,7 @@ title: OnClientNodeClicked
 page_title: OnClientNodeClicked - RadTreeView
 description: Check our Web Forms article about OnClientNodeClicked.
 slug: treeview/client-side-programming/events/onclientnodeclicked
+components: ["treeview"]
 tags: onclientnodeclicked
 published: True
 position: 18

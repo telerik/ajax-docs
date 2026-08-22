@@ -3,6 +3,7 @@ title: OnClientUpdateError
 page_title: OnClientUpdateError - RadNotification
 description: Check our Web Forms article about OnClientUpdateError.
 slug: notification/client-side-programming/events/onclientupdateerror
+components: ["notification"]
 tags: onclientupdateerror
 published: True
 position: 6

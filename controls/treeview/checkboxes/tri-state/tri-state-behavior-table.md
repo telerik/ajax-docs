@@ -3,6 +3,7 @@ title: Behavior Table
 page_title: Tri-State-Behavior Table - RadTreeView
 description: Check our Web Forms article about Tri-State-Behavior Table.
 slug: treeview/checkboxes/tri-state/tri-state-behavior-table
+components: ["treeview"]
 tags: tri-state-behavior,table
 published: True
 position: 2

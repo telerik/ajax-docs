@@ -3,6 +3,7 @@ title: Overview
 page_title: RadToolBar Overview
 description: Explore the Toolbar control and its features for creating customizable toolbars in your applications.
 slug: toolbar/overview
+components: ["toolbar"]
 tags: overview
 published: True
 position: 0

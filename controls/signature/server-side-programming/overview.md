@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadSignature
 description: Check our Web Forms article about the Server API of RadSignature.
 slug: signature/server-side-programming/overview
+components: ["signature"]
 tags: overview
 published: True
 position: 0

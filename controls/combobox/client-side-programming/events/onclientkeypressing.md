@@ -3,6 +3,7 @@ title: OnClientKeyPressing
 page_title: OnClientKeyPressing - RadComboBox
 description: Check our Web Forms article about OnClientKeyPressing.
 slug: combobox/client-side-programming/events/onclientkeypressing
+components: ["combobox"]
 tags: onclientkeypressing
 published: True
 position: 12

@@ -3,6 +3,7 @@ title: Selected Date
 page_title: Selected Date - RadGantt
 description: Check our Web Forms article about Selected Date.
 slug: gantt/functionality/selected-date
+components: ["gantt"]
 tags: selected date
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: OnClientDropDownItemDataBound
 page_title: OnClientDropDownItemDataBound - RadAutoCompleteBox
 description: Check our Web Forms article about OnClientDropDownItemDataBound.
 slug: autocompletebox/client-side-programming/events/onclientdropdownitemdatabound
+components: ["autocompletebox"]
 tags: onclientdropdownitemdatabound
 published: True
 position: 12

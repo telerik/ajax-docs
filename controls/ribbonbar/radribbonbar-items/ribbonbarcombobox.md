@@ -3,6 +3,7 @@ title: RibbonBarComboBox
 page_title: RibbonBarComboBox - RadRibbonBar
 description: Check our Web Forms article about RibbonBarComboBox.
 slug: ribbonbar/radribbonbar-items/ribbonbarcombobox
+components: ["ribbonbar"]
 tags: ribbonbarcombobox
 published: True
 position: 12

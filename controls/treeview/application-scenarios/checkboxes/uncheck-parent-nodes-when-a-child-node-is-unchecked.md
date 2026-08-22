@@ -3,6 +3,7 @@ title: Uncheck Parent Nodes When a Child Node Is Unchecked
 page_title: Uncheck Parent Nodes When a Child Node Is Unchecked - RadTreeView
 description: Check our Web Forms article about Uncheck Parent Nodes When a Child Node Is Unchecked.
 slug: treeview/application-scenarios/checkboxes/uncheck-parent-nodes-when-a-child-node-is-unchecked
+components: ["treeview"]
 tags: uncheck,parent,nodes,when,a,child,node,is,unchecked
 published: True
 position: 2

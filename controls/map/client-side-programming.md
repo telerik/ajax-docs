@@ -3,6 +3,7 @@ title: Client-side Programming
 page_title: Client-side Programming - RadMap
 description: Check our Web Forms article about Client-side Programming.
 slug: map/client-side-programming
+components: ["map"]
 tags: client-side,programming
 published: True
 position: 51

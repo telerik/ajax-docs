@@ -3,6 +3,7 @@ title: TextChanged Event
 page_title: TextChanged Event - RadMaksedTextBox
 description: Check our Web Forms article about TextChanged Event.
 slug: radmaskedtextbox/server-side-programming/textchanged-event
+components: ["maskedtextbox"]
 tags: textchanged,event
 published: True
 position: 1

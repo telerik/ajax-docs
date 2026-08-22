@@ -3,6 +3,7 @@ title: OnPopupClosing
 page_title: OnPopupClosing - RadTimePicker
 description: Check our Web Forms article about OnPopupClosing.
 slug: timepicker/client-side-programming/events/onpopupclosing
+components: ["timepicker"]
 tags: onpopupclosing
 published: True
 position: 3

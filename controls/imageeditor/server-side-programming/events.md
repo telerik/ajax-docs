@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadImageEditor
 description: Check our Web Forms article about Events.
 slug: imageeditor/server-side-programming/events
+components: ["imageeditor"]
 tags: events
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: get_aggregates()
 page_title: get_aggregates() - RadClientDataSource
 description: Check our Web Forms article about get_aggregates().
 slug: clientdatasource/client-side-programming/client-side-api/properties/get_aggregates()
+components: ["clientdatasource"]
 tags: get_aggregates()
 published: True
 position: 3

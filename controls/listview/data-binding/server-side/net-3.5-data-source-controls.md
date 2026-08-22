@@ -3,6 +3,7 @@ title: NET 3.5 Data Source Controls
 page_title: NET 3.5 Data Source Controls - RadListView
 description: Check our Web Forms article about NET 3.5 Data Source Controls.
 slug: listview/data-binding/server-side/net-3.5-data-source-controls
+components: ["listview"]
 tags: net,3.5,data,source,controls
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Working with Expressions
 page_title: Working with Expressions - RadFilter
 description: Check our Web Forms article about Working with Expressions.
 slug: filter/filter-expressions/working-with-expressions
+components: ["filter"]
 tags: working,with,expressions
 published: True
 position: 0

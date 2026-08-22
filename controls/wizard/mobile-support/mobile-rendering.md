@@ -3,6 +3,7 @@ title: Mobile Rendering
 page_title: Mobile Rendering - RadWizard
 description: Check our Web Forms article about Mobile Rendering.
 slug: wizard/mobile-support/mobile-rendering
+components: ["wizard"]
 tags: mobile,rendering
 published: True
 position: 2

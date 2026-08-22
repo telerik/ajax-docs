@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadTreeMap
 description: Check our Web Forms article about Getting Started.
 slug: treemap/getting-started
+components: ["treemap"]
 tags: getting,started
 published: True
 position: 1

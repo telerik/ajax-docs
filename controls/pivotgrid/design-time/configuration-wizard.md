@@ -3,6 +3,7 @@ title: Configuration Wizard
 page_title: Configuration Wizard - RadPivotGrid
 description: Check our Web Forms article about Configuration Wizard.
 slug: pivotgrid/design-time/configuration-wizard
+components: ["pivotgrid"]
 tags: configuration,wizard
 published: True
 position: 1

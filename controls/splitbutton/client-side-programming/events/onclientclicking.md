@@ -3,6 +3,7 @@ title: OnClientClicking
 page_title: OnClientClicking - RadSplitButton
 description: Check our Web Forms article about OnClientClicking.
 slug: splitbutton/client-side-programming/events/onclientclicking
+components: ["splitbutton"]
 tags: onclientclicking
 published: True
 position: 3

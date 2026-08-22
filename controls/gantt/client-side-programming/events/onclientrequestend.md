@@ -3,6 +3,7 @@ title: OnClientRequestEnd
 page_title: OnClientRequestEnd - RadGantt
 description: Check our Web Forms article about OnClientRequestEnd.
 slug: gantt/client-side-programming/events/onclientrequestend
+components: ["gantt"]
 tags: onclientrequestend
 published: True
 position: 9

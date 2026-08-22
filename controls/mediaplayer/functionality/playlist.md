@@ -3,6 +3,7 @@ title: Playlist
 page_title: Playlist - RadMediaPlayer
 description: Check our Web Forms article about Playlist.
 slug: mediaplayer/functionality/playlist
+components: ["mediaplayer"]
 tags: playlist
 published: True
 position: 0

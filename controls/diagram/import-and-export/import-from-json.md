@@ -3,6 +3,7 @@ title: Import from JSON
 page_title: Import from JSON - RadDiagram
 description: Check our Web Forms article about Import from JSON.
 slug: diagram/import-and-export/import-from-json
+components: ["diagram"]
 tags: import,from,json
 published: True
 position: 0

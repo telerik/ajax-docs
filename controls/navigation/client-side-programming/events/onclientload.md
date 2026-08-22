@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadNavigation
 description: Check our Web Forms article about OnClientLoad.
 slug: navigation/client-side-programming/events/onclientload
+components: ["navigation"]
 tags: onclientload
 published: True
 position: 1

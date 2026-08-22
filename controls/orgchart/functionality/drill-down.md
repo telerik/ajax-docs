@@ -3,6 +3,7 @@ title: Drill Down
 page_title: Drill Down - RadOrgChart
 description: Check our Web Forms article about Drill Down.
 slug: orgchart/functionality/drill-down
+components: ["orgchart"]
 tags: drill,down
 published: True
 position: 1

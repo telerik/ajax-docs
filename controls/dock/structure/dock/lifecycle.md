@@ -3,6 +3,7 @@ title: Lifecycle
 page_title: Lifecycle - RadDock
 description: Check our Web Forms article about Lifecycle.
 slug: dock/structure/dock/lifecycle
+components: ["dock"]
 tags: lifecycle
 published: True
 position: 1

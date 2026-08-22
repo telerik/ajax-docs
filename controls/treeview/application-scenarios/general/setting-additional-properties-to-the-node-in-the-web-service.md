@@ -3,6 +3,7 @@ title: Setting Additional Properties to the Node in the Web Service
 page_title: Setting Additional Properties to the Node in the Web Service - RadTreeView
 description: Check our Web Forms article about Setting Additional Properties to the Node in the Web Service.
 slug: treeview/application-scenarios/general/setting-additional-properties-to-the-node-in-the-web-service
+components: ["treeview"]
 tags: setting,additional,properties,to,the,node,in,the,web,service
 published: True
 position: 3

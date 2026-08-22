@@ -3,6 +3,7 @@ title: Properties Enumerators
 page_title: Properties Enumerators - RadSocialShare
 description: Check our Web Forms article about Properties Enumerators.
 slug: socialshare/server-side-programming/properties-enumerators
+components: ["socialshare"]
 tags: properties,enumerators
 published: True
 position: 1

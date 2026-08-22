@@ -3,6 +3,7 @@ title: OnBlur
 page_title: OnBlur - RadDateInput
 description: Check our Web Forms article about OnBlur.
 slug: raddateinput/client-side-programming/events/onblur
+components: ["dateinput"]
 tags: onblur
 published: True
 position: 1

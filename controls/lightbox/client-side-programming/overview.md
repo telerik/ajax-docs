@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadLightBox
 description: Check our Web Forms article about Overview.
 slug: lightbox/client-side-programming/overview
+components: ["lightbox"]
 tags: overview
 published: True
 position: 0

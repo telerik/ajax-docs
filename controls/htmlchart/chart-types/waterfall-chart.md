@@ -3,6 +3,7 @@ title: Waterfall Chart
 page_title: Waterfall Chart - RadHtmlChart
 description: Check our Web Forms article about Waterfall Chart.
 slug: htmlchart/chart-types/waterfall-chart
+components: ["htmlchart"]
 tags: waterfall,chart
 published: True
 position: 24

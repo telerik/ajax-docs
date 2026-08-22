@@ -3,6 +3,7 @@ title: Context Menus
 page_title: Context Menus - RadDateInput
 description: Check our Web Forms article about Context Menus.
 slug: raddateinput/features/context-menus
+components: ["dateinput"]
 tags: context,menus
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnClientItemSelecting
 page_title: OnClientItemSelecting - RadDropDownList
 description: Check our Web Forms article about OnClientItemSelecting.
 slug: dropdownlist/client-side-programming/events/onclientitemselecting
+components: ["dropdownlist"]
 tags: onclientitemselecting
 published: True
 position: 6

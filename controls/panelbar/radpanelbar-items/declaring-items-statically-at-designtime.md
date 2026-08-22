@@ -3,6 +3,7 @@ title: Declaring Items Statically at Designtime
 page_title: Declaring Items Statically at Designtime - RadPanelBar
 description: Check our Web Forms article about Declaring Items Statically at Designtime.
 slug: panelbar/radpanelbar-items/declaring-items-statically-at-designtime
+components: ["panelbar"]
 tags: declaring,items,statically,at,designtime
 published: True
 position: 2

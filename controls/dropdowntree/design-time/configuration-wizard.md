@@ -3,6 +3,7 @@ title: Configuration Wizard
 page_title: Configuration Wizard - RadDropDownTree
 description: Check our Web Forms article about RadDropDownTree Configuration Wizard.
 slug: dropdowntree/design-time/configuration-wizard
+components: ["dropdowntree"]
 tags: raddropdowntree,configuration,wizard,design
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Create a Bar Chart with Simple Static Data
 page_title: Create a Bar Chart with Simple Static Data
 description: Check our Web Forms article about Overview.
 slug: chart/getting-started/create-bar-chart-with-simple-static-data
+components: ["chart"]
 tags: Create, static, Chart, getting started
 published: True
 position: 1

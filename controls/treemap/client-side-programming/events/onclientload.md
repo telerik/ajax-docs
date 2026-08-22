@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadTreeMap
 description: Check our Web Forms article about OnClientLoad.
 slug: treemap/client-side-programming/events/onclientload
+components: ["treemap"]
 tags: onclientload
 published: True
 position: 0

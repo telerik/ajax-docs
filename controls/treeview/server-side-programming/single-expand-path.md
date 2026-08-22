@@ -3,6 +3,7 @@ title: Single Expand Path
 page_title: Single Expand Path - RadTreeView
 description: Check our Web Forms article about Single Expand Path.
 slug: treeview/server-side-programming/single-expand-path
+components: ["treeview"]
 tags: single,expand,path
 published: True
 position: 6

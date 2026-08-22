@@ -3,6 +3,7 @@ title: Loading Tabs from XML
 page_title: Loading Tabs from XML - RadTabStrip
 description: Check our Web Forms article about Loading Tabs from XML.
 slug: tabstrip/tabs/loading-tabs-from-xml
+components: ["tabstrip"]
 tags: loading,tabs,from,xml
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: RadTimeline Object
 page_title: RadTimeline Object - RadTimeline
 description: Check our Web Forms article about RadTimeline Object.
 slug: timeline/client-side-programming/overview
+components: ["timeline"]
 tags: timeline,object
 published: True
 position: 0

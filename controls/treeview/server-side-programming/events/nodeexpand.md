@@ -3,6 +3,7 @@ title: NodeExpand
 page_title: NodeExpand - RadTreeView
 description: Check our Web Forms article about NodeExpand.
 slug: treeview/server-side-programming/events/nodeexpand
+components: ["treeview"]
 tags: nodeexpand
 published: True
 position: 2

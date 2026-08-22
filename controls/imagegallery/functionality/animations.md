@@ -3,6 +3,7 @@ title: Animations
 page_title: Animations - RadImageGallery
 description: Check our Web Forms article about Animations.
 slug: imagegallery/functionality/animations
+components: ["imagegallery"]
 tags: animations
 published: True
 position: 1

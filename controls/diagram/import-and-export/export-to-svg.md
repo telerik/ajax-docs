@@ -3,6 +3,7 @@ title: Export to SVG
 page_title: Export to SVG - RadDiagram
 description: Check our Web Forms article about Export to SVG.
 slug: diagram/import-and-export/export-to-svg
+components: ["diagram"]
 tags: export,to,svg
 published: True
 position: 4

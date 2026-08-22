@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadRadioButtonList
 description: Check our Web Forms article about Overview.
 slug: radiobuttonlist/client-side-programming/overview
+components: ["radiobuttonlist"]
 tags: overview
 published: True
 position: 0

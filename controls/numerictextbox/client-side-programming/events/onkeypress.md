@@ -3,6 +3,7 @@ title: OnKeyPress
 page_title: OnKeyPress - RadNumericTextBox
 description: Check our Web Forms article about OnKeyPress.
 slug: numerictextbox/client-side-programming/events/onkeypress
+components: ["numerictextbox"]
 tags: onkeypress
 published: True
 position: 9

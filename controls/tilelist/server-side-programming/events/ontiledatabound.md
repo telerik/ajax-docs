@@ -3,6 +3,7 @@ title: OnTileDataBound
 page_title: OnTileDataBound - RadTileList
 description: Check our Web Forms article about OnTileDataBound.
 slug: tilelist/server-side-programming/server-side-events/ontiledatabound
+components: ["tilelist"]
 tags: ontiledatabound
 published: True
 position: 3

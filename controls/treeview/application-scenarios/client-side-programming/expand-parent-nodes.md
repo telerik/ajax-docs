@@ -3,6 +3,7 @@ title: Expand Parent Nodes
 page_title: Expand Parent Nodes - RadTreeView
 description: Check our Web Forms article about Expand Parent Nodes.
 slug: treeview/application-scenarios/client-side-programming/expand-parent-nodes
+components: ["treeview"]
 tags: expand,parent,nodes
 published: True
 position: 15

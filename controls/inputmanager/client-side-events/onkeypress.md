@@ -3,6 +3,7 @@ title: OnKeyPress
 page_title: OnKeyPress - RadInputManager
 description: Check our Web Forms article about OnKeyPress.
 slug: radinputmanager/client-side-events/onkeypress
+components: ["inputmanager"]
 tags: onkeypress
 published: True
 position: 2

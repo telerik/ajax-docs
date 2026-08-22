@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDatePicker Overview
 description: Learn about the DatePicker control and its features for selecting and formatting date values.
 slug: datepicker/overview
+components: ["datepicker"]
 tags: overview
 published: True
 position: 0

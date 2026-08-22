@@ -3,6 +3,7 @@ title: OnClientEntryAdded
 page_title: OnClientEntryAdded - RadDropDownTree
 description: Check our Web Forms article about OnClientEntryAdded.
 slug: dropdowntree/client-side-programming/events/oncliententryadded
+components: ["dropdowntree"]
 tags: oncliententryadded
 published: True
 position: 7

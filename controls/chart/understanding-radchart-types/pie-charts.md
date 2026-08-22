@@ -3,6 +3,7 @@ title: Pie Charts
 page_title: Pie Charts - RadChart
 description: Check our Web Forms article about Pie Charts.
 slug: chart/understanding-radchart-types/pie-charts
+components: ["chart"]
 tags: pie,charts
 published: True
 position: 4

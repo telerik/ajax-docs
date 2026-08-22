@@ -3,6 +3,7 @@ title: Toolbar and Tools
 page_title: Toolbar and Tools - RadPdfViewer
 description: Check our Web Forms article about Toolbar and Tools.
 slug: pdfviewer/functionality/toolbar-and-tools
+components: ["pdfviewer"]
 tags: toolbar,tools,client,server
 published: True
 position: 0

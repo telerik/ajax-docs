@@ -3,6 +3,7 @@ title: OnCommand
 page_title: OnCommand - RadPivotGrid
 description: Check our Web Forms article about OnCommand.
 slug: pivotgrid/client-side-programming/events/oncommand
+components: ["pivotgrid"]
 tags: oncommand
 published: True
 position: 0

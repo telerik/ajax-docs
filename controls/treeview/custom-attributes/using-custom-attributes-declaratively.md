@@ -3,6 +3,7 @@ title: Using Custom Attributes Declaratively
 page_title: Using Custom Attributes Declaratively - RadTreeView
 description: Check our Web Forms article about Using Custom Attributes Declaratively.
 slug: treeview/custom-attributes/using-custom-attributes-declaratively
+components: ["treeview"]
 tags: using,custom,attributes,declaratively
 published: True
 position: 1

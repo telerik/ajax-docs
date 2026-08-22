@@ -3,6 +3,7 @@ title: Binding to RadClientDataSource
 page_title: Binding to RadClientDataSource - RadAutoCompleteBox
 description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: autocompletebox/data-binding/binding-to-radclientdatasource
+components: ["autocompletebox"]
 tags: binding,to,radclientdatasource
 published: True
 position: 7

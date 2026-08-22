@@ -3,6 +3,7 @@ title: RadAutoCompleteBox Object
 page_title: RadAutoCompleteBox Object - AutoCompleteBox
 description: Check our Web Forms article about RadAutoCompleteBox Object.
 slug: autocompletebox/client-side-programming/objects/radautocompletebox-object
+components: ["autocompletebox"]
 tags: autocompletebox,object
 published: True
 position: 0

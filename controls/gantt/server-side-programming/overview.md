@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadGantt
 description: Check our Web Forms article about Overview.
 slug: gantt/server-side-programming/overview
+components: ["gantt"]
 tags: overview
 published: True
 position: 0

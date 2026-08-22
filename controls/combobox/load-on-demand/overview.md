@@ -3,6 +3,7 @@ title: Overview
 page_title: Load On Demand Overview - RadComboBox
 description: Explore the load-on-demand feature in the ComboBox control for efficient data loading and performance.
 slug: combobox/load-on-demand/overview
+components: ["combobox"]
 tags: overview
 published: True
 position: 0

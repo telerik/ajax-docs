@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadDropDownTree
 description: Check our Web Forms article about Keyboard Support.
 slug: dropdowntree/accessibility-and-internationalization/keyboard-support
+components: ["dropdowntree"]
 tags: keyboard,support
 published: True
 position: 0

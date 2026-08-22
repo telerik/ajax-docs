@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadImageEditor
 description: Check our Web Forms article about Overview.
 slug: imageeditor/getting-started/overview
+components: ["imageeditor"]
 tags: overview
 published: True
 position: 0

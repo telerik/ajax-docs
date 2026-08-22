@@ -3,6 +3,7 @@ title: OnLoad
 page_title: OnLoad - RadRadioButtonList
 description: Check our Web Forms article about OnLoad.
 slug: radiobuttonlist/client-side-programming/events/onload
+components: ["radiobuttonlist"]
 tags: onload
 published: True
 position: 2

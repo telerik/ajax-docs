@@ -3,6 +3,7 @@ title: Various Data Sources
 page_title: Various Data Sources - RadListView
 description: Check our Web Forms article about Various Data Sources.
 slug: listview/data-binding/client-side/various-data-sources
+components: ["listview"]
 tags: various,data,sources
 published: True
 position: 2

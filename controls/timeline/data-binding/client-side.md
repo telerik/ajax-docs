@@ -3,6 +3,7 @@ title: Client-Side
 page_title: Client-Side Data Binding - RadTimeline
 description: Check our Web Forms article about Client data binding overview of RadTimeline.
 slug: timeline/data-binding/client-side
+components: ["timeline"]
 tags: data,binding,overview,client,side,web,service
 published: True
 position: 1

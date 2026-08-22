@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started with the WebForms SegmentedControl
 description: "Get started with the Telerik WebForms SegmentedControl and learn how to create, initialize, and configure the component."
 slug: segmentedcontrol/getting-started
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, getting started
 published: True
 position: 1

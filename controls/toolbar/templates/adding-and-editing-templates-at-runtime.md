@@ -3,6 +3,7 @@ title: Adding and Editing Templates at Runtime
 page_title: Adding and Editing Templates at Runtime - RadToolBar
 description: Check our Web Forms article about Adding and Editing Templates at Runtime.
 slug: toolbar/templates/adding-and-editing-templates-at-runtime
+components: ["toolbar"]
 tags: adding,and,editing,templates,at,runtime
 published: True
 position: 3

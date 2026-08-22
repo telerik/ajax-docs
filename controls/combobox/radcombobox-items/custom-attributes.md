@@ -3,6 +3,7 @@ title: Custom Attributes
 page_title: Custom Attributes - RadComboBox
 description: Learn how to use custom attributes in RadComboBox items for storing additional data dynamically.
 slug: combobox/radcombobox-items/custom-attributes
+components: ["combobox"]
 tags: custom,attributes
 published: True
 position: 5

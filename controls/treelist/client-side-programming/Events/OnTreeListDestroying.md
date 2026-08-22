@@ -3,6 +3,7 @@ title: OnTreeListDestroying
 page_title: OnTreeListDestroying - RadTreeList
 description: Check our Web Forms article about OnTreeListDestroying Event.
 slug: treelist/client-side-programming/Events/OnTreeListDestroying
+components: ["treelist"]
 tags: events,OnTreeListDestroying
 published: True
 position: 1

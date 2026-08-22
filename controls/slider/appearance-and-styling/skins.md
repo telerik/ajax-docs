@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadSlider
 description: Check our Web Forms article about Skins.
 slug: slider/appearance-and-styling/skins
+components: ["slider"]
 tags: skins
 published: True
 position: 0

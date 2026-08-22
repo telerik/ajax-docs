@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadListBox
 description: Check our Web Forms article about Localization.
 slug: listbox/accessibility-and-internationalization/localization
+components: ["listbox"]
 tags: localization
 published: True
 position: 0

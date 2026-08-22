@@ -3,6 +3,7 @@ title: RibbonBarNumericTextBox
 page_title: RibbonBarNumericTextBox - RadRibbonBar
 description: Check our Web Forms article about RibbonBarNumericTextBox.
 slug: ribbonbar/radribbonbar-items/ribbonbarnumerictextbox
+components: ["ribbonbar"]
 tags: ribbonbarnumerictextbox
 published: True
 position: 13

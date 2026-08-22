@@ -3,6 +3,7 @@ title: Resources
 page_title: Resources - RadGantt
 description: Check our Web Forms article about Resources.
 slug: gantt/server-side-programming/objects/resources
+components: ["gantt"]
 tags: resources
 published: True
 position: 5

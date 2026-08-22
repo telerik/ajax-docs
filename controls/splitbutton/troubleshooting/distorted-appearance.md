@@ -3,6 +3,7 @@ title: Distorted Appearance
 page_title: Distorted Appearance - RadSplitButton
 description: Check our Web Forms article about Distorted Appearance.
 slug: splitbutton/troubleshooting/distorted-appearance
+components: ["splitbutton"]
 tags: distorted,appearance
 published: True
 position: 1

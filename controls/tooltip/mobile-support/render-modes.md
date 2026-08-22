@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadTooltip
 description: Check our Web Forms article about Render Modes.
 slug: tooltip/mobile-support/render-modes
+components: ["tooltip"]
 tags: render,modes
 published: True
 position: 1

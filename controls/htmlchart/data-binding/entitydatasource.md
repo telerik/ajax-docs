@@ -3,6 +3,7 @@ title: EntityDataSource
 page_title: EntityDataSource - RadHtmlChart
 description: Check our Web Forms article about EntityDataSource.
 slug: htmlchart/data-binding/entitydatasource
+components: ["htmlchart"]
 tags: entitydatasource
 published: True
 position: 2

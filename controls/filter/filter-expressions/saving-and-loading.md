@@ -3,6 +3,7 @@ title: Saving and Loading
 page_title: Saving and Loading - RadFilter
 description: Check our Web Forms article about Saving and Loading.
 slug: filter/filter-expressions/saving-and-loading
+components: ["filter"]
 tags: saving,and,loading
 published: True
 position: 2

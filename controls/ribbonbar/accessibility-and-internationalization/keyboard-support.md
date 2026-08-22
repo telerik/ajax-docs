@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: RibbonBar Keyboard Support - RadRibbonBar
 description: Check our Web Forms article about Keyboard Support.
 slug: ribbonbar/accessibility-and-internationalization/keyboard-support
+components: ["ribbonbar"]
 tags: keyboard,support
 published: True
 position: 0

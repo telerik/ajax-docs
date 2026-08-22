@@ -3,6 +3,7 @@ title: Methods and Properties
 page_title: Methods and Properties - RadMenu
 description: Check our Web Forms article about Methods and Properties.
 slug: menu/server-side-programming/methods-and-properties
+components: ["menu"]
 tags: methods,and,properties
 published: True
 position: 4

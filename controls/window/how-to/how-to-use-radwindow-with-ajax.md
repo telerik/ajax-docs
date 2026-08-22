@@ -3,6 +3,7 @@ title: How to Use RadWindow with AJAX
 page_title: How to Use RadWindow with AJAX - RadWindow
 description: Discover how to integrate the RadWindow control with AJAX for enhanced user interface interactions.
 slug: window/how-to/how-to-use-radwindow-with-ajax
+components: ["window"]
 tags: how,to,use,radwindow,with,ajax
 published: True
 position: 0

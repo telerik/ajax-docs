@@ -3,6 +3,7 @@ title: OnClientDragStart
 page_title: OnClientDragStart - RadWindow
 description: Check our Web Forms article about OnClientDragStart.
 slug: window/client-side-programming/events/onclientdragstart
+components: ["window"]
 tags: onclientdragstart
 published: True
 position: 9

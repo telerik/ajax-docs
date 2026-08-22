@@ -3,6 +3,7 @@ title: Connect to Chatbot Service via Chat Agent
 page_title: Connect to Chatbot Service via Chat Agent- RadChat
 description: Check our Web Forms article about Connect to Chatbot Service via Chat Agent.
 slug: chat/how-to/configure-chat-agent
+components: ["chat"]
 tags: connect, chatbot, service, configure, agent
 published: True
 position: 0

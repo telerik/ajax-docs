@@ -3,6 +3,7 @@ title: Client-side
 page_title: Client-side - RadImageGallery
 description: Check our Web Forms article about Client-side.
 slug: imagegallery/data-binding/client-side
+components: ["imagegallery"]
 tags: client-side
 published: True
 position: 1

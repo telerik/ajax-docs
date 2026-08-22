@@ -3,6 +3,7 @@ title: Custom Crop Settings
 page_title: Custom Crop Settings - RadImageEditor
 description: Check our Web Forms article about Custom Crop Settings.
 slug: imageeditor/how-to/custom-crop-settings
+components: ["imageeditor"]
 tags: custom,crop,settings
 published: True
 position: 0

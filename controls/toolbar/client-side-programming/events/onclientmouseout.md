@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadToolBar
 description: Check our Web Forms article about OnClientMouseOut.
 slug: toolbar/client-side-programming/onclientmouseout
+components: ["toolbar"]
 tags: onclientmouseout
 published: True
 position: 12

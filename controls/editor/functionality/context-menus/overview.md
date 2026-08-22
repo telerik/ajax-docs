@@ -3,6 +3,7 @@ title: Overview
 page_title: Context Menus Overview - RadEditor
 description: Check our Web Forms article about Overview.
 slug: editor/functionality/context-menus/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

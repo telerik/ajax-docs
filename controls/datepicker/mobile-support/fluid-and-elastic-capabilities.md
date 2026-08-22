@@ -3,6 +3,7 @@ title: Fluid and Elastic Capabilities
 page_title: Fluid and Elastic Capabilities - RadDatePicker
 description: Check our Web Forms article about Fluid and Elastic Capabilities.
 slug: datepicker/mobile-support/fluid-and-elastic-capabilities
+components: ["datepicker"]
 tags: fluid,and,elastic,capabilities
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Layout
 page_title: RadCard Layout
 description: Check our Web Forms article about Layout.
 slug: card/layout
+components: ["card"]
 tags: layout
 published: True
 position: 2

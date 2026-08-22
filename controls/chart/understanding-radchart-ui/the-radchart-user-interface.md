@@ -3,6 +3,7 @@ title: The RadChart User Interface
 page_title: The RadChart User Interface - RadChart
 description: Check our Web Forms article about The RadChart User Interface.
 slug: chart/understanding-radchart-ui/the-radchart-user-interface
+components: ["chart"]
 tags: the,radchart,user,interface
 published: True
 position: 0

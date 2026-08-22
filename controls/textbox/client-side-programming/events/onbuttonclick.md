@@ -3,6 +3,7 @@ title: OnButtonClick
 page_title: OnButtonClick - RadTextBox
 description: Check our Web Forms article about OnButtonClick.
 slug: radtextbox/client-side-programming/events/onbuttonclick
+components: ["textbox"]
 tags: onbuttonclick
 published: True
 position: 2

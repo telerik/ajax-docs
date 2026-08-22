@@ -3,6 +3,7 @@ title: Binding to RadClientDataSource
 page_title: Binding to RadClientDataSource - RadDropDownTree
 description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: dropdowntree/data-binding/binding-to-radclientdatasource
+components: ["dropdowntree"]
 tags: binding,to,radclientdatasource
 published: True
 position: 4

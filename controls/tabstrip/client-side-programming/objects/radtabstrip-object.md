@@ -3,6 +3,7 @@ title: RadTabStrip Object
 page_title: RadTabStrip Object - RadTabStrip
 description: Check our Web Forms article about RadTabStrip Object.
 slug: tabstrip/client-side-programming/radtabstrip-object
+components: ["tabstrip"]
 tags: radtabstrip,object
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: WCF Service Binding
 page_title: WCF Service Binding - RadSearchBox
 description: Check our Web Forms article about WCF Service Binding.
 slug: searchbox/data-binding/wcf-service-binding
+components: ["searchbox"]
 tags: wcf,service,binding
 published: True
 position: 6

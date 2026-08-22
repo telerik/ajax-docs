@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadGantt
 description: Check our Web Forms article about Design Time.
 slug: gantt/design-time/design-time
+components: ["gantt"]
 tags: design,time
 published: False
 position: 0

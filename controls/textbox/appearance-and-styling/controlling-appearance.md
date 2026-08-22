@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadTextBox
 description: Check our Web Forms article about Controlling Appearance.
 slug: radtextbox/appearance-and-styling/controlling-appearance
+components: ["textbox"]
 tags: controlling,appearance
 published: True
 position: 0

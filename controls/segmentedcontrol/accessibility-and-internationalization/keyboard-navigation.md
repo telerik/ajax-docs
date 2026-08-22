@@ -3,6 +3,7 @@ title: Keyboard Navigation
 page_title: SegmentedControl Keyboard Navigation
 description: "Learn about the keyboard navigation support provided by the Telerik WebForms SegmentedControl."
 slug: segmentedcontrol/accessibility/keyboard-navigation
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, accessibility, keyboard navigation
 published: True
 position: 2

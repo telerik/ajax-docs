@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadCaptcha
 description: Check our Web Forms article about Events.
 slug: captcha/server-side-programming/events
+components: ["captcha"]
 tags: events
 published: True
 position: 0

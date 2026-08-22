@@ -3,6 +3,7 @@ title: OnPopupOpening
 page_title: OnPopupOpening - RadMonthYearPicker
 description: Check our Web Forms article about OnPopupOpening.
 slug: monthyearpicker/client-side-programming/events/onpopupopening
+components: ["monthyearpicker"]
 tags: onpopupopening
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadRadioButtonList
 description: Check our Web Forms article about Render Modes.
 slug: radiobuttonlist/mobile-support/render-modes
+components: ["radiobuttonlist"]
 tags: render,modes
 published: True
 position: 2

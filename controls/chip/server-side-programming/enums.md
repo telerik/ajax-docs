@@ -3,6 +3,7 @@ title: Enums
 page_title: Chip Server-side Enums
 description: Server-side Enums of the Telerik WebForms Chip component
 slug: chip/server-side-programming/enums
+components: ["chip"]
 tags: enums
 published: True
 position: 2

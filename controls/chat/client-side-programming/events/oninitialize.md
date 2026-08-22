@@ -3,6 +3,7 @@ title: OnInitialize
 page_title: OnInitialize - RadChat
 description: Check our Web Forms article about OnInitialize.
 slug: chat/client-side-programming/events/oninitialize
+components: ["chat"]
 tags: oninitialize
 published: True
 position: 1

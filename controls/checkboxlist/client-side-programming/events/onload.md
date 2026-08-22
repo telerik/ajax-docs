@@ -3,6 +3,7 @@ title: OnLoad
 page_title: OnLoad - RadCheckBoxList
 description: Check our Web Forms article about OnLoad.
 slug: checkboxlist/client-side-programming/events/onload
+components: ["checkboxlist"]
 tags: onload
 published: True
 position: 2

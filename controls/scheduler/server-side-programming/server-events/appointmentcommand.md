@@ -3,6 +3,7 @@ title: AppointmentCommand
 page_title: AppointmentCommand - RadScheduler
 description: Check our Web Forms article about AppointmentCommand.
 slug: scheduler/server-side-programming/server-events/appointmentcommand
+components: ["scheduler"]
 tags: appointmentcommand
 published: True
 position: 2

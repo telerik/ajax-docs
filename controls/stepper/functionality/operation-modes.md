@@ -3,6 +3,7 @@ title: Operation Modes
 page_title: Operation Modes - RadStepper
 description: Check our Web Forms article about Navigation.
 slug: stepper/functionality/operation-modes
+components: ["stepper"]
 tags: operation-modes
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Files Uploading in Custom Folder at Runtime
 page_title: Files Uploading in Custom Folder at Runtime - RadCloudUpload
 description: Check our Web Forms article about Files Uploading in Custom Folder at Runtime.
 slug: cloudupload/how-to/files-uploading-in-custom-folder-at-runtime
+components: ["cloudupload"]
 tags: files,uploading,in,custom,folder,at,runtime
 published: True
 position: 2

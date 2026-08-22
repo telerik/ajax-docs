@@ -3,6 +3,7 @@ title: Labels and Titles Font Settings
 page_title: Labels and Titles Font Settings - RadHtmlChart
 description: Check our Web Forms article about Labels and Titles Font Settings.
 slug: htmlchart/appearance-and-styling/labels-and-titles-font-settings
+components: ["htmlchart"]
 tags: labels,and,titles,font,settings
 published: True
 position: 3

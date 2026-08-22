@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadSpreadsheet
 description: Check our Web Forms article about Overview.
 slug: spreadsheet/server-side-programming/overview
+components: ["spreadsheet"]
 tags: overview
 published: True
 position: 0

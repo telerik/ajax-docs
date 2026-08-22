@@ -3,6 +3,7 @@ title: fetch
 page_title: ClientDataSource Object fetch() - RadClientDataSource
 description: Check our Web Forms article about fetch.
 slug: clientdatasource/client-side-programming/client-side-api/methods/fetch
+components: ["clientdatasource"]
 tags: fetch
 published: True
 position: 4

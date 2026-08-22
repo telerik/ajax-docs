@@ -3,6 +3,7 @@ title: CheckBox Object
 page_title: CheckBox Object - RadCheckBox
 description: Learn about the CheckBox client-side object and its API for managing checkbox states dynamically.
 slug: checkbox/client-side-programming/checkbox-object
+components: ["checkbox"]
 tags: checkbox,object
 published: True
 position: 1

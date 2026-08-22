@@ -3,6 +3,7 @@ title: Embedded Icons
 page_title: Embedded Icons - RadLinkButton
 description: Check our Web Forms article about Embedded Icons.
 slug: linkbutton/functionality/icons/embedded-icons
+components: ["linkbutton"]
 tags: embedded,icons
 published: True
 position: 0

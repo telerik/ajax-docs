@@ -3,6 +3,7 @@ title: Adding Tasks
 page_title: Adding Tasks - RadGantt
 description: Check our Web Forms article about Adding Tasks.
 slug: gantt/functionality/adding-tasks
+components: ["gantt"]
 tags: adding,tasks
 published: True
 position: 0

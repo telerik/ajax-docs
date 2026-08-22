@@ -3,6 +3,7 @@ title: ColorPicker Object
 page_title: ColorPicker Object - RadColorPicker
 description: Check our Web Forms article about ColorPicker Object.
 slug: colorpicker/client-side-programming/colorpicker-object
+components: ["colorpicker"]
 tags: colorpicker,object
 published: True
 position: 1

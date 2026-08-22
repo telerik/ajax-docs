@@ -3,6 +3,7 @@ title: Client Templates
 page_title: Client Templates in RadGantt
 description: Client templates in RadGantt for Task, Column, ColumnHeader, View, Task Tooltip, ToolBar Buttons.
 slug: gantt/functionality/client-templates
+components: ["gantt"]
 tags: gantt, templates
 published: True
 position: 8

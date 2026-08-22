@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadSlider
 description: Check our Web Forms article about Overview.
 slug: slider/getting-started/overview
+components: ["slider"]
 tags: overview
 published: True
 position: 0

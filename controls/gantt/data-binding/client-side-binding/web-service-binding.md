@@ -3,6 +3,7 @@ title: Web Service Binding
 page_title: Web Service Binding - RadGantt
 description: Check our Web Forms article about Web Service Binding.
 slug: gantt/data-binding/client-side-binding/web-service-binding
+components: ["gantt"]
 tags: web,service,binding
 published: True
 position: 0

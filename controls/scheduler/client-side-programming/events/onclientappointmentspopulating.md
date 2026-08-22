@@ -3,6 +3,7 @@ title: OnClientAppointmentsPopulating
 page_title: OnClientAppointmentsPopulating - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentsPopulating.
 slug: scheduler/client-side-programming/events/onclientappointmentspopulating
+components: ["scheduler"]
 tags: onclientappointmentspopulating
 published: True
 position: 18

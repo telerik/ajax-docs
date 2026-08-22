@@ -3,6 +3,7 @@ title: Overview
 page_title: RadMonthYearPicker Overview
 description: Check our Web Forms article about RadMonthYearPicker Overview.
 slug: monthyearpicker/overview
+components: ["monthyearpicker"]
 tags: overview
 published: True
 position: 0

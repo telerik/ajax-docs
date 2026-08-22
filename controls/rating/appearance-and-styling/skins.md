@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadRating
 description: Check our Web Forms article about Skins.
 slug: rating/appearance-and-styling/skins
+components: ["rating"]
 tags: skins
 published: True
 position: 3

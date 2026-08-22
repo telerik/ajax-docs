@@ -3,6 +3,7 @@ title: Programmatic Binding
 page_title: Programmatic Binding - RadSpreadsheet
 description: Check our Web Forms article about Programmatic Binding.
 slug: spreadsheet/data-binding/programmatic-binding
+components: ["spreadsheet"]
 tags: programmatic, binding
 published: True
 position: 1

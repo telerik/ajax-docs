@@ -3,6 +3,7 @@ title: SelectionChanged
 page_title: SelectionChanged - RadMultiSelect
 description: Check our Web Forms article about SelectionChanged.
 slug: multiselect/server-side-programming/events/selectionchanged
+components: ["multiselect"]
 tags: selectionchanged
 published: True
 position: 3

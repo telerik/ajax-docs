@@ -3,6 +3,7 @@ title: Repeated Table Headers
 page_title: Repeated Table Headers - RadClientExportManager
 description: Render table headers on each page when you export content in PDF with RadClientExportManager for ASP.NET AJAX
 slug: clientexportmanager/functionality/repeat-headers
+components: ["clientexportmanager"]
 tags: repeat,table,headers,export
 published: True
 position: 5

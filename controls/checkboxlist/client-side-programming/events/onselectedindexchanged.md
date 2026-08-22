@@ -3,6 +3,7 @@ title: OnSelectedIndexChanged
 page_title: OnSelectedIndexChanged - RadCheckBoxList
 description: Check our Web Forms article about OnSelectedIndexChanged.
 slug: checkboxlist/client-side-programming/events/onselectedindexchanged
+components: ["checkboxlist"]
 tags: onselectedindexchanged
 published: True
 position: 7

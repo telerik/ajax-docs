@@ -3,6 +3,7 @@ title: OnItemDataBound
 page_title: OnItemDataBound - RadSearchBox
 description: Check our Web Forms article about OnItemDataBound.
 slug: searchbox/search-context/events/onitemdatabound
+components: ["searchbox"]
 tags: onitemdatabound
 published: True
 position: 0

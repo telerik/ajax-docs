@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTreeMap Overview
 description: Check our Web Forms article about Overview.
 slug: treemap/overview
+components: ["treemap"]
 tags: overview
 published: True
 position: 0

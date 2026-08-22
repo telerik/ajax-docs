@@ -3,6 +3,7 @@ title: OnClientClearButtonClicked
 page_title: OnClientClearButtonClicked - RadDropDownTree
 description: Check our Web Forms article about OnClientClearButtonClicked.
 slug: dropdowntree/client-side-programming/events/onclientclearbuttonclicked
+components: ["dropdowntree"]
 tags: onclientclearbuttonclicked
 published: True
 position: 14

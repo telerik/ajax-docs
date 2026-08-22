@@ -3,6 +3,7 @@ title: RadDockZone Object
 page_title: RadDockZone Object - RadDock
 description: Check our Web Forms article about RadDockZone Object.
 slug: dock/client-side-programming/raddockzone-object
+components: ["dock"]
 tags: raddockzone,object
 published: True
 position: 2

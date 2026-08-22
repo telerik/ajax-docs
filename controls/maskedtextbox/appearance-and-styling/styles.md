@@ -3,6 +3,7 @@ title: Styles
 page_title: Styles - RadMaskedTextBox
 description: Check our Web Forms article about Styles.
 slug: radmaskedtextbox/appearance-and-styling/styles
+components: ["maskedtextbox"]
 tags: styles
 published: True
 position: 1

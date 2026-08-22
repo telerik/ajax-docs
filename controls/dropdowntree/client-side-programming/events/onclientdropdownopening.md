@@ -3,6 +3,7 @@ title: OnClientDropDownOpening
 page_title: OnClientDropDownOpening - RadDropDownTree
 description: Check our Web Forms article about OnClientDropDownOpening.
 slug: dropdowntree/client-side-programming/events/onclientdropdownopening
+components: ["dropdowntree"]
 tags: onclientdropdownopening
 published: True
 position: 2

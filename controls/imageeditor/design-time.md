@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadImageEditor
 description: Check our Web Forms article about Design Time.
 slug: imageeditor/design-time
+components: ["imageeditor"]
 tags: design,time
 published: True
 position: 3

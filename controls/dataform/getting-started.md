@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadDataForm
 description: Check our Web Forms article about Getting Started.
 slug: dataform/getting-started
+components: ["dataform"]
 tags: getting,started
 published: True
 position: 1

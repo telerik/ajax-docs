@@ -3,6 +3,7 @@ title: Create a Data Bound Chart
 page_title: Create a Data Bound Chart
 description: Check our Web Forms article about Overview.
 slug: chart/getting-started/create-data-bound-chart
+components: ["chart"]
 tags: Create, Data Bound, Chart, getting started
 published: True
 position: 1

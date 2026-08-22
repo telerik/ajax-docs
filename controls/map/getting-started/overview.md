@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadMap
 description: Check our Web Forms article about Overview.
 slug: map/getting-started/overview
+components: ["map"]
 tags: overview
 published: True
 position: 0

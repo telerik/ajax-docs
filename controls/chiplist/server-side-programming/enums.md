@@ -3,6 +3,7 @@ title: Enums
 page_title: ChipList Server-side Enums
 description: Server-side Enums of the Telerik WebForms ChipList component
 slug: chiplist/server-side-programming/enums
+components: ["chiplist"]
 tags: enums
 published: True
 position: 2

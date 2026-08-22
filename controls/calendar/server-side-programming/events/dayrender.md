@@ -3,6 +3,7 @@ title: DayRender
 page_title: DayRender - RadCalendar
 description: Check our Web Forms article about DayRender.
 slug: calendar/server-side-programming/events/dayrender
+components: ["calendar"]
 tags: dayrender
 published: True
 position: 1

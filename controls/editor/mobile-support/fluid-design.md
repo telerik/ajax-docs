@@ -3,6 +3,7 @@ title: Fluid Design
 page_title: Fluid Design - RadEditor
 description: Check our Web Forms article about Fluid Design.
 slug: editor/mobile-support/fluid-design
+components: ["editor"]
 tags: fluid,design
 published: True
 position: 3

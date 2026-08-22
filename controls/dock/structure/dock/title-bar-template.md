@@ -3,6 +3,7 @@ title: Title Bar Template
 page_title: Title Bar Template - RadDock
 description: Check our Web Forms article about Title Bar Template.
 slug: dock/structure/dock/title-bar-template
+components: ["dock"]
 tags: title,bar,template
 published: True
 position: 0

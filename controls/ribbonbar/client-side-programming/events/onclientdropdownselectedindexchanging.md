@@ -3,6 +3,7 @@ title: OnClientDropDownSelectedIndexChanging
 page_title: OnClientDropDownSelectedIndexChanging - RadRibbonBar
 description: Check our Web Forms article about OnClientDropDownSelectedIndexChanging.
 slug: ribbonbar/client-side-programming/events/onclientdropdownselectedindexchanging
+components: ["ribbonbar"]
 tags: onclientdropdownselectedindexchanging
 published: True
 position: 18

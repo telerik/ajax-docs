@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadDataPager
 description: Check our Web Forms article about Overview.
 slug: datapager/server-side-programming/overview
+components: ["datapager"]
 tags: overview
 published: True
 position: 0

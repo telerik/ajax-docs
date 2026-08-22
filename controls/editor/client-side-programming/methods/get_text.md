@@ -3,6 +3,7 @@ title: get_text
 page_title: get_text - RadEditor
 description: Check our Web Forms article about get_text.
 slug: editor/client-side-programming/methods/get_text
+components: ["editor"]
 tags: get_text
 published: True
 position: 10

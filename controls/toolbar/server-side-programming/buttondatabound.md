@@ -3,6 +3,7 @@ title: ButtonDataBound
 page_title: ButtonDataBound - RadToolBar
 description: Check our Web Forms article about ButtonDataBound.
 slug: toolbar/server-side-programming/buttondatabound
+components: ["toolbar"]
 tags: buttondatabound
 published: True
 position: 3

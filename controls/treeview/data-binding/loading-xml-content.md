@@ -3,6 +3,7 @@ title: Loading XML Content
 page_title: Loading XML Content - RadTreeView
 description: Check our Web Forms article about Loading XML Content.
 slug: treeview/data-binding/loading-xml-content
+components: ["treeview"]
 tags: loading,xml,content
 published: True
 position: 5

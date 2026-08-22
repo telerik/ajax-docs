@@ -3,6 +3,7 @@ title: Radial
 page_title: Radial - RadGauge
 description: Check our Web Forms article about Radial.
 slug: gauge/gauge-types/radial
+components: ["gauge"]
 tags: radial
 published: True
 position: 3

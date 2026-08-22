@@ -3,6 +3,7 @@ title: SearchContextItemCollection Object
 page_title: SearchContextItemCollection Object - RadSearchBox
 description: Check our Web Forms article about SearchContextItemCollection Object.
 slug: searchbox/client-side-programming/searchcontextitemcollection-object
+components: ["searchbox"]
 tags: searchcontextitemcollection,object
 published: True
 position: 3

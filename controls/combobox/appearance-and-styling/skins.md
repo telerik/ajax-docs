@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadComboBox
 description: Check our Web Forms article about Skins.
 slug: combobox/appearance-and-styling/skins
+components: ["combobox"]
 tags: skins
 published: True
 position: 2

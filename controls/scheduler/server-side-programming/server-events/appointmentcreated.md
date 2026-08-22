@@ -3,6 +3,7 @@ title: AppointmentCreated
 page_title: AppointmentCreated - RadScheduler
 description: Check our Web Forms article about AppointmentCreated.
 slug: scheduler/server-side-programming/server-events/appointmentcreated
+components: ["scheduler"]
 tags: appointmentcreated
 published: True
 position: 5

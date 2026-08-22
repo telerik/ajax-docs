@@ -3,6 +3,7 @@ title: Data Binding RadChart to a Generic List
 page_title: Data Binding RadChart to a Generic List - RadChart
 description: Check our Web Forms article about Data Binding RadChart to a Generic List.
 slug: chart/building-radcharts/data-binding-radchart-to-a-generic-list
+components: ["chart"]
 tags: data,binding,radchart,to,a,generic,list
 published: True
 position: 8

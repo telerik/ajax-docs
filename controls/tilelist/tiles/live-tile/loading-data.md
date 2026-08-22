@@ -3,6 +3,7 @@ title: Loading Data
 page_title: Loading Data - RadTile
 description: Check our Web Forms article about Loading Data.
 slug: tilelist/tiles/live-tile/loading-data
+components: ["tilelist"]
 tags: loading,data
 published: True
 position: 1

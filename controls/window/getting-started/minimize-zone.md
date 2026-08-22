@@ -3,6 +3,7 @@ title: Minimize Zone
 page_title: Minimize Zone - RadWindow
 description: Check our Web Forms article about Minimize Zone.
 slug: window/getting-started/minimize-zone
+components: ["window"]
 tags: minimize,zone
 published: True
 position: 9

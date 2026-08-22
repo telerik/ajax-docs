@@ -3,6 +3,7 @@ title: OnClientTileDragStart
 page_title: OnClientTileDragStart - RadTileList
 description: Check our Web Forms article about OnClientTileDragStart.
 slug: tilelist/client-side-programming/client-side-events/onclienttiledragstart
+components: ["tilelist"]
 tags: onclienttiledragstart
 published: True
 position: 5

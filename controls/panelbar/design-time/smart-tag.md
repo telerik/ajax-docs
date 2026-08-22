@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadPanelBar
 description: Check our Web Forms article about Smart Tag.
 slug: panelbar/design-time/smart-tag
+components: ["panelbar"]
 tags: smart,tag
 published: True
 position: 0

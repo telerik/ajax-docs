@@ -3,6 +3,7 @@ title: Removable
 page_title: ChipList Removable
 description: "Learn how to make the items removable in the Telerik WebForms ChipList component."
 slug: chiplist/removable
+components: ["chiplist"]
 tags: chiplist,removable
 published: True
 position: 5

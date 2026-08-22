@@ -3,6 +3,7 @@ title: OnClientClicked
 page_title: OnClientClicked - RadToggleButton
 description: Check our Web Forms article about OnClientClicked.
 slug: togglebutton/client-side-programming/events/onclientclicked
+components: ["togglebutton"]
 tags: onclientclicked
 published: True
 position: 6

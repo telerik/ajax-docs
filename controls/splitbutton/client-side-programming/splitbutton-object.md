@@ -3,6 +3,7 @@ title: SplitButton Object
 page_title: SplitButton Object - RadSplitButton
 description: Check our Web Forms article about SplitButton Object.
 slug: splitbutton/client-side-programming/splitbutton-object
+components: ["splitbutton"]
 tags: splitbutton,object
 published: True
 position: 1

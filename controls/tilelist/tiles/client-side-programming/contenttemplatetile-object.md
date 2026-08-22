@@ -3,6 +3,7 @@ title: ContentTemplateTile Object
 page_title: ContentTemplateTile Object - RadTile
 description: Check our Web Forms article about ContentTemplateTile Object.
 slug: tilelist/tiles/client-side-programming/contenttemplatetile-object
+components: ["tilelist"]
 tags: contenttemplatetile,object
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Layout
 page_title: Layout - RadCheckBoxList
 description: Check our Web Forms article about Layout.
 slug: checkboxlist/functionality/layout
+components: ["checkboxlist"]
 tags: layout
 published: True
 position: 0

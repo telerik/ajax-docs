@@ -3,6 +3,7 @@ title: Overview
 page_title: RadFileExplorer Overview
 description: Discover the FileExplorer control and its features for managing and navigating file systems in web apps.
 slug: fileexplorer/overview
+components: ["fileexplorer"]
 tags: overview
 published: True
 position: 0

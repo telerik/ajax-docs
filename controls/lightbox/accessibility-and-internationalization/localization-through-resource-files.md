@@ -3,6 +3,7 @@ title: Localization through Resource Files
 page_title: Localization through Resource Files - RadLightBox
 description: Check our Web Forms article about Localization through Resource Files.
 slug: lightbox/accessibility-and-internationalization/localization-through-resource-files
+components: ["lightbox"]
 tags: localization,resource,files
 published: True
 position: 1

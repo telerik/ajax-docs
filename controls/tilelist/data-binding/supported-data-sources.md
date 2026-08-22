@@ -3,6 +3,7 @@ title: Supported Data Sources
 page_title: Supported Data Sources - RadTileList
 description: Check our Web Forms article about Supported Data Sources.
 slug: tilelist/data-binding/supported-data-sources
+components: ["tilelist"]
 tags: supported,data,sources
 published: True
 position: 2

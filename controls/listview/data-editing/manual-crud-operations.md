@@ -3,6 +3,7 @@ title: Manual CRUD Operations
 page_title: Manual CRUD Operations - RadListView
 description: Check our Web Forms article about Manual CRUD Operations.
 slug: listview/data-editing/manual-crud-operations
+components: ["listview"]
 tags: manual,crud,operations
 published: True
 position: 2

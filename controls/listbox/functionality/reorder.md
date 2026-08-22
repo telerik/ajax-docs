@@ -3,6 +3,7 @@ title: Reorder
 page_title: Reorder - RadListBox
 description: Check our Web Forms article about Reorder.
 slug: listbox/functionality/reorder
+components: ["listbox"]
 tags: reorder
 published: True
 position: 1

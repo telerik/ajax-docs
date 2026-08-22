@@ -3,6 +3,7 @@ title: Circular
 page_title: RadCircularGauge
 description: Check our Web Forms article about Circular Gauge.
 slug: gauge/gauge-types/circular
+components: ["gauge"]
 tags: circular
 published: True
 position: 1

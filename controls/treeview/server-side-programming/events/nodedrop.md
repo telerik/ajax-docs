@@ -3,6 +3,7 @@ title: NodeDrop
 page_title: NodeDrop - RadTreeView
 description: Check our Web Forms article about NodeDrop.
 slug: treeview/server-side-programming/events/nodedrop
+components: ["treeview"]
 tags: nodedrop
 published: True
 position: 4

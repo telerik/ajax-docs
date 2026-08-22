@@ -3,6 +3,7 @@ title: Working With Tabs at the Client
 page_title: Working With Tabs at the Client - RadTabStrip
 description: Check our Web Forms article about Working With Tabs at the Client.
 slug: tabstrip/tabs/working-with-tabs-at-the-client
+components: ["tabstrip"]
 tags: working,with,tabs,at,the,client
 published: True
 position: 6

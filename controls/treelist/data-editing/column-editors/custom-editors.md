@@ -3,6 +3,7 @@ title: Custom Editors
 page_title: Custom Editors - RadTreeList
 description: Check our Web Forms article about Custom Editors.
 slug: treelist/data-editing/column-editors/custom-editors
+components: ["treelist"]
 tags: custom,editors
 published: True
 position: 1

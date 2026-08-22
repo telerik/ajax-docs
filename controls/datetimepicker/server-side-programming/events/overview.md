@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadDateTimePicker
 description: Check our Web Forms article about RadDateTimePicker Server-Side Events Overview.
 slug: datetimepicker/server-side-programming/events/overview
+components: ["datetimepicker"]
 tags: server-side,events,basics
 published: True
 position: 0

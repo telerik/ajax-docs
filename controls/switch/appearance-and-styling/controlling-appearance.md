@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadSwitch
 description: Check our Web Forms article about how to control the appearance of RadSwitch.
 slug: switch/appearance-and-styling/controlling-appearance
+components: ["switch"]
 tags: skins, custom, customize, appearance, css, styles, icon
 published: True
 position: 0

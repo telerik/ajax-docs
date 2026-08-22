@@ -3,6 +3,7 @@ title: Binding to DataTable, DataSet or DataView
 page_title: Binding to DataTable, DataSet or DataView - RadListBox
 description: Check our Web Forms article about Binding to DataTable, DataSet or DataView.
 slug: listbox/data-binding/binding-to-datatable,-dataset-or-dataview
+components: ["listbox"]
 tags: binding,to,datatable,,dataset,or,dataview
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: Events Overview - RadProgressBar
 description: Check our Web Forms article about Events Overview.
 slug: progressbar/client-side-programming/events/overview
+components: ["progressbar"]
 tags: overview
 published: True
 position: 0

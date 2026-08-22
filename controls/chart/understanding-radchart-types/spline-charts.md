@@ -3,6 +3,7 @@ title: Spline Charts
 page_title: Spline Charts - RadChart
 description: Check our Web Forms article about Spline Charts.
 slug: chart/understanding-radchart-types/spline-charts
+components: ["chart"]
 tags: spline,charts
 published: True
 position: 7

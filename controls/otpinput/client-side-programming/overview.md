@@ -3,6 +3,7 @@ title: Overview
 page_title: OTPInput Client-side Programming
 description: "Overview of the Client-side APIs you can use to create and configure the Telerik WebForms OTPInput Control."
 slug: otpInput/client-side-programming/overview
+components: ["otpinput"]
 tags: overview
 published: True
 position: 0

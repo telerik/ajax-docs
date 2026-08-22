@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadToggleButton
 description: Check our Web Forms article about OnClientMouseOut.
 slug: togglebutton/client-side-programming/events/onclientmouseout
+components: ["togglebutton"]
 tags: onclientmouseout
 published: True
 position: 7

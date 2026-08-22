@@ -3,6 +3,7 @@ title: Connecting Lines
 page_title: Connecting Lines - RadOrgChart
 description: Check our Web Forms article about Connecting Lines.
 slug: orgchart/appearance-and-styling/connecting-lines
+components: ["orgchart"]
 tags: connecting,lines
 published: True
 position: 3

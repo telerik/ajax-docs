@@ -3,6 +3,7 @@ title: Right-to-left Support
 page_title: Right-to-left Support - RadImageEditor
 description: Check our Web Forms article about Right-to-left Support.
 slug: imageeditor/accessibility-and-internationalization/right-to-left-support
+components: ["imageeditor"]
 tags: right-to-left,support
 published: True
 position: 2

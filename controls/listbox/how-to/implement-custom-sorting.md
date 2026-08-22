@@ -3,6 +3,7 @@ title: Implement Custom Sorting
 page_title: Implement Custom Sorting - RadListBox
 description: Check our Web Forms article about Implement Custom Sorting.
 slug: listbox/how-to/implement-custom-sorting
+components: ["listbox"]
 tags: implement,custom,sorting
 published: True
 position: 3

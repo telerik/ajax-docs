@@ -3,6 +3,7 @@ title: Resize Dialogs
 page_title: Resize Dialogs - RadEditor
 description: Check our Web Forms article about Resize Dialogs.
 slug: editor/functionality/dialogs/examples/resize-dialogs
+components: ["editor"]
 tags: resize,dialogs
 published: True
 position: 6

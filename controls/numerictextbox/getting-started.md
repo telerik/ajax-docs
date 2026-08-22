@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started Overview - RadInput
 description: Check our Web Forms article about Getting Started.
 slug: numerictextbox/getting-started
+components: ["numerictextbox"]
 tags: overview
 published: True
 position: 1

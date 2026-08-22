@@ -3,6 +3,7 @@ title: Custom Icons
 page_title: Custom Icons - RadToggleButton
 description: Check our Web Forms article about Custom Icons.
 slug: togglebutton/functionality/icons/custom-icons
+components: ["togglebutton"]
 tags: custom,icons
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Resizing
 page_title: Resizing - RadPivotGrid
 description: Check our Web Forms article about Resizing.
 slug: pivotgrid/functionality/resizing
+components: ["pivotgrid"]
 tags: resizing
 published: True
 position: 5

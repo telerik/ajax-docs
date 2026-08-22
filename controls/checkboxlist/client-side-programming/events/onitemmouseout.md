@@ -3,6 +3,7 @@ title: OnItemMouseOut
 page_title: OnItemMouseOut - RadCheckBoxList
 description: Check our Web Forms article about OnItemMouseOut.
 slug: checkboxlist/client-side-programming/events/onitemmouseout
+components: ["checkboxlist"]
 tags: onitemmouseout
 published: True
 position: 11

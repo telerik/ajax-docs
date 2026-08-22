@@ -3,6 +3,7 @@ title: Client-Side
 page_title: Client-Side Data Binding - RadMultiSelect
 description: Check our Web Forms article about Client data binding overview of RadMultiSelect.
 slug: multiselect/data-binding/client-side
+components: ["multiselect"]
 tags: data,binding,overview,client,side,web,service
 published: True
 position: 1

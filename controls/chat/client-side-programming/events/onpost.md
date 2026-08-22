@@ -3,6 +3,7 @@ title: OnPost
 page_title: OnPost - RadChat
 description: Check our Web Forms article about OnPost.
 slug: chat/client-side-programming/events/onpost
+components: ["chat"]
 tags: onpost
 published: True
 position: 3

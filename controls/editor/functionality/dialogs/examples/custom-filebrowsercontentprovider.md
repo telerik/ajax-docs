@@ -3,6 +3,7 @@ title: Custom FileBrowserContentProvider
 page_title: Custom FileBrowserContentProvider - RadEditor
 description: Check our Web Forms article about Custom FileBrowserContentProvider.
 slug: editor/functionality/dialogs/examples/custom-filebrowsercontentprovider
+components: ["editor"]
 tags: custom,filebrowsercontentprovider
 published: True
 position: 7

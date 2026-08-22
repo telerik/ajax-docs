@@ -3,6 +3,7 @@ title: Views
 page_title: Views - RadScheduler
 description: Check our Web Forms article about Views.
 slug: scheduler/appearance-and-styling/views
+components: ["scheduler"]
 tags: views
 published: False
 position: 2

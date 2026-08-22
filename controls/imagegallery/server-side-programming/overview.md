@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadImageGallery
 description: Check our Web Forms article about Overview.
 slug: imagegallery/server-side-programming/overview
+components: ["imagegallery"]
 tags: overview
 published: True
 position: 0

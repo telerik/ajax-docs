@@ -3,6 +3,7 @@ title: RadTimePicker Object
 page_title: RadTimePicker Object - RadTimePicker
 description: Check our Web Forms article about RadTimePicker Client-side Object.
 slug: timepicker/client-side-programming/radtimepicker-object
+components: ["timepicker"]
 tags: radtimepicker,object
 published: True
 position: 1

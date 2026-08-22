@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadRotator
 description: Check our Web Forms article about OnClientLoad.
 slug: rotator/client-side-programming/events/onclientload
+components: ["rotator"]
 tags: onclientload
 published: True
 position: 1

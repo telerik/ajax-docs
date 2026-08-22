@@ -3,6 +3,7 @@ title: Collapse All Nodes on Losing Focus
 page_title: Collapse All Nodes on Losing Focus - RadTreeView
 description: Check our Web Forms article about Collapse All Nodes on Losing Focus.
 slug: treeview/application-scenarios/client-side-programming/collapse-all-nodes-on-losing-focus
+components: ["treeview"]
 tags: collapse,all,nodes,on,losing,focus
 published: True
 position: 13

@@ -3,6 +3,7 @@ title: attachEventHandler
 page_title: attachEventHandler - RadEditor
 description: Check our Web Forms article about attachEventHandler.
 slug: editor/client-side-programming/methods/attacheventhandler
+components: ["editor"]
 tags: attacheventhandler
 published: True
 position: 0

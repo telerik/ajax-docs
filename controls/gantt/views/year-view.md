@@ -3,6 +3,7 @@ title: Year View
 page_title: Year View - RadGantt
 description: Check our Web Forms article about Year View.
 slug: gantt/views/year-view
+components: ["gantt"]
 tags: year,view
 published: True
 position: 4

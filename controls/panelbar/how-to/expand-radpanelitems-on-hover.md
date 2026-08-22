@@ -3,6 +3,7 @@ title: Expand RadPanelItems on Hover
 page_title: Expand RadPanelItems on Hover - RadPanelBar
 description: Check our Web Forms article about Expand RadPanelItems on Hover.
 slug: panelbar/how-to/expand-radpanelitems-on-hover
+components: ["panelbar"]
 tags: expand,radpanelitems,on,hover
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Custom Templates
 page_title: Custom Templates - RadChat
 description: Check our Web Forms article about Custom Templates.
 slug: chat/functionality/templates
+components: ["chat"]
 tags: custom,templates
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Adding Images to Tabs
 page_title: Adding Images to Tabs - RadTabStrip
 description: Check our Web Forms article about Adding Images to Tabs.
 slug: tabstrip/appearance-and-styling/adding-images-to-tabs
+components: ["tabstrip"]
 tags: adding,images,to,tabs
 published: True
 position: 2

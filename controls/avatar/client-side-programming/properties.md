@@ -3,6 +3,7 @@ title: Properties
 page_title: Avatar JavaScript Properties
 description: "Client-side Properties of the Telerik WebForms Avatar Control."
 slug: avatar/client-side-programming/properties
+components: ["avatar"]
 tags: properties
 published: True
 position: 1

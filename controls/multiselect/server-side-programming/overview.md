@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadMultiSelect
 description: Check our Web Forms article about Overview.
 slug: multiselect/server-side-programming/overview
+components: ["multiselect"]
 tags: overview
 published: True
 position: 0

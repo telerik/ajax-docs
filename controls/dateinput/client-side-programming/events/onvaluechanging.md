@@ -3,6 +3,7 @@ title: OnValueChanging
 page_title: OnValueChanging - RadDateInput
 description: Check our Web Forms article about OnValueChanging.
 slug: raddateinput/client-side-programming/events/onvaluechanging
+components: ["dateinput"]
 tags: onvaluechanging
 published: True
 position: 16

@@ -3,6 +3,7 @@ title: Server Templates
 page_title: Server Templates - RadSearchBox
 description: Check our Web Forms article about Server Templates.
 slug: searchbox/templates/server-templates
+components: ["searchbox"]
 tags: server,templates
 published: True
 position: 2

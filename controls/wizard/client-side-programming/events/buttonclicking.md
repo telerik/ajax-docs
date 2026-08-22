@@ -3,6 +3,7 @@ title: ButtonClicking
 page_title: ButtonClicking - RadWizard
 description: Check our Web Forms article about ButtonClicking.
 slug: wizard/client-side-programming/events/buttonclicking
+components: ["wizard"]
 tags: buttonclicking
 published: True
 position: 2

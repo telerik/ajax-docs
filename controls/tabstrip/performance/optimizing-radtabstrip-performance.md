@@ -3,6 +3,7 @@ title: Optimizing RadTabStrip Performance
 page_title: Optimizing RadTabStrip Performance - RadTabStrip
 description: Check our Web Forms article about Optimizing RadTabStrip Performance.
 slug: tabstrip/performance/optimizing-radtabstrip-performance
+components: ["tabstrip"]
 tags: performance,optimizing
 published: True
 position: 0

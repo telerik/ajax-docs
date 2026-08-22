@@ -3,6 +3,7 @@ title: Adding a Description Field
 page_title: Adding a Description Field - RadScheduler
 description: Check our Web Forms article about Adding a Description Field.
 slug: scheduler/data-binding/adding-a-description-field
+components: ["scheduler"]
 tags: adding,a,description,field
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadTooltip
 description: Check our Web Forms article about CSS Classes.
 slug: tooltip/appearance-and-styling/css-classes
+components: ["tooltip"]
 tags: css,classes
 published: True
 position: 3

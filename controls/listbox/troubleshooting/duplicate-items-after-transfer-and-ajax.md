@@ -3,6 +3,7 @@ title: Duplicate Items after Transfer and AJAX Request
 page_title: Duplicate Items after Transfer and AJAX Request - RadListBox
 description: Check our Web Forms article about Transfer an item client-side, make an AJAX request and then a postback causes the transferred item to duplicate, and a server error.
 slug: listbox/troubleshooting/duplicate-items-after-transfer-and-ajax
+components: ["listbox"]
 tags: duplicate,item,ajax,request,transfer,postback,clientstate
 published: True
 position: 4

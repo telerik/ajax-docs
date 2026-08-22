@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadSlider
 description: Check our Web Forms article about Localization.
 slug: slider/accessibility-and-internationalization/localization
+components: ["slider"]
 tags: localization
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Ignoring Words and Fragments
 page_title: Ignoring Words and Fragments - RadSpell
 description: Check our Web Forms article about Ignoring Words and Fragments.
 slug: spell/configuration/ignoring-words-and-fragments
+components: ["spell"]
 tags: ignoring,words,and,fragments
 published: True
 position: 1

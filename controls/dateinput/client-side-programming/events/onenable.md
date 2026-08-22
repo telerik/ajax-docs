@@ -3,6 +3,7 @@ title: OnEnable
 page_title: OnEnable - RadDateInput
 description: Check our Web Forms article about OnEnable.
 slug: raddateinput/client-side-programming/events/onenable
+components: ["dateinput"]
 tags: onenable
 published: True
 position: 5

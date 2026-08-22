@@ -3,6 +3,7 @@ title: Get the Previously Selected Tab
 page_title: Get the Previously Selected Tab - RadTabStrip
 description: Check our Web Forms article about Get the Previously Selected Tab.
 slug: tabstrip/how-to/get-the-previously-selected-tab
+components: ["tabstrip"]
 tags: get,the,previously,selected,tab
 published: True
 position: 1

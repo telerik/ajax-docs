@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadDatePicker
 description: Check our Web Forms article about Controlling Appearance.
 slug: datepicker/appearance-and-styling/controlling-appearance
+components: ["datepicker"]
 tags: controlling,appearance
 published: True
 position: 0

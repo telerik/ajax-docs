@@ -3,6 +3,7 @@ title: Working with Templates at Runtime
 page_title: Working with Templates at Runtime - RadListBox
 description: Check our Web Forms article about Working with Templates at Runtime.
 slug: listbox/templates/working-with-templates-at-runtime
+components: ["listbox"]
 tags: working,with,templates,at,runtime
 published: True
 position: 2

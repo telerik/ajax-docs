@@ -3,6 +3,7 @@ title: OnClientTabUnSelected
 page_title: OnClientTabUnSelected - RadTabStrip
 description: Check our Web Forms article about OnClientTabUnSelected.
 slug: tabstrip/client-side-programming/onclienttabunselected
+components: ["tabstrip"]
 tags: onclienttabunselected
 published: True
 position: 13

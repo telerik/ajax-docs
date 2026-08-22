@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadRating
 description: Check our Web Forms article about Design Time.
 slug: rating/design-time
+components: ["rating"]
 tags: design,time
 published: True
 position: 3

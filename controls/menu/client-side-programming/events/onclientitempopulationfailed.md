@@ -3,6 +3,7 @@ title: OnClientItemPopulationFailed
 page_title: OnClientItemPopulationFailed - RadMenu
 description: Check our Web Forms article about OnClientItemPopulationFailed.
 slug: menu/client-side-programming/events/onclientitempopulationfailed
+components: ["menu"]
 tags: onclientitempopulationfailed
 published: True
 position: 15

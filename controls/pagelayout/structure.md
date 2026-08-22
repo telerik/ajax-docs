@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadPageLayout
 description: Check our Web Forms article about Structure.
 slug: pagelayout/structure
+components: ["pagelayout"]
 tags: structure
 published: False
 position: 1

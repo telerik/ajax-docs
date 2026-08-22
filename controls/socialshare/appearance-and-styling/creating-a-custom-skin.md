@@ -3,6 +3,7 @@ title: Creating a Custom Skin
 page_title: Creating a Custom Skin - RadSocialShare
 description: Check our Web Forms article about Creating a Custom Skin.
 slug: socialshare/appearance-and-styling/creating-a-custom-skin
+components: ["socialshare"]
 tags: creating,a,custom,skin
 published: True
 position: 1

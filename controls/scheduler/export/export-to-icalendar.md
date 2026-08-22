@@ -3,6 +3,7 @@ title: Export to ICalendar
 page_title: Export to ICalendar - RadScheduler
 description: Check our Web Forms article about Export to ICalendar.
 slug: scheduler/export/export-to-icalendar
+components: ["scheduler"]
 tags: export,to,icalendar
 published: True
 position: 1

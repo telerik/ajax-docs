@@ -3,6 +3,7 @@ title: Binding to Hierarchical DataSource
 page_title: Binding to Hierarchical DataSource - RadMenu
 description: Check our Web Forms article about Binding to Hierarchical DataSource.
 slug: menu/data-binding/binding-to-hierarchical-datasource
+components: ["menu"]
 tags: binding,to,hierarchical,datasource
 published: True
 position: 4

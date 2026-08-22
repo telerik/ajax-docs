@@ -3,6 +3,7 @@ title: RadMultiSelect Object
 page_title: RadMultiSelect Object - RadMultiSelect
 description: Check our Web Forms article about RadMultiSelect Object.
 slug: multiselect/client-side-programming/overview
+components: ["multiselect"]
 tags: multiselect,object
 published: True
 position: 0

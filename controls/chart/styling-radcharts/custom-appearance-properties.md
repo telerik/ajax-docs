@@ -3,6 +3,7 @@ title: Custom Appearance Properties
 page_title: Custom Appearance Properties - RadChart
 description: Check our Web Forms article about Custom Appearance Properties.
 slug: chart/styling-radcharts/custom-appearance-properties
+components: ["chart"]
 tags: custom,appearance,properties
 published: True
 position: 2

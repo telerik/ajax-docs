@@ -3,6 +3,7 @@ title: Default Item
 page_title: Default Item - RadComboBox
 description: Learn how to configure a default item in the RadComboBox control for improved user experience.
 slug: combobox/radcombobox-items/default-item
+components: ["combobox"]
 tags: default,item
 published: True
 position: 6

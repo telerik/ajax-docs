@@ -3,6 +3,7 @@ title: RadDatePicker Object
 page_title: RadDatePicker Server-side Object - RadDatePicker
 description: Discover the server-side API of the RadDatePicker control for managing date selection programmatically.
 slug: calendar/server-side-programming/server-side-objects
+components: ["datepicker"]
 tags: server-side,objects
 published: True
 position: 0

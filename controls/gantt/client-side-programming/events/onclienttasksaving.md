@@ -3,6 +3,7 @@ title: OnClientTaskSaving
 page_title: OnClientTaskSaving - RadGantt
 description: Check our Web Forms article about OnClientTaskSaving.
 slug: gantt/client-side-programming/events/onclienttasksaving
+components: ["gantt"]
 tags: onclienttasksaving
 published: True
 position: 6

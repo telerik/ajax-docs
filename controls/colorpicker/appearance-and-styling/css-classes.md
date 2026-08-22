@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadColorPicker
 description: Check our Web Forms article about CSS Classes.
 slug: colorpicker/appearance-and-styling/css-classes
+components: ["colorpicker"]
 tags: css,classes
 published: True
 position: 3

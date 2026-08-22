@@ -3,6 +3,7 @@ title: Declarative Data Source
 page_title: Declarative Data Source - RadDataForm
 description: Check our Web Forms article about Declarative Data Source.
 slug: dataform/data-binding/declarative-data-source
+components: ["dataform"]
 tags: declarative,data,source
 published: True
 position: 0

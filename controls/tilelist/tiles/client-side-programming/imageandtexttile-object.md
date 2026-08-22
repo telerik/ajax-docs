@@ -3,6 +3,7 @@ title: ImageAndTextTile Object
 page_title: ImageAndTextTile Object - RadTile
 description: Check our Web Forms article about ImageAndTextTile Object.
 slug: tilelist/tiles/client-side-programming/imageandtexttile-object
+components: ["tilelist"]
 tags: imageandtexttile,object
 published: True
 position: 4

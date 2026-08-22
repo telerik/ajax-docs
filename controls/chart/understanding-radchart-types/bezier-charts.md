@@ -3,6 +3,7 @@ title: Bezier Charts
 page_title: Bezier Charts - RadChart
 description: Check our Web Forms article about Bezier Charts.
 slug: chart/understanding-radchart-types/bezier-charts
+components: ["chart"]
 tags: bezier,charts
 published: True
 position: 6

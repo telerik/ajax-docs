@@ -3,6 +3,7 @@ title: Enums
 page_title: Chip Client-side Enums
 description: Client-side Enums of the Telerik WebForms Chip component
 slug: chip/client-side-programming/enums
+components: ["chip"]
 tags: chip,javascript,enums
 published: True
 position: 3

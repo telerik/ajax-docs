@@ -3,6 +3,7 @@ title: Overview
 page_title: Events Overview - RadRating
 description: Check our Web Forms article about Events Overview.
 slug: rating/client-side-programming/events/overview
+components: ["rating"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Bubble Charts
 page_title: Bubble Charts - RadChart
 description: Check our Web Forms article about Bubble Charts.
 slug: chart/understanding-radchart-types/bubble-charts
+components: ["chart"]
 tags: bubble,charts
 published: True
 position: 8

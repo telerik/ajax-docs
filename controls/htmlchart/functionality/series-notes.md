@@ -3,6 +3,7 @@ title: Series Notes
 page_title: Series Notes - RadHtmlChart
 description: Check our Web Forms article about Series Notes.
 slug: htmlchart/functionality/series-notes
+components: ["htmlchart"]
 tags: series, notes
 published: True
 position: 9

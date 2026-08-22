@@ -3,6 +3,7 @@ title: Insert Text from a Text Control at the Cursor Position
 page_title: Insert Text from a Text Control at the Cursor Position - RadEditor
 description: Check our Web Forms article about Insert Text from a Text Control at the Cursor Position.
 slug: editor/how-to/insert-text-from-a-text-control-at-the-cursor-position
+components: ["editor"]
 tags: insert,text,from,a,text,control,at,the,cursor,position
 published: True
 position: 5

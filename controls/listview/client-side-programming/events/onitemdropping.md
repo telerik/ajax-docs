@@ -3,6 +3,7 @@ title: OnItemDropping
 page_title: OnItemDropping - RadListView
 description: Check our Web Forms article about OnItemDropping.
 slug: listview/client-side-programming/events/onitemdropping
+components: ["listview"]
 tags: onitemdropping
 published: True
 position: 5

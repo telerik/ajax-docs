@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadSwitch
 description: Check our Web Forms article about Keyboard Support.
 slug: switch/accessibility-and-internationalization/keyboard-support
+components: ["switch"]
 tags: keyboard,support
 published: True
 position: 2

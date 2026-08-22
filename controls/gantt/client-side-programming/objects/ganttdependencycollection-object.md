@@ -3,6 +3,7 @@ title: GanttDependencyCollection Object
 page_title: GanttDependencyCollection Object - RadGantt
 description: Check our Web Forms article about GanttDependencyCollection Object.
 slug: gantt/client-side-programming/objects/ganttdependencycollection-object
+components: ["gantt"]
 tags: ganttdependencycollection,object
 published: True
 position: 4

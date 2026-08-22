@@ -3,6 +3,7 @@ title: OnClientDragStart
 page_title: OnClientDragStart - RadListBox
 description: Check our Web Forms article about OnClientDragStart.
 slug: listbox/client-side-programming/events/onclientdragstart
+components: ["listbox"]
 tags: onclientdragstart
 published: True
 position: 4

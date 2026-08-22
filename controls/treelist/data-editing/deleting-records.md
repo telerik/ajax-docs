@@ -3,6 +3,7 @@ title: Deleting Records
 page_title: Deleting Records - RadTreeList
 description: Check our Web Forms article about Deleting Records.
 slug: treelist/data-editing/deleting-records
+components: ["treelist"]
 tags: deleting,records
 published: True
 position: 6

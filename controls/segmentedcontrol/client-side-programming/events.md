@@ -3,6 +3,7 @@ title: Events
 page_title: SegmentedControl Client-side Events
 description: "Client-side Events of the Telerik WebForms SegmentedControl component."
 slug: segmentedcontrol/client-side-programming/events
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, javascript, events
 published: True
 position: 2

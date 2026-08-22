@@ -3,6 +3,7 @@ title: RadPageLayout Grid Types
 page_title: RadPageLayout Grid Types - RadPageLayout
 description: Check our Web Forms article about RadPageLayout Grid Types.
 slug: pagelayout/creating-responsive-design/radpagelayout-grid-types
+components: ["pagelayout"]
 tags: radpagelayout,grid,types
 published: True
 position: 3

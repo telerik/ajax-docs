@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadMenu
 description: Check our Web Forms article about Validation.
 slug: menu/functionality/validation
+components: ["menu"]
 tags: validation
 published: True
 position: 1

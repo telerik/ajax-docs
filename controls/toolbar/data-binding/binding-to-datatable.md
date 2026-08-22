@@ -3,6 +3,7 @@ title: Binding to DataTable
 page_title: Binding to DataTable - RadToolBar
 description: Check our Web Forms article about Binding to DataTable.
 slug: toolbar/data-binding/binding-to-datatable
+components: ["toolbar"]
 tags: binding,to,datatable
 published: True
 position: 2

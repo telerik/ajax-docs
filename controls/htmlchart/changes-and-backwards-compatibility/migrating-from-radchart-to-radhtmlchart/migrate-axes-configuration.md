@@ -3,6 +3,7 @@ title: Migrate Axes Configuration
 page_title: Migrate Axes Configuration - RadHtmlChart
 description: Check our Web Forms article about Migrate Axes Configuration.
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-axes-configuration
+components: ["htmlchart"]
 tags: migrate,axes,configuration
 published: True
 position: 1

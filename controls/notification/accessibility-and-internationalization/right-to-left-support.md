@@ -3,6 +3,7 @@ title: Right-to-left Support
 page_title: Right-to-left Support - RadNotification
 description: Check our Web Forms article about Right-to-left Support.
 slug: notification/accessibility-and-internationalization/right-to-left-support
+components: ["notification"]
 tags: right-to-left,support
 published: True
 position: 1

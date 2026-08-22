@@ -3,6 +3,7 @@ title: Creating Context Menus at Runtime
 page_title: Creating Context Menus at Runtime - RadTreeView
 description: Check our Web Forms article about Creating Context Menus at Runtime.
 slug: treeview/context-menus/creating-context-menus-at-runtime
+components: ["treeview"]
 tags: creating,context,menus,at,runtime
 published: True
 position: 2

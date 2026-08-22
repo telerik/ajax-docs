@@ -3,6 +3,7 @@ title: Prevent Google ToolBar from Highlighting the Input
 page_title: Prevent Google ToolBar from Highlighting the Input - RadComboBox
 description: Check our Web Forms article about Prevent Google ToolBar from Highlighting the Input.
 slug: combobox/how-to/prevent-google-toolbar-from-highlighting-the-input
+components: ["combobox"]
 tags: prevent,google,toolbar,from,highlighting,the,input
 published: True
 position: 6

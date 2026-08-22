@@ -3,6 +3,7 @@ title: Scroll to Selected Node After AJAX Request
 page_title: Scroll to Selected Node After AJAX Request - RadTreeView
 description: Check our Web Forms article about Scroll to Selected Node After AJAX Request.
 slug: treeview/application-scenarios/client-side-programming/scroll-to-selected-node-after-ajax-request
+components: ["treeview"]
 tags: scroll,to,selected,node,after,ajax,request
 published: True
 position: 10

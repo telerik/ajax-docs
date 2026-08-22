@@ -3,6 +3,7 @@ title: Difference from RadWindow
 page_title: Difference from RadWindow - RadLightBox
 description: Check our Web Forms article about Difference from RadWindow.
 slug: lightbox/difference-from-radwindow
+components: ["lightbox"]
 tags: difference,from,radwindow
 published: True
 position: 1

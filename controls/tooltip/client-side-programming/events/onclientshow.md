@@ -3,6 +3,7 @@ title: OnClientShow
 page_title: OnClientShow - RadTooltip
 description: Check our Web Forms article about OnClientShow.
 slug: tooltip/client-side-programming/events/onclientshow
+components: ["tooltip"]
 tags: onclientshow
 published: True
 position: 3

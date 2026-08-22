@@ -3,6 +3,7 @@ title: Overflowing
 page_title: Overflowing - RadBreadcrumb
 description: Check our Web Forms article about Overflowing.
 slug: breadcrumb/functionality/overflowing
+components: ["breadcrumb"]
 tags: overflowing
 published: True
 position: 4

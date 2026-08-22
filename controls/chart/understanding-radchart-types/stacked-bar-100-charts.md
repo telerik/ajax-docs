@@ -3,6 +3,7 @@ title: Stacked Bar 100% Charts
 page_title: Stacked Bar 100% Charts - RadChart
 description: Check our Web Forms article about Stacked Bar 100% Charts.
 slug: chart/understanding-radchart-types/stacked-bar-100%-charts
+components: ["chart"]
 previous_url: controls/chart/understanding-radchart-types/stacked-bar-100%-charts
 tags: stacked,bar,100%,charts
 published: True

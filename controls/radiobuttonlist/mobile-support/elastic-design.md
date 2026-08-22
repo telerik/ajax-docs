@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadRadioButtonList
 description: Check our Web Forms article about Elastic Design.
 slug: radiobuttonlist/mobile-support/elastic-design
+components: ["radiobuttonlist"]
 tags: elastic,design
 published: True
 position: 1

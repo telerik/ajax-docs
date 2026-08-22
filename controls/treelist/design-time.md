@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadTreeList
 description: Check our Web Forms article about Design Time.
 slug: treelist/design-time
+components: ["treelist"]
 tags: design,time
 published: True
 position: 3

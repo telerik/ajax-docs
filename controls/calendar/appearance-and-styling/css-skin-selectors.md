@@ -3,6 +3,7 @@ title: CSS Skin Selectors
 page_title: CSS Skin Selectors - RadCalendar
 description: Check our Web Forms article about CSS Skin Selectors.
 slug: calendar/appearance-and-styling/css-skin-selectors
+components: ["calendar"]
 tags: css,skin,selectors
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadMaskedTextBox
 description: Check our Web Forms article about Render Modes.
 slug: radmaskedtextbox/mobile-support/render-modes
+components: ["maskedtextbox"]
 tags: render,modes
 published: True
 position: 0

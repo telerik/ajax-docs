@@ -3,6 +3,7 @@ title: OnClientRequestFailed
 page_title: OnClientRequestFailed - RadGantt
 description: Check our Web Forms article about OnClientRequestFailed.
 slug: gantt/client-side-programming/events/onclientrequestfailed
+components: ["gantt"]
 tags: onclientrequestfailed
 published: True
 position: 10

@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadDateInput
 description: Check our Web Forms article about Overview.
 slug: raddateinput/client-side-programming/events/overview
+components: ["dateinput"]
 tags: overview
 published: True
 position: 0

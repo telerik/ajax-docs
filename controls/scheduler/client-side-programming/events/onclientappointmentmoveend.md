@@ -3,6 +3,7 @@ title: OnClientAppointmentMoveEnd
 page_title: OnClientAppointmentMoveEnd - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentMoveEnd.
 slug: scheduler/client-side-programming/events/onclientappointmentmoveend
+components: ["scheduler"]
 tags: onclientappointmentmoveend
 published: True
 position: 12

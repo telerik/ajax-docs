@@ -3,6 +3,7 @@ title: Aggregates
 page_title: Aggregates - RadTreeList
 description: Check our Web Forms article about Aggregates.
 slug: treelist/column/aggregates
+components: ["treelist"]
 tags: aggregates
 published: True
 position: 1

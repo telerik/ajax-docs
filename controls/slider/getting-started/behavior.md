@@ -3,6 +3,7 @@ title: Behavior
 page_title: Behavior - RadSlider
 description: Check our Web Forms article about Behavior.
 slug: slider/getting-started/behavior
+components: ["slider"]
 tags: behavior
 published: True
 position: 2

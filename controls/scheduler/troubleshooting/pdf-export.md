@@ -3,6 +3,7 @@ title: PDF Export
 page_title: PDF Export - RadScheduler
 description: Check our Web Forms article about PDF Export.
 slug: scheduler/troubleshootings/pdf-export
+components: ["scheduler"]
 tags: pdf,export
 published: True
 position: 1

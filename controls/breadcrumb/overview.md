@@ -3,6 +3,7 @@ title: Overview
 page_title: RadBreadcrumb Overview
 description: Check our Web Forms article about Overview.
 slug: breadcrumb/overview
+components: ["breadcrumb"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Integration With RadControls
 page_title: Integration With RadControls - RadFormDecorator
 description: Check our Web Forms article about Integration With RadControls.
 slug: formdecorator/integration-with-radcontrols
+components: ["formdecorator"]
 tags: integration,with,radcontrols
 published: True
 position: 2

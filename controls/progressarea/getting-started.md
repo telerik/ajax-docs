@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadProgressArea
 description: Check our Web Forms article about Getting Started.
 slug: progressarea/getting-started
+components: ["progressarea"]
 tags: getting,started
 published: True
 position: 2

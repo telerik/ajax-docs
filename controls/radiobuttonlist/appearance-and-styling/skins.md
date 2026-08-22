@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadRadioButtonList
 description: Check our Web Forms article about Skins.
 slug: radiobuttonlist/appearance-and-styling/skins
+components: ["radiobuttonlist"]
 tags: skins
 published: True
 position: 0

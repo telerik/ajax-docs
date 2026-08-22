@@ -3,6 +3,7 @@ title: Multi-Node Selection
 page_title: Multi-Node Selection - RadTreeView
 description: Check our Web Forms article about Multi-Node Selection.
 slug: treeview/accessibility-and-internationalization/multi-node-selection
+components: ["treeview"]
 tags: multi-node,selection
 published: True
 position: 2

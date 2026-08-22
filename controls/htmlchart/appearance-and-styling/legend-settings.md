@@ -3,6 +3,7 @@ title: Legend Settings
 page_title: Legend Settings - RadHtmlChart
 description: Check our Web Forms article about Legend Settings.
 slug: htmlchart/appearance-and-styling/legend-settings
+components: ["htmlchart"]
 tags: legend,settings
 published: True
 position: 6

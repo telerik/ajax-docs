@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSignature object
 description: Check our Web Forms article about the API of RadSignature object.
 slug: signature/client-side-programming/overview
+components: ["signature"]
 tags: overview
 published: True
 position: 0

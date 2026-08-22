@@ -3,6 +3,7 @@ title: Insert Table
 page_title: Insert Table - RadEditor
 description: Check our Web Forms article about Insert Table.
 slug: editor/functionality/toolbars/dropdowns/insert-table
+components: ["editor"]
 tags: insert,table
 published: True
 position: 12

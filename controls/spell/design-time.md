@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadSpell
 description: Check our Web Forms article about Design Time.
 slug: spell/design-time
+components: ["spell"]
 tags: design,time
 published: True
 position: 3

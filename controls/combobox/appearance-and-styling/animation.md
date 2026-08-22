@@ -3,6 +3,7 @@ title: Animation
 page_title: Animation - RadComboBox
 description: Check our Web Forms article about Animation.
 slug: combobox/appearance-and-styling/animation
+components: ["combobox"]
 tags: animation
 published: True
 position: 8

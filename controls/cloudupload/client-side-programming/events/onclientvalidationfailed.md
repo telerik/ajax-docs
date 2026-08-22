@@ -3,6 +3,7 @@ title: OnClientValidationFailed
 page_title: OnClientValidationFailed - RadCloudUpload
 description: Check our Web Forms article about OnClientValidationFailed.
 slug: cloudupload/client-side-programming/events/onclientvalidationfailed
+components: ["cloudupload"]
 tags: onclientvalidationfailed
 published: True
 position: 9

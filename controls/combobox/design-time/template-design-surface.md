@@ -3,6 +3,7 @@ title: Template Design Surface
 page_title: Template Design Surface - RadComboBox
 description: Check our Web Forms article about Template Design Surface.
 slug: combobox/design-time/template-design-surface
+components: ["combobox"]
 tags: template,design,surface
 published: True
 position: 2

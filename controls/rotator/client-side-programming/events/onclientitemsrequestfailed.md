@@ -3,6 +3,7 @@ title: OnClientItemsRequestFailed
 page_title: OnClientItemsRequestFailed - RadRotator
 description: Check our Web Forms article about OnClientItemsRequestFailed.
 slug: rotator/client-side-programming/events/onclientitemsrequestfailed
+components: ["rotator"]
 tags: onclientitemsrequestfailed
 published: True
 position: 7

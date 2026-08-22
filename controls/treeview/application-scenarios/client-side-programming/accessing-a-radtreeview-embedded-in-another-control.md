@@ -3,6 +3,7 @@ title: Accessing a RadTreeView Embedded in Another Control
 page_title: Accessing a RadTreeView Embedded in Another Control - RadTreeView
 description: Check our Web Forms article about Accessing a RadTreeView Embedded in Another Control.
 slug: treeview/application-scenarios/client-side-programming/accessing-a-radtreeview-embedded-in-another-control
+components: ["treeview"]
 tags: accessing,a,radtreeview,embedded,in,another,control
 published: True
 position: 5

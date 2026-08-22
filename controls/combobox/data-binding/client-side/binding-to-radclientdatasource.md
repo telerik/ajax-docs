@@ -3,6 +3,7 @@ title: Binding to RadClientDataSource
 page_title: Client-side Data Binding with RadClientDataSource - RadComboBox
 description: Overview of the Client-side Data binding options for the Telerik WebForms Combobox.
 slug: combobox/data-binding/client-side/binding-to-radclientdatasource
+components: ["combobox"]
 previous_url: controls/combobox/data-binding/binding-to-radclientdatasource
 tags: client-side, data binding, radclientdatasource
 published: True

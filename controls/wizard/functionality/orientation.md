@@ -3,6 +3,7 @@ title: Orientation
 page_title: Orientation - RadWizard
 description: Check our Web Forms article about Orientation.
 slug: wizard/functionality/orientation
+components: ["wizard"]
 tags: orientation
 published: True
 position: 0

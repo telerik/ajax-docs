@@ -3,6 +3,7 @@ title: NodeCollapse
 page_title: NodeCollapse - RadTreeView
 description: Check our Web Forms article about NodeCollapse.
 slug: treeview/server-side-programming/events/nodecollapse
+components: ["treeview"]
 tags: nodecollapse
 published: True
 position: 7

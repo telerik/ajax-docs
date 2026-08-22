@@ -3,6 +3,7 @@ title: OnClientCommand
 page_title: OnClientCommand - RadWindow
 description: Check our Web Forms article about OnClientCommand.
 slug: window/client-side-programming/events/onclientcommand
+components: ["window"]
 tags: onclientcommand
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Form Fields
 page_title: SmartPasteButton Form Fields
 description: "Learn how to configure form fields for the Telerik WebForms SmartPasteButton to enable AI-powered data extraction and population."
 slug: smartpastebutton/form-fields
+components: ["smartpastebutton"]
 tags: smartpastebutton,form-fields,ai,data-extraction
 published: True
 position: 3

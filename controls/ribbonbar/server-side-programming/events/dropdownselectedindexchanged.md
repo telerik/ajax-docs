@@ -3,6 +3,7 @@ title: DropDownSelectedIndexChanged
 page_title: DropDownSelectedIndexChanged - RadRibbonBar
 description: Check our Web Forms article about DropDownSelectedIndexChanged.
 slug: ribbonbar/server-side-programming/events/dropdownselectedindexchanged
+components: ["ribbonbar"]
 tags: dropdownselectedindexchanged
 published: True
 position: 10

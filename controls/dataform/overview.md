@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDataForm Overview
 description: Explore the DataForm control and its features for creating forms to display and edit data efficiently.
 slug: dataform/overview
+components: ["dataform"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Creating a Custom Skin
 page_title: Creating a Custom Skin - RadDateInput
 description: Check our Web Forms article about Creating a Custom Skin.
 slug: raddateinput/appearance-and-styling/creating-a-custom-skin
+components: ["dateinput"]
 tags: creating,a,custom,skin
 published: True
 position: 3

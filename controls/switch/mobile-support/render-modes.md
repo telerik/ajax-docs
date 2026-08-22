@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadSwitch
 description: Check our Web Forms article about Render Modes.
 slug: switch/mobile-support/render-modes
+components: ["switch"]
 tags: render,modes
 published: True
 position: 2

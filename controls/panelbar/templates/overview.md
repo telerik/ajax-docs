@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview
 description: Check our Web Forms article about Overview.
 slug: panelbar/templates/overview
+components: ["panelbar"]
 tags: overview
 published: True
 position: 0

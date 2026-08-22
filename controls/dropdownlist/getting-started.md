@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadDropDownList
 description: Check our Web Forms article about Getting Started.
 slug: dropdownlist/getting-started
+components: ["dropdownlist"]
 tags: getting,started
 published: True
 position: 1

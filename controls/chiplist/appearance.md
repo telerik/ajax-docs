@@ -3,6 +3,7 @@ title: Appearance
 page_title: ChipList Appearance
 description: "Learn how to set the options to change the appearance such as, sizes, border radiuses, fill modes and theme colors."
 slug: chiplist/appearance
+components: ["chiplist"]
 tags: chiplist,appearance
 published: True
 position: 2

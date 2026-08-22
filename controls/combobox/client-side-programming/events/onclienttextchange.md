@@ -3,6 +3,7 @@ title: OnClientTextChange
 page_title: OnClientTextChange - RadComboBox
 description: Check our Web Forms article about OnClientTextChange.
 slug: combobox/client-side-programming/events/onclienttextchange
+components: ["combobox"]
 tags: onclienttextchange
 published: True
 position: 17

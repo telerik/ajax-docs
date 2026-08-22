@@ -3,6 +3,7 @@ title: OnClientSlide
 page_title: OnClientSlide - RadSlider
 description: Check our Web Forms article about OnClientSlide.
 slug: slider/client-side-programming/events/onclientslide
+components: ["slider"]
 tags: onclientslide
 published: True
 position: 3

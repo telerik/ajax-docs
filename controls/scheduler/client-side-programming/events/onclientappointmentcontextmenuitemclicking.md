@@ -3,6 +3,7 @@ title: OnClientAppointmentContextMenuItemClicking
 page_title: OnClientAppointmentContextMenuItemClicking - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentContextMenuItemClicking.
 slug: scheduler/client-side-programming/events/onclientappointmentcontextmenuitemclicking
+components: ["scheduler"]
 tags: onclientappointmentcontextmenuitemclicking
 published: True
 position: 37

@@ -3,6 +3,7 @@ title: Combining External Scripts
 page_title: Combining External Scripts - RadScriptManager
 description: Check our Web Forms article about Combining External Scripts.
 slug: scriptmanager/combining-external-scripts
+components: ["scriptmanager"]
 tags: combining,external,scripts
 published: True
 position: 2

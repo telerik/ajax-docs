@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadDropDownTree
 description: Check our Web Forms article about Telerik's ASP.NET RadDropDownTree Overview.
 slug: dropdowntree/data-binding/overview
+components: ["dropdowntree"]
 tags: overview
 published: True
 position: 0

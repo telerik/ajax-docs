@@ -3,6 +3,7 @@ title: HeaderCellRender
 page_title: HeaderCellRender - RadCalendar
 description: Check our Web Forms article about HeaderCellRender.
 slug: calendar/server-side-programming/events/headercellrender
+components: ["calendar"]
 tags: headercellrender
 published: True
 position: 2

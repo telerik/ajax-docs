@@ -3,6 +3,7 @@ title: TabClick
 page_title: TabClick - RadTabStrip
 description: Check our Web Forms article about TabClick.
 slug: tabstrip/server-side-programming/tabclick
+components: ["tabstrip"]
 tags: tabclick
 published: True
 position: 1

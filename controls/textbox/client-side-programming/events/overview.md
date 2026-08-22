@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadInput
 description: Check our Web Forms article about Overview.
 slug: radtextbox/client-side-programming/events/overview
+components: ["textbox"]
 tags: overview
 published: True
 position: 0

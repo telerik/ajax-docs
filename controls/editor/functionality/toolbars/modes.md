@@ -3,6 +3,7 @@ title: Modes
 page_title: Modes - RadEditor
 description: Check our Web Forms article about Modes.
 slug: editor/functionality/toolbars/modes
+components: ["editor"]
 tags: modes
 published: True
 position: 1

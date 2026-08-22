@@ -3,6 +3,7 @@ title: The Autosize Feature of the Built-in Dialogs is Enabled
 page_title: The Autosize Feature of the Built-in Dialogs is Enabled - RadEditor
 description: Check our Web Forms article about The Autosize Feature of the Built-in Dialogs is Enabled.
 slug: editor/changes-and-backwards-compatibility/the-autosize-feature-of-the-built-in-dialogs-is-enabled
+components: ["editor"]
 tags: the,autosize,feature,of,the,built-in,dialogs,is,enabled
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Gestures Support
 page_title: Gestures Support - RadMap
 description: Check our Web Forms article about Gestures Support.
 slug: map/mobile-support/gestures-support
+components: ["map"]
 tags: gestures,support
 published: True
 position: 1

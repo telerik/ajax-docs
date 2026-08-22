@@ -3,6 +3,7 @@ title: Inserted
 page_title: Inserted - RadListBox
 description: Check our Web Forms article about Inserted.
 slug: listbox/server-side-programming/server-events/inserted
+components: ["listbox"]
 tags: inserted
 published: True
 position: 16

@@ -3,6 +3,7 @@ title: RadAlert Dialog
 page_title: RadAlert Dialog - RadWindow
 description: Check our Web Forms article about RadAlert Dialog.
 slug: window/alert,-confirm,-prompt-dialogs/radalert-dialog
+components: ["window"]
 tags: radalert,dialog
 published: True
 position: 1

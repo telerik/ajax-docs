@@ -3,6 +3,7 @@ title: Accessing Controls Inside Templates
 page_title: Accessing Controls Inside Templates - RadPanelBar
 description: Check our Web Forms article about Accessing Controls Inside Templates.
 slug: panelbar/templates/accessing-controls-inside-templates
+components: ["panelbar"]
 tags: accessing,controls,inside,templates
 published: True
 position: 3

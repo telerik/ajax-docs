@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadSwitch
 description: Check our Web Forms article about Overview.
 slug: switch/mobile-support/overview
+components: ["switch"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Simple vs Advanced
 page_title: Simple vs Advanced - RadListView
 description: Check our Web Forms article about Simple vs Advanced.
 slug: listview/data-binding/server-side/simple-vs-advanced
+components: ["listview"]
 tags: simple,vs,advanced
 published: True
 position: 0

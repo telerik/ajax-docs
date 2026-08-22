@@ -3,6 +3,7 @@ title: OnDataPagerCreating
 page_title: OnDataPagerCreating - RadDataPager
 description: Check our Web Forms article about OnDataPagerCreating.
 slug: datapager/client-side-programming/events/ondatapagercreating
+components: ["datapager"]
 tags: ondatapagercreating
 published: True
 position: 0

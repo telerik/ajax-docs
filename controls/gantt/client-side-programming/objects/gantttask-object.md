@@ -3,6 +3,7 @@ title: GanttTask Object
 page_title: GanttTask Object - RadGantt
 description: Check our Web Forms article about GanttTask Object.
 slug: gantt/client-side-programming/objects/gantttask-object
+components: ["gantt"]
 tags: gantttask,object
 published: True
 position: 1

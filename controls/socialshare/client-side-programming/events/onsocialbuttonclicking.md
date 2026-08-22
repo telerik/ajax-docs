@@ -3,6 +3,7 @@ title: OnSocialButtonClicking
 page_title: OnSocialButtonClicking - RadSocialShare
 description: Check our Web Forms article about OnSocialButtonClicking.
 slug: socialshare/client-side-programming/events/onsocialbuttonclicking
+components: ["socialshare"]
 tags: onsocialbuttonclicking
 published: True
 position: 8

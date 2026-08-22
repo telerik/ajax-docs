@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadTileList
 description: Check our Web Forms article about OnClientLoad.
 slug: tilelist/client-side-programming/client-side-events/onclientload
+components: ["tilelist"]
 tags: onclientload
 published: True
 position: 1

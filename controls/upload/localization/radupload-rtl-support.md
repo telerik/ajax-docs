@@ -3,6 +3,7 @@ title: RadUpload RTL Support
 page_title: RadUpload RTL Support - RadUpload
 description: Check our Web Forms article about RadUpload RTL Support.
 slug: upload/localization/radupload-rtl-support
+components: ["upload"]
 tags: radupload,rtl,support
 published: True
 position: 2

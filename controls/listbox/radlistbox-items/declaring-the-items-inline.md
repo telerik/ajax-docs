@@ -3,6 +3,7 @@ title: Declaring the Items Inline
 page_title: Declaring the Items Inline - RadListBox
 description: Check our Web Forms article about Declaring the Items Inline.
 slug: listbox/radlistbox-items/declaring-the-items-inline
+components: ["listbox"]
 tags: declaring,the,items,inline
 published: True
 position: 1

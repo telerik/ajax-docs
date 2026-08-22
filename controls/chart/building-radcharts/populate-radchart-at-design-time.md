@@ -3,6 +3,7 @@ title: Populate RadChart at Design-Time
 page_title: Populate RadChart at Design-Time - RadChart
 description: Check our Web Forms article about Populate RadChart at Design-Time.
 slug: chart/building-radcharts/populate-radchart-at-design-time
+components: ["chart"]
 tags: populate,radchart,at,design-time
 published: True
 position: 1

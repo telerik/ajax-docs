@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadClientExportManager
 description: Check our Web Forms article about Getting Started.
 slug: clientexportmanager/getting-started/getting-started
+components: ["clientexportmanager"]
 tags: getting,started
 published: True
 position: 0

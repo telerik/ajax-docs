@@ -3,6 +3,7 @@ title: ItemCreated
 page_title: ItemCreated - RadMenu
 description: Check our Web Forms article about ItemCreated.
 slug: menu/server-side-programming/itemcreated
+components: ["menu"]
 tags: itemcreated
 published: True
 position: 2

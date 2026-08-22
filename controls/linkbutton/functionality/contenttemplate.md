@@ -3,6 +3,7 @@ title: ContentTemplate
 page_title: ContentTemplate - RadLinkButton
 description: Check our Web Forms article about ContentTemplate.
 slug: linkbutton/functionality/contenttemplate
+components: ["linkbutton"]
 tags: contenttemplate
 published: True
 position: 2

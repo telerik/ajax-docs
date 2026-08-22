@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadToggleButton
 description: Check our Web Forms article about Elastic Design.
 slug: togglebutton/mobile-support/elastic-design
+components: ["togglebutton"]
 tags: elastic,design
 published: True
 position: 1

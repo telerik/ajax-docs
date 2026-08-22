@@ -3,6 +3,7 @@ title: Tutorial - Creating a Custom Skin
 page_title: Tutorial Creating a Custom Skin - RadTileList
 description: Check our Web Forms article about Tutorial for Creating a Custom Skin for RadTileList.
 slug: tilelist/appearance-and-styling/Tutorial-creating-custom-skin
+components: ["tilelist"]
 tags: tilelist, custom, skin, tutorial
 published: True
 position: 2

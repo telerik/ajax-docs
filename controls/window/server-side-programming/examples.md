@@ -3,6 +3,7 @@ title: Examples
 page_title: Examples - RadWindow
 description: Explore server-side examples for configuring and managing RadWindow instances in your applications.
 slug: window/server-side-programming/examples
+components: ["window"]
 tags: examples
 published: True
 position: 2

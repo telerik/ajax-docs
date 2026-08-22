@@ -3,6 +3,7 @@ title: Content Area Appearance Problems
 page_title: Content Area Appearance Problems - RadEditor
 description: Check our Web Forms article about Content Area Appearance Problems.
 slug: editor/troubleshooting/content-area-appearance-problems
+components: ["editor"]
 tags: content,area,appearance,problems
 published: True
 position: 3

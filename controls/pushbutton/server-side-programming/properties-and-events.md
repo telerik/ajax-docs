@@ -3,6 +3,7 @@ title: Properties and Events
 page_title: Properties and Events - RadPushButton
 description: Check our Web Forms article about Properties and Events.
 slug: pushbutton/server-side-programming/properties-and-events
+components: ["pushbutton"]
 tags: properties,and,events
 published: True
 position: 0

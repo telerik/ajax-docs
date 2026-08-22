@@ -3,6 +3,7 @@ title: Selection Mode
 page_title: Selection Mode - RadAutoCompleteBox
 description: Check our Web Forms article about Selection Mode.
 slug: autocompletebox/functionality/selection-mode
+components: ["autocompletebox"]
 tags: selection,mode
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadRibbonBar
 description: Check our Web Forms article about Structure.
 slug: ribbonbar/structure
+components: ["ribbonbar"]
 tags: structure
 published: True
 position: 1

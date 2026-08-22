@@ -3,6 +3,7 @@ title: NavigationBarButtonClick
 page_title: NavigationBarButtonClick - RadWizard
 description: Check our Web Forms article about NavigationBarButtonClick.
 slug: wizard/server-side-programming/events/navigationbarbuttonclick
+components: ["wizard"]
 tags: navigationbarbuttonclick
 published: True
 position: 4

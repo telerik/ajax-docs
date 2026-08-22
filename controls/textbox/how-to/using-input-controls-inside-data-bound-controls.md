@@ -3,6 +3,7 @@ title: Using Input Controls Inside Data-Bound Controls
 page_title: Using Input Controls Inside Data-Bound Controls - RadTextBox
 description: Check our Web Forms article about Using Input Controls Inside Data-Bound Controls.
 slug: radtextbox/how-to/using-input-controls-inside-data-bound-controls
+components: ["textbox"]
 tags: using,input,controls,inside,data-bound,controls
 published: True
 position: 0

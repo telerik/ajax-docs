@@ -3,6 +3,7 @@ title: OnClientResponseError
 page_title: OnClientResponseError - RadXmlHttpPanel
 description: Check our Web Forms article about OnClientResponseError.
 slug: xmlhttppanel/client-side-programming/events/onclientresponseerror
+components: ["xmlhttppanel"]
 tags: onclientresponseerror
 published: True
 position: 3

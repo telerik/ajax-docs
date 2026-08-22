@@ -3,6 +3,7 @@ title: RadButton Not Performing Postback
 page_title: RadButton Not Performing Postback - RadButton
 description: Check our Web Forms article about RadButton Not Performing Postback.
 slug: button/troubleshooting/radbutton-not-performing-postback
+components: ["button"]
 tags: radbutton,not,performing,postback
 published: True
 position: 1

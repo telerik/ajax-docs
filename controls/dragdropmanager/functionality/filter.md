@@ -3,6 +3,7 @@ title: Filter
 page_title: Filter - RadDragDropManager
 description: Filter
 slug: dragdropmanager/functionality/filter
+components: ["dragdropmanager"]
 tags: filter
 published: True
 ---

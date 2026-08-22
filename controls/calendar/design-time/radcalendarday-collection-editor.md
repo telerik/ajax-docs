@@ -3,6 +3,7 @@ title: RadCalendarDay Collection Editor
 page_title: RadCalendarDay Collection Editor - RadCalendar
 description: Check our Web Forms article about RadCalendarDay Collection Editor.
 slug: calendar/design-time/radcalendarday-collection-editor
+components: ["calendar"]
 tags: radcalendarday,collection,editor
 published: True
 position: 3
