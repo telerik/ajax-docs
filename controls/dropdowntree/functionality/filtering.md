@@ -3,6 +3,7 @@ title: Filtering
 page_title: Filtering - RadDropDownTree
 description: Check our Web Forms article about Filtering.
 slug: dropdowntree/functionality/filtering
+components: ["dropdowntree"]
 tags: filtering
 published: True
 position: 5

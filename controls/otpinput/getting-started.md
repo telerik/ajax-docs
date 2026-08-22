@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started with the OTPInput
 description: "Get started with the WebForms OTPInput by Telerik UI for ASP.NET AJAX and learn how to create, initialize, and enable the component."
 slug: otpinput/getting-started
+components: ["otpinput"]
 tags: otpinput,getting started
 published: True
 position: 1

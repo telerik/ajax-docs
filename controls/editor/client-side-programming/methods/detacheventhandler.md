@@ -3,6 +3,7 @@ title: detachEventHandler
 page_title: detachEventHandler - RadEditor
 description: Check our Web Forms article about detachEventHandler.
 slug: editor/client-side-programming/methods/detacheventhandler
+components: ["editor"]
 tags: detacheventhandler
 published: True
 position: 1

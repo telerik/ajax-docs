@@ -3,6 +3,7 @@ title: PDF Overview
 page_title: Overview - RadTreeList
 description: Check our Web Forms article about Overview.
 slug: treelist/functionality/exporting/pdf/overview
+components: ["treelist"]
 tags: overview
 published: True
 position: 0

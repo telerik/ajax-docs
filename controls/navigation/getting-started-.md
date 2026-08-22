@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadNavigation
 description: Check our Web Forms article about Getting Started.
 slug: navigation/getting-started-
+components: ["navigation"]
 tags: getting,started,
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: ContextMenuItemClick
 page_title: ContextMenuItemClick - RadTreeView
 description: Check our Web Forms article about ContextMenuItemClick.
 slug: treeview/server-side-programming/events/contextmenuitemclick
+components: ["treeview"]
 tags: contextmenuitemclick
 published: True
 position: 1

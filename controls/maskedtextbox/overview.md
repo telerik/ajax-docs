@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadMaskedTextBox
 description: Explore the MaskedTextBox control and its features for capturing formatted user input with validation.
 slug: radmaskedtextbox/overview
+components: ["maskedtextbox"]
 tags: overview
 published: True
 position: 0

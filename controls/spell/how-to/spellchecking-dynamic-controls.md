@@ -3,6 +3,7 @@ title: Spellchecking Dynamic Controls
 page_title: Spellchecking Dynamic Controls - RadSpell
 description: Check our Web Forms article about Spellchecking Dynamic Controls.
 slug: spell/how-to/spellchecking-dynamic-controls
+components: ["spell"]
 tags: spellchecking,dynamic,controls
 published: True
 position: 3

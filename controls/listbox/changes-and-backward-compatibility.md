@@ -3,6 +3,7 @@ title: Changes and Backward Compatibility
 page_title: Changes and Backward Compatibility - RadListBox
 description: Check our Web Forms article about Changes and Backward Compatibility.
 slug: listbox/changes-and-backward-compatibility
+components: ["listbox"]
 tags: changes,and,backward,compatibility
 published: True
 position: 3

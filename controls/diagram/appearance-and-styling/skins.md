@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadDiagram
 description: Check our Web Forms article about Skins.
 slug: diagram/appearance-and-styling/skins
+components: ["diagram"]
 tags: skins
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Items Selection
 page_title: Items Selection - RadAutoCompleteBox
 description: Check our Web Forms article about Items Selection.
 slug: autocompletebox/functionality/items-selection
+components: ["autocompletebox"]
 tags: items,selection
 published: True
 position: 2

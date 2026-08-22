@@ -3,6 +3,7 @@ title: Overview
 page_title: RadCloudUpload Overview
 description: Check our Web Forms article about Telerik's ASP.NET CloudUpload Overview.
 slug: cloudupload/overview
+components: ["cloudupload"]
 tags: overview, cloudupload, asp.net
 published: True
 position: 0

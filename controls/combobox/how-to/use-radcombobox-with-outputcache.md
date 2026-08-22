@@ -3,6 +3,7 @@ title: Use RadComboBox with OutputCache
 page_title: Use RadComboBox with OutputCache - RadComboBox
 description: Check our Web Forms article about Use RadComboBox with OutputCache.
 slug: combobox/how-to/use-radcombobox-with-outputcache
+components: ["combobox"]
 tags: use,radcombobox,with,outputcache
 published: True
 position: 10

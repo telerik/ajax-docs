@@ -3,6 +3,7 @@ title: Click To Open
 page_title: Click To Open - RadMenu
 description: Check our Web Forms article about Click To Open.
 slug: menu/functionality/click-to-open
+components: ["menu"]
 tags: click,to,open
 published: True
 position: 6

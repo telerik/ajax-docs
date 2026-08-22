@@ -3,6 +3,7 @@ title: Custom
 page_title: RadSpreadsheet Custom Validation
 description: Check our Web Forms article about Custom ContextMenu.
 slug: spreadsheet/functionality/validation/custom
+components: ["spreadsheet"]
 tags: custom
 published: True
 position: 1

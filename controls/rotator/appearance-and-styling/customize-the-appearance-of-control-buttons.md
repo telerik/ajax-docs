@@ -3,6 +3,7 @@ title: Customize the Appearance of Control Buttons
 page_title: Customize the Appearance of Control Buttons - RadRotator
 description: Check our Web Forms article about Customize the Appearance of Control Buttons.
 slug: rotator/appearance-and-styling/customize-the-appearance-of-control-buttons
+components: ["rotator"]
 tags: customize,the,appearance,of,control,buttons
 published: True
 position: 3

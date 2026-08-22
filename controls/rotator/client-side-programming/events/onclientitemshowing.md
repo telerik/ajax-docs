@@ -3,6 +3,7 @@ title: OnClientItemShowing
 page_title: OnClientItemShowing - RadRotator
 description: Check our Web Forms article about OnClientItemShowing.
 slug: rotator/client-side-programming/events/onclientitemshowing
+components: ["rotator"]
 tags: onclientitemshowing
 published: True
 position: 4

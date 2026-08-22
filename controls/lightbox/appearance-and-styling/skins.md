@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadLightBox
 description: Check our Web Forms article about Skins.
 slug: lightbox/appearance-and-styling/skins
+components: ["lightbox"]
 tags: skins
 published: True
 position: 2

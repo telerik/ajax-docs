@@ -3,6 +3,7 @@ title: Security
 page_title: Security - RadFileExplorer
 description: Check our Web Forms article about Security.
 slug: fileexplorer/security
+components: ["fileexplorer"]
 tags: security,action
 published: True
 position: 15

@@ -3,6 +3,7 @@ title: Responsive Capabilities
 page_title: Responsive Capabilities - RadTileList
 description: Check our Web Forms article about Responsive Capabilities of RadTileList.
 slug: tilelist/mobile-support/responsive-capabilities
+components: ["tilelist"]
 tags: responsive,capabilities,tilelist
 published: True
 position: 0

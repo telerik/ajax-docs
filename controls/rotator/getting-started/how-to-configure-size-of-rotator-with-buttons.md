@@ -3,6 +3,7 @@ title: How To Configure Size of Rotator with Buttons
 page_title: How To Configure Size of Rotator with Buttons - RadRotator
 description: Check our Web Forms article about How To Configure Size of Rotator with Buttons.
 slug: rotator/getting-started/how-to-configure-size-of-rotator-with-buttons
+components: ["rotator"]
 tags: how,to,configure,size,of,rotator,with,buttons
 published: True
 position: 1

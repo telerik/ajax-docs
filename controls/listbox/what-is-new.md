@@ -3,6 +3,7 @@ title: What is New
 page_title: What is New - RadListBox
 description: Check our Web Forms article about What is New.
 slug: listbox/what-is-new
+components: ["listbox"]
 tags: what,is,new
 published: False
 position: 2

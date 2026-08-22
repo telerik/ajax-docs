@@ -3,6 +3,7 @@ title: HTML Output and CSS Styles
 page_title: HTML Output and CSS Styles - RadPivotGrid
 description: Check our Web Forms article about HTML Output and CSS Styles.
 slug: pivotgrid/appearance-and-styling/html-output-and-css-styles
+components: ["pivotgrid"]
 tags: html,output,and,css,styles
 published: True
 position: 0

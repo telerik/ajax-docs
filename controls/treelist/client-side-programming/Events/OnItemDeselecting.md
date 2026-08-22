@@ -3,6 +3,7 @@ title: OnItemDeselecting
 page_title: OnItemDeselecting - RadTreeList
 description: Check our Web Forms article about OnItemDeselecting Event.
 slug: treelist/client-side-programming/Events/OnItemDeselecting
+components: ["treelist"]
 tags: events,OnItemDeselecting
 published: True
 position: 1

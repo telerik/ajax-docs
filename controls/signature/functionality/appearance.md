@@ -3,6 +3,7 @@ title: Appearance
 page_title: Appearance - RadSignature
 description: Check our Web Forms article about RadSignature Appearance.
 slug: signature/functionality/appearance
+components: ["signature"]
 published: True
 position: 2
 ---

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadSwitch
 description: Check our Web Forms article about Overview.
 slug: switch/client-side-programming/overview
+components: ["switch"]
 tags: overview
 published: True
 position: 0

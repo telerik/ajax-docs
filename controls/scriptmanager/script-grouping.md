@@ -3,6 +3,7 @@ title: Script Grouping
 page_title: Script Grouping - RadScriptManager
 description: Check our Web Forms article about Script Grouping.
 slug: scriptmanager/script-grouping
+components: ["scriptmanager"]
 tags: script,grouping
 published: True
 position: 3

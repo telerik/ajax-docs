@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadRibbonBar
 description: Check our Web Forms article about Overview.
 slug: ribbonbar/server-side-programming/events/overview
+components: ["ribbonbar"]
 tags: overview
 published: True
 position: 0

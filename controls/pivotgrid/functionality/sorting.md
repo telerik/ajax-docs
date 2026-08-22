@@ -3,6 +3,7 @@ title: Sorting
 page_title: Sorting - RadPivotGrid
 description: Check our Web Forms article about Sorting.
 slug: pivotgrid/functionality/sorting
+components: ["pivotgrid"]
 tags: sorting
 published: True
 position: 1

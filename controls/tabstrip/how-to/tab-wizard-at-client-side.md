@@ -3,6 +3,7 @@ title: Tab Wizard at Client-side
 page_title: Tab Wizard at Client-side - RadTabStrip
 description: Check our Web Forms article about Tab Wizard at Client-side.
 slug: tabstrip/how-to/tab-wizard-at-client-side
+components: ["tabstrip"]
 tags: tab,wizard,at,client-side
 published: True
 position: 3

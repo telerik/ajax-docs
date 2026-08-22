@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadToggleButton
 description: Check our Web Forms article about Render Modes.
 slug: togglebutton/mobile-support/render-modes
+components: ["togglebutton"]
 tags: render,modes
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Custom Attributes
 page_title: Custom Attributes - RadTabStrip
 description: Check our Web Forms article about Custom Attributes.
 slug: tabstrip/tabs/custom-attributes
+components: ["tabstrip"]
 tags: custom,attributes
 published: True
 position: 3

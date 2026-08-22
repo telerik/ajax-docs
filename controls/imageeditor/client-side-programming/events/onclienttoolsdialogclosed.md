@@ -3,6 +3,7 @@ title: OnClientToolsDialogClosed
 page_title: OnClientToolsDialogClosed - RadImageEditor
 description: Check our Web Forms article about OnClientToolsDialogClosed.
 slug: imageeditor/client-side-programming/events/onclienttoolsdialogclosed
+components: ["imageeditor"]
 tags: onclienttoolsdialogclosed
 published: True
 position: 13

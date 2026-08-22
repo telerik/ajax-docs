@@ -3,6 +3,7 @@ title: OnClientItemDataBound
 page_title: OnClientItemDataBound - RadDropDownList
 description: Check our Web Forms article about OnClientItemDataBound.
 slug: dropdownlist/client-side-programming/events/onclientitemdatabound
+components: ["dropdownlist"]
 tags: onclientitemdatabound
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Implementing a Provider That Supports Multi-Valued Resources
 page_title: Implementing a Provider That Supports Multi-Valued Resources - RadScheduler
 description: Check our Web Forms article about Implementing a Provider That Supports Multi-Valued Resources.
 slug: scheduler/data-binding/providers/implementing-a-provider-that-supports-multi-valued-resources
+components: ["scheduler"]
 tags: implementing,a,provider,that,supports,multi-valued,resources
 published: True
 position: 2

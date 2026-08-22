@@ -3,6 +3,7 @@ title: Adding Controls to a Calendar Cell
 page_title: Adding Controls to a Calendar Cell - RadCalendar
 description: Check our Web Forms article about Adding Controls to a Calendar Cell.
 slug: calendar/how-to/adding-controls-to-a-calendar-cell
+components: ["calendar"]
 tags: adding,controls,to,a,calendar,cell
 published: True
 position: 0

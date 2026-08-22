@@ -3,6 +3,7 @@ title: SelectionChanged
 page_title: SelectionChanged - RadCalendar
 description: Check our Web Forms article about SelectionChanged.
 slug: calendar/server-side-programming/events/selectionchanged
+components: ["calendar"]
 tags: selectionchanged
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Binding to Table-Based DataSource Components
 page_title: Binding to Table-Based DataSource Components - RadSiteMap
 description: Check our Web Forms article about Binding to Table-Based DataSource Components.
 slug: sitemap/data-binding/binding-to-table-based-datasource-components
+components: ["sitemap"]
 tags: binding,to,table-based,datasource,components
 published: True
 position: 2

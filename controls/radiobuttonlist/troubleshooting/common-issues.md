@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadRadioButtonList
 description: Check our Web Forms article about Common Issues.
 slug: radiobuttonlist/troubleshooting/common-issues
+components: ["radiobuttonlist"]
 tags: common,issues
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnClientRequesting
 page_title: OnClientRequesting - RadDropDownTree
 description: Check our Web Forms article about OnClientRequesting.
 slug: dropdowntree/client-side-programming/events/onclientrequesting
+components: ["dropdowntree"]
 tags: onclientrequesting
 published: False
 position: 12

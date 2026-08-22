@@ -3,6 +3,7 @@ title: Overview
 page_title: File Browser Dialogs Overview - RadEditor
 description: Check our Web Forms article about File Browser Dialogs Overview.
 slug: editor/functionality/dialogs/file-browser-dialogs/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

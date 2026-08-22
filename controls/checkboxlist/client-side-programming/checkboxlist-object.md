@@ -3,6 +3,7 @@ title: CheckBoxList Object
 page_title: CheckBoxList Object - RadCheckBoxList
 description: Check our Web Forms article about CheckBoxList Object.
 slug: checkboxlist/client-side-programming/checkboxlist-object
+components: ["checkboxlist"]
 tags: checkboxbutton, button, checkboxlist, list, checkbox ,object
 published: True
 position: 1

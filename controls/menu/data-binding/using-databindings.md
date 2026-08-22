@@ -3,6 +3,7 @@ title: Using DataBindings
 page_title: Using DataBindings - RadMenu
 description: Check our Web Forms article about Using DataBindings.
 slug: menu/data-binding/using-databindings
+components: ["menu"]
 tags: using,databindings
 published: True
 position: 5

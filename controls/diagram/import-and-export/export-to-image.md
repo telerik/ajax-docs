@@ -3,6 +3,7 @@ title: Export to Image
 page_title: Export to Image - RadDiagram
 description: Check our Web Forms article about Export to Image.
 slug: diagram/import-and-export/export-to-image
+components: ["diagram"]
 tags: export,to,image
 published: True
 position: 1

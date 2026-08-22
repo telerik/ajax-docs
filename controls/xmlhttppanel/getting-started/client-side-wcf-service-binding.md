@@ -3,6 +3,7 @@ title: Client-Side WCF Service Binding
 page_title: Client-Side WCF Service Binding - RadXmlHttpPanel
 description: Check our Web Forms article about Client-Side WCF Service Binding.
 slug: xmlhttppanel/getting-started/client-side-wcf-service-binding
+components: ["xmlhttppanel"]
 tags: client-side,wcf,service,binding
 published: True
 position: 4

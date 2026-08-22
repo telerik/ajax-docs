@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadPdfViewer
 description: Check our Web Forms article about Overview.
 slug: pdfviewer/server-side-programming/overview
+components: ["pdfviewer"]
 tags: overview
 published: True
 position: 0

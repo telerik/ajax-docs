@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadTimePicker
 description: Check our Web Forms article about Controlling Appearance.
 slug: timepicker/appearance-and-styling/controlling-appearance
+components: ["timepicker"]
 tags: controlling,appearance
 published: True
 position: 0

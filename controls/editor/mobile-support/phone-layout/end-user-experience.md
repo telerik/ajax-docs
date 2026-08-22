@@ -3,6 +3,7 @@ title: End User Experience
 page_title: Phone Layout End User Experience - RadEditor
 description: Check our Web Forms article about End User Experience.
 slug: editor/mobile-support/phone-layout/end-user-experience
+components: ["editor"]
 tags: editor,support,mobile,rendering,end, user, experience, phone, layout
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: PushButton Object
 page_title: PushButton Object - RadPushButton
 description: Check our Web Forms article about PushButton Object.
 slug: pushbutton/client-side-programming/pushbutton-object
+components: ["pushbutton"]
 tags: pushbutton,object
 published: True
 position: 1

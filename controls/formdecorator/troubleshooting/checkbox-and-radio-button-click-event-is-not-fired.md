@@ -3,6 +3,7 @@ title: Checkbox And Radio Button Click Event Is Not Fired
 page_title: Checkbox And Radio Button Click Event Is Not Fired - RadFormDecorator
 description: Check our Web Forms article about Checkbox And Radio Button Click Event Is Not Fired.
 slug: formdecorator/troubleshooting/checkbox-and-radio-button-click-event-is-not-fired
+components: ["formdecorator"]
 tags: checkbox,and,radio,button,click,event,is,not,fired
 published: True
 position: 1

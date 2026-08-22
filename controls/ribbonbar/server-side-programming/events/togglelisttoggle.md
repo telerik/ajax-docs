@@ -3,6 +3,7 @@ title: ToggleListToggle
 page_title: ToggleListToggle - RadRibbonBar
 description: Check our Web Forms article about ToggleListToggle.
 slug: ribbonbar/server-side-programming/events/togglelisttoggle
+components: ["ribbonbar"]
 tags: togglelisttoggle
 published: True
 position: 9

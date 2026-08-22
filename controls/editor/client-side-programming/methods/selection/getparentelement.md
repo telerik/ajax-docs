@@ -3,6 +3,7 @@ title: getParentElement
 page_title: getParentElement - RadEditor
 description: Check our Web Forms article about getParentElement.
 slug: editor/client-side-programming/methods/selection/getparentelement
+components: ["editor"]
 tags: getparentelement
 published: True
 position: 5

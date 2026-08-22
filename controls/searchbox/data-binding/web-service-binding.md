@@ -3,6 +3,7 @@ title: Web Service Binding
 page_title: Web Service Binding - RadSearchBox
 description: Check our Web Forms article about Web Service Binding.
 slug: searchbox/data-binding/web-service-binding
+components: ["searchbox"]
 tags: web,service,binding
 published: True
 position: 5

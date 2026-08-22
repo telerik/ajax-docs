@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadTreeView
 description: Check our Web Forms article about Validation.
 slug: treeview/web-pages/validation
+components: ["treeview"]
 tags: validation
 published: True
 position: 1

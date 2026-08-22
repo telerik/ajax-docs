@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadImageEditor
 description: Check our Web Forms article about Localization.
 slug: imageeditor/accessibility-and-internationalization/localization
+components: ["imageeditor"]
 tags: localization
 published: True
 position: 3

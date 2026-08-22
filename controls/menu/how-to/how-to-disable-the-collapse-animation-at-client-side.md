@@ -3,6 +3,7 @@ title: How to Disable the Collapse Animation at Client-side
 page_title: How to Disable the Collapse Animation at Client-side - RadMenu
 description: Check our Web Forms article about How to Disable the Collapse Animation at Client-side.
 slug: menu/how-to/how-to-disable-the-collapse-animation-at-client-side
+components: ["menu"]
 tags: how,to,disable,the,collapse,animation,at,client-side
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: Programmatic Creation Of SeriesItems With DateTime
 page_title: Programmatic Creation Of SeriesItems With DateTime - RadHtmlChart
 description: Check our Web Forms article about Programmatic Creation Of SeriesItems With DateTime.
 slug: htmlchart/how-to/programmatic-creation-of-seriesitems-with-datetime
+components: ["htmlchart"]
 tags: programmatic,creation,of,seriesitems,with,datetime
 published: True
 position: 2

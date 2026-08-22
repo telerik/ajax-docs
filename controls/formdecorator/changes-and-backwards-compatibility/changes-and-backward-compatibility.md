@@ -3,6 +3,7 @@ title: Overview
 page_title: Changes And Backward Compatibility Overview- RadFormDecorator
 description: Check our Web Forms article about Overview.
 slug: formdecorator/changes-and-backward-compatibility
+components: ["formdecorator"]
 previous_url: controls/formdecorator/changes-and-backward-compatibility
 tags: changes,and,backward,compatibility
 published: True

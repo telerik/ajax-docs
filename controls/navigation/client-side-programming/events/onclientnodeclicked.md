@@ -3,6 +3,7 @@ title: OnClientNodeClicked
 page_title: OnClientNodeClicked - RadNavigation
 description: Check our Web Forms article about OnClientNodeClicked.
 slug: navigation/client-side-programming/events/onclientnodeclicked
+components: ["navigation"]
 tags: onclientnodeclicked
 published: True
 position: 3

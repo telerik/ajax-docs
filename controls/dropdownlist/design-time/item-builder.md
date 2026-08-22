@@ -3,6 +3,7 @@ title: Item Builder
 page_title: Item Builder - RadDropDownList
 description: Check our Web Forms article about Item Builder.
 slug: dropdownlist/design-time/item-builder
+components: ["dropdownlist"]
 tags: item,builder
 published: True
 position: 2

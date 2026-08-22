@@ -3,6 +3,7 @@ title: Creating a Custom Lightweight Skin
 page_title: Creating a Custom Lightweight Skin - RadButton
 description: Check our Web Forms article about Creating a Custom Lightweight Skin.
 slug: window/appearance-and-styling/creating-custom-lightweight-skin.md
+components: ["window"]
 tags: creating,custom,lightweight,skin
 published: True
 position: 3

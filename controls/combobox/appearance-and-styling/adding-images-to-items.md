@@ -3,6 +3,7 @@ title: Adding Images to Items
 page_title: Adding Images to Items - RadComboBox
 description: Check our Web Forms article about Adding Images to Items.
 slug: combobox/appearance-and-styling/adding-images-to-items
+components: ["combobox"]
 tags: adding,images,to,items
 published: True
 position: 9

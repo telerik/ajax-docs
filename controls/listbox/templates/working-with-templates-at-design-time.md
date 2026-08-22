@@ -3,6 +3,7 @@ title: Working with Templates at Design Time
 page_title: Working with Templates at Design Time - RadListBox
 description: Check our Web Forms article about Working with Templates at Design Time.
 slug: listbox/templates/working-with-templates-at-design-time
+components: ["listbox"]
 tags: working,with,templates,at,design,time
 published: True
 position: 1

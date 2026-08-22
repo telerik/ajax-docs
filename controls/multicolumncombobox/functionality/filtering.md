@@ -3,6 +3,7 @@ title: Filtering
 page_title: Filtering - RadMultiColumnComboBox
 description: Check our Web Forms article about Filtering.
 slug: multicolumncombobox/functionality/filtering
+components: ["multicolumncombobox"]
 tags: filtering,client,server
 published: True
 position: 2

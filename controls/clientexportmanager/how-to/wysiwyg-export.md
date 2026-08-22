@@ -3,6 +3,7 @@ title: WYSIWYG Export
 page_title: WYSIWYG Export - RadClientExportManager
 description: Check our Web Forms article about WYSIWYG Export.
 slug: clientexportmanager/how-to/wysiwyg-export
+components: ["clientexportmanager"]
 tags: wysiwyg,export
 published: True
 position: 1

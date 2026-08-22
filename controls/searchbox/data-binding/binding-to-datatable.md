@@ -3,6 +3,7 @@ title: Binding to DataTable
 page_title: Binding to DataTable - RadSearchBox
 description: Check our Web Forms article about Binding to DataTable.
 slug: searchbox/data-binding/binding-to-datatable
+components: ["searchbox"]
 tags: binding,to,datatable
 published: True
 position: 2

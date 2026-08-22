@@ -3,6 +3,7 @@ title: Adding Custom Grid Columns
 page_title: Adding Custom Grid Columns - RadFileExplorer
 description: Check our Web Forms article about Adding Custom Grid Columns.
 slug: fileexplorer/how-to/adding-custom-grid-columns
+components: ["fileexplorer"]
 tags: adding,custom,grid,columns
 published: True
 position: 1

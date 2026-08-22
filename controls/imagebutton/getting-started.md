@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadImageButton
 description: Check our Web Forms article about Getting Started.
 slug: imagebutton/getting-started
+components: ["imagebutton"]
 tags: getting,started
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Command
 page_title: Command - RadDock
 description: Check our Web Forms article about Command.
 slug: dock/server-side-programming/events/command
+components: ["dock"]
 tags: command
 published: True
 position: 0

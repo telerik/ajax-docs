@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadListView
 description: Check our Web Forms article about Getting Started.
 slug: listview/getting-started
+components: ["listview"]
 tags: getting,started
 published: True
 position: 2

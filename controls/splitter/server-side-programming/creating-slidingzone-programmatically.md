@@ -3,6 +3,7 @@ title: Creating SlidingZone Programmatically
 page_title: Creating SlidingZone Programmatically - RadSplitter
 description: Check our Web Forms article about Creating SlidingZone Programmatically.
 slug: splitter/server-side-programming/creating-slidingzone-programmatically
+components: ["splitter"]
 tags: creating,slidingzone,programmatically
 published: True
 position: 1

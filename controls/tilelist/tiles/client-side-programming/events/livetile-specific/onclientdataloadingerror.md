@@ -3,6 +3,7 @@ title: OnClientDataLoadingError
 page_title: OnClientDataLoadingError - RadTile
 description: Check our Web Forms article about OnClientDataLoadingError.
 slug: tilelist/tiles/client-side-programming/events/livetile-specific/onclientdataloadingerror
+components: ["tilelist"]
 tags: onclientdataloadingerror
 published: True
 position: 2

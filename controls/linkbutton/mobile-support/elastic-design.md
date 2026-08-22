@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadLinkButton
 description: Check our Web Forms article about Elastic Design.
 slug: linkbutton/mobile-support/elastic-design
+components: ["linkbutton"]
 tags: elastic,design
 published: True
 position: 1

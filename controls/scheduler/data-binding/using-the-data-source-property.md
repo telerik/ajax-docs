@@ -3,6 +3,7 @@ title: Using the Data Source Property
 page_title: Using the Data Source Property - RadScheduler
 description: Check our Web Forms article about Using the Data Source Property.
 slug: scheduler/data-binding/using-the-data-source-property
+components: ["scheduler"]
 tags: using,the,data,source,property
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Animations
 page_title: Animations - RadMenu
 description: Check our Web Forms article about Animations.
 slug: menu/functionality/animations
+components: ["menu"]
 tags: animations
 published: True
 position: 5

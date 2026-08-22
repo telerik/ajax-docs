@@ -3,6 +3,7 @@ title: OnClientShow
 page_title: OnClientShow - RadWindow
 description: Check our Web Forms article about OnClientShow.
 slug: window/client-side-programming/events/onclientshow
+components: ["window"]
 tags: onclientshow
 published: True
 position: 14

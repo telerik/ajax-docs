@@ -3,6 +3,7 @@ title: Bar Charts
 page_title: Bar Charts - RadChart
 description: Check our Web Forms article about Bar Charts.
 slug: chart/understanding-radchart-types/bar-charts
+components: ["chart"]
 tags: bar,charts
 published: True
 position: 1

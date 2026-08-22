@@ -3,6 +3,7 @@ title: Creating Context Menu at Runtime
 page_title: Creating Context Menu at Runtime - RadMenu
 description: Check our Web Forms article about Creating Context Menu at Runtime.
 slug: menu/context-menus/creating-context-menu-at-runtime
+components: ["menu"]
 tags: creating,context,menu,at,runtime
 published: True
 position: 1

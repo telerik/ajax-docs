@@ -3,6 +3,7 @@ title: Binding to WCF service
 page_title: Binding to WCF service - RadAutoCompleteBox
 description: Check our Web Forms article about Binding to WCF service.
 slug: autocompletebox/data-binding/binding-to-wcf-service
+components: ["autocompletebox"]
 tags: binding,to,wcf,service
 published: True
 position: 5

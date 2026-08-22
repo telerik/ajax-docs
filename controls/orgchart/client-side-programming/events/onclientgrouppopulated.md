@@ -3,6 +3,7 @@ title: OnClientGroupPopulated
 page_title: OnClientGroupPopulated - RadOrgChart
 description: Check our Web Forms article about OnClientGroupPopulated.
 slug: orgchart/client-side-programming/events/onclientgrouppopulated
+components: ["orgchart"]
 tags: onclientgrouppopulated
 published: True
 position: 1

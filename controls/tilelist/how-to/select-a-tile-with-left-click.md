@@ -3,6 +3,7 @@ title: Select a Tile with Left Click
 page_title: Select a Tile with Left Click - RadTileList
 description: Check our Web Forms article about Select a Tile with Left Click.
 slug: tilelist/how-to/select-a-tile-with-left-click
+components: ["tilelist"]
 tags: select,a,tile,with,left,click
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadHtmlChart
 description: Check our Web Forms article about Array.
 slug: htmlchart/data-binding/overview
+components: ["htmlchart"]
 tags: data, binding, overview, grouping
 published: True
 position: 0

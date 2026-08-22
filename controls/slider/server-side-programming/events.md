@@ -3,6 +3,7 @@ title: Events
 page_title: Server-side Events - RadSlider
 description: Check our Web Forms article about Events.
 slug: slider/server-side-programming/events
+components: ["slider"]
 tags: events
 published: True
 position: 0

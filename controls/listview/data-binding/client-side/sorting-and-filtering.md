@@ -3,6 +3,7 @@ title: Sorting and Filtering
 page_title: Sorting and Filtering - RadListView
 description: Check our Web Forms article about Sorting and Filtering.
 slug: listview/data-binding/client-side/sorting-and-filtering
+components: ["listview"]
 tags: sorting,and,filtering
 published: True
 position: 3

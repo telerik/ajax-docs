@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDataForm Events Overview - RadDataForm
 description: Check our Web Forms article about Overview.
 slug: dataform/client-side-programming/events/overview
+components: ["dataform"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Add Standard Buttons
 page_title: Add Standard Buttons - RadEditor
 description: Check our Web Forms article about Add Standard Buttons.
 slug: editor/functionality/toolbars/buttons/add-standard-buttons
+components: ["editor"]
 tags: add,standard,buttons
 published: True
 position: 0

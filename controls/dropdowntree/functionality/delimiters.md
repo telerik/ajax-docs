@@ -3,6 +3,7 @@ title: Delimiters
 page_title: Delimiters - RadDropDownTree
 description: Check our Web Forms article about Delimiters.
 slug: dropdowntree/functionality/delimiters
+components: ["dropdowntree"]
 tags: delimiters
 published: True
 position: 1

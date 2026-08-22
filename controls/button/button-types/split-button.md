@@ -3,6 +3,7 @@ title: Split Button
 page_title: Split Button - RadButton
 description: Check our Web Forms article about Split Button.
 slug: button/button-types/split-button
+components: ["button"]
 tags: split,button
 published: True
 position: 1

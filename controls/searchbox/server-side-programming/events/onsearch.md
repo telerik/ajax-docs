@@ -3,6 +3,7 @@ title: OnSearch
 page_title: OnSearch - RadSearchBox
 description: Check our Web Forms article about OnSearch.
 slug: searchbox/server-side-programming/events/onsearch
+components: ["searchbox"]
 tags: onsearch
 published: True
 position: 1

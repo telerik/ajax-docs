@@ -3,6 +3,7 @@ title: suppressCompleteMessage Method
 page_title: suppressCompleteMessage Method - RadSpell
 description: Check our Web Forms article about suppressCompleteMessage Method.
 slug: spell/changes-and-backward-compatibility/suppresscompletemessage-method
+components: ["spell"]
 tags: suppresscompletemessage,method
 published: True
 position: 2

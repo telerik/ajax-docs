@@ -3,6 +3,7 @@ title: OnClientNodeMouseLeave
 page_title: OnClientNodeMouseLeave - RadNavigation
 description: Check our Web Forms article about OnClientNodeMouseLeave.
 slug: navigation/client-side-programming/events/onclientnodemouseleave
+components: ["navigation"]
 tags: onclientnodemouseleave
 published: True
 position: 9

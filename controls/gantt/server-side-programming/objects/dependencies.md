@@ -3,6 +3,7 @@ title: Dependency
 page_title: Dependency - RadGantt
 description: Check our Web Forms article about Dependency.
 slug: gantt/server-side-programming/objects/dependencies
+components: ["gantt"]
 tags: dependencies
 published: True
 position: 3

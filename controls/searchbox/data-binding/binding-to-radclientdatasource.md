@@ -3,6 +3,7 @@ title: Binding to RadClientDataSource
 page_title: Binding to RadClientDataSource - RadSearchBox
 description: Check our Web Forms article about Binding to RadClientDataSource.
 slug: searchbox/data-binding/binding-to-radclientdatasource
+components: ["searchbox"]
 tags: binding,to,radclientdatasource
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Optimizations
 page_title: Optimizations - RadEditor
 description: Check our Web Forms article about Optimizations.
 slug: editor/performance/optimizations
+components: ["editor"]
 tags: optimizations
 published: True
 position: 0

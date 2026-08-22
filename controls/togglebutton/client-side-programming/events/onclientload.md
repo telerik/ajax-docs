@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadToggleButton
 description: Check our Web Forms article about OnClientLoad.
 slug: togglebutton/client-side-programming/events/onclientload
+components: ["togglebutton"]
 tags: onclientload
 published: True
 position: 2

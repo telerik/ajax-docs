@@ -3,6 +3,7 @@ title: Refresh Nodes Added on Demand
 page_title: Refresh Nodes Added on Demand - RadTreeView
 description: Check our Web Forms article about Refresh Nodes Added on Demand.
 slug: treeview/application-scenarios/client-side-programming/refresh-nodes-added-on-demand
+components: ["treeview"]
 tags: refresh,nodes,added,on,demand
 published: True
 position: 22

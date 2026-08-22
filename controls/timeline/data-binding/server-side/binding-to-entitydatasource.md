@@ -3,6 +3,7 @@ title: Binding to EntityDataSource
 page_title: Binding to EntityDataSource - RadTimeline
 description: Check our Web Forms article about Binding to EntityDataSource.
 slug: timeline/data-binding/server-side/binding-to-entitydatasource
+components: ["timeline"]
 tags: binding,to,EntityDataSource
 published: True
 position: 4

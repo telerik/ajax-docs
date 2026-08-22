@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadFileExplorer
 description: Check our Web Forms article about Common Issues.
 slug: fileexplorer/troubleshooting/common-issues
+components: ["fileexplorer"]
 tags: common,issues
 published: True
 position: 0

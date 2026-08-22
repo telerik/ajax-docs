@@ -3,6 +3,7 @@ title: Tutorial on Using DataBindings to Create a Hiearchical TreeView
 page_title: Tutorial on Using DataBindings to Create a Hiearchical TreeView - RadTreeView
 description: Check our Web Forms article about Tutorial on Using DataBindings to Create a Hiearchical TreeView.
 slug: treeview/application-scenarios/data-binding/tutorial-on-using-databindings-to-create-a-hiearchical-treeview
+components: ["treeview"]
 tags: tutorial,on,using,databindings,to,create,a,hiearchical,treeview
 published: True
 position: 1

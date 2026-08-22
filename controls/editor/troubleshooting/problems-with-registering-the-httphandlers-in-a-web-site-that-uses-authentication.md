@@ -3,6 +3,7 @@ title: Problems with Registering the HttpHandlers in a Web Site that Uses Authen
 page_title: Problems with Registering the HttpHandlers in a Web Site that Uses Authentication - RadEditor
 description: Check our Web Forms article about Problems with Registering the HttpHandlers in a Web Site that Uses Authentication.
 slug: editor/troubleshooting/problems-with-registering-the-httphandlers-in-a-web-site-that-uses-authentication
+components: ["editor"]
 tags: problems,with,registering,the,httphandlers,in,a,web,site,that,uses,authentication
 published: True
 position: 9

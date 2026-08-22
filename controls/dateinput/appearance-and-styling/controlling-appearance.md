@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadDateInput
 description: Check our Web Forms article about Controlling Appearance.
 slug: raddateinput/appearance-and-styling/controlling-appearance
+components: ["dateinput"]
 tags: controlling,appearance
 published: True
 position: 0

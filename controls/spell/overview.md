@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSpell Overview
 description: Check our Web Forms article about Overview.
 slug: spell/overview
+components: ["spell"]
 tags: overview
 published: True
 position: 0

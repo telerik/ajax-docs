@@ -3,6 +3,7 @@ title: Events
 page_title: RadDraggable Client-Side Events - RadDragDropManager
 description: Client-Side Events of RadDraggable, child component of RadDragDropManager
 slug: dragdropmanager/client-side-programming/draggable/events
+components: ["dragdropmanager"]
 tags: client-side events, events, raddraggable
 published: True
 ---

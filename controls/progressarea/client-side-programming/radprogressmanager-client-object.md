@@ -3,6 +3,7 @@ title: RadProgressManager Client Object
 page_title: RadProgressManager Client Object - RadProgressArea
 description: Check our Web Forms article about RadProgressManager Client Object.
 slug: progressarea/client-side-programming/radprogressmanager-client-object
+components: ["progressarea"]
 tags: radprogressmanager,client,object
 published: True
 position: 1

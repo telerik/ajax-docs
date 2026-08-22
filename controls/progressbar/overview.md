@@ -3,6 +3,7 @@ title: Overview
 page_title: RadProgressBar Overview
 description: Explore the ProgressBar control and its features for displaying progress indicators in your application.
 slug: progressbar/overview
+components: ["progressbar"]
 tags: overview
 published: True
 position: 0

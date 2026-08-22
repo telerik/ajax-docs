@@ -3,6 +3,7 @@ title: The DataItem Property is Empty
 page_title: The DataItem Property is Empty - RadTreeView
 description: Check our Web Forms article about The DataItem Property is Empty.
 slug: treeview/troubleshooting/the-dataitem-property-is-empty
+components: ["treeview"]
 tags: the,dataitem,property,is,empty
 published: True
 position: 1

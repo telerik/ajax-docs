@@ -3,6 +3,7 @@ title: Appearance
 page_title: Appearance - RadStepper
 description: Customize Stepper by changing its orientation and layout mode.
 slug: stepper/functionality/appearance
+components: ["stepper"]
 tags: appearance
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Performance Optimizations
 page_title: Performance Optimizations - RadHtmlChart
 description: Check our Web Forms article about Performance Optimizations.
 slug: htmlchart/troubleshooting/performance-optimizations
+components: ["htmlchart"]
 tags: performance,optimizations
 published: True
 position: 2

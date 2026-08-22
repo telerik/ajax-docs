@@ -3,6 +3,7 @@ title: Tutorial Creating A Custom Skin
 page_title: Tutorial Creating A Custom Skin - RadToolBar
 description: Check our Web Forms article about Tutorial Creating A Custom Skin.
 slug: toolbar/appearance-and-styling/tutorial-creating-a-custom-skin
+components: ["toolbar"]
 tags: tutorial,creating,a,custom,skin
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Format Numbers
 page_title: Format Numbers - RadHtmlChart
 description: Discover how to format numeric values in the HTMLChart control for better data visualization.
 slug: htmlchart/appearance-and-styling/format-numbers
+components: ["htmlchart"]
 tags: format,numbers
 published: True
 position: 5

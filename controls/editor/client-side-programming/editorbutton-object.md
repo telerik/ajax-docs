@@ -3,6 +3,7 @@ title: EditorButton Object
 page_title: EditorButton Object - RadEditor
 description: Check our Web Forms article about EditorButton Object.
 slug: editor/client-side-programming/editorbutton-object
+components: ["editor"]
 tags: editorbutton,object
 published: True
 position: 9

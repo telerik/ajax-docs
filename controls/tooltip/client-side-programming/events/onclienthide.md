@@ -3,6 +3,7 @@ title: OnClientHide
 page_title: OnClientHide - RadTooltip
 description: Check our Web Forms article about OnClientHide.
 slug: tooltip/client-side-programming/events/onclienthide
+components: ["tooltip"]
 tags: onclienthide
 published: True
 position: 5

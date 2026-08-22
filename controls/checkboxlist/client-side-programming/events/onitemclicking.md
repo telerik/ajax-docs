@@ -3,6 +3,7 @@ title: OnItemClicking
 page_title: OnItemClicking - RadCheckBoxList
 description: Check our Web Forms article about OnItemClicking.
 slug: checkboxlist/client-side-programming/events/onitemclicking
+components: ["checkboxlist"]
 tags: onitemclicking
 published: True
 position: 4

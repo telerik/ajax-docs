@@ -3,6 +3,7 @@ title: OnClientTaskEditing
 page_title: OnClientTaskEditing - RadGantt
 description: Check our Web Forms article about OnClientTaskEditing.
 slug: gantt/client-side-programming/events/onclienttaskediting
+components: ["gantt"]
 tags: onclienttaskediting
 published: True
 position: 5

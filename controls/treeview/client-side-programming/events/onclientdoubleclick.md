@@ -3,6 +3,7 @@ title: OnClientDoubleClick
 page_title: OnClientDoubleClick - RadTreeView
 description: Check our Web Forms article about OnClientDoubleClick.
 slug: treeview/client-side-programming/events/onclientdoubleclick
+components: ["treeview"]
 tags: onclientdoubleclick
 published: True
 position: 24

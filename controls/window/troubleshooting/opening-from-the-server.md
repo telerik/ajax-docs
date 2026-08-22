@@ -3,6 +3,7 @@ title: Opening from the Server
 page_title: Opening from the Server - RadWindow
 description: Check our Web Forms article about Opening from the Server.
 slug: window/troubleshooting/opening-from-the-server
+components: ["window"]
 tags: opening,from,the,server
 published: True
 position: 0

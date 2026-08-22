@@ -3,6 +3,7 @@ title: Positioning
 page_title: Positioning - RadTooltip
 description: Check our Web Forms article about Positioning.
 slug: tooltip/getting-started/positioning
+components: ["tooltip"]
 tags: positioning
 published: True
 position: 5

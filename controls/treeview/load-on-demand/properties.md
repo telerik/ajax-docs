@@ -3,6 +3,7 @@ title: Properties
 page_title: Properties - RadTreeView
 description: Check our Web Forms article about Properties.
 slug: treeview/load-on-demand/properties
+components: ["treeview"]
 tags: properties
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Drag and Drop Appointment from Scheduler to Grid
 page_title: Drag and Drop Appointment from Scheduler to Grid - RadScheduler
 description: Check our Web Forms article about Drag and Drop Appointment from Scheduler to Grid.
 slug: scheduler/how-to/drag-and-drop-appointment-from-scheduler-to-grid
+components: ["scheduler"]
 tags: drag,and,drop,appointment,from,scheduler,to,grid
 published: True
 position: 12

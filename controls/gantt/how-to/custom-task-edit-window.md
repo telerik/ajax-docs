@@ -3,6 +3,7 @@ title: Custom Task Edit Window
 page_title: Custom Task Edit Window
 description: Check our Web Forms article about Custom Task Edit Window.
 slug: gantt/how-to/custom-task-edit-window
+components: ["gantt"]
 tags: custom,task,edit,window
 published: True
 position: 1

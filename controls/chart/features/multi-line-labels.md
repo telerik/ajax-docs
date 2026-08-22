@@ -3,6 +3,7 @@ title: Multi-Line Labels
 page_title: Multi-Line Labels - RadChart
 description: Check our Web Forms article about Multi-Line Labels.
 slug: chart/features/multi-line-labels
+components: ["chart"]
 tags: multi-line,labels
 published: True
 position: 6

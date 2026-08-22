@@ -3,6 +3,7 @@ title: OnClientItemClicked
 page_title: OnClientItemClicked - RadTagCloud
 description: Check our Web Forms article about OnClientItemClicked.
 slug: tagcloud/client-side-programming/events/onclientitemclicked
+components: ["tagcloud"]
 tags: onclientitemclicked
 published: True
 position: 3

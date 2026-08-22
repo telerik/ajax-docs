@@ -3,6 +3,7 @@ title: OnDataSourceSelect
 page_title: OnDataSourceSelect - RadSearchBox
 description: Check our Web Forms article about OnDataSourceSelect.
 slug: searchbox/server-side-programming/events/ondatasourceselect
+components: ["searchbox"]
 tags: ondatasourceselect
 published: True
 position: 3

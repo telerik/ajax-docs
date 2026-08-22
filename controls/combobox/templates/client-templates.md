@@ -3,6 +3,7 @@ title: Client Templates
 page_title: Client Templates - RadComboBox
 description: Check our Web Forms article about Client Templates.
 slug: combobox/templates/client-templates
+components: ["combobox"]
 tags: client,templates
 published: True
 position: 6

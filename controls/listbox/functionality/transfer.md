@@ -3,6 +3,7 @@ title: Transfer
 page_title: Transfer - RadListBox
 description: Check our Web Forms article about Transfer.
 slug: listbox/functionality/transfer
+components: ["listbox"]
 tags: transfer
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: RadSlidingZone Object
 page_title: RadSlidingZone Object - RadSplitter
 description: Check our Web Forms article about RadSlidingZone Object.
 slug: splitter/client-side-programming/radslidingzone-object
+components: ["splitter"]
 tags: radslidingzone,object
 published: True
 position: 4

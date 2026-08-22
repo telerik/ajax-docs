@@ -3,6 +3,7 @@ title: OnDateSelecting
 page_title: OnDateSelecting - RadCalendar
 description: Check our Web Forms article about OnDateSelecting.
 slug: calendar/client-side-programming/events/ondateselecting
+components: ["calendar"]
 tags: ondateselecting
 published: True
 position: 4

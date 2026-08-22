@@ -3,6 +3,7 @@ title: Custom
 page_title: RadSpreadsheet Filter Menu
 description: Check our Web Forms article about Custom ContextMenu.
 slug: spreadsheet/functionality/filtermenu/custom
+components: ["spreadsheet"]
 tags: custom
 published: True
 position: 1

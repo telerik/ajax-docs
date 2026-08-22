@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadPivotGrid
 description: Check our Web Forms article about Skins.
 slug: pivotgrid/appearance-and-styling/skins
+components: ["pivotgrid"]
 tags: skins
 published: True
 position: 2

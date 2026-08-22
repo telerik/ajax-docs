@@ -3,6 +3,7 @@ title: Binding to Hierarchical Data
 page_title: Binding to Hierarchical Data - RadTreeView
 description: Check our Web Forms article about Binding to Hierarchical Data.
 slug: treeview/data-binding/binding-to-hierarchical-data
+components: ["treeview"]
 tags: binding,to,hierarchical,data
 published: True
 position: 4

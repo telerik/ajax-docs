@@ -3,6 +3,7 @@ title: OnClientDeletingSelected
 page_title: OnClientDeletingSelected - RadUpload
 description: Check our Web Forms article about OnClientDeletingSelected.
 slug: upload/client-side-programming/onclientdeletingselected
+components: ["upload"]
 tags: onclientdeletingselected
 published: True
 position: 3

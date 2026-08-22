@@ -3,6 +3,7 @@ title: Building a Simple TreeView
 page_title: Building a Simple TreeView - RadTreeView
 description: Check our Web Forms article about Building a Simple TreeView.
 slug: treeview/getting-started/building-a-simple-treeview
+components: ["treeview"]
 tags: building,a,simple,treeview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events Overview - RadToolBar
 description: Check our Web Forms article about Events overview.
 slug: toolbar/client-side-programming/events
+components: ["toolbar"]
 tags: events,overview
 published: True
 position: 0

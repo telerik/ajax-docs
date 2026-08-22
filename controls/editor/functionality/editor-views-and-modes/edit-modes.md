@@ -3,6 +3,7 @@ title: Edit Modes
 page_title: Edit Modes - RadEditor
 description: Check our Web Forms article about Edit Modes.
 slug: editor/functionality/editor-views-and-modes/edit-modes
+components: ["editor"]
 tags: edit,modes
 published: True
 position: 0

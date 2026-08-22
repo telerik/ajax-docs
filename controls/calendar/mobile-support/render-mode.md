@@ -3,6 +3,7 @@ title: Render Mode
 page_title: Render Mode - RadCalendar
 description: Check our Web Forms article about Render Mode.
 slug: calendar/mobile-support/render-mode
+components: ["calendar"]
 tags: render,mode
 published: True
 position: 0

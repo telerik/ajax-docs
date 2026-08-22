@@ -3,6 +3,7 @@ title: HTML Rendering and CSS
 page_title: HTML Rendering and CSS - RadDock
 description: Check our Web Forms article about HTML Rendering and CSS.
 slug: dock/appearance-and-styling/html-rendering-and-css
+components: ["dock"]
 tags: html,rendering,and,css
 published: True
 position: 4

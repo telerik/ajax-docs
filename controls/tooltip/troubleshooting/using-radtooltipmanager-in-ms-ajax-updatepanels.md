@@ -3,6 +3,7 @@ title: Using RadToolTipManager in MS AJAX UpdatePanels
 page_title: Using RadToolTipManager in MS AJAX UpdatePanels - RadTooltip
 description: Check our Web Forms article about Using RadToolTipManager in MS AJAX UpdatePanels.
 slug: tooltip/troubleshooting/using-radtooltipmanager-in-ms-ajax-updatepanels
+components: ["tooltip"]
 tags: using,radtooltipmanager,in,ms,ajax,updatepanels
 published: True
 position: 1

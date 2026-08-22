@@ -3,6 +3,7 @@ title: Data Editing
 page_title: Data Editing - RadTreeList
 description: Check our Web Forms article about Data Editing.
 slug: treelist/mobile-support/mobile-rendering/data-editing
+components: ["treelist"]
 tags: data,editing
 published: True
 position: 5

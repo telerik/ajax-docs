@@ -3,6 +3,7 @@ title: set_visible
 page_title: set_visible - RadEditor
 description: Check our Web Forms article about set_visible.
 slug: editor/client-side-programming/methods/set_visible
+components: ["editor"]
 tags: set_visible
 published: True
 position: 17

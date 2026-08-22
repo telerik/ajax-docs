@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadMenu
 description: Check our Web Forms article about OnClientLoad.
 slug: menu/client-side-programming/events/onclientload
+components: ["menu"]
 tags: onclientload
 published: True
 position: 1

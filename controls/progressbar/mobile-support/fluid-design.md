@@ -3,6 +3,7 @@ title: Fluid Design
 page_title: Fluid Design - RadProgressBar
 description: Check our Web Forms article about Fluid Design.
 slug: progressbar/mobile-support/fluid-design
+components: ["progressbar"]
 tags: fluid,design
 published: True
 position: 1

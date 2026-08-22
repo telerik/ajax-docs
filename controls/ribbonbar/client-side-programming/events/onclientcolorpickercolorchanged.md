@@ -3,6 +3,7 @@ title: OnClientColorPickerColorChanged
 page_title: OnClientColorPickerColorChanged - RadRibbonBar
 description: Check our Web Forms article about OnClientColorPickerColorChanged.
 slug: ribbonbar/client-side-programming/events/onclientcolorpickercolorchanged
+components: ["ribbonbar"]
 tags: onclientcolorpickercolorchanged
 published: True
 position: 26

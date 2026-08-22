@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadGantt
 description: Check our Web Forms article about OnClientLoad.
 slug: gantt/client-side-programming/events/onclientload
+components: ["gantt"]
 tags: onclientload
 published: True
 position: 2

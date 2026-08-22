@@ -3,6 +3,7 @@ title: Fluid Capabilities
 page_title: Fluid Capabilities - RadRotator
 description: Check our Web Forms article about Fluid Capabilities.
 slug: rotator/mobile-support/fluid-capabilities
+components: ["rotator"]
 tags: fluid,capabilities
 published: True
 position: 2

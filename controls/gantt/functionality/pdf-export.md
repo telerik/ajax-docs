@@ -3,6 +3,7 @@ title: PDF Export
 page_title: PDF Export - RadGantt
 description: Check our Web Forms article about PDF Export.
 slug: gantt/functionality/pdf-export
+components: ["gantt"]
 tags: pdf,export
 published: True
 position: 6

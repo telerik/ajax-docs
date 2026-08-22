@@ -3,6 +3,7 @@ title: update
 page_title: ClientDataSource Object update() - RadClientDataSource
 description: Check our Web Forms article about update.
 slug: clientdatasource/client-side-programming/client-side-api/methods/update
+components: ["clientdatasource"]
 tags: update
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientItemsRequesting
 page_title: OnClientItemsRequesting - RadComboBox
 description: Check our Web Forms article about OnClientItemsRequesting.
 slug: combobox/client-side-programming/events/onclientitemrequesting
+components: ["combobox"]
 tags: onclientitemsrequesting
 published: True
 position: 11

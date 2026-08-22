@@ -3,6 +3,7 @@ title: Adding and Editing Templates at Runtime
 page_title: Adding and Editing Templates at Runtime - RadTreeView
 description: Check our Web Forms article about Adding and Editing Templates at Runtime.
 slug: treeview/templates/adding-and-editing-templates-at-runtime
+components: ["treeview"]
 tags: adding,and,editing,templates,at,runtime
 published: True
 position: 4

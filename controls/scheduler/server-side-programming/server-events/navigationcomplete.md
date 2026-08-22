@@ -3,6 +3,7 @@ title: NavigationComplete
 page_title: NavigationComplete - RadScheduler
 description: Check our Web Forms article about NavigationComplete.
 slug: scheduler/server-side-programming/server-events/navigationcomplete
+components: ["scheduler"]
 tags: navigationcomplete
 published: True
 position: 10

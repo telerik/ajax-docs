@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadPanelBar
 description: Check our Web Forms article about Render Modes.
 slug: panelbar/radpanelbar-items/render-modes
+components: ["panelbar"]
 tags: render,modes
 published: True
 position: 7

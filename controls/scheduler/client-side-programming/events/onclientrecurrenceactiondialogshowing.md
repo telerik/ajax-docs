@@ -3,6 +3,7 @@ title: OnClientRecurrenceActionDialogShowing
 page_title: OnClientRecurrenceActionDialogShowing - RadScheduler
 description: Check our Web Forms article about OnClientRecurrenceActionDialogShowing.
 slug: scheduler/client-side-programming/events/onclientrecurrenceactiondialogshowing
+components: ["scheduler"]
 tags: onclientrecurrenceactiondialogshowing
 published: True
 position: 15

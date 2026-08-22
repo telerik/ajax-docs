@@ -3,6 +3,7 @@ title: Changes and Backward Compatibility
 page_title: Changes and Backward Compatibility - RadRating
 description: Check our Web Forms article about Changes and Backward Compatibility.
 slug: rating/changes-and-backward-compatibility
+components: ["rating"]
 tags: changes,and,backward,compatibility
 published: True
 position: 1

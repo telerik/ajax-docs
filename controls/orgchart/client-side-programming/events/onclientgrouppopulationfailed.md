@@ -3,6 +3,7 @@ title: OnClientGroupPopulationFailed
 page_title: OnClientGroupPopulationFailed - RadOrgChart
 description: Check our Web Forms article about OnClientGroupPopulationFailed.
 slug: orgchart/client-side-programming/events/onclientgrouppopulationfailed
+components: ["orgchart"]
 tags: onclientgrouppopulationfailed
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientComboBoxTextChanged
 page_title: OnClientComboBoxTextChanged - RadRibbonBar
 description: Check our Web Forms article about OnClientComboBoxTextChanged.
 slug: ribbonbar/client-side-programming/events/onclientcomboboxtextchanged
+components: ["ribbonbar"]
 tags: onclientcomboboxtextchanged
 published: True
 position: 22

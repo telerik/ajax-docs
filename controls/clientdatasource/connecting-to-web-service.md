@@ -3,6 +3,7 @@ title: Connecting to Web Service
 page_title: Connecting to Web Service - RadClientDataSource
 description: Check our Web Forms article about Connecting to Web Service.
 slug: clientdatasource/connecting-to-web-service
+components: ["clientdatasource"]
 tags: connecting,to,web,service
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadTimePicker
 description: Check our Web Forms article about Client-side Programming Overview.
 slug: timepicker/client-side-programming/overview
+components: ["timepicker"]
 tags: overview
 published: True
 position: 0

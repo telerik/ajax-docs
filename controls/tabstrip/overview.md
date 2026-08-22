@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTabStrip Overview
 description: Learn about the TabStrip control and its features for organizing content into tabs for better navigation.
 slug: tabstrip/overview
+components: ["tabstrip"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadToggleButton
 description: Check our Web Forms article about Skins.
 slug: togglebutton/appearance-and-styling/skins
+components: ["togglebutton"]
 tags: skins
 published: True
 position: 0

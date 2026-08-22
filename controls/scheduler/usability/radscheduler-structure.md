@@ -3,6 +3,7 @@ title: RadScheduler Structure
 page_title: RadScheduler Structure - RadScheduler
 description: Check our Web Forms article about RadScheduler Structure.
 slug: scheduler/usability/radscheduler-structure
+components: ["scheduler"]
 tags: radscheduler,structure
 published: False
 position: 2

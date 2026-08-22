@@ -3,6 +3,7 @@ title: Creating a Custom Dialog
 page_title: Creating a Custom Dialog - RadImageEditor
 description: Check our Web Forms article about Creating a Custom Dialog.
 slug: imageeditor/functionality/creating-custom-dialog
+components: ["imageeditor"]
 tags: creating,custom,dialog
 published: True
 position: 1

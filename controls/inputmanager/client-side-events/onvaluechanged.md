@@ -3,6 +3,7 @@ title: OnValueChanged
 page_title: OnValueChanged - RadInputManager
 description: Check our Web Forms article about OnValueChanged.
 slug: radinputmanager/client-side-events/onvaluechanged
+components: ["inputmanager"]
 tags: onvaluechanged
 published: True
 position: 4

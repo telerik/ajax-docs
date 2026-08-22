@@ -3,6 +3,7 @@ title: Template Editor
 page_title: Template Editor - RadTooltip
 description: Check our Web Forms article about Template Editor.
 slug: tooltip/design-time/template-editor
+components: ["tooltip"]
 tags: template,editor
 published: True
 position: 2

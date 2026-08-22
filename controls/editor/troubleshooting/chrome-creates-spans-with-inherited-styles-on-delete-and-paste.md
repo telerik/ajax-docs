@@ -3,6 +3,7 @@ title: Chrome Creates Spans with Inherited Styles on Delete and Paste
 page_title: Chrome Creates Spans with Inherited Styles on Delete and Paste - RadEditor
 description: Check our Web Forms article about Chrome Creates Spans with Inherited Styles on Delete and Paste.
 slug: editor/troubleshooting/chrome-creates-spans-with-inherited-styles-on-delete-and-paste
+components: ["editor"]
 tags: chrome,creates,spans,with,inherited,styles,on,delete,and,paste
 published: True
 position: 13

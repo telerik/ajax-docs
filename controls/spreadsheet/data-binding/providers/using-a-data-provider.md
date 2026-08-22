@@ -3,6 +3,7 @@ title: Using a Data Provider
 page_title: Using a Data Provider - RadSpreadsheet
 description: Check our Web Forms article about Using a Data Provider.
 slug: spreadsheet/data-binding/providers/using-a-data-provider
+components: ["spreadsheet"]
 tags: using,a,data,provider
 published: True
 position: 0

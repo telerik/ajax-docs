@@ -3,6 +3,7 @@ title: ItemsRequested
 page_title: ItemsRequested - RadComboBox
 description: Check our Web Forms article about ItemsRequested.
 slug: combobox/server-side-programming/itemsrequested
+components: ["combobox"]
 tags: itemsrequested
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Appearance of Odd Characters After Saving RadEditor's Content In Database
 page_title: Appearance of Odd Characters After Saving RadEditor's Content In Database - RadEditor
 description: Check our Web Forms article about Appearance of Odd Characters After Saving RadEditor's Content In Database.
 slug: editor/troubleshooting/appearance-of-odd-characters-after-saving-radeditor's-content-in-database
+components: ["editor"]
 tags: appearance,of,odd,characters,after,saving,radeditor's,content,in,database
 published: True
 position: 6

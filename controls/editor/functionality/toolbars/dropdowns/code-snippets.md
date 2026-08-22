@@ -3,6 +3,7 @@ title: Code Snippets
 page_title: Code Snippets - RadEditor
 description: Check our Web Forms article about Code Snippets.
 slug: editor/functionality/toolbars/dropdowns/code-snippets
+components: ["editor"]
 tags: code,snippets
 published: True
 position: 11

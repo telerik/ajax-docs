@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadRibbonBar
 description: Check our Web Forms article about OnClientLoad.
 slug: ribbonbar/client-side-programming/events/onclientload
+components: ["ribbonbar"]
 tags: onclientload
 published: True
 position: 1

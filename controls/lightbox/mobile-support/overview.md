@@ -3,6 +3,7 @@ title: Overview
 page_title: Mobile Support Overview - RadLightBox
 description: Check our Web Forms article about Overview.
 slug: lightbox/mobile-support/overview
+components: ["lightbox"]
 tags: overview
 published: True
 position: 0

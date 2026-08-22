@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadMaskedTextBox
 description: Check our Web Forms article about Structure.
 slug: radmaskedtextbox/structure
+components: ["maskedtextbox"]
 tags: structure
 published: True
 position: 2

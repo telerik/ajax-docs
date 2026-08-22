@@ -3,6 +3,7 @@ title: OnClientDoubleClick
 page_title: OnClientDoubleClick - RadTabStrip
 description: Check our Web Forms article about OnClientDoubleClick.
 slug: tabstrip/client-side-programming/onclientdoubleclick
+components: ["tabstrip"]
 tags: onclientdoubleclick
 published: True
 position: 3

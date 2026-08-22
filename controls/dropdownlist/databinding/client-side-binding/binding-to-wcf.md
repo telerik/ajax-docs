@@ -3,6 +3,7 @@ title: Binding to WCF
 page_title: Binding to WCF - RadDropDownList
 description: Check our Web Forms article about Binding to WCF.
 slug: dropdownlist/databinding/client-side-binding/binding-to-wcf
+components: ["dropdownlist"]
 tags: binding,to,wcf
 published: True
 position: 0

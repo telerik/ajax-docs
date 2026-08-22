@@ -3,6 +3,7 @@ title: Binding to DataTable, DataSet, or DataView
 page_title: Binding to DataTable, DataSet, or DataView - RadAutoCompleteBox
 description: Check our Web Forms article about Binding to DataTable, DataSet, or DataView.
 slug: autocompletebox/data-binding/binding-to-datatable,-dataset,-or-dataview
+components: ["autocompletebox"]
 tags: binding,to,datatable,,dataset,,or,dataview
 published: True
 position: 2

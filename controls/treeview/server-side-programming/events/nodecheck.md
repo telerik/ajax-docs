@@ -3,6 +3,7 @@ title: NodeCheck
 page_title: NodeCheck - RadTreeView
 description: Check our Web Forms article about NodeCheck.
 slug: treeview/server-side-programming/events/nodecheck
+components: ["treeview"]
 tags: nodecheck
 published: True
 position: 9

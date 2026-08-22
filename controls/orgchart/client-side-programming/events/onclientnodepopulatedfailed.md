@@ -3,6 +3,7 @@ title: OnClientNodePopulatedFailed
 page_title: OnClientNodePopulatedFailed - RadOrgChart
 description: Check our Web Forms article about OnClientNodePopulatedFailed.
 slug: orgchart/client-side-programming/events/onclientnodepopulatedfailed
+components: ["orgchart"]
 tags: onclientnodepopulatedfailed
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadBarcode
 description: Check our Web Forms article about Design Time.
 slug: barcode/design-time
+components: ["barcode"]
 tags: design,time
 published: True
 position: 1

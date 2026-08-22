@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadCalendar
 description: Check our Web Forms article about Skins.
 slug: calendar/appearance-and-styling/skins
+components: ["calendar"]
 tags: skins
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: deselectItem
 page_title: deselectItem - RadListView
 description: Check our Web Forms article about deselectItem.
 slug: listview/client-side-programming/radlistview/methods/deselectitem
+components: ["listview"]
 tags: deselectitem
 published: True
 position: 9

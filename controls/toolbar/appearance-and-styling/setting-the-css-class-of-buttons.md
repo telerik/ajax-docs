@@ -3,6 +3,7 @@ title: Setting  the CSS Class of Buttons
 page_title: Setting the CSS Class of Buttons - RadToolBar
 description: Check our Web Forms article about Setting  the CSS Class of Buttons.
 slug: toolbar/appearance-and-styling/setting-the-css-class-of-buttons
+components: ["toolbar"]
 tags: setting,,the,css,class,of,buttons
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnClientDialogLoaded
 page_title: OnClientDialogLoaded - RadImageEditor
 description: Check our Web Forms article about OnClientDialogLoaded.
 slug: imageeditor/client-side-programming/events/onclientdialogloaded
+components: ["imageeditor"]
 tags: onclientdialogloaded
 published: True
 position: 4

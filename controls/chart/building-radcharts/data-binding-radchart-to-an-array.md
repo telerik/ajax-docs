@@ -3,6 +3,7 @@ title: Data Binding RadChart to an Array
 page_title: Data Binding RadChart to an Array - RadChart
 description: Check our Web Forms article about Data Binding RadChart to an Array.
 slug: chart/building-radcharts/data-binding-radchart-to-an-array
+components: ["chart"]
 tags: data,binding,radchart,to,an,array
 published: True
 position: 6

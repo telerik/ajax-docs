@@ -3,6 +3,7 @@ title: Data Binding in Templates
 page_title: Data Binding in Templates - RadComboBox
 description: Check our Web Forms article about Data Binding in Templates.
 slug: combobox/templates/data-binding-in-templates
+components: ["combobox"]
 tags: data,binding,in,templates
 published: True
 position: 4

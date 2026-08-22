@@ -3,6 +3,7 @@ title: Image
 page_title: Image - RadToggleButton
 description: Check our Web Forms article about Image.
 slug: togglebutton/functionality/image
+components: ["togglebutton"]
 tags: image
 published: True
 position: 1

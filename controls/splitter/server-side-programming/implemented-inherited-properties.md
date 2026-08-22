@@ -3,6 +3,7 @@ title: Implemented Inherited Properties
 page_title: Implemented Inherited Properties - RadSplitter
 description: Check our Web Forms article about Implemented Inherited Properties.
 slug: splitter/server-side-programming/implemented-inherited-properties
+components: ["splitter"]
 tags: implemented,inherited,properties
 published: True
 position: 2

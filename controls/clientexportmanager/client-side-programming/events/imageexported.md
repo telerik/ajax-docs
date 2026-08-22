@@ -3,6 +3,7 @@ title: ImageExported
 page_title: ImageExported - RadClientExportManager
 description: Check our Web Forms article about ImageExported.
 slug: clientexportmanager/client-side-programming/events/imageexported
+components: ["clientexportmanager"]
 tags: imageexported
 published: True
 position: 4

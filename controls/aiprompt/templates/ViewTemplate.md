@@ -3,6 +3,7 @@ title: View Template
 page_title: AIPrompt View Template
 description: "Learn about how to use the Prompt View Template with the WebForms AIPrompt"
 slug: templates/viewtemplate
+components: ["aiprompt"]
 position: 3
 ---
 

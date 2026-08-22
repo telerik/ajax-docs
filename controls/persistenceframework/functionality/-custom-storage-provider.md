@@ -3,6 +3,7 @@ title:  Custom Storage Provider
 page_title: Custom Storage Provider - RadPersistenceFramework
 description: Check our Web Forms article about Custom Storage Provider.
 slug: persistenceframework/functionality/-custom-storage-provider
+components: ["persistenceframework"]
 tags: custom,storage,provider
 published: True
 position: 0

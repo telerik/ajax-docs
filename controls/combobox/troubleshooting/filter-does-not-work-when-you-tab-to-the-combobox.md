@@ -3,6 +3,7 @@ title: Filter Does Not Work when You Tab to the Combobox
 page_title: Filter Does Not Work when You Tab to the Combobox - RadComboBox
 description: Check our Web Forms article about Filter Does Not Work when You Tab to the Combobox.
 slug: combobox/troubleshooting/filter-does-not-work-when-you-tab-to-the-combobox
+components: ["combobox"]
 tags: filter,does,not,work,when,you,tab,to,the,combobox
 published: True
 position: 9

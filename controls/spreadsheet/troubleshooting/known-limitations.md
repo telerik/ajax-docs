@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadSpreadsheet
 description: Check our Web Forms article about Known Limitations.
 slug: spreadsheet/troubleshooting/known-limitations
+components: ["spreadsheet"]
 tags: known,limitations
 published: True
 position: 0

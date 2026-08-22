@@ -3,6 +3,7 @@ title: Separators
 page_title: Separators - RadPanelBar
 description: Check our Web Forms article about Separators.
 slug: panelbar/appearance-and-styling/separators
+components: ["panelbar"]
 tags: separators
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadDragDropManager
 description: RadDragDropManager as the new Tool to create Drag and Drop scenarios
 slug: dragdropmanager/overview
+components: ["dragdropmanager"]
 tags: overview, drag and drop, dragdropmanager, drag, drop
 published: True
 position: 0

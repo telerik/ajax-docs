@@ -3,6 +3,7 @@ title: Headers
 page_title: Headers - RadComboBox
 description: Check our Web Forms article about Headers.
 slug: combobox/templates/headers
+components: ["combobox"]
 tags: headers
 published: True
 position: 2

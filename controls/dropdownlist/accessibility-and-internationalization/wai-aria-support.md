@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadDropDownList
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: dropdownlist/accessibility-and-internationalization/wai-aria-support
+components: ["dropdownlist"]
 tags: wai-aria,support
 published: True
 position: 1

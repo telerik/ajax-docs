@@ -3,6 +3,7 @@ title: OnClientTemplateDataBound
 page_title: OnClientTemplateDataBound - RadListBox
 description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: listbox/client-side-programming/events/onclienttemplatedatabound
+components: ["listbox"]
 tags: onclienttemplatedatabound
 published: True
 position: 26

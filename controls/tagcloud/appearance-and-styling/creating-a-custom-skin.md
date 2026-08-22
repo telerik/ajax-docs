@@ -3,6 +3,7 @@ title: Creating a Custom Skin
 page_title: Creating a Custom Skin - RadTagCloud
 description: Check our Web Forms article about Creating a Custom Skin.
 slug: tagcloud/appearance-and-styling/creating-a-custom-skin
+components: ["tagcloud"]
 tags: creating,a,custom,skin
 published: True
 position: 1

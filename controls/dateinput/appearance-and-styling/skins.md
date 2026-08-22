@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadDateInput
 description: Check our Web Forms article about Skins.
 slug: raddateinput/appearance-and-styling/skins
+components: ["dateinput"]
 tags: skins
 published: True
 position: 2

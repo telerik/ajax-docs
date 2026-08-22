@@ -3,6 +3,7 @@ title: Auto Upload a File
 page_title: Auto Upload a File - RadUpload
 description: Check our Web Forms article about Auto Upload a File.
 slug: upload/how-to/auto-upload-a-file
+components: ["upload"]
 tags: auto,upload,a,file
 published: True
 position: 1

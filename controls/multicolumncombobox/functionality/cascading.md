@@ -3,6 +3,7 @@ title: Cascading
 page_title: Cascading - RadMultiColumnComboBox
 description: Check our Web Forms article about Cascading.
 slug: multicolumncombobox/functionality/cascading
+components: ["multicolumncombobox"]
 tags: cascading
 published: True
 position: 3

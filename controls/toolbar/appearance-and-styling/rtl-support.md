@@ -3,6 +3,7 @@ title: RTL support
 page_title: RTL support - RadToolBar
 description: Check our Web Forms article about RTL support.
 slug: toolbar/appearance-and-styling/rtl-support
+components: ["toolbar"]
 tags: rtl,support
 published: True
 position: 10

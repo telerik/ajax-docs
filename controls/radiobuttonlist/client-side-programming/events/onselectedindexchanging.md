@@ -3,6 +3,7 @@ title: OnSelectedIndexChanging
 page_title: OnSelectedIndexChanging - RadRadioButtonList
 description: Check our Web Forms article about OnSelectedIndexChanging.
 slug: radiobuttonlist/client-side-programming/events/onselectedindexchanging
+components: ["radiobuttonlist"]
 tags: onselectedindexchanging
 published: True
 position: 6

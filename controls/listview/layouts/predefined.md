@@ -3,6 +3,7 @@ title: Predefined
 page_title: Predefined - RadListView
 description: Check our Web Forms article about Predefined.
 slug: listview/layouts/predefined
+components: ["listview"]
 tags: predefined
 published: True
 position: 0

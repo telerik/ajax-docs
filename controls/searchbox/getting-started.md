@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadSearchBox
 description: Check our Web Forms article about Getting Started.
 slug: searchbox/getting-started
+components: ["searchbox"]
 tags: getting,started
 published: True
 position: 1

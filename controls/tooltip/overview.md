@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTooltip Overview
 description: Explore the Tooltip control and its features for displaying contextual information on hover or focus.
 slug: tooltip/overview
+components: ["tooltip"]
 tags: overview
 published: True
 position: 0

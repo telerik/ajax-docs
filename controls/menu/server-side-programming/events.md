@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadMenu
 description: Check our Web Forms article about Events.
 slug: menu/server-side-programming/events
+components: ["menu"]
 tags: events
 published: True
 position: 0

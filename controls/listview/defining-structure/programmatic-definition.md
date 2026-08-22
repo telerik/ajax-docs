@@ -3,6 +3,7 @@ title: Programmatic Definition
 page_title: Programmatic Definition - RadListView
 description: Check our Web Forms article about Programmatic Definition.
 slug: listview/defining-structure/programmatic-definition
+components: ["listview"]
 tags: programmatic,definition
 published: True
 position: 1

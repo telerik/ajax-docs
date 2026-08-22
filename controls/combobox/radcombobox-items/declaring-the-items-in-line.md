@@ -3,6 +3,7 @@ title: Declaring the Items In-line
 page_title: Declaring the Items In-line - RadComboBox
 description: Check our Web Forms article about Declaring the Items In-line.
 slug: combobox/radcombobox-items/declaring-the-items-in-line
+components: ["combobox"]
 tags: declaring,the,items,in-line
 published: True
 position: 1

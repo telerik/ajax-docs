@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadButton
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: button/accessibility-and-internationalization/wai-aria-support
+components: ["button"]
 tags: wai-aria,support
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: ColumnCreated
 page_title: ColumnCreated - RadGantt
 description: Check our Web Forms article about ColumnCreated.
 slug: gantt/server-side-programming/events/columncreated
+components: ["gantt"]
 tags: columncreated
 published: True
 position: 2

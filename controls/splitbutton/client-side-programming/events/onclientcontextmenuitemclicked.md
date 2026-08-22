@@ -3,6 +3,7 @@ title: OnClientContextMenuItemClicked
 page_title: OnClientContextMenuItemClicked - RadSplitButton
 description: Check our Web Forms article about OnClientContextMenuItemClicked.
 slug: splitbutton/client-side-programming/events/onclientcontextmenuitemclicked
+components: ["splitbutton"]
 tags: onclientcontextmenuitemclicked
 published: True
 position: 7

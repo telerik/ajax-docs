@@ -3,6 +3,7 @@ title: Overview
 page_title: RadProgressArea Overview
 description: Check our Web Forms article about Overview.
 slug: progressarea/overview
+components: ["progressarea"]
 tags: overview
 published: True
 position: 0

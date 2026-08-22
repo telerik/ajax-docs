@@ -3,6 +3,7 @@ title: RibbonBarGalleryCategory
 page_title: RibbonBarGalleryCategory - RadRibbonBar
 description: Check our Web Forms article about RibbonBarGalleryCategory.
 slug: ribbonbar/radribbonbar-items/ribbonbargallery/ribbonbargallerycategory
+components: ["ribbonbar"]
 tags: ribbonbargallerycategory
 published: True
 position: 1

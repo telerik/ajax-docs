@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadImageButton
 description: Check our Web Forms article about Overview.
 slug: imagebutton/client-side-programming/events/overview
+components: ["imagebutton"]
 tags: overview
 published: True
 position: 0

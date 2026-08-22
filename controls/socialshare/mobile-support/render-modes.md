@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadSocialShare
 description: Check our Web Forms article about Render Modes.
 slug: socialshare/mobile-support/render-modes
+components: ["socialshare"]
 tags: render,modes,social share
 published: True
 position: 1

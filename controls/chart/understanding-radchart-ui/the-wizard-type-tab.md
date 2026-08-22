@@ -3,6 +3,7 @@ title: The Wizard Type Tab
 page_title: The Wizard Type Tab - RadChart
 description: Check our Web Forms article about The Wizard Type Tab.
 slug: chart/understanding-radchart-ui/the-wizard-type-tab
+components: ["chart"]
 tags: the,wizard,type,tab
 published: True
 position: 3

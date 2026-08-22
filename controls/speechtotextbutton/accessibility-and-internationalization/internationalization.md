@@ -3,6 +3,7 @@ title: Internationalization
 page_title: SpeechToTextButton Internationalization 
 description: "Internationalization of the Telerik WebForms SpeechToTextButton component."
 slug: speechtotextbutton/accessibility/internationalization
+components: ["speechtotextbutton"]
 tags: internationalization
 position: 1
 ---

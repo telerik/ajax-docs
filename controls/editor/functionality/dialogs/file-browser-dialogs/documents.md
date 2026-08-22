@@ -3,6 +3,7 @@ title: Documents
 page_title: Documents - RadEditor
 description: Check our Web Forms article about Documents.
 slug: editor/functionality/dialogs/file-browser-dialogs/documents
+components: ["editor"]
 tags: documents
 published: True
 position: 2

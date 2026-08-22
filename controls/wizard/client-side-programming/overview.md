@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadWizard
 description: Check our Web Forms article about Overview.
 slug: wizard/client-side-programming/overview
+components: ["wizard"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnEntryRemoved
 page_title: OnEntryRemoved - RadDropDownTree
 description: Check our Web Forms article about OnEntryRemoved.
 slug: dropdowntree/server-side-programming/events/onentryremoved
+components: ["dropdowntree"]
 tags: onentryremoved
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Using CSS Styles
 page_title: Using CSS Styles - RadEditor
 description: Check our Web Forms article about Using CSS Styles.
 slug: editor/functionality/toolbars/dropdowns/using-css-styles
+components: ["editor"]
 tags: using,css,styles
 published: True
 position: 8

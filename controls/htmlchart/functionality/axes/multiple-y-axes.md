@@ -3,6 +3,7 @@ title: Multiple Y-Axes
 page_title: Multiple Y-Axes - RadHtmlChart
 description: Check our Web Forms article about Multiple Y-Axes.
 slug: htmlchart/functionality/axes/multiple-y-axes
+components: ["htmlchart"]
 tags: multiple,y-axes
 published: True
 position: 2

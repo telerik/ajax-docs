@@ -3,6 +3,7 @@ title: Binding to OData
 page_title: Binding to OData - RadComboBox
 description: Check our Web Forms article about Binding to OData.
 slug: combobox/data-binding/client-side/binding-to-odata
+components: ["combobox"]
 previous_url: controls/combobox/data-binding/binding-to-odata
 tags: data-binding, client-side, binding, to, odata
 published: True

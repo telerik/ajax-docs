@@ -3,6 +3,7 @@ title: getting width
 page_title: getting width - RadEditor
 description: Check our Web Forms article about getting width.
 slug: editor/client-side-programming/methods/getting-width
+components: ["editor"]
 tags: getting,width
 published: True
 position: 4

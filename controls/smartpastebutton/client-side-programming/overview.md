@@ -3,6 +3,7 @@ title: Overview
 page_title: SmartPasteButton Client-side Programming
 description: "Overview of the Client-side APIs you can use to create and configure the Telerik WebForms SmartPasteButton Control."
 slug: smartpastebutton/client-side-programming/overview
+components: ["smartpastebutton"]
 tags: client-side, client-side programming
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Changes and Backward Compatibility
 page_title: Changes and Backward Compatibility - RadButton
 description: Check our Web Forms article about Changes and Backward Compatibility.
 slug: button/changes-and-backward-compatibility
+components: ["button"]
 tags: changes,and,backward,compatibility
 published: True
 position: 1

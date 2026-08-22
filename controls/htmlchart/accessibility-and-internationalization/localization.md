@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadHtmlChart
 description: Check our Web Forms article about Localization.
 slug: htmlchart/accessibility-and-internationalization/localization
+components: ["htmlchart"]
 tags: localization
 published: True
 position: 0

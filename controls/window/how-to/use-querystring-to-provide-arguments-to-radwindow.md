@@ -3,6 +3,7 @@ title: Use Querystring to Provide Arguments to RadWindow
 page_title: Use Querystring to Provide Arguments to RadWindow - RadWindow
 description: Check our Web Forms article about Use Querystring to Provide Arguments to RadWindow.
 slug: window/how-to/use-querystring-to-provide-arguments-to-radwindow
+components: ["window"]
 tags: use,querystring,to,provide,arguments,to,radwindow
 published: True
 position: 1

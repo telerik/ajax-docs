@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadTileList
 description: Check our Web Forms article about Overview.
 slug: tilelist/data-binding/overview
+components: ["tilelist"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnError
 page_title: OnError - RadInputManager
 description: Check our Web Forms article about OnError.
 slug: radinputmanager/client-side-events/onerror
+components: ["inputmanager"]
 tags: onerror
 published: True
 position: 3

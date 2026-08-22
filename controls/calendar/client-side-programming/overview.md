@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadCalendar
 description: Check our Web Forms article about RadCalendar Client-side Programming Overview.
 slug: calendar/client-side-programming/overview
+components: ["calendar"]
 tags: overview
 published: True
 position: 0

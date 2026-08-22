@@ -3,6 +3,7 @@ title: OnClientSeriesHovered(deprecated)
 page_title: OnClientSeriesHovered(deprecated) - RadHtmlChart
 description: Check our Web Forms article about OnClientSeriesHovered(deprecated).
 slug: htmlchart/client-side-programming/events/onclientserieshovered(deprecated)
+components: ["htmlchart"]
 tags: onclientserieshovered(deprecated)
 published: True
 position: 2

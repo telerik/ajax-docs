@@ -3,6 +3,7 @@ title: OnPivotGridCreating
 page_title: OnPivotGridCreating - RadPivotGrid
 description: Check our Web Forms article about OnPivotGridCreating.
 slug: pivotgrid/client-side-programming/events/onpivotgridcreating
+components: ["pivotgrid"]
 tags: onpivotgridcreating
 published: True
 position: 1

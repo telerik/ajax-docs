@@ -3,6 +3,7 @@ title: Setting Explicit Items
 page_title: Setting Explicit Items - RadHtmlChart
 description: Check our Web Forms article about Setting Explicit Items.
 slug: htmlchart/data-binding/setting-explicit-items
+components: ["htmlchart"]
 tags: setting,explicit,items
 published: True
 position: 8

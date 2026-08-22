@@ -3,6 +3,7 @@ title: Drag and Drop
 page_title: Drag and Drop - RadOrgChart
 description: Check our Web Forms article about Drag and Drop.
 slug: orgchart/functionality/drag-and-drop
+components: ["orgchart"]
 tags: drag,and,drop
 published: True
 position: 5

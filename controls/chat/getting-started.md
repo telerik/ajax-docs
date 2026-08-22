@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadChat
 description: Check our Web Forms article about Getting Started.
 slug: chat/getting-started
+components: ["chat"]
 tags: getting,started
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: TextTile Object
 page_title: TextTile Object - RadTile
 description: Check our Web Forms article about TextTile Object.
 slug: tilelist/tiles/client-side-programming/texttile-object
+components: ["tilelist"]
 tags: texttile,object
 published: True
 position: 7

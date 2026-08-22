@@ -3,6 +3,7 @@ title: Properties and Events
 page_title: Properties and Events - RadSwitch
 description: Check our Web Forms article about Properties and Events.
 slug: switch/server-side-programming/properties-and-events
+components: ["switch"]
 tags: properties,and,events
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnValueChanging
 page_title: OnValueChanging - RadNumericTextBox
 description: Check our Web Forms article about OnValueChanging.
 slug: numerictextbox/client-side-programming/events/onvaluechanging
+components: ["numerictextbox"]
 tags: onvaluechanging
 published: True
 position: 16

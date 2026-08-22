@@ -3,6 +3,7 @@ title: Set Properties
 page_title: Set Properties - RadEditor
 description: Check our Web Forms article about Set Properties.
 slug: editor/getting-started/set-properties
+components: ["editor"]
 tags: set,properties
 published: True
 position: 2

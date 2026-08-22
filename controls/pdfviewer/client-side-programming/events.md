@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadPdfViewer
 description: Check our Web Forms article about Overview.
 slug: pdfviewer/client-side-programming/events
+components: ["pdfviewer"]
 tags: overview,events
 published: True
 position: 1

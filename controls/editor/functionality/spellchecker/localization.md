@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadEditor
 description: Check our Web Forms article about Localization.
 slug: editor/functionality/spellchecker/localization
+components: ["editor"]
 tags: localization
 published: True
 position: 2

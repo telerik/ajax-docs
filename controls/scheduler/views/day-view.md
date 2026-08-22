@@ -3,6 +3,7 @@ title: Day View
 page_title: Day View - RadScheduler
 description: Check our Web Forms article about Day View.
 slug: scheduler/views/day-view
+components: ["scheduler"]
 tags: day,view
 published: True
 position: 1

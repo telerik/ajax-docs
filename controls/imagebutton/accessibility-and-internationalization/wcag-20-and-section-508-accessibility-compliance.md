@@ -3,6 +3,7 @@ title: WCAG 2.0 and Section 508 Accessibility Compliance
 page_title: WCAG 2.0 and Section 508 Accessibility Compliance - RadImageButton
 description: Check our Web Forms article about WCAG 2.0 and Section 508 Accessibility Compliance.
 slug: imagebutton/accessibility-and-internationalization/wcag-20-and-section-508-accessibility-compliance
+components: ["imagebutton"]
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True
 position: 0

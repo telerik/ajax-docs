@@ -3,6 +3,7 @@ title: Declarative Definition
 page_title: Declarative Definition - RadTreeList
 description: Check our Web Forms article about Declarative Definition.
 slug: treelist/defining-structure/declarative-definition
+components: ["treelist"]
 tags: declarative,definition
 published: True
 position: 0

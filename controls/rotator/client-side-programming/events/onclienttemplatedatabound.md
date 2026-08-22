@@ -3,6 +3,7 @@ title: OnClientTemplateDataBound
 page_title: OnClientTemplateDataBound - RadRotator
 description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: rotator/client-side-programming/events/onclienttemplatedatabound
+components: ["rotator"]
 tags: onclienttemplatedatabound
 published: True
 position: 13

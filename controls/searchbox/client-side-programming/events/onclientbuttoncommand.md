@@ -3,6 +3,7 @@ title: OnClientButtonCommand
 page_title: OnClientButtonCommand - RadSearchBox
 description: Check our Web Forms article about OnClientButtonCommand.
 slug: searchbox/client-side-programming/events/onclientbuttoncommand
+components: ["searchbox"]
 tags: onclientbuttoncommand
 published: True
 position: 3

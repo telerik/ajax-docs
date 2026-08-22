@@ -3,6 +3,7 @@ title: Adaptive Behavior
 page_title: Adaptive Behavior - RadNavigation
 description: Check our Web Forms article about Adaptive Behavior.
 slug: navigation/mobile-support/adaptive-behavior
+components: ["navigation"]
 tags: adaptive,behavior
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientChange
 page_title: RadSpreadsheet Client-side Event
 description: Check our Web Forms article about RadSpreadsheet Client-side Event.
 slug: spreadsheet/client-side-programming/events/onclientchange
+components: ["spreadsheet"]
 tags: spreadsheetevent
 published: True
 position: 1

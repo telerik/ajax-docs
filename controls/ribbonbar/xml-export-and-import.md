@@ -3,6 +3,7 @@ title: XML Export & Import
 page_title: XML Export & Import - RadRibbonBar
 description: Check our Web Forms article about XML Export & Import.
 slug: radribbonbar/xml-export-and-import
+components: ["ribbonbar"]
 tags: xml,export,import
 published: True
 position: 4

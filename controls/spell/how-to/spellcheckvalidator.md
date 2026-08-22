@@ -3,6 +3,7 @@ title: SpellCheckValidator
 page_title: SpellCheckValidator - RadSpell
 description: Check our Web Forms article about SpellCheckValidator.
 slug: spell/how-to/spellcheckvalidator
+components: ["spell"]
 tags: spellcheckvalidator
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: ListView Data with Images from Database
 page_title: ListView Data with Images from Database - RadListView
 description: Check our Web Forms article about ListView Data with Images from Database.
 slug: listview/how-to/listview-data-with-images-from-database
+components: ["listview"]
 tags: listview,data,with,images,from,database
 published: True
 position: 0

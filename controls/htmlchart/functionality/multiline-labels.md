@@ -3,6 +3,7 @@ title: Multiline Labels
 page_title: Multiline Labels - RadHtmlChart
 description: Check our Web Forms article about Multiline Labels.
 slug: htmlchart/functionality/multiline-labels
+components: ["htmlchart"]
 tags: multiline,labels
 published: True
 position: 2

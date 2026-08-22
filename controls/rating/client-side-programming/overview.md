@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadRating
 description: Check our Web Forms article about Overview.
 slug: rating/client-side-programming/overview
+components: ["rating"]
 tags: overview
 published: True
 position: 0

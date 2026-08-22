@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadHtmlChart
 description: Check our Web Forms article about Common Issues.
 slug: htmlchart/troubleshooting/common-issues
+components: ["htmlchart"]
 tags: common,issues
 published: True
 position: 0

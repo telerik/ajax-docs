@@ -3,6 +3,7 @@ title: Chart Skin
 page_title: Chart Skin - RadChart
 description: Check our Web Forms article about Chart Skin.
 slug: chart/styling-radcharts/chart-skin
+components: ["chart"]
 tags: chart,skin
 published: True
 position: 3

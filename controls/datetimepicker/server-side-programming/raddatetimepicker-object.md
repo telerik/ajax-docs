@@ -3,6 +3,7 @@ title: RadDateTimePicker Object
 page_title: RadDateTimePicker Server-Side Objects - RadDateTimePicker
 description: Check our Web Forms article about RadDateTimePicker Server-Side Objects.
 slug: datetimepicker/server-side-programming/raddatetimepicker-object
+components: ["datetimepicker"]
 tags: raddatetimepicker,server-side,object
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadSplitButton
 description: Check our Web Forms article about Overview.
 slug: splitbutton/server-side-programming/overview
+components: ["splitbutton"]
 tags: overview
 published: True
 position: 0

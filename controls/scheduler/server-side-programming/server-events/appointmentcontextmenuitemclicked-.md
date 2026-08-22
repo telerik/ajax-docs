@@ -3,6 +3,7 @@ title: AppointmentContextMenuItemClicked
 page_title: AppointmentContextMenuItemClicked - RadScheduler
 description: Check our Web Forms article about AppointmentContextMenuItemClicked.
 slug: scheduler/server-side-programming/server-events/appointmentcontextmenuitemclicked-
+components: ["scheduler"]
 tags: appointmentcontextmenuitemclicked,
 published: True
 position: 21

@@ -3,6 +3,7 @@ title: RadUrid
 page_title: RadUrid - RadProgressArea
 description: Check our Web Forms article about RadUrid.
 slug: progressarea/what-is-radurid
+components: ["progressarea"]
 tags: radurid
 published: True
 position: 7

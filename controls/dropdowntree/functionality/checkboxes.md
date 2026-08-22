@@ -3,6 +3,7 @@ title: CheckBoxes
 page_title: CheckBoxes - RadDropDownTree
 description: Check our Web Forms article about CheckBoxes.
 slug: dropdowntree/functionality/checkboxes
+components: ["dropdowntree"]
 tags: checkboxes
 published: True
 position: 0

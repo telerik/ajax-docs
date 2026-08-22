@@ -3,6 +3,7 @@ title: Event Sequence
 page_title: Event Sequence - RadListView
 description: Check our Web Forms article about Event Sequence.
 slug: listview/control-lifecycle/event-sequence
+components: ["listview"]
 tags: event,sequence
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Design Time Support for RadMultiPage
 page_title: Design Time Support for RadMultiPage - RadTabStrip
 description: Check our Web Forms article about Design Time Support for RadMultiPage.
 slug: tabstrip/design-time/design-time-support-for-radmultipage
+components: ["tabstrip"]
 tags: design,time,support,for,radmultipage
 published: True
 position: 4

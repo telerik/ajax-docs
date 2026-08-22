@@ -3,6 +3,7 @@ title: Filtering
 page_title: Filtering - RadMultiSelect
 description: Check our Web Forms article about Filtering.
 slug: multiselect/functionality/filtering
+components: ["multiselect"]
 tags: filtering,client,server
 published: True
 position: 2

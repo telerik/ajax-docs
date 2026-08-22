@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadRadioButtonList
 description: Learn about the RadioButtonList control and its features for presenting a list of selectable radio buttons.
 slug: radiobuttonlist/overview
+components: ["radiobuttonlist"]
 tags: overview
 published: True
 position: 0

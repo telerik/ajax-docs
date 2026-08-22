@@ -3,6 +3,7 @@ title: Icons
 page_title: Icons - RadStepper
 description: Use embedded icons in RadStepper via the icon properties - `Icon` and `SuccessIcon`. Customize the icon element further with the `ClientIconTemplate`.
 slug: stepper/functionality/icons
+components: ["stepper"]
 tags: icons
 published: True
 position: 1

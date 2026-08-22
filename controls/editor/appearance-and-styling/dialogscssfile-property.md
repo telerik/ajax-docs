@@ -3,6 +3,7 @@ title: DialogsCssFile Property
 page_title: DialogsCssFile Property - RadEditor
 description: Check our Web Forms article about DialogsCssFile Property.
 slug: editor/appearance-and-styling/dialogscssfile-property
+components: ["editor"]
 tags: dialogscssfile,property
 published: True
 position: 1

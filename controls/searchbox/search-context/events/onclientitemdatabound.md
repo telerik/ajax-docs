@@ -3,6 +3,7 @@ title: OnClientItemDataBound
 page_title: OnClientItemDataBound - RadSearchBox
 description: Check our Web Forms article about OnClientItemDataBound.
 slug: searchbox/search-context/events/onclientitemdatabound
+components: ["searchbox"]
 tags: onclientitemdatabound
 published: True
 position: 0

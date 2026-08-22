@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadDataPager
 description: Check our Web Forms article about Skins.
 slug: datapager/appearance-and-styling/skins
+components: ["datapager"]
 tags: skins
 published: True
 position: 0

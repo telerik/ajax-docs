@@ -3,6 +3,7 @@ title: Import from MS Project
 page_title: Import from MS Project - RadGantt
 description: Check our Web Forms article about Import from MS Project.
 slug: gantt/import/import-from-ms-project
+components: ["gantt"]
 tags: import,from,ms,project
 published: True
 position: 0

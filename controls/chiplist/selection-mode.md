@@ -3,6 +3,7 @@ title: Selection Mode
 page_title: ChipList Selection Mode
 description: "Learn how to set different selection modes for the Telerik WebForms ChipList component."
 slug: chiplist/selection-mode
+components: ["chiplist"]
 tags: chiplist,selection mode
 published: True
 position: 4

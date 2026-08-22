@@ -3,6 +3,7 @@ title: OnClientFileOpen
 page_title: OnClientFileOpen - RadFileExplorer
 description: Check our Web Forms article about OnClientFileOpen.
 slug: fileexplorer/client-side-programming/events/onclientfileOpen
+components: ["fileexplorer"]
 tags: onclientdelete
 published: True
 position: 7

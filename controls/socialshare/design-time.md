@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadSocialShare
 description: Check our Web Forms article about Design Time.
 slug: socialshare/design-time
+components: ["socialshare"]
 tags: design,time
 published: True
 position: 3

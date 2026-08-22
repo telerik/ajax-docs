@@ -3,6 +3,7 @@ title: Distorted Appearance
 page_title: Distorted Appearance - RadPushButton
 description: Check our Web Forms article about Distorted Appearance.
 slug: pushbutton/troubleshooting/distorted-appearance
+components: ["pushbutton"]
 tags: distorted,appearance
 published: True
 position: 1

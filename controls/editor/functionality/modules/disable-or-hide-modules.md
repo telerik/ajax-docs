@@ -3,6 +3,7 @@ title: Disable or Hide Modules
 page_title: Disable or Hide Modules - RadEditor
 description: Check our Web Forms article about Disable or Hide Modules.
 slug: editor/functionality/modules/disable-or-hide-modules
+components: ["editor"]
 tags: disable,or,hide,modules
 published: True
 position: 1

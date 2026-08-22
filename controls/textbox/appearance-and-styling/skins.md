@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadTextBox
 description: Check our Web Forms article about Skins.
 slug: radtextbox/appearance-and-styling/skins
+components: ["textbox"]
 tags: skins
 published: True
 position: 2

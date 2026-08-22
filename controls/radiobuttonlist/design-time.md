@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadRadioButtonList
 description: Check our Web Forms article about Design Time.
 slug: radiobuttonlist/design-time
+components: ["radiobuttonlist"]
 tags: design,time
 published: True
 position: 3

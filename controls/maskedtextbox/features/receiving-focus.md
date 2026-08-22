@@ -3,6 +3,7 @@ title: Receiving Focus
 page_title: Receiving Focus - RadMaskedTextBox
 description: Check our Web Forms article about Receiving Focus.
 slug: radmaskedtextbox/features/receiving-focus
+components: ["maskedtextbox"]
 tags: receiving,focus
 published: True
 position: 5

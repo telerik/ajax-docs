@@ -3,6 +3,7 @@ title: Using Custom Attributes Server-side
 page_title: Using Custom Attributes at the Server - RadTreeView
 description: Check our Web Forms article about Using Custom Attributes at the Server.
 slug: treeview/custom-attributes/using-custom-attributes-at-the-server
+components: ["treeview"]
 tags: using,custom,attributes,at,the,server
 published: True
 position: 2

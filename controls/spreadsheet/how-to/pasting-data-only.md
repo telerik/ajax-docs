@@ -3,6 +3,7 @@ title: Paste Data-Only
 page_title: Paste Data-Only - RadSpreadsheet
 description: Check our Web Forms article about How to paste data-only into the RadSpreadsheet, stripping all styles.
 slug: spreadsheet/how-to/pasting-data-only
+components: ["spreadsheet"]
 tags: pasting,data,only,spreadsheet
 published: True
 position: 1

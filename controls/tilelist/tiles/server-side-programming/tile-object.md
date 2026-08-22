@@ -3,6 +3,7 @@ title: Tile Object
 page_title: Tile Object - RadTile
 description: Check our Web Forms article about Tile Object.
 slug: tilelist/tiles/server-side-programming/tile-object
+components: ["tilelist"]
 tags: tile,object
 published: True
 position: 0

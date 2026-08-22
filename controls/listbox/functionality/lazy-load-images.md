@@ -3,6 +3,7 @@ title: Image Lazy Loading
 page_title: Image Lazy Loading - RadListBox
 description: Check our Web Forms article about Image Lazy Loading.
 slug: listbox/functionality/image-lazy-loading
+components: ["listbox"]
 tags: image,lazy,loading,performance
 published: True
 position: 8

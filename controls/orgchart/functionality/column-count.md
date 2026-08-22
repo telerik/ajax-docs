@@ -3,6 +3,7 @@ title: Column Count
 page_title: Column Count - RadOrgChart
 description: Check our Web Forms article about Column Count.
 slug: orgchart/functionality/column-count
+components: ["orgchart"]
 tags: column,count
 published: True
 position: 3

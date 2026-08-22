@@ -3,6 +3,7 @@ title: OnDateClick
 page_title: OnDateClick - RadCalendar
 description: Check our Web Forms article about OnDateClick.
 slug: calendar/client-side-programming/events/ondateclick
+components: ["calendar"]
 tags: ondateclick
 published: True
 position: 6

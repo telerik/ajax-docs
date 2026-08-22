@@ -3,6 +3,7 @@ title: Server-Side
 page_title: Server-Side Data Binding - RadMultiColumnComboBox
 description: Check our Web Forms article about Server data binding overview of RadMultiColumnComboBox.
 slug: multicolumncombobox/data-binding/server-side
+components: ["multicolumncombobox"]
 tags: data,binding,overview,server,side,list,object,data,table,sqldatasource,declarative
 published: True
 position: 0

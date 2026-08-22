@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadFileExplorer
 description: Check our Web Forms article about Localization.
 slug: fileexplorer/accessibility-and-internationalization/localization
+components: ["fileexplorer"]
 tags: localization
 published: True
 position: 3

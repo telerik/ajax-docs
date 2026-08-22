@@ -3,6 +3,7 @@ title: Layout Templates
 page_title: Layout Templates - RadDataForm
 description: Check our Web Forms article about Layout Templates.
 slug: dataform/functionality/layout-templates
+components: ["dataform"]
 tags: layout,templates
 published: True
 position: 0

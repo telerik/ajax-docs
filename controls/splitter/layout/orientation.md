@@ -3,6 +3,7 @@ title: Orientation
 page_title: Orientation - RadSplitter
 description: Check our Web Forms article about Orientation.
 slug: splitter/layout/orientation
+components: ["splitter"]
 tags: orientation
 published: True
 position: 1

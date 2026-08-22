@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadCaptcha
 description: Check our Web Forms article about Localization.
 slug: captcha/accessibility-and-internationalization/localization
+components: ["captcha"]
 tags: localization
 published: True
 position: 2

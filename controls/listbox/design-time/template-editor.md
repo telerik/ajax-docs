@@ -3,6 +3,7 @@ title: Template Editor
 page_title: Template Editor - RadListBox
 description: Check our Web Forms article about Template Editor.
 slug: listbox/design-time/template-editor
+components: ["listbox"]
 tags: template,editor
 published: True
 position: 2

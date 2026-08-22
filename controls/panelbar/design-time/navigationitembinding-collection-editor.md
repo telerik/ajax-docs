@@ -3,6 +3,7 @@ title: NavigationItemBinding Collection Editor
 page_title: NavigationItemBinding Collection Editor - RadPanelBar
 description: Check our Web Forms article about NavigationItemBinding Collection Editor.
 slug: panelbar/design-time/navigationitembinding-collection-editor
+components: ["panelbar"]
 tags: navigationitembinding,collection,editor
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Image Export
 page_title: Image Export - RadSignature
 description: Check our Web Forms article about exporting of RadSignature as PNG image.
 slug: signature/functionality/image-export
+components: ["signature"]
 published: True
 position: 1
 ---

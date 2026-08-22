@@ -3,6 +3,7 @@ title: Ticks
 page_title: Ticks - RadChart
 description: Check our Web Forms article about Ticks.
 slug: chart/understanding-radchart-elements/ticks
+components: ["chart"]
 tags: ticks
 published: True
 position: 11

@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadRotator
 description: Check our Web Forms article about Design Time.
 slug: rotator/design-time
+components: ["rotator"]
 tags: design,time
 published: True
 position: 3

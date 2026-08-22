@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadMultiColumnComboBox
 description: Check our Web Forms article about Getting Started.
 slug: multicolumncombobox/getting-started
+components: ["multicolumncombobox"]
 tags: getting,started,
 published: True
 position: 1

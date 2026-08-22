@@ -3,6 +3,7 @@ title: OnColumnResized
 page_title: OnColumnResized - RadTreeList
 description: Check our Web Forms article about OnColumnResized Event.
 slug: treelist/client-side-programming/Events/OnColumnResized
+components: ["treelist"]
 tags: events,OnColumnResized
 published: True
 position: 1

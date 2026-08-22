@@ -3,6 +3,7 @@ title: Using Amazon SDK v2
 page_title: Using Amazon SDK v2 - RadCloudUpload
 description: Check our Web Forms article about Changes and backward compatibility.
 slug: cloudupload/how-to/using-amazonsdk-version2
+components: ["cloudupload"]
 tags: using,amazon,SDK,v2
 published: True
 position: 6

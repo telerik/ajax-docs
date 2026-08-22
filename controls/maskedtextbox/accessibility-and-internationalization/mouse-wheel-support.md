@@ -3,6 +3,7 @@ title: Mouse Wheel Support
 page_title: Mouse Wheel Support - RadMaskedTextBox
 description: Check our Web Forms article about Mouse Wheel Support.
 slug: radmaskedtextbox/accessibility-and-internationalization/mouse-wheel-support
+components: ["maskedtextbox"]
 tags: mouse,wheel,support
 published: True
 position: 3

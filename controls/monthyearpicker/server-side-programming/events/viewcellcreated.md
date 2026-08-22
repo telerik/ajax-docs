@@ -3,6 +3,7 @@ title: ViewCellCreated
 page_title: ViewCellCreated - RadMonthYearPicker
 description: Check our Web Forms article about ViewCellCreated.
 slug: monthyearpicker/server-side-programming/server-side-events/viewcellcreated
+components: ["monthyearpicker"]
 tags: viewcellcreated
 published: True
 position: 2

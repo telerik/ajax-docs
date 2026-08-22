@@ -3,6 +3,7 @@ title: Properties
 page_title: Avatar Server-side Properties
 description: "The Server-side properties of the WebForms Avatar component."
 slug: avatar/server-side-programming/properties
+components: ["avatar"]
 tags: properties
 published: True
 position: 1

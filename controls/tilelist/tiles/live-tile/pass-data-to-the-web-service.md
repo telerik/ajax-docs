@@ -3,6 +3,7 @@ title: Pass Data to the Web Service
 page_title: Pass Data to the Web Service - RadTile
 description: Check our Web Forms article about Pass Data to the Web Service.
 slug: tilelist/tiles/live-tile/pass-data-to-the-web-service
+components: ["tilelist"]
 tags: pass,data,to,the,web,service
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadStyleSheetManager Overview
 description: Check our Web Forms article about Overview.
 slug: stylesheetmanager/overview
+components: ["stylesheetmanager"]
 tags: overview
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Properties
 page_title: OTPInput JavaScript Properties
 description: "JavaScript properties and methods of the Telerik WebForms OTPInput component."
 slug: otpinput/client-side-programming/properties
+components: ["otpinput"]
 tags: properties,otpinput
 published: True
 position: 1

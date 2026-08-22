@@ -3,6 +3,7 @@ title: ShowMoreResultsBox/Virtual Scrolling
 page_title: ShowMoreResultsBox/Virtual Scrolling - RadComboBox
 description: Check our Web Forms article about ShowMoreResultsBox/Virtual Scrolling.
 slug: combobox/load-on-demand/showmoreresultsbox-virtual-scrolling
+components: ["combobox"]
 tags: showmoreresultsbox/virtual,scrolling
 published: True
 position: 5

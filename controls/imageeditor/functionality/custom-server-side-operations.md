@@ -3,6 +3,7 @@ title: Custom Server-side Operations
 page_title: Custom Server-side Operations - RadImageEditor
 description: Check our Web Forms article about Custom Server-side Operations.
 slug: imageeditor/functionality/custom-server-side-operations
+components: ["imageeditor"]
 tags: custom,server-side,operations
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Flexible Validation
 page_title: Flexible Validation - RadListView
 description: Check our Web Forms article about Flexible Validation.
 slug: listview/data-editing/flexible-validation
+components: ["listview"]
 tags: flexible,validation
 published: True
 position: 3

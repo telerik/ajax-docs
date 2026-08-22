@@ -3,6 +3,7 @@ title: RadPersistenceManagerProxy
 page_title: RadPersistenceManagerProxy - RadPersistenceFramework
 description: Check our Web Forms article about RadPersistenceManagerProxy.
 slug: persistenceframework/radpersistencemanagerproxy
+components: ["persistenceframework"]
 tags: radpersistencemanagerproxy
 published: True
 position: 4

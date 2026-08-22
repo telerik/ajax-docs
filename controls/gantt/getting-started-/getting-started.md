@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadGantt
 description: Check our Web Forms article about Getting Started.
 slug: gantt/getting-started-/getting-started
+components: ["gantt"]
 tags: getting,started
 published: False
 position: 0

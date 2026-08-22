@@ -3,6 +3,7 @@ title: Overview
 page_title: Badge Overview
 description: Try now the ASP.NET WebForms Badge component to decorate buttons, menus, avatars and other components. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI Badge widget.
 slug: badge/overview
+components: ["badge"]
 tags: badge, overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: OnClientItemClosed
 page_title: OnClientItemClosed - RadMenu
 description: Check our Web Forms article about OnClientItemClosed.
 slug: menu/client-side-programming/events/onclientitemclosed
+components: ["menu"]
 tags: onclientitemclosed
 published: True
 position: 10

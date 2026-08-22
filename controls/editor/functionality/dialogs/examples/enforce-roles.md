@@ -3,6 +3,7 @@ title: Enforce Roles
 page_title: Enforce Roles - RadEditor
 description: Check our Web Forms article about Enforce Roles.
 slug: editor/functionality/dialogs/examples/enforce-roles
+components: ["editor"]
 tags: enforce,roles
 published: True
 position: 8

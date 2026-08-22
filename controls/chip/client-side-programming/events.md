@@ -3,6 +3,7 @@ title: Events
 page_title: Chip Client-side Events
 description: "Client-side Events of the Telerik WebForms Chip component."
 slug: chip/client-side-programming/events
+components: ["chip"]
 tags: chip,javascript,enums
 published: True
 position: 2

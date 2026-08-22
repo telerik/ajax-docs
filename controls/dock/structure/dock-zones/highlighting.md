@@ -3,6 +3,7 @@ title: Highlighting
 page_title: Highlighting - RadDock
 description: Check our Web Forms article about Highlighting.
 slug: dock/structure/dock-zones/highlighting
+components: ["dock"]
 tags: highlighting
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Triggering Spellchecker on Page_Load
 page_title: Triggering Spellchecker on Page_Load - RadSpell
 description: Check our Web Forms article about Triggering Spellchecker on Page_Load.
 slug: spell/how-to/triggering-spellchecker-on-page_load
+components: ["spell"]
 tags: triggering,spellchecker,on,page_load
 published: True
 position: 2

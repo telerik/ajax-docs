@@ -3,6 +3,7 @@ title: Scrolling
 page_title: Scrolling - RadTileList
 description: Check our Web Forms article about Scrolling.
 slug: tilelist/functionality/scrolling
+components: ["tilelist"]
 tags: scrolling
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadLinkButton
 description: Check our Web Forms article about OnClientLoad.
 slug: linkbutton/client-side-programming/events/onclientload
+components: ["linkbutton"]
 tags: onclientload
 published: True
 position: 2

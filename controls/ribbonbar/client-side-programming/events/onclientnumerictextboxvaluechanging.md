@@ -3,6 +3,7 @@ title: OnClientNumericTextBoxValueChanging
 page_title: OnClientNumericTextBoxValueChanging - RadRibbonBar
 description: Check our Web Forms article about OnClientNumericTextBoxValueChanging.
 slug: ribbonbar/client-side-programming/events/onclientnumerictextboxvaluechanging
+components: ["ribbonbar"]
 tags: onclientnumerictextboxvaluechanging
 published: True
 position: 23

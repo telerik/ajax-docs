@@ -3,6 +3,7 @@ title: AssignmentDelete
 page_title: AssignmentDelete - RadGantt
 description: Check our Web Forms article about AssignmentDelete.
 slug: gantt/server-side-programming/events/assignmentdelete
+components: ["gantt"]
 tags: assignmentdelete
 published: True
 position: 11

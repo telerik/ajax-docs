@@ -3,6 +3,7 @@ title: OnDataBinding
 page_title: OnDataBinding - RadTreeMap
 description: Check our Web Forms article about OnDataBinding.
 slug: treemap/server-side-programming/events/ondatabinding
+components: ["treemap"]
 tags: ondatabinding
 published: False
 position: 1

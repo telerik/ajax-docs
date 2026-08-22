@@ -3,6 +3,7 @@ title: Known Issues
 page_title: Known Issues - RadNotification
 description: Check our Web Forms article about Known Issues.
 slug: notification/troubleshooting/known-issues
+components: ["notification"]
 tags: known,issues
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Data and Layout
 page_title: Data and Layout - RadListView
 description: Check our Web Forms article about Data and Layout.
 slug: listview/templates/data-and-layout
+components: ["listview"]
 tags: data,and,layout
 published: True
 position: 0

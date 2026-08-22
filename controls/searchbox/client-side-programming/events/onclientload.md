@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadSearchBox
 description: Check our Web Forms article about OnClientLoad.
 slug: searchbox/client-side-programming/events/onclientload
+components: ["searchbox"]
 tags: onclientload
 published: True
 position: 4

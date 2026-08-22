@@ -3,6 +3,7 @@ title: On the Server
 page_title: On the Server - RadAutoCompleteBox
 description: Check our Web Forms article about On the Server.
 slug: autocompletebox/working-with-entries/on-the-server
+components: ["autocompletebox"]
 tags: on,the,server
 published: True
 position: 0

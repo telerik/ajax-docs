@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadDock
 description: Check our Web Forms article about Skins.
 slug: dock/appearance-and-styling/skins
+components: ["dock"]
 tags: skins
 published: True
 position: 1

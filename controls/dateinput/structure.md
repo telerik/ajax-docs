@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadDateInput
 description: Check our Web Forms article about Structure.
 slug: /raddateinput/structure
+components: ["dateinput"]
 tags: structure
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Configuration Panel
 page_title: Configuration Panel - RadPivotGrid
 description: Check our Web Forms article about Configuration Panel.
 slug: pivotgrid/fields/configuration-panel
+components: ["pivotgrid"]
 tags: configuration,panel
 published: True
 position: 3

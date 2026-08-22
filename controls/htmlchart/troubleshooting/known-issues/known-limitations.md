@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadHtmlChart
 description: Check our Web Forms article about Known Limitations.
 slug: htmlchart/troubleshooting/known-issues/known-limitations
+components: ["htmlchart"]
 tags: known,limitations
 published: True
 position: 1

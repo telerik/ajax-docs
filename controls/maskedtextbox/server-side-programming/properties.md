@@ -3,6 +3,7 @@ title: Properties
 page_title: Server-side Programming Overview - RadMaskedTextBox
 description: Check our Web Forms article about Overview.
 slug: radmaskedtextbox/server-side-programming/properties
+components: ["maskedtextbox"]
 tags: overview
 published: True
 position: 0

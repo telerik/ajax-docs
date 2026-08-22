@@ -3,6 +3,7 @@ title: Distorted Appearance
 page_title: Distorted Appearance - RadCheckBoxList
 description: Check our Web Forms article about Distorted Appearance.
 slug: checkboxlist/troubleshooting/distorted-appearance
+components: ["checkboxlist"]
 tags: distorted,appearance
 published: True
 position: 1

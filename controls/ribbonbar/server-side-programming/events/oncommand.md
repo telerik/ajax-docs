@@ -3,6 +3,7 @@ title: OnCommand
 page_title: OnCommand - RadRibbonBar
 description: Check our Web Forms article about OnCommand.
 slug: ribbonbar/server-side-programming/events/oncommand
+components: ["ribbonbar"]
 tags: oncommand
 published: True
 position: 3

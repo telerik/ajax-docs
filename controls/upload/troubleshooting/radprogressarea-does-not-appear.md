@@ -3,6 +3,7 @@ title: RadProgressArea Does Not Appear
 page_title: RadProgressArea Does Not Appear - RadUpload
 description: Check our Web Forms article about RadProgressArea Does Not Appear.
 slug: upload/troubleshooting/radprogressarea-does-not-appear
+components: ["upload"]
 tags: radprogressarea,does,not,appear
 published: True
 position: 6

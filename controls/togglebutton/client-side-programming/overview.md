@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadToggleButton
 description: Check our Web Forms article about Overview.
 slug: togglebutton/client-side-programming/overview
+components: ["togglebutton"]
 tags: overview
 published: True
 position: 0

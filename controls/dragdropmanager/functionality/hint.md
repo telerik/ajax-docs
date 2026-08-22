@@ -3,6 +3,7 @@ title: Hint
 page_title: Hint - RadDragDropManager
 description: Hint
 slug: dragdropmanager/functionality/hint
+components: ["dragdropmanager"]
 tags: Hint
 published: True
 ---

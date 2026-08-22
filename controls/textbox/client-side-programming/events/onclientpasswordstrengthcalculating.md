@@ -3,6 +3,7 @@ title: OnClientPasswordStrengthCalculating
 page_title: OnClientPasswordStrengthCalculating - RadTextBox
 description: Check our Web Forms article about OnClientPasswordStrengthCalculating.
 slug: radtextbox/client-side-programming/events/onclientpasswordstrengthcalculating
+components: ["textbox"]
 tags: onclientpasswordstrengthcalculating
 published: True
 position: 3

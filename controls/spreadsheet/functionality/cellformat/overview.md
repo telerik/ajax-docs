@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSpreadsheet Overview
 description: Check our Web Forms article about CellFormat Overview.
 slug: spreadsheet/functionality/cellformat/overview
+components: ["spreadsheet"]
 tags: overview
 published: True
 position: 0

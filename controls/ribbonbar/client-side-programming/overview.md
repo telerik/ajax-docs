@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadRibbonBar
 description: Check our Web Forms article about Overview.
 slug: ribbonbar/client-side-programming/overview
+components: ["ribbonbar"]
 tags: overview
 published: True
 position: 0

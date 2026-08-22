@@ -3,6 +3,7 @@ title: Setting the CSS Class of Tabs
 page_title: Setting the CSS Class of Tabs - RadTabStrip
 description: Check our Web Forms article about Setting the CSS Class of Tabs.
 slug: tabstrip/appearance-and-styling/setting-the-css-class-of-tabs
+components: ["tabstrip"]
 tags: setting,the,css,class,of,tabs
 published: True
 position: 3

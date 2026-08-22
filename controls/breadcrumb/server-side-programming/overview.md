@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadBreadcrumb
 description: Check our Web Forms article about Overview.
 slug: breadcrumb/server-side-programming/overview
+components: ["breadcrumb"]
 tags: overview
 published: True
 position: 0

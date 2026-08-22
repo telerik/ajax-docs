@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadUpload
 description: Check our Web Forms article about Overview.
 slug: upload/client-side-programming/overview
+components: ["upload"]
 tags: overview
 published: True
 position: 0

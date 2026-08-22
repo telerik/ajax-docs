@@ -3,6 +3,7 @@ title: OnClientButtonToggling
 page_title: OnClientButtonToggling - RadRibbonBar
 description: Check our Web Forms article about OnClientButtonToggling.
 slug: ribbonbar/client-side-programming/events/onclientbuttontoggling
+components: ["ribbonbar"]
 tags: onclientbuttontoggling
 published: True
 position: 13

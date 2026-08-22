@@ -3,6 +3,7 @@ title: Data Binding RadChart
 page_title: Data Binding RadChart - RadChart
 description: Check our Web Forms article about Data Binding RadChart.
 slug: chart/building-radcharts/data-binding-radchart
+components: ["chart"]
 tags: data,binding,radchart
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Understanding Skin CSS File
 page_title: Understanding Skin CSS File - RadRotator
 description: Check our Web Forms article about Understanding Skin CSS File.
 slug: rotator/appearance-and-styling/understanding-skin-css-file
+components: ["rotator"]
 tags: understanding,skin,css,file
 published: True
 position: 5

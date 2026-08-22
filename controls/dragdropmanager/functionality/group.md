@@ -3,6 +3,7 @@ title: Groups
 page_title: Groups - RadDragDropManager
 description: Groups
 slug: dragdropmanager/functionality/groups
+components: ["dragdropmanager"]
 tags: Groups
 published: True
 ---

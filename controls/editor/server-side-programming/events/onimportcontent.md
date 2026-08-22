@@ -3,6 +3,7 @@ title: OnImportContent
 page_title: OnImportContent - RadEditor
 description: Check our Web Forms article about OnImportContent.
 slug: editor/server-side-programming/events/onimportcontent
+components: ["editor"]
 tags: onimportcontent
 published: True
 position: 1

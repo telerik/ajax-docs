@@ -3,6 +3,7 @@ title: Multi-View Mode
 page_title: Multi-View Mode - RadCalendar
 description: Check our Web Forms article about Multi-View Mode.
 slug: calendar/functionality/multi-view-mode
+components: ["calendar"]
 tags: multi-view,mode
 published: True
 position: 4

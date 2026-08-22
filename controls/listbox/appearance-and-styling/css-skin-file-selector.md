@@ -3,6 +3,7 @@ title: CSS Skin File Selector
 page_title: CSS Skin File Selector - RadListBox
 description: Check our Web Forms article about CSS Skin File Selector.
 slug: listbox/appearance-and-styling/css-skin-file-selector
+components: ["listbox"]
 tags: css,skin,file,selector
 published: True
 position: 3

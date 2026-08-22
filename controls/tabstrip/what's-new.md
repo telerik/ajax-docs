@@ -3,6 +3,7 @@ title: What's New
 page_title: What's New - RadTabStrip
 description: Check our Web Forms article about What's New.
 slug: tabstrip/what's-new
+components: ["tabstrip"]
 tags: what's,new
 published: False
 position: 4

@@ -3,6 +3,7 @@ title: Default Actions
 page_title: Default Actions - RadChat
 description: Check our Web Forms article about Default Actions.
 slug: chat/functionality/actions
+components: ["chat"]
 tags: default,actions
 published: True
 position: 0

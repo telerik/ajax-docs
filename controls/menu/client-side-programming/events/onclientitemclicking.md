@@ -3,6 +3,7 @@ title: OnClientItemClicking
 page_title: OnClientItemClicking - RadMenu
 description: Check our Web Forms article about OnClientItemClicking.
 slug: menu/client-side-programming/events/onclientitemclicking
+components: ["menu"]
 tags: onclientitemclicking
 published: True
 position: 3

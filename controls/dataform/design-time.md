@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadDataForm
 description: Check our Web Forms article about Design Time.
 slug: dataform/design-time
+components: ["dataform"]
 tags: design,time
 published: True
 position: 2

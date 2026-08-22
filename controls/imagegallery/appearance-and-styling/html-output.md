@@ -3,6 +3,7 @@ title: HTML Output
 page_title: HTML Output - RadImageGallery
 description: Check our Web Forms article about HTML Output.
 slug: imagegallery/appearance-and-styling/html-output
+components: ["imagegallery"]
 tags: html,output
 published: True
 position: 1

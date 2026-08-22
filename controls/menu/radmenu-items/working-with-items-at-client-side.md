@@ -3,6 +3,7 @@ title: Working With Items at Client-side
 page_title: Working With Items at Client-side - RadMenu
 description: Check our Web Forms article about Working With Items at Client-side.
 slug: menu/radmenu-items/working-with-items-at-client-side
+components: ["menu"]
 tags: working,with,items,at,client-side
 published: True
 position: 4

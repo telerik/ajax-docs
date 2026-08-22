@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadMaskedTextBox
 description: Check our Web Forms article about Smart Tag.
 slug: radmaskedtextbox/design-time/smart-tag
+components: ["maskedtextbox"]
 tags: smart,tag
 published: True
 position: 0

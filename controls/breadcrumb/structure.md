@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadBreadcrumb
 description: Check our Web Forms article about Structure.
 slug: breadcrumb/structure
+components: ["breadcrumb"]
 tags: structure
 published: True
 position: 2

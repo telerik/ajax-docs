@@ -3,6 +3,7 @@ title: Series Overview
 page_title: Series Overview - RadChart
 description: Check our Web Forms article about Series Overview.
 slug: chart/understanding-radchart-elements/series-overview
+components: ["chart"]
 tags: series,overview
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: Printing Content
 page_title: Printing Content - RadSplitter
 description: Check our Web Forms article about Printing Content.
 slug: splitter/panes/printing-content
+components: ["splitter"]
 tags: printing,content
 published: True
 position: 3

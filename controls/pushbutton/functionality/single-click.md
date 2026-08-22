@@ -3,6 +3,7 @@ title: Single Click
 page_title: Single Click - RadPushButton
 description: Check our Web Forms article about Single Click.
 slug: pushbutton/functionality/single-click
+components: ["pushbutton"]
 tags: single,click
 published: True
 position: 0

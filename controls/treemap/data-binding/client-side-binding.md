@@ -3,6 +3,7 @@ title: Client-side Binding
 page_title: Client-side Binding - RadTreeMap
 description: Check our Web Forms article about Client-side Binding.
 slug: treemap/data-binding/client-side-binding
+components: ["treemap"]
 tags: client-side,binding
 published: True
 position: 1

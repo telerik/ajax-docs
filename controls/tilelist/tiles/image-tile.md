@@ -3,6 +3,7 @@ title: Image Tile
 page_title: Image Tile - RadTile
 description: Check our Web Forms article about Image Tile.
 slug: tilelist/tiles/image-tile
+components: ["tilelist"]
 tags: image,tile
 published: True
 position: 5

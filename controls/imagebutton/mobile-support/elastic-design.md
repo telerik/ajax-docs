@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadImageButton
 description: Check our Web Forms article about Elastic Design.
 slug: imagebutton/mobile-support/elastic-design
+components: ["imagebutton"]
 tags: elastic,design
 published: True
 position: 1

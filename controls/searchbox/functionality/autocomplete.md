@@ -3,6 +3,7 @@ title: AutoComplete
 page_title: AutoComplete - RadSearchBox
 description: Check our Web Forms article about AutoComplete.
 slug: searchbox/functionality/autocomplete
+components: ["searchbox"]
 tags: autocomplete
 published: True
 position: 0

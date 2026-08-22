@@ -3,6 +3,7 @@ title: Overview
 page_title: CheckBoxes Overview - RadTreeView
 description: Check our Web Forms article about Overview.
 slug: treeview/checkboxes/overview
+components: ["treeview"]
 tags: overview
 published: True
 position: 0

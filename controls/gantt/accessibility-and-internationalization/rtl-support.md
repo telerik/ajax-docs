@@ -3,6 +3,7 @@ title: RTL Support
 page_title: RTL Support - RadGantt
 description: Check our Web Forms article about RTL Support.
 slug: gantt/accessibility-and-internationalization/rtl-support
+components: ["gantt"]
 tags: rtl,support
 published: True
 position: 2

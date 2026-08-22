@@ -3,6 +3,7 @@ title: OnEnable
 page_title: OnEnable - RadMaksedTextBox
 description: Check our Web Forms article about OnEnable.
 slug: radmaskedtextbox/client-side-programming/events/onenable
+components: ["maskedtextbox"]
 tags: onenable
 published: True
 position: 5

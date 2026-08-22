@@ -3,6 +3,7 @@ title: FiltersManager Object
 page_title: FiltersManager Object - RadEditor
 description: Check our Web Forms article about FiltersManager Object.
 slug: editor/client-side-programming/filtersmanager-object
+components: ["editor"]
 tags: filtersmanager,object
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadInputManager
 description: Check our Web Forms article about Overview.
 slug: radinputmanager/overview
+components: ["inputmanager"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadTabStrip
 description: Check our Web Forms article about Skins.
 slug: tabstrip/appearance-and-styling/skins
+components: ["tabstrip"]
 tags: skins
 published: True
 position: 4

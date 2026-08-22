@@ -3,6 +3,7 @@ title: TreeListColumn Object
 page_title: TreeListColumn Object - RadTreeList
 description: Check our Web Forms article about TreeListColumn Object.
 slug: treelist/client-side-programming/treelistcolumn-object
+components: ["treelist"]
 tags: treelistcolumn,object
 published: True
 position: 3

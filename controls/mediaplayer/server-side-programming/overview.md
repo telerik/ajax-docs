@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadMediaPlayer
 description: Check our Web Forms article about Overview.
 slug: mediaplayer/server-side-programming/overview
+components: ["mediaplayer"]
 tags: overview
 published: True
 position: 0

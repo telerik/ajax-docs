@@ -3,6 +3,7 @@ title: OnClientShowing
 page_title: OnClientShowing - RadNotification
 description: Check our Web Forms article about OnClientShowing.
 slug: notification/client-side-programming/events/onclientshowing
+components: ["notification"]
 tags: onclientshowing
 published: True
 position: 2

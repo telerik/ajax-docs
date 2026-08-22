@@ -3,6 +3,7 @@ title: Layout Modes
 page_title: SegmentedControl Layout Modes
 description: "Configure the compact and stretch layout modes of the Telerik WebForms SegmentedControl to control how segment widths are calculated."
 slug: segmentedcontrol/layout-modes
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, layout, layoutmode
 published: True
 position: 3

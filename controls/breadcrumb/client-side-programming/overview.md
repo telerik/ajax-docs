@@ -3,6 +3,7 @@ title: RadBreadcrumb object
 page_title: RadBreadcrumb object - RadBreadcrumb
 description: Check our Web Forms article about RadBreadcrumb object.
 slug: breadcrumb/client-side-programming/overview
+components: ["breadcrumb"]
 tags: radbreadcrumb,object
 published: True
 position: 0

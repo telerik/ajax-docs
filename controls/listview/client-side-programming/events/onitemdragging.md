@@ -3,6 +3,7 @@ title: OnItemDragging
 page_title: OnItemDragging - RadListView
 description: Check our Web Forms article about OnItemDragging.
 slug: listview/client-side-programming/events/onitemdragging
+components: ["listview"]
 tags: onitemdragging
 published: True
 position: 4

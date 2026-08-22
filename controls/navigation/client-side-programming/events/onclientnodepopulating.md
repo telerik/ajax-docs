@@ -3,6 +3,7 @@ title: OnClientNodePopulating
 page_title: OnClientNodePopulating - RadNavigation
 description: Check our Web Forms article about OnClientNodePopulating.
 slug: navigation/client-side-programming/events/onclientnodepopulating
+components: ["navigation"]
 tags: onclientnodepopulating
 published: True
 position: 11

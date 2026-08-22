@@ -3,6 +3,7 @@ title: Text Tile
 page_title: Text Tile - RadTile
 description: Check our Web Forms article about Text Tile.
 slug: tilelist/tiles/text-tile
+components: ["tilelist"]
 tags: text,tile
 published: True
 position: 7

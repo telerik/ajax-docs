@@ -3,6 +3,7 @@ title: Programmatic Creation
 page_title: Programmatic Creation - RadTileList
 description: Check our Web Forms article about Programmatic Creation.
 slug: tilelist/server-side-programming/programmatic-creation
+components: ["tilelist"]
 tags: programmatic,creation
 published: True
 position: 2

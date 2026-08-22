@@ -3,6 +3,7 @@ title: OnClientRecurrenceActionDialogClosed
 page_title: OnClientRecurrenceActionDialogClosed - RadScheduler
 description: Check our Web Forms article about OnClientRecurrenceActionDialogClosed.
 slug: scheduler/client-side-programming/events/onclientrecurrenceactiondialogclosed
+components: ["scheduler"]
 tags: onclientrecurrenceactiondialogclosed
 published: True
 position: 16

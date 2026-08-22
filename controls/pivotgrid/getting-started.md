@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadPivotGrid
 description: Check our Web Forms article about Getting Started.
 slug: pivotgrid/getting-started
+components: ["pivotgrid"]
 tags: getting,started
 published: True
 position: 1

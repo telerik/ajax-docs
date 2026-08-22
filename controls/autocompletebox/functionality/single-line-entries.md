@@ -3,6 +3,7 @@ title: Single Line Entries
 page_title: Single Line Entries - RadAutoCompleteBox
 description: The Single Line Entries feature allows displaying the entries inline or wrapped in multiple lines.
 slug: autocompletebox/functionality/single-line-entries
+components: ["autocompletebox"]
 tags: items,selection
 published: True
 ---

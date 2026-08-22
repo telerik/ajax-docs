@@ -3,6 +3,7 @@ title: Page-break Button
 page_title: Page-break Button - RadEditor
 description: Check our Web Forms article about Page-break Button.
 slug: editor/functionality/toolbars/buttons/examples/page-break-button
+components: ["editor"]
 tags: page-break,button
 published: True
 position: 0

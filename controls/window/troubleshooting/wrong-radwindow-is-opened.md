@@ -3,6 +3,7 @@ title: Wrong RadWindow Is Opened
 page_title: Wrong RadWindow Is Opened - RadWindow
 description: Check our Web Forms article about Wrong RadWindow Is Opened.
 slug: window/troubleshooting/wrong-radwindow-is-opened
+components: ["window"]
 tags: wrong,radwindow,is,opened
 published: True
 position: 5

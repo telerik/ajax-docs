@@ -3,6 +3,7 @@ title: OnClientInserting
 page_title: OnClientInserting - RadGantt
 description: Check our Web Forms article about OnClientInserting.
 slug: gantt/client-side-programming/events/onclientinserting
+components: ["gantt"]
 tags: 
 published: True
 position: 3

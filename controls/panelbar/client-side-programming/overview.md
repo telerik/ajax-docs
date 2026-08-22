@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadPanelBar
 description: Check our Web Forms article about Overview.
 slug: panelbar/client-side-programming/overview
+components: ["panelbar"]
 tags: overview
 published: True
 position: 0

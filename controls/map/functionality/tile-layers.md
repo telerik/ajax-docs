@@ -3,6 +3,7 @@ title: Tile Layers
 page_title: Tile Layers - RadMap
 description: Check our Web Forms article about Tile Layers.
 slug: map/functionality/tile-layers
+components: ["map"]
 tags: tile,layers
 published: True
 position: 1

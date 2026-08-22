@@ -3,6 +3,7 @@ title: Working With Items at the Server
 page_title: Working With Items at the Server - RadToolBar
 description: Check our Web Forms article about Working With Items at the Server.
 slug: toolbar/radtoolbar-items/working-with-items-at-the-server
+components: ["toolbar"]
 tags: working,with,items,at,the,server
 published: True
 position: 2

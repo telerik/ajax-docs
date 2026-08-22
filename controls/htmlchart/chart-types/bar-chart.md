@@ -3,6 +3,7 @@ title: Bar Chart
 page_title: Bar Chart - RadHtmlChart
 description: Learn about the Bar Chart type in the HTMLChart control for visualizing data in a bar format.
 slug: htmlchart/chart-types/bar-chart
+components: ["htmlchart"]
 tags: bar,chart
 published: True
 position: 2

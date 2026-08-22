@@ -3,6 +3,7 @@ title: Selecting
 page_title: Selecting - RadTileList
 description: Check our Web Forms article about Selecting.
 slug: tilelist/functionality/selecting
+components: ["tilelist"]
 tags: selecting
 published: True
 position: 1

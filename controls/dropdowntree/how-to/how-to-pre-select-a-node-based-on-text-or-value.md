@@ -3,6 +3,7 @@ title: How to Pre-Select a Node Based on Text or Value
 page_title: How to Pre-Select a Node Based on Text or Value - RadDropDownTree
 description: Check our Web Forms article about How to Pre-Select a Node Based on Text or Value.
 slug: dropdowntree/how-to/how-to-pre-select-a-node-based-on-text-or-value
+components: ["dropdowntree"]
 tags: how,to,pre-select,a,node,based,on,text,or,value
 published: True
 position: 2

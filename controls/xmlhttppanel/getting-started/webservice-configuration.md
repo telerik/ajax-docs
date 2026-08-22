@@ -3,6 +3,7 @@ title: WebService Configuration
 page_title: WebService Configuration - RadXmlHttpPanel
 description: Check our Web Forms article about WebService Configuration.
 slug: xmlhttppanel/getting-started/webservice-configuration
+components: ["xmlhttppanel"]
 tags: webservice,configuration
 published: True
 position: 3

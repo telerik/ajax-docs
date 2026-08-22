@@ -3,6 +3,7 @@ title: Mouse Wheel Support
 page_title: Mouse Wheel Support - RadSlider
 description: Check our Web Forms article about Mouse Wheel Support.
 slug: slider/getting-started/mouse-wheel-support
+components: ["slider"]
 tags: mouse,wheel,support
 published: True
 position: 6

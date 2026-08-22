@@ -3,6 +3,7 @@ title: Firing Command Events from Code
 page_title: Firing Command Events from Code - RadListView
 description: Check our Web Forms article about Firing Command Events from Code.
 slug: listview/control-lifecycle/firing-command-events-from-code
+components: ["listview"]
 tags: firing,command,events,from,code
 published: True
 position: 5

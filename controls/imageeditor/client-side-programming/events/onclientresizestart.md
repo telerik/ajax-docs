@@ -3,6 +3,7 @@ title: OnClientResizeStart
 page_title: OnClientResizeStart - RadImageEditor
 description: Check our Web Forms article about OnClientResizeStart.
 slug: imageeditor/client-side-programming/events/onclientresizestart
+components: ["imageeditor"]
 tags: onclientresizestart
 published: True
 position: 8

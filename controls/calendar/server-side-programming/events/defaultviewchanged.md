@@ -3,6 +3,7 @@ title: DefaultViewChanged
 page_title: DefaultViewChanged - RadCalendar
 description: Check our Web Forms article about DefaultViewChanged.
 slug: calendar/server-side-programming/events/defaultviewchanged
+components: ["calendar"]
 tags: defaultviewchanged
 published: True
 position: 4

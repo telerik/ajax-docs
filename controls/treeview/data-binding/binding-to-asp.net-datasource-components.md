@@ -3,6 +3,7 @@ title: Binding to ASP.NET DataSource Components
 page_title: Binding to ASP.NET DataSource Components - RadTreeView
 description: Check our Web Forms article about Binding to ASP.NET DataSource Components.
 slug: treeview/data-binding/binding-to-asp.net-datasource-components
+components: ["treeview"]
 tags: binding,to,asp.net,datasource,components
 published: True
 position: 3

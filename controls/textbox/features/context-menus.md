@@ -3,6 +3,7 @@ title: Context Menus
 page_title: Context Menus - RadTextBox
 description: Check our Web Forms article about Context Menus.
 slug: radtextbox/features/context-menus
+components: ["textbox"]
 tags: context,menus
 published: True
 position: 2

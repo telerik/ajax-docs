@@ -3,6 +3,7 @@ title: OnClientCheckedChanging
 page_title: OnClientCheckedChanging - RadCheckBox
 description: Check our Web Forms article about OnClientCheckedChanging.
 slug: checkbox/client-side-programming/events/onclientcheckedchanging
+components: ["checkbox"]
 tags: onclientcheckedchanging
 published: True
 position: 5

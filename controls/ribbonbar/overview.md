@@ -3,6 +3,7 @@ title: Overview
 page_title: RibbonBar Overview
 description: Check our Web Forms article about Overview.
 slug: ribbonbar/overview
+components: ["ribbonbar"]
 tags: overview
 published: True
 position: 0

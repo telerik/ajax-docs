@@ -3,6 +3,7 @@ title: Rich User Interaction
 page_title: Rich User Interaction - RadDiagram
 description: Check our Web Forms article about Rich User Interaction.
 slug: diagram/functionality/rich-user-interaction
+components: ["diagram"]
 tags: rich,user,interaction
 published: True
 position: 0

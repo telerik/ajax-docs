@@ -3,6 +3,7 @@ title: FormCreating
 page_title: FormCreating - RadScheduler
 description: Check our Web Forms article about FormCreating.
 slug: scheduler/server-side-programming/server-events/formcreating
+components: ["scheduler"]
 tags: formcreating
 published: True
 position: 11

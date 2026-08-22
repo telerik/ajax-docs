@@ -3,6 +3,7 @@ title: Overview
 page_title: Exporting Overview - RadTreeList
 description: Check our Web Forms article about Overview.
 slug: treelist/functionality/exporting/overview
+components: ["treelist"]
 tags: overview
 published: True
 position: 0

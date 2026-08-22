@@ -3,6 +3,7 @@ title: OnClientItemClicked
 page_title: OnClientItemClicked - RadPanelBar
 description: Check our Web Forms article about OnClientItemClicked.
 slug: panelbar/client-side-programming/onclientitemclicked
+components: ["panelbar"]
 tags: onclientitemclicked
 published: True
 position: 7

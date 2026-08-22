@@ -3,6 +3,7 @@ title: Creating a Simple Context Menu
 page_title: Creating a Simple Context Menu - RadMenu
 description: Check our Web Forms article about Creating a Simple Context Menu.
 slug: menu/getting-started/creating-a-simple-context-menu
+components: ["menu"]
 tags: creating,a,simple,context,menu
 published: True
 position: 2

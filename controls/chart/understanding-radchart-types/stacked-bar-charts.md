@@ -3,6 +3,7 @@ title: Stacked Bar Charts
 page_title: Stacked Bar Charts - RadChart
 description: Check our Web Forms article about Stacked Bar Charts.
 slug: chart/understanding-radchart-types/stacked-bar-charts
+components: ["chart"]
 tags: stacked,bar,charts
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: RadTreeNode
 page_title: RadTreeNode - RadTreeView
 description: Learn about the RadTreeNode object and its client-side API for managing individual nodes in a TreeView.
 slug: treeview/client-side-programming/objects/radtreenode
+components: ["treeview"]
 tags: radtreenode
 published: True
 position: 1

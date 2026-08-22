@@ -3,6 +3,7 @@ title: Tutorial on Finding Nodes
 page_title: Tutorial on Finding Nodes - RadTreeView
 description: Check our Web Forms article about Tutorial on Finding Nodes.
 slug: treeview/server-side-programming/tutorial-on-finding-nodes
+components: ["treeview"]
 tags: finding,nodes,tutorial
 published: True
 position: 1

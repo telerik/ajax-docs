@@ -3,6 +3,7 @@ title: OnClientDialogClosing
 page_title: OnClientDialogClosing - RadSpell
 description: Check our Web Forms article about OnClientDialogClosing.
 slug: spell/client-side-programming/events/onclientdialogclosing
+components: ["spell"]
 tags: onclientdialogclosing
 published: True
 position: 3

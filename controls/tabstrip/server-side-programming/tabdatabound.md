@@ -3,6 +3,7 @@ title: TabDataBound
 page_title: TabDataBound - RadTabStrip
 description: Check our Web Forms article about TabDataBound.
 slug: tabstrip/server-side-programming/tabdatabound
+components: ["tabstrip"]
 tags: tabdatabound
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadSignature
 description: Getting Started with the Telerik RadSignature. 
 slug: signature/getting-started
+components: ["signature"]
 tags: getting-started, signature
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-Side Events Overview - RadImageEditor
 description: Check our Web Forms article about Client-Side Events Overview.
 slug: imageeditor/client-side-programming/events/client-side-events-basics
+components: ["imageeditor"]
 tags: client-side,events,basics
 published: True
 position: 0

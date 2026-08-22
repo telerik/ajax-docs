@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events Overview - RadTreeView
 description: Check our Web Forms article about Overview.
 slug: treeview/client-side-programming/events/overview
+components: ["treeview"]
 tags: overview
 published: True
 position: 0

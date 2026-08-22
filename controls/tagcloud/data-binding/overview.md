@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadTagCloud
 description: Check our Web Forms article about Overview.
 slug: tagcloud/data-binding/overview
+components: ["tagcloud"]
 tags: overview
 published: True
 position: 0

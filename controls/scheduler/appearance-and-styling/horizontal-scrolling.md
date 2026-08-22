@@ -3,6 +3,7 @@ title: Horizontal Scrolling
 page_title: Horizontal Scrolling - RadScheduler
 description: Check our Web Forms article about Horizontal Scrolling.
 slug: scheduler/appearance-and-styling/horizontal-scrolling
+components: ["scheduler"]
 tags: horizontal,scrolling
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: OnPageSizeChanging
 page_title: OnPageSizeChanging - RadDataPager
 description: Check our Web Forms article about OnPageSizeChanging.
 slug: datapager/client-side-programming/events/onpagesizechanging
+components: ["datapager"]
 tags: onpagesizechanging
 published: True
 position: 4

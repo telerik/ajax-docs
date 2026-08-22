@@ -3,6 +3,7 @@ title: Client Filtering
 page_title: Client Filtering - RadAutoCompleteBox
 description: Check our Web Forms article about Client Filtering.
 slug: autocompletebox/functionality/client-filtering
+components: ["autocompletebox"]
 tags: client,filtering
 published: True
 position: 6

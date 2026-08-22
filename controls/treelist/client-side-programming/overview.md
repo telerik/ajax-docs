@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadTreeList
 description: Check our Web Forms article about Overview.
 slug: treelist/client-side-programming/overview
+components: ["treelist"]
 tags: overview
 published: True
 position: 0

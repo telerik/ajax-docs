@@ -3,6 +3,7 @@ title: Combobox Slow Callback
 page_title: Combobox Slow Callback - RadComboBox
 description: Check our Web Forms article about Combobox Slow Callback.
 slug: combobox/troubleshooting/combobox-slow-callback
+components: ["combobox"]
 tags: combobox,slow,callback
 published: True
 position: 3

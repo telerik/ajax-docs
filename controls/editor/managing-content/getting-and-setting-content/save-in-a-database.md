@@ -3,6 +3,7 @@ title: Save in a Database
 page_title: Save in a Database - RadEditor
 description: Check our Web Forms article about Save in a Database.
 slug: editor/managing-content/getting-and-setting-content/save-in-a-database
+components: ["editor"]
 tags: save,in,a,database
 published: True
 position: 3

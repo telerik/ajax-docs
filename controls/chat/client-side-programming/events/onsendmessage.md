@@ -3,6 +3,7 @@ title: OnSendMessage
 page_title: OnSendMessage - RadChat
 description: Check our Web Forms article about OnSendMessage.
 slug: chat/client-side-programming/events/onsendmessage
+components: ["chat"]
 tags: onsendmessage
 published: True
 position: 4

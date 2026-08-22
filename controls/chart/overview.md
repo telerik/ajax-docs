@@ -3,6 +3,7 @@ title: Overview
 page_title: RadChart Overview
 description: Check our Web Forms article about Overview.
 slug: chart/overview
+components: ["chart"]
 tags: overview
 published: True
 position: 0

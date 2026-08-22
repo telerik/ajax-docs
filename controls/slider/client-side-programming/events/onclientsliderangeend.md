@@ -3,6 +3,7 @@ title: OnClientSlideRangeEnd
 page_title: OnClientSlideRangeEnd - RadSlider
 description: Check our Web Forms article about OnClientSlideRangeEnd.
 slug: slider/client-side-programming/events/onclientsliderangeend
+components: ["slider"]
 tags: onclientsliderangeend
 published: True
 position: 8

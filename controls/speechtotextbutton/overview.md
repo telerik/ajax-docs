@@ -3,6 +3,7 @@ title: Overview
 page_title: SpeechToTextButton Overview
 description: "Try now the Telerik UI for ASP.NET AJAX SpeechToTextButton control that converts spoken words into text through a button interface. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI for jQuery SpeechToTextButton widget."
 slug: speechtotextbutton/overview
+components: ["speechtotextbutton"]
 tags: overview
 published: True
 position: 0

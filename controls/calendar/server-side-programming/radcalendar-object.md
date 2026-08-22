@@ -3,6 +3,7 @@ title: RadCalendar Object
 page_title: RadCalendar Server-Side Objects - RadCalendar
 description: Check our Web Forms article about RadCalendar Server-Side Objects.
 slug: calendar/server-side-programming/radcalendar-object
+components: ["calendar"]
 previous_url: calendar/server-side-programming/server-side-objects
 tags: server-side,objects
 published: True

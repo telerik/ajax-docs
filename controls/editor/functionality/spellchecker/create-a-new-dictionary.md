@@ -3,6 +3,7 @@ title: Create a New Dictionary
 page_title: Create a New Dictionary - RadEditor
 description: Check our Web Forms article about Create a New Dictionary.
 slug: editor/functionality/spellchecker/create-a-new-dictionary
+components: ["editor"]
 tags: create,a,new,dictionary
 published: True
 position: 1

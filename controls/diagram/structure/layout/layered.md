@@ -3,6 +3,7 @@ title: Layered
 page_title: Layered - RadDiagram
 description: Check our Web Forms article about Layered.
 slug: diagram/structure/layout/layered
+components: ["diagram"]
 tags: layered
 published: True
 position: 2

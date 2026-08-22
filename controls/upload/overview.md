@@ -3,6 +3,7 @@ title: Overview
 page_title: RadUpload Overview
 description: Discover the Upload control and its features for managing file uploads with progress tracking.
 slug: upload/overview
+components: ["upload"]
 tags: overview
 published: True
 position: 0

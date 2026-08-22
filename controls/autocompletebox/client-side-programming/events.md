@@ -3,6 +3,7 @@ title: Events
 page_title: Client-Side Programming Events - RadAutoCompleteBox
 description: Check our Web Forms article about Events.
 slug: autocompletebox/client-side-programming/events
+components: ["autocompletebox"]
 tags: events
 published: True
 position: 1

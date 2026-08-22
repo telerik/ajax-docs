@@ -3,6 +3,7 @@ title: Edit Template in Grid
 page_title: Edit Template in Grid - RadEditor
 description: Check our Web Forms article about Edit Template in Grid.
 slug: editor/how-to/edit-template-in-grid
+components: ["editor"]
 tags: edit,template,in,grid
 published: True
 position: 0

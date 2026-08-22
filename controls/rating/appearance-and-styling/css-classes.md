@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadRating
 description: Check our Web Forms article about CSS Classes.
 slug: rating/appearance-and-styling/css-classes
+components: ["rating"]
 tags: css,classes
 published: True
 position: 2

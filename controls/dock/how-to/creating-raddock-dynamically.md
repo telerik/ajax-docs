@@ -3,6 +3,7 @@ title: Creating RadDock Dynamically
 page_title: Creating RadDock Dynamically - RadDock
 description: Check our Web Forms article about Creating RadDock Dynamically.
 slug: dock/how-to/creating-raddock-dynamically
+components: ["dock"]
 tags: creating,raddock,dynamically
 published: True
 position: 2

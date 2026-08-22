@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events Overview - RadSocialShare
 description: Check our Web Forms article about Overview.
 slug: socialshare/client-side-programming/events/overview
+components: ["socialshare"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: The Wizard Skin Tab
 page_title: The Wizard Skin Tab - RadChart
 description: Check our Web Forms article about The Wizard Skin Tab.
 slug: chart/understanding-radchart-ui/the-wizard-skin-tab
+components: ["chart"]
 tags: the,wizard,skin,tab
 published: True
 position: 5

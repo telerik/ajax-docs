@@ -3,6 +3,7 @@ title: Layout
 page_title: Layout - RadSlider
 description: Check our Web Forms article about Layout.
 slug: slider/getting-started/layout
+components: ["slider"]
 tags: layout
 published: True
 position: 3

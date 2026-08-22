@@ -3,6 +3,7 @@ title: Commands Invoking Rebind Implicitly
 page_title: Commands Invoking Rebind Implicitly - RadListView
 description: Check our Web Forms article about Commands Invoking Rebind Implicitly.
 slug: listview/control-lifecycle/commands-invoking-rebind-implicitly
+components: ["listview"]
 tags: commands,invoking,rebind,implicitly
 published: True
 position: 4

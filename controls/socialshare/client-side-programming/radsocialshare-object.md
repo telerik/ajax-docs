@@ -3,6 +3,7 @@ title: RadSocialShare Object
 page_title: RadSocialShare Object - RadSocialShare
 description: Check our Web Forms article about RadSocialShare Object.
 slug: socialshare/client-side-programming/radsocialshare-object
+components: ["socialshare"]
 tags: radsocialshare,object
 published: True
 position: 0

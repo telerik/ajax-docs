@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadDropDownList
 description: Check our Web Forms article about Telerik's ASP.NET RadDropDownList DataBinding Overview.
 slug: dropdownlist/databinding/overview
+components: ["dropdownlist"]
 tags: overview
 published: True
 position: 0

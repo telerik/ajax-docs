@@ -3,6 +3,7 @@ title: Attributes Object
 page_title: Attributes Object - RadToolBar
 description: Check our Web Forms article about Attributes Object.
 slug: toolbar/client-side-programming/attributes-object
+components: ["toolbar"]
 tags: attributes,object
 published: True
 position: 4

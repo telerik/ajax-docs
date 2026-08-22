@@ -3,6 +3,7 @@ title: OnClientDocked
 page_title: OnClientDocked - RadSplitter
 description: Check our Web Forms article about OnClientDocked.
 slug: splitter/client-side-programming/events/onclientdocked
+components: ["splitter"]
 tags: onclientdocked
 published: True
 position: 14

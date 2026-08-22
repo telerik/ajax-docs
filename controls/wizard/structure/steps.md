@@ -3,6 +3,7 @@ title: Steps
 page_title: Steps - RadWizard
 description: Check our Web Forms article about Steps.
 slug: wizard/structure/steps
+components: ["wizard"]
 tags: steps
 published: True
 position: 1

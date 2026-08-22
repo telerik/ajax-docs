@@ -3,6 +3,7 @@ title: getRange
 page_title: getRange - RadEditor
 description: Check our Web Forms article about getRange.
 slug: editor/client-side-programming/methods/selection/getrange
+components: ["editor"]
 tags: getrange
 published: True
 position: 4

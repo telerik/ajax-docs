@@ -3,6 +3,7 @@ title: Updated
 page_title: Updated - RadListBox
 description: Check our Web Forms article about Updated.
 slug: listbox/server-side-programming/server-events/updated
+components: ["listbox"]
 tags: updated
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Custom CDN Provider
 page_title: Custom CDN Provider - RadScriptManager
 description: Check our Web Forms article about Custom CDN Provider.
 slug: scriptmanager/cdn-support/custom-cdn-provider
+components: ["scriptmanager"]
 tags: custom,cdn,provider
 published: True
 position: 1

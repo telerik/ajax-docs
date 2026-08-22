@@ -3,6 +3,7 @@ title: Displaying External Content
 page_title: Displaying External Content - RadSplitter
 description: Check our Web Forms article about Displaying External Content.
 slug: splitter/panes/displaying-external-content
+components: ["splitter"]
 tags: displaying,external,content
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Programmatic Creation
 page_title: Programmatic Creation - RadDataPager
 description: Check our Web Forms article about Programmatic Creation.
 slug: datapager/defining-structure/programmatic-creation
+components: ["datapager"]
 tags: programmatic,creation
 published: True
 position: 0

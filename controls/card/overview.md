@@ -3,6 +3,7 @@ title: Overview
 page_title: RadCard Overview
 description: Discover the Card control and its features for displaying content in a visually appealing card layout.
 slug: card/overview
+components: ["card"]
 tags: overview
 published: True
 position: 0

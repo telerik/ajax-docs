@@ -3,6 +3,7 @@ title: RadPersistenceManagerProxy and WebUserControls
 page_title: RadPersistenceManagerProxy and WebUserControls - RadPersistenceFramework
 description: Check our Web Forms article about Overview.
 slug: persistenceframework/radpersistencemanagerproxy-and-webusercontrols
+components: ["persistenceframework"]
 tags: radpersistencemanagerproxy, webusercontrols
 published: True
 position: 0

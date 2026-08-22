@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadListView
 description: Check our Web Forms article about Render Modes.
 slug: listview/mobile-support/render-modes
+components: ["listview"]
 tags: render,modes
 published: True
 position: 2

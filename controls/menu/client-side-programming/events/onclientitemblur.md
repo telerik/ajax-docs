@@ -3,6 +3,7 @@ title: OnClientItemBlur
 page_title: OnClientItemBlur - RadMenu
 description: Check our Web Forms article about OnClientItemBlur.
 slug: menu/client-side-programming/events/onclientitemblur
+components: ["menu"]
 tags: onclientitemblur
 published: True
 position: 12

@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadCheckBox
 description: Check our Web Forms article about Common Issues.
 slug: checkbox/troubleshooting/common-issues
+components: ["checkbox"]
 tags: common,issues
 published: True
 position: 0

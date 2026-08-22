@@ -3,6 +3,7 @@ title: OnClientSelectedTabChanging
 page_title: OnClientSelectedTabChanging - RadRibbonBar
 description: Check our Web Forms article about OnClientSelectedTabChanging.
 slug: ribbonbar/client-side-programming/events/onclientselectedtabchanging-
+components: ["ribbonbar"]
 tags: onclientselectedtabchanging,
 published: True
 position: 11

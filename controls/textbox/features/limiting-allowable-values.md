@@ -3,6 +3,7 @@ title: Limiting Allowable Values
 page_title: Limiting Allowable Values - RadTextBox
 description: Check our Web Forms article about Limiting Allowable Values.
 slug: radtextbox/features/limiting-allowable-values
+components: ["textbox"]
 tags: limiting,allowable,values
 published: True
 position: 2

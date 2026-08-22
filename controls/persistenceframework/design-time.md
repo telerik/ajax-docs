@@ -3,6 +3,7 @@ title: Design Time
 page_title: RadPersistenceFramework Design Time - RadPersistenceFramework
 description: Check our Web Forms article about Design Time.
 slug: persistenceframework/design-time
+components: ["persistenceframework"]
 tags: design,time
 published: True
 position: 2

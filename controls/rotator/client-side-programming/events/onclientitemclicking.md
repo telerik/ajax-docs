@@ -3,6 +3,7 @@ title: OnClientItemClicking
 page_title: OnClientItemClicking - RadRotator
 description: Check our Web Forms article about OnClientItemClicking.
 slug: rotator/client-side-programming/events/onclientitemclicking
+components: ["rotator"]
 tags: onclientitemclicking
 published: True
 position: 3

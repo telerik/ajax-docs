@@ -3,6 +3,7 @@ title: SelectedDateChanged
 page_title: SelectedDateChanged - RadMonthYearPicker
 description: Check our Web Forms article about SelectedDateChanged.
 slug: monthyearpicker/server-side-programming/events/selecteddatechanged
+components: ["monthyearpicker"]
 tags: selecteddatechanged
 published: True
 position: 2

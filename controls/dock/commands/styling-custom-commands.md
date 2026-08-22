@@ -3,6 +3,7 @@ title: Styling Custom Commands
 page_title: Styling Custom Commands - RadDock
 description: Check our Web Forms article about Styling Custom Commands.
 slug: dock/commands/styling-custom-commands
+components: ["dock"]
 tags: styling,custom,commands
 published: True
 position: 2

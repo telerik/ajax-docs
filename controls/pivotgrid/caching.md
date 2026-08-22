@@ -3,6 +3,7 @@ title: Caching
 page_title: Caching - RadPivotGrid
 description: Check our Web Forms article about Caching.
 slug: pivotgrid/caching
+components: ["pivotgrid"]
 tags: caching
 published: True
 position: 11

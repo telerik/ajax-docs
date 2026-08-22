@@ -3,6 +3,7 @@ title: Missing Image
 page_title: Missing Image - RadCaptcha
 description: Check our Web Forms article about Missing Image.
 slug: captcha/troubleshooting/missing-image
+components: ["captcha"]
 tags: missing,image
 published: True
 position: 2

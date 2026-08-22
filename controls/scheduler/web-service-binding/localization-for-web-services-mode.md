@@ -3,6 +3,7 @@ title: Localization for Web Services Mode
 page_title: Localization for Web Services Mode - RadScheduler
 description: Check our Web Forms article about Localization for Web Services Mode.
 slug: scheduler/web-service-binding/localization-for-web-services-mode
+components: ["scheduler"]
 tags: localization,for,web,services,mode
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Browser Crashing
 page_title: Browser Crashing - RadClientExportManager
 description: Check our Web Forms article about Browser Crashing.
 slug: clientexportmanager/troubleshooting/browser-crashing
+components: ["clientexportmanager"]
 tags: browser,crashing
 published: True
 position: 1

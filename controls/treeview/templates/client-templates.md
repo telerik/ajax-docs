@@ -3,6 +3,7 @@ title: Client Templates
 page_title: Client Templates - RadTreeView
 description: Check our Web Forms article about Client Templates.
 slug: treeview/templates/client-templates
+components: ["treeview"]
 tags: client,templates
 published: True
 position: 1

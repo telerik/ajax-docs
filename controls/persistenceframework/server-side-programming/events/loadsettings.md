@@ -3,6 +3,7 @@ title: LoadSettings
 page_title: LoadSettings - RadPersistenceFramework
 description: Check our Web Forms article about LoadSettings.
 slug: persistenceframework/server-side-programming/events/loadsettings
+components: ["persistenceframework"]
 tags: loadsettings
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Properties
 page_title: SpeechToTextButton JavaScript Properties
 description: "JavaScript properties and methods of the Telerik WebForms SpeechToTextButton component."
 slug: speechtotextbutton/client-side-programming/properties
+components: ["speechtotextbutton"]
 tags: properties,speechtotextbutton
 published: True
 position: 1

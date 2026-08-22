@@ -3,6 +3,7 @@ title: Appointment Interaction
 page_title: Appointment Interaction - RadScheduler
 description: Check our Web Forms article about Appointment Interaction.
 slug: scheduler/mobile-support/appointment-interaction
+components: ["scheduler"]
 tags: appointment,interaction
 published: True
 position: 3

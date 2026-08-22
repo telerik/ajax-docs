@@ -3,6 +3,7 @@ title: Fluid Design
 page_title: Fluid Design - RadLinkButton
 description: Check our Web Forms article about Fluid Design.
 slug: linkbutton/mobile-support/fluid-design
+components: ["linkbutton"]
 tags: fluid,design
 published: True
 position: 2

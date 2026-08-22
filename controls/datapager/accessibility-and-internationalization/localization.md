@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadDataPager
 description: Check our Web Forms article about Localization.
 slug: datapager/accessibility-and-internationalization/localization
+components: ["datapager"]
 tags: localization
 published: True
 position: 0

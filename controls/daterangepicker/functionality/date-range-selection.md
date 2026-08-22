@@ -3,6 +3,7 @@ title: Date Range Selection
 page_title: Date Range Selection - RadDateRangePicker
 description: Check our Web Forms article about Date Range Selection.
 slug: daterangepicker/functionality/date-range-selection
+components: ["daterangepicker"]
 tags: date,range,selection
 published: True
 position: 0

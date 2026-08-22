@@ -3,6 +3,7 @@ title: Automatic CRUD Operations
 page_title: Automatic CRUD Operations - RadDataForm
 description: Check our Web Forms article about Automatic CRUD Operations.
 slug: dataform/data-editing/automatic-crud-operations
+components: ["dataform"]
 tags: automatic,crud,operations
 published: True
 position: 0

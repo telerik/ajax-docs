@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadListBox
 description: Check our Web Forms article about Skins.
 slug: listbox/appearance-and-styling/skins
+components: ["listbox"]
 tags: skins
 published: True
 position: 0

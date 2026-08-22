@@ -3,6 +3,7 @@ title: SelectionStateChanged
 page_title: SelectionStateChanged - RadTile
 description: Check our Web Forms article about SelectionStateChanged.
 slug: tilelist/tiles/server-side-programming/events/selectionstatechanged
+components: ["tilelist"]
 tags: selectionstatechanged
 published: True
 position: 0

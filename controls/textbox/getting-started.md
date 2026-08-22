@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started Overview - RadTextBox
 description: Check our Web Forms article about Getting Started.
 slug: radtextbox/getting-started
+components: ["textbox"]
 tags: overview
 published: True
 position: 2

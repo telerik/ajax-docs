@@ -3,6 +3,7 @@ title: Appearance
 page_title: Chip Appearance
 description: "Learn how to apply different styling options to the Chip widget."
 slug: chip/appearance
+components: ["chip"]
 tags: chip,appearance
 published: True
 position: 2

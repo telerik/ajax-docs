@@ -3,6 +3,7 @@ title: Colors
 page_title: Colors - RadTreeMap
 description: Check our Web Forms article about Colors.
 slug: treemap/functionality/colors
+components: ["treemap"]
 tags: colors
 published: True
 position: 1

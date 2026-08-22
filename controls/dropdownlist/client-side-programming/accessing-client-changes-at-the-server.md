@@ -3,6 +3,7 @@ title: Accessing Client Changes at the Server
 page_title: Accessing Client Changes at the Server - RadDropDownList
 description: Check our Web Forms article about Accessing Client Changes at the Server.
 slug: dropdownlist/client-side-programming/accessing-client-changes-at-the-server
+components: ["dropdownlist"]
 tags: accessing,client,changes,at,the,server
 published: True
 position: 1

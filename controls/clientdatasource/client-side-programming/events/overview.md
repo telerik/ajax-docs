@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadClientDataSource
 description: Check our Web Forms article about Overview.
 slug: clientdatasource/client-side-programming/events/overview
+components: ["clientdatasource"]
 previous_url: clientdatasource/client-side-programming/events
 tags: events, overview
 published: True

@@ -3,6 +3,7 @@ title: Serving External Style Sheets
 page_title: Serving External Style Sheets - RadStyleSheetManager
 description: Check our Web Forms article about Serving External Style Sheets.
 slug: stylesheetmanager/serving-external-style-sheets
+components: ["stylesheetmanager"]
 tags: serving,external,style,sheets
 published: True
 position: 2

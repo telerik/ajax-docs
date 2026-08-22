@@ -3,6 +3,7 @@ title: Group-Enabled Binding
 page_title: Group-Enabled Binding - RadOrgChart
 description: Check our Web Forms article about Group-Enabled Binding.
 slug: orgchart/data-binding/group-enabled-binding
+components: ["orgchart"]
 tags: group-enabled,binding
 published: True
 position: 2

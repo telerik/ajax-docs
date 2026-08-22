@@ -3,6 +3,7 @@ title: Horizontal Waterfall Chart
 page_title: Horizontal Waterfall Chart - RadHtmlChart
 description: Check our Web Forms article about Horizontal Waterfall Chart.
 slug: htmlchart/chart-types/horizontal-waterfall-chart
+components: ["htmlchart"]
 tags: horizontal,waterfall,chart
 published: True
 position: 10

@@ -3,6 +3,7 @@ title: Handling Time Zones
 page_title: Handling Time Zones - RadScheduler
 description: Check our Web Forms article about Handling Time Zones.
 slug: scheduler/accessibility-and-internationalization/handling-time-zones
+components: ["scheduler"]
 tags: handling,time,zones
 published: True
 position: 2

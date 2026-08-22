@@ -3,6 +3,7 @@ title: Orientation
 page_title: Orientation - RadTimeline
 description: Check our Web Forms article about Orientation.
 slug: timeline/functionality/orientation
+components: ["timeline"]
 tags: orientation,client,server
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Specifying a Culture
 page_title: Specifying a Culture - RadCalendar
 description: Check our Web Forms article about Specifying a Culture.
 slug: calendar/accessibility-and-internationalization/specifying-a-culture
+components: ["calendar"]
 tags: specifying,a,culture
 published: True
 position: 0

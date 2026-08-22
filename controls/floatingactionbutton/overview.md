@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadFloatingActionButton
 description: The Telerik RadFloatingActionButton is a component, which represents the primary action of a screen. It floats in the application above other items.
 slug: floatingactionbutton/overview
+components: ["floatingactionbutton"]
 tags: overview, floatingactionbutton
 published: True
 position: 0

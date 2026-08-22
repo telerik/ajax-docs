@@ -3,6 +3,7 @@ title: Mime-Types
 page_title: Mime-Types - RadUpload
 description: Check our Web Forms article about Mime-Types.
 slug: upload/how-to/mime-types
+components: ["upload"]
 tags: mime-types
 published: True
 position: 8

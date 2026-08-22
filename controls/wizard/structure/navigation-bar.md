@@ -3,6 +3,7 @@ title: Navigation Bar
 page_title: Navigation Bar - RadWizard
 description: Check our Web Forms article about Navigation Bar.
 slug: wizard/structure/navigation-bar
+components: ["wizard"]
 tags: navigation,bar
 published: True
 position: 3

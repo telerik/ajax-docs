@@ -3,6 +3,7 @@ title: OnValueChanged
 page_title: OnValueChanged - RadMaskedTextBox
 description: Check our Web Forms article about OnValueChanged.
 slug: radmaskedtextbox/client-side-programming/events/onvaluechanged
+components: ["maskedtextbox"]
 tags: onvaluechanged
 published: True
 position: 15

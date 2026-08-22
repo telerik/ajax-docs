@@ -3,6 +3,7 @@ title: Migrating From RadDock ASP.NET To ASP.NET AJAX
 page_title: Migrating From RadDock ASP.NET To ASP.NET AJAX - RadDock
 description: Check our Web Forms article about Migrating From RadDock ASP.NET To ASP.NET AJAX.
 slug: dock/changes-and-backward-compatibility/migrating-from-raddock-asp.net-to-asp.net-ajax
+components: ["dock"]
 tags: migrating,from,raddock,asp.net,to,asp.net,ajax
 published: True
 position: 1

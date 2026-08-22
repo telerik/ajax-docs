@@ -3,6 +3,7 @@ title: Navigator Configuration
 page_title: Navigator Configuration - RadHtmlChart
 description: Check our Web Forms article about Navigator Configuration.
 slug: htmlchart/server-side-programming/navigator-configuration
+components: ["htmlchart"]
 tags: navigator,configuration
 published: True
 position: 2

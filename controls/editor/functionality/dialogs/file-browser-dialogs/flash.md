@@ -3,6 +3,7 @@ title: Flash
 page_title: Flash - RadEditor
 description: Check our Web Forms article about Flash.
 slug: editor/functionality/dialogs/file-browser-dialogs/flash
+components: ["editor"]
 tags: flash
 published: True
 position: 5

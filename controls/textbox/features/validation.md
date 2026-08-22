@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadTextBox
 description: Discover how to implement validation in the TextBox control to ensure accurate and secure user input.
 slug: radtextbox/features/validation
+components: ["textbox"]
 tags: validation
 published: True
 position: 1

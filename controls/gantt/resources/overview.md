@@ -3,6 +3,7 @@ title: Overview
 page_title: Resources Overview - RadGantt
 description: Check our Web Forms article about Overview.
 slug: gantt/resources/overview
+components: ["gantt"]
 tags: overview
 published: True
 position: 0

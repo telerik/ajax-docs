@@ -3,6 +3,7 @@ title: OnClientAppointmentDeleting
 page_title: OnClientAppointmentDeleting - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentDeleting.
 slug: scheduler/client-side-programming/events/onclientappointmentdeleting
+components: ["scheduler"]
 tags: onclientappointmentdeleting
 published: True
 position: 4

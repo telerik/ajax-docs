@@ -3,6 +3,7 @@ title: RadNavigation's CSS Classes
 page_title: RadNavigation's CSS Classes - RadNavigation
 description: Check our Web Forms article about RadNavigation's CSS Classes.
 slug: navigation/appearance-and-styling/radnavigation's-css-classes
+components: ["navigation"]
 tags: radnavigation's,css,classes
 published: True
 position: 1

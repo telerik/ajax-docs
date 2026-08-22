@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadUpload
 description: Check our Web Forms article about Controlling Appearance.
 slug: upload/appearance-and-styling/controlling-appearance
+components: ["upload"]
 tags: controlling,appearance
 published: True
 position: 0

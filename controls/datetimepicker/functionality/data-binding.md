@@ -3,6 +3,7 @@ title: Data Binding
 page_title: Data Binding - RadDateTimePicker
 description: Check our Web Forms article about RadDateTimePicker Data Binding.
 slug: datetimepicker/functionality/data-binding
+components: ["datetimepicker"]
 tags: data,binding
 published: True
 position: 4

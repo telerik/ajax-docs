@@ -3,6 +3,7 @@ title: Controlling Posts
 page_title: Controlling Posts - RadSocialShare
 description: Check our Web Forms article about Controlling Posts.
 slug: socialshare/functionality/controlling-posts
+components: ["socialshare"]
 tags: controlling,posts
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Markers
 page_title: Markers - RadMap
 description: Check our Web Forms article about Markers.
 slug: map/functionality/markers
+components: ["map"]
 tags: markers
 published: True
 position: 2

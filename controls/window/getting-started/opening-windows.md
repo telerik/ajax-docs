@@ -3,6 +3,7 @@ title: Opening Windows
 page_title: Opening Windows - RadWindow
 description: Discover how to open and configure RadWindow instances for enhanced user interface interactions.
 slug: window/getting-started/opening-windows
+components: ["window"]
 tags: opening,windows
 published: True
 position: 2

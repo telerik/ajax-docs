@@ -3,6 +3,7 @@ title: Generic List of Custom Objects
 page_title: Generic List of Custom Objects - RadHtmlChart
 description: Check our Web Forms article about Generic List of Custom Objects.
 slug: htmlchart/data-binding/generic-list-of-custom-objects
+components: ["htmlchart"]
 tags: generic,list,of,custom,objects
 published: True
 position: 5

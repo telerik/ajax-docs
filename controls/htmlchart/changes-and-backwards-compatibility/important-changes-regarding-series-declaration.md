@@ -3,6 +3,7 @@ title: Important Changes Regarding Series Declaration
 page_title: Important Changes Regarding Series Declaration - RadHtmlChart
 description: Check our Web Forms article about Important Changes Regarding Series Declaration.
 slug: htmlchart/changes-and-backwards-compatibility/important-changes-regarding-series-declaration
+components: ["htmlchart"]
 tags: important,changes,regarding,series,declaration
 published: True
 position: 1

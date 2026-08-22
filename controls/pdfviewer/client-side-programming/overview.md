@@ -3,6 +3,7 @@ title: RadPdfViewer Object
 page_title: RadPdfViewer Object - RadPdfViewer
 description: Check our Web Forms article about RadPdfViewer Object.
 slug: pdfviewer/client-side-programming/overview
+components: ["pdfviewer"]
 tags: pdfviewer,object
 published: True
 position: 0

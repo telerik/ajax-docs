@@ -3,6 +3,7 @@ title: Items
 page_title: Functionality - RadFloatingActionButton
 description: Check our Web Forms article about RadFloatingActionButton Items.
 slug: floatingactionbutton/functionality/items
+components: ["floatingactionbutton"]
 published: True
 position: 3
 ---

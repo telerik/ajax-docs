@@ -3,6 +3,7 @@ title: OnClientTaskMoving
 page_title: OnClientTaskMoving - RadGantt
 description: Check our Web Forms article about OnClientTaskMoving.
 slug: gantt/client-side-programming/events/onclienttaskmoving
+components: ["gantt"]
 tags: onclienttaskmoving
 published: True
 position: 12

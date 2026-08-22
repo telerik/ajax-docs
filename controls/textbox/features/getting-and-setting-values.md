@@ -3,6 +3,7 @@ title: Getting and Setting Values
 page_title: Getting and Setting Values - RadTextBox
 description: Check our Web Forms article about Getting and Setting Values.
 slug: radtextbox/features/getting-and-setting-values
+components: ["textbox"]
 tags: getting,and,setting,values
 published: True
 position: 3

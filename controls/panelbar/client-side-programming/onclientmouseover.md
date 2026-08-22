@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadPanelBar
 description: Check our Web Forms article about OnClientMouseOver.
 slug: panelbar/client-side-programming/onclientmouseover
+components: ["panelbar"]
 tags: onclientmouseover
 published: True
 position: 14

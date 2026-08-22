@@ -3,6 +3,7 @@ title: Adding Appointments
 page_title: Adding Appointments - RadScheduler
 description: Check our Web Forms article about Adding Appointments.
 slug: scheduler/usability/adding-appointments
+components: ["scheduler"]
 tags: adding,appointments
 published: True
 position: 1

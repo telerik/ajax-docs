@@ -3,6 +3,7 @@ title: Overview
 page_title: SpeechToTextButton Accessibility
 description: Get started with the WebForms SpeechToTextButton and learn about its accessibility support for WAI-ARIA, Section 508, and WCAG 2.2.
 slug: speechtotextbutton/accessibility/overview
+components: ["speechtotextbutton"]
 position: 0
 ---
 

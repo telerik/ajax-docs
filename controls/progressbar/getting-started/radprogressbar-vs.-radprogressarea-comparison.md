@@ -3,6 +3,7 @@ title: RadProgressBar vs. RadProgressArea Comparison
 page_title: RadProgressBar vs. RadProgressArea Comparison - RadProgressBar
 description: Check our Web Forms article about RadProgressBar vs. RadProgressArea Comparison.
 slug: progressbar/getting-started/radprogressbar-vs.-radprogressarea-comparison
+components: ["progressbar"]
 tags: radprogressbar,vs.,radprogressarea,comparison
 published: True
 position: 2

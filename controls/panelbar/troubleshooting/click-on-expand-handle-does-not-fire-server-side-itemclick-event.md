@@ -3,6 +3,7 @@ title: Click on Expand Handle Does Not Fire Server-Side ItemClick Event
 page_title: Click on Expand Handle Does Not Fire Server-Side ItemClick Event - RadPanelBar
 description: Check our Web Forms article about Click on Expand Handle Does Not Fire Server-Side ItemClick Event.
 slug: panelbar/troubleshooting/click-on-expand-handle-does-not-fire-server-side-itemclick-event
+components: ["panelbar"]
 tags: click,on,expand,handle,does,not,fire,server-side,itemclick,event
 published: True
 position: 1

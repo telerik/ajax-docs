@@ -3,6 +3,7 @@ title: Standalone RadioButton
 page_title: Standalone RadioButton - RadRadioButtonList
 description: Check our Web Forms article about Standalone RadioButton.
 slug: radiobuttonlist/functionality/standalone-radiobutton
+components: ["radiobuttonlist"]
 tags: radiobutton, standalone, single
 published: True
 position: 2

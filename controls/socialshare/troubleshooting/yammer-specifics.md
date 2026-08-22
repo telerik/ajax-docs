@@ -3,6 +3,7 @@ title: Yammer Specifics
 page_title: Yammer Specifics - RadSocialShare
 description: Check our Web Forms article about Yammer Specifics.
 slug: socialshare/troubleshooting/yammer-specifics
+components: ["socialshare"]
 tags: yammer,specifics
 published: True
 position: 4

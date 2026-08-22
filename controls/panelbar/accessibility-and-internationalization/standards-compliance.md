@@ -3,6 +3,7 @@ title: Standards Compliance
 page_title: Standards Compliance - RadPanelBar
 description: Check our Web Forms article about Standards Compliance.
 slug: panelbar/accessibility-and-internationalization/standards-compliance
+components: ["panelbar"]
 previous_url: controls/panelbar/overview/standards-compliance
 tags: standards,compliance
 published: True

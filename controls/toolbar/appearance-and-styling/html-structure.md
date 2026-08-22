@@ -3,6 +3,7 @@ title: HTML Structure
 page_title: HTML Structure - RadToolBar
 description: Check our Web Forms article about HTML Structure.
 slug: toolbar/appearance-and-styling/html-structure
+components: ["toolbar"]
 tags: html,structure
 published: True
 position: 5

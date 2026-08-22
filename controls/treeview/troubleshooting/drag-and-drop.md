@@ -3,6 +3,7 @@ title: Drag and Drop
 page_title: Drag and Drop - RadTreeView
 description: Check our Web Forms article about Drag and Drop.
 slug: treeview/troubleshooting/drag-and-drop
+components: ["treeview"]
 tags: drag,and,drop
 published: True
 position: 11

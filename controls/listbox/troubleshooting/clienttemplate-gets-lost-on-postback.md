@@ -3,6 +3,7 @@ title: ClientTemplate Gets Lost on PostBack
 page_title: ClientTemplate Gets Lost on PostBack - RadListBox
 description: Check our Web Forms article about ClientTemplate Gets Lost on PostBack.
 slug: listbox/troubleshooting/clienttemplate-gets-lost-on-postback
+components: ["listbox"]
 tags: clienttemplate,gets,lost,on,postback
 published: True
 position: 3

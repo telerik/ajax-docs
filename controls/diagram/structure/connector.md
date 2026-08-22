@@ -3,6 +3,7 @@ title: Connector
 page_title: Connector
 description: Check our Web Forms article about Connector.
 slug: diagram/structure/connector
+components: ["diagram"]
 tags: connector
 published: True
 position: 3

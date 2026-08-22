@@ -3,6 +3,7 @@ title: Line Chart
 page_title: Line Chart - RadHtmlChart
 description: Learn about the Line Chart type in the HTMLChart control for visualizing data trends over time.
 slug: htmlchart/chart-types/line-chart
+components: ["htmlchart"]
 tags: line,chart
 published: True
 position: 11

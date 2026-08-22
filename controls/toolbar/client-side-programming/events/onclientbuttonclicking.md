@@ -3,6 +3,7 @@ title: OnClientButtonClicking
 page_title: OnClientButtonClicking - RadToolBar
 description: Check our Web Forms article about OnClientButtonClicking.
 slug: toolbar/client-side-programming/onclientbuttonclicking
+components: ["toolbar"]
 tags: onclientbuttonclicking
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: fire
 page_title: fire - RadEditor
 description: Check our Web Forms article about fire.
 slug: editor/client-side-programming/methods/fire
+components: ["editor"]
 tags: fire
 published: True
 position: 2

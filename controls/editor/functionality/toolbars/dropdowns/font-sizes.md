@@ -3,6 +3,7 @@ title: Font Sizes
 page_title: Font Sizes - RadEditor
 description: Check our Web Forms article about Font Sizes.
 slug: editor/functionality/toolbars/dropdowns/font-sizes
+components: ["editor"]
 tags: font,sizes
 published: True
 position: 1

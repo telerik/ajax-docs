@@ -3,6 +3,7 @@ title: Expanding and Collapsing Items
 page_title: Expanding and Collapsing Items - RadPanelBar
 description: Check our Web Forms article about Expanding and Collapsing Items.
 slug: panelbar/radpanelbar-items/expanding-and-collapsing-items
+components: ["panelbar"]
 tags: expanding,and,collapsing,items
 published: True
 position: 1

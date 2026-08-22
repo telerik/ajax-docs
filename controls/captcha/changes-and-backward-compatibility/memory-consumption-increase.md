@@ -3,6 +3,7 @@ title: Memory Consumption Increase
 page_title: Memory Consumption Increase - RadCaptcha
 description: Check our Web Forms article about Memory Consumption Increase.
 slug: captcha/changes-and-backward-compatibility/memory-consumption-increase
+components: ["captcha"]
 tags: memory,consumption,increase
 published: True
 position: 1

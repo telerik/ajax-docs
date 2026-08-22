@@ -3,6 +3,7 @@ title: Separators
 page_title: Separators - RadNavigation
 description: Check our Web Forms article about Separators.
 slug: navigation/separators
+components: ["navigation"]
 tags: separators
 published: True
 position: 3

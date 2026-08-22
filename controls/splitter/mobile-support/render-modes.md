@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadSplitter
 description: Check our Web Forms article about Render Modes.
 slug: splitter/mobile-support/render-modes
+components: ["splitter"]
 tags: render,modes,splitter
 published: True
 position: 1

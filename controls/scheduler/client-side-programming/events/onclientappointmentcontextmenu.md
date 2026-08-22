@@ -3,6 +3,7 @@ title: OnClientAppointmentContextMenu
 page_title: OnClientAppointmentContextMenu - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentContextMenu.
 slug: scheduler/client-side-programming/events/onclientappointmentcontextmenu
+components: ["scheduler"]
 tags: onclientappointmentcontextmenu
 published: True
 position: 3

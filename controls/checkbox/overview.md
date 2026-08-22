@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadCheckBox
 description: Learn about the CheckBox control and its features for capturing and managing binary user input effectively.
 slug: checkbox/overview
+components: ["checkbox"]
 tags: overview
 published: True
 position: 0

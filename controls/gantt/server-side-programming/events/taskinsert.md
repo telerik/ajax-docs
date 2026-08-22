@@ -3,6 +3,7 @@ title: TaskInsert
 page_title: TaskInsert - RadGantt
 description: Check our Web Forms article about TaskInsert.
 slug: gantt/server-side-programming/events/taskinsert
+components: ["gantt"]
 tags: taskinsert
 published: True
 position: 3

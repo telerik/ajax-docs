@@ -3,6 +3,7 @@ title: Multiple File Selection
 page_title: Multiple File Selection - RadCloudUpload
 description: Check our Web Forms article about Multiple File Selection.
 slug: cloudupload/functionality/multiple-file-selection
+components: ["cloudupload"]
 tags: multiple,file,selection
 published: True
 position: 0

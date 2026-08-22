@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadStepper
 description: Check our Web Forms article about Getting Started.
 slug: stepper/getting-started
+components: ["stepper"]
 tags: getting,started,
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Multi Column Menu
 page_title: Multi Column Menu - RadMenu
 description: Check our Web Forms article about Multi Column Menu.
 slug: menu/functionality/multi-column-menu
+components: ["menu"]
 tags: multi,column,menu
 published: True
 position: 3

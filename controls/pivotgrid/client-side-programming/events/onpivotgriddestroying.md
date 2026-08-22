@@ -3,6 +3,7 @@ title: OnPivotGridDestroying
 page_title: OnPivotGridDestroying - RadPivotGrid
 description: Check our Web Forms article about OnPivotGridDestroying.
 slug: pivotgrid/client-side-programming/events/onpivotgriddestroying
+components: ["pivotgrid"]
 tags: onpivotgriddestroying
 published: True
 position: 3

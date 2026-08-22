@@ -3,6 +3,7 @@ title: Overview
 page_title: RadTileList Overview
 description: Check our Web Forms article about Overview.
 slug: tilelist/overview
+components: ["tilelist"]
 tags: overview
 published: True
 position: 0

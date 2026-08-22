@@ -3,6 +3,7 @@ title: Binding to Array and ArrayList
 page_title: Binding to Array and ArrayList - RadTreeView
 description: Check our Web Forms article about Binding to Array and ArrayList.
 slug: treeview/data-binding/binding-to-array-and-arraylist
+components: ["treeview"]
 tags: binding,to,array,and,arraylist
 published: True
 position: 1

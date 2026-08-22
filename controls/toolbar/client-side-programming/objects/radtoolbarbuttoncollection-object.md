@@ -3,6 +3,7 @@ title: RadToolBarButtonCollection Object
 page_title: RadToolBarButtonCollection Object - RadToolBar
 description: Check our Web Forms article about RadToolBarButtonCollection Object.
 slug: toolbar/client-side-programming/radtoolbarbuttoncollection-object
+components: ["toolbar"]
 tags: radtoolbarbuttoncollection,object
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientTabDragStart
 page_title: OnClientTabDragStart - RadTabStrip
 description: Check our Web Forms article about OnClientTabDragStart.
 slug: tabstrip/client-side-programming/onclienttabdragstart
+components: ["tabstrip"]
 tags: onclienttabdragstart
 published: True
 position: 9

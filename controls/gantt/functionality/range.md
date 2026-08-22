@@ -3,6 +3,7 @@ title: Range
 page_title: Range - RadGantt
 description: Check our Web Forms article about Range.
 slug: gantt/functionality/range
+components: ["gantt"]
 tags: range
 published: True
 position: 7

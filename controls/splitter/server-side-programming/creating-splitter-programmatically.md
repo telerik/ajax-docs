@@ -3,6 +3,7 @@ title: Creating Splitter Programmatically
 page_title: Creating Splitter Programmatically - RadSplitter
 description: Check our Web Forms article about Creating Splitter Programmatically.
 slug: splitter/server-side-programming/creating-splitter-programmatically
+components: ["splitter"]
 previous_url: controls/splitter/server-side-programming/creating-splitter-programatically
 tags: creating,splitter,programmatically
 published: True

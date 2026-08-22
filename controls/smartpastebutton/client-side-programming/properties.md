@@ -3,6 +3,7 @@ title: Properties
 page_title: SmartPasteButton JavaScript Properties
 description: "JavaScript properties and methods of the Telerik WebForms SmartPasteButton component."
 slug: smartpastebutton/client-side-programming/properties
+components: ["smartpastebutton"]
 tags: properties,smartpastebutton
 published: True
 position: 1

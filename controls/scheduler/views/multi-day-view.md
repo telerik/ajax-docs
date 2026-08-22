@@ -3,6 +3,7 @@ title: Multi-Day View
 page_title: Multi-Day View - RadScheduler
 description: Check our Web Forms article about Multi-Day View.
 slug: scheduler/views/multi-day-view
+components: ["scheduler"]
 tags: multi-day,view
 published: True
 position: 5

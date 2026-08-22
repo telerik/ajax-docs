@@ -3,6 +3,7 @@ title: Setting Focus
 page_title: Setting Focus - RadTextBox
 description: Check our Web Forms article about Setting Focus.
 slug: radtextbox/features/setting-focus
+components: ["textbox"]
 tags: setting,focus
 published: True
 position: 7

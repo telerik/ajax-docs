@@ -3,6 +3,7 @@ title: Open Link in a New Window on Double Click
 page_title: Open Link in a New Window on Double Click - RadEditor
 description: Check our Web Forms article about Open Link in a New Window on Double Click.
 slug: editor/how-to/open-link-in-a-new-window-on-double-click
+components: ["editor"]
 tags: open,link,in,a,new,window,on,double,click
 published: True
 position: 7

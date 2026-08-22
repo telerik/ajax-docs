@@ -3,6 +3,7 @@ title: Ignore
 page_title: Ignore - RadDragDropManager
 description: Hint
 slug: dragdropmanager/functionality/ignore
+components: ["dragdropmanager"]
 tags: Ignore
 published: True
 ---

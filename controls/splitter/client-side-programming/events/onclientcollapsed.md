@@ -3,6 +3,7 @@ title: OnClientCollapsed
 page_title: OnClientCollapsed - RadSplitter
 description: Check our Web Forms article about OnClientCollapsed.
 slug: splitter/client-side-programming/events/onclientcollapsed
+components: ["splitter"]
 tags: onclientcollapsed
 published: True
 position: 8

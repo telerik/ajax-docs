@@ -3,6 +3,7 @@ title: FileExists
 page_title: FileExists - RadUpload
 description: Check our Web Forms article about FileExists.
 slug: upload/server-side-programming/fileexists
+components: ["upload"]
 tags: fileexists
 published: True
 position: 1

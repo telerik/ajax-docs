@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Overview - RadComboBox
 description: Explore the client-side programming features of the ComboBox control for dynamic user interactions.
 slug: combobox/client-side-programming/overview
+components: ["combobox"]
 tags: overview
 published: True
 position: 0

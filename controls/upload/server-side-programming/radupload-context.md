@@ -3,6 +3,7 @@ title: RadUpload Context
 page_title: RadUpload Context - RadUpload
 description: Check our Web Forms article about RadUpload Context.
 slug: upload/server-side-programming/radupload-context
+components: ["upload"]
 tags: radupload,context
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientNodePopulating
 page_title: OnClientNodePopulating - RadTreeView
 description: Check our Web Forms article about OnClientNodePopulating.
 slug: treeview/client-side-programming/events/onclientnodepopulating
+components: ["treeview"]
 tags: onclientnodepopulating
 published: True
 position: 4

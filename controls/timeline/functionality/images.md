@@ -3,6 +3,7 @@ title: Images
 page_title: Images - RadTimeline
 description: Check our Web Forms article about Images.
 slug: timeline/functionality/images
+components: ["timeline"]
 tags: images,client,server
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: ItemSelected
 page_title: ItemSelected - RadDropDownList
 description: Check our Web Forms article about ItemSelected.
 slug: dropdownlist/server-side-programming/events/itemselected
+components: ["dropdownlist"]
 tags: itemselected
 published: True
 position: 1

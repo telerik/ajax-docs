@@ -3,6 +3,7 @@ title: Create a Custom Skin
 page_title: Create a Custom Skin - RadImageButton
 description: Check our Web Forms article about Create a Custom Skin.
 slug: imagebutton/appearance-and-styling/create-a-custom-skin
+components: ["imagebutton"]
 tags: create,a,custom,skin
 published: True
 position: 3

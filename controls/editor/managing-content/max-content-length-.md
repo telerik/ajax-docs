@@ -3,6 +3,7 @@ title: Max Content Length
 page_title: Max Content Length - RadEditor
 description: Check our Web Forms article about Max Content Length.
 slug: editor/managing-content/max-content-length-
+components: ["editor"]
 tags: max,content,length,
 published: True
 position: 6

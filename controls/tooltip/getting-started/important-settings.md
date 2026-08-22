@@ -3,6 +3,7 @@ title: Important Settings
 page_title: Important Settings - RadTooltip
 description: Check our Web Forms article about Important Settings.
 slug: tooltip/getting-started/important-settings
+components: ["tooltip"]
 tags: important,settings
 published: True
 position: 3

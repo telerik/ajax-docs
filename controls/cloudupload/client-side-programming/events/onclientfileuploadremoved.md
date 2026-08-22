@@ -3,6 +3,7 @@ title: OnClientFileUploadRemoved
 page_title: OnClientFileUploadRemoved - RadCloudUpload
 description: Check our Web Forms article about OnClientFileUploadRemoved.
 slug: cloudupload/client-side-programming/events/onclientfileuploadremoved
+components: ["cloudupload"]
 tags: onclientfileuploadremoved
 published: True
 position: 8

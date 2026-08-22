@@ -3,6 +3,7 @@ title: OnBlur
 page_title: OnBlur - RadTextBox
 description: Check our Web Forms article about OnBlur.
 slug: radtextbox/client-side-programming/events/onblur
+components: ["textbox"]
 tags: onblur
 published: True
 position: 1

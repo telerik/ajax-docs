@@ -3,6 +3,7 @@ title: Gantt Charts
 page_title: Gantt Charts - RadChart
 description: Check our Web Forms article about Gantt Charts.
 slug: chart/understanding-radchart-types/gantt-charts
+components: ["chart"]
 tags: gantt,charts
 published: True
 position: 5

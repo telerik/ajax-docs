@@ -3,6 +3,7 @@ title: OnClientAutoSizeEnd
 page_title: OnClientAutoSizeEnd - RadWindow
 description: Check our Web Forms article about OnClientAutoSizeEnd.
 slug: window/client-side-programming/events/onclientautosizeend
+components: ["window"]
 tags: onclientautosizeend
 published: True
 position: 3

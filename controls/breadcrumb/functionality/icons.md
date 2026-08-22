@@ -3,6 +3,7 @@ title: Icons
 page_title: Icons - RadBreadcrumb
 description: Check our Web Forms article about Icons.
 slug: breadcrumb/functionality/icons
+components: ["breadcrumb"]
 tags: icons
 published: True
 position: 1

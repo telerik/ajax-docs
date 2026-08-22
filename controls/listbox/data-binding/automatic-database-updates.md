@@ -3,6 +3,7 @@ title: Automatic Database Updates
 page_title: Automatic Database Updates - RadListBox
 description: Check our Web Forms article about Automatic Database Updates.
 slug: listbox/data-binding/automatic-database-updates
+components: ["listbox"]
 tags: automatic,database,updates
 published: True
 position: 4

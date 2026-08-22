@@ -3,6 +3,7 @@ title: DependencyInsert
 page_title: DependencyInsert - RadGantt
 description: Check our Web Forms article about DependencyInsert.
 slug: gantt/server-side-programming/events/dependencyinsert
+components: ["gantt"]
 tags: dependencyinsert
 published: True
 position: 6

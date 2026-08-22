@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadTooltip
 description: Check our Web Forms article about Overview.
 slug: tooltip/client-side-programming/events/overview
+components: ["tooltip"]
 tags: overview
 published: True
 position: 0

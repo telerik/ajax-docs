@@ -3,6 +3,7 @@ title: OnClientSelectedIndexChanging
 page_title: OnClientSelectedIndexChanging - RadComboBox
 description: Check our Web Forms article about OnClientSelectedIndexChanging.
 slug: combobox/client-side-programming/events/onclientselectedindexchanging
+components: ["combobox"]
 tags: onclientselectedindexchanging
 published: True
 position: 15

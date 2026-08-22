@@ -3,6 +3,7 @@ title: RadDropDownTree EntryCollection Object
 page_title: RadDropDownTree EntryCollection Object - RadDropDownTree
 description: Check our Web Forms article about RadDropDownTree EntryCollection Object.
 slug: dropdowntree/client-side-programming/raddropdowntree-entrycollection-object
+components: ["dropdowntree"]
 tags: raddropdowntree,entrycollection,object
 published: True
 position: 3

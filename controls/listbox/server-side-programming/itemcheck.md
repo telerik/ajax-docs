@@ -3,6 +3,7 @@ title: ItemCheck
 page_title: ItemCheck - RadListBox
 description: Check our Web Forms article about ItemCheck.
 slug: listbox/server-side-programming/server-events/itemcheck
+components: ["listbox"]
 tags: itemcheck
 published: True
 position: 9

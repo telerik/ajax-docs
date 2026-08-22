@@ -3,6 +3,7 @@ title: CSS Styles
 page_title: CSS Styles - RadEditor
 description: Learn how to configure CSS styles in the Editor control's toolbar dropdowns for content formatting.
 slug: editor/functionality/toolbars/dropdowns/css-styles
+components: ["editor"]
 tags: css,styles
 published: True
 position: 6

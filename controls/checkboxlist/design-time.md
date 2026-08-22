@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadCheckBoxList
 description: Check our Web Forms article about Design Time.
 slug: checkboxlist/design-time
+components: ["checkboxlist"]
 tags: design,time
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Overview
 page_title: Commands Overview - RadDock
 description: Check our Web Forms article about Overview.
 slug: dock/commands/overview
+components: ["dock"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Single Click
 page_title: Single Click - RadToggleButton
 description: Check our Web Forms article about Single Click.
 slug: togglebutton/functionality/single-click
+components: ["togglebutton"]
 tags: single,click
 published: True
 position: 2

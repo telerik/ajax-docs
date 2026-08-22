@@ -3,6 +3,7 @@ title: Series-Specific Properties
 page_title: Series-Specific Properties - RadChart
 description: Check our Web Forms article about Series-Specific Properties.
 slug: chart/understanding-radchart-elements/series-specific-properties
+components: ["chart"]
 tags: series-specific,properties
 published: True
 position: 10

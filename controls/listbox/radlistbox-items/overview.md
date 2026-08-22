@@ -3,6 +3,7 @@ title: Overview
 page_title: RadListBox Items Overview - RadListBox
 description: Check our Web Forms article about Overview.
 slug: listbox/radlistbox-items/overview
+components: ["listbox"]
 tags: overview
 published: True
 position: 0

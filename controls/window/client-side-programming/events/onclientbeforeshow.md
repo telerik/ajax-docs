@@ -3,6 +3,7 @@ title: OnClientBeforeShow
 page_title: OnClientBeforeShow - RadWindow
 description: Check our Web Forms article about OnClientBeforeShow.
 slug: window/client-side-programming/events/onclientbeforeshow
+components: ["window"]
 tags: onclientbeforeshow
 published: True
 position: 5

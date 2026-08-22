@@ -3,6 +3,7 @@ title: OnClientTemplateDataBound
 page_title: OnClientTemplateDataBound - RadMenu
 description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: menu/client-side-programming/events/onclienttemplatedatabound-
+components: ["menu"]
 tags: onclienttemplatedatabound,
 published: True
 position: 2

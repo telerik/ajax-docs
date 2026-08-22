@@ -3,6 +3,7 @@ title: OnClientKendoWidgetInitializing
 page_title: OnClientKendoWidgetInitializing - RadGantt
 description: Check our Web Forms article about OnClientKendoWidgetInitializing.
 slug: gantt/client-side-programming/events/onclientkendowidgetinitializing
+components: ["gantt"]
 tags: onclientkendowidgetinitializing
 published: True
 position: 1

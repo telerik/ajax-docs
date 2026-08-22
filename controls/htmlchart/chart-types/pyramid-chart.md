@@ -3,6 +3,7 @@ title: Pyramid Chart
 page_title: Pyramid Chart - RadHtmlChart
 description: Check our Web Forms article about Pyramid Chart.
 slug: htmlchart/chart-types/pyramid-chart
+components: ["htmlchart"]
 tags: pyramid,chart
 published: True
 position: 14

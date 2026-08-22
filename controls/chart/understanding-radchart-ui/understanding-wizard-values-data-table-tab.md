@@ -3,6 +3,7 @@ title: Understanding Wizard Values Data Table Tab
 page_title: Understanding Wizard Values Data Table Tab - RadChart
 description: Check our Web Forms article about Understanding Wizard Values Data Table Tab.
 slug: chart/understanding-radchart-ui/understanding-wizard-values-data-table-tab
+components: ["chart"]
 tags: understanding,wizard,values,data,table,tab
 published: True
 position: 8

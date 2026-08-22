@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadCheckBox
 description: Check our Web Forms article about Getting Started.
 slug: checkbox/getting-started
+components: ["checkbox"]
 tags: getting,started
 published: True
 position: 2

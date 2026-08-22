@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadDateInput
 description: Check our Web Forms article about Keyboard Support.
 slug: raddateinput/accessibility-and-internationalization/keyboard-support
+components: ["dateinput"]
 tags: keyboard,support
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Binding to Folder
 page_title: Binding to Folder - RadImageGallery
 description: Check our Web Forms article about Binding to Folder.
 slug: imagegallery/data-binding/server-side/binding-to-folder
+components: ["imagegallery"]
 tags: binding,to,folder
 published: True
 position: 0

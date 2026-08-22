@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadDateInput
 description: Check our Web Forms article about Overview.
 slug: raddateinput/overview
+components: ["dateinput"]
 tags: overview
 published: True
 position: 0

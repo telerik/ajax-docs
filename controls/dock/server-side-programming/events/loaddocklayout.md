@@ -3,6 +3,7 @@ title: LoadDockLayout
 page_title: LoadDockLayout - RadDock
 description: Check our Web Forms article about LoadDockLayout.
 slug: dock/server-side-programming/events/loaddocklayout
+components: ["dock"]
 tags: loaddocklayout
 published: True
 position: 2

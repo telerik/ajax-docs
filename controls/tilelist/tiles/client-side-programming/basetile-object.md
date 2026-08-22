@@ -3,6 +3,7 @@ title: BaseTile Object
 page_title: BaseTile Object - RadTile
 description: Check our Web Forms article about BaseTile Object.
 slug: tilelist/tiles/client-side-programming/basetile-object
+components: ["tilelist"]
 tags: basetile,object
 published: True
 position: 1

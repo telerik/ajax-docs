@@ -3,6 +3,7 @@ title: Controlling Content Shared in Facebook
 page_title: Controlling Content Shared in Facebook - RadSocialShare
 description: Check our Web Forms article about Controlling Content Shared in Facebook.
 slug: socialshare/troubleshooting/controlling-content-shared-in-facebook
+components: ["socialshare"]
 tags: controlling,content,shared,in,facebook
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: RadAutoCompleteBox vs RadComboBox
 page_title: RadAutoCompleteBox vs RadComboBox - RadAutoCompleteBox
 description: Check our Web Forms article about RadAutoCompleteBox vs RadComboBox.
 slug: autocompletebox/radautocompletebox-vs-radcombobox
+components: ["autocompletebox"]
 tags: radautocompletebox,vs,radcombobox
 published: True
 position: 1

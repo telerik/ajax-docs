@@ -3,6 +3,7 @@ title: Cannot Upload Files Simultaneously
 page_title: Cannot Upload Files Simultaneously - RadUpload
 description: Check our Web Forms article about Cannot Upload Files Simultaneously.
 slug: upload/troubleshooting/cannot-upload-files-simultaneously
+components: ["upload"]
 tags: cannot,upload,files,simultaneously
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started Overview - RadDateInput
 description: Check our Web Forms article about Getting Started.
 slug: raddateinput/getting-started/overview
+components: ["dateinput"]
 tags: overview
 published: True
 position: 1

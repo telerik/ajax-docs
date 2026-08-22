@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadTabStrip
 description: Check our Web Forms article about OnClientMouseOver.
 slug: tabstrip/client-side-programming/onclientmouseover
+components: ["tabstrip"]
 tags: onclientmouseover
 published: True
 position: 5

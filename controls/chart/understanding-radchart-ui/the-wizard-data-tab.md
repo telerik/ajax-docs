@@ -3,6 +3,7 @@ title: The Wizard Data Tab
 page_title: The Wizard Data Tab - RadChart
 description: Check our Web Forms article about The Wizard Data Tab.
 slug: chart/understanding-radchart-ui/the-wizard-data-tab
+components: ["chart"]
 tags: the,wizard,data,tab
 published: True
 position: 4

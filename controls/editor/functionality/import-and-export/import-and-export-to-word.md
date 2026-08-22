@@ -3,6 +3,7 @@ title: Import and Export to Word
 page_title: Import and Export to Word - RadEditor
 description: Check our Web Forms article about Import and Export to Word.
 slug: editor/functionality/import-and-export/import-and-export-to-word
+components: ["editor"]
 tags: import,and,export,to,word
 published: True
 position: 1

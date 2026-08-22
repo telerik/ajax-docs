@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadWizard
 description: Check our Web Forms article about Known Limitations.
 slug: wizard/troubleshooting/known-limitations
+components: ["wizard"]
 tags: known,limitations
 published: True
 position: 0

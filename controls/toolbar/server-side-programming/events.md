@@ -3,6 +3,7 @@ title: Events
 page_title: Server-side Events - RadToolBar
 description: Check our Web Forms article about Events.
 slug: toolbar/server-side-programming/events
+components: ["toolbar"]
 tags: events
 published: True
 position: 0

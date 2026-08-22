@@ -3,6 +3,7 @@ title: Embedded Context Menu
 page_title: Embedded Context Menu - RadSplitButton
 description: Check our Web Forms article about Embedded Context Menu.
 slug: splitbutton/functionality/context-menu
+components: ["splitbutton"]
 tags: contextmenu,dropdown
 published: True
 position: 0

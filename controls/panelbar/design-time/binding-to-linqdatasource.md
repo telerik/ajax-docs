@@ -3,6 +3,7 @@ title: Binding to LinqDataSource
 page_title: Binding to LinqDataSource - RadPanelBar
 description: Check our Web Forms article about Binding to LinqDataSource.
 slug: panelbar/design-time/binding-to-linqdatasource
+components: ["panelbar"]
 tags: binding,to,linqdatasource
 published: True
 position: 4

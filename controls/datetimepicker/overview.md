@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDateTimePicker Overview
 description: Discover the DateTimePicker control and its features for selecting and formatting date and time values.
 slug: datetimepicker/overview
+components: ["datetimepicker"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Masks
 page_title: Masks - RadMaksedTextBox
 description: Check our Web Forms article about Masks.
 slug: radmaskedtextbox/features/masks
+components: ["maskedtextbox"]
 tags: masks
 published: True
 position: 1

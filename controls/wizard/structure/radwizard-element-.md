@@ -3,6 +3,7 @@ title: RadWizard Element
 page_title: RadWizard Element - RadWizard
 description: Check our Web Forms article about RadWizard Element.
 slug: wizard/structure/radwizard-element-
+components: ["wizard"]
 tags: radwizard,element,
 published: True
 position: 0

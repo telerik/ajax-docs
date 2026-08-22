@@ -3,6 +3,7 @@ title: No Data Template
 page_title: No Data Template - RadHtmlChart
 description: Learn how to use the No Data Template of the RadHtmlChart.
 slug: htmlchart/functionality/no-data-template
+components: ["htmlchart"]
 tags: no data, template, no data template, htmlchart, chart, telerik, kendo
 published: True
 position: 7

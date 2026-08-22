@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadPivotGrid
 description: Check our Web Forms article about Smart Tag.
 slug: pivotgrid/design-time/smart-tag
+components: ["pivotgrid"]
 tags: smart,tag
 published: True
 position: 0

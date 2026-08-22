@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadDragDropManager
 description: Get started by following the Step by Step Guide to create a Drag and Drop Scenario
 slug: dragdropmanager/getting-started
+components: ["dragdropmanager"]
 tags: getting started, step by step, guide, drag and drop, dragdropmanager, drag, drop
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Using Header and Footer Templates
 page_title: Using Header and Footer Templates - RadListBox
 description: Check our Web Forms article about Using Header and Footer Templates.
 slug: listbox/appearance-and-styling/using-header-and-footer-templates
+components: ["listbox"]
 tags: using,header,and,footer,templates
 published: True
 position: 2

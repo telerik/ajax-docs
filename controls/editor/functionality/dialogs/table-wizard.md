@@ -3,6 +3,7 @@ title: Table Wizard
 page_title: Table Wizard - RadEditor
 description: Check our Web Forms article about Table Wizard.
 slug: editor/functionality/dialogs/table-wizard
+components: ["editor"]
 tags: table,wizard
 published: True
 position: 2

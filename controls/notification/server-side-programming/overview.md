@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadNotification
 description: Check our Web Forms article about Overview.
 slug: notification/server-side-programming/overview
+components: ["notification"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Progress Bar
 page_title: Progress Bar - RadWizard
 description: Check our Web Forms article about Progress Bar.
 slug: wizard/structure/progress-bar
+components: ["wizard"]
 tags: progress,bar
 published: True
 position: 2

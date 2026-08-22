@@ -3,6 +3,7 @@ title: Properties
 page_title: Server-side Programming Overview - RadTextBox
 description: Check our Web Forms article about Overview.
 slug: radtextbox/server-side-programming/properties
+components: ["textbox"]
 tags: overview
 published: True
 position: 0

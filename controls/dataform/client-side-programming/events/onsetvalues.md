@@ -3,6 +3,7 @@ title: OnSetValues
 page_title: OnSetValues - RadDataForm
 description: Check our Web Forms article about OnSetValues.
 slug: dataform/client-side-programming/events/onsetvalues
+components: ["dataform"]
 tags: onsetvalues
 published: True
 position: 6

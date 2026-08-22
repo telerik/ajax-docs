@@ -3,6 +3,7 @@ title: Intended-vertical-left align tabs
 page_title: Intended-vertical-left align tabs - RadTabStrip
 description: Check our Web Forms article about Intended-vertical-left align tabs.
 slug: tabstrip/how-to/intended-vertical-left-align-tabs
+components: ["tabstrip"]
 tags: tabs,vertical,intend,align
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: Steps
 page_title: Steps - RadStepper
 description: Each Step in RadStepper consists of a label and/or an icon. A Step can be enabled, selected, set in error state.
 slug: stepper/functionality/steps
+components: ["stepper"]
 tags: steps
 published: True
 position: 0

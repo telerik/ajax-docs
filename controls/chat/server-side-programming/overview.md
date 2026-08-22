@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadChat
 description: Check our Web Forms article about Server-side Programming Overview.
 slug: chat/server-side-programming/overview
+components: ["chat"]
 tags: overview
 published: True
 position: 0

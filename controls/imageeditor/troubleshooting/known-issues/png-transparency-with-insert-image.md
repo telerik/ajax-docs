@@ -3,6 +3,7 @@ title: PNG Transparency with InsertImage Limitation
 page_title: PNG Transparency with InsertImage Limitation - RadImageEditor
 description: Check our Web Forms article about PNG Transparency with InsertImage Limitation.
 slug: imageeditor/troubleshooting/known-issues/png-transparency-with-insert-image
+components: ["imageeditor"]
 tags: png,transparency,insert,image,limitation
 published: True
 position: 2

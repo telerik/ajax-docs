@@ -3,6 +3,7 @@ title: OnClientDockPositionChanging
 page_title: OnClientDockPositionChanging - RadDock
 description: Check our Web Forms article about OnClientDockPositionChanging.
 slug: dock/client-side-programming/events/onclientdockpositionchanging
+components: ["dock"]
 tags: onclientdockpositionchanging
 published: True
 position: 6

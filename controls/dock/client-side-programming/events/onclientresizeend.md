@@ -3,6 +3,7 @@ title: OnClientResizeEnd
 page_title: OnClientResizeEnd - RadDock
 description: Check our Web Forms article about OnClientResizeEnd.
 slug: dock/client-side-programming/events/onclientresizeend
+components: ["dock"]
 tags: onclientresizeend
 published: True
 position: 9

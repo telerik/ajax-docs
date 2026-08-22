@@ -3,6 +3,7 @@ title: SchedulerAttributeCollection Object
 page_title: SchedulerAttributeCollection Object - RadScheduler
 description: Check our Web Forms article about SchedulerAttributeCollection Object.
 slug: scheduler/client-side-programming/properties-and-methods/schedulerattributecollection-object
+components: ["scheduler"]
 tags: schedulerattributecollection,object
 published: True
 position: 6

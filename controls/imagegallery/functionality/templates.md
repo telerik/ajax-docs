@@ -3,6 +3,7 @@ title: Templates
 page_title: Templates - RadImageGallery
 description: Check our Web Forms article about Templates.
 slug: imagegallery/functionality/templates
+components: ["imagegallery"]
 tags: templates
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadProgressArea
 description: Check our Web Forms article about Render Modes.
 slug: progressarea/mobile-support/render-modes
+components: ["progressarea"]
 tags: render,modes
 published: True
 position: 7

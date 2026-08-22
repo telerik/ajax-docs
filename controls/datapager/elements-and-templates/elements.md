@@ -3,6 +3,7 @@ title: Elements
 page_title: Elements - RadDataPager
 description: Check our Web Forms article about Elements.
 slug: datapager/elements-and-templates/elements
+components: ["datapager"]
 tags: elements
 published: True
 position: 0

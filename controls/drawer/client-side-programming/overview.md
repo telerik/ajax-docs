@@ -3,6 +3,7 @@ title: RadDrawer Object
 page_title: RadDrawer Object - RadDrawer
 description: Check our Web Forms article about RadDrawer Object.
 slug: drawer/client-side-programming/overview
+components: ["drawer"]
 tags: drawer,object
 published: True
 position: 0

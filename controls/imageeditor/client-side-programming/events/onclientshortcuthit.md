@@ -3,6 +3,7 @@ title: OnClientShortCutHit
 page_title: OnClientShortCutHit - RadImageEditor
 description: Check our Web Forms article about OnClientShortCutHit.
 slug: imageeditor/client-side-programming/events/onclientshortcuthit
+components: ["imageeditor"]
 tags: onclientshortcuthit
 published: True
 position: 12

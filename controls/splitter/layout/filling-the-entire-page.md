@@ -3,6 +3,7 @@ title: Filling the Entire Page
 page_title: Filling the Entire Page - RadSplitter
 description: Check our Web Forms article about Filling the Entire Page.
 slug: splitter/layout/filling-the-entire-page
+components: ["splitter"]
 tags: filling,the,entire,page
 published: True
 position: 3

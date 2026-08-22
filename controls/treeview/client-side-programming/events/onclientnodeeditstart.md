@@ -3,6 +3,7 @@ title: OnClientNodeEditStart
 page_title: OnClientNodeEditStart - RadTreeView
 description: Check our Web Forms article about OnClientNodeEditStart.
 slug: treeview/client-side-programming/events/onclientnodeeditstart
+components: ["treeview"]
 tags: onclientnodeeditstart
 published: True
 position: 8

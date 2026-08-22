@@ -3,6 +3,7 @@ title: OnClientTabDisabled
 page_title: OnClientTabDisabled - RadTabStrip
 description: Check our Web Forms article about OnClientTabDisabled.
 slug: tabstrip/client-side-programming/onclienttabdisabled
+components: ["tabstrip"]
 tags: onclienttabdisabled
 published: True
 position: 6

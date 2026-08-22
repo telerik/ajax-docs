@@ -3,6 +3,7 @@ title: OnClientNodeCollapsing
 page_title: OnClientNodeCollapsing - RadNavigation
 description: Check our Web Forms article about OnClientNodeCollapsing.
 slug: navigation/client-side-programming/events/onclientnodecollapsing
+components: ["navigation"]
 tags: onclientnodecollapsing
 published: True
 position: 4

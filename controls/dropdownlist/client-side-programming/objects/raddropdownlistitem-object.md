@@ -3,6 +3,7 @@ title: RadDropDownListItem Object
 page_title: RadDropDownListItem Object - RadDropDownList
 description: Check our Web Forms article about RadDropDownListItem Object.
 slug: dropdownlist/client-side-programming/objects/raddropdownlistitem-object
+components: ["dropdownlist"]
 tags: raddropdownlistitem,object
 published: True
 position: 1

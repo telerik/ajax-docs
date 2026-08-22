@@ -3,6 +3,7 @@ title: Optimizing RadScheduler Performance
 page_title: Optimizing RadScheduler Performance - RadScheduler
 description: Check our Web Forms article about Optimizing RadScheduler Performance.
 slug: scheduler/performance/optimizing-radscheduler-performance
+components: ["scheduler"]
 tags: performance,optimizing
 published: True
 position: 0

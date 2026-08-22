@@ -3,6 +3,7 @@ title: Migrate Data Binding Configuration
 page_title: Migrate Data Binding Configuration - RadHtmlChart
 description: Check our Web Forms article about Migrate Data Binding Configuration.
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-data-binding-configuration
+components: ["htmlchart"]
 tags: migrate,data,binding,configuration
 published: True
 position: 2

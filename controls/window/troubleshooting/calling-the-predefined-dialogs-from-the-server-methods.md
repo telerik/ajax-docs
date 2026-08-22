@@ -3,6 +3,7 @@ title: Calling the Predefined Dialogs from the Server Methods
 page_title: Calling the Predefined Dialogs from the Server Methods - RadWindow
 description: Check our Web Forms article about Calling the Predefined Dialogs from the Server Methods.
 slug: window/troubleshooting/calling-the-predefined-dialogs-from-the-server-methods
+components: ["window"]
 tags: calling,the,predefined,dialogs,from,the,server,methods
 published: True
 position: 6

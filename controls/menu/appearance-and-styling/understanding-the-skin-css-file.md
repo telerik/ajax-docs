@@ -3,6 +3,7 @@ title: Understanding the Skin CSS File
 page_title: Understanding the Skin CSS File - RadMenu
 description: Check our Web Forms article about Understanding the Skin CSS File.
 slug: menu/appearance-and-styling/understanding-the-skin-css-file
+components: ["menu"]
 tags: understanding,the,skin,css,file
 published: True
 position: 8

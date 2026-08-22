@@ -3,6 +3,7 @@ title: TimeSlotCreated
 page_title: TimeSlotCreated - RadScheduler
 description: Check our Web Forms article about TimeSlotCreated.
 slug: scheduler/server-side-programming/server-events/timeslotcreated
+components: ["scheduler"]
 tags: timeslotcreated
 published: True
 position: 14

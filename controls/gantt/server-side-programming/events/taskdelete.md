@@ -3,6 +3,7 @@ title: TaskDelete
 page_title: TaskDelete - RadGantt
 description: Check our Web Forms article about TaskDelete.
 slug: gantt/server-side-programming/events/taskdelete
+components: ["gantt"]
 tags: taskdelete
 published: True
 position: 5

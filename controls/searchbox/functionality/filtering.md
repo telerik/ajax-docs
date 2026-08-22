@@ -3,6 +3,7 @@ title: Filtering
 page_title: Filtering - RadSearchBox
 description: Check our Web Forms article about Filtering.
 slug: searchbox/functionality/filtering
+components: ["searchbox"]
 tags: filtering
 published: True
 position: 3

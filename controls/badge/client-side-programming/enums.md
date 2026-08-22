@@ -3,6 +3,7 @@ title: Enums
 page_title: Badge Client-side Enums
 description: Client-side Enums of the Telerik WebForms Badge component
 slug: badge/client-side-programming/enums
+components: ["badge"]
 tags: badge,javascript,enums
 published: True
 position: 3

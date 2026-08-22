@@ -3,6 +3,7 @@ title: Functionality Overview
 page_title: Functionality Overview - RadDrawer
 description: Check our Web Forms article about Functionality Overview.
 slug: drawer/functionality/overview
+components: ["drawer"]
 tags: overview
 published: True
 position: 0

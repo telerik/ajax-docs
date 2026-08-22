@@ -3,6 +3,7 @@ title: Data Binding
 page_title: Data Binding - RadDateRangePicker
 description: Check our Web Forms article about Data Binding.
 slug: daterangepicker/functionality/data-binding
+components: ["daterangepicker"]
 tags: data,binding
 published: True
 position: 2

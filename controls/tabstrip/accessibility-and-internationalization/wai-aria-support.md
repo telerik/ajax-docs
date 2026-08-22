@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadTabStrip
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: tabstrip/accessibility-and-internationalization/wai-aria-support
+components: ["tabstrip"]
 tags: wai-aria,support
 published: True
 position: 1

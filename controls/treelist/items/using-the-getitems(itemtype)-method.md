@@ -3,6 +3,7 @@ title: Using the GetItems(itemType) Method
 page_title: Using the GetItems(itemType) Method - RadTreeList
 description: Check our Web Forms article about Using the GetItems(itemType) Method.
 slug: treelist/items/using-the-getitems(itemtype)-method
+components: ["treelist"]
 tags: using,the,getitems(itemtype),method
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Filtering
 page_title: Filtering - RadAutoCompleteBox
 description: Check our Web Forms article about Filtering.
 slug: autocompletebox/functionality/filtering
+components: ["autocompletebox"]
 tags: filtering
 published: True
 position: 1

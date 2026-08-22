@@ -3,6 +3,7 @@ title: Animations
 page_title: Animations - RadLightBox
 description: Check our Web Forms article about Animations.
 slug: lightbox/functionality/animations
+components: ["lightbox"]
 tags: animations
 published: True
 position: 1

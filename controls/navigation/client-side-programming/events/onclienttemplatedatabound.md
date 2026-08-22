@@ -3,6 +3,7 @@ title: OnClientTemplateDataBound
 page_title: OnClientTemplateDataBound - RadNavigation
 description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: navigation/client-side-programming/events/onclienttemplatedatabound
+components: ["navigation"]
 tags: onclienttemplatedatabound
 published: True
 position: 10

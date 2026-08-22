@@ -3,6 +3,7 @@ title: Adding Templates at Runtime
 page_title: Adding Templates at Runtime - RadPanelBar
 description: Check our Web Forms article about Adding Templates at Runtime.
 slug: panelbar/templates/adding-templates-at-runtime
+components: ["panelbar"]
 tags: adding,templates,at,runtime
 published: True
 position: 2

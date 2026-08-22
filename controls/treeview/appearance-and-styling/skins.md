@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadTreeView
 description: Check our Web Forms article about Skins.
 slug: treeview/appearance-and-styling/skins
+components: ["treeview"]
 tags: skins
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Using a Custom Image Provider
 page_title: Using a Custom Image Provider - RadImageEditor
 description: Check our Web Forms article about Using a Custom Image Provider.
 slug: imageeditor/functionality/using-a-custom-image-provider
+components: ["imageeditor"]
 tags: using,a,custom,image,provider
 published: True
 position: 4

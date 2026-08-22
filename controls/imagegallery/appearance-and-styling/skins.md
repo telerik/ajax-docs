@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadImageGallery
 description: Check our Web Forms article about Skins.
 slug: imagegallery/appearance-and-styling/skins
+components: ["imagegallery"]
 tags: skins
 published: True
 position: 0

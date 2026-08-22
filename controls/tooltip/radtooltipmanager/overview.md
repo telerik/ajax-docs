@@ -3,6 +3,7 @@ title: Overview
 page_title: RadToolTipManager Overview - RadTooltip
 description: Check our Web Forms article about Overview.
 slug: tooltip/radtooltipmanager/overview
+components: ["tooltip"]
 tags: overview
 published: True
 position: 0

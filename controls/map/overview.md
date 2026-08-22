@@ -3,6 +3,7 @@ title: Overview
 page_title: RadMap Overview
 description: Check our Web Forms article about Overview.
 slug: map/overview
+components: ["map"]
 tags: overview
 published: True
 position: 0

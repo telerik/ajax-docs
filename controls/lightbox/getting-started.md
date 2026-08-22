@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started
 description: Check our Web Forms article about Getting Started.
 slug: lightbox/getting-started
+components: ["lightbox"]
 tags: getting,started
 published: True
 position: 2

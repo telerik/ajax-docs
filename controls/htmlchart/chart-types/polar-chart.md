@@ -3,6 +3,7 @@ title: Polar Chart
 page_title: Polar Chart - RadHtmlChart
 description: Check our Web Forms article about Polar Chart.
 slug: htmlchart/chart-types/polar-chart
+components: ["htmlchart"]
 tags: polar,chart
 published: True
 position: 13

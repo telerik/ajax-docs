@@ -3,6 +3,7 @@ title: Setting Styles for Appointments
 page_title: Setting Styles for Appointments - RadScheduler
 description: Check our Web Forms article about Setting Styles for Appointments.
 slug: scheduler/appearance-and-styling/setting-styles-for-appointments
+components: ["scheduler"]
 tags: setting,styles,for,appointments
 published: True
 position: 6

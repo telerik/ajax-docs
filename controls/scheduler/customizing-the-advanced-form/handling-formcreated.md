@@ -3,6 +3,7 @@ title: Handling FormCreated
 page_title: Handling FormCreated - RadScheduler
 description: Check our Web Forms article about Handling FormCreated.
 slug: scheduler/customizing-the-advanced-form/handling-formcreated
+components: ["scheduler"]
 tags: handling,formcreated
 published: True
 position: 1

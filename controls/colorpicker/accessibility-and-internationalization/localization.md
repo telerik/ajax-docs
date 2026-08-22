@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadColorPicker
 description: Check our Web Forms article about Localization.
 slug: colorpicker/accessibility-and-internationalization/localization
+components: ["colorpicker"]
 tags: localization
 published: True
 position: 3

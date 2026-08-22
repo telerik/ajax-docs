@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadListView
 description: Check our Web Forms article about Skins.
 slug: listview/appearance-and-styling/skins
+components: ["listview"]
 tags: skins
 published: True
 position: 0

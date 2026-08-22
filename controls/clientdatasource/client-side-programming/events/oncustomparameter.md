@@ -3,6 +3,7 @@ title: OnCustomParameter
 page_title: OnCustomParameter - RadClientDataSource
 description: Check our Web Forms article about OnCustomParameter.
 slug: clientdatasource/client-side-programming/events/oncustomparameter
+components: ["clientdatasource"]
 tags: events
 published: True
 position: 2

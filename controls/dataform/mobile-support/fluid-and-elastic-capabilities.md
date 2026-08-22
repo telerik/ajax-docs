@@ -3,6 +3,7 @@ title: Fluid and Elastic Capabilities
 page_title: Fluid and Elastic Capabilities - RadDataForm
 description: Check our Web Forms article about Fluid and Elastic Capabilities.
 slug: dataform/mobile-support/fluid-and-elastic-capabilities
+components: ["dataform"]
 tags: fluid,and,elastic,capabilities
 published: True
 position: 0

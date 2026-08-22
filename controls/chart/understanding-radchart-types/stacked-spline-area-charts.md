@@ -3,6 +3,7 @@ title: Stacked Spline Area Charts
 page_title: Stacked Spline Area Charts - RadChart
 description: Check our Web Forms article about Stacked Spline Area Charts.
 slug: chart/understanding-radchart-types/stacked-spline-area-charts
+components: ["chart"]
 tags: stacked,spline,area,charts
 published: True
 position: 11

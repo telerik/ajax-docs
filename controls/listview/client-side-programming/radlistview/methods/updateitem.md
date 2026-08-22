@@ -3,6 +3,7 @@ title: updateItem
 page_title: updateItem - RadListView
 description: Check our Web Forms article about updateItem.
 slug: listview/client-side-programming/radlistview/methods/updateitem
+components: ["listview"]
 tags: updateitem
 published: True
 position: 2

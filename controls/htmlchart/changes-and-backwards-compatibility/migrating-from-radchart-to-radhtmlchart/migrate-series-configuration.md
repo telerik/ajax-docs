@@ -3,6 +3,7 @@ title: Migrate Series Configuration
 page_title: Migrate Series Configuration - RadHtmlChart
 description: Check our Web Forms article about Migrate Series Configuration.
 slug: htmlchart/changes-and-backwards-compatibility/migrating-from-radchart-to-radhtmlchart/migrate-series-configuration
+components: ["htmlchart"]
 tags: migrate,series,configuration
 published: True
 position: 4

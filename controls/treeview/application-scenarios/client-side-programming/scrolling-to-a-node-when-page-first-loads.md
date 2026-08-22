@@ -3,6 +3,7 @@ title: Scrolling to a Node When Page First Loads
 page_title: Scrolling to a Node When Page First Loads - RadTreeView
 description: Check our Web Forms article about Scrolling to a Node When Page First Loads.
 slug: treeview/application-scenarios/client-side-programming/scrolling-to-a-node-when-page-first-loads
+components: ["treeview"]
 tags: scrolling,to,a,node,when,page,first,loads
 published: True
 position: 1

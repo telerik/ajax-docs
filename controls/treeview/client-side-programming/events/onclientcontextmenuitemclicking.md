@@ -3,6 +3,7 @@ title: OnClientContextMenuItemClicking
 page_title: OnClientContextMenuItemClicking - RadTreeView
 description: Check our Web Forms article about OnClientContextMenuItemClicking.
 slug: treeview/client-side-programming/events/onclientcontextmenuitemclicking
+components: ["treeview"]
 tags: onclientcontextmenuitemclicking
 published: True
 position: 27

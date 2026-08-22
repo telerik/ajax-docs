@@ -3,6 +3,7 @@ title: Configuraton
 page_title: Configuraton - RadProgressArea
 description: Check our Web Forms article about Configuraton.
 slug: progressarea/configuraton
+components: ["progressarea"]
 tags: configuraton
 published: True
 position: 3

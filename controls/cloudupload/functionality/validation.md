@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadCloudUpload
 description: Check our Web Forms article about Validation.
 slug: cloudupload/functionality/validation
+components: ["cloudupload"]
 tags: validation
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: OnItemDblClick
 page_title: OnItemDblClick - RadTreeList
 description: Check our Web Forms article about OnItemDblClick Event.
 slug: treelist/client-side-programming/Events/OnItemDblClick
+components: ["treelist"]
 tags: events,OnItemDblClick
 published: True
 position: 1

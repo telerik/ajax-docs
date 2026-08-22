@@ -3,6 +3,7 @@ title: Editing
 page_title: Editing - RadBreadcrumb
 description: Check our Web Forms article about Editing.
 slug: breadcrumb/functionality/editing
+components: ["breadcrumb"]
 tags: editing
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: ComboBoxTextChanged
 page_title: ComboBoxTextChanged - RadRibbonBar
 description: Check our Web Forms article about ComboBoxTextChanged.
 slug: ribbonbar/server-side-programming/events/comboboxtextchanged-
+components: ["ribbonbar"]
 tags: comboboxtextchanged,
 published: True
 position: 12

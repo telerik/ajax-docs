@@ -3,6 +3,7 @@ title: OnError
 page_title: OnError - RadNumericTextBox
 description: Check our Web Forms article about OnError.
 slug: numerictextbox/client-side-programming/events/onerror
+components: ["numerictextbox"]
 tags: onerror
 published: True
 position: 7

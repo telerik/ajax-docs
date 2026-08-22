@@ -3,6 +3,7 @@ title: Set Gradient to PlotArea
 page_title: Plot Threshold Lines - RadHtmlChart
 description: Check our Web Forms article about Plot Threshold Lines.
 slug: htmlchart/how-to/set-gradient-to-plotarea
+components: ["htmlchart"]
 tags: set,gradient,to,plotarea
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: OnClientFormCreated
 page_title: OnClientFormCreated - RadScheduler
 description: Check our Web Forms article about OnClientFormCreated.
 slug: scheduler/client-side-programming/events/onclientformcreated
+components: ["scheduler"]
 tags: onclientformcreated
 published: True
 position: 17

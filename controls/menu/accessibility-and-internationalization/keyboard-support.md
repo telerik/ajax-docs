@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadMenu
 description: Check our Web Forms article about Keyboard Support.
 slug: menu/accessibility-and-internationalization/keyboard-support
+components: ["menu"]
 tags: keyboard,support
 published: True
 position: 0

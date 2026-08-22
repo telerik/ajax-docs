@@ -3,6 +3,7 @@ title: Overview
 page_title: RadXmlHttpPanel Overview
 description: Check our Web Forms article about Overview.
 slug: xmlhttppanel/overview
+components: ["xmlhttppanel"]
 tags: overview
 published: True
 position: 0

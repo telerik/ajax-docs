@@ -3,6 +3,7 @@ title: Single Click
 page_title: Single Click - RadImageButton
 description: Check our Web Forms article about Single Click.
 slug: imagebutton/functionality/single-click
+components: ["imagebutton"]
 tags: single,click
 published: True
 position: 0

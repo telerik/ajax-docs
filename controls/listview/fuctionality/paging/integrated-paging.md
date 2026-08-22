@@ -3,6 +3,7 @@ title: Integrated Paging
 page_title: Integrated Paging - RadListView
 description: Check our Web Forms article about Integrated Paging.
 slug: listview/fuctionality/paging/integrated-paging
+components: ["listview"]
 tags: integrated,paging
 published: True
 position: 0

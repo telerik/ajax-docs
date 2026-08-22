@@ -3,6 +3,7 @@ title: Overview
 page_title: SpeechToTextButton Server-side Programming
 description: "Overview of the Server-side APIs you can use to create and configure the Telerik WebForms SpeechToTextButton Control."
 slug: speechtotextbutton/server-side-programming/overview
+components: ["speechtotextbutton"]
 tags: overview, speechtotextbutton, server-side
 published: True
 position: 0

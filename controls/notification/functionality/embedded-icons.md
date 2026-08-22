@@ -3,6 +3,7 @@ title: Embedded Icons
 page_title: Embedded Icons - RadNotification
 description: Check our Web Forms article about Embedded Icons.
 slug: notification/functionality/embedded-icons
+components: ["notification"]
 tags: embedded,icons
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: get_sortExpressions()
 page_title: get_sortExpressions() - RadClientDataSource
 description: Check our Web Forms article about get_sortExpressions().
 slug: clientdatasource/client-side-programming/client-side-api/properties/get_sortexpressions()
+components: ["clientdatasource"]
 tags: get_sortexpressions()
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Notification Menu
 page_title: Notification Menu - RadNotification
 description: Check our Web Forms article about Notification Menu.
 slug: notification/functionality/notification-menu
+components: ["notification"]
 tags: notification,menu
 published: True
 position: 0

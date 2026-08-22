@@ -3,6 +3,7 @@ title: TagCloud Object
 page_title: TagCloud Object - RadTagCloud
 description: Check our Web Forms article about TagCloud Object.
 slug: tagcloud/server-side-programming/tagcloud-object
+components: ["tagcloud"]
 tags: tagcloud,object
 published: True
 position: 0

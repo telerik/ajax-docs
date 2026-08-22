@@ -3,6 +3,7 @@ title: Elements Structure
 page_title: Phone Layout Elements Structure - RadEditor
 description: Check our Web Forms article about Mobile Rendering.
 slug: editor/mobile-support/phone-layout/elements-structure
+components: ["editor"]
 tags: editor,support,mobile,rendering,structure
 published: True
 position: 2

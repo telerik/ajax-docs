@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadMenu
 description: Check our Web Forms article about OnClientMouseOut.
 slug: menu/client-side-programming/events/onclientmouseout
+components: ["menu"]
 tags: onclientmouseout
 published: True
 position: 6

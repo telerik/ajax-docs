@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadRadioButtonList
 description: Check our Web Forms article about Keyboard Support.
 slug: radiobuttonlist/accessibility-and-internationalization/keyboard-support
+components: ["radiobuttonlist"]
 tags: keyboard,support
 published: True
 position: 2

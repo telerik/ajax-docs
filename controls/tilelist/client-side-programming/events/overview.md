@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events Overview - RadTileList
 description: Check our Web Forms article about Overview.
 slug: tilelist/client-side-programming/client-side-events/overview
+components: ["tilelist"]
 tags: overview
 published: True
 position: 0

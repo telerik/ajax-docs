@@ -3,6 +3,7 @@ title: Using Custom Attributes Client-side
 page_title: Using Custom Attributes at the Client - RadTreeView
 description: Check our Web Forms article about Using Custom Attributes at the Client.
 slug: treeview/custom-attributes/using-custom-attributes-at-the-client
+components: ["treeview"]
 tags: using,custom,attributes,at,the,client
 published: True
 position: 3

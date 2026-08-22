@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadRating
 description: Check our Web Forms article about Elastic Design.
 slug: rating/mobile-support/elastic-design
+components: ["rating"]
 tags: elastic,design
 published: True
 position: 1

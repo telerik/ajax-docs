@@ -3,6 +3,7 @@ title: How to integrate the RadDrawer with FontAwesome icons
 page_title: How to integrate the RadDrawer with FontAwesome icons - RadDrawer
 description: Check our Web Forms article about How to integrate the RadDrawer with FontAwesome icons.
 slug: drawer/how-to/how-to-integrate-raddrawer-with-fontawesome-icons
+components: ["drawer"]
 tags: how,to,integrate,raddrawer,drawer,fontawesome,icons
 published: True
 position: 0

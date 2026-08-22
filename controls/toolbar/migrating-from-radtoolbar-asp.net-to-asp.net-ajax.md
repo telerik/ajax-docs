@@ -3,6 +3,7 @@ title: Migrating From RadToolBar ASP.NET to ASP.NET AJAX
 page_title: Migrating From RadToolBar ASP.NET to ASP.NET AJAX - RadToolBar
 description: Check our Web Forms article about Migrating From RadToolBar ASP.NET to ASP.NET AJAX.
 slug: toolbar/migrating-from-radtoolbar-asp.net-to-asp.net-ajax
+components: ["toolbar"]
 tags: migrating,from,radtoolbar,asp.net,to,asp.net,ajax
 published: True
 position: 6

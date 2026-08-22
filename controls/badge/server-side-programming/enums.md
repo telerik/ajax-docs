@@ -3,6 +3,7 @@ title: Enums
 page_title: Badge Server-side Enums
 description: Server-side Enums of the Telerik WebForms Badge component
 slug: badge/server-side-programming/enums
+components: ["badge"]
 tags: enums
 published: True
 position: 2

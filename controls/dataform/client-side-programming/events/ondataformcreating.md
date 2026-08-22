@@ -3,6 +3,7 @@ title: OnDataFormCreating
 page_title: OnDataFormCreating - RadDataForm
 description: Check our Web Forms article about OnDataFormCreating.
 slug: dataform/client-side-programming/events/ondataformcreating
+components: ["dataform"]
 tags: ondataformcreating
 published: True
 position: 2

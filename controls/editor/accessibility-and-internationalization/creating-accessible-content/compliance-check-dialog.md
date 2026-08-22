@@ -3,6 +3,7 @@ title: Compliance Check Dialog
 page_title: Compliance Check Dialog - RadEditor
 description: Check our Web Forms article about Compliance Check Dialog.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/compliance-check-dialog
+components: ["editor"]
 tags: compliance,check,dialog
 published: True
 position: 6

@@ -3,6 +3,7 @@ title: OnItemMouseOut
 page_title: OnItemMouseOut - RadRadioButtonList
 description: Check our Web Forms article about OnItemMouseOut.
 slug: radiobuttonlist/client-side-programming/events/onitemmouseout
+components: ["radiobuttonlist"]
 tags: onitemmouseout
 published: True
 position: 9

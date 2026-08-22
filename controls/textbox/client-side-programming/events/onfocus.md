@@ -3,6 +3,7 @@ title: OnFocus
 page_title: OnFocus - RadTextBox
 description: Check our Web Forms article about OnFocus.
 slug: radtextbox/client-side-programming/events/onfocus
+components: ["textbox"]
 tags: onfocus
 published: True
 position: 8

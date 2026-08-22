@@ -3,6 +3,7 @@ title: Overview
 page_title: ChipList Client-side Programming
 description: "Overview of the Client-side APIs you can use to create and configure the Telerik WebForms ChipList Control."
 slug: chiplist/client-side-programming/overview
+components: ["chiplist"]
 tags: overview
 published: True
 position: 0

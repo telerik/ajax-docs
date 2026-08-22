@@ -3,6 +3,7 @@ title: Overview
 page_title: RadLightBox Overview
 description: Check our Web Forms article about Overview.
 slug: lightbox/overview
+components: ["lightbox"]
 tags: overview
 published: True
 position: 0

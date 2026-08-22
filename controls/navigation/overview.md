@@ -3,6 +3,7 @@ title: Overview
 page_title: RadNavigation Overview
 description: Check our Web Forms article about Overview.
 slug: navigation/overview
+components: ["navigation"]
 tags: overview
 published: True
 position: 0

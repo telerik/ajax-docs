@@ -3,6 +3,7 @@ title: Cross-Page Postbacks
 page_title: Cross-Page Postbacks - RadTreeView
 description: Check our Web Forms article about Cross-Page Postbacks.
 slug: treeview/web-pages/cross-page-postbacks
+components: ["treeview"]
 tags: cross-page,postbacks
 published: True
 position: 0

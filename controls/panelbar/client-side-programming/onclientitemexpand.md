@@ -3,6 +3,7 @@ title: OnClientItemExpand
 page_title: OnClientItemExpand - RadPanelBar
 description: Check our Web Forms article about OnClientItemExpand.
 slug: panelbar/client-side-programming/onclientitemexpand
+components: ["panelbar"]
 tags: onclientitemexpand
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: Standards Compliance and Browser Support
 page_title: Standards Compliance and Browser Support - RadEditor
 description: Check our Web Forms article about Standards Compliance and Browser Support.
 slug: editor/getting-started/standards-compliance-and-browser-support
+components: ["editor"]
 tags: standards,compliance,and,browser,support
 published: True
 position: 5

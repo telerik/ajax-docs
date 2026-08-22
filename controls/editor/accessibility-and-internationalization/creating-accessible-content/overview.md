@@ -3,6 +3,7 @@ title: Overview
 page_title: Creating Accessible Content Overview - RadEditor
 description: Check our Web Forms article about Creating Accessible Content Overview.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/overview
+components: ["editor"]
 tags: overview
 published: True
 position: 0

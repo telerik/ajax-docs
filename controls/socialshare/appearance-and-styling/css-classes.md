@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadSocialShare
 description: Check our Web Forms article about CSS Classes.
 slug: socialshare/appearance-and-styling/css-classes
+components: ["socialshare"]
 tags: css,classes
 published: True
 position: 2

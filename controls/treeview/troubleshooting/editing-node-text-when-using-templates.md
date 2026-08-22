@@ -3,6 +3,7 @@ title: Editing Node Text When Using Templates
 page_title: Editing Node Text When Using Templates - RadTreeView
 description: Check our Web Forms article about Editing Node Text When Using Templates.
 slug: treeview/troubleshooting/editing-node-text-when-using-templates
+components: ["treeview"]
 tags: editing,node,text,when,using,templates
 published: True
 position: 4

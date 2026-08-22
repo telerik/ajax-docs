@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadComboBox
 description: Check our Web Forms article about Smart Tag.
 slug: combobox/design-time/smart-tag
+components: ["combobox"]
 tags: smart,tag
 published: True
 position: 0

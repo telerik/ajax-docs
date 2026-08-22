@@ -3,6 +3,7 @@ title: Types
 page_title: Types - RadBarcode
 description: Check our Web Forms article about Types.
 slug: barcode/types
+components: ["barcode"]
 tags: types
 published: True
 position: 2

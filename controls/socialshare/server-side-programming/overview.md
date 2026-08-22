@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadSocialShare
 description: Check our Web Forms article about Overview.
 slug: socialshare/server-side-programming/overview
+components: ["socialshare"]
 tags: overview
 published: True
 position: 0

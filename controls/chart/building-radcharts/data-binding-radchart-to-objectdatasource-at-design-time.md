@@ -3,6 +3,7 @@ title: Data Binding RadChart to ObjectDataSource at Design-Time
 page_title: Data Binding RadChart to ObjectDataSource at Design-Time - RadChart
 description: Check our Web Forms article about Data Binding RadChart to ObjectDataSource at Design-Time.
 slug: chart/building-radcharts/data-binding-radchart-to-objectdatasource-at-design-time
+components: ["chart"]
 tags: data,binding,radchart,to,objectdatasource,at,design-time
 published: True
 position: 14

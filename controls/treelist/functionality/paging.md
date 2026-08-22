@@ -3,6 +3,7 @@ title: Paging
 page_title: Paging - RadTreeList
 description: Check our Web Forms article about Paging.
 slug: treelist/functionality/paging
+components: ["treelist"]
 tags: paging
 published: True
 position: 0

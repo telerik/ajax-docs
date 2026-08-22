@@ -3,6 +3,7 @@ title: Conditional Formatting
 page_title: Conditional Formatting - RadTreeList
 description: Check our Web Forms article about Conditional Formatting.
 slug: treelist/appearance-and-styling/conditional-formatting
+components: ["treelist"]
 tags: conditional,formatting
 published: True
 position: 3

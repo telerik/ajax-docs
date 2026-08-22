@@ -3,6 +3,7 @@ title: Data Binding RadChart to an ObjectDataSource
 page_title: Data Binding RadChart to an ObjectDataSource - RadChart
 description: Check our Web Forms article about Data Binding RadChart to an ObjectDataSource.
 slug: chart/building-radcharts/data-binding-radchart-to-an-objectdatasource
+components: ["chart"]
 tags: data,binding,radchart,to,an,objectdatasource
 published: True
 position: 11

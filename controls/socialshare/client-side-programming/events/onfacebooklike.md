@@ -3,6 +3,7 @@ title: OnFacebookLike
 page_title: OnFacebookLike - RadSocialShare
 description: Check our Web Forms article about OnFacebookLike.
 slug: socialshare/client-side-programming/events/onfacebooklike
+components: ["socialshare"]
 tags: onfacebooklike
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientRequestSuccess
 page_title: OnClientRequestSuccess - RadScheduler
 description: Check our Web Forms article about OnClientRequestSuccess.
 slug: scheduler/client-side-programming/events/onclientrequestsuccess
+components: ["scheduler"]
 tags: onclientrequestsuccess
 published: True
 position: 32

@@ -3,6 +3,7 @@ title: OnClientTaskUpdateCancel
 page_title: OnClientTaskUpdateCancel - RadGantt
 description: Check our Web Forms article about OnClientTaskUpdateCancel.
 slug: gantt/client-side-programming/events/onclienttaskupdatecancel
+components: ["gantt"]
 tags: onclienttaskupdatecancel
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Overview
 page_title: Changes And Backward Compatibility Overview - RadWindow
 description: Check our Web Forms article about Overview.
 slug: window/changes-and-backward-compatibility/overview
+components: ["window"]
 tags: overview
 published: True
 position: 0

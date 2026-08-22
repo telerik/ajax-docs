@@ -3,6 +3,7 @@ title: OnClientButtonClicking
 page_title: OnClientButtonClicking - RadRibbonBar
 description: Check our Web Forms article about OnClientButtonClicking.
 slug: ribbonbar/client-side-programming/events/onclientbuttonclicking
+components: ["ribbonbar"]
 tags: onclientbuttonclicking
 published: True
 position: 3

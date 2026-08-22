@@ -3,6 +3,7 @@ title: Algorithm Types
 page_title: Algorithm Types - RadTreeMap
 description: Check our Web Forms article about Algorithm Types.
 slug: treemap/functionality/algorithm-types
+components: ["treemap"]
 tags: algorithm,types
 published: True
 position: 0

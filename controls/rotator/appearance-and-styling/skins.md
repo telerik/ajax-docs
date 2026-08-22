@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadRotator
 description: Check our Web Forms article about Skins.
 slug: rotator/appearance-and-styling/skins
+components: ["rotator"]
 tags: skins
 published: True
 position: 0

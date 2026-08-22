@@ -3,6 +3,7 @@ title: Validate Combobox by Value
 page_title: Validate Combobox by Value - RadComboBox
 description: Check our Web Forms article about Validate Combobox by Value.
 slug: combobox/how-to/validate-combobox-by-value
+components: ["combobox"]
 tags: validate,combobox,by,value
 published: True
 position: 2

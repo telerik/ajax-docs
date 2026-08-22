@@ -3,6 +3,7 @@ title: Changes And Backward Compatibility
 page_title: Changes And Backward Compatibility - RadSplitter
 description: Check our Web Forms article about Changes And Backward Compatibility.
 slug: splitter/changes-and-backward-compatibility
+components: ["splitter"]
 tags: changes,and,backward,compatibility
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: WCAG 2.0 and Section 508 Accessibility Compliance
 page_title: WCAG 2.0 and Section 508 Accessibility Compliance - RadSwitch
 description: Check our Web Forms article about WCAG 2.0 and Section 508 Accessibility Compliance.
 slug: switch/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
+components: ["switch"]
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True
 position: 0

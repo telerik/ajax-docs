@@ -3,6 +3,7 @@ title: Collections
 page_title: Collections - RadSocialShare
 description: Check our Web Forms article about Collections.
 slug: socialshare/configuring-buttons/collections
+components: ["socialshare"]
 tags: collections
 published: True
 position: 2

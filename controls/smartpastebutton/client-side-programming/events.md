@@ -3,6 +3,7 @@ title: Events
 page_title: SmartPasteButton Client-side Events
 description: "Client-side Events of the Telerik WebForms SmartPasteButton component."
 slug: smartpastebutton/client-side-programming/events
+components: ["smartpastebutton"]
 tags: smartpastebutton,javascript
 published: True
 position: 2

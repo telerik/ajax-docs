@@ -3,6 +3,7 @@ title: Changes and backward compatibility
 page_title: Changes and backward compatibility - RadComboBox
 description: Check our Web Forms article about Changes and backward compatibility.
 slug: combobox/changes-and-backward-compatibility
+components: ["combobox"]
 tags: changes,and,backward,compatibility
 published: True
 position: 5

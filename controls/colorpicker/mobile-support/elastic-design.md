@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadColorPicker
 description: Check our Web Forms article about Elastic Design.
 slug: colorpicker/mobile-support/elastic-design
+components: ["colorpicker"]
 tags: elastic,design,color picker
 published: True
 position: 1

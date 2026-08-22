@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadFilter
 description: Check our Web Forms article about Localization.
 slug: filter/accessibility-and-internationalization/localization
+components: ["filter"]
 tags: localization
 published: True
 position: 0

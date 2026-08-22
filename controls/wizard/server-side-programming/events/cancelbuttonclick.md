@@ -3,6 +3,7 @@ title: CancelButtonClick
 page_title: CancelButtonClick - RadWizard
 description: Check our Web Forms article about CancelButtonClick.
 slug: wizard/server-side-programming/events/cancelbuttonclick
+components: ["wizard"]
 tags: cancelbuttonclick
 published: True
 position: 2

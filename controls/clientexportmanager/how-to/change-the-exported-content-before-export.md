@@ -3,6 +3,7 @@ title: Change the Exported Content before Export
 page_title: Change the Exported Content before Export - RadClientExportManager
 description: Check our Web Forms article about Change the Exported Content before Export.
 slug: clientexportmanager/how-to/change-the-exported-content-before-export
+components: ["clientexportmanager"]
 tags: change,exported,content,before,export
 published: True
 position: 2

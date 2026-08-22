@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadFileExplorer
 description: Check our Web Forms article about CSS Classes.
 slug: fileexplorer/appearance-and-styling/css-classes
+components: ["fileexplorer"]
 tags: css,classes
 published: True
 position: 1

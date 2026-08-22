@@ -3,6 +3,7 @@ title: Creating RadChart Programmatically - more complex example
 page_title: Creating RadChart Programmatically - more complex example - RadChart
 description: Check our Web Forms article about Creating RadChart Programmatically - more complex example.
 slug: chart/building-radcharts/creating-radchart-programmatically---more-complex-example
+components: ["chart"]
 tags: creating,radchart,programmatically,-,more,complex,example
 published: True
 position: 4

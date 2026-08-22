@@ -3,6 +3,7 @@ title: Client-side Data Binding
 page_title: Client-side Data Binding - RadRotator
 description: Check our Web Forms article about Client-side Data Binding.
 slug: rotator/data-binding/client-side-data-binding
+components: ["rotator"]
 tags: client-side,data,binding
 published: True
 position: 2

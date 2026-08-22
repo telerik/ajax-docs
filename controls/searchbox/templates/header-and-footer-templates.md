@@ -3,6 +3,7 @@ title: Header and Footer Templates
 page_title: Header and Footer Templates - RadSearchBox
 description: Check our Web Forms article about Header and Footer Templates.
 slug: searchbox/templates/header-and-footer-templates
+components: ["searchbox"]
 tags: header,and,footer,templates
 published: True
 position: 3

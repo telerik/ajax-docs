@@ -3,6 +3,7 @@ title: WCAG 2.0 and Section 508 Accessibility Compliance
 page_title: WCAG 2.0 and Section 508 Accessibility Compliance - RadNumericTextBox
 description: Check our Web Forms article about WCAG 2.0 and Section 508 Accessibility Compliance.
 slug: numerictextbox/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
+components: ["numerictextbox"]
 tags: wcag,2.0,and,section,508,accessibility,compliance
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Data Source Configuration Wizard
 page_title: Data Source Configuration Wizard - RadScheduler
 description: Check our Web Forms article about Data Source Configuration Wizard.
 slug: scheduler/design-time/data-source-configuration-wizard
+components: ["scheduler"]
 tags: data,source,configuration,wizard
 published: True
 position: 1

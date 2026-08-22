@@ -3,6 +3,7 @@ title: OnClientTaskSelectionChanged
 page_title: OnClientTaskSelectionChanged - RadGantt
 description: Check our Web Forms article about OnClientTaskSelectionChanged.
 slug: gantt/client-side-programming/events/onclienttaskselectionchanged
+components: ["gantt"]
 tags: onclienttaskselectionchanged
 published: True
 position: 17

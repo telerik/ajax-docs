@@ -3,6 +3,7 @@ title: TabCreated
 page_title: TabCreated - RadTabStrip
 description: Check our Web Forms article about TabCreated.
 slug: tabstrip/server-side-programming/tabcreated
+components: ["tabstrip"]
 tags: tabcreated
 published: True
 position: 2

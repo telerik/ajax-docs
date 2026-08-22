@@ -3,6 +3,7 @@ title: Defining Structure
 page_title: Defining Structure - RadTileList
 description: Check our Web Forms article about Defining Structure.
 slug: tilelist/data-binding/defining-structure
+components: ["tilelist"]
 tags: defining,structure
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Inline and Block Commands Behavior Change
 page_title: Inline and Block Commands Behavior Change - RadEditor
 description: Check our Web Forms article about Inline and Block Commands Behavior Change.
 slug: editor/changes-and-backwards-compatibility/inline-and-block-commands-behavior-change
+components: ["editor"]
 tags: inline,and,block,commands,behavior,change
 published: True
 position: 4

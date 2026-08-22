@@ -3,6 +3,7 @@ title: Decorating Heading Tags
 page_title: Decorating Heading Tags - RadFormDecorator
 description: Check our Web Forms article about Decorating Heading Tags.
 slug: formdecorator/decorating-heading-tags
+components: ["formdecorator"]
 tags: changes,and,backward,compatibility
 published: True
 position: 1

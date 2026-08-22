@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadPdfViewer
 description: Check our Web Forms article about Keyboard Support.
 slug: pdfviewer/accessibility-and-internationalization/keyboard-support
+components: ["pdfviewer"]
 tags: keyboard,support
 published: True
 position: 2

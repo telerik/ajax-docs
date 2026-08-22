@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadDataPager
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: datapager/accessibility-and-internationalization/wai-aria-support
+components: ["datapager"]
 tags: wai-aria,support
 published: True
 position: 1

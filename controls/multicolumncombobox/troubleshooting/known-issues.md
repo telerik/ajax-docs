@@ -3,6 +3,7 @@ title: Known Issues
 page_title: Known Issues - RadMultiColumnComboBox
 description: Check our Web Forms article about Known Issues.
 slug: multicolumncombobox/known-issues
+components: ["multicolumncombobox"]
 tags: overview
 published: True
 position: 0

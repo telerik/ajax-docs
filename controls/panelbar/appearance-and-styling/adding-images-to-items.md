@@ -3,6 +3,7 @@ title: Adding Images to Items
 page_title: Adding Images to Items
 description: Check our Web Forms article about Adding Images to Items.
 slug: panelbar/appearance-and-styling/adding-images-to-items
+components: ["panelbar"]
 tags: adding,images,to,items
 published: True
 position: 2

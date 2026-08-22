@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadPersistenceFramework
 description: Check our Web Forms article about Known Limitations.
 slug: persistenceframework/troubleshooting/known-limitations
+components: ["persistenceframework"]
 tags: limitations
 published: True
 position: 0

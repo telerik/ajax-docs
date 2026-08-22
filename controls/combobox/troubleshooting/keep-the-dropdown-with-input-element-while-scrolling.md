@@ -3,6 +3,7 @@ title: Keep the Dropdown with Input Element While Scrolling
 page_title: Keep the Dropdown with Input Element While Scrolling - RadComboBox
 description: Check our Web Forms article about Keep the Dropdown with Input Element While Scrolling.
 slug: combobox/troubleshooting/keep-the-dropdown-with-input-element-while-scrolling
+components: ["combobox"]
 tags: keep,the,dropdown,with,input,element,while,scrolling
 published: True
 position: 14

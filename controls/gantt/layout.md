@@ -3,6 +3,7 @@ title: RadGantt Structure
 page_title: RadGantt Structure - RadGantt
 description: Check our Web Forms article about RadGantt Structure.
 slug: gantt/structure/layout
+components: ["gantt"]
 tags: layout
 published: True
 position: 1

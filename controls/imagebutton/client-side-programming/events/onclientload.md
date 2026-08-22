@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadImageButton
 description: Check our Web Forms article about OnClientLoad.
 slug: imagebutton/client-side-programming/events/onclientload
+components: ["imagebutton"]
 tags: onclientload
 published: True
 position: 2

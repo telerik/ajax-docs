@@ -3,6 +3,7 @@ title: OnClientAppointmentMoveStart
 page_title: OnClientAppointmentMoveStart - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentMoveStart.
 slug: scheduler/client-side-programming/events/onclientappointmentmovestart
+components: ["scheduler"]
 tags: onclientappointmentmovestart
 published: True
 position: 10

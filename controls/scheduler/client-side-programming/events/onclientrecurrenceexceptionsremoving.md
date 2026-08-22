@@ -3,6 +3,7 @@ title: OnClientRecurrenceExceptionsRemoving
 page_title: OnClientRecurrenceExceptionsRemoving - RadScheduler
 description: Check our Web Forms article about OnClientRecurrenceExceptionsRemoving.
 slug: scheduler/client-side-programming/events/onclientrecurrenceexceptionsremoving
+components: ["scheduler"]
 tags: onclientrecurrenceexceptionsremoving
 published: True
 position: 31

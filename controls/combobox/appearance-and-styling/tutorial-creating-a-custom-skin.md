@@ -3,6 +3,7 @@ title: Tutorial Creating a Custom Skin
 page_title: Tutorial Creating a Custom Skin
 description: Check our Web Forms article about Tutorial Creating a Custom Skin.
 slug: combobox/appearance-and-styling/tutorial-creating-a-custom-skin
+components: ["combobox"]
 tags: tutorial,creating,custom,skin
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Managing Content
 page_title: Managing Content - RadTooltip
 description: Check our Web Forms article about Managing Content.
 slug: tooltip/radtooltip/managing-content
+components: ["tooltip"]
 tags: managing,content
 published: True
 position: 2

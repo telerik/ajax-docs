@@ -3,6 +3,7 @@ title: Security
 page_title: Security - RadEditor
 description: Check our Web Forms article about Apply security in RadEditor and enforce information encryption to prevent attacks.
 slug: editor/security
+components: ["editor"]
 previous_url: editor-security
 tags: security
 published: True

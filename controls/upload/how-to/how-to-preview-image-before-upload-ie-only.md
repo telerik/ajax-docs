@@ -3,6 +3,7 @@ title: How to Preview Image Before Upload-IE only
 page_title: How to Preview Image Before Upload-IE only - RadUpload
 description: Check our Web Forms article about How to Preview Image Before Upload-IE only.
 slug: upload/how-to/how-to-preview-image-before-upload-ie-only
+components: ["upload"]
 tags: how,to,preview,image,before,upload-ie,only
 published: True
 position: 10

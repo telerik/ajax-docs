@@ -3,6 +3,7 @@ title:  DockPositionChanged
 page_title: DockPositionChanged - RadDock
 description: Check our Web Forms article about DockPositionChanged.
 slug: dock/server-side-programming/events/dockpositionchanged
+components: ["dock"]
 tags: dockpositionchanged
 published: True
 position: 1

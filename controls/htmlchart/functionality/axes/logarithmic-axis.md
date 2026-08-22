@@ -3,6 +3,7 @@ title: Logarithmic Axis
 page_title: Logarithmic Axis - RadHtmlChart
 description: Check our Web Forms article about Logarithmic Axis.
 slug: htmlchart/functionality/axes/logarithmic-axis
+components: ["htmlchart"]
 tags: logarithmic,axis
 published: True
 position: 1

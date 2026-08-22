@@ -3,6 +3,7 @@ title: Changes and backward compatibility
 page_title: Changes and backward compatibility - RadTabStrip
 description: Check our Web Forms article about Changes and backward compatibility.
 slug: tabstrip/changes-and-backward-compatibility
+components: ["tabstrip"]
 tags: changes,and,backward,compatibility
 published: True
 position: 5

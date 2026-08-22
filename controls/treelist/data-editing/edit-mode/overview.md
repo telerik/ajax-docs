@@ -3,6 +3,7 @@ title: Overview
 page_title: Edit Mode Overview - RadTreeList
 description: Check our Web Forms article about Overview.
 slug: treelist/data-editing/edit-mode/overview
+components: ["treelist"]
 tags: overview
 published: True
 position: 0

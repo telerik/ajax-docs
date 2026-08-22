@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSocialShare Overview
 description: Check our Web Forms article about Overview.
 slug: socialshare/overview
+components: ["socialshare"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Appearance
 page_title: Badge Appearance
 description: "Learn how to apply different styling options to the Badge control."
 slug: badge/appearance
+components: ["badge"]
 tags: badge,appearance
 published: True
 position: 2

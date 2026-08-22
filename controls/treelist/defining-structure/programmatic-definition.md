@@ -3,6 +3,7 @@ title: Programmatic Definition
 page_title: Programmatic Definition - RadTreeList
 description: Check our Web Forms article about Programmatic Definition.
 slug: treelist/defining-structure/programmatic-definition
+components: ["treelist"]
 tags: programmatic,definition
 published: True
 position: 1

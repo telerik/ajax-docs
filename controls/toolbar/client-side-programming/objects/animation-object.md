@@ -3,6 +3,7 @@ title: Animation Object
 page_title: Animation Object - RadToolBar
 description: Check our Web Forms article about Animation Object.
 slug: toolbar/client-side-programming/animation-object
+components: ["toolbar"]
 tags: animation,object
 published: True
 position: 5

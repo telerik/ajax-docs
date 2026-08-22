@@ -3,6 +3,7 @@ title: OnClientLauncherClicked
 page_title: OnClientLauncherClicked - RadRibbonBar
 description: Check our Web Forms article about OnClientLauncherClicked.
 slug: ribbonbar/client-side-programming/events/onclientlauncherclicked
+components: ["ribbonbar"]
 tags: onclientlauncherclicked
 published: True
 position: 4

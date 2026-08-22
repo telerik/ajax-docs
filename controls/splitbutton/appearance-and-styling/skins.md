@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadSplitButton
 description: Check our Web Forms article about Skins.
 slug: splitbutton/appearance-and-styling/skins
+components: ["splitbutton"]
 tags: skins
 published: True
 position: 0

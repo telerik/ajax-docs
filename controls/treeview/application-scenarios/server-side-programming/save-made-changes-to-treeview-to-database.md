@@ -3,6 +3,7 @@ title: Save Made Changes to TreeView to Database
 page_title: Save Made Changes to TreeView to Database - RadTreeView
 description: Check our Web Forms article about Save Made Changes to TreeView to Database.
 slug: treeview/application-scenarios/server-side-programming/save-made-changes-to-treeview-to-database
+components: ["treeview"]
 tags: save,made,changes,to,treeview,to,database
 published: True
 position: 1

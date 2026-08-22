@@ -3,6 +3,7 @@ title: Tutorial - Creating a Custom Classic Skin
 page_title: Tutorial Creating a Custom Classic Skin - RadTooltip
 description: Check our Web Forms article about Tutorial for Creating a Custom Classic Skin for RadTooltip.
 slug: tooltip/appearance-and-styling/tutorial-creating-custom-classic-skin
+components: ["tooltip"]
 tags: tooltip, custom, classic, skin, tutorial
 published: True
 position: 4

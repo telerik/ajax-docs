@@ -3,6 +3,7 @@ title: OnDisable
 page_title: OnDisable - RadNumericTextBox
 description: Check our Web Forms article about OnDisable.
 slug: numerictextbox/client-side-programming/events/ondisable
+components: ["numerictextbox"]
 tags: ondisable
 published: True
 position: 4

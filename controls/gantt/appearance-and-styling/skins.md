@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadGantt
 description: Check our Web Forms article about Skins.
 slug: gantt/appearance-and-styling/skins
+components: ["gantt"]
 tags: skins
 published: True
 position: 0

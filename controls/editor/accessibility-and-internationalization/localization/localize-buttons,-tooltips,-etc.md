@@ -3,6 +3,7 @@ title: Localize Buttons, ToolTips, etc
 page_title: Localize Buttons, ToolTips, etc - RadEditor
 description: Check our Web Forms article about Localize Buttons, ToolTips, etc.
 slug: editor/accessibility-and-internationalization/localization/localize-buttons,-tooltips,-etc
+components: ["editor"]
 tags: localize,buttons,,tooltips,,etc
 published: True
 position: 4

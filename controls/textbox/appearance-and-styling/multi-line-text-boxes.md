@@ -3,6 +3,7 @@ title: Multi-Line Text Boxes
 page_title: Multi-Line Text Boxes - RadTextBox
 description: Discover how to configure multi-line text boxes in the TextBox control for capturing large text input.
 slug: radtextbox/appearance-and-styling/multi-line-text-boxes
+components: ["textbox"]
 tags: multi-line,text,boxes
 published: True
 position: 10

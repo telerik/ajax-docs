@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadDropDownTree
 description: Check our Web Forms article about Overview.
 slug: dropdowntree/server-side-programming/events/overview
+components: ["dropdowntree"]
 tags: overview
 published: True
 position: 0

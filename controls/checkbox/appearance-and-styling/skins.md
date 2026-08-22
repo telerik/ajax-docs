@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadCheckBox
 description: Check our Web Forms article about Skins.
 slug: checkbox/appearance-and-styling/skins
+components: ["checkbox"]
 tags: skins
 published: True
 position: 0

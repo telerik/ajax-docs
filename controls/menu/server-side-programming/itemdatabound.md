@@ -3,6 +3,7 @@ title: ItemDataBound
 page_title: ItemDataBound - RadMenu
 description: Check our Web Forms article about ItemDataBound.
 slug: menu/server-side-programming/itemdatabound
+components: ["menu"]
 tags: itemdatabound
 published: True
 position: 3

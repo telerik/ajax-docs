@@ -3,6 +3,7 @@ title: OnClientDeleting
 page_title: OnClientDeleting - RadUpload
 description: Check our Web Forms article about OnClientDeleting.
 slug: upload/client-side-programming/onclientdeleting
+components: ["upload"]
 tags: onclientdeleting
 published: True
 position: 4

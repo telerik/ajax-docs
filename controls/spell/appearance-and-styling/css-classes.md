@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadSpell
 description: Check our Web Forms article about CSS Classes.
 slug: spell/appearance-and-styling/css-classes
+components: ["spell"]
 tags: css,classes
 published: True
 position: 2

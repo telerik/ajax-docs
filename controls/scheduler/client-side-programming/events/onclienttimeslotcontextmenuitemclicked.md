@@ -3,6 +3,7 @@ title: OnClientTimeSlotContextMenuItemClicked
 page_title: OnClientTimeSlotContextMenuItemClicked - RadScheduler
 description: Check our Web Forms article about OnClientTimeSlotContextMenuItemClicked.
 slug: scheduler/client-side-programming/events/onclienttimeslotcontextmenuitemclicked
+components: ["scheduler"]
 tags: onclienttimeslotcontextmenuitemclicked
 published: True
 position: 36

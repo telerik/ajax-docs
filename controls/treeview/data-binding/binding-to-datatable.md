@@ -3,6 +3,7 @@ title: Binding to DataTable
 page_title: Binding to DataTable - RadTreeView
 description: Check our Web Forms article about Binding to DataTable.
 slug: treeview/data-binding/binding-to-datatable
+components: ["treeview"]
 tags: binding,to,datatable
 published: True
 position: 2

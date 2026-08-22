@@ -3,6 +3,7 @@ title: get_pageSize
 page_title: get_pageSize - RadListView
 description: Check our Web Forms article about get_pageSize.
 slug: listview/client-side-programming/radlistview/properties/get_pagesize
+components: ["listview"]
 tags: get_pagesize
 published: True
 position: 3

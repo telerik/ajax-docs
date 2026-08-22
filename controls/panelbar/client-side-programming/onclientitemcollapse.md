@@ -3,6 +3,7 @@ title: OnClientItemCollapse
 page_title: OnClientItemCollapse - RadPanelBar
 description: Check our Web Forms article about OnClientItemCollapse.
 slug: panelbar/client-side-programming/onclientitemcollapse
+components: ["panelbar"]
 tags: onclientitemcollapse
 published: True
 position: 9

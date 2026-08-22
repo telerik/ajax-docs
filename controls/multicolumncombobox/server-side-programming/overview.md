@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadMultiColumnComboBox
 description: Check our Web Forms article about Overview.
 slug: multicolumncombobox/server-side-programming/overview
+components: ["multicolumncombobox"]
 tags: overview
 published: True
 position: 0

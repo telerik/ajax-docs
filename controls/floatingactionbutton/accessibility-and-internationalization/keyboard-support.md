@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadFloatingActionButton
 description: Check our Web Forms article about Keyboard Support.
 slug: floatingactionbutton/accessibility-and-internationalization/keyboard-support
+components: ["floatingactionbutton"]
 tags: keyboard,support
 published: True
 position: 1

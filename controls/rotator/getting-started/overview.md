@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadRotator
 description: Check our Web Forms article about Overview.
 slug: rotator/getting-started/overview
+components: ["rotator"]
 tags: overview
 published: True
 position: 0

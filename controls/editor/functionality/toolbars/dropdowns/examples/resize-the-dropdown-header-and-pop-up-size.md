@@ -3,6 +3,7 @@ title: Resize the Dropdown Header and Pop-up Size
 page_title: Resize the Dropdown Header and Pop-up Size - RadEditor
 description: Check our Web Forms article about Resize the Dropdown Header and Pop-up Size.
 slug: editor/functionality/toolbars/dropdowns/examples/resize-the-dropdown-header-and-pop-up-size
+components: ["editor"]
 tags: resize,the,dropdown,header,and,pop-up,size
 published: True
 position: 1

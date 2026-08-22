@@ -3,6 +3,7 @@ title: HTML Output
 page_title: HTML Output - RadLightBox
 description: Check our Web Forms article about HTML Output.
 slug: lightbox/appearance-and-styling/html-output
+components: ["lightbox"]
 tags: html,output
 published: True
 position: 4

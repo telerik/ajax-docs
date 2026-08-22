@@ -3,6 +3,7 @@ title: Connecting to Various DataSource controls
 page_title: Connecting to Various DataSource controls - RadClientDataSource
 description: Check our Web Forms article about Connecting to Various DataSource controls.
 slug: clientdatasource/connecting-to-various-data-sources
+components: ["clientdatasource"]
 tags: connecting,to,various,data,source,controls
 published: True
 position: 4

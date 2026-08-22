@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview - RadDropDownList
 description: Check our Web Forms article about Overview.
 slug: dropdownlist/templates/overview
+components: ["dropdownlist"]
 tags: overview
 published: True
 position: 0

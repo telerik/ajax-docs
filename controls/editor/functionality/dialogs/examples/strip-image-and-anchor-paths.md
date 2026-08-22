@@ -3,6 +3,7 @@ title: Strip Image and Anchor Paths
 page_title: Strip Image and Anchor Paths - RadEditor
 description: Check our Web Forms article about Strip Image and Anchor Paths.
 slug: editor/functionality/dialogs/examples/strip-image-and-anchor-paths
+components: ["editor"]
 tags: strip,image,and,anchor,paths
 published: True
 position: 2

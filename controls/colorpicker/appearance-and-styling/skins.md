@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadColorPicker
 description: Check our Web Forms article about Skins.
 slug: colorpicker/appearance-and-styling/skins
+components: ["colorpicker"]
 tags: skins
 published: True
 position: 0

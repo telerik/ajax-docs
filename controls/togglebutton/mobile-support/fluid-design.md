@@ -3,6 +3,7 @@ title: Fluid Design
 page_title: Fluid Design - RadToggleButton
 description: Check our Web Forms article about Fluid Design.
 slug: togglebutton/mobile-support/fluid-design
+components: ["togglebutton"]
 tags: fluid,design
 published: True
 position: 2

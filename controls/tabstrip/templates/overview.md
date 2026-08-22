@@ -3,6 +3,7 @@ title: Overview
 page_title: Templates Overview - RadTabStrip
 description: Check our Web Forms article about Overview.
 slug: tabstrip/templates/overview
+components: ["tabstrip"]
 tags: overview
 published: True
 position: 0

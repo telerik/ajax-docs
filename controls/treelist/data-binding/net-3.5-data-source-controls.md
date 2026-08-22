@@ -3,6 +3,7 @@ title: LinqDataSource and EntityDataSource Data Source Controls
 page_title: LinqDataSource and EntityDataSource Data Source Controls - RadTreeList
 description: Check our Web Forms article about LinqDataSource and EntityDataSource Data Source Controls.
 slug: treelist/data-binding/net-3.5-data-source-controls
+components: ["treelist"]
 tags: .net,3.5,data,source,controls
 published: True
 position: 2

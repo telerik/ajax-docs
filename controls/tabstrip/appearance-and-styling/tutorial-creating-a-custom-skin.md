@@ -3,6 +3,7 @@ title: Tutorial Creating A Custom Skin
 page_title: Tutorial Creating A Custom Skin - RadTabStrip
 description: Check our Web Forms article about Tutorial Creating A Custom Skin.
 slug: tabstrip/appearance-and-styling/tutorial-creating-a-custom-skin
+components: ["tabstrip"]
 tags: tutorial,creating,a,custom,skin
 published: True
 position: 5

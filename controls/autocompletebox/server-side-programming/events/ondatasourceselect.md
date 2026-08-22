@@ -3,6 +3,7 @@ title: OnDataSourceSelect
 page_title: OnDataSourceSelect - RadAutoCompleteBox
 description: Check our Web Forms article about OnDataSourceSelect.
 slug: autocompletebox/server-side-programming/events/ondatasourceselect
+components: ["autocompletebox"]
 tags: ondatasourceselect
 published: True
 position: 4

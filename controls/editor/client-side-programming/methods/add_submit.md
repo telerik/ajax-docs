@@ -3,6 +3,7 @@ title: add_submit
 page_title: add_submit - RadEditor
 description: Check our Web Forms article about add_submit.
 slug: editor/client-side-programming/methods/add_submit
+components: ["editor"]
 tags: add_submit
 published: True
 position: 19

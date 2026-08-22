@@ -3,6 +3,7 @@ title: Linear
 page_title: Linear - RadGauge
 description: Check our Web Forms article about Linear.
 slug: gauge/gauge-types/linear
+components: ["gauge"]
 tags: linear
 published: True
 position: 2

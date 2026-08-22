@@ -3,6 +3,7 @@ title: Load On Demand
 page_title: Load On Demand - RadListBox
 description: Check our Web Forms article about Load On Demand.
 slug: listbox/functionality/load-on-demand
+components: ["listbox"]
 tags: load,on,demand
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: OnClientItemSelected
 page_title: ClientItemSelected event of the SearchContext - RadSearchBox
 description: The OnClientItemSelected is a Client-Side event that is triggered when an item from the SearchBox dropdown (SearchContext) is clicked.
 slug: searchbox/search-context/events/onclientitemselected
+components: ["searchbox"]
 tags: onclientitemselected
 published: True
 ---

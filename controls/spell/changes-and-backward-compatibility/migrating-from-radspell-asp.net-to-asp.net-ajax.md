@@ -3,6 +3,7 @@ title: Migrating from RadSpell ASP.NET to ASP.NET AJAX
 page_title: Migrating from RadSpell ASP.NET to ASP.NET AJAX - RadSpell
 description: Check our Web Forms article about Migrating from RadSpell ASP.NET to ASP.NET AJAX.
 slug: spell/changes-and-backward-compatibility/migrating-from-radspell-asp.net-to-asp.net-ajax
+components: ["spell"]
 tags: migrating,from,radspell,asp.net,to,asp.net,ajax
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Using Input Controls Inside Data-Bound Controls
 page_title: Using Input Controls Inside Data-Bound Controls - RadDateInput
 description: Check our Web Forms article about Using Input Controls Inside Data-Bound Controls.
 slug: raddateinput/how-to/using-input-controls-inside-data-bound-controls
+components: ["dateinput"]
 tags: using,input,controls,inside,data-bound,controls
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Overview
 page_title: Drag and Drop Client-Side Programming - RadDragDropManager
 description: Client-Side APIs and Events to allow interacting with the Drag and Drop Components using JavaScript
 slug: dragdropmanager/client-side-programming/overview
+components: ["dragdropmanager"]
 tags: overview
 published: True
 position: 0

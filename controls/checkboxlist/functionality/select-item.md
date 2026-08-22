@@ -3,6 +3,7 @@ title: Select Item
 page_title: Select Item - RadCheckBoxList
 description: Check our Web Forms article about Select Item.
 slug: checkboxlist/functionality/select-item
+components: ["checkboxlist"]
 tags: select,item
 published: True
 position: 1

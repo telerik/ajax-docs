@@ -3,6 +3,7 @@ title: Binding to OData
 page_title: Binding to OData - RadAutoCompleteBox
 description: Check our Web Forms article about Binding to OData.
 slug: autocompletebox/data-binding/binding-to-odata
+components: ["autocompletebox"]
 tags: binding,to,odata
 published: True
 position: 6

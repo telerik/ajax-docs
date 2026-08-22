@@ -3,6 +3,7 @@ title: OnClientNodeEdited
 page_title: OnClientNodeEdited - RadTreeView
 description: Check our Web Forms article about OnClientNodeEdited.
 slug: treeview/client-side-programming/events/onclientnodeedited
+components: ["treeview"]
 tags: onclientnodeedited
 published: True
 position: 10

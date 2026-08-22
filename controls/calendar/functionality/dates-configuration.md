@@ -3,6 +3,7 @@ title: Dates Configuration
 page_title: Dates Configuration - RadCalendar
 description: Check our Web Forms article about Dates Configuration.
 slug: calendar/functionality/dates-configuration
+components: ["calendar"]
 tags: managing,dates
 published: True
 position: 6

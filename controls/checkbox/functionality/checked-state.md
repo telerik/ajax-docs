@@ -3,6 +3,7 @@ title: Checked State
 page_title: Checked State - RadCheckBox
 description: Learn how to manage the checked state of the CheckBox control for capturing binary user input.
 slug: checkbox/functionality/checked-state
+components: ["checkbox"]
 tags: checked,state
 published: True
 position: 0

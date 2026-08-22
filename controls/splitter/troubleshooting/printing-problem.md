@@ -3,6 +3,7 @@ title: Printing Problem
 page_title: Printing Problem - RadSplitter
 description: Check our Web Forms article about Printing Problem.
 slug: splitter/troubleshooting/printing-problem
+components: ["splitter"]
 tags: printing,problem
 published: True
 position: 0

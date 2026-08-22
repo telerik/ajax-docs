@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadFileExplorer
 description: Check our Web Forms article about Design Time.
 slug: fileexplorer/design-time
+components: ["fileexplorer"]
 tags: design,time
 published: True
 position: 3

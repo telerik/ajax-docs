@@ -3,6 +3,7 @@ title: Using RadConfirm In Server Code
 page_title: Using RadConfirm In Server Code - RadWindow
 description: Explore how to use the RadConfirm dialog in server-side code for user confirmation and interaction.
 slug: window/how-to/using-radconfirm-in-server-code
+components: ["window"]
 tags: using,radconfirm,in,server,code
 published: True
 position: 9

@@ -3,6 +3,7 @@ title: Day Templates
 page_title: RadCalendar Day Templates - RadCalendar
 description: Check our Web Forms article about RadCalendar Day Templates.
 slug: calendar/functionality/templates/day-templates
+components: ["calendar"]
 tags: radcalendar,day,templates
 published: True
 position: 0

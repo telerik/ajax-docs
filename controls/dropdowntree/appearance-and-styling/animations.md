@@ -3,6 +3,7 @@ title: Animations
 page_title: Animations - RadDropDownTree
 description: Check our Web Forms article about Animations.
 slug: dropdowntree/appearance-and-styling/animations
+components: ["dropdowntree"]
 tags: animations
 published: True
 position: 1

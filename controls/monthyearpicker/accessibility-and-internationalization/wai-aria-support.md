@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadMonthYearPicker
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: monthyearpicker/accessibility-and-internationalization/wai-aria-support
+components: ["monthyearpicker"]
 tags: wai-aria,support
 published: True
 position: 4

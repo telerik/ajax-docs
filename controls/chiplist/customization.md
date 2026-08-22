@@ -3,6 +3,7 @@ title: Customization
 page_title: ChipList Customization
 description: "Try now the Telerik WebForms ChipList component and learn how to customize it by configuring its icons and avatars."
 slug: chiplist/customization
+components: ["chiplist"]
 tags: chiplist,customization
 published: True
 position: 3

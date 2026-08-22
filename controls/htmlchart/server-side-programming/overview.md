@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadHtmlChart
 description: Check our Web Forms article about Server-side Programming Overview.
 slug: htmlchart/server-side-programming/overview
+components: ["htmlchart"]
 tags: overview
 published: True
 position: 0

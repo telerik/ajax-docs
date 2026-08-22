@@ -3,6 +3,7 @@ title: Optimizing RadDateTimePicker Performance
 page_title: Optimizing RadDateTimePicker Performance - RadDateTimePicker
 description: Check our Web Forms article about Optimizing RadDateTimePicker Performance.
 slug: datetimepicker/performance/optimizing-raddatetimepicker-performance
+components: ["datetimepicker"]
 tags: performance,optimizing
 published: True
 position: 0

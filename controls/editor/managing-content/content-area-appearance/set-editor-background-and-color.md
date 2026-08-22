@@ -3,6 +3,7 @@ title: Set Editor Background and Color
 page_title: Set Editor Background and Color - RadEditor
 description: Check our Web Forms article about Set Editor Background and Color.
 slug: editor/managing-content/content-area-appearance/set-editor-background-and-color
+components: ["editor"]
 tags: set,editor,background,and,color
 published: True
 position: 5

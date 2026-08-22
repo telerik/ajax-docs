@@ -3,6 +3,7 @@ title: OnClientClicking
 page_title: OnClientClicking - RadTile
 description: Check our Web Forms article about OnClientClicking.
 slug: tilelist/tiles/client-side-programming/events/onclientclicking
+components: ["tilelist"]
 tags: onclientclicking
 published: True
 position: 0

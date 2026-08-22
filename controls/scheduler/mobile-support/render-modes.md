@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadScheduler
 description: Check our Web Forms article about Render Modes.
 slug: scheduler/mobile-support/render-modes
+components: ["scheduler"]
 tags: render,modes
 published: True
 position: 1

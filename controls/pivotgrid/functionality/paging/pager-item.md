@@ -3,6 +3,7 @@ title: Pager Item
 page_title: Pager Item - RadPivotGrid
 description: Check our Web Forms article about Pager Item.
 slug: pivotgrid/functionality/paging/pager-item
+components: ["pivotgrid"]
 tags: pager,item
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: RadDock Object
 page_title: RadDock Object - RadDock
 description: Check our Web Forms article about RadDock Object.
 slug: dock/client-side-programming/raddock-object
+components: ["dock"]
 tags: raddock,object
 published: True
 position: 1

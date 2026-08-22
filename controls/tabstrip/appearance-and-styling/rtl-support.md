@@ -3,6 +3,7 @@ title: RTL support
 page_title: RTL support - RadTabStrip
 description: Check our Web Forms article about RTL support.
 slug: tabstrip/appearance-and-styling/rtl-support
+components: ["tabstrip"]
 tags: rtl,support
 published: True
 position: 9

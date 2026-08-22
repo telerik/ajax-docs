@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadMaskedTextBox
 description: Check our Web Forms article about Overview.
 slug: radmaskedtextbox/client-side-programming/overview
+components: ["maskedtextbox"]
 tags: overview
 published: True
 position: 0

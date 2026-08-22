@@ -3,6 +3,7 @@ title: Known Limitations
 page_title: Known Limitations - RadStylesheetManager
 description: Check our Web Forms article about Known Limitations.
 slug: stylesheet/known-limitations
+components: ["stylesheetmanager"]
 tags: known,limitations
 published: True
 position: 7

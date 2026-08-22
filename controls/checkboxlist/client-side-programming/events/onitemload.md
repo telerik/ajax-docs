@@ -3,6 +3,7 @@ title: OnItemLoad
 page_title: OnItemLoad - RadCheckBoxList
 description: Check our Web Forms article about OnItemLoad.
 slug: checkboxlist/client-side-programming/events/onitemload
+components: ["checkboxlist"]
 tags: onitemload
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: OnClientTileDropped
 page_title: OnClientTileDropped - RadTileList
 description: Check our Web Forms article about OnClientTileDropped.
 slug: tilelist/client-side-programming/client-side-events/onclienttiledropped
+components: ["tilelist"]
 tags: onclienttiledropped
 published: True
 position: 6

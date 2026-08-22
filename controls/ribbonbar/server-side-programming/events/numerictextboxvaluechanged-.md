@@ -3,6 +3,7 @@ title: NumericTextBoxValueChanged
 page_title: NumericTextBoxValueChanged - RadRibbonBar
 description: Check our Web Forms article about NumericTextBoxValueChanged.
 slug: ribbonbar/server-side-programming/events/numerictextboxvaluechanged-
+components: ["ribbonbar"]
 tags: numerictextboxvaluechanged,
 published: True
 position: 13

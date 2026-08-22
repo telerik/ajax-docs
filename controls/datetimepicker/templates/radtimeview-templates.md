@@ -3,6 +3,7 @@ title: RadTimeView Templates
 page_title: RadTimeView Templates - RadDateTimePicker
 description: Check our Web Forms article about RadTimeView Templates.
 slug: datetimepicker/functionality/templates/radtimeview-templates
+components: ["datetimepicker"]
 tags: radtimeview,templates
 published: True
 position: 2

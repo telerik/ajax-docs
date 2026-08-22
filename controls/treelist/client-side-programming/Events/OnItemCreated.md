@@ -3,6 +3,7 @@ title: OnItemCreated
 page_title: OnItemCreated - RadTreeList
 description: Check our Web Forms article about OnItemCreated Event.
 slug: treelist/client-side-programming/Events/OnItemCreated
+components: ["treelist"]
 tags: events,OnItemCreated
 published: True
 position: 1

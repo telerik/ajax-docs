@@ -3,6 +3,7 @@ title: Force-directed
 page_title: Force-directed - RadDiagram
 description: Check our Web Forms article about Force-directed.
 slug: diagram/structure/layout/force-directed
+components: ["diagram"]
 tags: force-directed
 published: True
 position: 3

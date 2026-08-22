@@ -3,6 +3,7 @@ title: OnClientAppointmentWebServiceUpdating
 page_title: OnClientAppointmentWebServiceUpdating - RadScheduler
 description: Check our Web Forms article about OnClientAppointmentWebServiceUpdating.
 slug: scheduler/client-side-programming/events/onclientappointmentwebserviceupdating
+components: ["scheduler"]
 tags: onclientappointmentwebserviceupdating
 published: True
 position: 28

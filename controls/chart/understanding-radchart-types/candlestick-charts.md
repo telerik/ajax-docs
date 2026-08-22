@@ -3,6 +3,7 @@ title: CandleStick Charts
 page_title: CandleStick Charts - RadChart
 description: Check our Web Forms article about CandleStick Charts.
 slug: chart/understanding-radchart-types/candlestick-charts
+components: ["chart"]
 tags: candlestick,charts
 published: True
 position: 17

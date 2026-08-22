@@ -3,6 +3,7 @@ title: RadGantt Object
 page_title: Server-side RadGantt Object - RadGantt
 description: Check our Web Forms article about RadGantt Object.
 slug: gantt/server-side-programming/objects/radgantt-object
+components: ["gantt"]
 tags: radgantt-object
 published: True
 position: 0

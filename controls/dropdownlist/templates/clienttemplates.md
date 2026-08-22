@@ -3,6 +3,7 @@ title: ClientTemplates
 page_title: ClientTemplates - RadDropDownList
 description: Check our Web Forms article about ClientTemplates.
 slug: dropdownlist/templates/clienttemplates
+components: ["dropdownlist"]
 tags: clienttemplates
 published: True
 position: 1

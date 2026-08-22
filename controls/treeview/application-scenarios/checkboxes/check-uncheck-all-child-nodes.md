@@ -3,6 +3,7 @@ title: Check-Uncheck All Child Nodes
 page_title: Check-Uncheck All Child Nodes - RadTreeView
 description: Check our Web Forms article about Check-Uncheck All Child Nodes.
 slug: treeview/application-scenarios/checkboxes/check-uncheck-all-child-nodes
+components: ["treeview"]
 tags: check-uncheck,all,child,nodes
 published: True
 position: 0

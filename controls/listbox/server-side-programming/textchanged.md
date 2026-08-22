@@ -3,6 +3,7 @@ title: TextChanged
 page_title: TextChanged - RadListBox
 description: Check our Web Forms article about TextChanged.
 slug: listbox/server-side-programming/server-events/textchanged
+components: ["listbox"]
 tags: textchanged
 published: True
 position: 8

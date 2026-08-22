@@ -3,6 +3,7 @@ title: Overview
 page_title: Changes and Backward Compatibility Overview - RadSpell
 description: Check our Web Forms article about Overview.
 slug: spell/changes-and-backward-compatibility/overview
+components: ["spell"]
 tags: overview
 published: True
 position: 0

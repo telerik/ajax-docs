@@ -3,6 +3,7 @@ title: Confirm Closing
 page_title: Confirm Closing - RadWindow
 description: Check our Web Forms article about Confirm Closing.
 slug: window/how-to/confirm-closing
+components: ["window"]
 tags: confirm,closing
 published: True
 position: 10

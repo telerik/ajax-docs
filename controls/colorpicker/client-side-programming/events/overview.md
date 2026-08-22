@@ -3,6 +3,7 @@ title: Overview
 page_title: Events Overview - RadColorPicker
 description: Check our Web Forms article about Overview.
 slug: colorpicker/client-side-programming/events/overview
+components: ["colorpicker"]
 tags: overview
 published: True
 position: 0

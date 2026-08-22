@@ -3,6 +3,7 @@ title: Initially Hidden Rotator Does Not Show
 page_title: Initially Hidden Rotator Does Not Show - RadRotator
 description: Check our Web Forms article about show initially hidden rotator with JavaScript or CSS.
 slug: rotator/troubleshooting/initially-hidden
+components: ["rotator"]
 tags: initially,hidden,show,css,javascript,collapsed
 published: True
 position: 0

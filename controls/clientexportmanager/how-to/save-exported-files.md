@@ -3,6 +3,7 @@ title: Save Exported Files
 page_title: Save Exported Files - RadClientExportManager
 description: Check our Web Forms article about Save Exported Files.
 slug: clientexportmanager/how-to/save-exported-files
+components: ["clientexportmanager"]
 tags: save,exported,files
 published: True
 position: 0

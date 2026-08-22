@@ -3,6 +3,7 @@ title: Modal Effect
 page_title: Modal Effect - RadNotification
 description: Create a True Modal effect
 slug: notification/functionality/modal-effect
+components: ["notification"]
 tags: notification,modal
 published: True
 position: 3

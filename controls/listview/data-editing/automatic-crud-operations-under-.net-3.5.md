@@ -3,6 +3,7 @@ title: Automatic CRUD Operations under .NET
 page_title: Automatic CRUD Operations under .NET - RadListView
 description: Check our Web Forms article about Automatic CRUD Operations under .NET.
 slug: listview/data-editing/automatic-crud-operations-under-.net-3.5
+components: ["listview"]
 tags: automatic,crud,operations,under,.net,3.5
 published: True
 position: 1

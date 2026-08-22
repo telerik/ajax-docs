@@ -3,6 +3,7 @@ title: OnClientMouseOver
 page_title: OnClientMouseOver - RadTreeView
 description: Check our Web Forms article about OnClientMouseOver.
 slug: treeview/client-side-programming/events/onclientmouseover
+components: ["treeview"]
 tags: onclientmouseover
 published: True
 position: 22

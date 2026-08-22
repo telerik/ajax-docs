@@ -3,6 +3,7 @@ title: RibbonBarColorPicker
 page_title: RibbonBarColorPicker - RadRibbonBar
 description: Check our Web Forms article about RibbonBarColorPicker.
 slug: ribbonbar/radribbonbar-items/ribbonbarcolorpicker
+components: ["ribbonbar"]
 tags: ribbonbarcolorpicker
 published: True
 position: 14

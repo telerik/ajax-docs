@@ -3,6 +3,7 @@ title: Overview
 page_title: Structure Overview - RadDock
 description: Check our Web Forms article about Overview.
 slug: dock/structure/overview
+components: ["dock"]
 tags: overview
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Thumbnails Mode
 page_title: Thumbnails Mode - RadFileExplorer
 description: Check our Web Forms article about Thumbnails Mode.
 slug: fileexplorer/functionality/thumbnails-mode
+components: ["fileexplorer"]
 tags: thumbnails,mode
 published: True
 position: 1

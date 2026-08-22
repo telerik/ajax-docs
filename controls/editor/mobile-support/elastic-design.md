@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadEditor
 description: Check our Web Forms article about Elastic Design.
 slug: editor/mobile-support/elastic-design
+components: ["editor"]
 tags: elastic,design
 published: True
 position: 2

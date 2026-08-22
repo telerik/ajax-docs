@@ -3,6 +3,7 @@ title: OnMouseOver
 page_title: OnMouseOver - RadTextBox
 description: Check our Web Forms article about OnMouseOver.
 slug: radtextbox/client-side-programming/events/onmouseover
+components: ["textbox"]
 tags: onmouseover
 published: True
 position: 12

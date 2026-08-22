@@ -3,6 +3,7 @@ title: TextChanged Event
 page_title: TextChanged Event - RadNumericTextBox
 description: Check our Web Forms article about TextChanged Event.
 slug: numerictextbox/server-side-programming/textchanged-event
+components: ["numerictextbox"]
 tags: textchanged,event
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Client Templates
 page_title: Client Templates - RadDropDownTree
 description: Check our Web Forms article about Client Templates.
 slug: dropdowntree/templates/client-templates
+components: ["dropdowntree"]
 tags: client,templates
 published: True
 position: 1

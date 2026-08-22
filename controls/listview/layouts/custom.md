@@ -3,6 +3,7 @@ title: Custom
 page_title: Custom - RadListView
 description: Check our Web Forms article about Custom.
 slug: listview/layouts/custom
+components: ["listview"]
 tags: custom
 published: True
 position: 1

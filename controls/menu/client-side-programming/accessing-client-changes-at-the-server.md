@@ -3,6 +3,7 @@ title: Accessing Client Changes at the Server
 page_title: Accessing Client Changes at the Server - RadMenu
 description: Check our Web Forms article about Accessing Client Changes at the Server.
 slug: menu/client-side-programming/accessing-client-changes-at-the-server
+components: ["menu"]
 tags: accessing,client,changes,at,the,server
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadWizard
 description: Check our Web Forms article about Design Time.
 slug: wizard/design-time
+components: ["wizard"]
 tags: design,time
 published: True
 position: 2

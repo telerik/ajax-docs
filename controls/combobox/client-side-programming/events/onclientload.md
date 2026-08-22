@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadComboBox
 description: Check our Web Forms article about OnClientLoad.
 slug: combobox/client-side-programming/events/onclientload
+components: ["combobox"]
 tags: onclientload
 published: True
 position: 13

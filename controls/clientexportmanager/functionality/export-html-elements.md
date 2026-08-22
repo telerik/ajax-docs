@@ -3,6 +3,7 @@ title: Export HTML Elements
 page_title: Export HTML Elements - RadClientExportManager
 description: Check our Web Forms article about Export HTML Elements.
 slug: clientexportmanager/functionality/export-html-elements
+components: ["clientexportmanager"]
 tags: export,html,elements
 published: True
 position: 2

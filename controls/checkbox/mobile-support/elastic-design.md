@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadCheckBox
 description: Check our Web Forms article about Elastic Design.
 slug: checkbox/mobile-support/elastic-design
+components: ["checkbox"]
 tags: elastic,design
 published: True
 position: 1

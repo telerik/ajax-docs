@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadScheduler
 description: Check our Web Forms article about Controlling Appearance.
 slug: scheduler/appearance-and-styling/controlling-appearance
+components: ["scheduler"]
 tags: controlling,appearance
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: RibbonBarGalleryItem
 page_title: RibbonBarGalleryItem - RadRibbonBar
 description: Check our Web Forms article about RibbonBarGalleryItem.
 slug: ribbonbar/radribbonbar-items/ribbonbargallery/ribbonbargalleryitem
+components: ["ribbonbar"]
 tags: ribbonbargalleryitem
 published: True
 position: 2

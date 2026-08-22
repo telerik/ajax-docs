@@ -3,6 +3,7 @@ title: Templates
 page_title: Templates - RadPivotGrid
 description: Check our Web Forms article about Templates.
 slug: pivotgrid/templates
+components: ["pivotgrid"]
 tags: templates
 published: True
 position: 7

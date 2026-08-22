@@ -3,6 +3,7 @@ title: OnClientFileSelected
 page_title: OnClientFileSelected - RadUpload
 description: Check our Web Forms article about OnClientFileSelected.
 slug: upload/client-side-programming/onclientfileselected
+components: ["upload"]
 tags: onclientfileselected
 published: True
 position: 5

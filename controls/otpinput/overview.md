@@ -3,6 +3,7 @@ title: Overview
 page_title: OTPInput Overview
 description: Try now the ASP.NET WebForms OTPInput component and learn more about the available functionalities. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI OTPInput widget.
 slug: otpinput/overview
+components: ["otpinput"]
 tags: otpinput, overview
 published: True
 position: 0

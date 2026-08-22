@@ -3,6 +3,7 @@ title: RadSplitBar Object
 page_title: RadSplitBar Object - RadSplitter
 description: Check our Web Forms article about RadSplitBar Object.
 slug: splitter/client-side-programming/radsplitbar-object
+components: ["splitter"]
 tags: radsplitbar,object
 published: True
 position: 3

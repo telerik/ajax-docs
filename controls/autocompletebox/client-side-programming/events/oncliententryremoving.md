@@ -3,6 +3,7 @@ title: OnClientEntryRemoving
 page_title: OnClientEntryRemoving - RadAutoCompleteBox
 description: Check our Web Forms article about OnClientEntryRemoving.
 slug: autocompletebox/client-side-programming/events/oncliententryremoving
+components: ["autocompletebox"]
 tags: oncliententryremoving
 published: True
 position: 6

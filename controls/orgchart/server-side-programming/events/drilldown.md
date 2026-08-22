@@ -3,6 +3,7 @@ title: DrillDown
 page_title: DrillDown - RadOrgChart
 description: Check our Web Forms article about DrillDown.
 slug: orgchart/server-side-programming/events/drilldown
+components: ["orgchart"]
 tags: drilldown
 published: True
 position: 5

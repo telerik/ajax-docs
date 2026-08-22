@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSpreadsheet Context Menu Format
 description: Check our Web Forms article about Overview.
 slug: spreadsheet/functionality/contextmenu/overview
+components: ["spreadsheet"]
 tags: overview
 published: True
 position: 0

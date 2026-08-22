@@ -3,6 +3,7 @@ title: Updating
 page_title: Updating - RadListBox
 description: Check our Web Forms article about Updating.
 slug: listbox/server-side-programming/server-events/updating
+components: ["listbox"]
 tags: updating
 published: True
 position: 5

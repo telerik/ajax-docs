@@ -3,6 +3,7 @@ title: Appearance
 page_title: Avatar Appearance
 description: "Learn how to set the options to change the appearance such as, sizes, border radiuses, fill modes and theme colors."
 slug: avatar/appearance
+components: ["avatar"]
 tags: overview
 published: True
 position: 1

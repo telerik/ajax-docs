@@ -3,6 +3,7 @@ title: OnClientNodeExpanded
 page_title: OnClientNodeExpanded - RadNavigation
 description: Check our Web Forms article about OnClientNodeExpanded.
 slug: navigation/client-side-programming/events/onclientnodeexpanded
+components: ["navigation"]
 tags: onclientnodeexpanded
 published: True
 position: 7

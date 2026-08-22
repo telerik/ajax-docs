@@ -3,6 +3,7 @@ title: Scrolling to the Selected Item
 page_title: Scrolling to the Selected Item - RadTreeList
 description: Check our Web Forms article about Scrolling to the Selected Item.
 slug: treelist/functionality/scrolling/how-to/scrolling-to-the-selected-item
+components: ["treelist"]
 tags: scrolling,to,the,selected,item
 published: True
 position: 1

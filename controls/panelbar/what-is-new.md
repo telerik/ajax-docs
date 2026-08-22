@@ -3,6 +3,7 @@ title: What is New
 page_title: What is New - RadPanelBar
 description: Check our Web Forms article about What is New.
 slug: panelbar/what-is-new
+components: ["panelbar"]
 tags: what,is,new
 published: False
 position: 1

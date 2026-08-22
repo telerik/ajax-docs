@@ -3,6 +3,7 @@ title: Chart Image is not displayed in the page
 page_title: Chart Image is not displayed in the page - RadChart
 description: Check our Web Forms article about Chart Image is not displayed in the page.
 slug: chart/troubleshooting/chart-image-is-not-displayed-in-the-page
+components: ["chart"]
 tags: chart,image,is,not,displayed,in,the,page
 published: True
 position: 2

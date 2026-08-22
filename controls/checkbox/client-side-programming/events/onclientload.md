@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadCheckBox
 description: Check our Web Forms article about OnClientLoad.
 slug: checkbox/client-side-programming/events/onclientload
+components: ["checkbox"]
 tags: onclientload
 published: True
 position: 2

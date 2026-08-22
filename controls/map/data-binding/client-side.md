@@ -3,6 +3,7 @@ title: Client-side
 page_title: Client-side - RadMap
 description: Check our Web Forms article about Client-side.
 slug: map/data-binding/client-side
+components: ["map"]
 tags: client-side
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Width
 page_title: Width - RadColorPicker
 description: Check our Web Forms article about Width.
 slug: colorpicker/functionality/width
+components: ["colorpicker"]
 tags: width
 published: True
 position: 4

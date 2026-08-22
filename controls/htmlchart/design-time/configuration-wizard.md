@@ -3,6 +3,7 @@ title: Configuration Wizard
 page_title: Configuration Wizard - RadHtmlChart
 description: Check our Web Forms article about Configuration Wizard.
 slug: htmlchart/design-time/configuration-wizard
+components: ["htmlchart"]
 tags: configuration,wizard
 published: True
 position: 1

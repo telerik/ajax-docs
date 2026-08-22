@@ -3,6 +3,7 @@ title: Shape Templates
 page_title: Shape Templates - RadDiagram
 description: Check our Web Forms article about Shape Templates.
 slug: diagram/functionality/shape-templates
+components: ["diagram"]
 tags: shape,templates
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Server-side Binding
 page_title: Server-side Binding - RadTreeMap
 description: Check our Web Forms article about Server-side Binding.
 slug: treemap/data-binding/server-side-binding
+components: ["treemap"]
 tags: server-side,binding
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Script Combining
 page_title: Script Combining - RadScriptManager
 description: Check our Web Forms article about Script Combining.
 slug: scriptmanager/script-combining
+components: ["scriptmanager"]
 tags: script,combining
 published: False
 position: 4

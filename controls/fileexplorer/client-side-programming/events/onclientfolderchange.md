@@ -3,6 +3,7 @@ title: OnClientFolderChange
 page_title: OnClientFolderChange - RadFileExplorer
 description: Check our Web Forms article about OnClientFolderChange.
 slug: fileexplorer/client-side-programming/events/onclientfolderchange
+components: ["fileexplorer"]
 tags: onclientfolderchange
 published: True
 position: 10

@@ -3,6 +3,7 @@ title: Sticky Tooltips
 page_title: Sticky Tooltips - RadTooltip
 description: Check our Web Forms article about Sticky Tooltips.
 slug: tooltip/getting-started/sticky-tooltips
+components: ["tooltip"]
 tags: sticky,tooltips
 published: True
 position: 7

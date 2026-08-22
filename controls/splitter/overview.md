@@ -3,6 +3,7 @@ title: Overview
 page_title: RadSplitter Overview
 description: Learn about the Splitter control and its features for dividing content into resizable and collapsible panes.
 slug: splitter/overview
+components: ["splitter"]
 tags: overview
 published: True
 position: 0

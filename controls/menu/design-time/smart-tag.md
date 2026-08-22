@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadMenu
 description: Check our Web Forms article about Smart Tag.
 slug: menu/design-time/smart-tag
+components: ["menu"]
 tags: smart,tag
 published: True
 position: 0

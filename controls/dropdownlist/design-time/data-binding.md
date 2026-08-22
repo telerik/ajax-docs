@@ -3,6 +3,7 @@ title: Data Binding
 page_title: Data Binding - RadDropDownList
 description: Check our Web Forms article about Data Binding.
 slug: dropdownlist/design-time/data-binding
+components: ["dropdownlist"]
 tags: data,binding
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadTimePicker
 description: Check our Web Forms article about Keyboard Support.
 slug: timepicker/accessibility-and-internationalization/keyboard-support
+components: ["timepicker"]
 tags: keyboard,support
 published: True
 position: 4

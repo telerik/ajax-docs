@@ -3,6 +3,7 @@ title: Default Items
 page_title: Default Items - RadToolBar
 description: Check our Web Forms article about Default Items.
 slug: toolbar/radtoolbar-items/default-items
+components: ["toolbar"]
 tags: default,items
 published: True
 position: 5

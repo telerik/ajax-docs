@@ -3,6 +3,7 @@ title: Fine-tune
 page_title: Fine-tune - RadLinkButton
 description: Check our Web Forms article about Fine-tune.
 slug: linkbutton/functionality/icons/fine-tune
+components: ["linkbutton"]
 tags: fine,tune
 published: True
 position: 2

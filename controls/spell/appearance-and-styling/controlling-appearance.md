@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadSpell
 description: Check our Web Forms article about Controlling Appearance.
 slug: spell/appearance-and-styling/controlling-appearance
+components: ["spell"]
 tags: controlling,appearance
 published: True
 position: 1

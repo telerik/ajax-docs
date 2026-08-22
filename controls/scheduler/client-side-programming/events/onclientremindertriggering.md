@@ -3,6 +3,7 @@ title: OnClientReminderTriggering
 page_title: OnClientReminderTriggering - RadScheduler
 description: Check our Web Forms article about OnClientReminderTriggering.
 slug: scheduler/client-side-programming/events/onclientremindertriggering
+components: ["scheduler"]
 tags: onclientremindertriggering
 published: True
 position: 39

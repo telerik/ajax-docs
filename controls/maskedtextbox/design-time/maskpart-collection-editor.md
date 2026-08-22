@@ -3,6 +3,7 @@ title: MaskPart Collection Editor
 page_title: MaskPart Collection Editor - RadMaskedTextBox
 description: Check our Web Forms article about MaskPart Collection Editor.
 slug: radmaskedtextbox/design-time/maskpart-collection-editor
+components: ["maskedtextbox"]
 tags: maskpart,collection,editor
 published: True
 position: 2

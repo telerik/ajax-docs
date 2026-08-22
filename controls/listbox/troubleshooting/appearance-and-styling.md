@@ -3,6 +3,7 @@ title: Appearance and Styling
 page_title: Appearance and Styling - RadListBox
 description: Check our Web Forms article about Appearance and Styling.
 slug: listbox/troubleshooting/appearance-and-styling
+components: ["listbox"]
 tags: appearance,and,styling
 published: True
 position: 0

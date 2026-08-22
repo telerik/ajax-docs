@@ -3,6 +3,7 @@ title: Migrating Skins
 page_title: Migrating Skins - RadTreeView
 description: Check our Web Forms article about Migrating Skins.
 slug: treeview/appearance-and-styling/migrating-skins
+components: ["treeview"]
 tags: migrating,skins
 published: True
 position: 0

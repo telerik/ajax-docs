@@ -3,6 +3,7 @@ title: OnClientNodeCollapsed
 page_title: OnClientNodeCollapsed - RadNavigation
 description: Check our Web Forms article about OnClientNodeCollapsed.
 slug: navigation/client-side-programming/events/onclientnodecollapsed
+components: ["navigation"]
 tags: onclientnodecollapsed
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Scale Breaks
 page_title: Scale Breaks - RadChart
 description: Check our Web Forms article about Scale Breaks.
 slug: chart/features/scale-breaks
+components: ["chart"]
 tags: scale,breaks
 published: True
 position: 5

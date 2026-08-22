@@ -3,6 +3,7 @@ title: Transferring
 page_title: Transferring - RadListBox
 description: Check our Web Forms article about Transferring.
 slug: listbox/server-side-programming/server-events/transferring
+components: ["listbox"]
 tags: transferring
 published: True
 position: 11

@@ -3,6 +3,7 @@ title: SqlDataSource
 page_title: SqlDataSource - RadHtmlChart
 description: Check our Web Forms article about SqlDataSource.
 slug: htmlchart/data-binding/sqldatasource
+components: ["htmlchart"]
 tags: sqldatasource
 published: True
 position: 0

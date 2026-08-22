@@ -3,6 +3,7 @@ title: OnClientSeriesClicked(deprecated)
 page_title: OnClientSeriesClicked(deprecated) - RadHtmlChart
 description: Check our Web Forms article about OnClientSeriesClicked(deprecated).
 slug: htmlchart/client-side-programming/events/onclientseriesclicked(deprecated)
+components: ["htmlchart"]
 tags: onclientseriesclicked(deprecated)
 published: True
 position: 1

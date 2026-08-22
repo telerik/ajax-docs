@@ -3,6 +3,7 @@ title: Events Overview
 page_title: Overview - RadMultiSelect
 description: Check our Web Forms article about Overview.
 slug: multiselect/client-side-programming/events
+components: ["multiselect"]
 tags: overview,events
 published: True
 position: 1

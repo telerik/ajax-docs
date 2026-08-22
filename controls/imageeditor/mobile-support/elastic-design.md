@@ -3,6 +3,7 @@ title: Elastic Design
 page_title: Elastic Design - RadImageEditor
 description: Check our Web Forms article about Elastic Design.
 slug: imageeditor/mobile-support/elastic-design
+components: ["imageeditor"]
 tags: elastic,design,image editor
 published: True
 position: 1

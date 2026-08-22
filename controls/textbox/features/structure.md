@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadTextBox
 description: Check our Web Forms article about Structure.
 slug: radtextbox/features/structure
+components: ["textbox"]
 tags: structure
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: OnClientKeyPressing
 page_title: OnClientKeyPressing - RadTreeView
 description: Check our Web Forms article about OnClientKeyPressing.
 slug: treeview/client-side-programming/events/onclientkeypressing
+components: ["treeview"]
 tags: onclientkeypressing
 published: True
 position: 2

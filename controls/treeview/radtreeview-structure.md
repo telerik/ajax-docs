@@ -3,6 +3,7 @@ title: RadTreeView Structure
 page_title: RadTreeView Structure - RadTreeView
 description: Check our Web Forms article about RadTreeView Structure.
 slug: treeview/radtreeview-structure
+components: ["treeview"]
 tags: radtreeview,structure
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Get the Client-side Object of the Embedded RadCalendar
 page_title: Get the Client-side Object of the Embedded RadCalendar - RadScheduler
 description: Check our Web Forms article about Get the Client-side Object of the Embedded RadCalendar.
 slug: scheduler/how-to/get-the-client-side-object-of-the-embedded-radcalendar
+components: ["scheduler"]
 tags: get,the,client-side,object,of,the,embedded,radcalendar
 published: True
 position: 4

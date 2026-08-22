@@ -3,6 +3,7 @@ title: Binding to Object-Based Data Sources
 page_title: Binding to Object-Based Data Sources - RadTabStrip
 description: Check our Web Forms article about Binding to Object-Based Data Sources.
 slug: tabstrip/data-binding/binding-to-object-based-data-sources
+components: ["tabstrip"]
 tags: binding,to,object-based,data,sources
 published: True
 position: 1

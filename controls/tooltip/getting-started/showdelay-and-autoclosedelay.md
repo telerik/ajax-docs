@@ -3,6 +3,7 @@ title: ShowDelay and AutoCloseDelay
 page_title: ShowDelay and AutoCloseDelay - RadTooltip
 description: Check our Web Forms article about ShowDelay and AutoCloseDelay.
 slug: tooltip/getting-started/showdelay-and-autoclosedelay
+components: ["tooltip"]
 tags: showdelay,and,autoclosedelay
 published: True
 position: 6

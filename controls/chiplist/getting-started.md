@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started with the ChipList
 description: "Get started with the WebForms ChipList by Telerik UI for ASP.NET AJAX and learn how to create, initialize, and enable the component."
 slug: chiplist/getting-started
+components: ["chiplist"]
 tags: chiplist,getting started
 published: True
 position: 1

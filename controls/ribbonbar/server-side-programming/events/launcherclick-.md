@@ -3,6 +3,7 @@ title: LauncherClick
 page_title: LauncherClick - RadRibbonBar
 description: Check our Web Forms article about LauncherClick.
 slug: ribbonbar/server-side-programming/events/launcherclick-
+components: ["ribbonbar"]
 tags: launcherclick,
 published: True
 position: 5

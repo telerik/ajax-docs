@@ -3,6 +3,7 @@ title: Viewport Breakpoints
 page_title: Viewport Breakpoints - RadPageLayout
 description: Check our Web Forms article about Viewport Breakpoints.
 slug: pagelayout/creating-responsive-design/viewport-breakpoints
+components: ["pagelayout"]
 tags: viewport,breakpoints
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Appearance Issues with Initially Hidden Editor
 page_title: Appearance Issues with Initially Hidden Editor - RadEditor
 description: Check our Web Forms article about Appearance Issues with Initially Hidden Editor.
 slug: editor/troubleshooting/appearance-issues-with-initially-hidden-editor
+components: ["editor"]
 tags: appearance,issues,with,initially,hidden,editor
 published: True
 position: 1

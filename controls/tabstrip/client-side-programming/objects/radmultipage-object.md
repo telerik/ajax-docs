@@ -3,6 +3,7 @@ title: RadMultiPage Object
 page_title: RadMultiPage Object - RadTabStrip
 description: Check our Web Forms article about RadMultiPage Object.
 slug: tabstrip/client-side-programming/radmultipage-object
+components: ["tabstrip"]
 tags: radmultipage,object
 published: True
 position: 5

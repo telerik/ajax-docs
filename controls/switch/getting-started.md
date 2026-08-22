@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadSwitch
 description: Check our Web Forms article about Getting Started.
 slug: switch/getting-started
+components: ["switch"]
 tags: getting,started
 published: True
 position: 2

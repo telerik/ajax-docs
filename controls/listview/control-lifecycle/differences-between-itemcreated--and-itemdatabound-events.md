@@ -3,6 +3,7 @@ title: Differences between ItemCreated  and ItemDataBound Events
 page_title: Differences between ItemCreated and ItemDataBound Events - RadListView
 description: Check our Web Forms article about Differences between ItemCreated  and ItemDataBound Events.
 slug: listview/control-lifecycle/differences-between-itemcreated--and-itemdatabound-events
+components: ["listview"]
 tags: differences,between,itemcreated,,and,itemdatabound,events
 published: True
 position: 3

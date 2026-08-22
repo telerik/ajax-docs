@@ -3,6 +3,7 @@ title: WAI-ARIA Support
 page_title: WAI-ARIA Support - RadWindow
 description: Check our Web Forms article about WAI-ARIA Support.
 slug: window/accessibility-and-internationalization/wai-aria-support
+components: ["window"]
 tags: wai-aria,support
 published: True
 position: 3

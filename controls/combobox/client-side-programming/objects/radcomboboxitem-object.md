@@ -3,6 +3,7 @@ title: RadComboBoxItem Object
 page_title: RadComboBoxItem Object - RadComboBox
 description: Discover the RadComboBoxItem object and its client-side API for managing individual ComboBox items.
 slug: combobox/client-side-programming/objects/radcomboboxitem-object
+components: ["combobox"]
 tags: radcomboboxitem,object
 published: True
 position: 1

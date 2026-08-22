@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadRibbonBar
 description: Check our Web Forms article about Design Time.
 slug: ribbonbar/design-time
+components: ["ribbonbar"]
 tags: design,time
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Configuration Manager
 page_title: Configuration Manager - RadGauge
 description: Check our Web Forms article about Configuration Manager.
 slug: gauge/design-time/configuration-manager
+components: ["gauge"]
 tags: configuration,manager
 published: True
 position: 1

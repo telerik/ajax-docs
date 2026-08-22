@@ -3,6 +3,7 @@ title: Wizard Object
 page_title: Wizard Object - RadWizard
 description: Check our Web Forms article about Wizard Object.
 slug: wizard/client-side-programming/wizard-object
+components: ["wizard"]
 tags: wizard,object
 published: True
 position: 1

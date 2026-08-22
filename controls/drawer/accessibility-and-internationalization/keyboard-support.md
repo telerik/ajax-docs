@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadDrawer
 description: Check our Web Forms article about Keyboard Support.
 slug: drawer/accessibility-and-internationalization/keyboard-support
+components: ["drawer"]
 tags: keyboard,support
 published: True
 position: 1

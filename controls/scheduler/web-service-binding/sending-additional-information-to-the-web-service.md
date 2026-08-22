@@ -3,6 +3,7 @@ title: Sending Additional Information to the Web Service
 page_title: Sending Additional Information to the Web Service - RadScheduler
 description: Check our Web Forms article about Sending Additional Information to the Web Service.
 slug: scheduler/web-service-binding/sending-additional-information-to-the-web-service
+components: ["scheduler"]
 tags: sending,additional,information,to,the,web,service
 published: True
 position: 4

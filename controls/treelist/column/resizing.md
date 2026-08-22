@@ -3,6 +3,7 @@ title: Resizing
 page_title: Resizing - RadTreeList
 description: Check our Web Forms article about Resizing.
 slug: treelist/column/resizing
+components: ["treelist"]
 tags: resizing
 published: True
 position: 2

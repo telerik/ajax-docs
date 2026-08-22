@@ -3,6 +3,7 @@ title: OnClientCheckAllChecking
 page_title: OnClientCheckAllChecking - RadListBox
 description: Check our Web Forms article about OnClientCheckAllChecking.
 slug: listbox/client-side-programming/events/onclientcheckallchecking
+components: ["listbox"]
 tags: onclientcheckallchecking
 published: True
 position: 12

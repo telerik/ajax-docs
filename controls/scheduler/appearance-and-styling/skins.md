@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadScheduler
 description: Check our Web Forms article about Skins.
 slug: scheduler/appearance-and-styling/skins
+components: ["scheduler"]
 tags: skins
 published: True
 position: 1

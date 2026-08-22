@@ -3,6 +3,7 @@ title: Appointment Context Menu
 page_title: Appointment Context Menu - RadScheduler
 description: Check our Web Forms article about Appointment Context Menu.
 slug: scheduler/context-menus/appointment-context-menu
+components: ["scheduler"]
 tags: appointment,context,menu
 published: True
 position: 0

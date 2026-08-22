@@ -3,6 +3,7 @@ title: Overview
 page_title: RadDropDownList Overview
 description: Explore the DropDownList control and its features for creating dropdown menus with advanced functionality.
 slug: dropdownlist/overview
+components: ["dropdownlist"]
 tags: overview
 published: True
 position: 0

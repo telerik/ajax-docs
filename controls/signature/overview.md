@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadSignature
 description: The Telerik RadSignature is a component, which enables the user to create handwritten signatures.
 slug: signature/overview
+components: ["signature"]
 tags: overview, signature
 published: True
 position: 0

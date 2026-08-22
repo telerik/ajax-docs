@@ -3,6 +3,7 @@ title: Validation
 page_title: Validation - RadToolBar
 description: Check our Web Forms article about Validation.
 slug: toolbar/web-pages/validation
+components: ["toolbar"]
 tags: validation
 published: True
 position: 0

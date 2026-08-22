@@ -3,6 +3,7 @@ title: OnClientMouseOut
 page_title: OnClientMouseOut - RadTabStrip
 description: Check our Web Forms article about OnClientMouseOut.
 slug: tabstrip/client-side-programming/onclientmouseout
+components: ["tabstrip"]
 tags: onclientmouseout
 published: True
 position: 4

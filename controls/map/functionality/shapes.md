@@ -3,6 +3,7 @@ title: Shapes
 page_title: Shapes - RadMap
 description: Check our Web Forms article about Shapes.
 slug: map/functionality/shapes
+components: ["map"]
 tags: shapes
 published: True
 position: 3

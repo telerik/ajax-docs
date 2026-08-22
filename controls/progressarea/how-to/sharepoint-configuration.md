@@ -3,6 +3,7 @@ title: SharePoint Configuration
 page_title: SharePoint Configuration - RadProgressArea
 description: Check our Web Forms article about SharePoint Configuration.
 slug: progressarea/how-to/sharepoint-configuration
+components: ["progressarea"]
 tags: sharepoint,configuration
 published: True
 position: 1

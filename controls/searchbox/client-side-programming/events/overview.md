@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Events Overview - RadSearchBox
 description: Check our Web Forms article about Overview.
 slug: searchbox/client-side-programming/events/overview
+components: ["searchbox"]
 tags: overview
 published: True
 position: 0

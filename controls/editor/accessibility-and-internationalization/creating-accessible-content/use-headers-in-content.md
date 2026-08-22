@@ -3,6 +3,7 @@ title: Use Headers in Content
 page_title: Use Headers in Content - RadEditor
 description: Check our Web Forms article about Use Headers in Content.
 slug: editor/accessibility-and-internationalization/creating-accessible-content/use-headers-in-content
+components: ["editor"]
 tags: use,headers,in,content
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Overview
 page_title: RadGauge Overview - RadGauge
 description: Check our Web Forms article about Overview.
 slug: gauge/overview
+components: ["gauge"]
 tags: overview
 published: True
 position: 0

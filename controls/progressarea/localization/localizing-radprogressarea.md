@@ -3,6 +3,7 @@ title: Localizing RadProgressArea
 page_title: Localizing RadProgressArea - RadProgressArea
 description: Check our Web Forms article about Localizing RadProgressArea.
 slug: progressarea/localization/localizing-radprogressarea
+components: ["progressarea"]
 tags: localizing,radprogressarea
 published: True
 position: 0

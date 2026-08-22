@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadOrgChart
 description: Check our Web Forms article about Render Modes.
 slug: orgchart/mobile-support/render-modes
+components: ["orgchart"]
 tags: render,modes
 published: True
 position: 0

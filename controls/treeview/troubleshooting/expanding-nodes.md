@@ -3,6 +3,7 @@ title: Expanding Nodes
 page_title: Expanding Nodes - RadTreeView
 description: Check our Web Forms article about Expanding Nodes.
 slug: treeview/troubleshooting/expanding-nodes
+components: ["treeview"]
 tags: expanding,nodes
 published: True
 position: 6

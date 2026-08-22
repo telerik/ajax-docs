@@ -3,6 +3,7 @@ title: Events
 page_title: SpeechToTextButton Client-side Events
 description: "Client-side Events of the Telerik WebForms SpeechToTextButton component."
 slug: speechtotextbutton/client-side-programming/events
+components: ["speechtotextbutton"]
 tags: speechtotextbutton,javascript
 published: True
 position: 2

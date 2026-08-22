@@ -3,6 +3,7 @@ title: Toggle button
 page_title: Toggle button - RadButton
 description: Learn how to use the Toggle Button type in the Button control for toggling states in your application.
 slug: button/button-types/toggle-button
+components: ["button"]
 tags: toggle,button
 published: True
 position: 3

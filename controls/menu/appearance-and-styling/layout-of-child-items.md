@@ -3,6 +3,7 @@ title: Layout of Child Items
 page_title: Layout of Child Items - RadMenu
 description: Check our Web Forms article about Layout of Child Items.
 slug: menu/appearance-and-styling/layout-of-child-items
+components: ["menu"]
 tags: layout,of,child,items
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Deleted
 page_title: Deleted - RadListBox
 description: Check our Web Forms article about Deleted.
 slug: listbox/server-side-programming/server-events/deleted
+components: ["listbox"]
 tags: deleted
 published: True
 position: 14

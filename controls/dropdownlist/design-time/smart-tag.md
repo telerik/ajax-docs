@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadDropDownList
 description: Check our Web Forms article about Smart Tag.
 slug: dropdownlist/design-time/smart-tag
+components: ["dropdownlist"]
 tags: smart,tag
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Colors
 page_title: Colors - RadEditor
 description: Check our Web Forms article about Colors.
 slug: editor/functionality/toolbars/dropdowns/colors
+components: ["editor"]
 tags: colors
 published: True
 position: 5

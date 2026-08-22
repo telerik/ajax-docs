@@ -3,6 +3,7 @@ title: Specifying a Culture
 page_title: Specifying a Culture - RadMonthYearPicker
 description: Check our Web Forms article about Specifying a Culture.
 slug: monthyearpicker/accessibility-and-internationalization/specifying-a-culture
+components: ["monthyearpicker"]
 tags: specifying,a,culture
 published: True
 position: 0

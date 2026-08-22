@@ -3,6 +3,7 @@ title: Week View
 page_title: Week View - RadScheduler
 description: Check our Web Forms article about Week View.
 slug: scheduler/views/week-view
+components: ["scheduler"]
 tags: week,view
 published: True
 position: 2

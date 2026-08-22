@@ -3,6 +3,7 @@ title: Overview
 page_title: Sorting Overview - RadListView
 description: Check our Web Forms article about Overview.
 slug: listview/fuctionality/sorting/overview
+components: ["listview"]
 tags: overview
 published: True
 position: 0

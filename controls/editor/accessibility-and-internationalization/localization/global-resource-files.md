@@ -3,6 +3,7 @@ title: Global Resource Files
 page_title: Global Resource Files - RadEditor
 description: Check our Web Forms article about Global Resource Files.
 slug: editor/accessibility-and-internationalization/localization/global-resource-files
+components: ["editor"]
 tags: global,resource,files
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadWindow
 description: Check our Web Forms article about Localization.
 slug: window/accessibility-and-internationalization/localization
+components: ["window"]
 tags: localization
 published: True
 position: 0

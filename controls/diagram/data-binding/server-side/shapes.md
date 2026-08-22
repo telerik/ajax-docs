@@ -3,6 +3,7 @@ title: Shapes
 page_title: Shapes - RadDiagram
 description: Check our Web Forms article about Shapes.
 slug: diagram/data-binding/server-side/shapes
+components: ["diagram"]
 tags: shapes
 published: True
 position: 0

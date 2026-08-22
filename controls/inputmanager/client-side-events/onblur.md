@@ -3,6 +3,7 @@ title: OnBlur
 page_title: OnBlur - RadInputManager
 description: Check our Web Forms article about OnBlur.
 slug: radinputmanager/client-side-events/onblur
+components: ["inputmanager"]
 tags: onblur
 published: True
 position: 0

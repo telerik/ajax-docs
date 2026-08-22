@@ -3,6 +3,7 @@ title: Dictionary Configurator
 page_title: Dictionary Configurator - RadSpell
 description: Check our Web Forms article about Dictionary Configurator.
 slug: spell/dictionaries/dictionary-configurator
+components: ["spell"]
 tags: dictionary,configurator
 published: True
 position: 2

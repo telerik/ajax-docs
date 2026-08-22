@@ -3,6 +3,7 @@ title: GroupExpandCollapse
 page_title: GroupExpandCollapse - RadOrgChart
 description: Check our Web Forms article about GroupExpandCollapse.
 slug: orgchart/server-side-programming/events/groupexpandcollapse
+components: ["orgchart"]
 tags: groupexpandcollapse
 published: True
 position: 7

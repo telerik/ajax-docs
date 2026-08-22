@@ -3,6 +3,7 @@ title: Server-side Programming
 page_title: Server-side Programming - RadMap
 description: Check our Web Forms article about Server-side Programming.
 slug: map/server-side-programming
+components: ["map"]
 tags: server-side,programming
 published: True
 position: 46

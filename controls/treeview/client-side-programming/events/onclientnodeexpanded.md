@@ -3,6 +3,7 @@ title: OnClientNodeExpanded
 page_title: OnClientNodeExpanded - RadTreeView
 description: Check our Web Forms article about OnClientNodeExpanded.
 slug: treeview/client-side-programming/events/onclientnodeexpanded
+components: ["treeview"]
 tags: onclientnodeexpanded
 published: True
 position: 7

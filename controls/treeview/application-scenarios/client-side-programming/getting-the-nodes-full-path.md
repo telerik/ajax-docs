@@ -3,6 +3,7 @@ title: Getting the Nodes Full Path
 page_title: Getting the Nodes Full Path - RadTreeView
 description: Check our Web Forms article about Getting the Nodes Full Path.
 slug: treeview/application-scenarios/client-side-programming/getting-the-nodes-full-path
+components: ["treeview"]
 tags: getting,the,nodes,full,path
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Properties
 page_title: SegmentedControl Server-side Properties
 description: "Server-side properties of the Telerik WebForms SegmentedControl component."
 slug: segmentedcontrol/server-side-programming/properties
+components: ["segmentedcontrol"]
 tags: segmentedcontrol, server-side, properties
 published: True
 position: 1

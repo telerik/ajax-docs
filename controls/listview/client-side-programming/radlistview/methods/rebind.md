@@ -3,6 +3,7 @@ title: rebind
 page_title: rebind - RadListView
 description: Check our Web Forms article about rebind.
 slug: listview/client-side-programming/radlistview/methods/rebind
+components: ["listview"]
 tags: rebind
 published: True
 position: 10

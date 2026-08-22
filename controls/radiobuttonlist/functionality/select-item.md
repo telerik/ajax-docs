@@ -3,6 +3,7 @@ title: Select Item
 page_title: Select Item - RadRadioButtonList
 description: Learn how to programmatically select items in the RadioButtonList control for enhanced user interaction.
 slug: radiobuttonlist/functionality/select-item
+components: ["radiobuttonlist"]
 tags: select,item
 published: True
 position: 1

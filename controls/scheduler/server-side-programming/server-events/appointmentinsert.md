@@ -3,6 +3,7 @@ title: AppointmentInsert
 page_title: AppointmentInsert - RadScheduler
 description: Check our Web Forms article about AppointmentInsert.
 slug: scheduler/server-side-programming/server-events/appointmentinsert
+components: ["scheduler"]
 tags: appointmentinsert
 published: True
 position: 3

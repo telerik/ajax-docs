@@ -3,6 +3,7 @@ title: Data Binding RadChart to a Generic List of Simple Types
 page_title: Data Binding RadChart to a Generic List of Simple Types - RadChart
 description: Check our Web Forms article about Data Binding RadChart to a Generic List of Simple Types.
 slug: chart/building-radcharts/data-binding-radchart-to-a-generic-list-of-simple-types
+components: ["chart"]
 tags: data,binding,radchart,to,a,generic,list,of,simple,types
 published: True
 position: 9

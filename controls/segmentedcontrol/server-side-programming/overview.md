@@ -3,6 +3,7 @@ title: Overview
 page_title: SegmentedControl Server-side Programming
 description: "Overview of the Server-side APIs you can use to create and configure the Telerik WebForms SegmentedControl."
 slug: segmentedcontrol/server-side-programming/overview
+components: ["segmentedcontrol"]
 tags: overview, segmentedcontrol, server-side
 published: True
 position: 0

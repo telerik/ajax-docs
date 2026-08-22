@@ -3,6 +3,7 @@ title: Line Charts
 page_title: Line Charts - RadChart
 description: Check our Web Forms article about Line Charts.
 slug: chart/understanding-radchart-types/line-charts
+components: ["chart"]
 tags: line,charts
 published: True
 position: 13

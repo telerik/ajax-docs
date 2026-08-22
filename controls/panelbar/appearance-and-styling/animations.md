@@ -3,6 +3,7 @@ title: Animations
 page_title: Animations - RadPanelBar
 description: Check our Web Forms article about Animations.
 slug: panelbar/appearance-and-styling/animations
+components: ["panelbar"]
 tags: animations
 published: True
 position: 8

@@ -3,6 +3,7 @@ title: OnClientItemDoubleClicked
 page_title: OnClientItemDoubleClicked - RadListBox
 description: Check our Web Forms article about OnClientItemDoubleClicked.
 slug: listbox/client-side-programming/events/onclientitemdoubleclicked
+components: ["listbox"]
 tags: onclientitemdoubleclicked
 published: True
 position: 9

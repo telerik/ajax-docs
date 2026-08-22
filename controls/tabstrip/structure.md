@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadTabStrip
 description: Check our Web Forms article about Structure.
 slug: tabstrip/structure
+components: ["tabstrip"]
 tags: structure
 published: True
 position: 1

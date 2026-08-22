@@ -3,6 +3,7 @@ title: OnClientButtonClicked
 page_title: OnClientButtonClicked - RadToolBar
 description: Check our Web Forms article about OnClientButtonClicked.
 slug: toolbar/client-side-programming/onclientbuttonclicked
+components: ["toolbar"]
 tags: onclientbuttonclicked
 published: True
 position: 2

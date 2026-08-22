@@ -3,6 +3,7 @@ title: Changes And Backward Compatibility
 page_title: Changes And Backward Compatibility - RadFileExplorer
 description: Check our Web Forms article about Changes And Backward Compatibility.
 slug: fileexplorer/changes-and-backward-compatibility
+components: ["fileexplorer"]
 tags: changes,and,backward,compatibility
 published: True
 position: 1

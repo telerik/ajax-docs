@@ -3,6 +3,7 @@ title: Common Issues
 page_title: Common Issues - RadLinkButton
 description: Check our Web Forms article about Common Issues.
 slug: linkbutton/troubleshooting/common-issues
+components: ["linkbutton"]
 tags: common,issues
 published: True
 position: 0

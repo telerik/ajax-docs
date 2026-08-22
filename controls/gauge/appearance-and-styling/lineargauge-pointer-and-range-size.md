@@ -3,6 +3,7 @@ title: LinearGauge Pointer and Range Size
 page_title: LinearGauge Pointer and Range Size - RadGauge
 description: Check our Web Forms article about LinearGauge Pointer and Range Size.
 slug: gauge/appearance-and-styling/lineargauge-pointer-and-range-size
+components: ["gauge"]
 tags: lineargauge,pointer,and,range,size
 published: True
 position: 0

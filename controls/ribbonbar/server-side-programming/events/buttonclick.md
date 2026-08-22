@@ -3,6 +3,7 @@ title: ButtonClick
 page_title: ButtonClick - RadRibbonBar
 description: Check our Web Forms article about ButtonClick.
 slug: ribbonbar/server-side-programming/events/buttonclick
+components: ["ribbonbar"]
 tags: buttonclick
 published: True
 position: 2

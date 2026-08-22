@@ -3,6 +3,7 @@ title: Implement findNodesByAttribute Method
 page_title: Implement findNodesByAttribute Method - RadTreeView
 description: Check our Web Forms article about Implement findNodesByAttribute Method.
 slug: treeview/application-scenarios/client-side-programming/implement-findnodesbyattribute-mthod
+components: ["treeview"]
 tags: implement,findnodesbyattribute,mthod
 published: True
 position: 19

@@ -3,6 +3,7 @@ title: OnClientDragStart
 page_title: OnClientDragStart - RadDock
 description: Check our Web Forms article about OnClientDragStart.
 slug: dock/client-side-programming/events/onclientdragstart
+components: ["dock"]
 tags: onclientdragstart
 published: True
 position: 4

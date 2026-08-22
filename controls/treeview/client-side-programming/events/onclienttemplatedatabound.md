@@ -3,6 +3,7 @@ title: OnClientTemplateDataBound
 page_title: OnClientTemplateDataBound - RadTreeView
 description: Check our Web Forms article about OnClientTemplateDataBound.
 slug: treeview/client-side-programming/events/onclienttemplatedatabound
+components: ["treeview"]
 tags: onclienttemplatedatabound
 published: True
 position: 30

@@ -3,6 +3,7 @@ title: get_mode
 page_title: get_mode - RadEditor
 description: Check our Web Forms article about get_mode.
 slug: editor/client-side-programming/methods/get_mode
+components: ["editor"]
 tags: get_mode
 published: True
 position: 7

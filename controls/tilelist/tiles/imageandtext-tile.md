@@ -3,6 +3,7 @@ title: ImageAndText Tile
 page_title: ImageAndText Tile - RadTile
 description: Check our Web Forms article about ImageAndText Tile.
 slug: tilelist/tiles/imageandtext-tile
+components: ["tilelist"]
 tags: imageandtext,tile
 published: True
 position: 4

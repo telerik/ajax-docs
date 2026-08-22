@@ -3,6 +3,7 @@ title: ExternalDialogsPath Property
 page_title: ExternalDialogsPath Property - RadEditor
 description: Check our Web Forms article about ExternalDialogsPath Property.
 slug: editor/functionality/dialogs/externaldialogspath-property
+components: ["editor"]
 tags: externaldialogspath,property
 published: True
 position: 7

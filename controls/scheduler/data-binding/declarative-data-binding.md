@@ -3,6 +3,7 @@ title: Declarative Data Binding
 page_title: Declarative Data Binding - RadScheduler
 description: Check our Web Forms article about Declarative Data Binding.
 slug: scheduler/data-binding/declarative-data-binding
+components: ["scheduler"]
 tags: declarative,data,binding
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: What Is New
 page_title: What Is New - RadSiteMap
 description: Check our Web Forms article about What Is New.
 slug: sitemap/what-is-new
+components: ["sitemap"]
 tags: what,is,new
 published: False
 position: 1

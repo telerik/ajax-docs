@@ -3,6 +3,7 @@ title: CSS for Responsive Layout
 page_title: CSS for Responsive Layout - RadTileList
 description: Check our Web Forms article about CSS for Responsive Layout.
 slug: tilelist/appearance-and-styling/css-for-responsive-layout
+components: ["tilelist"]
 tags: css,for,responsive,layout
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadClientExportManager
 description: Check our Web Forms article about Design Time.
 slug: clientexportmanager/design-time
+components: ["clientexportmanager"]
 tags: design,time
 published: True
 position: 2

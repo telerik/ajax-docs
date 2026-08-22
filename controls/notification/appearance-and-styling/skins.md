@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadNotification
 description: Check our Web Forms article about Skins.
 slug: notification/appearance-and-styling/skins
+components: ["notification"]
 tags: skins
 published: True
 position: 3

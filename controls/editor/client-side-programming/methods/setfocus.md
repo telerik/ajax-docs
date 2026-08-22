@@ -3,6 +3,7 @@ title: setFocus
 page_title: setFocus - RadEditor
 description: Check our Web Forms article about setFocus.
 slug: editor/client-side-programming/methods/setfocus
+components: ["editor"]
 tags: setfocus
 published: True
 position: 14

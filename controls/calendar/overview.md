@@ -3,6 +3,7 @@ title: Overview
 page_title: RadCalendar Overview
 description: Check our Web Forms article about Overview.
 slug: calendar/overview
+components: ["calendar"]
 tags: overview
 published: True
 position: 0

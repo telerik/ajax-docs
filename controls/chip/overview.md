@@ -3,6 +3,7 @@ title: Overview
 page_title: Chip Overview
 description: The Chip is a compact element that represents an input, attribute, or action. The component enables user input and verifies that input by converting text into chips. This component is a server-side, ASP.NET WebForms wrapper over the Kendo UI Chip widget.
 slug: chip/overview
+components: ["chip"]
 tags: chip, overview
 published: True
 position: 0

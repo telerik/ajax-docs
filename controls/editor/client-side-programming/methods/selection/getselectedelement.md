@@ -3,6 +3,7 @@ title: getSelectedElement
 page_title: getSelectedElement - RadEditor
 description: Check our Web Forms article about getSelectedElement.
 slug: editor/client-side-programming/methods/selection/getselectedelement
+components: ["editor"]
 tags: getselectedelement
 published: True
 position: 6

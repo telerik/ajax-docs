@@ -3,6 +3,7 @@ title: OnTooltipShow
 page_title: OnTooltipShow - RadPivotGrid
 description: Check our Web Forms article about OnTooltipShow.
 slug: pivotgrid/client-side-programming/events/ontooltipshow
+components: ["pivotgrid"]
 tags: ontooltipshow
 published: True
 position: 4

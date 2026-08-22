@@ -3,6 +3,7 @@ title: Overview
 page_title: RadPageLayout Overview
 description: Discover the PageLayout control and its features for creating responsive and structured page layouts.
 slug: pagelayout/overview
+components: ["pagelayout"]
 tags: overview
 published: True
 position: 0

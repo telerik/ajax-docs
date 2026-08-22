@@ -3,6 +3,7 @@ title: Firing Command Events from Code
 page_title: Firing Command Events from Code - RadTreeList
 description: Check our Web Forms article about Firing Command Events from Code.
 slug: treelist/control-lifecycle/firing-command-events-from-code
+components: ["treelist"]
 tags: firing,command,events,from,code
 published: True
 position: 4

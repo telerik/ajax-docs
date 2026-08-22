@@ -3,6 +3,7 @@ title: Scroll to Selected Node After MS.NET AJAX Request
 page_title: Scroll to Selected Node After MS.NET AJAX Request - RadTreeView
 description: Check our Web Forms article about Scroll to Selected Node After MS.NET AJAX Request.
 slug: treeview/application-scenarios/client-side-programming/scroll-to-selected-node-after-ms.net-ajax-request
+components: ["treeview"]
 tags: scroll,to,selected,node,after,ms.net,ajax,request
 published: True
 position: 11

@@ -3,6 +3,7 @@ title: Skins
 page_title: Skins - RadDatePicker
 description: Check our Web Forms article about Skins.
 slug: datepicker/appearance-and-styling/skins
+components: ["datepicker"]
 tags: skins
 published: True
 position: 2

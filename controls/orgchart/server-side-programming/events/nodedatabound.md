@@ -3,6 +3,7 @@ title: NodeDataBound
 page_title: NodeDataBound - RadOrgChart
 description: Check our Web Forms article about NodeDataBound.
 slug: orgchart/server-side-programming/events/nodedatabound
+components: ["orgchart"]
 tags: nodedatabound
 published: True
 position: 2

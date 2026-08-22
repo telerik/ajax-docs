@@ -3,6 +3,7 @@ title: OnClientResizeEnd
 page_title: OnClientResizeEnd - RadImageEditor
 description: Check our Web Forms article about OnClientResizeEnd.
 slug: imageeditor/client-side-programming/events/onclientresizeend
+components: ["imageeditor"]
 tags: onclientresizeend
 published: True
 position: 9

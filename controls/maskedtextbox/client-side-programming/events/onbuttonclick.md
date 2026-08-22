@@ -3,6 +3,7 @@ title: OnButtonClick
 page_title: OnButtonClick - RadMaskedTextBox
 description: Check our Web Forms article about OnButtonClick.
 slug: radmaskedtextbox/client-side-programming/events/onbuttonclick
+components: ["maskedtextbox"]
 tags: onbuttonclick
 published: True
 position: 2

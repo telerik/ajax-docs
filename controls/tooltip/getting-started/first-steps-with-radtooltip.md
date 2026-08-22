@@ -3,6 +3,7 @@ title: First Steps with RadToolTip
 page_title: First Steps with RadToolTip - RadTooltip
 description: Check our Web Forms article about First Steps with RadToolTip.
 slug: tooltip/getting-started/first-steps-with-radtooltip
+components: ["tooltip"]
 tags: first,steps,with,radtooltip
 published: True
 position: 0

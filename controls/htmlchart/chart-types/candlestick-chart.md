@@ -3,6 +3,7 @@ title: Candlestick Chart
 page_title: Candlestick Chart - RadHtmlChart
 description: Check our Web Forms article about Candlestick Chart.
 slug: htmlchart/chart-types/candlestick-chart
+components: ["htmlchart"]
 tags: candlestick,chart
 published: True
 position: 6

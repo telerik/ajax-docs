@@ -3,6 +3,7 @@ title: Customizing the Day Matrix
 page_title: Customizing the Day Matrix - RadCalendar
 description: Check our Web Forms article about Customizing the Day Matrix.
 slug: calendar/functionality/customizing-the-day-matrix
+components: ["calendar"]
 tags: customizing,the,day,matrix
 published: True
 position: 3

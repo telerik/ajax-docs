@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadComboBox
 description: Learn about the client-side events of the ComboBox control for handling
 slug: combobox/client-side-programming/events
+components: ["combobox"]
 tags: events
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Back Button and SelectedValue
 page_title: Back Button and SelectedValue - RadComboBox
 description: Check our Web Forms article about Back Button and SelectedValue.
 slug: combobox/troubleshooting/back-button-and-selectedvalue
+components: ["combobox"]
 tags: back,button,and,selectedvalue
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started with the Chip
 description: "Get started with the WebForms Chip by Telerik UI for ASP.NET AJAX and learn how to create, initialize, and enable the component."
 slug: chip/getting-started
+components: ["chip"]
 tags: chip,getting started
 published: True
 position: 1

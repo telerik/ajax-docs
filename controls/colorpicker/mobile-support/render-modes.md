@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadColorPicker
 description: Check our Web Forms article about Render Modes.
 slug: colorpicker/mobile-support/render-modes
+components: ["colorpicker"]
 tags: render,modes,color picker
 published: True
 position: 3

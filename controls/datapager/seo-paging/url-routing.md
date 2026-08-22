@@ -3,6 +3,7 @@ title: URL Routing
 page_title: URL Routing - RadDataPager
 description: Check our Web Forms article about URL Routing.
 slug: datapager/seo-paging/url-routing
+components: ["datapager"]
 tags: url,routing
 published: True
 position: 1

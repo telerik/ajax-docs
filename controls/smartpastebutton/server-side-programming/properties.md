@@ -3,6 +3,7 @@ title: Properties
 page_title: SmartPasteButton Server-side Properties
 description: "Server-side properties of the WebForms SmartPasteButton component."
 slug: smartpastebutton/server-side-programming/properties
+components: ["smartpastebutton"]
 tags: smartpastebutton,server-side,properties
 published: True
 position: 1

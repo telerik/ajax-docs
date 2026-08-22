@@ -3,6 +3,7 @@ title: LiveTile Object
 page_title: LiveTile Object - RadTile
 description: Check our Web Forms article about LiveTile Object.
 slug: tilelist/tiles/client-side-programming/livetile-object
+components: ["tilelist"]
 tags: livetile,object
 published: True
 position: 6

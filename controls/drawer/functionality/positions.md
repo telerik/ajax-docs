@@ -3,6 +3,7 @@ title: Positions
 page_title: Positions - RadDrawer
 description: Check our Web Forms article about Positions.
 slug: drawer/functionality/positions
+components: ["drawer"]
 tags: Positions
 published: True
 position: 2

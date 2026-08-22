@@ -3,6 +3,7 @@ title: Bubble Chart
 page_title: Bubble Chart - RadHtmlChart
 description: Check our Web Forms article about Bubble Chart.
 slug: htmlchart/chart-types/bubble-chart
+components: ["htmlchart"]
 tags: bubble,chart
 published: True
 position: 4

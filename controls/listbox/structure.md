@@ -3,6 +3,7 @@ title: Structure
 page_title: Structure - RadListBox
 description: Check our Web Forms article about Structure.
 slug: listbox/structure
+components: ["listbox"]
 tags: structure
 published: True
 position: 1

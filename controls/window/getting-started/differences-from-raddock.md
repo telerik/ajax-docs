@@ -3,6 +3,7 @@ title: Differences from RadDock
 page_title: Differences from RadDock - RadWindow
 description: Check our Web Forms article about Differences from RadDock.
 slug: window/getting-started/differences-from-raddock
+components: ["window"]
 tags: differences,from,raddock
 published: True
 position: 10

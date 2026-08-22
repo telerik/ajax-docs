@@ -3,6 +3,7 @@ title: ItemClick
 page_title: ItemClick - RadPanelBar
 description: Check our Web Forms article about ItemClick.
 slug: panelbar/server-side-programming/itemclick
+components: ["panelbar"]
 tags: itemclick
 published: True
 position: 1

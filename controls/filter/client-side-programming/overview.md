@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-Side Programming Overview - RadFilter
 description: Check our Web Forms article about Overview.
 slug: filter/client-side-programming/overview
+components: ["filter"]
 tags: overview
 published: True
 position: 0

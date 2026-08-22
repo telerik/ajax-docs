@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadNotification
 description: Check our Web Forms article about Localization.
 slug: notification/accessibility-and-internationalization/localization
+components: ["notification"]
 tags: localization
 published: True
 position: 2

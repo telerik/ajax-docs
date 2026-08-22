@@ -3,6 +3,7 @@ title: Advanced Form
 page_title: Advanced Form - RadScheduler
 description: Check our Web Forms article about Advanced Form.
 slug: scheduler/mobile-support/advanced-form
+components: ["scheduler"]
 tags: advanced,form
 published: True
 position: 5

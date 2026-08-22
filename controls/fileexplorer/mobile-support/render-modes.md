@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadFileExplorer
 description: Check our Web Forms article about Render Modes.
 slug: fileexplorer/mobile-support/render-modes
+components: ["fileexplorer"]
 tags: render,modes,file explorer
 published: True
 position: 3

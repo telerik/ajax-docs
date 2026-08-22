@@ -3,6 +3,7 @@ title: selectItem
 page_title: selectItem - RadListView
 description: Check our Web Forms article about selectItem.
 slug: listview/client-side-programming/radlistview/methods/selectitem
+components: ["listview"]
 tags: selectitem
 published: True
 position: 8

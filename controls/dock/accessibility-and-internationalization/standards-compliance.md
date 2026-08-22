@@ -3,6 +3,7 @@ title: Standards Compliance
 page_title: Standards Compliance - RadDock
 description: Check our Web Forms article about Standards Compliance.
 slug: dock/accessibility-and-internationalization/standards-compliance
+components: ["dock"]
 tags: standards,compliance
 published: True
 position: 0

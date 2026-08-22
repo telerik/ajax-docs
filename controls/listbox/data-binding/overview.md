@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadListBox
 description: Check our Web Forms article about Overview.
 slug: listbox/data-binding/overview
+components: ["listbox"]
 tags: overview
 published: True
 position: 0

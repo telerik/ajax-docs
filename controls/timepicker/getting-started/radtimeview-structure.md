@@ -3,6 +3,7 @@ title: RadTimeView Structure
 page_title: RadTimeView Structure - RadTimePicker
 description: Check our Web Forms article about RadTimeView Structure.
 slug: timepicker/getting-started/radtimeview-structure
+components: ["timepicker"]
 tags: radtimeview,structure
 published: True
 position: 3

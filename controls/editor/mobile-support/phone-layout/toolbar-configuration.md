@@ -3,6 +3,7 @@ title: Toolbar Configuration
 page_title: Phone Layout Toolbar Configuration - RadEditor
 description: Check our Web Forms article about Toolbar Configuration.
 slug: editor/mobile-support/phone-layout/toolbar-configuration
+components: ["editor"]
 tags: editor,support,mobile,rendering,toolbar,configuration
 published: True
 position: 4

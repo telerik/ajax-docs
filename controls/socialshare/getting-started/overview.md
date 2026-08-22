@@ -3,6 +3,7 @@ title: Overview
 page_title: Getting Started Overview - RadSocialShare
 description: Check our Web Forms article about Overview.
 slug: socialshare/getting-started/overview
+components: ["socialshare"]
 tags: overview
 published: True
 position: 0

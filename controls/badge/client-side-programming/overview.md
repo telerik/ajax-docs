@@ -3,6 +3,7 @@ title: Overview
 page_title: Badge Client-side Programming
 description: "Overview of the Client-side APIs you can use to create and configure the Telerik WebForms Badge Control."
 slug: badge/client-side-programming/overview
+components: ["badge"]
 tags: overview
 published: True
 position: 0

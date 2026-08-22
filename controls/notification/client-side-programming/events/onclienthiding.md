@@ -3,6 +3,7 @@ title: OnClientHiding
 page_title: OnClientHiding - RadNotification
 description: Check our Web Forms article about OnClientHiding.
 slug: notification/client-side-programming/events/onclienthiding
+components: ["notification"]
 tags: onclienthiding
 published: True
 position: 7

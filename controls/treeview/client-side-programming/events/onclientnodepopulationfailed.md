@@ -3,6 +3,7 @@ title: OnClientNodePopulationFailed
 page_title: OnClientNodePopulationFailed - RadTreeView
 description: Check our Web Forms article about OnClientNodePopulationFailed.
 slug: treeview/client-side-programming/events/onclientnodepopulationfailed
+components: ["treeview"]
 tags: onclientnodepopulationfailed
 published: True
 position: 3

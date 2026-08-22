@@ -3,6 +3,7 @@ title: Remove Toolbar Buttons
 page_title: Remove Toolbar Buttons - RadEditor
 description: Check our Web Forms article about Remove Toolbar Buttons.
 slug: editor/functionality/toolbars/buttons/remove-toolbar-buttons
+components: ["editor"]
 tags: remove,toolbar,buttons
 published: True
 position: 1

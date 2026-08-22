@@ -3,6 +3,7 @@ title: Grouping
 page_title: Grouping - RadMultiColumnComboBox
 description: Check our Web Forms article about Grouping.
 slug: multicolumncombobox/functionality/grouping
+components: ["multicolumncombobox"]
 tags: Grouping
 published: True
 position: 4

@@ -3,6 +3,7 @@ title: Events
 page_title: Events - RadDropDownList
 description: Check our Web Forms article about Events.
 slug: dropdownlist/client-side-programming/events
+components: ["dropdownlist"]
 tags: events
 published: True
 position: 2

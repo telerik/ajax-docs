@@ -3,6 +3,7 @@ title: Adding Images to Buttons
 page_title: Adding Images to Buttons - RadToolBar
 description: Check our Web Forms article about Adding Images to Buttons.
 slug: toolbar/appearance-and-styling/adding-images-to-buttons
+components: ["toolbar"]
 tags: adding,images,to,buttons
 published: True
 position: 1

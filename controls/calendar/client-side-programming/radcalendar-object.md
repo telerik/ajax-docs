@@ -3,6 +3,7 @@ title: RadCalendar object
 page_title: RadCalendar object - RadCalendar
 description: Learn about the RadCalendar object and its client-side API for managing calendar functionality.
 slug: calendar/client-side-programming/radcalendar-object
+components: ["calendar"]
 tags: radcalendar,object
 published: True
 position: 1

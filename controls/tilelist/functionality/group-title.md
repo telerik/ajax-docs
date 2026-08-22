@@ -3,6 +3,7 @@ title: Group Title
 page_title: Group Title - RadTileList
 description: Check our Web Forms article about Group Title.
 slug: tilelist/functionality/group-title
+components: ["tilelist"]
 tags: group, title
 published: True
 position: 4

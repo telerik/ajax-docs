@@ -3,6 +3,7 @@ title: Flat Button
 page_title: Flat Button - RadPushButton
 description: Check our Web Forms article about Flat Button.
 slug: pushbutton/appearance-and-styling/flat-button
+components: ["pushbutton"]
 tags: material, skin, flat, button
 published: True
 position: 2

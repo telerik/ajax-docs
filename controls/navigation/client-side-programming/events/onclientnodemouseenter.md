@@ -3,6 +3,7 @@ title: OnClientNodeMouseEnter
 page_title: OnClientNodeMouseEnter - RadNavigation
 description: Check our Web Forms article about OnClientNodeMouseEnter.
 slug: navigation/client-side-programming/events/onclientnodemouseenter
+components: ["navigation"]
 tags: onclientnodemouseenter
 published: True
 position: 8

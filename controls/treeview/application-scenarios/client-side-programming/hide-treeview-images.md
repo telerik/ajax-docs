@@ -3,6 +3,7 @@ title: Hide TreeView Images
 page_title: Hide TreeView Images - RadTreeView
 description: Check our Web Forms article about Hide TreeView Images.
 slug: treeview/application-scenarios/client-side-programming/hide-treeview-images
+components: ["treeview"]
 tags: hide,treeview,images
 published: True
 position: 16

@@ -3,6 +3,7 @@ title: Focus the RadComboBox
 page_title: Focus the RadComboBox - RadComboBox
 description: Check our Web Forms article about Focus the RadComboBox.
 slug: combobox/how-to/focus-the-radcombobox
+components: ["combobox"]
 tags: focus,the,radcombobox
 published: True
 position: 0

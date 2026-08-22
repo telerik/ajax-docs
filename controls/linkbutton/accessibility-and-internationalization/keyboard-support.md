@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadLinkButton
 description: Check our Web Forms article about Keyboard Support.
 slug: linkbutton/accessibility-and-internationalization/keyboard-support
+components: ["linkbutton"]
 tags: keyboard,support
 published: True
 position: 2

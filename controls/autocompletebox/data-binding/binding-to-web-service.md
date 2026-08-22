@@ -3,6 +3,7 @@ title: Binding to Web service
 page_title: Binding to Web service - RadAutoCompleteBox
 description: Check our Web Forms article about Binding to Web service.
 slug: autocompletebox/data-binding/binding-to-web-service
+components: ["autocompletebox"]
 tags: binding,to,web,service
 published: True
 position: 4

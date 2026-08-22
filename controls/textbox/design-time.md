@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadTextBox
 description: Check our Web Forms article about Smart Tag.
 slug: radtextbox/design-time
+components: ["textbox"]
 tags: smart,tag
 published: True
 position: 3

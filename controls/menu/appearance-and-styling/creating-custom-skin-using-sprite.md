@@ -3,6 +3,7 @@ title: Creating Custom Skin Using Sprite
 page_title: Creating Custom Skin Using Sprite - RadMenu
 description: Check our Web Forms article about Using Sprite.
 slug: menu/appearance-and-styling/creating-custom-skin-using-sprite
+components: ["menu"]
 tags: css,custon skin,sprite
 published: True
 position: 10

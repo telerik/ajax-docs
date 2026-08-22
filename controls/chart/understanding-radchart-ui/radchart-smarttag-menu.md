@@ -3,6 +3,7 @@ title: RadChart SmartTag Menu
 page_title: RadChart SmartTag Menu - RadChart
 description: Check our Web Forms article about RadChart SmartTag Menu.
 slug: chart/understanding-radchart-ui/radchart-smarttag-menu
+components: ["chart"]
 tags: radchart,smarttag,menu
 published: True
 position: 1

@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Programming Overview - RadGauge
 description: Check our Web Forms article about Overview.
 slug: gauge/server-side-programming/overview
+components: ["gauge"]
 tags: overview
 published: True
 position: 0

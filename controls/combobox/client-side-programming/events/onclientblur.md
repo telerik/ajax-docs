@@ -3,6 +3,7 @@ title: OnClientBlur
 page_title: OnClientBlur - RadComboBox
 description: Check our Web Forms article about OnClientBlur.
 slug: combobox/client-side-programming/events/onclientblur
+components: ["combobox"]
 tags: onclientblur
 published: True
 position: 0

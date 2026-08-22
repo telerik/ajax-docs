@@ -3,6 +3,7 @@ title: How to Access Controls Inside Templates
 page_title: How to Access Controls Inside Templates - RadDataForm
 description: Check our Web Forms article about Accessing Controls Inside Templates.
 slug: dataform/server-side-programming/access-controls-inside-templates
+components: ["dataform"]
 tags: access,controls,inside,templates
 published: True
 position: 3

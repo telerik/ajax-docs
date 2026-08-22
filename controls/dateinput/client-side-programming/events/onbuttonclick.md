@@ -3,6 +3,7 @@ title: OnButtonClick
 page_title: OnButtonClick - RadDateInput
 description: Check our Web Forms article about OnButtonClick.
 slug: raddateinput/client-side-programming/events/onbuttonclick
+components: ["dateinput"]
 tags: onbuttonclick
 published: True
 position: 2

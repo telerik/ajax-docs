@@ -3,6 +3,7 @@ title: OnClientClicked
 page_title: OnClientClicked - RadCheckBox
 description: Check our Web Forms article about OnClientClicked.
 slug: checkbox/client-side-programming/events/onclientclicked
+components: ["checkbox"]
 tags: onclientclicked
 published: True
 position: 4

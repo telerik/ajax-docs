@@ -3,6 +3,7 @@ title: How to Prevent Uploads
 page_title: How to Prevent Uploads - RadUpload
 description: Check our Web Forms article about How to Prevent Uploads.
 slug: upload/how-to/how-to-prevent-uploads
+components: ["upload"]
 tags: how,to,prevent,uploads
 published: True
 position: 5

@@ -3,6 +3,7 @@ title: Overview
 page_title: Server-side Events Overview - RadOrgChart
 description: Check our Web Forms article about Overview.
 slug: orgchart/server-side-programming/events/overview
+components: ["orgchart"]
 tags: overview
 published: True
 position: 0

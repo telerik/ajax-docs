@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started with the Badge
 description: "Get started with the WebForms Badge by Telerik UI for ASP.NET AJAX and learn how to create, initialize, and enable the component."
 slug: badge/getting-started
+components: ["badge"]
 tags: badge,getting started
 published: True
 position: 1

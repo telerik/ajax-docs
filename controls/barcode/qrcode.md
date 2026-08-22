@@ -3,6 +3,7 @@ title: QRCode
 page_title: QRCode - RadBarcode
 description: Check our Web Forms article about QRCode.
 slug: barcode/qrcode
+components: ["barcode"]
 tags: qrcode
 published: True
 position: 5

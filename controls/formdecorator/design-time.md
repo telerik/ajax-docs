@@ -3,6 +3,7 @@ title: Design Time
 page_title: Design Time - RadFormDecorator
 description: Check our Web Forms article about Design Time.
 slug: formdecorator/design-time
+components: ["formdecorator"]
 tags: design,time
 published: True
 position: 4

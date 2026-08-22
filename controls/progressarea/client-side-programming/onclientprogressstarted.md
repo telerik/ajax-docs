@@ -3,6 +3,7 @@ title: OnClientProgressStarted
 page_title: OnClientProgressStarted - RadProgressArea
 description: Check our Web Forms article about OnClientProgressStarted.
 slug: progressarea/client-side-programming/onclientprogressstarted
+components: ["progressarea"]
 tags: onclientprogressstarted
 published: True
 position: 3

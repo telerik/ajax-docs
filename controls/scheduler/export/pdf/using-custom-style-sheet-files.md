@@ -3,6 +3,7 @@ title: Using Custom Style Sheet Files
 page_title: Using Custom Style Sheet Files - RadScheduler
 description: Check our Web Forms article about Using Custom Style Sheet Files.
 slug: scheduler/export/pdf/using-custom-style-sheet-files
+components: ["scheduler"]
 tags: using,custom,style,sheet,files
 published: True
 position: 1

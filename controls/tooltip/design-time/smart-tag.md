@@ -3,6 +3,7 @@ title: Smart Tag
 page_title: Smart Tag - RadTooltip
 description: Check our Web Forms article about Smart Tag.
 slug: tooltip/design-time/smart-tag
+components: ["tooltip"]
 tags: smart,tag
 published: True
 position: 0

@@ -3,6 +3,7 @@ title: Expand/Collapse
 page_title: Expand/Collapse - RadOrgChart
 description: Check our Web Forms article about Expand/Collapse.
 slug: orgchart/functionality/expand-collapse
+components: ["orgchart"]
 previous_url: orgchart/functionality/collapse
 tags: expand/collapse
 published: True

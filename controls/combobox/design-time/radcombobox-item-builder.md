@@ -3,6 +3,7 @@ title: RadComboBox Item Builder
 page_title: RadComboBox Item Builder - RadComboBox
 description: Check our Web Forms article about RadComboBox Item Builder.
 slug: combobox/design-time/radcombobox-item-builder
+components: ["combobox"]
 tags: radcombobox,item,builder
 published: True
 position: 1

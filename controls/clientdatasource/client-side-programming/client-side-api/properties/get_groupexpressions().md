@@ -3,6 +3,7 @@ title: get_groupExpressions()
 page_title: get_groupExpressions() - RadClientDataSource
 description: Check our Web Forms article about get_groupExpressions().
 slug: clientdatasource/client-side-programming/client-side-api/properties/get_groupexpressions()
+components: ["clientdatasource"]
 tags: get_groupexpressions()
 published: True
 position: 2

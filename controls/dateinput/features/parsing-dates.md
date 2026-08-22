@@ -3,6 +3,7 @@ title: Parsing Dates
 page_title: Parsing Dates - RadDateInput
 description: Check our Web Forms article about Parsing Dates.
 slug: raddateinput/features/parsing-dates
+components: ["dateinput"]
 tags: parsing,dates
 published: True
 position: 2

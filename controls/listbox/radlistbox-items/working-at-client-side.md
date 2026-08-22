@@ -3,6 +3,7 @@ title: Working at Client-side
 page_title: Working at Client-side - RadListBox
 description: Check our Web Forms article about Working at Client-side.
 slug: listbox/radlistbox-items/working-at-client-side
+components: ["listbox"]
 tags: working,at,client-side
 published: True
 position: 4

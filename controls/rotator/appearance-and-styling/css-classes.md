@@ -3,6 +3,7 @@ title: CSS Classes
 page_title: CSS Classes - RadRotator
 description: Check our Web Forms article about CSS Classes.
 slug: rotator/appearance-and-styling/css-classes
+components: ["rotator"]
 tags: css,classes
 published: True
 position: 4

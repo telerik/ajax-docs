@@ -3,6 +3,7 @@ title: Image Maps
 page_title: Image Maps - RadChart
 description: Check our Web Forms article about Image Maps.
 slug: chart/advanced-topics/image-maps
+components: ["chart"]
 tags: image,maps
 published: True
 position: 0

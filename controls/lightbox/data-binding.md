@@ -3,6 +3,7 @@ title: Data Binding
 page_title: Data Binding - RadLightBox
 description: Check our Web Forms article about Data Binding.
 slug: lightbox/data-binding
+components: ["lightbox"]
 tags: data,binding
 published: True
 position: 4

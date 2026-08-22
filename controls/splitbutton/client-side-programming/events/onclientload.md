@@ -3,6 +3,7 @@ title: OnClientLoad
 page_title: OnClientLoad - RadSplitButton
 description: Check our Web Forms article about OnClientLoad.
 slug: splitbutton/client-side-programming/events/onclientload
+components: ["splitbutton"]
 tags: onclientload
 published: True
 position: 2

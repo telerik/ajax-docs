@@ -3,6 +3,7 @@ title: DropDown Opens with a Delay
 page_title: DropDown Opens with a Delay - RadComboBox
 description: Check our Web Forms article about DropDown Opens with a Delay.
 slug: combobox/troubleshooting/dropdown-opens-with-a-delay
+components: ["combobox"]
 tags: dropdown,opens,with,a,delay
 published: True
 position: 8

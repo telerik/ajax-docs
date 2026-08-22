@@ -3,6 +3,7 @@ title: Series Configuration
 page_title: Series Configuration - RadHtmlChart
 description: Check our Web Forms article about Series Configuration.
 slug: htmlchart/server-side-programming/series-configuration
+components: ["htmlchart"]
 tags: series,configuration
 published: True
 position: 3

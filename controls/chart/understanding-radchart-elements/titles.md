@@ -3,6 +3,7 @@ title: Titles
 page_title: Titles - RadChart
 description: Check our Web Forms article about Titles.
 slug: chart/understanding-radchart-elements/titles
+components: ["chart"]
 tags: titles
 published: True
 position: 7

@@ -3,6 +3,7 @@ title: Toggle CSS Files from the CssFiles Collection
 page_title: Toggle CSS Files from the CssFiles Collection- RadEditor
 description: Check our Web Forms article about Toggle CSS Files from the CssFiles Collection.
 slug: editor/how-to/toggle-css-files-from-cssfiles-collection
+components: ["editor"]
 tags: css, files, toggle, disable, decoration, content, area, iframe
 published: True
 position: 8

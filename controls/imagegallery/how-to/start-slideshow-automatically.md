@@ -3,6 +3,7 @@ title: Start Slideshow automatically
 page_title: Start Slideshow automatically
 description: Check our Web Forms article about Start Slideshow automatically.
 slug: imagegallery/how-to/start-slideshow-automatically
+components: ["imagegallery"]
 tags: start,slideshow,automatically
 published: True
 position: 0

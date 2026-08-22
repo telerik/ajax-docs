@@ -3,6 +3,7 @@ title: Overview
 page_title: Data Binding Overview - RadToolBar
 description: Check our Web Forms article about Overview.
 slug: toolbar/data-binding/overview
+components: ["toolbar"]
 tags: overview
 published: True
 position: 0

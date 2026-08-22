@@ -3,6 +3,7 @@ title: Show as Icon
 page_title: Show as Icon - RadColorPicker
 description: Check our Web Forms article about Show as Icon.
 slug: colorpicker/functionality/show-as-icon
+components: ["colorpicker"]
 tags: show,as,icon
 published: True
 position: 3

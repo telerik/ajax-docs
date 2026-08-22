@@ -3,6 +3,7 @@ title: OnClientDeleted
 page_title: OnClientDeleted - RadListBox
 description: Check our Web Forms article about OnClientDeleted.
 slug: listbox/client-side-programming/events/onclientdeleted
+components: ["listbox"]
 tags: onclientdeleted
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: WCF Web Service Binding
 page_title: WCF Web Service Binding - RadMenu
 description: Check our Web Forms article about WCF Web Service Binding.
 slug: menu/data-binding/wcf-web-service-binding
+components: ["menu"]
 tags: wcf,web,service,binding
 published: True
 position: 8

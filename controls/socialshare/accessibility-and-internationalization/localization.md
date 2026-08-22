@@ -3,6 +3,7 @@ title: Localization
 page_title: Localization - RadSocialShare
 description: Check our Web Forms article about Localization.
 slug: socialshare/accessibility-and-internationalization/localization
+components: ["socialshare"]
 tags: localization
 published: True
 position: 2

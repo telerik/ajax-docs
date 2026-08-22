@@ -3,6 +3,7 @@ title: Input Mask Dialog
 page_title: Input Mask Dialog - RadMaksedTextBox
 description: Check our Web Forms article about Input Mask Dialog.
 slug: radmaskedtextbox/design-time/input-mask-dialog
+components: ["maskedtextbox"]
 tags: input,mask,dialog
 published: True
 position: 1

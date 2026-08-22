@@ -3,6 +3,7 @@ title: OnClientToggleStateChanging
 page_title: OnClientToggleStateChanging - RadButton
 description: Check our Web Forms article about OnClientToggleStateChanging.
 slug: button/client-side-programming/events/onclienttogglestatechanging
+components: ["button"]
 tags: onclienttogglestatechanging
 published: True
 position: 7

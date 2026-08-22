@@ -3,6 +3,7 @@ title: Getting ListView Client Object
 page_title: Getting ListView Client Object - RadListView
 description: Check our Web Forms article about Getting ListView Client Object.
 slug: listview/client-side-programming/getting-listview-client-object
+components: ["listview"]
 tags: getting,listview,client,object
 published: True
 position: 1

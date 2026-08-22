@@ -3,6 +3,7 @@ title: Render Modes
 page_title: Render Modes - RadTreeView
 description: Check our Web Forms article about Render Modes.
 slug: treeview/mobile-support/render-modes
+components: ["treeview"]
 tags: render,modes
 published: True
 position: 1

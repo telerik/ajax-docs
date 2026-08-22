@@ -3,6 +3,7 @@ title: RadDropDownTree Object
 page_title: RadDropDownTree Object - RadDropDownTree
 description: Check our Web Forms article about RadDropDownTree Object.
 slug: dropdowntree/client-side-programming/raddropdowntree-object
+components: ["dropdowntree"]
 tags: raddropdowntree,object
 published: True
 position: 1

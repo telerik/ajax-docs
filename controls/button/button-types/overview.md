@@ -3,6 +3,7 @@ title: Overview
 page_title: Overview - RadButton
 description: Discover the different button types available in the Button control for various user interaction needs.
 slug: button/button-types/overview
+components: ["button"]
 tags: overview
 published: True
 position: 0

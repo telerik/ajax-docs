@@ -3,6 +3,7 @@ title: Overview
 page_title: Client-side Programming Overview - RadCheckBox
 description: Check our Web Forms article about Overview.
 slug: checkbox/client-side-programming/overview
+components: ["checkbox"]
 tags: overview
 published: True
 position: 0

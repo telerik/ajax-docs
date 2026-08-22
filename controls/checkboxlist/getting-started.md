@@ -3,6 +3,7 @@ title: Getting Started
 page_title: Getting Started - RadCheckBoxList
 description: Check our Web Forms article about Getting Started.
 slug: checkboxlist/getting-started
+components: ["checkboxlist"]
 tags: getting,started
 published: True
 position: 2

@@ -3,6 +3,7 @@ title: Keyboard Support
 page_title: Keyboard Support - RadImageEditor
 description: Check our Web Forms article about Keyboard Support.
 slug: imageeditor/accessibility-and-internationalization/keyboard-support
+components: ["imageeditor"]
 tags: keyboard,support
 published: True
 position: 1

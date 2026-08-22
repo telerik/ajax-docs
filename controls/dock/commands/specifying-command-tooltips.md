@@ -3,6 +3,7 @@ title: Specifying Command ToolTips
 page_title: Specifying Command ToolTips - RadDock
 description: Check our Web Forms article about Specifying Command ToolTips.
 slug: dock/commands/specifying-command-tooltips
+components: ["dock"]
 tags: specifying,command,tooltips
 published: True
 position: 3

@@ -3,6 +3,7 @@ title: Controlling Appearance
 page_title: Controlling Appearance - RadInput
 description: Check our Web Forms article about Controlling Appearance.
 slug: numerictextbox/appearance-and-styling/controlling-appearance
+components: ["numerictextbox"]
 tags: controlling,appearance
 published: True
 position: 0

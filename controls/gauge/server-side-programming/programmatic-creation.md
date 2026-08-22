@@ -3,6 +3,7 @@ title: Programmatic Creation
 page_title: Programmatic Creation - RadGauge
 description: Check our Web Forms article about Programmatic Creation.
 slug: gauge/server-side-programming/programmatic-creation
+components: ["gauge"]
 tags: programmatic,creation
 published: True
 position: 1
