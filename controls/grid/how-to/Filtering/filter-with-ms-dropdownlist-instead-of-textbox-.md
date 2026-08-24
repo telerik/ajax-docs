@@ -29,12 +29,11 @@ The following steps describe how to achieve this result:
 
 The following example illustrates how to create a custom column class that replaces the filter text box with a drop-down list.
 
-**C#**
+```C#
 
 		public class MyCustomFilteringColumn : GridBoundColumn
 		{
 		    private object listDataSource = null;
-		    //RadGrid calls this method when it initializes the controls inside the filtering item cells
 		    protected override void SetupFilterControls(TableCell cell)
 		    {
 		        base.SetupFilterControls(cell);
@@ -94,7 +93,8 @@ The following example illustrates how to create a custom column class that repla
 		}
 
 
-**VB**
+```
+```VB
 
 		Imports Microsoft.VisualBasic
 		Imports Telerik.Web.UI
@@ -167,6 +167,7 @@ The following example illustrates how to create a custom column class that repla
 		        End Class
 
 		    End Namespace
+	```
 
 
 ## Adding custom columns to a grid
@@ -175,14 +176,15 @@ You can add instances of your custom column type **RadGrid** as follows:
 
 1. At the top of the the ASPX page, register the namespace for the custom column class. You do not need to add an Assembly attribute, unless the class is defined in another assembly:
 
-	**ASP.NET**
+	```ASP.NET
 
 		<%@ register namespace="MyStuff" tagprefix="custom" %>
+	```
 
 
 2. You can now add instances of the column type in the declaration of your grid. Note that this example includes a command item with a "Clear" button to clear the selected filters:
 
-	**ASP.NET**
+	```ASP.NET
 
 		<telerik:RadGrid
 		   ID="RadGrid1" runat="server"
@@ -219,6 +221,7 @@ You can add instances of your custom column type **RadGrid** as follows:
 		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 		    SelectCommand="SELECT * FROM [Orders]">
 		</asp:SqlDataSource>
+	```
 
 
 3. The **MyCustomFilteringColumn** implementation requires a **ListDataSource**. You can set that in the **Page_Load** event handler. In addition, the grid definition above requires an implementation for the "ClearFilters" button:
@@ -226,7 +229,7 @@ You can add instances of your custom column type **RadGrid** as follows:
 	>note This example sets the **ListDataSource** property in the **Page_Load** event handler. If you are binding your grid using the **NeedDataSource** event, it is more appropriate to set the **ListDataSource** in that event handler. (NeedDataSource does not occur when using declarative data binding.)
 	>
 
-	**C#**
+	```C#
 
 		protected void Page_Load(object sender, EventArgs e)
 		{
@@ -269,8 +272,8 @@ You can add instances of your custom column type **RadGrid** as follows:
 		    }
 		}
 
-
-	**VB**
+	```
+	```VB
 
 		Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 		    For Each column As GridBoundColumn In RadGrid1.MasterTableView.Columns
@@ -302,6 +305,7 @@ You can add instances of your custom column type **RadGrid** as follows:
 		        RadGrid1.MasterTableView.Rebind()
 		    End If
 		End Sub
+	```
 
 
 

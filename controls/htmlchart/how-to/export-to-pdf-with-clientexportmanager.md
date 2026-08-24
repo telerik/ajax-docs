@@ -17,40 +17,40 @@ The following steps will enable you to easily implement the export functionality
 
 1. Add the **RadClientExportManager** in the page's markup:
 
-	**ASP.NET**
-
-		<telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
-	    </telerik:RadClientExportManager>
+    ```ASP.NET
+    <telerik:RadClientExportManager runat="server" ID="RadClientExportManager1">
+    </telerik:RadClientExportManager>
+    ```
 
 1. Add a button with a client-side click handler that will initiate the export:
 
-	**ASP.NET**
-
-		<telerik:RadButton RenderMode="Lightweight" runat="server" OnClientClicked="exportChart" Text="Export" AutoPostBack="false" />
-		
-		<script>
-			function exportChart() {
-			    // ToDo: Export the chart.
-			}
-		</script>
+    ```ASP.NET
+    <telerik:RadButton RenderMode="Lightweight" runat="server" OnClientClicked="exportChart" Text="Export" AutoPostBack="false" />
+	
+    <script>
+        function exportChart() {
+            // ToDo: Export the chart.
+        }
+    </script>
+    ```
 
 1. Use the [client-side API of RadClientExportManager]({%slug clientexportmanager/client-side-programming/overview%}) to export the **RadHtmlChart** wrapper to either PDF: 
 
-	**JavaScript**	
-
-		function exportChart() {
-			var $ = $telerik.$;
-			$find('<%=RadClientExportManager1.ClientID%>').exportPDF($(".RadHtmlChart"));
-		}
+    ```JavaScript
+    function exportChart() {
+        var $ = $telerik.$;
+        $find('<%=RadClientExportManager1.ClientID%>').exportPDF($(".RadHtmlChart"));
+    }
+    ```
 	
 	or image:
 
-	**JavaScript**
-
-		function exportChart() {
-			var $ = $telerik.$;
-			$find('<%=RadClientExportManager1.ClientID%>').exportImage($(".RadHtmlChart"));
-		}
+    ```JavaScript
+    function exportChart() {
+        var $ = $telerik.$;
+        $find('<%=RadClientExportManager1.ClientID%>').exportImage($(".RadHtmlChart"));
+    }
+    ```
 
 
 >caption Example 1: Export RadHtmlChart to PDF or image.

@@ -27,7 +27,7 @@ To handle the desired event, the user must set the respective property to the na
 
 * Passing named (non-anonymous) JavaScript function
 
-	**ASP.NET**
+	```ASP.NET
 
 		<script type="text/javascript">
 			function Click(sender, args)
@@ -37,18 +37,21 @@ To handle the desired event, the user must set the respective property to the na
 		</script>
 		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientClicked="Click" NavigateUrl="https://www.telerik.com" Target="_blank">
 		</telerik:RadLinkButton>
+	```
 
-	**C#**
+	```C#
 
 		RadLinkButton1.OnClientClicked = "Click";  //passing the name of the JS function
+	```
 
-	**VB**
+	```VB
 
 		RadLinkButton1.OnClientClicked = "Click"  'passing the name of the JS function
+	```
 
 * Passing anonymous JavaScript function
 
-	**ASP.NET**
+	```ASP.NET
 
 		<script type="text/javascript">
 			function Click(button, args, arg1, arg2)
@@ -58,14 +61,17 @@ To handle the desired event, the user must set the respective property to the na
 		</script>
 		<telerik:RadLinkButton ID="RadLinkButton1" runat="server" Text="Click" OnClientClicked="function(sender,args){Click(sender, args, 'Value1', 'Value2');}" NavigateUrl="https://www.telerik.com" Target="_blank">
 		</telerik:RadLinkButton>
+	```
 
-	**C#**
+	```C#
 
 		RadLinkButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"; //passing the name of the JS function
+	```
 
-	**VB**
+	```VB
 
 		RadLinkButton1.OnClientClicked = "function(sender,args){Click(sender, args, 'Value1', 'Value2');}"  'passing the name of the JS function
+	```
 
 You can also assign event handlers in client-side code. For more information see the [Setting Event Handlers via JavaScript article]({%slug linkbutton/client-side-programming/events/setting-event-handlers-via-javascript%}).
 

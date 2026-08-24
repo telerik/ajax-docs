@@ -26,57 +26,57 @@ The function that will create the custom visual receives arguments that provide 
 
 1. Create a chart (this example adds static items and settings in the markup) and ensure that you have set the desired **Visual** properties accordingly.
 
-	**ASP.NET**
-
-		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="800px" Height="400px">
-			<ClientEvents OnLoad="onChartLoad" />
-			<Legend>
-				<Appearance Position="Bottom" />
-				<Item Visual="legendItemVisual" />
-			</Legend>
-			<PlotArea>
-				<Series>
-					<telerik:ColumnSeries Name="Product 1">
-						<Appearance Visual="columnVisual"></Appearance>
-						<LabelsAppearance Visible="false"></LabelsAppearance>
-						<TooltipsAppearance DataFormatString="{0:c}"></TooltipsAppearance>
-						<SeriesItems>
-							<telerik:CategorySeriesItem Y="101022" />
-							<telerik:CategorySeriesItem Y="135005" />
-							<telerik:CategorySeriesItem Y="180004" />
-						</SeriesItems>
-					</telerik:ColumnSeries>
-					<telerik:LineSeries Name="Target">
-						<MarkersAppearance Visual="markersVisual" />
-						<LineAppearance Width="0" />
-						<LabelsAppearance Visible="false"></LabelsAppearance>
-						<TooltipsAppearance DataFormatString="{0:c}"></TooltipsAppearance>
-						<SeriesItems>
-							<telerik:CategorySeriesItem Y="90000" />
-							<telerik:CategorySeriesItem Y="125000" />
-							<telerik:CategorySeriesItem Y="145000" />
-						</SeriesItems>
-					</telerik:LineSeries>
-				</Series>
-				<YAxis Step="40000">
-					<LabelsAppearance DataFormatString="{0:c}" />
-					<MinorGridLines Visible="false" />
-				</YAxis>
-				<XAxis>
-					<MinorGridLines Visible="false" />
-					<LabelsAppearance>
-						<TextStyle Margin="10 0 0 0" />
-					</LabelsAppearance>
-					<Items>
-						<telerik:AxisItem LabelText="Q1" />
-						<telerik:AxisItem LabelText="Q2" />
-						<telerik:AxisItem LabelText="Q3" />
-					</Items>
-				</XAxis>
-			</PlotArea>
-			<ChartTitle Text="Product sales for 2014">
-			</ChartTitle>
-		</telerik:RadHtmlChart>
+	```ASP.NET
+	<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="800px" Height="400px">
+		<ClientEvents OnLoad="onChartLoad" />
+		<Legend>
+			<Appearance Position="Bottom" />
+			<Item Visual="legendItemVisual" />
+		</Legend>
+		<PlotArea>
+			<Series>
+				<telerik:ColumnSeries Name="Product 1">
+					<Appearance Visual="columnVisual"></Appearance>
+					<LabelsAppearance Visible="false"></LabelsAppearance>
+					<TooltipsAppearance DataFormatString="{0:c}"></TooltipsAppearance>
+					<SeriesItems>
+						<telerik:CategorySeriesItem Y="101022" />
+						<telerik:CategorySeriesItem Y="135005" />
+						<telerik:CategorySeriesItem Y="180004" />
+					</SeriesItems>
+				</telerik:ColumnSeries>
+				<telerik:LineSeries Name="Target">
+					<MarkersAppearance Visual="markersVisual" />
+					<LineAppearance Width="0" />
+					<LabelsAppearance Visible="false"></LabelsAppearance>
+					<TooltipsAppearance DataFormatString="{0:c}"></TooltipsAppearance>
+					<SeriesItems>
+						<telerik:CategorySeriesItem Y="90000" />
+						<telerik:CategorySeriesItem Y="125000" />
+						<telerik:CategorySeriesItem Y="145000" />
+					</SeriesItems>
+				</telerik:LineSeries>
+			</Series>
+			<YAxis Step="40000">
+				<LabelsAppearance DataFormatString="{0:c}" />
+				<MinorGridLines Visible="false" />
+			</YAxis>
+			<XAxis>
+				<MinorGridLines Visible="false" />
+				<LabelsAppearance>
+					<TextStyle Margin="10 0 0 0" />
+				</LabelsAppearance>
+				<Items>
+					<telerik:AxisItem LabelText="Q1" />
+					<telerik:AxisItem LabelText="Q2" />
+					<telerik:AxisItem LabelText="Q3" />
+				</Items>
+			</XAxis>
+		</PlotArea>
+		<ChartTitle Text="Product sales for 2014">
+		</ChartTitle>
+	</telerik:RadHtmlChart>
+	```
 
 
 1. Add the scripts that will render the desired shapes:

@@ -39,15 +39,15 @@ In such a case, you need to:
 	
 	>caption Example 2: Open a RadWindow from the topmost page so it covers the entire browser viewport
 
-	**JavaScript**
-
-		var url = "some-page.aspx";
-		if (window.top != window && window.top.radopen) {
-			window.top.radopen(url);
-		}
-		else {
-			radopen(url);
-		}
+	```JavaScript
+	var url = "some-page.aspx";
+	if (window.top != window && window.top.radopen) {
+		window.top.radopen(url);
+	}
+	else {
+		radopen(url);
+	}
+	```
 
 
 	>tip You may want to store a reference to the current `window` context in a custom field in the newly created RadWindow so you can propagate its closing event from the main page, because it will no longer fire in the context of the current page.

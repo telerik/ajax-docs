@@ -42,41 +42,41 @@ Here are a few examples of setting a custom toolbar position:
 
 * In the RadEditor declaration:
 
-	**ASP.NET**
-
-		<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
-		    <Tools>
-		        <telerik:EditorToolGroup DockingZone="Left">
-		            <telerik:EditorTool Name="AjaxSpellCheck" />
-		            . . . .
-		        </telerik:EditorToolGroup>
-		    </Tools>
-		</telerik:RadEditor>
+	```ASP.NET
+	<telerik:RadEditor RenderMode="Lightweight" ID="RadEditor1" runat="server">
+	    <Tools>
+	        <telerik:EditorToolGroup DockingZone="Left">
+	            <telerik:EditorTool Name="AjaxSpellCheck" />
+	            . . . .
+	        </telerik:EditorToolGroup>
+	    </Tools>
+	</telerik:RadEditor>
+	```
 
 * In the ToolsFile:
 
-	**XML**
-
-		<tools enabled="true" DockingZone="Bottom">
-		    <tool name="Bold" />
-		    . . . .
-		</tools>
+	```XML
+	<tools enabled="true" DockingZone="Bottom">
+	    <tool name="Bold" />
+	    . . . .
+	</tools>
+	```
 
 * In the code behind:
 
-	**C#**
+	```C#
+	EditorToolGroup toolgroupLeft = new EditorToolGroup(); 
+	toolgroupLeft.Attributes["DockingZone"] = "Left"; 
+	editor.Tools.Add(toolgroupLeft); 
+	toolgroupLeft.Tools.Add(new EditorTool("Bold"));
+	```
 
-		EditorToolGroup toolgroupLeft = new EditorToolGroup(); 
-		toolgroupLeft.Attributes["DockingZone"] = "Left"; 
-		editor.Tools.Add(toolgroupLeft); 
-		toolgroupLeft.Tools.Add(new EditorTool("Bold"));
-
-	**VB**
-
-		Dim toolgroupLeft As New EditorToolGroup()
-		toolgroupLeft.Attributes("DockingZone") = "Left"
-		editor.Tools.Add(toolgroupLeft)
-		toolgroupLeft.Tools.Add(New EditorTool("Bold"))
+	```VB
+	Dim toolgroupLeft As New EditorToolGroup()
+	toolgroupLeft.Attributes("DockingZone") = "Left"
+	editor.Tools.Add(toolgroupLeft)
+	toolgroupLeft.Tools.Add(New EditorTool("Bold"))
+	```
 
 
 >note When enabling only one [Edit Mode]({%slug editor/functionality/editor-views-and-modes/edit-modes%}) (e.g., `EditModes="Design"`) the bottom docking zone will not render. 

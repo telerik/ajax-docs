@@ -26,30 +26,30 @@ This tutorial will demonstrate localizing the RadChart title, series name and ch
 
 1. Paste the following ASP.NET HTML definition of the chart:
 
-	**ASP.NET**
-
-		<telerik:radchart id="RadChart1" runat="server">
-		   <PlotArea>
-			   <XAxis MaxValue="3" MinValue="1" Step="1"></XAxis>
-			   <YAxis MaxValue="50"></YAxis>
-		   </PlotArea>
-		   <ChartTitle><TextBlock Text="Sales"></TextBlock></ChartTitle>
-		   <Series>
-			   <radC:ChartSeries Name="Series 1">
-				   <items>
-						   <radC:ChartSeriesItem YValue="50">
-							   <Label><TextBlock Text="One"></TextBlock></Label>
-						   </radC:ChartSeriesItem>
-						   <radC:ChartSeriesItem YValue="30">
-							   <Label><TextBlock Text="Two"></TextBlock></Label>
-						   </radC:ChartSeriesItem>
-						   <radC:ChartSeriesItem YValue="20">
-							   <Label><TextBlock Text="Three"></TextBlock></Label>
-						   </radC:ChartSeriesItem>
-					   </items>
-			   </radC:ChartSeries>
-		   </Series>
-		</telerik:radchart>
+	```ASP.NET
+	<telerik:radchart id="RadChart1" runat="server">
+	   <PlotArea>
+		   <XAxis MaxValue="3" MinValue="1" Step="1"></XAxis>
+		   <YAxis MaxValue="50"></YAxis>
+	   </PlotArea>
+	   <ChartTitle><TextBlock Text="Sales"></TextBlock></ChartTitle>
+	   <Series>
+		   <radC:ChartSeries Name="Series 1">
+			   <items>
+					   <radC:ChartSeriesItem YValue="50">
+						   <Label><TextBlock Text="One"></TextBlock></Label>
+					   </radC:ChartSeriesItem>
+					   <radC:ChartSeriesItem YValue="30">
+						   <Label><TextBlock Text="Two"></TextBlock></Label>
+					   </radC:ChartSeriesItem>
+					   <radC:ChartSeriesItem YValue="20">
+						   <Label><TextBlock Text="Three"></TextBlock></Label>
+					   </radC:ChartSeriesItem>
+			   </items>
+		   </radC:ChartSeries>
+	   </Series>
+	</telerik:radchart>
+	```
 
 1. In design mode of the Visual Studio 2005 IDE select the menu Tools | Generate Local Resource. Notice that in the Solution Explorer a new "App_LocalResources" folder is created and populated with a resource file named default.aspx.resx.
 
@@ -61,9 +61,9 @@ This tutorial will demonstrate localizing the RadChart title, series name and ch
 
 1. Add the resource key meta:resourcekey="RadChart1Resource1" to the ASP.NET HTML markup for the chart. The RadChart tag should now look like the example below:
 
-	**ASP.NET**
-
-		<telerik:radchart id="RadChart1" runat="server" enableembeddedskins="False" meta:resourcekey="RadChart1Resource1">		
+	```ASP.NET
+	<telerik:radchart id="RadChart1" runat="server" enableembeddedskins="False" meta:resourcekey="RadChart1Resource1">		
+	```
 
 1. In the Solution Explorer, copy "Default.aspx.resx" and name it using the culture code for French, "Default.aspx.fr-FR.resx".
 
@@ -95,30 +95,30 @@ This tutorial will demonstrate localizing the RadChart title, series name and ch
 
 1. Now that the chart title is localized we turn to the series name and item labels.Add another resource key to the ASP.NET HTML markup for the ChartSeries tag "meta:resourcekey="RadChart1Series1Resource1"". The ChartSeries tag will now look like the example below:
 
-	**ASP.NET**
-	     
-		<Series>
-		   <radC:ChartSeries Name="Series 1" meta:resourcekey="RadChart1Series1Resource1">
-		. . . 
+	```ASP.NET
+	<Series>
+	   <radC:ChartSeries Name="Series 1" meta:resourcekey="RadChart1Series1Resource1">
+	. . . 
+	```
 
 1. To each item tag in the ASP.NET HTML markup add another resource key meta:resourceKey="RadChart1Series1Element1Resource1".Name the resource keys "RadChart1Series1Element1Resource1", "RadChart1Series1Element2Resource1" and "RadChart1Series1Element3Resource1" respectively. You will need to add these resource keys for each tag in the HTML that has its own name space.For example, each of the ChartSeriesItem tags is prefixed with the "radC" prefix. The markup should now look like the example below:
 
-	**ASP.NET**
-		
-		<items>
-		   <radC:ChartSeriesItem YValue="50"
-			   meta:resourceKey="RadChart1Series1Element1Resource1">
-			   <Label><TextBlock Text="One"></TextBlock></Label>
-		   </radC:ChartSeriesItem>
-		   <radC:ChartSeriesItem YValue="30"
-			   meta:resourceKey="RadChart1Series1Element2Resource1">
-			   <Label><TextBlock Text="Two"></TextBlock></Label>
-		   </radC:ChartSeriesItem>
-		   <radC:ChartSeriesItem YValue="20"
-			   meta:resourceKey="RadChart1Series1Element3Resource1">
-			   <Label><TextBlock Text="Three"></TextBlock></Label>
-		   </radC:ChartSeriesItem>
-		</items>      
+	```ASP.NET
+	<items>
+	   <radC:ChartSeriesItem YValue="50"
+		   meta:resourceKey="RadChart1Series1Element1Resource1">
+		   <Label><TextBlock Text="One"></TextBlock></Label>
+	   </radC:ChartSeriesItem>
+	   <radC:ChartSeriesItem YValue="30"
+		   meta:resourceKey="RadChart1Series1Element2Resource1">
+		   <Label><TextBlock Text="Two"></TextBlock></Label>
+	   </radC:ChartSeriesItem>
+	   <radC:ChartSeriesItem YValue="20"
+		   meta:resourceKey="RadChart1Series1Element3Resource1">
+		   <Label><TextBlock Text="Three"></TextBlock></Label>
+	   </radC:ChartSeriesItem>
+	</items>      
+	```
 
 1. In the Default.aspx.resx file add the keys and values highlighted in the screen shot below.Notice how the the first part of each name corresponds to the resource key name in the ASP.NET HTML markup followed by the property name.
 

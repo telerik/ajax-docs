@@ -19,7 +19,7 @@ Here is an example showing how to add handler on the client:
 
 * Adding named (non-anonymous) JavaScript function
 
-	**ASP.NET**
+	```ASP.NET
 
 		<script type="text/javascript">
 			function Click(button, args)
@@ -32,10 +32,11 @@ Here is an example showing how to add handler on the client:
 				button.add_clicked(Click);
 			}
 		</script>
+	```
 
 * Adding anonymous JavaScript function
 
-	**ASP.NET**
+	```ASP.NET
 
 		<script type="text/javascript">
 			function Click(button, args, arg1)
@@ -48,6 +49,7 @@ Here is an example showing how to add handler on the client:
 				button.add_clicked(function (button, args) { Click(button, args, "Value1") });
 			}
 		</script>
+	```
 	
 >caption A list with the available methods
 

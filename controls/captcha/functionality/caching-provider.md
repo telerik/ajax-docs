@@ -19,11 +19,11 @@ The following example demonstrates how to utilize a MS SQL database for this pur
 
 1. The custom caching provider is registered in the **web.config** of the web site by setting the fully qualified name of the storage type to the following key. If the captcha is used in a web application scenario, the namespace of the application may need to be included in the fully qualified name:
 
-	**XML**
-
-		<appSettings>
-		  <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="DBImageStorageProvider, App_Code.lfcwuanr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"/>
-		</appSettings>
+	```XML
+	<appSettings>
+	  <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="DBImageStorageProvider, App_Code.lfcwuanr, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+	</appSettings>
+	```
 
 1. Finally, the property **ImageStorageLocation** of RadCaptcha is set to **Custom**:
 

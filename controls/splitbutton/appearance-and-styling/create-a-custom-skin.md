@@ -43,16 +43,16 @@ The second file represents the actual skin of the control, and its name consists
 
 1. Add a new server declaration of **RadSplitButton** on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
 
-	**ASP.NET**
-
-		<telerik:RadSplitButton ID="RadSplitButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+    ```ASP.NET
+    <telerik:RadSplitButton ID="RadSplitButton1" runat="server" EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+    ```
 
 1. Register **Button.MyCustomSkin.css** and **Menu.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-	**ASP.NET**
-
-		<link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
-		<link href="Skins/MyCustomSkin/Menu.MyCustomSkin.css" rel="stylesheet" type="text/css" />
+    ```ASP.NET
+    <link href="Skins/MyCustomSkin/Button.MyCustomSkin.css" rel="stylesheet" type="text/css" />
+    <link href="Skins/MyCustomSkin/Menu.MyCustomSkin.css" rel="stylesheet" type="text/css" />
+    ```
 
 1. Make sure the path to the files is correct; otherwise the skin will not apply;
 

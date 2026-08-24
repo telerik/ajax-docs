@@ -25,9 +25,10 @@ If you want to perform postback instead of callback when the grid is AJAX-enable
 
 4. **eventArgs** is an optional argument for the event that lets you pass data to the server.The following example shows how to call the **doPostBack** function, passing information about the currently clicked row of a grid:
 
-	**JavaScript**
+    ```JavaScript
 
 		doPostBack("<%= RadGrid1.UniqueID   %>", "RowClicked:" + this.Rows[index].ItemIndex);
+    ```
 
 
 5. Process the postback in the code-behind of the page (managing the **RaisePostBackEventHandler** in a similar fashion to that presented in [ this knowledge base article ](https://www.telerik.com/support/kb/aspnet-ajax/grid/performing-postback-from-grid-client-events.aspx)). You can check whether the source control that triggers the request is **RadGrid** - then execute some custom logic:

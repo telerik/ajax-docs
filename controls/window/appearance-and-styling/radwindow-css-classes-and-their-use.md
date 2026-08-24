@@ -43,19 +43,19 @@ In order to explain better the CSS classes of RadWindow, we will use both Window
 
 1. Put a new server declaration of RadWindow on your page, and set **Skin="MyCustomSkin", EnableEmbeddedSkins="false"** and **EnableEmbeddedBasestylesheet="false"**:
 
-	**ASP.NET**
-	
-		<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com"
-			Title="Google" Skin="MyCustomSkin" EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false"
-			VisibleOnPageLoad="true">
-		</telerik:RadWindow>
+	```ASP.NET
+	<telerik:RadWindow RenderMode="Lightweight" ID="RadWindow1" runat="server" NavigateUrl="http://www.google.com"
+		Title="Google" Skin="MyCustomSkin" EnableEmbeddedSkins="false" EnableEmbeddedBaseStylesheet="false"
+		VisibleOnPageLoad="true">
+	</telerik:RadWindow>
+	```
 
 1. Register **Window.css** and **Window.MyCustomSkin.css** in the <head>...</head> section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-	**ASP.NET**
-	
-		<link rel="stylesheet" type="text/css" href="Skins/Window.css"></link>
-		<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Window.MyCustomSkin.css"></link>
+	```ASP.NET
+	<link rel="stylesheet" type="text/css" href="Skins/Window.css"></link>
+	<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Window.MyCustomSkin.css"></link>
+	```
 
 1. Make sure the path to the files is correct, otherwise the skin will not apply.
 
@@ -230,68 +230,68 @@ Each skin of RadWindow consists of three [image sprites](http://www.alistapart.c
 
 1. Classes that use WindowHorizontalSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
-	**CSS**
-	        
-		.RadWindow_MyCustomSkin .rwTopLeft, 
-		.RadWindow_MyCustomSkin .rwTopRight, 
-		.RadWindow_MyCustomSkin .rwTitlebar, 
-		.RadWindow_MyCustomSkin .rwFooterLeft, 
-		.RadWindow_MyCustomSkin .rwFooterRight, 
-		.RadWindow_MyCustomSkin .rwFooterCenter, 
-		.RadWindow_MyCustomSkin .rwTopResize, 
-		.RadWindow_MyCustomSkin .rwStatusbar div, 
-		.RadWindow_MyCustomSkin .rwStatusbar, 
-		.RadWindow_MyCustomSkin .rwPopupButton, 
-		.RadWindow_MyCustomSkin .rwPopupButton span, 
-		.RadWindow_MyCustomSkin.rwMinimizedWindow .rwCorner
-		{
-			background-image: url('Window/WindowHorizontalSprites.gif');
-		}
+	```CSS
+	.RadWindow_MyCustomSkin .rwTopLeft, 
+	.RadWindow_MyCustomSkin .rwTopRight, 
+	.RadWindow_MyCustomSkin .rwTitlebar, 
+	.RadWindow_MyCustomSkin .rwFooterLeft, 
+	.RadWindow_MyCustomSkin .rwFooterRight, 
+	.RadWindow_MyCustomSkin .rwFooterCenter, 
+	.RadWindow_MyCustomSkin .rwTopResize, 
+	.RadWindow_MyCustomSkin .rwStatusbar div, 
+	.RadWindow_MyCustomSkin .rwStatusbar, 
+	.RadWindow_MyCustomSkin .rwPopupButton, 
+	.RadWindow_MyCustomSkin .rwPopupButton span, 
+	.RadWindow_MyCustomSkin.rwMinimizedWindow .rwCorner
+	{
+		background-image: url('Window/WindowHorizontalSprites.gif');
+	}
+	```
 
 1. Classes that use WindowVerticalSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
-	**CSS**
-	        
-		.RadWindow_MyCustomSkin .rwBodyLeft, .RadWindow_MyCustomSkin .rwBodyRight, .RadWindow_MyCustomSkin .rwStatusbarRow .rwCorner
-		{
-			background-image: url('Window/WindowVerticalSprites.gif');
-		}
+	```CSS
+	.RadWindow_MyCustomSkin .rwBodyLeft, .RadWindow_MyCustomSkin .rwBodyRight, .RadWindow_MyCustomSkin .rwStatusbarRow .rwCorner
+	{
+		background-image: url('Window/WindowVerticalSprites.gif');
+	}
+	```
 
 1. RadWindow Statusbar Input
 
-	**CSS**
-	        
-		.RadWindow_MyCustomSkin .rwStatusbar input
-		{
-			background-color: #f7f3e9;
-		}
+	```CSS
+	.RadWindow_MyCustomSkin .rwStatusbar input
+	{
+		background-color: #f7f3e9;
+	}
+	```
 
 1. Classes that use CommandButtonSprites.gif. Their use has already been explained in **The Base Stylesheet - Window.css**
 
-	**CSS**	        
-
-		.RadWindow_MyCustomSkin .rwControlButtons a
-		{
-			background-image: url('Window/CommandButtonSprites.gif');
-		}
+	```CSS
+	.RadWindow_MyCustomSkin .rwControlButtons a
+	{
+		background-image: url('Window/CommandButtonSprites.gif');
+	}
+	```
 
 1. RadWindow Icon
 
-	**CSS**
-	        
-		.RadWindow_MyCustomSkin a.rwIcon
-		{
-			background-image: url('Window/WindowHorizontalSprites.gif');
-		}
+	```CSS
+	.RadWindow_MyCustomSkin a.rwIcon
+	{
+		background-image: url('Window/WindowHorizontalSprites.gif');
+	}
+	```
 
 1. RadWindow Titlebar Text
 
-	**CSS**
-	        
-		div.RadWindow_MyCustomSkin .rwTitlebarControls em
-		{
-			color: black;
-		}
+	```CSS
+	div.RadWindow_MyCustomSkin .rwTitlebarControls em
+	{
+		color: black;
+	}
+	```
 	        
 Understanding the Image Sprites
 

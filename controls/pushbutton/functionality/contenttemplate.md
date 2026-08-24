@@ -45,95 +45,95 @@ You can add controls to **RadPushButton** from the code-behind in two ways:
 
 	**Example 2**: Adding controls to the **Controls** collection of **RadPushButton** from the code-behind.
 
-	**ASP.NET**
+	```ASP.NET
+	<telerik:RadPushButton runat="server" ID="RadPushButton1" Width="160px" Height="85px">
+	</telerik:RadPushButton>
+	```
 
-		<telerik:RadPushButton runat="server" ID="RadPushButton1" Width="160px" Height="85px">
-		</telerik:RadPushButton>
-
-	**C#**
-
-		protected void Page_Init(object sender, EventArgs e)
+	```C#
+	protected void Page_Init(object sender, EventArgs e)
+	{
+		Image buttonContentImage = new Image()
 		{
-			Image buttonContentImage = new Image()
-			{
-				ID = "buttonContent",
-				AlternateText = "my car",
-				ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
-			};
-			Label buttonContentLabel = new Label() { ID = "Label1", Text = "Vehicles" };
-			RadPushButton1.Controls.Add(buttonContentImage);
-			RadPushButton1.Controls.Add(buttonContentLabel);
-		}
-	**VB**
-
-		Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
-			Dim buttonContentImage As New Image() With {
-				.ID = "buttonContent",
-				.AlternateText = "my car",
-				.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
+			ID = "buttonContent",
+			AlternateText = "my car",
+			ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
+		};
+		Label buttonContentLabel = new Label() { ID = "Label1", Text = "Vehicles" };
+		RadPushButton1.Controls.Add(buttonContentImage);
+		RadPushButton1.Controls.Add(buttonContentLabel);
+	}
+	```
+	```VB
+	Protected Sub Page_Init(sender As Object, e As EventArgs) Handles Me.Init
+		Dim buttonContentImage As New Image() With {
+			.ID = "buttonContent",
+			.AlternateText = "my car",
+			.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/car.png"
 			}
-			Dim buttonContentLabel As New Label() With {
-			   .ID = "Label1",
-			   .Text = "Vehicles"
+		Dim buttonContentLabel As New Label() With {
+		   .ID = "Label1",
+		   .Text = "Vehicles"
 			}
-			RadPushButton1.Controls.Add(buttonContentImage)
-			RadPushButton1.Controls.Add(buttonContentLabel)
-		End Sub
+		RadPushButton1.Controls.Add(buttonContentImage)
+		RadPushButton1.Controls.Add(buttonContentLabel)
+	End Sub
+	```
 
 * Set the **ContentTemplate** property to an instance of a class that implements the **ITemplate** interface (**Example 3**).
 
 	**Example 3**: Adding controls to the **RadPushButton** by using the **ITemplate** class.
 
-	**ASP.NET**
+	```ASP.NET
+	<telerik:RadPushButton runat="server" ID="RadPushButton1" Width="71px" Height="70px">
+	</telerik:RadPushButton>
+	```
 
-		<telerik:RadPushButton runat="server" ID="RadPushButton1" Width="71px" Height="70px">
-		</telerik:RadPushButton>
+	```C#
+	protected void Page_Init(object sender, EventArgs e)
+	{
+		RadPushButton1.ContentTemplate = new ButtonContentTemplate();
+	}
 
-	**C#**
-
-		protected void Page_Init(object sender, EventArgs e)
+	public class ButtonContentTemplate : ITemplate
+	{
+		void ITemplate.InstantiateIn(Control container)
 		{
-			RadPushButton1.ContentTemplate = new ButtonContentTemplate();
+			System.Web.UI.WebControls.Image contentImage = new System.Web.UI.WebControls.Image();
+			contentImage.ID = "contentImage";
+			contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png";
+			contentImage.AlternateText = "envelope";
+			container.Controls.Add(contentImage);
+
+			Label contentLabel = new Label();
+			contentLabel.ID = "contentLabel";
+			contentLabel.Text = "E-Mail";
+			container.Controls.Add(contentLabel);
 		}
+	}
+	```
 
-		public class ButtonContentTemplate : ITemplate
-		{
-			void ITemplate.InstantiateIn(Control container)
-			{
-				System.Web.UI.WebControls.Image contentImage = new System.Web.UI.WebControls.Image();
-				contentImage.ID = "contentImage";
-				contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png";
-				contentImage.AlternateText = "envelope";
-				container.Controls.Add(contentImage);
+	```VB
+	Protected Sub Page_Init(sender As Object, e As EventArgs)
+		RadPushButton1.ContentTemplate = New ButtonContentTemplate()
+	End Sub
 
-				Label contentLabel = new Label();
-				contentLabel.ID = "contentLabel";
-				contentLabel.Text = "E-Mail";
-				container.Controls.Add(contentLabel);
-			}
-		}
+	Public Class ButtonContentTemplate
+		Implements ITemplate
+		Private Sub ITemplate_InstantiateIn(container As Control) Implements ITemplate.InstantiateIn
+			Dim contentImage As New System.Web.UI.WebControls.Image()
+			contentImage.ID = "contentImage"
+			contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png"
+			contentImage.AlternateText = "envelope"
+			container.Controls.Add(contentImage)
 
-	**VB**
-
-		Protected Sub Page_Init(sender As Object, e As EventArgs)
-			RadPushButton1.ContentTemplate = New ButtonContentTemplate()
+			Dim contentLabel As New Label()
+			contentLabel.ID = "contentLabel"
+			contentLabel.Text = "E-Mail"
+			container.Controls.Add(contentLabel)
 		End Sub
-
-		Public Class ButtonContentTemplate
-			Implements ITemplate
-			Private Sub ITemplate_InstantiateIn(container As Control) Implements ITemplate.InstantiateIn
-				Dim contentImage As New System.Web.UI.WebControls.Image()
-				contentImage.ID = "contentImage"
-				contentImage.ImageUrl = "https://demos.telerik.com/aspnet-ajax/button/examples/contenttemplate/Images/envelope.png"
-				contentImage.AlternateText = "envelope"
-				container.Controls.Add(contentImage)
-
-				Dim contentLabel As New Label()
-				contentLabel.ID = "contentLabel"
-				contentLabel.Text = "E-Mail"
-				container.Controls.Add(contentLabel)
-			End Sub
-		End Class
+	End Class
+	```
 
 
 ## See Also

@@ -60,21 +60,21 @@ You can use custom font icons in **RadSplitButton** as well. To do that, follow 
 
 1. Set the custom font icon class to the **Icon.CssClass** property.
 
-	**ASP.NET**
+    ```ASP.NET
+    <telerik:RadSplitButton ID="RadSplitButton1" runat="server" Text="Button With Custom Font Icon">
+        <Icon CssClass="myCustomFontIconClass" />
+    </telerik:RadSplitButton>
 
-		<telerik:RadSplitButton ID="RadSplitButton1" runat="server" Text="Button With Custom Font Icon">
-			<Icon CssClass="myCustomFontIconClass" />
-		</telerik:RadSplitButton>
-
-		<telerik:RadSplitButton ID="RadSplitButton1" runat="server" Text="Button with Icon">
-			<Icon CssClass="myCustomFontIconClass" />
-			<ContextMenu>
-				<Items>
-					<telerik:RadMenuItem Text="Action 1" EnableImageSprite="true" SpriteCssClass="myCustomFontIconClass"></telerik:RadMenuItem>
-					<telerik:RadMenuItem Text="Action 2" EnableImageSprite="true" SpriteCssClass="myCustomFontIconClass"></telerik:RadMenuItem>
-				</Items>
-			</ContextMenu>
-		</telerik:RadSplitButton>
+    <telerik:RadSplitButton ID="RadSplitButton1" runat="server" Text="Button with Icon">
+        <Icon CssClass="myCustomFontIconClass" />
+        <ContextMenu>
+            <Items>
+                <telerik:RadMenuItem Text="Action 1" EnableImageSprite="true" SpriteCssClass="myCustomFontIconClass"></telerik:RadMenuItem>
+                <telerik:RadMenuItem Text="Action 2" EnableImageSprite="true" SpriteCssClass="myCustomFontIconClass"></telerik:RadMenuItem>
+            </Items>
+        </ContextMenu>
+    </telerik:RadSplitButton>
+    ```
 
 Sample of SplitButton with FontAwesome icons:
 

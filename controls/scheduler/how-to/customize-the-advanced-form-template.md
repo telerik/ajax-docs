@@ -54,12 +54,12 @@ The advanced form looks like this:
 
 2. In **AdvancedForm**.**ascx** add the following code right above the Custom Attributes panel:
 
-	**ASP.NET**
-	
-		<label>Color: </label>
-		<telerik:RadColorPicker RenderMode="Lightweight" ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
-		   runat="server">
-		</telerik:RadColorPicker>     	
+    ```ASP.NET
+    <label>Color: </label>
+    <telerik:RadColorPicker RenderMode="Lightweight" ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
+       runat="server">
+    </telerik:RadColorPicker>     	
+    ```
 	
 
 3. Expose an **AppointmentColor** property using the RadColorpicker control added in step 2 above.
@@ -297,12 +297,12 @@ In this tutorial, we will show how to add to the advanced form a RadColorPicker 
 
 3. In **AdvancedForm**.**ascx** add the following code right above the Custom Attributes panel:
 
-	**ASP.NET**
-
-		<label>Color: </label>
-		<telerik:RadColorPicker RenderMode="Lightweight" ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
-		   runat="server">
-		</telerik:RadColorPicker>     
+    ```ASP.NET
+    <label>Color: </label>
+    <telerik:RadColorPicker RenderMode="Lightweight" ID="AppointmentColorPicker" CssClass="rsAdvResourceValue" NoColorText="transparent" ShowIcon="true" PaletteModes="HSV"
+       runat="server">
+    </telerik:RadColorPicker>     
+    ```
 	
 4. In code-behind of the **AdvancedForm** user control add the following code:
 

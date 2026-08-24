@@ -44,61 +44,56 @@ When columns are created programmatically, they appear in the same order that th
 
 * The **SwapColumns(String,String)** method accepts the **UniqueNames** for two columns to swap:
 
-	**C#**
-		
-		grid.MasterTableView.SwapColumns("City","ContactName");			
-
-	**VB**
-
-		grid.MasterTableView.SwapColumns("City","ContactName")			
-
+	```C#
+	grid.MasterTableView.SwapColumns("City","ContactName");			
+	```
+	```VB
+	grid.MasterTableView.SwapColumns("City","ContactName")			
+	```
 
 * The **SwapColumns(Int32,Int32)** method accepts the indexes of two columns to swap:
-
-	**C#**
-     
-		grid.MasterTableView.SwapColumns(3, 4);				
-
-	**VB**
-
-		grid.MasterTableView.SwapColumns(3, 4)
+	```C#
+	grid.MasterTableView.SwapColumns(3, 4);				
+	```
+	```VB
+	grid.MasterTableView.SwapColumns(3, 4)
+	```
 
 
 * The **OrderIndex** property lets you change the position of columns to move them to a specific location:
 
 	>caution When using the **OrderIndex** property to reorder columns, make sure that you assign values so that no two columns have the same index and no index is omitted.
 
-	**C#**
-
-		GridColumnCollection cols = grid.MasterTableView.Columns;
-		GridColumn c = cols.FindByUniqueNameSafe(columnName);
-		if (c != null){ 
-		    int start = c.OrderIndex; 
-		    for (int i= start; i < cols.Count; i++)  
-		    { 
-		        c = cols[i]; 
-		        if (i < cols.Count - 1)   
-		            c.OrderIndex = i+1;
-		        else     
-		            c.OrderIndex = start;  
-		    }
-		}			
-
-	**VB**
-
-		Dim cols As GridColumnCollection = grid.MasterTableView.Columns
-		Dim c As GridColumn = cols.FindByUniqueNameSafe(columnName)
-		If c IsNot Nothing Then
-		Dim start As Integer = c.OrderIndex
-		    For i As Integer = start To cols.Count - 1
-			    c = cols(i)
-			    If i < cols.Count - 1 Then
-				    c.OrderIndex = i + 1
-			    Else
-				    c.OrderIndex = start
-			    End If
-		    Next
-		End If
+	```C#
+	GridColumnCollection cols = grid.MasterTableView.Columns;
+	GridColumn c = cols.FindByUniqueNameSafe(columnName);
+	if (c != null){ 
+	    int start = c.OrderIndex; 
+	    for (int i= start; i < cols.Count; i++)  
+	    { 
+	        c = cols[i]; 
+	        if (i < cols.Count - 1)   
+	            c.OrderIndex = i+1;
+	        else     
+	            c.OrderIndex = start;  
+	    }
+	}			
+	```
+	```VB
+	Dim cols As GridColumnCollection = grid.MasterTableView.Columns
+	Dim c As GridColumn = cols.FindByUniqueNameSafe(columnName)
+	If c IsNot Nothing Then
+	Dim start As Integer = c.OrderIndex
+	    For i As Integer = start To cols.Count - 1
+		    c = cols(i)
+		    If i < cols.Count - 1 Then
+			    c.OrderIndex = i + 1
+		    Else
+			    c.OrderIndex = start
+		    End If
+	    Next
+	End If
+	```
 
 
 
