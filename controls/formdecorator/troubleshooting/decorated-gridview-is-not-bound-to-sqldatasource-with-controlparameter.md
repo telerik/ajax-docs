@@ -44,7 +44,7 @@ The asp:GridView cannot be bound on initial page load when it is decorated by Ra
 ```
 
 
-	```ASP.NET
+```ASP.NET
 	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
 
 	<asp:DropDownList ID="Dropdownlist1" runat="server" AutoPostBack="true" DataTextField="CompanyName" DataValueField="CustomerID">
@@ -65,7 +65,7 @@ The asp:GridView cannot be bound on initial page load when it is decorated by Ra
 				Type="String"></asp:ControlParameter>
 		</SelectParameters>
 	</asp:SqlDataSource>
-	```
+	
 		OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues">
 		<SelectParameters>
 			<asp:ControlParameter ControlID="Dropdownlist1" Name="CustomerID" PropertyName="SelectedValue"
@@ -80,14 +80,14 @@ The asp:GridView cannot be bound on initial page load when it is decorated by Ra
 	{
 		var c = GridView1.Controls;
 	}
-	```
+```
 
-	```VB
+```VB
 
 	Protected Sub Page_PreRender(sender As Object, e As EventArgs)
 		Dim c = GridView1.Controls
 	End Sub
-	```
+```
 
 
 **Solution:**
@@ -99,16 +99,14 @@ There are a few options you can choose from in order to handle the scenario desc
 	>caption **Example 3**: Binding DropDownList's data from the code behind instead of declaring its DataSourceID property.
 
     ```ASP.NET
-	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
-	```
-
+		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
 		<asp:DropDownList ID="Dropdownlist1" runat="server" AutoPostBack="true" DataTextField="CompanyName" DataValueField="CustomerID">
 		</asp:DropDownList>
 		<asp:SqlDataSource runat="server" ID="DropDownListDataSource" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 			ProviderName="System.Data.SqlClient" SelectCommand="Select [CustomerID], [CompanyName], [Address], [City], [PostalCode], [Country] From [Customers]"
 			OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues" />
-
-
+	
+	
 		<asp:GridView ID="GridView1" runat="server" AllowPaging="True" DataKeyNames="OrderID" DefaultMode="ReadOnly"
 			DataSourceID="GridViewDataSource" Width="300" Style="float: left;">
 		</asp:GridView>
@@ -120,28 +118,29 @@ There are a few options you can choose from in order to handle the scenario desc
 					Type="String"></asp:ControlParameter>
 			</SelectParameters>
 		</asp:SqlDataSource>
+    ```
 
     ```C#
-	protected void Page_Init(object sender, EventArgs e)
-	{
-		DataSourceSelectArguments args = new DataSourceSelectArguments();
-		DataView view = (DataView)DropDownListDataSource.Select(args);
-		DataTable dt = view.ToTable();
-
-		Dropdownlist1.DataSource = dt;
-		Dropdownlist1.DataBind();
-	}
+		protected void Page_Init(object sender, EventArgs e)
+		{
+			DataSourceSelectArguments args = new DataSourceSelectArguments();
+			DataView view = (DataView)DropDownListDataSource.Select(args);
+			DataTable dt = view.ToTable();
+	
+			Dropdownlist1.DataSource = dt;
+			Dropdownlist1.DataBind();
+		}
 	```
 
     ```VB
-	Protected Sub Page_Init(sender As Object, e As EventArgs)
-		Dim args As New DataSourceSelectArguments()
-		Dim view As DataView = DirectCast(DropDownListDataSource.[Select](args), DataView)
-		Dim dt As DataTable = view.ToTable()
-
-		Dropdownlist1.DataSource = dt
-		Dropdownlist1.DataBind()
-	End Sub
+		Protected Sub Page_Init(sender As Object, e As EventArgs)
+			Dim args As New DataSourceSelectArguments()
+			Dim view As DataView = DirectCast(DropDownListDataSource.[Select](args), DataView)
+			Dim dt As DataTable = view.ToTable()
+	
+			Dropdownlist1.DataSource = dt
+			Dropdownlist1.DataBind()
+		End Sub
 	```
 
 * Skip the following controls form decoration - GridFormDetailsViews, LoginControls, Textbox and ValidationSummary:
