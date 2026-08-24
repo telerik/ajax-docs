@@ -106,11 +106,11 @@ To decorate RadInput controls fully, you need to:
          </telerik:RadNumericTextBox>
          <telerik:RadMaskedTextBox runat="server" ID="RadMaskedTextBox1" Label="Label for masked textbox"
             Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated"></telerik:RadMaskedTextBox>
-         
-         <telerik:RadDatePicker runat="server" ID="RadDatePicker1" Skin="" RenderMode="Classic">
-             <DateInput CssClass="rfdRoundedCorners rfdDecorated" Label="Label for date input"></DateInput>
-         </telerik:RadDatePicker>
-       ````
+        
+            <telerik:RadDatePicker runat="server" ID="RadDatePicker1" Skin="" RenderMode="Classic">
+                <DateInput CssClass="rfdRoundedCorners rfdDecorated" Label="Label for date input"></DateInput>
+            </telerik:RadDatePicker>
+        ```
 
     >note For the Date/Time pickers, you must set the class to the `DateInput` and not on the main control.
 
