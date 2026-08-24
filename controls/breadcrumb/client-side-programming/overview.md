@@ -23,17 +23,17 @@ RadBreadcrumb is a server-side wrapper over the Kendo UI Breadcrumb Widget. Thus
 
 * Use the `get_kendoWidget()` method of the MS AJAX wrapper:
 
-    **JavaScript**
-
-        var breadcrumbObject  = $find("<%=RadBreadcrumb1.ClientID %>"); //the standard script control object
-        var kendoBreadcrumb = breadcrumbObject.get_kendoWidget(); //the Kendo widget
+    ```JavaScript
+    var breadcrumbObject  = $find("<%=RadBreadcrumb1.ClientID %>"); //the standard script control object
+    var kendoBreadcrumb = breadcrumbObject.get_kendoWidget(); //the Kendo widget
+    ```
 
 
 * Get the Kendo Widget in its usual way. Make sure to use the `$telerik._kendo.jQuery` reference that has the Kendo widget data:
 
-    **JavaScript**
-    
-        var kendoBreadcrumb = $telerik._kendo.jQuery("#<%=RadBreadcrumb1.ClientID %>").data("kendoBreadcrumb");
+    ```JavaScript
+    var kendoBreadcrumb = $telerik._kendo.jQuery("#<%=RadBreadcrumb1.ClientID %>").data("kendoBreadcrumb");
+    ```
 
 >important As of the 2026 Q1 release, Kendo jQuery widget plugins and data are registered on `$telerik._kendo.jQuery` — a different jQuery instance from `$telerik.$`. If you use `$telerik.$` with `.data("kendoXxx")`, it will return `undefined`. Always use `$telerik._kendo.jQuery` when accessing the underlying Kendo widget via the `.data()` method. The recommended approach, however, is to use the `get_kendoWidget()` method shown above. 
 

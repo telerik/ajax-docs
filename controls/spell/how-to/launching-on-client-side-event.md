@@ -25,23 +25,23 @@ Follow the steps below to achieve this scenario:
 
 1. Set the **RadSpell ButtonType** property to **None**. This will hide the default spellcheck button from the form:
 
-	**ASP.NET**
-
-		<telerik:radspell id="RadSpell1" runat="server" controltocheck="TextBox1" buttontype="None" /> 			
+	```ASP.NET
+	<telerik:radspell id="RadSpell1" runat="server" controltocheck="TextBox1" buttontype="None" /> 			
+	```
 
 1. Add a JavaScript function to the web page that starts the spellchecker. In this example the function is called "spellCheck()".
 
-	**JavaScript**
-
-		function spellCheck() {
-			var spell = $find('<%= RadSpell1.ClientID %>');
-			spell.startSpellCheck();
-		}	
+	```JavaScript
+	function spellCheck() {
+		var spell = $find('<%= RadSpell1.ClientID %>');
+		spell.startSpellCheck();
+	}	
+	```
 
 1. Make the TextBox control **onBlur** client-side handler call the new spellCheck() function:
 
-	**ASP.NET**
-	
-		<asp:TextBox id="TextBox1" onblur="javascript: spellCheck();" runat="server">this is a mistakr</asp:TextBox> 			
+	```ASP.NET
+	<asp:TextBox id="TextBox1" onblur="javascript: spellCheck();" runat="server">this is a mistakr</asp:TextBox> 			
+	```
 
 		

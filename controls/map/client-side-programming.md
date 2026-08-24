@@ -23,18 +23,18 @@ There are two ways to get a reference to the Kendo Map widget in order to use it
 
 	>caption **Example 1:** Get the Kendo Map object through the get_kendoWidget method:
 
-	**JavaScript**
-
-		var radMapObject = $find("<%=RadMap1.ClientID %>"); //the standard script control object
-		var kendoMap = radMapObject.get_kendoWidget(); //the Kendo widget
+	```JavaScript
+	var radMapObject = $find("<%=RadMap1.ClientID %>"); //the standard script control object
+	var kendoMap = radMapObject.get_kendoWidget(); //the Kendo widget
+	```
 
 * Use the standard Kendo approach for getting the widget through the data-attributes of the DOM element:
 
 	>caption **Example 2:** Get the Kendo Map object through the data attribute of the DOM object:
 
-	**JavaScript**
-
-		var kendoMap = $telerik._kendo.jQuery("#<%=RadMap1.ClientID %>").data("kendoMap");//the jQuery selector must get the RadMap wrapping div element
+	```JavaScript
+	var kendoMap = $telerik._kendo.jQuery("#<%=RadMap1.ClientID %>").data("kendoMap");//the jQuery selector must get the RadMap wrapping div element
+	```
 
 >important As of the 2026 Q1 release, Kendo jQuery widget plugins and data are registered on `$telerik._kendo.jQuery` — a different jQuery instance from `$telerik.$`. If you use `$telerik.$` with `.data("kendoXxx")`, it will return `undefined`. Always use `$telerik._kendo.jQuery` when accessing the underlying Kendo widget via the `.data()` method. The recommended approach, however, is to use the `get_kendoWidget()` method shown above.
 

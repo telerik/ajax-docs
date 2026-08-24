@@ -43,13 +43,13 @@ In the steps below you will see how to declare a simple **RadFileExplorer** in t
 
 1. The final result should be similar to:
 
-	**ASP.NET**
-	
-	    <telerik:RadScriptManager runat="server"></telerik:RadScriptManager>
-	    
-        <telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" InitialPath="/Files/Private">
-            <Configuration ViewPaths="~/Files" DeletePaths="~/Files/Private" UploadPaths="~/Files" SearchPatterns="*.txt, *.xlsx, *.docx, *.rtf, *.zip"/>
-        </telerik:RadFileExplorer>
+    ```ASP.NET
+    <telerik:RadScriptManager runat="server"></telerik:RadScriptManager>
+
+    <telerik:RadFileExplorer ID="RadFileExplorer1" runat="server" InitialPath="/Files/Private">
+        <Configuration ViewPaths="~/Files" DeletePaths="~/Files/Private" UploadPaths="~/Files" SearchPatterns="*.txt, *.xlsx, *.docx, *.rtf, *.zip"/>
+    </telerik:RadFileExplorer>
+    ```
 
 1. Save the page and run it in the browser.
 

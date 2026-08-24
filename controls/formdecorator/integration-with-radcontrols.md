@@ -76,37 +76,37 @@ To decorate RadInput controls fully, you need to:
 1. set the `CssClass` property of the input to the RadFormDecorator classes depending on the `RenderMode`:
     * for the `Lightweight` RenderMode use `CssClass="rfdTextInput"`
         
-        **ASP.NET**
-
-            <telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="All"
-                RenderMode="Lightweight" Skin="Black" />
-            <telerik:RadTextBox runat="server" ID="RadTextBox1" Label="Label for generic textbox"
-                Skin="" RenderMode="Lightweight" CssClass="rfdTextInput">
-            </telerik:RadTextBox>
-            <telerik:RadNumericTextBox runat="server" ID="RadNumericTextBox1" Label="Label for numeric textbox"
-                Skin="" RenderMode="Lightweight" CssClass="rfdTextInput">
-            </telerik:RadNumericTextBox>
-            <telerik:RadMaskedTextBox runat="server" ID="RadMaskedTextBox1" Label="Label for masked textbox"
-                Skin="" RenderMode="Lightweight" CssClass="rfdTextInput"></telerik:RadMaskedTextBox>
-            <telerik:RadDatePicker runat="server" ID="RadDatePicker1"
-                Skin="" RenderMode="Lightweight">
-                <DateInput CssClass="rfdTextInput" Label="Label for date input"></DateInput>
-            </telerik:RadDatePicker>
+        ```ASP.NET
+        <telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="All"
+            RenderMode="Lightweight" Skin="Black" />
+        <telerik:RadTextBox runat="server" ID="RadTextBox1" Label="Label for generic textbox"
+            Skin="" RenderMode="Lightweight" CssClass="rfdTextInput">
+        </telerik:RadTextBox>
+        <telerik:RadNumericTextBox runat="server" ID="RadNumericTextBox1" Label="Label for numeric textbox"
+            Skin="" RenderMode="Lightweight" CssClass="rfdTextInput">
+        </telerik:RadNumericTextBox>
+        <telerik:RadMaskedTextBox runat="server" ID="RadMaskedTextBox1" Label="Label for masked textbox"
+            Skin="" RenderMode="Lightweight" CssClass="rfdTextInput"></telerik:RadMaskedTextBox>
+        <telerik:RadDatePicker runat="server" ID="RadDatePicker1"
+            Skin="" RenderMode="Lightweight">
+            <DateInput CssClass="rfdTextInput" Label="Label for date input"></DateInput>
+        </telerik:RadDatePicker>
+        ```
 
     * for the `Classic` RenderMode use `CssClass="rfdRoundedCorners rfdDecorated"`
 
-        **ASP.NET**
-
-            <telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="All"
-                RenderMode="Classic" Skin="Black" />
-            <telerik:RadTextBox runat="server" ID="RadTextBox1" Label="Label for generic textbox"
-                Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated">
-            </telerik:RadTextBox>
-            <telerik:RadNumericTextBox runat="server" ID="RadNumericTextBox1" Label="Label for numeric textbox"
-                Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated">
-            </telerik:RadNumericTextBox>
-            <telerik:RadMaskedTextBox runat="server" ID="RadMaskedTextBox1" Label="Label for masked textbox"
-                Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated"></telerik:RadMaskedTextBox>
+        ```ASP.NET
+        <telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="All"
+            RenderMode="Classic" Skin="Black" />
+        <telerik:RadTextBox runat="server" ID="RadTextBox1" Label="Label for generic textbox"
+            Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated">
+        </telerik:RadTextBox>
+        <telerik:RadNumericTextBox runat="server" ID="RadNumericTextBox1" Label="Label for numeric textbox"
+            Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated">
+        </telerik:RadNumericTextBox>
+        <telerik:RadMaskedTextBox runat="server" ID="RadMaskedTextBox1" Label="Label for masked textbox"
+            Skin="" RenderMode="Classic" CssClass="rfdRoundedCorners rfdDecorated"></telerik:RadMaskedTextBox>
+        ```
             <telerik:RadDatePicker runat="server" ID="RadDatePicker1" Skin="" RenderMode="Classic">
                 <DateInput CssClass="rfdRoundedCorners rfdDecorated" Label="Label for date input"></DateInput>
             </telerik:RadDatePicker>

@@ -48,12 +48,12 @@ Usually, you also want to do one or more of the following:
 
 1. If the data source contains fields that map to other properties of menu items or to [custom attributes]({%slug menu/radmenu-items/custom-attributes%}), use the **[ItemDataBound event]({%slug menu/server-side-programming/itemdatabound%})** to set those values:
 
-	**C#**
-	
-		protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e) 
-		{ 
-			e.Item.ToolTip = "Read more about " + (string)DataBinder.Eval(e.Item.DataItem, "Text");
-		}
+	```C#
+	protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e) 
+	{ 
+		e.Item.ToolTip = "Read more about " + (string)DataBinder.Eval(e.Item.DataItem, "Text");
+	}
+	```
 		
 	**VB.NET**
 	

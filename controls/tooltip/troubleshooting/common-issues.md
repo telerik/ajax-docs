@@ -140,21 +140,21 @@ There are several ways to handle such an error because it stems from the `PageRe
 
 * handle the `endRequestEvent` and prevent the error alert. The following snippet should prevent it for all server errors trapped by MS AJAX:
 
-	**JavaScript**
-
-		function endRequestHandler(sender, args) {
-		    args.set_errorHandled(true);
-		}
-		var prm = Sys.WebForms.PageRequestManager.getInstance();
-		prm.add_endRequest(endRequestHandler);
+	```JavaScript
+	function endRequestHandler(sender, args) {
+	    args.set_errorHandled(true);
+	}
+	var prm = Sys.WebForms.PageRequestManager.getInstance();
+	prm.add_endRequest(endRequestHandler);
+	```
 
 * If possible, use a WebService for the [tooltip manager's load-on-demand]({%slug tooltip/radtooltipmanager/load-content-on-demand%}#loading-content-via-a-webservice), to avoid subsequent AJAX requests.
 
 * As a last resort, add the following function override at the end of your page. It will prevent the tooltip manager error handling, alerts and events.
 
-	**JavaScript**
-
-		Telerik.Web.UI.RadToolTipManager.prototype._onError = function (message) { }
+	```JavaScript
+	Telerik.Web.UI.RadToolTipManager.prototype._onError = function (message) { }
+	```
 
 
 ## AJAX-enable RadToolTip Content
@@ -166,15 +166,15 @@ There are a few ways to handle this situation:
 
 * AJAX-enable the tooltip contents themselves, e.g.:
 
-	**ASP.NET**
-
-		<telerik:RadToolTip ID="RadToolTip1" runat="server" RenderInPageRoot="false">
-			<asp:UpdatePanel ID="Updatepanel1" runat="server" UpdateMode="Conditional">
-				<ContentTemplate>
-					<asp:Button ID="Button1" Text="I will perform an AJAX request now" runat="server" />
-				</ContentTemplate>
-			</asp:UpdatePanel>
-		</telerik:RadToolTip>
+	```ASP.NET
+	<telerik:RadToolTip ID="RadToolTip1" runat="server" RenderInPageRoot="false">
+		<asp:UpdatePanel ID="Updatepanel1" runat="server" UpdateMode="Conditional">
+			<ContentTemplate>
+				<asp:Button ID="Button1" Text="I will perform an AJAX request now" runat="server" />
+			</ContentTemplate>
+		</asp:UpdatePanel>
+	</telerik:RadToolTip>
+	```
 
 * Set the [`RenderInPageRoot`](https://demos.telerik.com/aspnet-ajax/tooltip/examples/tooltipasformchild/defaultcs.aspx) property of the RadToolTip instance to `false`. Note that if its parent has absolute positioning, this may result in incorrect RadToolTip positions because it will not inherit the CSS rules of its parent. Also, note that the AJAX request will dispose the tooltip as well as the button and the parent element, so the tooltip will hide.
 

@@ -37,41 +37,41 @@ There are a few options you can choose from, in order to handle the scenario des
 
 	>caption **Example 1**: Associating a label to an input element by matching the input's "id" to the label's "for" attribute.
 
-	**ASP.NET**
-
-		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
-		<input type="checkbox" id="checkbox1" name="name1" value="value1" onclick="alert(1);" /><label for="checkbox1">label 1</label>
-		<input type="radio" id="radio1" name="name2" value="value2" onclick="alert(2);" /><label for="radio1">label 2</label>
+	```ASP.NET
+	<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+	<input type="checkbox" id="checkbox1" name="name1" value="value1" onclick="alert(1);" /><label for="checkbox1">label 1</label>
+	<input type="radio" id="radio1" name="name2" value="value2" onclick="alert(2);" /><label for="radio1">label 2</label>
+	```
 
 * Insert a space between the input and the label - either in the markup (see an **Example 2**), or with JavaScript prior to the **RadFormDecorator**'s decoration (see an **Example 3**).
 
 	>caption **Example 2**: Inserting a whitespace between an input and a label element in the markup.
 
-	**ASP.NET**
-
-		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
-		<input type="checkbox" name="name1" value="value1" onclick="alert(1);" /> <label>label 1</label>
-		<input type="radio" name="name2" value="value2" onclick="alert(2);" /> <label>label 2</label>
+	```ASP.NET
+	<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+	<input type="checkbox" name="name1" value="value1" onclick="alert(1);" /> <label>label 1</label>
+	<input type="radio" name="name2" value="value2" onclick="alert(2);" /> <label>label 2</label>
+	```
 
 	>caption **Example 3**: Inserting a whitespace between an input and a label element with JavaScript prior to decoration.
 
-	**JavaScript**
-
-		<%--The external jQuery reference is needed because RadFormDecorator doesn't reference internally jQuery--%>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script type="text/javascript">
-			$(function () {
-				$("label").each(function () {
-					this.parentNode.insertBefore(document.createTextNode(" "), this);
-				});
+	```JavaScript
+	<%--The external jQuery reference is needed because RadFormDecorator doesn't reference internally jQuery--%>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function () {
+			$("label").each(function () {
+				this.parentNode.insertBefore(document.createTextNode(" "), this);
 			});
-		</script>
+		});
+	</script>
+	```
 
-	**ASP.NET**
-
-		<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
-		<input type="checkbox" name="name1" value="value1" onclick="alert(1);" /><label>label 1</label>
-		<input type="radio" name="name2" value="value2" onclick="alert(2);" /><label>label 2</label>
+	```ASP.NET
+	<telerik:RadFormDecorator RenderMode="Lightweight" ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+	<input type="checkbox" name="name1" value="value1" onclick="alert(1);" /><label>label 1</label>
+	<input type="radio" name="name2" value="value2" onclick="alert(2);" /><label>label 2</label>
+	```
 
 # See Also
 

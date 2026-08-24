@@ -41,18 +41,18 @@ In order to explain better the CSS classes of RadRotator, we will use both Rotat
 
 1. Put a new server declaration of RadRotator on your page, and set **Skin="MyCustomSkin", EnableEmbeddedSkins="false"** and **EnableEmbeddedBasestylesheet="false"**:
 
-	**ASP.NET**
-
-		<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false"
-			EnableEmbeddedBaseStylesheet="false">
-		</telerik:RadRotator>
+	```ASP.NET
+	<telerik:RadRotator RenderMode="Lightweight" ID="RadRotator1" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false"
+		EnableEmbeddedBaseStylesheet="false">
+	</telerik:RadRotator>
+	```
 
 1. Register Rotator.css and Rotator.MyCustomSkin.css in the <head>...</head> section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-	**ASP.NET**
-
-		<link rel="stylesheet" type="text/css" href="Skins/Rotator.css"></link>
-		<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Rotator.MyCustomSkin.css"></link>
+	```ASP.NET
+	<link rel="stylesheet" type="text/css" href="Skins/Rotator.css"></link>
+	<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Rotator.MyCustomSkin.css"></link>
+	```
 
 	Make sure the path to the files is correct, otherwise the skin will not apply.
 

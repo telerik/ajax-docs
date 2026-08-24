@@ -35,10 +35,10 @@ Each of the controls included in the Telerik® UI for ASP.NET AJAX suite is styl
 
 7. Add a new server declaration of RadButton on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins=”false”**:
 
-	**ASP.NET**
-     
-		<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton Submit" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
-		</telerik:RadButton>		
+	```ASP.NET
+	<telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="RadButton Submit" EnableEmbeddedSkins="false" Skin="MyCustomSkin">
+	</telerik:RadButton>
+	```
 
 8. Register Button.MyCustomSkin.css in the ... section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 

@@ -23,23 +23,23 @@ To get a reference to the page that contains the **RadSplitter** control (the pa
 
 1. Inside the parent page, define JavaScript functions that return a reference to any controls in the parent page that the content page needs to access:
 
-	**JavaScript**
-
-		function GetRadSplitter()
-		{
-			return $find("<%= RadSplitter1.ClientID %>");
-		}
+	```JavaScript
+	function GetRadSplitter()
+	{
+		return $find("<%= RadSplitter1.ClientID %>");
+	}
+	```
 
 
 1. Inside the content page, use the **parent** keyword to reference the parent page, and then call the functions you defined previously to access the controls on the parent page:
 
-	**JavaScript**
-	
-	        //obtain reference to the parent page
-	        var splitterPageWnd = window.parent;
-	        //call a method from the parent page
-	        var splitterObject = splitterPageWnd.GetRadSplitter();
-	        //...
+	```JavaScript
+	//obtain reference to the parent page
+	var splitterPageWnd = window.parent;
+	//call a method from the parent page
+	var splitterObject = splitterPageWnd.GetRadSplitter();
+	//...
+	```
 
 		
 		

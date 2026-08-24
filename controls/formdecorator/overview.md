@@ -62,15 +62,15 @@ To decorate the form elements on a webpage:
 
 1. Register **Telerik.Web.UI** namespace tagprefix:
 
-	**ASP.NET**
-		
-		<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+	```ASP.NET
+	<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+	```
 
 1. Add the **RadFormDecorator** server tag on the webpage:
 
-	**ASP.NET**
-		
-		<telerik:RadFormdecorator id="FormDecorator1" runat="server" DecoratedControls="all" Skin="Web20"></telerik:RadFormdecorator>
+	```ASP.NET
+	<telerik:RadFormdecorator id="FormDecorator1" runat="server" DecoratedControls="all" Skin="Web20"></telerik:RadFormdecorator>
+	```
 
 
 Values of the **DecoratedControls** property are:

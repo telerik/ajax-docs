@@ -44,15 +44,15 @@ Since Q2 2013 RadWindow has a LightWeight render mode, which uses semantically s
 
 9. Add a new server declaration of **RadWindow** on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**: 
 
-	**ASP.NET**
-	
-		<telerik:RadWindow ID="RadWindow1" runat="server"  EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+    ```ASP.NET
+    <telerik:RadWindow ID="RadWindow1" runat="server"  EnableEmbeddedSkins="false" Skin="MyCustomSkin" />
+    ```
 		
 10. Register **Window.MyCustomSkin.css** in the head section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-	**ASP.NET**
-	
-		<link href="Skins/MyCustomSkin/Window.MyCustomSkin.css" rel="stylesheet" type="text/css" />
+    ```ASP.NET
+    <link href="Skins/MyCustomSkin/Window.MyCustomSkin.css" rel="stylesheet" type="text/css" />
+    ```
 		
 1. Make sure the path to the files is correct; otherwise the skin will not apply;
 

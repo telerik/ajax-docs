@@ -101,37 +101,37 @@ Alternatively, a CSS class can be set to the icon, and the position configured u
 
 1. Properties:
 
-	**ASP.NET**
-	
-		<telerik:RadButton RenderMode="Lightweight" ID="RadButton2" runat="server" Text="Spell Check Html">
-			<Icon PrimaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" 
-				PrimaryIconTop="4px" PrimaryIconLeft="5px"
-				SecondaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" 
-				SecondaryIconTop="4px" SecondaryIconRight="5px" />
-		</telerik:RadButton>
+	```ASP.NET
+	<telerik:RadButton RenderMode="Lightweight" ID="RadButton2" runat="server" Text="Spell Check Html">
+		<Icon PrimaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" 
+			PrimaryIconTop="4px" PrimaryIconLeft="5px"
+			SecondaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" 
+			SecondaryIconTop="4px" SecondaryIconRight="5px" />
+	</telerik:RadButton>
+	```
 
 1. Or the same configuration using CSS classes:
 
-	**CSS**
-	
-		<style type="text/css">
-			.classSpellCheck {
-				top: 4px;
-				left: 5px;
-			}
+	```CSS
+	<style type="text/css">
+		.classSpellCheck {
+			top: 4px;
+			left: 5px;
+		}
 
 			.classHtml {
 				top: 4px;
 				right: 5px;
 			}
-		</style>
+	</style>
+	```
 
-	**ASP.NET**
-
-		<telerik:RadButton RenderMode="Lightweight" ID="RadButton3" runat="server" Text="Spell Check Html">
-			<Icon PrimaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" PrimaryIconCssClass="classSpellCheck"
-				SecondaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" SecondaryIconCssClass="classHtml" />
-		</telerik:RadButton>
+	```ASP.NET
+	<telerik:RadButton RenderMode="Lightweight" ID="RadButton3" runat="server" Text="Spell Check Html">
+		<Icon PrimaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eSpellCheck.png" PrimaryIconCssClass="classSpellCheck"
+			SecondaryIconUrl="https://demos.telerik.com/aspnet-ajax/button/examples/customicons/images/eHtml.png" SecondaryIconCssClass="classHtml" />
+	</telerik:RadButton>
+	```
 	
 	
 	>caption Figure 3: Primary and Secondary icons in RadButton can be offset.

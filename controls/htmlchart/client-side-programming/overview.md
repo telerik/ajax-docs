@@ -45,18 +45,18 @@ There are two ways to get a reference to the Kendo Chart widget in order to use 
 
 	>caption **Example 1:** Get the Kendo Chart object through the get_kendoWidget method.
 
-	**JavaScript**
-	
-		var radHtmlChartObject = $find("<%=RadHtmlChart1.ClientID %>"); //the standard script control object
-		var kendoChart = radHtmlChartObject.get_kendoWidget(); //the Kendo widget
+	```JavaScript
+	var radHtmlChartObject = $find("<%=RadHtmlChart1.ClientID %>"); //the standard script control object
+	var kendoChart = radHtmlChartObject.get_kendoWidget(); //the Kendo widget
+	```
 
 * Use the standard Kendo approach for getting the widget through the data-attributes of the DOM element:
 
 	>caption **Example 2:** Get the Kendo Chart object through the data attribute of the DOM object.
 
-	**JavaScript**
-	
-		var kendoChart = $telerik._kendo.jQuery("#<%=RadHtmlChart1.ClientID %>").data("kendoChart");//the jQuery selector must get the RadHtmlChart wrapping div element
+	```JavaScript
+	var kendoChart = $telerik._kendo.jQuery("#<%=RadHtmlChart1.ClientID %>").data("kendoChart");//the jQuery selector must get the RadHtmlChart wrapping div element
+	```
 
 >important As of the 2026 Q1 release, Kendo jQuery widget plugins and data are registered on `$telerik._kendo.jQuery` — a different jQuery instance from `$telerik.$`. If you use `$telerik.$` with `.data("kendoXxx")`, it will return `undefined`. Always use `$telerik._kendo.jQuery` when accessing the underlying Kendo widget via the `.data()` method. The recommended approach, however, is to use the `get_kendoWidget()` method shown above.
 

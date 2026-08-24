@@ -59,15 +59,15 @@ Depending on the Telerik.Web.UI.dll version you use, you need to use a different
 
 1. In the **Configuration Wizard** dialog enter Amazon S3 **Access Key**, **Secret Key** and **Bucket Name**. ![cloudupload-amazon-s 3-configuration](images/cloudupload-amazon-s3-configuration.png)Specifying the **Uncommitted Files Expiration Period**(TimeSpan Structure), you could easily configure the time, after which the unprocessed files will be removed from the storage.When **Ensure Container** is checked, the control will create a new Bucket if it doesn't exist. In case it is not checked and the Bucket doesn't exist - an exception will be thrown.This will add configuration setting in the **web.config** file:
 
-	**XML**
-	
-		<telerik.web.ui>
-			<radCloudUpload>
-				<storageProviders>
-					<add name="Amazon" type="Telerik.Web.UI.AmazonS3Provider" accessKey="" secretKey="" bucketName="" uncommitedFilesExpirationPeriod="2" />
-				</storageProviders>
-			</radCloudUpload>
-		</telerik.web.ui>
+	```XML
+	<telerik.web.ui>
+		<radCloudUpload>
+			<storageProviders>
+				<add name="Amazon" type="Telerik.Web.UI.AmazonS3Provider" accessKey="" secretKey="" bucketName="" uncommitedFilesExpirationPeriod="2" />
+			</storageProviders>
+		</radCloudUpload>
+	</telerik.web.ui>
+	```
 
 
 >caution Uploading files in Amazon S3 is performed in chunks. Default chunk size defined by Amazon is 5 MB. Because the default ASP.NET size request is 4MB, you must increase it, in order to avoid errors. This can be done by increasing the value of [MaxRequestLength]({%slug cloudupload/how-to/uploading-large-files%}) property. Chunks which are not uploaded will be removed automatically by **RadCloudUpload** .

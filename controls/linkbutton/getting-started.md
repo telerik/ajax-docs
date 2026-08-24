@@ -15,10 +15,10 @@ The following tutorial demonstrates how to set up a page with a **RadLinkButton*
 
 1. In the default page of a new ASP.NET AJAX-enabled Web Application add a **RadLinkButton** control:
 
-	**ASP.NET**	
-	
-		<telerik:RadLinkButton id="RadLinkButton1" runat="server" text="My Button">
-		</telerik:RadLinkButton>	
+	```ASP.NET
+	<telerik:RadLinkButton id="RadLinkButton1" runat="server" text="My Button">
+	</telerik:RadLinkButton>	
+	```
 
 	The **Text** property specifies the text displayed in the **RadLinkButton** control.
 
@@ -28,9 +28,10 @@ The following tutorial demonstrates how to set up a page with a **RadLinkButton*
 
 At the end your **RadLinkButton** declaration should look like that:
 
-**ASP.NET**
+```ASP.NET
 
 	<telerik:RadLinkButton ID="RadLinkButton1" Text="RadLinkButton" NavigateUrl="https://www.telerik.com" Target="_blank"></telerik:RadLinkButton>
+```
 
 ## See Also
 

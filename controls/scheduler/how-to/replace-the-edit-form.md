@@ -34,80 +34,80 @@ You can use the **OnClientAppointmentEditing** and **OnClientAppointmentInsertin
 1. Give the AJAX manager an **AjaxRequest** event handler to rebind the scheduler after an edit:
 
 
-	**C#**
-	
-		protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
+	```C#
+	protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
+	{
+		if (e.Argument == "RebindScheduler")
 		{
-			if (e.Argument == "RebindScheduler")
-			{
-				RadScheduler1.Rebind();
-			}
+			RadScheduler1.Rebind();
 		}
+	}
+	```
 	    
 
-	**VB**
-	
-		Protected Sub RadAjaxManager1_AjaxRequest( _
-						ByVal sender As Object, _
-						ByVal e As AjaxRequestEventArgs)
-			If e.Argument = "RebindScheduler" Then
-				RadScheduler1.Rebind()
-			End If
-		End Sub
+	```VB
+	Protected Sub RadAjaxManager1_AjaxRequest( _
+				ByVal sender As Object, _
+				ByVal e As AjaxRequestEventArgs)
+		If e.Argument = "RebindScheduler" Then
+			RadScheduler1.Rebind()
+		End If
+	End Sub
+	```
 	
 
 
 1. Switch to Source view and add the following javascript functions to your page:
 
-	**JavaScript**
-	
-		function AppointmentEditing(sender, eventArgs)
+	```JavaScript
+	function AppointmentEditing(sender, eventArgs)
+	{
+		 var apt = eventArgs.get_appointment();
+		 window.radopen("AdvancedForm.aspx?Mode=Edit&AppointmentId=" + apt.get_id(), "AdvancedForm");
+		 eventArgs.set_cancel(true);
+	}
+
+	function AppointmentInserting(sender, eventArgs)
+	{
+		 var start = formatDate(eventArgs.get_startTime());
+		 var isAllDay = eventArgs.get_isAllDay();
+		 // New appointment
+		 window.radopen("AdvancedForm.aspx?Mode=Insert&Start=" + start + "&IsAllDay=" + isAllDay, "AdvancedForm");   
+		 eventArgs.set_cancel(true);
+	}
+
+	function formatDate(date)
+	{
+		var year = padNumber(date.getUTCFullYear(), 4);
+		var month = padNumber(date.getUTCMonth() + 1, 2);
+		var day = padNumber(date.getUTCDate(), 2);
+		var hour = padNumber(date.getUTCHours(), 2);
+		var minute = padNumber(date.getUTCMinutes(), 2);
+
+		return year + month + day + hour + minute;
+	}
+
+	function padNumber(number, totalDigits)
+	{
+		number = number.toString();
+		var padding = '';
+		if (totalDigits > number.length)
 		{
-			 var apt = eventArgs.get_appointment();
-			 window.radopen("AdvancedForm.aspx?Mode=Edit&AppointmentId=" + apt.get_id(), "AdvancedForm");
-			 eventArgs.set_cancel(true);
+		 for (i = 0; i < (totalDigits - number.length); i++)
+		 {
+		   padding += '0';
+		 }
 		}
 
-		function AppointmentInserting(sender, eventArgs)
-		{
-			 var start = formatDate(eventArgs.get_startTime());
-			 var isAllDay = eventArgs.get_isAllDay();
-			 // New appointment
-			 window.radopen("AdvancedForm.aspx?Mode=Insert&Start=" + start + "&IsAllDay=" + isAllDay, "AdvancedForm");   
-			 eventArgs.set_cancel(true);
-		}
+		return padding + number.toString();
+	}
 
-		function formatDate(date)
-		{
-			var year = padNumber(date.getUTCFullYear(), 4);
-			var month = padNumber(date.getUTCMonth() + 1, 2);
-			var day = padNumber(date.getUTCDate(), 2);
-			var hour = padNumber(date.getUTCHours(), 2);
-			var minute = padNumber(date.getUTCMinutes(), 2);
-
-			return year + month + day + hour + minute;
-		}
-
-		function padNumber(number, totalDigits)
-		{
-			number = number.toString();
-			var padding = '';
-			if (totalDigits > number.length)
-			{
-			 for (i = 0; i < (totalDigits - number.length); i++)
-			 {
-			   padding += '0';
-			 }
-			}
-
-			return padding + number.toString();
-		}
-
-		function refreshScheduler()
-		{
-			 var ajaxManager = $find("RadAjaxManager1");
-			 ajaxManager.ajaxRequest('RebindScheduler');
-		}
+	function refreshScheduler()
+	{
+		 var ajaxManager = $find("RadAjaxManager1");
+		 ajaxManager.ajaxRequest('RebindScheduler');
+	}
+	```
 			
 
 

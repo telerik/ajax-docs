@@ -45,18 +45,18 @@ In order to explain better the CSS classes of RadEditor, we will use both Editor
 
 1. Put a new server declaration of RadEditor on your page, and set **Skin="MyCustomSkin"** and **EnableEmbeddedSkins="false"**:
 
-	**ASP.NET**
-	
-		<telerik:RadEditor RenderMode="Lightweight" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false" ID="RadEditor1">
-		</telerik:RadEditor>
+	```ASP.NET
+	<telerik:RadEditor RenderMode="Lightweight" runat="server" Skin="MyCustomSkin" EnableEmbeddedSkins="false" ID="RadEditor1">
+	</telerik:RadEditor>
+	```
 
 1. Register Editor.css and Editor.MyCustomSkin.css in the `<head>...</head>` section of your web page. In order to have the CSS applied correctly, the base stylesheet should come first in the DOM:
 
-	**ASP.NET**
-	
-		<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Editor.MyCustomSkin.css"></link>
-		<%-- The Window skin file is recomeded to be imprted when the built-in dialogs are used --%>
-		<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Window.MyCustomSkin.css"></link>
+	```ASP.NET
+	<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Editor.MyCustomSkin.css"></link>
+	<%-- The Window skin file is recomeded to be imprted when the built-in dialogs are used --%>
+	<link rel="stylesheet" type="text/css" href="Skins/MyCustomSkin/Window.MyCustomSkin.css"></link>
+	```
 
 	Make sure the path to the files is correct, otherwise the skin will not apply.
 

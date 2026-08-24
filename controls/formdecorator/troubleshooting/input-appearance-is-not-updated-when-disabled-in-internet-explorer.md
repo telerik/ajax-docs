@@ -54,46 +54,46 @@ There are two ways to workaround this browser limitation:
 
 	>caption **Example 2**: Skipping checkbox, button and radio button elements from decoration by **RadFormDecorator**.
 
-	**ASP.NET**
-
-		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" ControlsToSkip="CheckBoxes,Buttons,RadioButtons" />
+	```ASP.NET
+	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" ControlsToSkip="CheckBoxes,Buttons,RadioButtons" />
+	```
 
 * Set the CSS classes **RadFormDecorator** uses for the disabled inputs appearance manually. **RadFormDecorator** will remove them when needed (e.g., if inputs are enabled their appearance will be updated too).
 
 	>caption **Example 3**: Setting the necessary CSS classes to the decorated elements used for their disabled state in Internet Explorer.
 
-	**JavaScript**
+	```JavaScript
+	<script type="text/javascript">
+		function disableInputs() {
 
-		<script type="text/javascript">
-			function disableInputs() {
+			var inputCheckBox = $get("<%=myInputCheckBox2.ClientID%>");
+			var inputRadio = $get("<%=myInputRadio2.ClientID%>");
+			var inputButton = $get("<%=myInputButton2.ClientID%>");
 
-				var inputCheckBox = $get("<%=myInputCheckBox2.ClientID%>");
-				var inputRadio = $get("<%=myInputRadio2.ClientID%>");
-				var inputButton = $get("<%=myInputButton2.ClientID%>");
-
-				//If the browser is IE manually set the css classes for the disabled state of inputs
-				if ($telerik.isIE) {
-					setDisabledCssClassToDecoratedElement(inputCheckBox, 'rfdInputDisabled');
-					setDisabledCssClassToDecoratedElement(inputRadio, 'rfdInputDisabled');
-					setDisabledCssClassToDecoratedElement(inputButton, 'rfdInputDisabled');
-				}
-				inputCheckBox.disabled = true;
-				inputRadio.disabled = true;
-				inputButton.disabled = true;
+			//If the browser is IE manually set the css classes for the disabled state of inputs
+			if ($telerik.isIE) {
+				setDisabledCssClassToDecoratedElement(inputCheckBox, 'rfdInputDisabled');
+				setDisabledCssClassToDecoratedElement(inputRadio, 'rfdInputDisabled');
+				setDisabledCssClassToDecoratedElement(inputButton, 'rfdInputDisabled');
 			}
-			function setDisabledCssClassToDecoratedElement(element, disabledCssClass) {
-				var decoratedElement = Telerik.Web.UI.RadFormDecorator.getDecoratedElement(element);
-				Sys.UI.DomElement.addCssClass(decoratedElement, disabledCssClass);
-			}
-		</script>
+			inputCheckBox.disabled = true;
+			inputRadio.disabled = true;
+			inputButton.disabled = true;
+		}
+		function setDisabledCssClassToDecoratedElement(element, disabledCssClass) {
+			var decoratedElement = Telerik.Web.UI.RadFormDecorator.getDecoratedElement(element);
+			Sys.UI.DomElement.addCssClass(decoratedElement, disabledCssClass);
+		}
+	</script>
+	```
 
-	**ASP.NET**
-
-		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" RenderMode="Classic" />
-		<telerik:RadButton ID="RadButton2" runat="server" AutoPostBack="false" OnClientClicked="disableInputs" Text="Disable Inputs" />
-		<input type="checkbox" id="myInputCheckBox2" runat="server" name="name1" value="value1" checked="checked" />
-		<input type="radio" id="myInputRadio2" runat="server" name="name2" value="value2" />
-		<input type="button" id="myInputButton2" runat="server" name="name3" value="value3" />
+	```ASP.NET
+	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" RenderMode="Classic" />
+	<telerik:RadButton ID="RadButton2" runat="server" AutoPostBack="false" OnClientClicked="disableInputs" Text="Disable Inputs" />
+	<input type="checkbox" id="myInputCheckBox2" runat="server" name="name1" value="value1" checked="checked" />
+	<input type="radio" id="myInputRadio2" runat="server" name="name2" value="value2" />
+	<input type="button" id="myInputButton2" runat="server" name="name3" value="value3" />
+	```
 
 # See Also
 

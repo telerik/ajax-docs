@@ -21,108 +21,108 @@ ClientTemplates let you use JavaScript, following this pattern: `"#if (condition
 
 * **If Statement**:
 
-	**ASP.NET**
-	
-		<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="300px" Height="300px">
-			<PlotArea>
-				<Series>
-					<telerik:PieSeries>
-						<LabelsAppearance>
-							<ClientTemplate>
-		#if (percentage > 0.15) {# #=value# #} else {# 0 #} #
-							</ClientTemplate>
-						</LabelsAppearance>
-						<TooltipsAppearance>
-							<ClientTemplate>
-		#if (percentage > 0.15) {# #=value# #} else {# 0 #} #
-							</ClientTemplate>
-						</TooltipsAppearance>
-						<SeriesItems>
-							<telerik:PieSeriesItem Y="30" />
-							<telerik:PieSeriesItem Y="60" />
-							<telerik:PieSeriesItem Y="10" />
-						</SeriesItems>
-					</telerik:PieSeries>
-				</Series>
-			</PlotArea>
-		</telerik:RadHtmlChart>
+	```ASP.NET
+	<telerik:RadHtmlChart ID="RadHtmlChart1" runat="server" Width="300px" Height="300px">
+		<PlotArea>
+			<Series>
+				<telerik:PieSeries>
+					<LabelsAppearance>
+						<ClientTemplate>
+	#if (percentage > 0.15) {# #=value# #} else {# 0 #} #
+						</ClientTemplate>
+					</LabelsAppearance>
+					<TooltipsAppearance>
+						<ClientTemplate>
+	#if (percentage > 0.15) {# #=value# #} else {# 0 #} #
+						</ClientTemplate>
+					</TooltipsAppearance>
+					<SeriesItems>
+						<telerik:PieSeriesItem Y="30" />
+						<telerik:PieSeriesItem Y="60" />
+						<telerik:PieSeriesItem Y="10" />
+					</SeriesItems>
+				</telerik:PieSeries>
+			</Series>
+		</PlotArea>
+	</telerik:RadHtmlChart>
+	```
 
 	Only PieSeries/DonutSeries items whose percentage of the whole is higher than 15% will display their actual value in tooltips and labels. The rest of the series items will display a zero value.
 
 * **For Loop**:
 
-	**ASP.NET**
-			
-		<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="800" Height="500">
-			<PlotArea>
-				<CommonTooltipsAppearance Shared="true">
-					<SharedTemplate>
-				<div>GDP in #= category #</div>
-				 # for (var i = 0; i < points.length; i++) { # 
-				<div>#: points[i].series.name#: #: points[i].value #</div>
-				# } #
-					</SharedTemplate>
-				</CommonTooltipsAppearance>
-				<XAxis>
-					<Items>
-						<telerik:AxisItem LabelText="1999"></telerik:AxisItem>
-						<telerik:AxisItem LabelText="2000"></telerik:AxisItem>
-					</Items>
-				</XAxis>
-				<Series>
-					<telerik:ColumnSeries Name="Transport">
-						<SeriesItems>
-							<telerik:CategorySeriesItem Y="32735.7"></telerik:CategorySeriesItem>
-							<telerik:CategorySeriesItem Y="37911.3"></telerik:CategorySeriesItem>
-						</SeriesItems>
-					</telerik:ColumnSeries>
-					<telerik:ColumnSeries Name="Community">
-						<SeriesItems>
-							<telerik:CategorySeriesItem Y="12453.9"></telerik:CategorySeriesItem>
-							<telerik:CategorySeriesItem Y="14394.3"></telerik:CategorySeriesItem>
-						</SeriesItems>
-					</telerik:ColumnSeries>
-				</Series>
-			</PlotArea>
-		</telerik:RadHtmlChart>
+	```ASP.NET
+	<telerik:RadHtmlChart runat="server" ID="RadHtmlChart1" Width="800" Height="500">
+		<PlotArea>
+			<CommonTooltipsAppearance Shared="true">
+				<SharedTemplate>
+					<div>GDP in #= category #</div>
+					# for (var i = 0; i < points.length; i++) { # 
+					<div>#: points[i].series.name#: #: points[i].value #</div>
+					# } #
+				</SharedTemplate>
+			</CommonTooltipsAppearance>
+			<XAxis>
+				<Items>
+					<telerik:AxisItem LabelText="1999"></telerik:AxisItem>
+					<telerik:AxisItem LabelText="2000"></telerik:AxisItem>
+				</Items>
+			</XAxis>
+			<Series>
+				<telerik:ColumnSeries Name="Transport">
+					<SeriesItems>
+						<telerik:CategorySeriesItem Y="32735.7"></telerik:CategorySeriesItem>
+						<telerik:CategorySeriesItem Y="37911.3"></telerik:CategorySeriesItem>
+					</SeriesItems>
+				</telerik:ColumnSeries>
+				<telerik:ColumnSeries Name="Community">
+					<SeriesItems>
+						<telerik:CategorySeriesItem Y="12453.9"></telerik:CategorySeriesItem>
+						<telerik:CategorySeriesItem Y="14394.3"></telerik:CategorySeriesItem>
+					</SeriesItems>
+				</telerik:ColumnSeries>
+			</Series>
+		</PlotArea>
+	</telerik:RadHtmlChart>
+	```
 
 	The tooltip will display three lines of text. The first line shows the category and the next two lines show the Y-values of both items from this category.
 
 * **Call a function**
 
-	**ASP.NET**
-
-			<script>
-				function formatLabel(number) {
-					if (number < 1000)
-						return number;
-					if (number < 1000000)
-						return number / 1000 + "K";
-					if (number < 1000000000)
-						return number / 1000000 + "M";
-				}
-			</script>
-			<telerik:RadHtmlChart runat="server" ID="BarChart1" Width="800px" Height="300px">
-				<PlotArea>
-					<YAxis>
-						<TitleAppearance Text="Quantity" />
-						<LabelsAppearance>
-							<ClientTemplate>
-								#= formatLabel(value) #
-							</ClientTemplate>
-						</LabelsAppearance>
-					</YAxis>
-					<Series>
-						<telerik:BarSeries Name="Product A">
-							<SeriesItems>
-								<telerik:CategorySeriesItem Y="100" />
-								<telerik:CategorySeriesItem Y="20000" />
-								<telerik:CategorySeriesItem Y="1000000" />
-							</SeriesItems>
-						</telerik:BarSeries>
-					</Series>
-				</PlotArea>
-			</telerik:RadHtmlChart>
+	```ASP.NET
+	<script>
+		function formatLabel(number) {
+			if (number < 1000)
+				return number;
+			if (number < 1000000)
+				return number / 1000 + "K";
+			if (number < 1000000000)
+				return number / 1000000 + "M";
+		}
+	</script>
+	<telerik:RadHtmlChart runat="server" ID="BarChart1" Width="800px" Height="300px">
+		<PlotArea>
+			<YAxis>
+				<TitleAppearance Text="Quantity" />
+				<LabelsAppearance>
+					<ClientTemplate>
+						#= formatLabel(value) #
+					</ClientTemplate>
+				</LabelsAppearance>
+			</YAxis>
+			<Series>
+				<telerik:BarSeries Name="Product A">
+					<SeriesItems>
+						<telerik:CategorySeriesItem Y="100" />
+						<telerik:CategorySeriesItem Y="20000" />
+						<telerik:CategorySeriesItem Y="1000000" />
+					</SeriesItems>
+				</telerik:BarSeries>
+			</Series>
+		</PlotArea>
+	</telerik:RadHtmlChart>
+	```
 
 ## Display HTML with a ClientTemplate
 

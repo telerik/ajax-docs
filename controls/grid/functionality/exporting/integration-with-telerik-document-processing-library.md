@@ -109,7 +109,7 @@ docx.RadFlowDocument flowDocument = new docx.RadFlowDocument();
 docx.Section section = flowDocument.Sections.AddSection();
 // Insert a Table into the Document Section
 docx.Table table = section.Blocks.AddTable();
-        
+		
 // Create Cell Border Style
 docx.Styles.TableCellBorders tableCellBorders = new docx.Styles.TableCellBorders(new docx.Styles.Border(docx.Styles.BorderStyle.Single));
 
@@ -328,18 +328,19 @@ The following steps walk you through the entire process of Exporting the a simpl
 
 5. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the Excel document.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
 
-	**C#**
+    ```C#
 		private GridItemType[] supportedItemTypes = new GridItemType[] 
         { 
             GridItemType.Header, 
             GridItemType.AlternatingItem, 
             GridItemType.Item 
         };
-	**VB**
+    ```
+    ```VB
 	
 		Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
-
-	**C#**
+    ```
+    ```C#
 	
 		foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
 		{
@@ -354,8 +355,8 @@ The following steps walk you through the entire process of Exporting the a simpl
 		    }
 		    currentRow++;
 	}
-
-	**VB**
+    ```
+    ```VB
 
 		For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
 		Dim currentColumn As Integer = 0
@@ -368,6 +369,7 @@ The following steps walk you through the entire process of Exporting the a simpl
 			    currentColumn += 1
 		    Next
 		    currentRow += 1
+    ```
 		Next
 
 
@@ -530,22 +532,23 @@ The following steps walk you through the entire process of creating an Word docu
 
 
 
-	**C#**
+    ```C#
 	
 		RadFlowDocument flowDoc = new RadFlowDocument();
 		Section section = flowDoc.Sections.AddSection();
 		Table table = section.Blocks.AddTable();
-		
-	**VB**
+    ```
+    ```VB
 	
 		Dim flowDoc As New RadFlowDocument()
 		Dim section As Section = flowDoc.Sections.AddSection()
 		Dim table As Table = section.Blocks.AddTable()
+    ```
 
 
 2. Traverse all cells of each item which will be contained in the exported file and assign their text to the appropriate cell of the created Word table.In the following code snippet an enumeration with tree values is created which will help you get the items which need to be exported.
 
-	**C#**
+    ```C#
 	
 		private GridItemType[] supportedItemTypes = new GridItemType[] 
 		    { 
@@ -553,15 +556,16 @@ The following steps walk you through the entire process of creating an Word docu
 		        GridItemType.AlternatingItem, 
 		        GridItemType.Item 
 		    };
-		
-	**VB**
+    ```
+    ```VB
 	
 		Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
+    ```
 		
 		
 	
 	
-	**C#**
+    ```C#
 
 		foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
 		    {
@@ -578,7 +582,8 @@ The following steps walk you through the entire process of creating an Word docu
 		        }
 		    }
 	
-	**VB**
+    ```
+    ```VB
 	
 		For Each item As GridItem In RadGrid1.MasterTableView.GetItems(supportedItemTypes)
 		Dim wordRow As Telerik.Windows.Documents.Flow.Model.TableRow = Nothing
@@ -595,6 +600,8 @@ The following steps walk you through the entire process of creating an Word docu
 		Next
 
 
+
+    ```
 
 3. After the worksheet is populated with data an instance of the **DocxFormatProvider** is created and by calling its **Export** method a file is generated on the server.
 

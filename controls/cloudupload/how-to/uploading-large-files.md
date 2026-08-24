@@ -65,8 +65,7 @@ Modify the configuration file to allow uploads of files of up to 100MB and uploa
 
 1. Add these lines in the **Web.config** file:
 
-	**XML**
-	
+	```XML
 	<system.webserver>
 		...
 		<security>
@@ -75,6 +74,7 @@ Modify the configuration file to allow uploads of files of up to 100MB and uploa
 			</requestFiltering>
 		</security>
 	</system.webserver>
+	```
 		
 
 

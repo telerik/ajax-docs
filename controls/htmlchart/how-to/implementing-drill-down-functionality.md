@@ -23,13 +23,13 @@ The online demo	[Drill-Down Chart](https://demos.telerik.com/aspnet-ajax/htmlcha
 
 	>caption Example 1.1: Send information about the clicked series to the Server.
 
-	**ASP.NET**
-	
-		<script type="text/javascript">
-			function OnSeriesClick(args) {
-				if (args.series.name != "Months") $find("<%= RadAjaxManager1.ClientID %>").ajaxRequest(args.category);
-			}
-		</script>
+	```ASP.NET
+	<script type="text/javascript">
+		function OnSeriesClick(args) {
+			if (args.series.name != "Months") $find("<%= RadAjaxManager1.ClientID %>").ajaxRequest(args.category);
+		}
+	</script>
+	```
 
 
 1. On the server-side, handle the AJAX request an, depending on the current level of data presentation and the clicked series item, change	the data source and the settings of **RadHtmlChart**. As shown in **Example 1.2**, if the	current name of the series is "Years", the year	corresponding to the clicked series item is retrieved and it is used as a parameter for the **RadHtmlChart** data source, as the new data	should be from the selected year. Also, the properties of the chart control are modified to match the new level of presentation and	a new data source that will provide the new data is specified.

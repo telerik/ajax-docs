@@ -19,7 +19,7 @@ The asp:GridView cannot be bound on initial page load when it is decorated by Ra
 
 >caption **Example 1**: Decorated asp:GridView is not visible on initial page load when it is bound to the SqlDataSource with ControlParameter.
 
-**ASP.NET**
+```ASP.NET
 
 	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
 
@@ -41,19 +41,13 @@ The asp:GridView cannot be bound on initial page load when it is decorated by Ra
 				Type="String"></asp:ControlParameter>
 		</SelectParameters>
 	</asp:SqlDataSource>
+```
 
 
-**Cause:**
+	```ASP.NET
+	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
 
-In order to decorate all of the controls on the page, the RadFormDecorator decorates the children controls of the complex controls as well (i.e., the RadFormDecorator iterates through the controls' collections). 
-
-There is, however, a binding issue with the GridView when the SqlDataSource is used with a ControlParameter and at the same time, the GridView's collection is accessed from the code behind. This issue can be easily reproduced on a page with no Telerik® UI for ASP.NET AJAX controls and is shown in **Example 2**. The problem also affects the scenario with the RadFormDecorator from **Example 1**.
-
->caption **Example 2**: asp:GridView cannot be bound to the SqlDataSource with a ControlParameter when the GridView's collection is accessed from the code behind.
-
-**ASP.NET**
-
-	<asp:DropDownList ID="Dropdownlist1" runat="server" DataSourceID="DropDownListDataSource" AutoPostBack="true" DataTextField="CompanyName" DataValueField="CustomerID">
+	<asp:DropDownList ID="Dropdownlist1" runat="server" AutoPostBack="true" DataTextField="CompanyName" DataValueField="CustomerID">
 	</asp:DropDownList>
 	<asp:SqlDataSource runat="server" ID="DropDownListDataSource" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 		ProviderName="System.Data.SqlClient" SelectCommand="Select [CustomerID], [CompanyName], [Address], [City], [PostalCode], [Country] From [Customers]"
@@ -71,19 +65,29 @@ There is, however, a binding issue with the GridView when the SqlDataSource is u
 				Type="String"></asp:ControlParameter>
 		</SelectParameters>
 	</asp:SqlDataSource>
+	```
+		OldValuesParameterFormatString="original_{0}" ConflictDetection="CompareAllValues">
+		<SelectParameters>
+			<asp:ControlParameter ControlID="Dropdownlist1" Name="CustomerID" PropertyName="SelectedValue"
+				Type="String"></asp:ControlParameter>
+		</SelectParameters>
+	</asp:SqlDataSource>
+```
 
-**C#**
+```C#
 
 	protected void Page_PreRender(object sender, EventArgs e)
 	{
 		var c = GridView1.Controls;
 	}
+	```
 
-**VB**
+	```VB
 
 	Protected Sub Page_PreRender(sender As Object, e As EventArgs)
 		Dim c = GridView1.Controls
 	End Sub
+	```
 
 
 **Solution:**
@@ -94,9 +98,9 @@ There are a few options you can choose from in order to handle the scenario desc
 
 	>caption **Example 3**: Binding DropDownList's data from the code behind instead of declaring its DataSourceID property.
 
-	**ASP.NET**
-
-		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+    ```ASP.NET
+	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" DecoratedControls="All" />
+	```
 
 		<asp:DropDownList ID="Dropdownlist1" runat="server" AutoPostBack="true" DataTextField="CompanyName" DataValueField="CustomerID">
 		</asp:DropDownList>
@@ -117,53 +121,53 @@ There are a few options you can choose from in order to handle the scenario desc
 			</SelectParameters>
 		</asp:SqlDataSource>
 
-	**C#**
+    ```C#
+	protected void Page_Init(object sender, EventArgs e)
+	{
+		DataSourceSelectArguments args = new DataSourceSelectArguments();
+		DataView view = (DataView)DropDownListDataSource.Select(args);
+		DataTable dt = view.ToTable();
 
-		protected void Page_Init(object sender, EventArgs e)
-		{
-			DataSourceSelectArguments args = new DataSourceSelectArguments();
-			DataView view = (DataView)DropDownListDataSource.Select(args);
-			DataTable dt = view.ToTable();
+		Dropdownlist1.DataSource = dt;
+		Dropdownlist1.DataBind();
+	}
+	```
 
-			Dropdownlist1.DataSource = dt;
-			Dropdownlist1.DataBind();
-		}
+    ```VB
+	Protected Sub Page_Init(sender As Object, e As EventArgs)
+		Dim args As New DataSourceSelectArguments()
+		Dim view As DataView = DirectCast(DropDownListDataSource.[Select](args), DataView)
+		Dim dt As DataTable = view.ToTable()
 
-	**VB**
-
-		Protected Sub Page_Init(sender As Object, e As EventArgs)
-			Dim args As New DataSourceSelectArguments()
-			Dim view As DataView = DirectCast(DropDownListDataSource.[Select](args), DataView)
-			Dim dt As DataTable = view.ToTable()
-
-			Dropdownlist1.DataSource = dt
-			Dropdownlist1.DataBind()
-		End Sub
+		Dropdownlist1.DataSource = dt
+		Dropdownlist1.DataBind()
+	End Sub
+	```
 
 * Skip the following controls form decoration - GridFormDetailsViews, LoginControls, Textbox and ValidationSummary:
 
 	>caption **Example 4**: Skip the GridFormDetailsViews, LoginControls, Textbox and ValidationSummary controls from decoration.
 
-	**ASP.NET**
-
-		<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" ControlsToSkip="GridFormDetailsViews,LoginControls,Textbox,ValidationSummary" />
+	```ASP.NET
+	<telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" ControlsToSkip="GridFormDetailsViews,LoginControls,Textbox,ValidationSummary" />
+	```
 
 * Set the DataSourceID property of the DropDownList in the Page_Init event. This approach, however, will force the DropDownList to rebind itself, which may lead to performance issues for large data sources.
 
-	**C#**
+	```C#
+	protected void Page_Init(object sender, EventArgs e)
+	{
+		Dropdownlist1.DataSourceID = "DropDownListDataSource";
+		Dropdownlist1.DataBind();
+	}
+	```
 
-		protected void Page_Init(object sender, EventArgs e)
-		{
-			Dropdownlist1.DataSourceID = "DropDownListDataSource";
-			Dropdownlist1.DataBind();
-		}
-
-	**VB**
-
-		Protected Sub Page_Init(sender As Object, e As EventArgs)
-			Dropdownlist1.DataSourceID = "DropDownListDataSource"
-			Dropdownlist1.DataBind()
-		End Sub
+	```VB
+	Protected Sub Page_Init(sender As Object, e As EventArgs)
+		Dropdownlist1.DataSourceID = "DropDownListDataSource"
+		Dropdownlist1.DataBind()
+	End Sub
+	```
 
 
 # See Also

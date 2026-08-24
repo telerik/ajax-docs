@@ -24,53 +24,53 @@ RadChart properties that are set in the designer can also be written declarative
 
 1. To use the RadChart control on the page you need to declare the namespace and associate a tag prefix. Add the following code just under the "<%@ Page>" tag at the top of the HTML.
 
-	**ASP.NET**
-
-		<%@ register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
-		<%@ register assembly="Telerik.Web.UI" namespace="Telerik.Charting" tagprefix="telerik" %>
+	```ASP.NET
+	<%@ register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+	<%@ register assembly="Telerik.Web.UI" namespace="Telerik.Charting" tagprefix="telerik" %>
+	```
 
 1. Within the main div tag for the page add a RadChart tag.
 
-	**ASP.NET**
-
-		<div>
-			<telerik:RadChart runat="Server" id="myRadChart">
-			</telerik:RadChart>
-		</div>
+	```ASP.NET
+	<div>
+		<telerik:RadChart runat="Server" id="myRadChart">
+		</telerik:RadChart>
+	</div>
+	```
 
 1. Within the RadChart tag add a ChartTitle tag and set its TextBlock-Text attribute to "My First Chart".
 
-	**ASP.NET**
-
-		<ChartTitle>
-		<TextBlock Text="My First Chart">
-		</TextBlock>
-		</ChartTitle> 
+	```ASP.NET
+	<ChartTitle>
+	<TextBlock Text="My First Chart">
+	</TextBlock>
+	</ChartTitle>
+	```
 
 1. Add a ChartSeries tag. Set the Name attribute to "Sales".
 
-	**ASP.NET**
-
-		<Series>
-		<telerik:ChartSeries Name="Sales">
-		</telerik:ChartSeries>
-		</Series> 
+	```ASP.NET
+	<Series>
+	<telerik:ChartSeries Name="Sales">
+	</telerik:ChartSeries>
+	</Series>
+	```
 
 1. Add three ChartSeriesItem tags inside the ChartSeries tag as shown in the example below.Set the YValue attribute for each item.Add a TextBlock tag within each ChartSeriesItem tag and set the Text attribute to the values shown in the example.
 
-	**ASP.NET**
-
-		<items>
-		<telerik:ChartSeriesItem YValue="34">
-		<Label><TextBlock Text="Internet"></TextBlock></Label>
-		</telerik:ChartSeriesItem>
-		<telerik:ChartSeriesItem YValue="66">
-		<Label><TextBlock Text="Wholesale"></TextBlock></Label>
-		</telerik:ChartSeriesItem>
-		<telerik:ChartSeriesItem YValue="27">
-		<Label><TextBlock Text="Retail"></TextBlock></Label>
-		</telerik:ChartSeriesItem>
-		</items> 
+	```ASP.NET
+	<items>
+	<telerik:ChartSeriesItem YValue="34">
+	<Label><TextBlock Text="Internet"></TextBlock></Label>
+	</telerik:ChartSeriesItem>
+	<telerik:ChartSeriesItem YValue="66">
+	<Label><TextBlock Text="Wholesale"></Text></Label>
+	</telerik:ChartSeriesItem>
+	<telerik:ChartSeriesItem YValue="27">
+	<Label><TextBlock Text="Retail"></TextBlock></Label>
+	</telerik:ChartSeriesItem>
+	</items>
+	```
 
 	The chart should now look like the figure below. The chart will display as three bars (Bar is the default type).
 
@@ -78,19 +78,18 @@ RadChart properties that are set in the designer can also be written declarative
 
 1. Add an Appearance tag to the RadChart Series tag. Within Appearance add a FillStyle tag, set the MainColor attribute to "Red" and the SecondColor attribute to Maroon. Add a Border tag and set the color to DarkRed.Then add PlotArea tag and Appearance tag within it
 
-	**ASP.NET**
+	```ASP.NET
+	<Appearance>
+	<FillStyle MainColor="Red" SecondColor="Maroon"></FillStyle>
+	<Border Color="DarkRed" />
+	</Appearance>
+	```
 
-		<Appearance>
-		<FillStyle MainColor="Red" SecondColor="Maroon"></FillStyle>
-		<Border Color="DarkRed" />
-		</Appearance> 
-
-	**ASP.NET**
-	
-		<PlotArea>
-		<Appearance>
-		<FillStyle FillType="Solid" MainColor="White"></FillStyle>
-		</Appearance>
+	```ASP.NET
+	<PlotArea>
+	<Appearance>
+	<FillStyle FillType="Solid" MainColor="White"></FillStyle>
+	</Appearance>
 		</PlotArea> 
 
 When complete the chart should look like this example:

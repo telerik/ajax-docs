@@ -31,16 +31,16 @@ The example below demonstrates how to hide the "New Folder" button in all the di
 1. Set the **ExternalDialogsPath** property to point to the EditorDialogs folder
 1. Open the **FileBrowser.ascx** file, which is in the **EditorDialogs** folder and locate the following control, which represent the FileExplorer:
 
-	**ASP.NET**
-
-		<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" Height="450px" Width="400px" TreePaneWidth="150px"
-			runat="Server" EnableOpenFile="false" AllowPaging="true" />
+	```ASP.NET
+	<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" Height="450px" Width="400px" TreePaneWidth="150px"
+		runat="Server" EnableOpenFile="false" AllowPaging="true" />
+	```
 
 1. To hide the "New Folder" button set the **EnableCreateNewFolder** property to **false**.
 
-	**ASP.NET**
-	
-		<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" Height="450px" Width="400px" TreePaneWidth="150px"
-			EnableCreateNewFolder="false" runat="Server" EnableOpenFile="false" AllowPaging="true" />
+	```ASP.NET
+	<telerik:RadFileExplorer RenderMode="Lightweight" ID="RadFileExplorer1" Height="450px" Width="400px" TreePaneWidth="150px"
+		EnableCreateNewFolder="false" runat="Server" EnableOpenFile="false" AllowPaging="true" />
+	```
 
 1. Save the file and test the editor.

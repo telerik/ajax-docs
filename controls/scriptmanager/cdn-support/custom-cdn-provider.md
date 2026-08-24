@@ -39,7 +39,6 @@ If you want to use your own **CDN provider** to host the Telerik UI for ASP.NET 
 	* Enable **Dynamic** and **Static** Compression
 	* Configure **RadScriptManager** and **RadStyleSheetManager**:
 
-		**ASP.NET**
 	  	````ASP.NET
 			<telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
 					<CdnSettings BaseUrl="http://my.favorite.cdn" BaseSecureUrl="https://my.favorite.cdn" TelerikCdn="Enabled" />
