@@ -76,7 +76,7 @@ To decorate RadInput controls fully, you need to:
 1. set the `CssClass` property of the input to the RadFormDecorator classes depending on the `RenderMode`:
     * for the `Lightweight` RenderMode use `CssClass="rfdTextInput"`
         
-        ````ASP.NET
+        ```ASP.NET
         <telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="All"
             RenderMode="Lightweight" Skin="Black" />
         <telerik:RadTextBox runat="server" ID="RadTextBox1" Label="Label for generic textbox"
@@ -91,11 +91,11 @@ To decorate RadInput controls fully, you need to:
             Skin="" RenderMode="Lightweight">
             <DateInput CssClass="rfdTextInput" Label="Label for date input"></DateInput>
         </telerik:RadDatePicker>
-       ````
+       ```
 
     * for the `Classic` RenderMode use `CssClass="rfdRoundedCorners rfdDecorated"`
 
-        ````ASP.NET
+        ```ASP.NET
          <telerik:RadFormDecorator runat="server" ID="RadFormDecorator1" DecoratedControls="All"
             RenderMode="Classic" Skin="Black" />
          <telerik:RadTextBox runat="server" ID="RadTextBox1" Label="Label for generic textbox"
