@@ -1,0 +1,12 @@
+{
+  "metadata": [{
+            "src": [
+                {
+                    "files": [
+                        "src/**.dll"
+                    ]
+                }
+            ],
+            "dest": "metadata"
+  }]
+}
