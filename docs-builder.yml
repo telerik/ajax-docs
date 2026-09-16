@@ -1996,5 +1996,9 @@ redirects:
     to: "https://docs.telerik.com/devtools/document-processing/libraries/rad$0"
     type: Permanent
 
+- 
+    from: "/api/server/([^/]+)/([^/]+)$"
+    to: "/api/server/$1.$2"
+    type: Permanent
 
 
