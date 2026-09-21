@@ -1,11 +1,11 @@
 ---
 title: Fixing RadAsyncUpload Breaking After Telerik Upgrade
-description: Resolve the issue where RadAsyncUpload breaks after upgrading Telerik UI for ASP.NET AJAX controls, resulting in errors such as "invalid upload configuration."
+description: Resolve RadAsyncUpload Invalid upload configuration errors after an upgrade by checking encryption keys, temporary-folder paths, permissions, and deployment-specific settings.
 type: how-to
 page_title: How to Resolve RadAsyncUpload Invalid Upload Configuration Error
 meta_title: How to Resolve RadAsyncUpload Invalid Upload Configuration Error
 slug: fixing-radasyncupload-breaking-after-telerik-upgrade
-tags: radasyncupload, asp.net ajax, upload configuration, encryption keys, permissions
+tags: radasyncupload, asp.net ajax, upload configuration, encryption keys, permissions, temporary folder, invalid upload configuration, security
 res_type: kb
 ticketid: 1718746
 ---
@@ -26,7 +26,7 @@ ticketid: 1718746
 
 ## Description
 
-After upgrading Telerik UI for ASP.NET AJAX controls to the latest version, RadAsyncUpload fails and returns the error: `Invalid upload configuration`. The issue often manifests as a `HTTP 400` error originating from `Telerik.Web.UI.WebResource.axd?type=rau`. This problem may occur due to server-specific configurations, missing encryption keys, or invalid temporary folder paths. 
+After upgrading Telerik UI for ASP.NET AJAX controls, RadAsyncUpload can fail and return the error: `Invalid upload configuration`. The issue often manifests as a `HTTP 400` error originating from `Telerik.Web.UI.WebResource.axd?type=rau`. This problem may occur because of server-specific configuration, missing encryption keys, an unavailable temporary folder, or an incorrect deployment setup.
 
 This knowledge base article also answers the following questions:
 - Why does RadAsyncUpload throw an "Invalid upload configuration" error after upgrading Telerik controls?
@@ -48,43 +48,43 @@ To resolve this issue, follow these steps:
    ```
 
 2. **Temporary Folder Validation:**
-   RadAsyncUpload requires the temporary folder path to be an absolute, canonical physical path. Ensure the temporary folder path meets the following criteria:
-   - It is not relative (e.g., avoid paths like `~/App_Data/RadUploadTemp`).
-   - It does not contain traversal segments (`.` or `..`).
-   - It resolves to the same canonical path across all servers.
+   The `Telerik.AsyncUpload.TemporaryFolder` setting can use a relative or absolute path. Verify that the path resolves on the server where the application runs, that the folder exists or can be created by the application, and that the application pool identity can read and write to it.
 
-   Example of a valid path:
+   Example of a relative path:
+   ```xml
+   <add key="Telerik.AsyncUpload.TemporaryFolder" value="~/App_Data/RadUploadTemp" />
+   ```
+
+   Example of an absolute path:
    ```xml
    <add key="Telerik.AsyncUpload.TemporaryFolder" value="C:\Sites\Shared\UploadTemp" />
    ```
 
+   If the application runs in a web farm, the temporary folder must be available to all servers. Use a shared location, such as a UNC path or a virtual directory that points to shared storage, and configure the required permissions on that location. A shared folder is not required for a single-server deployment.
+
 3. **Check Application Code Temporary Folder Configurations:**
-   If setting the temporary folder path programmatically, verify it resolves correctly to an absolute physical path:
+   If setting the temporary folder path programmatically, verify that the value resolves correctly in the application context and that the folder exists before the upload handler uses it:
    ```csharp
-   RadAsyncUpload1.TemporaryFolder = Path.Combine(System.Environment.GetEnvironmentVariable("TEMP"), "PackageWizardUpload");
+   string temporaryFolder = Server.MapPath("~/App_Data/RadUploadTemp");
+   RadAsyncUpload1.TemporaryFolder = temporaryFolder;
    if (!Directory.Exists(RadAsyncUpload1.TemporaryFolder))
        Directory.CreateDirectory(RadAsyncUpload1.TemporaryFolder);
    ```
-   Avoid using relative paths or paths containing traversal segments.
+   Use the path form appropriate for the deployment and avoid values that do not resolve from the web application's server context.
 
 4. **Set Folder Permissions:**
-   Ensure the application pool identity has write permissions for the configured temporary folder. Use full control permissions if necessary for testing.
+   Ensure the Windows account used by the application pool can read and write to the configured temporary folder. Grant only the permissions required by the application. If you temporarily grant broad permissions to diagnose an access problem, remove them after testing and grant access to the actual application pool identity.
 
-5. **Enable Debug Logs:**
-   To enable detailed logging, add the following setting in your `web.config` file:
-   ```xml
-   <appSettings>
-       <add key="Telerik.AsyncUpload.Debug" value="true" />
-   </appSettings>
-   ```
-   Review the logs for additional error details.
+5. **Check the Upgrade and Security Configuration:**
+   Do not treat changing `TemporaryFolder` or reverting to the default as a general CVE remediation. Identify the security advisory that applies to your version and follow its version-specific mitigation. For example, the [CVE-2026-2878 guidance]({%slug kb-security-insufficient-entropy-cve-2026-2878%}) describes per-session temporary-folder isolation for affected versions, while the [CVE-2026-13181 guidance]({%slug kb-security-rau-asyncuploadtypename-deserialization-CVE-2026-13181%}) recommends upgrading and only describes disabling the handler when RadAsyncUpload is not needed.
+
+   If you are already using a patched version, do not disable `Telerik.Web.DisableAsyncUploadHandler` solely because a custom temporary folder fails validation. First resolve the path and application-pool configuration. The handler should be disabled only when uploads are not required or when a specific security advisory instructs you to do so.
 
 6. **Verify Server-Specific Configurations:**
-   Compare the IIS application path and resolved temporary folder path on the affected server with those of the working servers. Ensure consistency across all servers.
+   Compare the IIS application path, resolved temporary folder, application-pool identity, and relevant `web.config` keys on the affected server with those of working servers. In a web farm, also verify that the shared temporary and target locations are reachable from every server.
 
 ## See Also
 
-- [AsyncUpload Documentation](https://docs.telerik.com/devtools/aspnet-ajax/controls/asyncupload/overview)
-- [Mandatory Additions to the Web.Config](https://docs.telerik.com/devtools/aspnet-ajax/general-information/web-config-settings-overview#mandatory-additions-to-the-webconfig)
-- [AsyncUpload Security Documentation](https://www.telerik.com/products/aspnet-ajax/documentation/controls/asyncupload/security/security)
-```
+- [AsyncUpload Documentation]({%slug asyncupload/overview%})
+- [Mandatory Additions to the Web.Config]({%slug general-information/web-config-settings-overview%})
+- [AsyncUpload Security Documentation]({%slug asyncupload-security%})

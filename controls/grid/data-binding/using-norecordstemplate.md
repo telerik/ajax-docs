@@ -34,6 +34,19 @@ You can control the visibility of thetable/NoRecordsTemplate controls by using c
 </telerik:RadGrid>
 ````
 
+## Troubleshooting a missing no-records message
+
+If the template does not appear, check the following conditions:
+
+* Make sure **EnableNoRecordsTemplate** is enabled for the relevant **GridTableView**. If it is `false`, the grid does not render the `NoRecordsTemplate`.
+* Confirm that the table view is actually bound to an empty data source. With a declarative data source, set the correct **DataSourceID**. With programmatic binding, assign the data source in **NeedDataSource** and call `Rebind()` after an external filter or data change.
+* For a hierarchical grid, define the template on the detail **GridTableView** as well as the master table when the empty result belongs to a detail table. Populate detail templates in **DetailTableDataBind**.
+* If custom paging is enabled, update **VirtualItemCount** after filtering or changing the data. A stale nonzero count can prevent the grid from representing the result as empty.
+* If the grid or its parent is hidden during binding, make it visible and rebind it before checking the output. An invisible grid may not bind its data.
+* Inspect the rendered HTML for the no-records row before changing CSS or AJAX settings. If the row exists but is not visible, check the visibility and styles of the row and its parent. If the row is absent after an AJAX request, verify that the AJAX setting includes the grid's container in the updated region.
+
+The **NoMasterRecordsText** and **NoDetailRecordsText** properties are alternatives for localized plain text. A custom `NoRecordsTemplate` takes precedence over these properties when the template is enabled.
+
 
 
 **Define NoRecordsTemplate programmatically**

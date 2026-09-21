@@ -50,6 +50,12 @@ The table below demonstrates some general properties of the **Task** object.
 | **TaskType** |Telerik.Web.UI.Gantt.TaskType enumeration|Gets a value that determines the type of the task.|
 | **Title** |string|Gets or sets a value that determines the title of the task.|
 
+## Enforcing a maximum task depth
+
+Use **ParentID** to enforce hierarchy rules at the provider, web-service, or persistence boundary. For a two-level hierarchy, allow a new or moved task to have no parent or a parent whose own `ParentID` is empty. Reject an insert or update when the selected parent already has a parent. Apply the same validation to reordering operations that drop a task over another task and create a child relationship.
+
+The client `OnClientInserting` event can provide an earlier UI check, but it is not a replacement for server-side validation. This article does not document a RadGantt context-menu event or a supported per-task API for hiding the built-in **Add Child** command. Do not use RadTreeView context-menu events for RadGantt.
+
 
 ## Task Methods
 

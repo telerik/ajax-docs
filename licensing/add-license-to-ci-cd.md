@@ -3,7 +3,7 @@ title: Adding Your License Key to CI Services
 page_title: Adding Your License Key to CI Services
 description: Learn how to activate the Telerik UI for ASP.NET AJAX components by downloading and setting up your Telerik components license key for use in CI/CD environments.
 slug: licensing/add-license-to-ci-cd
-tags: telerik,webforms,components,license,activate,download,ci,cd,environment
+tags: telerik,webforms,components,license,activate,download,ci,cd,environment,web application,nuget,deployment key
 position: 2
 ---
 
@@ -25,6 +25,28 @@ To activate your license in a CI/CD environment:
 1. Copy the key value and store it securely.
 1. [Create an environment variable](#creating-an-environment-variable) named `TELERIK_LICENSE` and set it to the obtained key value. Alternatively, the key can be stored in a `telerik-license.txt` file, for example when using the [Azure Secure Files approach](#using-secure-files-on-azure-devops).
 
+## ASP.NET Web Application Build Flow
+
+Use the activation method that matches the project type and package setup:
+
+| Project setup | CI activation | Production deployment |
+|---|---|---|
+| Web Application using the `Telerik.Licensing` NuGet package | Provide `TELERIK_LICENSE` or `TELERIK_LICENSE_PATH` before the package restore and build. | Do not deploy `telerik-license.txt`; the license is consumed during the build. |
+| Web Application without NuGet | Generate the Script key source file from a protected CI secret, compile it with the application, and reference `Telerik.Licensing.Runtime.dll`. | Do not commit or publish the generated source file or the Script key. |
+| Web Site | Generate the Script key file in `App_Code` during the build. | Deploy the generated `App_Code` file as required for Web Site projects. |
+
+For a Web Application, keep license activation separate from package-feed authentication. `TELERIK_LICENSE` activates Telerik licensing; `TELERIK_NUGET_KEY` authenticates a private Telerik NuGet feed. Configure the feed credentials separately by following [NuGet Keys]({%slug deployment/nuget-keys%}).
+
+The provider-neutral build order is:
+
+1. Make the license secret available to the build process as `TELERIK_LICENSE`, or download a protected license file and set `TELERIK_LICENSE_PATH` to its path.
+1. Restore the solution or project, including the `Telerik.Licensing` package when the Web Application uses NuGet.
+1. Build the solution or project with the same configuration used for deployment.
+1. Publish the application without copying `telerik-license.txt`, `TELERIK_LICENSE`, or generated Script key source files into the deployment artifact.
+1. Remove downloaded or generated license material from the build workspace when the CI service does not clean it automatically.
+
+For a Web Application without NuGet, use the [CI Script key procedure]({%slug licensing-add-license-as-snippet-ci-cd%}) to generate the source file during the build. Do not place a real key in the pipeline definition, source control, or an example.
+
 ## Creating an Environment Variable
 
 The recommended approach for providing your license key to the `Telerik.Licensing` NuGet package is to use environment variables. Each CI/CD platform has a different process for setting environment variables and this article lists only some of the most popular examples.
@@ -35,12 +57,29 @@ The recommended approach for providing your license key to the `Telerik.Licensin
 
 1. Create a new [Repository Secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) or an [Organization Secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-an-organization).
 1. Set the name of the secret to `TELERIK_LICENSE` and paste the contents of the license file as a value.
-1. After running `npm install` or `yarn`, add a build step to activate the license:
+1. Expose the secret to the restore and build steps. The following example uses a Windows runner for an ASP.NET Web Application; replace `path/to/solution.sln` with the path to your solution:
 
 ```YAML
-env:
-    TELERIK_LICENSE: ${{ secrets.TELERIK_LICENSE }}
+name: Build ASP.NET Web Application
+
+on:
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: windows-latest
+        env:
+            TELERIK_LICENSE: ${{ secrets.TELERIK_LICENSE }}
+        steps:
+            - uses: actions/checkout@v4
+            - uses: microsoft/setup-msbuild@v2
+            - name: Restore packages
+                run: nuget restore path/to/solution.sln
+            - name: Build
+                run: msbuild path/to/solution.sln /p:Configuration=Release
 ```
+
+The license secret is available only to the build steps in this example. Do not add it to the workflow file or copy `telerik-license.txt` to the published application.
 
 ### Azure Pipelines
 

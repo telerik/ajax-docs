@@ -31,6 +31,28 @@ An unauthenticated remote attacker who successfully exploits this vulnerability 
 
 > Our only official recommendation is to upgrade to the patched release following the [Upgrade to a Newer Version](https://www.telerik.com/products/aspnet-ajax/documentation/upgrade-compatibility/upgrading-instructions/upgrading-a-trial-to-a-developer-license-or-to-a-newer-version) documentation. If you cannot upgrade immediately, visit the [Mitigation](#mitigation) section for temporary mitigation options.
 
+### Applicability when listed components are not used
+
+If an application does not use `RadAsyncUpload`, `RadPersistenceManager`, or `RadDockLayout`, the attack paths requiring those controls or their documented persistence providers may not apply. Verify this condition against the deployed application rather than relying only on page markup: check inherited and nested configuration, IIS handler mappings, custom handlers or alternate handler URLs, and any persistence provider or layout repository configured outside the page.
+
+This component-specific assessment does not establish that an older Telerik UI for ASP.NET AJAX release is safe overall. Other Telerik controls, handlers, and advisories have separate applicability conditions. The application version, deployed assemblies, enabled features, and effective configuration must be reviewed before deciding that an upgrade is unnecessary. The official recommendation remains upgrading to a supported release that contains the applicable security fixes.
+
+### Assembly presence versus reachable functionality
+
+Deploying `Telerik.Web.UI.dll` alone does not establish that any one of these seven CVEs is exploitable. Each documented path also depends on the corresponding feature and its runtime conditions:
+
+| CVE | Feature and condition to verify |
+|---|---|
+| [CVE-2026-13181]({%slug kb-security-rau-asyncuploadtypename-deserialization-cve-2026-13181%}) | `RadAsyncUpload` metadata processing and a reachable built-in or custom upload handler. |
+| [CVE-2026-13182]({%slug kb-security-rau-padding-oracle-cve-2026-13182%}) | `RadAsyncUpload` client-state processing and a reachable endpoint that exposes the documented decrypt/parse behavior. |
+| [CVE-2026-13183]({%slug kb-security-rau-timing-oracle-cve-2026-13183%}) | `RadAsyncUpload` upload-metadata processing and a reachable upload handler. |
+| [CVE-2026-13184]({%slug kb-security-rau-unauth-deserialization-chain-cve-2026-13184%}) | `RadAsyncUpload` processing together with the documented key or machine-key configuration conditions. |
+| [CVE-2026-13185]({%slug kb-security-persistence-cookie-deserialization-cve-2026-13185%}) | Cookie-backed `RadPersistenceManager` storage or `RadDockLayout` cookie persistence, with the persisted state processed. |
+| [CVE-2026-13186]({%slug kb-security-appdata-path-traversal-deserialization-cve-2026-13186%}) | File-based persistence with a `StorageProviderKey` that can be influenced by request data. |
+| [CVE-2026-13190]({%slug kb-security-persistence-framework-unsafe-type-resolution-CVE-2026-13190%}) | `RadPersistenceManager` processing attacker-influenced persisted state with the documented storage-key and type-resolution conditions. |
+
+The absence of a control from page markup is not by itself sufficient to prove that its path is unavailable. Verify parent and nested configuration, IIS handler mappings, custom handler URLs, indirect control usage, persistence-provider settings, `LoadState()` calls, and request-derived storage keys. Conversely, the presence of the assembly alone is not proof that these runtime conditions exist. This July bulletin is separate from the RadFilter advisory [CVE-2026-6023]({%slug kb-security-deserialization-of-untrusted-data-cve-2026-6023%}).
+
 If you have any questions or concerns related to this issue, please [log in to open a new Technical Support case](https://prgress.co/DevToolsSupport). If your version is no longer supported as part of the [Telerik UI for ASP.NET AJAX Release History](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history), you should upgrade to a supported and fixed version.
 
 ## Issue
@@ -52,6 +74,8 @@ To confirm your current version of Telerik UI for ASP.NET AJAX, open your projec
 ## Mitigation
 
 If you cannot upgrade immediately, apply all applicable mitigations from the checklist below.
+
+>important Per-session temporary-folder isolation is the mitigation documented for the separate **CVE-2026-2878** insufficient-entropy issue. It does not fix the July CVEs in this bulletin, which require their own configuration mitigations or an upgrade to `2026.2.708` or later. See the [CVE-2026-2878 guidance]({%slug kb-security-insufficient-entropy-cve-2026-2878%}) for that separate issue.
 
 | # | Check | Applies to |
 |---|---|---|

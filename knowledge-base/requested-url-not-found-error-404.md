@@ -29,6 +29,14 @@ When working with Telerik UI for ASP.NET AJAX, I get a 404 error that the reques
 
 To solve the issue, use any of the following approaches:
 
+* If the failing URL contains a session segment such as `/(S(...))/default.aspx`, check whether the application uses cookieless session state. URI-based session state inserts the session identifier into the request path, and routing, URL Rewrite rules, or IIS path handling can reject the resulting URL with a 404. As a diagnostic, switch the application to cookie-based session state and test the page again:
+
+	```XML
+	<sessionState mode="InProc" cookieless="UseCookies" timeout="80" />
+	```
+
+	If the page loads with `UseCookies`, the issue is related to the cookieless session URL rather than a Telerik `.axd` handler. Keep the required session mode and timeout for your application, and update the routing, rewrite, or IIS configuration if URI-based session state is required.
+
 * In the IIS management console, check that the `.axd` extension (the default HTTP handler extension) is allowed under the **Handler Mappings** feature of IIS:
 
 	![](images/axd-presence-and-file-mapping.png)
