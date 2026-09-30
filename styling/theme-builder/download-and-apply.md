@@ -28,8 +28,6 @@ The downloaded ZIP archive contains:
 
 * The stylesheet for the all components in the theme&mdash;`[SkinName].css`
 
-* A `.json` file that you can use to import the theme in ThemeBuilder and continue editing it.
-
 >note A ThemeBuilder export contains compiled CSS and a JSON project file. It is separate from the product source ZIP and is not a source-SCSS package. If you need raw skin source files, verify their availability in the exact product package or contact Telerik Support; do not infer source-file availability from a ThemeBuilder export.
 
 ![File Contents](images/themebuilder-download-and-apply-file-contents.png)
