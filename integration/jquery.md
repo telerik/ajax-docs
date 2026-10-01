@@ -99,6 +99,12 @@ You can find more information in the following KB article on the matter: [Vulner
 
 ## Including External jQuery
 
+### Choosing the jQuery source for current releases
+
+For current Telerik UI for ASP.NET AJAX releases, including the 2026 Q2 line, the embedded patched jQuery is the default path and does not require the `AspNet.ScriptManager.jQuery.UI.Combined` package. Use the `ExternaljQueryUrl` configuration described below only when the application requires an external jQuery file.
+
+Do not infer an `AspNet.ScriptManager.jQuery.UI.Combined` version from a NuGet dependency conflict or install an arbitrary version. That package may belong to a separate ASP.NET ScriptManager/jQuery UI scenario. Inspect the project's direct and transitive package references and confirm that the application needs the package before changing it; remove or update dependent packages together through the Visual Studio NuGet Package Manager.
+
 >caution jQuery 4.0.0 removed a few APIs Telerik components rely on, this version will not work.
 
 >important For Telerik versions before 2026 Q1, please follow the instructions from the [Include external jQuery for Telerik prior to version 2026 Q1]({%slug common-include-external-jquery-prior-2026-q1%}) article.

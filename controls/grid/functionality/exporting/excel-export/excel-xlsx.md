@@ -30,6 +30,8 @@ The assemblies that must be referenced in order to export RadGrid to Excel are:
 
 More information about the assemblies and how to reference them in your project can be found in the [Included assemblies]({%slug introduction/installation/included-assemblies%}) help article.
 
+>important The source namespace, NuGet package ID, DLL file name, and CLR assembly identity are separate values. After the Document Processing Libraries namespace migration, source code can use `Telerik.Documents.*` while a referenced assembly can still be named `Telerik.Windows.Documents.*.dll`. Therefore, a project-wide search that finds no `Telerik.Windows` source text does not prove that the runtime cannot require an assembly with that identity. Inspect the resolved package assets and deployed assemblies when diagnosing a `FileNotFoundException`.
+
 ## Usage
 
 In order to use this export format, be sure to reference the DPL assemblies and change the **Excel-Format** property to **Xlsx** within the `ExportSettings` element.
@@ -211,7 +213,7 @@ Example:
 
 ````C#
 // alias for the using used for shorter definition of the Workbook type
-using xlsx = Telerik.Windows.Documents.Spreadsheet.Model;
+using xlsx = Telerik.Documents.Spreadsheet.Model;
 
 // various ways to use the GenerateXlsxOutput() method
 byte[] outputAsByteArray =  RadGrid1.MasterTableView.GenerateXlsxOutput<byte[]>() as byte[];
@@ -221,7 +223,7 @@ string outputAsString2 = RadGrid1.MasterTableView.GenerateXlsxOutput();
 ````
 ````VB
 ' alias for the Import used for shorter definition of the Workbook type
-Imports xlsx = Telerik.Windows.Documents.Spreadsheet.Model
+Imports xlsx = Telerik.Documents.Spreadsheet.Model
 
 ' various ways to use the GenerateXlsxOutput() method
 Dim outputAsByteArray As Byte() = TryCast(RadGrid1.MasterTableView.GenerateXlsxOutput(Of Byte())(), Byte())

@@ -1,7 +1,8 @@
 ---
-title: Critical Security Bulletin - RadImageEditor and RadEditor Vulnerabilities Chained to Remote Code Execution (2026 Q3)
-description: "Critical security bulletin - vulnerabilities in RadImageEditor and RadEditor dialog handling can be chained to achieve remote code execution."
+title: Critical Security Bulletin - RadImageEditor and RadEditor CVE-2026-18672 and CVE-2026-19219 (2026 Q3)
+description: "Critical security bulletin for CVE-2026-18672 and CVE-2026-19219 affecting RadImageEditor and RadEditor DialogHandler through 2026.2.708 and fixed in 2026.3.812."
 slug: kb-security-radimageeditor-radeditor-rce-chain-bulletin-2026-q3
+tags: security, vulnerability, CVE-2026-18672, CVE-2026-19219, RadImageEditor, RadEditor, DialogHandler, 2026.3.812
 res_type: kb
 ---
 
@@ -11,7 +12,7 @@ res_type: kb
 
 - Progress® Telerik® UI for AJAX 2026 Q2 SP2 (2026.2.708) or earlier.
 
-A vulnerability in `RadImageEditor`, combined with a separate vulnerability affecting `RadEditor` dialog processing, can be chained by an unauthenticated remote attacker to obtain application configuration secrets and, from there, achieve Remote Code Execution (RCE) on the server hosting the application. This article describes the combined attack chain, its impact, and the actions required to remediate or mitigate the risk.
+This bulletin covers `CVE-2026-18672` in `RadImageEditor` and `CVE-2026-19219` in `RadEditor` DialogHandler. A vulnerability in `RadImageEditor`, combined with a separate vulnerability affecting `RadEditor` dialog processing, can be chained by an unauthenticated remote attacker to obtain application configuration secrets and, from there, achieve Remote Code Execution (RCE) on the server hosting the application. This article describes the combined attack chain, its impact, and the actions required to remediate or mitigate the risk.
 
 ### What Are the Symptoms?
 
@@ -54,6 +55,7 @@ Upgrading is the only remediation that fully closes this chain. There is no conf
 
 - Confirm the application pool identity does not have write access to the web application root, and disable script execution on any folder it can write to.
 - Remove the affected `RadImageEditor` and `RadEditor` controls from the page(s) until you can upgrade.
+- Do not treat blocking a literal request such as `/Telerik.Web.UI.WebResource.axd?type=iec` as a complete or confirmed mitigation. The repository does not establish that this query-string filter covers every handler mapping, alternate URL, encoding, casing, or configured `HttpHandlerUrl`. A request filter may reduce one observed route or break Image Editor functionality, but it does not replace upgrading to `2026.3.812` or later.
 - If the dialog/file-browser functionality is not required by your application, disable the dialog handler `Telerik.Web.UI.DialogHandler.aspx` in web.config:
      ```xml
      <system.web>
@@ -72,6 +74,16 @@ Upgrading is the only remediation that fully closes this chain. There is no conf
      </system.webServer>
      ```
 
+### Verify the Effective Handler Configuration
+
+The absence of `Telerik.Web.UI.DialogHandler` from one `system.web/httpHandlers` section does not by itself prove that the handler is inactive. ASP.NET and IIS configuration can be inherited from parent files, and the application can use an IIS mapping under `system.webServer/handlers` instead. Check the effective configuration for the deployed application, including parent and nested `web.config` files, in addition to the source `web.config`.
+
+IIS does not provide a single switch that reliably lists every handler loaded at runtime by an ASP.NET application. Use the IIS Manager **Handler Mappings** view or the supported IIS configuration tools to inspect the effective `system.webServer/handlers` section for the site and application. Treat this as configuration evidence, not as proof that an endpoint cannot be reached.
+
+When reviewing the mappings, search for entries whose `path` and `type` reference `Telerik.Web.UI.DialogHandler`. Do not assume that the `.aspx` example above is the only possible registration. Check for other configured extensions, such as `.ashx` or `.axd`, custom paths, and a `DialogHandlerUrl` value used by an application. Remove or deny each mapping only when the application does not require the related dialog or file-browser functionality.
+
+After reviewing the effective configuration, test each documented endpoint that is actually configured in the deployment with a controlled request. A handler-check response or a rejected request tests that particular path only; it does not prove that all alternate paths, inherited mappings, or related vulnerabilities are closed. Continue to treat upgrading to `2026.3.812` or later as the only complete remediation.
+
 ## Notes
 
 - If you have any questions or concerns related to this issue, open a new Technical Support case in [Your Account | Support Center](https://www.telerik.com/account/support-center/contact-us/). Technical Support is available to customers with an active support plan.
@@ -82,6 +94,9 @@ Upgrading is the only remediation that fully closes this chain. There is no conf
 ### Related CVEs
 
 The following individual vulnerabilities contribute to the chained RCE scenario described above. Each has a dedicated KB article with per-vulnerability details.
+
+* [RadImageEditor Path Traversal Vulnerability (CVE-2026-18672)]({%slug kb-security-rie-path-traversal-cve-2026-18672%})
+* [DialogHandler UploadPaths Tampering Vulnerability (CVE-2026-19219)]({%slug kb-security-dialoghandler-uploadpaths-tampering-cve-2026-19219%})
 
 ---
 

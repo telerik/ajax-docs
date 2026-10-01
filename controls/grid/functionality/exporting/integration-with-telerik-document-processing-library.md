@@ -322,6 +322,8 @@ The following steps walk you through the entire process of Exporting the a simpl
    - Telerik.Windows.Documents.Spreadsheet.FormatProviders.OpenXml.dll
    - Telerik.Windows.Zip.dll
 
+   The assembly names above are not the same thing as the source namespaces used in the code samples. The Document Processing Libraries namespace migration changed some source namespaces from `Telerik.Windows.*` to `Telerik.*`, while supported assembly identities can retain their `Telerik.Windows.*` names. Do not remove or replace an assembly based only on a search of source-code namespaces; inspect the resolved package assets and deployed files for the target framework and version.
+
 1. Using/Imports statement
 
 	````C#

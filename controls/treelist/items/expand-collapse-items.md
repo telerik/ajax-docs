@@ -100,6 +100,10 @@ Below is a list of the properties and methods that can be used with the expand/c
 | **set_clientExpanded(value)** | property | Sets the expanded state of an item. Note that *changing the state of an item will not expand or collapse it*. |
 | **toggleExpandCollapse** | method | Toggles the state of an item. |
 
+The client API does not define `null` as an expanded or collapsed state. If `get_clientExpanded()` returns `null`, do not treat it as a collapsed item or use it to decide whether to call `toggleExpandCollapse()`. `set_clientExpanded(value)` changes client state only; it does not expand or collapse the rendered item.
+
+The **OnTreeListCreated** event indicates that the client component was initialized, but it does not document that a data-bound operation has completed or that every item is ready for expansion. The available items also depend on the selected expand/collapse mode and binding model. If client expansion is not reproducible in a minimal example, use the server-side **ExpandAllItems()** API in `Server` mode or contact Telerik Support with the exact version, mode, binding configuration, and a reproduction. Do not throw an exception from a client event or rely on an arbitrary timeout; an exception can interrupt initialization and leave expand/collapse controls unusable.
+
 
 ## Item state persistance
 

@@ -110,6 +110,8 @@ The `Process` method returns an interface—`IAsyncUploadResult`. You can use it
 
 >note If you use this, see [Security - Custom Metadata]({%slug asyncupload-security%}#custom-metadata).
 
+>important If `FileUploadedEventArgs.UploadResult` throws `InvalidOperationException` with the message `This type is not allowed`, verify that the fully qualified name of the custom `IAsyncUploadResult` implementation is included in `Telerik.Upload.AllowedCustomMetaDataTypes`, together with any custom `IAsyncUploadConfiguration` type. Check the security guidance for the Telerik UI for ASP.NET AJAX version you deploy; this article does not define the release in which result-type validation changed.
+
 #### Send Information From the Handler to the Client
 
 To return custom information to the client:
