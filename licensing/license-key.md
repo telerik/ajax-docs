@@ -81,6 +81,17 @@ Web Applications projects that do not use NuGet and Web Site projects require an
 > - Web Applications without NuGet embed the license via an assembly attribute (e.g., in `AssemblyInfo.cs` or `TelerikLicense.cs`).
 > - Web Site projects cannot embed attributes into a compiled assembly, so the license file must remain in `App_Code` on the server.
 
+## Troubleshooting a Missing License in a Web Application
+
+If a Web Application still reports **No license found** after `telerik-license.txt` has been downloaded, verify that the file-based method can actually be used by the project and build process:
+
+1. Confirm that the project references the `Telerik.Licensing` NuGet package. A license file alone does not activate a Web Application that does not use this package; use the [Script key](#web-applications-without-nuget-and-web-sites) for a Web Application without NuGet.
+2. Confirm that the file is available to the account performing the build. The supported locations are the active user's `%AppData%\Telerik` directory and the project or solution root. In CI, provide the file or license environment variable to the build process rather than relying on a developer's profile.
+3. Check whether `TELERIK_LICENSE` or `TELERIK_LICENSE_PATH` is set. When multiple activation sources are present, an environment variable can take precedence over a license file; remove stale or invalid values before rebuilding.
+4. Delete stale `bin`, `obj`, and publish output, restore packages, and rebuild. Verify that the deployed `Telerik.Web.UI.dll` and `Telerik.Licensing.Runtime.dll` come from the intended build. Do not copy `telerik-license.txt` or a license key into the production artifact for a Web Application.
+5. Distinguish a build warning from a runtime banner or watermark. If the clean build is licensed but the published application still reports a licensing error, inspect the deployed assemblies and confirm that the publish step did not reuse an older artifact.
+6. For build and runtime troubleshooting steps, see [Telerik Licensing Diagnostics]({%slug licensing/troubleshooting%}#telerik-licensing-diagnostics).
+
 ## Using the Visual Studio Extensions Upgrade Wizard
 
 The [Telerik Visual Studio Extensions Upgrade Wizard]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/upgrade-wizard%}) provides automated assistance for license activation when upgrading your projects to the latest version of Telerik UI for ASP.NET AJAX.
@@ -96,6 +107,8 @@ When you run the Upgrade Wizard, it automatically checks for the `telerik-licens
 The wizard checks for the license file in:
 * Your user profile directory: `%AppData%\Roaming\Telerik\telerik-license.txt`
 * The project or solution root folder
+
+The documented Upgrade Wizard workflow does not require a command window, `C:\Windows\System32`, or administrator access. If a separate CLI is suggested by an account portal, verify that tool and command with Telerik licensing support before using it; this documentation does not define a Telerik CLI license-retrieval command.
 
 ### Script Key Assistance (Web Site Projects Only)
 

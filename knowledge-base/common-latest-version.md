@@ -1,11 +1,11 @@
 ---
 title: Find out which is the latest available version of Telerik UI for ASP.NET AJAX
-description: Learn how to find which is the latest version of Telerik UI for ASP.NET AJAX
+description: Learn how to find the latest Telerik UI for ASP.NET AJAX version, including the documented 2026 Q3 release and current download availability.
 type: how-to
 page_title: Which is the latest version of Telerik.Web.UI?
 slug: common-latest-version
 position: 
-tags: 
+tags: latest version, latest release, Q3 release, Telerik.Web.UI, download
 ticketid: 1587488
 res_type: kb
 ---
@@ -28,6 +28,8 @@ The solution demonstrates two different approaches to finding which is the lates
 You can use two approaches to see which is the latest version:
 
 * Review the [Release History page for Telerik UI for ASP.NET AJAX](https://www.telerik.com/support/whats-new/aspnet-ajax/release-history). The latest release is always on top.
+
+The repository's 2026 Q3 documentation identifies the Q3 release as **2026.3.812**. This release number is not a live availability or calendar-date guarantee; use the Release History and [Product Downloads](https://www.telerik.com/account/downloads/product-download?product=RCAJAX) pages to confirm the current release available to your account.
 
 * Make sure you have installed the [Telerik Visual Studio extension]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/overview%}) in your Visual Studio since they will automatically notify you about new UI for ASP.NET AJAX versions. For more information, review the [Download New Version article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/integration-with-visual-studio/visual-studio-extensions/automatic-latest-version-retrieval%})
 

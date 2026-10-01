@@ -28,10 +28,6 @@ The downloaded ZIP archive contains:
 
 * The stylesheet for the all components in the theme&mdash;`[SkinName].css`
 
-* A `.json` file that you can use to import the theme in ThemeBuilder and continue editing it.
-
-![File Contents](images/themebuilder-download-and-apply-file-contents.png)
-
 ## Applying
 
 There are several ways to register CSS files and they are described in this section. 
