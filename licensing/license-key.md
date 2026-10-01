@@ -90,7 +90,7 @@ If a Web Application still reports **No license found** after `telerik-license.t
 3. Check whether `TELERIK_LICENSE` or `TELERIK_LICENSE_PATH` is set. When multiple activation sources are present, an environment variable can take precedence over a license file; remove stale or invalid values before rebuilding.
 4. Delete stale `bin`, `obj`, and publish output, restore packages, and rebuild. Verify that the deployed `Telerik.Web.UI.dll` and `Telerik.Licensing.Runtime.dll` come from the intended build. Do not copy `telerik-license.txt` or a license key into the production artifact for a Web Application.
 5. Distinguish a build warning from a runtime banner or watermark. If the clean build is licensed but the published application still reports a licensing error, inspect the deployed assemblies and confirm that the publish step did not reuse an older artifact.
-6. Check whether the legacy `licenses.licx` file contains Telerik entries. This file is separate from the 2025 Q1 and later license-key mechanism. If other licensed .NET components use `licenses.licx`, remove only the Telerik entries. Otherwise, follow the [license-file error guidance]({%slug common-how-to-fix-license-file-related-errors%}) before deleting the file.
+6. For build and runtime troubleshooting steps, see [Telerik Licensing Diagnostics]({%slug licensing/troubleshooting%}#telerik-licensing-diagnostics).
 
 ## Using the Visual Studio Extensions Upgrade Wizard
 
