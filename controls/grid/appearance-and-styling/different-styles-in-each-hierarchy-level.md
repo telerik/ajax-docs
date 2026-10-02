@@ -1,7 +1,7 @@
 ---
 title: Different Styles in Each Hierarchy Level
 page_title: Different Styles in Each Hierarchy Level - RadGrid
-description: Check our Web Forms article about Different Styles in Each Hierarchy Level.
+description: Learn how to apply different CSS styles to each hierarchy level in a Telerik UI for ASP.NET AJAX RadGrid.
 slug: grid/appearance-and-styling/different-styles-in-each-hierarchy-level
 components: ["grid"]
 tags: different,styles,in,each,hierarchy,level
@@ -11,16 +11,14 @@ position: 13
 
 # Different Styles in Each Hierarchy Level
 
+Apply different appearance settings to each table in a hierarchical grid when a predefined [RadGrid skin]({%slug grid/appearance-and-styling/skins%}) is applied. Because skin definitions can override CSS classes on nested tables, add `!important` to the inner-table styles so they take precedence over the skin's `Styles.css` rules.
 
+The following approach works with both the Classic and Lightweight render modes:
 
-## 
-
-Sometimes you may search the option to have different appearance settings for the table in hierarchical grid when one of the predefined [ skins ]({%slug grid/appearance-and-styling/skins%}) is applied. Since the skin definitions will override any additional css classes for the nested tables, you will need to put an *!important* keyword to the corresponding inner tables styles in order to take precedence over the grid table rendering. Thus the corresponding appearance setting will dominate over the style specified in the **Styles.css** file of the chosen skin.
-
-Below is a sample approach that works for both RenderMode Classic and Lightweight:
+> caption Example: Styling each hierarchy level in a RadGrid
 
 ````ASP.NET
-<html ASP.NETns="https://www.w3.org/1999/xhtml">
+<html xmlns="https://www.w3.org/1999/xhtml">
 <head runat="server">
   <title>Styled hierarchical grid</title>
   <style type="text/css">
@@ -35,7 +33,7 @@ Below is a sample approach that works for both RenderMode Classic and Lightweigh
       background: orange !important;
       color: brown !important; /*add more style definitions here*/
     }
-    .InnerAlernatingItemStyle
+    .InnerAlternatingItemStyle
     {
       background: white !important;
       color: brown !important; /*add more style definitions here*/
@@ -51,7 +49,7 @@ Below is a sample approach that works for both RenderMode Classic and Lightweigh
       background: white !important;
       color: olive !important; /*add more style definitions here*/
     }
-    .MostInnerAlernatingItemStyle
+    .MostInnerAlternatingItemStyle
     {
       background: olive !important;
       color: white !important; /*add more style definitions here*/
@@ -75,7 +73,7 @@ Below is a sample approach that works for both RenderMode Classic and Lightweigh
             </ParentTableRelation>
             <HeaderStyle CssClass="InnerHeaderStyle" />
             <ItemStyle CssClass="InnerItemStyle" />
-            <AlternatingItemStyle CssClass="InnerAlernatingItemStyle" />
+            <AlternatingItemStyle CssClass="InnerAlternatingItemStyle" />
             <DetailTables>
               <telerik:GridTableView DataKeyNames="OrderID" DataSourceID="SqlDataSource3" Width="100%"
                 runat="server">
@@ -84,7 +82,7 @@ Below is a sample approach that works for both RenderMode Classic and Lightweigh
                 </ParentTableRelation>
                 <HeaderStyle CssClass="MostInnerHeaderStyle" />
                 <ItemStyle CssClass="MostInnerItemStyle" />
-                <AlternatingItemStyle CssClass="MostInnerAlernatingItemStyle" />
+                <AlternatingItemStyle CssClass="MostInnerAlternatingItemStyle" />
                 <Columns>
                   <telerik:GridBoundColumn SortExpression="UnitPrice" HeaderText="Unit Price" HeaderButtonType="TextButton"
                     DataField="UnitPrice" UniqueName="UnitPrice">
@@ -147,7 +145,11 @@ Below is a sample approach that works for both RenderMode Classic and Lightweigh
 </html>
 ````
 
-For fine tunning you can examine the RadGrid CSS in the Chrome DevTools and experiment with the styles as explained in the following blog post [Improve Your Debugging Skills with Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools#see-the-applied-styles).
+For fine-tuning, examine the RadGrid CSS in Chrome DevTools and experiment with the styles. For guidance, see [Improve Your Debugging Skills with Chrome DevTools](https://www.telerik.com/blogs/improve-your-debugging-skills-with-chrome-devtools#see-the-applied-styles).
+
+## See Also
+
+- [Understanding the hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%})
 
 
 
