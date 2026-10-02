@@ -1,7 +1,7 @@
 ---
 title: Customizing with GridTemplateColumn
 page_title: Customizing with GridTemplateColumn - RadGrid
-description: Check our Web Forms article about Customizing with GridTemplateColumn.
+description: Learn how to use GridTemplateColumn templates and nested HTML tables to create custom RadGrid headers and cell layouts.
 slug: grid/appearance-and-styling/customizing-with-gridtemplatecolumn
 components: ["grid"]
 tags: customizing,with,gridtemplatecolumn
@@ -11,13 +11,13 @@ position: 14
 
 # Customizing with GridTemplateColumn
 
+Use **GridTemplateColumn** when you need two-level headers or a complex structure for table cells. The following example uses **HTML tables** in the **HeaderTemplate** and **ItemTemplate**.
 
+> caption Figure 1: Custom header and item templates in a GridTemplateColumn
 
-## 
+![Custom header and item templates in a GridTemplateColumn](images/grd_ControllingVisualAppearance_HeaderTemlate.png)
 
-There are cases in which you may want to have two level headers or custom complex structure for your table cells. This appearance is attainable using **GridTemplateColumns** with **HTML tables** in the **HeaderTemplate/ItemTemplate**. Here is an example which holds two tables inside those templates:
-
-![Customizing the HeaderTemplate](images/grd_ControllingVisualAppearance_HeaderTemlate.png)
+> caption Example: Creating custom GridTemplateColumn headers and cells
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowSorting="True" AutoGenerateColumns="false">
@@ -61,7 +61,9 @@ There are cases in which you may want to have two level headers or custom comple
 </telerik:RadGrid>
 ````
 
-Handle the **NeedDataSource** event in the code behind:
+Handle the **NeedDataSource** event in the code-behind:
+
+> caption Example: Binding data to the GridTemplateColumn example
 
 ````C#
 private void RadGrid1_NeedDataSource(object source, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
@@ -101,3 +103,7 @@ End Sub
 
 
 You may also refer to the [following online example](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GeneralFeatures/ColumnTypes/DefaultCS.aspx) of Telerik RadGrid which demonstrates the usage of **GridTemplateColumn**.
+
+## See Also
+
+- [RadGrid column types]({%slug grid/columns/column-types%})

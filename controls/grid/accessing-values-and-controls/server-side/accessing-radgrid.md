@@ -1,14 +1,16 @@
 ---
 title: Accessing RadGrid
 page_title: Accessing the Grid Server-Side - RadGrid
-description: Check our Web Forms article about Accessing the Grid on server.
+description: Learn how to access a declarative or dynamically created RadGrid on the server side.
 slug: grid/accessing-values-and-controls/server-side/accessing-radgrid
 components: ["grid"]
 published: True
 position: 0
 ---
 
-# Accessing RadGrid on Server-Side
+# Accessing RadGrid on the Server Side
+
+You can access a RadGrid from its server-side declaration or from the container that holds a dynamically created instance.
 
 ## Declarative Grid
 

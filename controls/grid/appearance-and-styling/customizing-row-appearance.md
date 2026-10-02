@@ -1,7 +1,7 @@
 ---
 title: Customizing Row Appearance
 page_title: Customizing Row Appearance - RadGrid
-description: Learn how to customize the appearance of rows in the Grid control for better data visualization.
+description: Learn how to customize Telerik UI for ASP.NET AJAX RadGrid row styles for normal, alternating, selected, and edited rows.
 slug: grid/appearance-and-styling/customizing-row-appearance
 components: ["grid"]
 tags: customizing,row,appearance
@@ -13,23 +13,24 @@ position: 4
 
 
 
->note When you apply one of the external grid skins shipped with the installation, you will need to alter the corresponding classes inside the Skins/[Skins_Name]/[Control].[SkinName].css file (see[ this documentation topic]({%slug grid/appearance-and-styling/modifying-existing-skins%})for more details). This article information is applicable when you prefer not to use the skinning mechanism of Telerik RadGrid (choosing Skin="").
->
+>note When you apply an external grid skin, alter the corresponding classes in the `Skins/[SkinName]/[Control].[SkinName].css` file. See [Modifying Existing Skins]({%slug grid/appearance-and-styling/modifying-existing-skins%}) for more information. The examples in this article apply when you do not use the **RadGrid** skinning mechanism by setting **Skin** to an empty string.
 
 
 ## Normal Item
 
-These are the odd rows of the grid (rows 1 and 3 on the picture below).The appearance of the normal rows is controlled by the ItemStyle property.
+The normal rows are the odd-numbered rows in the image below. Their appearance is controlled by the **ItemStyle** property.
 
 ## Alternating Item
 
-These are the even rows of the grid (rows 2 and 4 on the picture below).The appearance of the alternating rows is controlled by the **AlternatingItemStyle** property.
+The alternating rows are the even-numbered rows in the image below. Their appearance is controlled by the **AlternatingItemStyle** property.
 
-![Normal and Alternating rows](images/grd_normal_alternating_styles.png)
+> caption Figure 1: Normal and alternating RadGrid rows
+
+![Normal and alternating RadGrid rows](images/grd_normal_alternating_styles.png)
 
 You can set the appearance of the normal and alternating rows programmatically or in the grid declaration:
 
-**Example:**
+> caption Example: Setting normal and alternating row styles
 
 
 
@@ -38,21 +39,23 @@ You can set the appearance of the normal and alternating rows programmatically o
 <AlternatingItemStyle BackColor="Orange" ... />
 <ItemStyle BackColor="White" ... />
 ````
-````VB
-Dim RadGrid1 As RadGrid = New RadGrid()
-RadGrid1.AlternatingItemStyle.BackColor = Color.Orange
-RadGrid1.ItemStyle.BackColor = Color.White
-````
 ````C#
 RadGrid RadGrid1 = new RadGrid();
 RadGrid1.AlternatingItemStyle.BackColor = Color.Orange;
 RadGrid1.ItemStyle.BackColor = Color.White;
 ````
+````VB
+Dim RadGrid1 As RadGrid = New RadGrid()
+RadGrid1.AlternatingItemStyle.BackColor = Color.Orange
+RadGrid1.ItemStyle.BackColor = Color.White
+````
 
 
 ## Selected Item
 
-You can customize the appearance of the selected row, using the **SelectedItemStyle** property:
+You can customize the appearance of the selected row by using the **SelectedItemStyle** property:
+
+> caption Example: Applying a selected-row style
 
 ````ASP.NET
 <style type="text/css">
@@ -90,11 +93,15 @@ You can customize the appearance of the selected row, using the **SelectedItemSt
 
 
 
-![SelectedItemStyle](images/grd_SelectedItemStyle.png)
+> caption Figure 2: Selected row style
+
+![Selected row style](images/grd_SelectedItemStyle.png)
 
 ## Edit Item
 
-You can customize the appearance of the selected row, using the **EditItemStyle** property:
+You can customize the appearance of the edited row by using the **EditItemStyle** property:
+
+> caption Example: Applying an edited-row style
 
 ````ASP.NET
 	        <style type="text/css">
@@ -130,4 +137,11 @@ You can customize the appearance of the selected row, using the **EditItemStyle*
 
 
 
-![](images/grd_EditItemStyle_thumb.png)
+> caption Figure 3: Edited row style
+
+![Edited row style](images/grd_EditItemStyle_thumb.png)
+
+## See Also
+
+* [RadGrid Skins]({%slug grid/appearance-and-styling/skins%})
+* [Modifying Existing Skins]({%slug grid/appearance-and-styling/modifying-existing-skins%})

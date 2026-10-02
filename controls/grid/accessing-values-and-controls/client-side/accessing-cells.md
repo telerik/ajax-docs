@@ -10,7 +10,7 @@ position: 3
 
 # Accessing Grid Cells, Cell Values and Raw DataKey Values Client-Side
 
-This article describes how to get a reference to the client-side object of a **GridDataItem** and how to access  its cell values from the client-side code.
+This article describes how to get a reference to the client-side object of a **GridDataItem** and how to access its cell values from client-side code.
 
 To [access the cell values](#step-2-access-the-cell-values), first, get a reference to the grid data item object by using one of the methods listed below.
 
@@ -44,7 +44,7 @@ To get a reference, you can either traverse the DOM, or access the data item by 
 		//you can use the other available methods of the item
 		//alert(gridRowObj.get_itemIndexHierarchical())
 	}
-	function enumareteDataItems(sender, args) {
+	function enumerateDataItems(sender, args) {
 		//enumerate the data items so they are available
 		//this puts them in memory, so you can move it to the button click handler
 		//which will, however, cause the enumeration on every click
@@ -55,9 +55,9 @@ To get a reference, you can either traverse the DOM, or access the data item by 
    Finally, add the grid declaration. Note the `ClientDataKeyNames` so you can access those columns client-side:
 
 	````ASP.NET
-	<telerik:RadGrid runat="server" ID="RadGrid1" RenderMode="Lightweight" OnItemCommand="RadGrid1_ItemCommand" OnNeedDataSource="RadGrid1_NeedDataSource">
+    <telerik:RadGrid runat="server" ID="RadGrid1" RenderMode="Lightweight" OnNeedDataSource="RadGrid1_NeedDataSource">
 		<ClientSettings>
-			<ClientEvents OnGridCreated="enumareteDataItems" />
+		<ClientEvents OnGridCreated="enumerateDataItems" />
 		</ClientSettings>
 		<MasterTableView AutoGenerateColumns="false" ClientDataKeyNames="id,name">
 			<Columns>

@@ -14,13 +14,13 @@ position: 2
 
 
 
-All Telerik for ASP.NET AJAX controls provide full support for ASP.NET AJAX Asynchronous JavaScript with XMLHttpRequests). These controls are built on top of the ASP.NET AJAX framework and provide seamless integration with it. The client object model follows the conventions of this framework.
+All Telerik UI for ASP.NET AJAX controls support ASP.NET AJAX, which uses asynchronous JavaScript and XMLHttpRequests. These controls are built on the ASP.NET AJAX framework and integrate with it. The client-side object model follows the conventions of this framework.
 
-The main idea of the AJAX framework is the elimination of full-page postbacks. In contrast, only the relevant parts of the page are updated, without a disturbing refresh The markup that is transferred between the client machine and the server is reduced dramatically, which results in a significant performance improvement.
+The main idea of the AJAX framework is to eliminate full-page postbacks. Instead, only the relevant parts of the page are updated without a full-page refresh. The markup transferred between the client and the server is reduced, which can improve performance.
 
 To enable ASP.NET AJAX with **RadGrid** for ASP.NET AJAX:
 
-1. Make sure you have the ASP.NET AJAX framework installed.
+1. Make sure that ASP.NET AJAX is installed and configured for the Web Forms application.
 
 1. Add the instance of **RadGrid** to a **RadAjaxManager** control. You can optionally provide it with a loading panel, as shown below:
 
@@ -44,8 +44,7 @@ To enable ASP.NET AJAX with **RadGrid** for ASP.NET AJAX:
 
 To enable or disable ASP.NET AJAX with the **RadAjaxManager**, set its **EnableAJAX** property to **True** or **False** accordingly.
 
->note ASP.NET AJAX is not a Telerik product.
->For further information about ASP.NET AJAX, refer to [ASP.NET AJAX Roadmap](https://msdn.microsoft.com/en-us/library/bb398822.aspx).
+>note ASP.NET AJAX is not a Telerik product. For more information, see the [ASP.NET AJAX Roadmap](https://msdn.microsoft.com/en-us/library/bb398822.aspx).
 >
 
 
@@ -55,19 +54,18 @@ If you receive exceptions such as:
 
 * System.Web.HttpException: The Controls collection cannot be modified because the control contains code blocks *
 
-you need to the code block inside RadCodeBlock, i.e.:
+wrap the code block inside `RadCodeBlock`, as shown in the following examples:
 
 **Incorrect:**
 
 ````ASP.NET
 <head runat="server">
   <script>
-  var grid = $find(<%= RadGrid1.ClientID %>);
-  ...
+  var grid = $find("<%= RadGrid1.ClientID %>");
   </script>
 </head>
 <body>
-  ...
+  <!-- page content -->
 </body>
 ````
 
@@ -79,22 +77,24 @@ you need to the code block inside RadCodeBlock, i.e.:
 <head runat="server">
   <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
     <script>
-    var grid = $find(<%= RadGrid1.ClientID %>);
-    ...
+    var grid = $find("<%= RadGrid1.ClientID %>");
     </script>
   </telerik:RadCodeBlock>
 </head>
 <body>
-  ...
+  <!-- page content -->
 </body>
-or
+````
+
+Alternatively, place the `RadCodeBlock` in the body:
+
+````ASP.NET
 <head runat="server">
 </head>
 <body>
   <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
     <script>
-    var grid = $find(<%= RadGrid1.ClientID %>);
-    ...
+    var grid = $find("<%= RadGrid1.ClientID %>");
     </script>
   </telerik:RadCodeBlock>
 </body>

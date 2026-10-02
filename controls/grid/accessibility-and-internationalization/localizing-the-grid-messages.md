@@ -1,7 +1,7 @@
 ---
 title: Localizing the Grid Messages
 page_title: Localizing the Grid Messages - RadGrid
-description: Check our Web Forms article about Localizing the Grid Messages.
+description: Learn how to localize RadGrid tooltips, pager messages, status text, grouping messages, and other GridTableView settings.
 slug: grid/accessibility-and-internationalization/localizing-the-grid-messages
 components: ["grid"]
 tags: localizing,the,grid,messages
@@ -18,26 +18,26 @@ position: 0
 Telerik RadGrid provides the following properties for localization of the hard-coded tooltips:
 
 
->caption  
+### Localizing grid tooltips
 
-|  **GridHierarchySettings** - **RadGrid.HierarchySettings**  |  |
+| **Setting** | **Description** |
 | ------ | ------ |
 | **ExpandTooltip** |The tooltip that will be displayed over the expand child tables button.|
 | **CollapseTooltip** |The tooltip that will be displayed over the collapse child tables button.|
-| **GridGroupingSettings - RadGrid.GroupingSettings** ||
+| **GridGroupingSettings - RadGrid.GroupingSettings** | Settings for grouping messages. |
 | **GroupContinuesFormatString** |The group header message, indicating that the group continues on the next page.|
 | **GroupContinuedFormatString** |The group header message, indicating that the group continues from the previous page.|
 | **ExpandTooltip** |The tooltip that will be displayed over the expand groups button.|
 | **CollapseTooltip** |The tooltip that will be displayed over the collapse groups button.|
 | **UnGroupTooltip** |The tooltip that will be displayed over the items in the group panel.|
-| **GridGroupPanelSettings - RadGrid.GroupPanel** ||
+| **GridGroupPanelSettings - RadGrid.GroupPanel** | Settings for the group panel. |
 | **Text** |The text that will be rendered inside the group panel when visible.|
-| **GridClientMessages** - **RadGrid.ClientSettings.ClientMessages** ||
+| **GridClientMessages - RadGrid.ClientSettings.ClientMessages** | Settings for client-side messages. |
 | **DropHereToReorder** |The tooltip that will be displayed when you start dragging a column.|
 | **DragToGroupOrReorder** |The tooltip that will be displayed when you hover a column header of draggable column.|
 | **DragToResize** |The tooltip that will be displayed when you hover the resizing handle of a column.|
 | **PagerTooltipFormatString** |The tooltip that will be displayed when you hover the vertical scroll when virtual scrolling is enabled. The format is "Page {0} of {1}"|
-| **GridSortingSettings - RadGrid.SortingSettings** ||
+| **GridSortingSettings - RadGrid.SortingSettings** | Settings for sorting messages. |
 | **SortToolTip** |The tooltip that will be displayed when you hover the sorting button and there is no sorting applied.|
 | **SortedAscToolTip** |The tooltip that will be displayed when you hover the sorting button and the column is sorted ascending.|
 | **SortedDescToolTip** |The tooltip that will be displayed when you hover the sorting button and the column is sorted descending.|
@@ -47,38 +47,38 @@ Telerik RadGrid provides the following properties for localization of the hard-c
 Telerik RadGrid provides the following properties for customizing the messages related to **GridTableView**.
 
 
->caption  
+### Localizing GridTableView messages
 
-|  **NoMasterRecordsText**  | The text that will be displayed in the **NoRecordsTemplate** when there are no records in the **MasterTableView** . |
+| **Property** | **Description** |
 | ------ | ------ |
+| **NoMasterRecordsText** | The text displayed in the **NoRecordsTemplate** when the **MasterTableView** has no records. |
 | **NoDetailRecordsText** |The text that will be displayed in the **NoRecordsTemplate** when there are no records in the Detail tables.|
 
 ## Localizing the GridStatusBarItem messages
 
 
->caption  
+### Localizing GridStatusBarItem messages
 
-|  **ReadyText**  | The text that will be displayed when Telerik RadGrid is not performing an AJAX request. |
+| **Property** | **Description** |
 | ------ | ------ |
-| **LoadingText** |The text that will be displayed when Telerik RadGrid is performing an AJAX request.|
+| **ReadyText** | The text displayed when RadGrid is not performing an AJAX request. |
+| **LoadingText** | The text displayed when RadGrid is performing an AJAX request. |
 
 
 
-## 
-
-Localizing the GridPagerItem messages
+## Localizing GridPagerItem messages
 
 
->caption 
+### Pager message properties
 
-|  **RadGrid.PagerStyle**  |  |
+| **Property** | **Description** |
 | ------ | ------ |
-|PrevPageToolTip|The tooltip that will be displayed over the previous page button.|
-|PrevPagesToolTip|The tooltip that will be displayed over the previous pages button.|
-|NextPageToolTip|The tooltip that will be displayed over the next page button.|
-|NextPagesToolTip|The tooltip that will be displayed over the next pages button.|
-|PagerTooltipFormatString|The tooltip that will be displayed when dragging the vertical scroll with virtual scrolling enabled. Same as the text under the RadGrid slider pager, changes will be propagated in both places if made.|
-|[PageTextFormat]({%slug grid/functionality/paging/changing-the-default-pager/using-pagertextformat%})|The text that will be displayed in the grid pager|
+| **PrevPageToolTip** | The tooltip displayed over the previous page button. |
+| **PrevPagesToolTip** | The tooltip displayed over the previous pages button. |
+| **NextPageToolTip** | The tooltip displayed over the next page button. |
+| **NextPagesToolTip** | The tooltip displayed over the next pages button. |
+| **PagerTooltipFormatString** | The tooltip displayed when dragging the vertical scroll with virtual scrolling enabled. Changes also apply to the text under the RadGrid slider pager. |
+| [PageTextFormat]({%slug grid/functionality/paging/changing-the-default-pager/using-pagertextformat%}) | The text displayed in the grid pager. |
 
 ## See Also
 

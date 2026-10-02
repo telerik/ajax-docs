@@ -1,7 +1,7 @@
 ---
 title: WCAG 2.0 and Section 508 Accessibility Compliance
 page_title: WCAG 2.0 and Section 508 Accessibility Compliance - RadGrid
-description: Check our Web Forms article about WCAG 2.0 and Section 508 Accessibility Compliance.
+description: Learn how RadGrid supports WCAG 2.0 and Section 508 accessibility through captions, summaries, tooltips, and accessible grid controls.
 slug: grid/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance
 components: ["grid"]
 tags: wcag,2.0,and,section,508,accessibility,compliance
@@ -13,11 +13,11 @@ position: 8
 
 
 
-## 
+## Configuring accessibility properties
 
-RadGrid for ASP.NET AJAX satisfies the requirements of "Section 508" for software accessibility, as well as thosefor level AA (in compliance with the W3C Web Accessibility Guidelines 2.0).
+RadGrid for ASP.NET AJAX satisfies the requirements of Section 508 for software accessibility and Level AA of the W3C Web Content Accessibility Guidelines (WCAG) 2.0.
 
-[This online example](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/accessibility/defaultcs.aspx) demonstrates how you can make RadGrid accessible by leveraging the settings for the different caption, tooltip and summary properties of the rendered HTML elements.
+[The RadGrid accessibility demo](https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/accessibility/defaultcs.aspx) demonstrates how to use caption, tooltip, and summary properties on rendered HTML elements.
 
 
 |  **Property**  |  **Description**  |
@@ -43,11 +43,11 @@ RadGrid for ASP.NET AJAX satisfies the requirements of "Section 508" for softwar
 | **GridBoolColumnEditor.ToolTip** |The ToolTip that will be applied to the CheckBox control.|
 | **GridTextColumnEditor.ToolTip** |The ToolTip that will be applied to the column editor initialized control.|
 
-Covering this criterion is very important when you wouldlike to make your components accessible to people with disabilities.
+These properties help make RadGrid accessible to people with disabilities.
 
 The Section 508 standards are listed on the official government site:
 
-[Section 508](http://www.section508.gov/)
+[Section 508 standards](http://www.section508.gov/)
 
 Here are the code snippets from the aforementioned sample:
 
@@ -99,7 +99,7 @@ protected void MyGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e
     e.Column.HeaderButtonType = GridHeaderButtonType.PushButton;
 }			
 ````
-````VB
+````VB.NET
 Protected Sub MyGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Web.UI.GridColumnCreatedEventArgs) Handles MyGrid1.ColumnCreated
     e.Column.HeaderButtonType = Web.UI.GridHeaderButtonType.PushButton
 End Sub
@@ -129,7 +129,7 @@ namespace Telerik.Web.UI
     }
 }			
 ````
-````VB
+````VB.NET
 Imports Telerik.Web.UI
 Namespace Telerik.Web.UI
  Public Class MySection508Grid Inherits RadGrid
@@ -144,4 +144,9 @@ Namespace Telerik.Web.UI
         End Class
     End Namespace
 ````
+
+## See Also
+
+- [WAI-ARIA Support]({%slug grid/accessibility-and-internationalization/wai-aria-support%})
+- [Keyboard Support]({%slug grid/accessibility-and-internationalization/keyboard-support%})
 
