@@ -43,4 +43,9 @@ Extracting values through the **ExtractValuesFromItem/ExtractValues** methods is
 
 The default value for this property is **"None"**, i.e. the data extraction will not be performed for read-only columns.
 
-For GridTemplateColumn instances, the `ExtractValues()` method will provide data in case there is a `<%#Bind("someColumn") %>` expression in the `EditItemTemplate` or `InsertItemTemplate`. For more complex scenarios or when you cannot use binding expressions, you need to use `.FindControl()` to access the custom controls and extract data: [Accessing Controls in Template Column]({%slug grid/accessing-values-and-controls/overview%}#accessing-controls-in-template-column).
+For **GridTemplateColumn** instances, the `ExtractValues()` method provides data when an `<%# Bind("someColumn") %>` expression exists in the `EditItemTemplate` or `InsertItemTemplate`. For more complex scenarios or when you cannot use binding expressions, use `.FindControl()` to access custom controls and extract data: [Accessing controls in a template column]({%slug grid/accessing-values-and-controls/overview%}#accessing-controls-in-template-column).
+
+## See Also
+
+- [Retrieving original values for an edited item]({%slug grid/data-editing/retrieving-original-values-for-edited-item%})
+- [Updating values using InPlace and EditForms modes]({%slug grid/data-editing/update-records/updating-values-using-inplace-and-editforms-modes%})

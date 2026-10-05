@@ -88,8 +88,7 @@ Private ReadOnly Property GridSource As DataTable
         If (Not obj Is Nothing) Then
             Return CType(obj, DataTable)
         Else
- Dim conn As New OleDbConnection"Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" + System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Nwind.mdb")
-            Dim conn As New OleDbConnection(cnctnString)
+            Dim conn As New OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source=" & System.Web.HttpContext.Current.Server.MapPath("~/App_Data/Nwind.mdb"))
             Dim adapter As New OleDbDataAdapter()
             adapter.SelectCommand = New OleDbCommand("SELECT TOP 10 OrderID, EmployeeID, OrderDate, ShipName FROM Orders", conn)
             Dim table As New DataTable()
@@ -301,5 +300,10 @@ For example, the columns below will populate the hash table with data for the "s
 </telerik:GridTemplateColumn>
 ````
 
-For more complex scenarios or when you cannot use binding expressions, you need to use `.FindControl()` to access the custom controls and extract data: [Accessing Controls in Template Column]({%slug grid/accessing-values-and-controls/overview%}#accessing-controls-in-template-column).
+For more complex scenarios or when you cannot use binding expressions, use `.FindControl()` to access custom controls and extract data: [Accessing controls in a template column]({%slug grid/accessing-values-and-controls/overview%}#accessing-controls-in-template-column).
+
+## See Also
+
+- [Extracting values from edited items]({%slug grid/data-editing/extracting-values%})
+- [Updating values using a UserControl and FormTemplate]({%slug grid/data-editing/update-records/updating-values-using-usercontrol-and-formtemplate%})
 

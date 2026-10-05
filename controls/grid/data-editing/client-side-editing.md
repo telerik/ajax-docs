@@ -13,8 +13,6 @@ position: 13
 
 
 
-## 
-
 RadGrid for ASP.NET AJAX supports client-side binding to web services or page methods as demonstrated in [this online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/InsertUpdateDelete/DefaultCS.aspx) of the product. In order to assign data source for the grid and refresh its state on the client, utilize the set_dataSource(dataSource) and dataBind() methods from its client-side API. Keep in mind that the data source passed as an argument to the set_dataSource method should have JSON signature which can be serialized by a web service or a page method.
 
 The example illustrates how to:
@@ -321,6 +319,9 @@ End Sub
 ````C#
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Globalization;
 using System.Text;
 using System.Web;
@@ -443,11 +444,46 @@ Imports System.Web.UI
 ````C#
 public class EmployeesList : List<Employee>
 {
-   #region Constuctors
+   #region Constructors
    public EmployeesList()
    {
        LoadAllEmployees();
    }
+   private void LoadAllEmployees()
+   {
+       if (Count > 0)
+       {
+           Clear();
+       }
+       SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["NorthwindConnectionString"].ConnectionString);
+       SqlCommand cmd = new SqlCommand("SELECT [EmployeeID], [LastName], [FirstName], [Title], [TitleOfCourtesy], [BirthDate], [Notes] FROM [Employees]", conn);
+       cmd.CommandType = CommandType.Text;
+       try
+       {
+           conn.Open();
+           SqlDataReader dr = cmd.ExecuteReader();
+           while (dr.Read())
+           {
+               Add(new Employee(dr));
+           }
+       }
+       finally
+       {
+           conn.Close();
+       }
+   }
+   public Employee GetEmployeeByEmployeeID(int id)
+   {
+       foreach (Employee employee in this)
+       {
+           if (employee.EmployeeID == id)
+           {
+               return employee;
+           }
+       }
+       return null;
+   }
+}
 ````
 ````VB
 Public Class EmployeesList
@@ -495,6 +531,55 @@ public class Employee
    private string _TitleOfCourtesy;
    private System.Nullable<System.DateTime> _BirthDate;
    private string _Notes;
+   public Employee()
+   {
+   }
+   public Employee(SqlDataReader reader)
+   {
+       _EmployeeID = Convert.ToInt32(reader["EmployeeID"]);
+       _LastName = reader["LastName"].ToString();
+       _FirstName = reader["FirstName"].ToString();
+       _Title = reader["Title"].ToString();
+       _TitleOfCourtesy = reader["TitleOfCourtesy"].ToString();
+       _BirthDate = Convert.ToDateTime(reader["BirthDate"]);
+       _Notes = reader["Notes"].ToString();
+   }
+   public int EmployeeID
+   {
+       get { return _EmployeeID; }
+       set { _EmployeeID = value; }
+   }
+   public string LastName
+   {
+       get { return _LastName; }
+       set { _LastName = value; }
+   }
+   public string FirstName
+   {
+       get { return _FirstName; }
+       set { _FirstName = value; }
+   }
+   public string Title
+   {
+       get { return _Title; }
+       set { _Title = value; }
+   }
+   public string TitleOfCourtesy
+   {
+       get { return _TitleOfCourtesy; }
+       set { _TitleOfCourtesy = value; }
+   }
+   public System.Nullable<System.DateTime> BirthDate
+   {
+       get { return _BirthDate; }
+       set { _BirthDate = value; }
+   }
+   public string Notes
+   {
+       get { return _Notes; }
+       set { _Notes = value; }
+   }
+}
 ````
 ````VB
 Public Class Employee
@@ -588,6 +673,11 @@ Public Class Employee
     End Property
 End Class
 ````
+
+## See Also
+
+- [Client-side delete operations]({%slug grid/data-editing/delete-records/client-side-delete%})
+- [Distinguishing edit and insert modes]({%slug grid/data-editing/distinguish-edit-or-insert-mode%})
 
 
 

@@ -392,4 +392,9 @@ The other option is to set **AppendDataBoundItems="true"** for a dropdown list (
 
 
 
-This is a codeless approach, however have in mind that this empty option will be displayed in the dropdown editor of an existing edited grid row as well.
+This is a codeless approach. However, the empty option is also displayed in the dropdown editor of an existing edited grid row.
+
+## See Also
+
+- [Inserting values using InPlace and EditForms modes]({%slug grid/data-editing/insert-records/inserting-values-using-inplace-and-editforms-modes%})
+- [Updating values using a UserControl and FormTemplate]({%slug grid/data-editing/update-records/updating-values-using-usercontrol-and-formtemplate%})

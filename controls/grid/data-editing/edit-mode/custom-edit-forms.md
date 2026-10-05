@@ -216,7 +216,7 @@ For a live example that shows a custom edit form implemented using a UserControl
 When **EditFormType** is "Template", you can supply a template that the table view uses to generate the edit form. To generate the template at design time, choose **Edit Templates** from the **RadGrid** Smart Tag. If the **EditFormType** for the table view has been set to "Template", the **EditFormTemplate** appears in the drop-down list of available templates. When you select that item, you can use the Template design surface to generate your template:
 >caption 
 
-![](images/EditFormTemplate.png)
+![RadGrid edit form template in the Visual Studio design surface](images/EditFormTemplate.png)
 
 ## Binding controls inside the template
 
@@ -358,4 +358,9 @@ Public Class MyEditFormTemplate Implements IBindableTemplate
     End Function
 End Class
 ````
+
+## See Also
+
+- [Edit forms]({%slug grid/data-editing/edit-mode/edit-forms%})
+- [Updating values using a UserControl and FormTemplate]({%slug grid/data-editing/update-records/updating-values-using-usercontrol-and-formtemplate%})
 

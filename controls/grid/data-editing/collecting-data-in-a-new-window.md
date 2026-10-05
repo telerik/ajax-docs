@@ -13,9 +13,7 @@ position: 9
 
 
 
-## 
-
-There are various cases in which you may want to get the content of the cells in a selected grid row (clicking a hyperlink in that row), pass this content in a query and open the results in a new window.Such scenario is easily handled by Telerik RadGrid. Here is a sample implementation technique:
+There are various cases in which you may want to get the content of the cells in a selected grid row (clicking a hyperlink in that row), pass this content in a query, and open the results in a new window. Such a scenario is easily handled by Telerik RadGrid. Here is a sample implementation technique:
 
 1. We use **GridHyperLink** column with **Target** property set to**_blank** to open a new window on user click;
 
@@ -73,7 +71,6 @@ protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEven
 }
 ````
 
-
 **Resources** file (ASPX and code-behind)
 
 
@@ -125,4 +122,9 @@ protected void Page_Load(object sender, System.EventArgs e)
     }
 }
 ````
+
+## See Also
+
+- [Edit forms]({%slug grid/data-editing/edit-mode/edit-forms%})
+- [Updating values using a UserControl and FormTemplate]({%slug grid/data-editing/update-records/updating-values-using-usercontrol-and-formtemplate%})
 

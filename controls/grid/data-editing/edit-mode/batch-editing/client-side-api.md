@@ -193,7 +193,7 @@ A common scenario of multiple Batch editing RadGrids that need to be submited at
 
  
 
-# See Also
+## See Also
 
  * [Batch Edit Mode Overview]({%slug grid/data-editing/edit-mode/batch-editing/overview%})
  * [Server-Side API]({%slug grid/data-editing/edit-mode/batch-editing/server-side-api%})
