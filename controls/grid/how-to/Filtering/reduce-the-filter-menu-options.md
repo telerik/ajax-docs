@@ -12,22 +12,24 @@ position: 2
 
 # Reduce the Filter Menu Options
 
+You can limit the filter functions displayed in a RadGrid filter menu by using either a client-side or a server-side approach.
 
+For per-column customization on the client, handle both of these events:
 
-##
+1. RadGrid's [OnFilterMenuShowing]({%slug grid/client-side-programming/events/onfiltermenushowing%}) event fires before the filter menu opens. Use its event arguments to identify the column whose menu is opening.
+2. The filter menu's [OnClientShowing]({%slug menu/client-side-programming/events/onclientshowing%}) event fires immediately before the menu is displayed. Use this handler to show or hide options based on the column captured in `OnFilterMenuShowing`.
 
-You can reduce the filter menu options to display only a subset of the available filter functions. There are two possible approaches - client-side and server-side.
+The two handlers work together: `OnFilterMenuShowing` provides the column context, and `OnClientShowing` lets you update the menu items before the menu appears. The filter menu's `OnClientShown` event fires after the menu is displayed, so it is not interchangeable with `OnClientShowing` when you need to change which options are shown.
 
-To limit the filter options displayed for a given column on the client, you need to intercept the [OnFilterMenuShowing]({%slug grid/client-side-programming/events/onfiltermenushowing%}) client event of RadGrid/[OnClientShown](https://www.telerik.com/help/aspnet-ajax/menu_clientsideonclientshown.html) event of the filter menu and hide some of the possible choices from within the body of the respective handler. This solution is suitable when you would like to customize the filter options on a per column basis and still have some of them displayed for particular columns despite they are hidden for others.
-
-Below is a sample code implementation (based on the approach explained above) that customizes the filter menu options for columns with *String* and *Int64 *data type. If no DataType is specified for the columns explicitly in their html markup, it will be taken from the data type of the underlying source field:
+The following example customizes the available filter functions for columns with `System.String` and `System.Int64` data types. It uses an in-memory `DataTable`, so it does not require a database or a Northwind connection string. If a column's `DataType` is not specified in the markup, RadGrid determines it from the corresponding field in the data source.
 
 
 
 ````ASP.NET
-<telerik:RadGrid RenderMode="Lightweight" AutoGenerateColumns="false" ID="RadGrid1" DataSourceID="SqlDataSource1"
+<telerik:RadGrid RenderMode="Lightweight" AutoGenerateColumns="false" ID="RadGrid1"
     Width="760px" AllowFilteringByColumn="True" AllowSorting="True" PageSize="15"
-    ShowFooter="True" AllowPaging="True" runat="server" GridLines="None" EnableLinqExpressions="false">
+    ShowFooter="True" AllowPaging="True" runat="server" GridLines="None" EnableLinqExpressions="false"
+    OnNeedDataSource="RadGrid1_NeedDataSource">
     <PagerStyle Mode="NextPrevAndNumeric" />
     <GroupingSettings CaseSensitive="false" />
     <MasterTableView AutoGenerateColumns="false" EditMode="InPlace" AllowFilteringByColumn="True"
@@ -66,11 +68,53 @@ Below is a sample code implementation (based on the approach explained above) th
         <Scrolling AllowScroll="false" />
         <ClientEvents OnFilterMenuShowing="filterMenuShowing" />
     </ClientSettings>
-    <FilterMenu OnClientShowing="MenuShowing" />
+    <FilterMenu OnClientShowing="filterMenuClientShowing" />
 </telerik:RadGrid>
-<br />
-<asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server"></asp:SqlDataSource>
+````
+````C#
+using System;
+using System.Data;
+using Telerik.Web.UI;
+
+protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
+{
+    var data = new DataTable();
+    data.Columns.Add("OrderID", typeof(long));
+    data.Columns.Add("ShipName", typeof(string));
+    data.Columns.Add("OrderDate", typeof(DateTime));
+    data.Columns.Add("ShippedDate", typeof(DateTime));
+    data.Columns.Add("ShipCountry", typeof(string));
+    data.Columns.Add("ShipPostalCode", typeof(string));
+    data.Columns.Add("Freight", typeof(decimal));
+
+    data.Rows.Add(10248L, "Ship Name 1", new DateTime(2024, 1, 1), new DateTime(2024, 1, 3), "France", "44000", 32.5m);
+    data.Rows.Add(10249L, "Ship Name 2", new DateTime(2024, 2, 1), new DateTime(2024, 2, 3), "Germany", "10115", 18.75m);
+    data.Rows.Add(10250L, "Ship Name 3", new DateTime(2024, 3, 1), new DateTime(2024, 3, 3), "Brazil", "01000", 45.00m);
+
+    ((RadGrid)sender).DataSource = data;
+}
+````
+````VB
+Imports System
+Imports System.Data
+Imports Telerik.Web.UI
+
+Protected Sub RadGrid1_NeedDataSource(sender As Object, e As GridNeedDataSourceEventArgs)
+    Dim data As New DataTable()
+    data.Columns.Add("OrderID", GetType(Long))
+    data.Columns.Add("ShipName", GetType(String))
+    data.Columns.Add("OrderDate", GetType(DateTime))
+    data.Columns.Add("ShippedDate", GetType(DateTime))
+    data.Columns.Add("ShipCountry", GetType(String))
+    data.Columns.Add("ShipPostalCode", GetType(String))
+    data.Columns.Add("Freight", GetType(Decimal))
+
+    data.Rows.Add(10248L, "Ship Name 1", New DateTime(2024, 1, 1), New DateTime(2024, 1, 3), "France", "44000", 32.5D)
+    data.Rows.Add(10249L, "Ship Name 2", New DateTime(2024, 2, 1), New DateTime(2024, 2, 3), "Germany", "10115", 18.75D)
+    data.Rows.Add(10250L, "Ship Name 3", New DateTime(2024, 3, 1), New DateTime(2024, 3, 3), "Brazil", "01000", 45.0D)
+
+    DirectCast(sender, RadGrid).DataSource = data
+End Sub
 ````
 ````JavaScript
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
@@ -78,22 +122,22 @@ Below is a sample code implementation (based on the approach explained above) th
     var column = null;
 
     function filterMenuShowing(sender, eventArgs) {
-      // Set value for column to be used in MenuShowing().
+            // Store the column for the filter menu handler.
       column = eventArgs.get_column();
     }
 
-    function MenuShowing(menu, args) {
+    function filterMenuClientShowing(menu, args) {
 
       if (column == null) return;
 
       // Iterate through filter menu items.
       var items = menu.get_items();
-      for (i = 0; i < items.get_count() ; i++) {
+            for (var i = 0; i < items.get_count(); i++) {
         var item = items.getItem(i);
         if (item === null)
           continue;
 
-        // Make adjustments based on data type.
+        // Adjust the visible options based on the column's data type.
         switch (column.get_dataType()) {
 
           case "System.String":
@@ -121,44 +165,43 @@ Below is a sample code implementation (based on the approach explained above) th
 </telerik:RadCodeBlock>
 ````
 
-When the FilterType is set to Combined, the HTML structure of the controls change, therefore, the JavaScript method must also be adjusted to target the right menu items. In case of "Classic" filter type, the filter Options are located as child items of the menu, while with Combined filter type, the filter options are the child item of another item:
+When `FilterType` is set to `Combined`, the filter options are nested under a menu item, so the handler must use that item's child collection. With the `Classic` filter type, the options are direct children of the menu. This difference is about `FilterType`, not the grid's `RenderMode`.
 
 ````JavaScript
 <script type="text/javascript">
     var column;
- 
+
     function filterMenuShowing(sender, args) {
         column = args.get_column();
     }
 
-    function MenuShowing(menu, args) {
- 
+    function filterMenuClientShowing(menu, args) {
+
         if (column == null) return;
- 
-        // get reference to the first item of the menu
+
+        // Get a reference to the first menu item.
         var firstMenuItem = menu.get_items().getItem(0);
- 
-        // If the first item has the class "RadFilterMenu_Combined" use its items to Reduce filter options
-        // otherwise use the Menu's items directly
+
+        // Combined filter options are nested; Classic filter options are direct menu items.
         var items = firstMenuItem.get_cssClass() === "RadFilterMenu_Combined" ? firstMenuItem.get_items() : menu.get_items();
- 
+
         // rest of the code...
     }
 </script>
 ````
 
 
-The following steps describe how to accomplish the same functionality server-side:
+To reduce the filter options server-side:
 
-1. Provide a handler for the grid's **Init** event.
+1. Handle the grid's **Init** event.
 
-1. In the **Init** event handler, use the grid's **FilterMenu** property to access the filtering menu. There is a single filtering menu server-side, which is cloned for each of the separate filter menus that appear client-side.
+2. In the **Init** handler, use the grid's **FilterMenu** property to access the filtering menu. RadGrid creates one server-side menu and clones it for the client-side menus.
 
-1. Traverse the items in the filtering menu and determine which of them should be removed by checking their **Text** property.
+3. Check each item's **Text** property to determine whether it should be removed.
 
-1. Remove any items that you do not want included in the filter menus using the **RemoveAt(index)** method of the filtering menu's **Items** collection.
+4. Remove unwanted items from the menu's **Items** collection by using **RemoveAt(index)**.
 
->note There is a single filtering menu object server-side. Not all of its items appear in every filter menu client-side. This way of implementation has been chosen to speed up the grid performance by merely creating one menu instance server side and cloning the instance for different columns. The filtering menu is independent for each column in RadGrid - this means that the filtering menu options vary by the **DataType** of the corresponding column. Hence integer column will have one set of filter menu options (EqualTo, NotEqualTo, GreaterThan, LessThan, etc.), string column will have additional options (Contains, StartsWith. etc.) and so on.However, if you remove some of the options from the menu on the server, this will affect all grid columns and they will be stripped from each column filter menu options (if available by default for that type of column).
+>note RadGrid creates one server-side filter menu and clones it for the client-side menus. The available options vary by column data type: for example, integer columns include comparison operators, while string columns also include options such as Contains and StartsWith. Removing an item from the server-side menu affects every column menu where that option would otherwise be available.
 >
 
 
