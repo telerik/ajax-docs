@@ -18,7 +18,7 @@ The simplest method of data-binding a **RadGrid** control is to use declarative 
 
 1. Create and configure the data source controls. **RadGrid** can be bound to any ASP.NET data source control, including **SqlDataSource**, **AccessDataSource**, **ObjectDataSource**, **XmlDataSource**, **EntityDataSource**, **OpenAccessDataSource**, **LinqDataSource** and **ObjectContainerDataSource**.
 
-1. At design time, Assign the **DataSourceID** property of the RadGrid (and of any detail tables) to the desired data source control.
+1. At design time, assign the **DataSourceID** property of the RadGrid (and of any detail tables) to the desired data source control.
 
 1. For hierarchical grids, set the **DataKeyNames** property for any parent table views.
 
@@ -64,7 +64,7 @@ For a tutorial that walks you through using the wizard to configure **SqlDataSou
 
 Once you have set up the data source controls, you need to pair each **GridTableView** with the appropriate data source control. You must first assign a data source for the top-level table in the grid. To do this, set the **DataSourceID** property of the **RadGrid** control. You can do this using the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}), or in the **RadGrid** Properties pane:
 
-![SetDataSource](images/grd_DataSourceControls_SetDataS.png)
+![RadGrid DataSourceID property in the Properties pane](images/grd_DataSourceControls_SetDataS.png)
 
 >caution You must set the **DataSourceID** property for the **RadGrid** object so that it is automatically bound on page load.
 >
@@ -80,9 +80,9 @@ Use the following steps when binding detail tables with the **RadGrid** properti
 
 1. Next, click on the General tab and select the **DataSource** dropdown control.
 
-1. Click on the desired datasource and the detail table will bound to it at run time.
+1. Click on the desired datasource and the detail table will be bound to it at run time.
 
-![Rad Grid grd datasourcecontrols setdetailpng](images/RadGrid_grd_datasourcecontrols_setdetailpng.png)
+![Selecting a data source for a RadGrid detail table](images/RadGrid_grd_datasourcecontrols_setdetailpng.png)
 
 ## Set the DataKeyNames property on parent tables
 
@@ -100,7 +100,7 @@ For each detail table, you need to indicate which fields in the **DataSource** f
 
 Still in the General tab, navigate to the **Parent Table relations** and set the appropriate fields for the master and detail key fields.
 
-![Rad Grid grd datasourcecontrols setrelatpng](images/RadGrid_grd_datasourcecontrols_setrelatpng.png)
+![Configuring parent table relations for a RadGrid detail table](images/RadGrid_grd_datasourcecontrols_setrelatpng.png)
 
 For each field that links the detail table to its parent, you must add a **GridRelationFields** object to the **ParentTableRelation** collection. Each **GridRelationFields** object has two properties:
 
@@ -148,5 +148,11 @@ The following declaration is the result of following the steps listed above:
   </SelectParameters>
 </asp:SqlDataSource>
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Programmatic data binding using the NeedDataSource event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
+- [Master/detail grids]({%slug grid/data-binding/master-detail-grids%})
 
 

@@ -24,8 +24,8 @@ When template fields are used into the Telerik data bound controls for customizi
    DataField="CategoryID" SortExpression="CategoryID">
    <ItemTemplate>
       <%# Eval("Category.CategoryName") %>
-   <ItemTemplate>
- </telerik:GridTemplateColumn
+     </ItemTemplate>
+ </telerik:GridTemplateColumn>
 ````
 
 
@@ -97,9 +97,9 @@ public IQueryable<Employee> GetProducts()
 } 
 ````
 ````VB.NET
-Private con As New DataClassesDataContext()
+Private context As New DataClassesDataContext()
 Public Function GetProducts() As IQueryable(Of Employee)
-	Return From e In context.Employeese
+    Return From e In context.Employees
 End Function
 
 ````
@@ -273,7 +273,7 @@ public void InsertProduct(int productID)
 	TryUpdateModel(pr);
 	if (ModelState.IsValid)
 	{
-		context.Products.InsertOnSubmit(p);
+        context.Products.InsertOnSubmit(pr);
 		context.SubmitChanges();
 	}
 }
@@ -283,7 +283,7 @@ Public Sub InsertProduct(productID As Integer)
 	Dim pr As New Product()
 	TryUpdateModel(pr)
 	If ModelState.IsValid Then
-		context.Products.InsertOnSubmit(p)
+        context.Products.InsertOnSubmit(pr)
 		context.SubmitChanges()
 	End If
 End Sub
@@ -404,7 +404,7 @@ public void InsertProduct(int productID)
 
     if (ModelState.IsValid)
     {
-        context.Products.InsertOnSubmit(p);
+        context.Products.InsertOnSubmit(pr);
         context.SubmitChanges();
     }
 }
@@ -424,7 +424,7 @@ Public Sub InsertProduct(productID As Integer)
 	TryUpdateModel(pr)
 
 	If ModelState.IsValid Then
-		context.Products.InsertOnSubmit(p)
+        context.Products.InsertOnSubmit(pr)
 		context.SubmitChanges()
 	End If
 End Sub
@@ -441,3 +441,9 @@ End Sub
 ## ModelBinding Limitations
 
 We do not support model binding when the **ViewState** of the page is **disabled**. In order to use the model binding you need to set **Page.EnableViewState = “true”**
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
+- [Programmatic data binding using the NeedDataSource event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})

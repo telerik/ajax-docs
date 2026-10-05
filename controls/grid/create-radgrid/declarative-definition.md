@@ -12,16 +12,12 @@ position: 2
 
 # Declarative Definition
 
-
-
-## 
-
 When defining **RadGrid** declaratively, the structure of the objects in the ASPX form mirrors the structure of the tables in the **RadGrid** control. Inside the **RadGrid** declaration, the [MasterTableView declaration]({%slug grid/structure/radgrid-and-mastertableview-difference%}) is nested. This corresponds to a **GridTableView** object for the top-level table in the grid. If the grid has a hierarchical structure, a **DetailTables** node is added to hold the detail tables for any table view that has children. Inside the **DetailTables** node, add the declarations for the **GridTableView** objects that represent each detail table.
 
 The following example shows the declaration of a three-tier hierarchical grid:
 
 
-#### Scenario - RadGrid Hierarchy with 3 levels
+## Scenario: RadGrid hierarchy with three levels
 
 ````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" Skin="Bootstrap" RenderMode="Lightweight"
@@ -120,5 +116,11 @@ End Class
   </SelectParameters>
 </asp:AccessDataSource>
 ````
+
+## See Also
+
+- [RadGrid and MasterTableView difference]({%slug grid/structure/radgrid-and-mastertableview-difference%})
+- [Creating a RadGrid programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
+- [Changing the Grid Structure Dynamically on Postback]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback%})
 
 

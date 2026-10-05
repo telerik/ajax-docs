@@ -1,30 +1,26 @@
 ---
-title: Command Reference 
+title: Command Reference
 page_title: Command Reference - RadGrid
 description: Check our Web Forms article about Command Reference.
 slug: grid/control-lifecycle/command-reference-
 components: ["grid"]
-tags: command,reference,
+tags: command,reference
 published: True
 position: 2
 ---
 
-# Command Reference 
-
-
-
-## 
+# Command Reference
 
 The ASP.NET page framework provides a technique called event bubbling that allows a child control to propagate events up its containment hierarchy. Event bubbling enables events to be raised from a more convenient location in the controls hierarchy and allows event handlers to be attached to the original control as well as to the control that exposes the bubbled event.
 
 When an event bubbles from a child control, RadGrid will fire **ItemCommand** event. A child control (such as a **Button** server control) raises a bubble event if you set any value in **CommandName** property.
 
-For example the command name is "DoInsert" , then RadGrid will fire **ItemCommandEvent** and the event argument of the handler function (generally the "**e**" variable ) will have the same command name , i.e. "**DoInsert**" as a value for the **e.CommandName** property. Moreover, the **e.Item** argument will be a reference to the **Item** which is the parent of the control raised the bubble event (i.e. the **Item** where the button resides).Some command names are predefined in **RadGrid** and the control will respond to them automatically (like the value of **RadGrid.InitInsertCommandName** constant or **RadGrid.RefreshGridCommandName**). The integrated paging in **RadGrid** is also based on commands, with **CommandName** "**Page**" (or **RadGrid.PageCommandName**) and command various arguments for different paging operations like the string "Next","Prev" or "First".
+For example, if the command name is "DoInsert", RadGrid will fire the **ItemCommand** event and the event argument of the handler function (generally the "**e**" variable) will have the same command name, that is, "**DoInsert**" as a value for the **e.CommandName** property. Moreover, the **e.Item** argument will be a reference to the **Item** which is the parent of the control that raised the bubble event (that is, the **Item** where the button resides). Some command names are predefined in **RadGrid** and the control will respond to them automatically (like the value of **RadGrid.InitInsertCommandName** constant or **RadGrid.RefreshGridCommandName**). The integrated paging in **RadGrid** is also based on commands, with **CommandName** "**Page**" (or **RadGrid.PageCommandName**) and command arguments for different paging operations like the strings "Next", "Prev", or "First".
 
 Here is a list of the available command names in Telerik RadGrid:
 
 
->caption  
+> caption Table 1: Command names and the controls that raise them
 
 | Fired By controls within **DataItems** - showing and editing data |  |
 | ------ | ------ |
@@ -37,20 +33,20 @@ Here is a list of the available command names in Telerik RadGrid:
 |Fired by controls within Items that have child items (in hierarchy structures or group structures)||
 | **ExpandCollapseCommandName** |Toggles the expanded state of the child items.|
 |Can be fired by controls within any Item||
-| **InitInsertCommandName** |By default grid renders [Add new record] image button in the **CommandItem** . Opens the insert item.|
-| **PerformInsertCommandName** |Fires **RadGrid.InsertCommand** event. Under .Net 2.0 Perfoms this command can perform automatic insert operation and close the insert item.|
+| **InitInsertCommandName** |By default, the grid renders the [Add new record] image button in the **CommandItem**. Opens the insert item.|
+| **PerformInsertCommandName** |Fires the **RadGrid.InsertCommand** event. Under .NET 2.0, this command can perform an automatic insert operation and close the insert item.|
 | **RebindGridCommandName** |By default grid renders [Refresh] image button in the **CommandItem** . Forces **RadGrid.Rebind** |
-| **SortCommandName** |Represents the Sort command name.By default it is fired by image buttons in the header item when Sorting is enabled. The argument for the **SortCommand** must be the **DataField** name for the **DataField** to be sorted.|
+| **SortCommandName** |Represents the Sort command name. By default, it is fired by image buttons in the header item when sorting is enabled. The argument for the **SortCommand** must be the **DataField** name for the **DataField** to be sorted.|
 | **ExportToExcelCommandName** |Exports grid data in Microsoft Excel ® format. You will need to [configure exporting settings]({%slug grid/functionality/exporting/overview%}) for the grid through the **RadGrid.ExportSettings** section.|
 | **ExportToWordCommandName** |Exports grid data in Microsoft Word ® format. You will need to [configure exporting settings]({%slug grid/functionality/exporting/overview%}) for the grid through the **RadGrid.ExportSettings** section.|
 | **ExportToPdfCommandName** |Exports grid data in PDF format. You will need to [configure exporting settings]({%slug grid/functionality/exporting/overview%}) for the grid through the **RadGrid.ExportSettings** section.|
 | **ExportToCsvCommandName** |Exports grid data in CSV format (comma-separated values). You will need to [configure exporting settings]({%slug grid/functionality/exporting/overview%}) for the grid through the **RadGrid.ExportSettings** section.|
 |Fired by controls within **PagerItem** ||
-| **PageCommandName** |Represents the Page command name.See also: [Paging]({%slug grid/functionality/paging/overview%})|
+| **PageCommandName** |Represents the Page command name. See also: [Paging]({%slug grid/functionality/paging/overview%})|
 |Fired when the PageSize property is set and changed.||
 | **ChangePageSizeCommandName** |Fires **RadGrid.PageSizeChanged** event.|
 |Fired when choosing an option from the filter menu within **column header** ||
-| **FilterCommandName** |Represents the Filter command name.See also: [Operating with filter expression]({%slug grid/how-to/filtering/operate-with-the-filterexpression-manually%})|
+| **FilterCommandName** |Represents the Filter command name. See also: [Operating with filter expression]({%slug grid/how-to/filtering/operate-with-the-filterexpression-manually%})|
 |Batch commands||
 | **EditSelectedCommandName** |Switches the selected grid items in edit mode automatically|
 | **DeleteSelectedCommandName** |Fires **RadGrid.DeleteCommand** event for the selected rows. Under .Net 2.0 can perform automatic delete operation for the selected rows.|
@@ -80,10 +76,10 @@ The user control buttons **Update** and **Cancel** have **CommandName** property
 
 When "Update" command bubbles, **RadGrid** will fire first **ItemCommand** event, and if the event is not canceled (**e.Canceled** set to false) then RadGrid will fire **UpdateCommand** event and then it will refresh automatically.
 
-The "Cancel" command will close the edited item and will automatically refresh the grid.Furthermore, here are the internally recognized command arguments you can check:
+The "Cancel" command will close the edited item and will automatically refresh the grid. Furthermore, here are the internally recognized command arguments you can check:
 
 
->caption  
+> caption Table 2: Paging command arguments
 
 | Paging command arguments |  |
 | ------ | ------ |
@@ -95,3 +91,9 @@ The "Cancel" command will close the edited item and will automatically refresh t
 
 
 Note that you can also set the **CommandArgument** property of a built-in GridButtonColumn or a LinkButton/Button/ImageButton residing in GridTemplateColumn to a custom value and then intercept the ItemCommand event to determine the command argument for the clicked button (if needed).
+
+## See Also
+
+- [Commands that invoke Rebind implicitly]({%slug grid/control-lifecycle/commands-that-invoke-rebind-implicitly%})
+- [How to Fire Command Events]({%slug grid/control-lifecycle/how-to-fire-command-events%})
+- [Event sequence]({%slug grid/control-lifecycle/event-sequence%})

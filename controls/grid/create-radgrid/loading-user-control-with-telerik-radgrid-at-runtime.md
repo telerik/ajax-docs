@@ -12,10 +12,6 @@ position: 5
 
 # Loading User Control with Telerik RadGrid at Runtime
 
-
-
-## 
-
 When adding a user control that contains a **RadGrid** instance into a panel at runtime (by calling the **LoadControl** method), the events for the user control may not fire on postback unless you load the control in the **Page_Load** event of the main page. This is the reason the designers of ASP.NET made the **Page_Load** event execute before postback events: to give you a chance to reload controls so that their events can fire.
 
 The problem with loading a user control at a later time (for example inside the server-side event handler of another control on the page) is that the browser cannot send your page events for controls that don't exist. Even if the controls are added at runtime the last time the code ran, at a later stage they're gone, and their events can't fire.
@@ -24,7 +20,7 @@ In a nutshell - you need to recreate (in the page load event) the state of the p
 
 
 
-````C#	
+````C#
 protected void Page_Load(object sender, EventArgs e)
 {
     if (Page.FindControl("myUC") == null)
@@ -72,3 +68,9 @@ End Sub
 
 
 For more information on loading user controls dynamically, see [Load UserControls](https://www.telerik.com/help/aspnet-ajax/ajxLoadUserControls.html).
+
+## See Also
+
+- [Create RadGrid overview]({%slug grid/create-radgrid/overview%})
+- [Creating a RadGrid programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
+- [Design-time RadGrid creation]({%slug grid/create-radgrid/design-time%})

@@ -12,10 +12,6 @@ previous_url: controls/grid/data-binding/understanding-data-binding/server-side-
 
 # Population/Data Editing with XmlDataSource Control
 
-
-
-## 
-
 **RadGrid** can use the **XmlDataSource** control to generate its content from **XML** and perform data editing operations. Note that [automatic update, insert, and delete operations]({%slug grid/data-editing/automatic-datasource-operations%}), which work with other data source controls such as **AccessDataSource**, **SqlDataSource**, and **ObjectDataSource**, do not work when using **XmlDataSource**. If you want to enable editing, you must write custom code to modify data in the XML source file.
 
 The following restrictions apply to editing XML data when using **XmlDataSource** control:
@@ -42,11 +38,12 @@ The following restrictions apply to editing XML data when using **XmlDataSource*
       <telerik:GridButtonColumn CommandName="Delete" Text="Delete" UniqueName="DeleteColumn">
       </telerik:GridButtonColumn>
     </Columns>
-  </MasterTableView></telerik:RadGrid>
+    </MasterTableView></telerik:RadGrid>
+<asp:Label ID="lblMsg" runat="server" />
 <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/Xml/XmlDataSourceExampleTemp.xml">
 </asp:XmlDataSource>
 ````
-````C#	
+````C#
 protected void RadGrid1_UpdateCommand(object source, GridCommandEventArgs e)
 {
     GridEditFormItem gridEditFormItem = (GridEditFormItem)e.Item;
@@ -207,3 +204,9 @@ End Function
 
 
 For a live example of a **RadGrid** that supports editing when bound to **XmlDataSource**, see [Editing XML using XmlDataSource](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/XmlDataSource/DefaultCS.aspx).
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
+- [Automatic data source operations]({%slug grid/data-editing/automatic-datasource-operations%})

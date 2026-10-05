@@ -19,11 +19,11 @@ The columns in a **GridTableView** contain a header, a set of items, and a foote
 
 ## Header
 
-The Header (**GridHeaderItem**) is the cell on the top of each grid column. Header cells always appear for all grid columns unless the **ShowHeader** property of the grid (or table view) is **False**. By default, the **ShowHeader** property for the grid and all its table views is **True**.The Header remains persistent when the pages of the grid change.
+The Header (**GridHeaderItem**) is the cell at the top of each grid column. Header cells always appear for all grid columns unless the **ShowHeader** property of the grid (or table view) is **False**. By default, the **ShowHeader** property for the grid and all its table views is **True**. The Header remains persistent when the pages of the grid change.
 
 From Q2 2012 on the grid column headers can be grouped together under a multi-column header. You can find more info here: [Multicolumn Headers]({%slug grid/columns/multicolumn-headers%}).
 
-You can customize the appearance of the header using the [RadGrid property builder]({%slug grid/design-time/overview%}) or the **HeaderStyle** section of the RadGrid property pane. From the Q3 2013 Beta release the headers text can be rotated by assigning a **rgRotateHeader** class as demonstrated below.
+You can customize the appearance of the header using the [RadGrid property builder]({%slug grid/design-time/overview%}) or the **HeaderStyle** section of the RadGrid property pane. From the Q3 2013 Beta release, the header text can be rotated by assigning a **rgRotateHeader** class as demonstrated below.
 
 ````ASP.NET
 <HeaderStyle CssClass="rgRotateHeader" />
@@ -45,7 +45,7 @@ The column header allows the user to perform the following special functions:
 
 Column **Items** are the regular data cells of the grid. Neighboring items form a single [row]({%slug grid/rows/data-items%}).
 
-Each [column type]({%slug grid/columns/column-types%}) that displays data has a property which is responsible for formatting the values in the items section of the column, using the formatting rules defined in ASP.NET. For example, if you have a **GridBoundColumn** with a **DataType** of "DateTime", setting the **DataFormatString** property to "{0:d}" causes it to display its value using the short date representation format).
+Each [column type]({%slug grid/columns/column-types%}) that displays data has a property which is responsible for formatting the values in the items section of the column, using the formatting rules defined in ASP.NET. For example, if you have a **GridBoundColumn** with a **DataType** of "DateTime", setting the **DataFormatString** property to "{0:d}" causes it to display its value using the short date representation format.
 
 When using a bound column populated with values of type **System.Double**, the contents with precision above 15 digits are automatically rounded. This can produce erratic behavior, for example when filtering. If this is a problem for your grid, you can use the **DataFormatString** to increase the precision of the bound column. This is illustrated in the code sample below:
 
@@ -56,7 +56,7 @@ When using a bound column populated with values of type **System.Double**, the c
 ````
 
 
-The following MSDN articals provide additional information about formatting, format strings, and DateTime formatting:
+The following MSDN articles provide additional information about formatting, format strings, and DateTime formatting:
 
 * [Formatting Overview](https://learn.microsoft.com/en-us/dotnet/standard/base-types/formatting-types)
 
@@ -80,7 +80,7 @@ Sorting is controlled by [sorting expressions]({%slug grid/functionality/sorting
 
 ## Grouping
 
-**RadGrid** can group its items based on the value of the items in a column. In addition to (or instead of) letting users group data using **GridGroupPanel**, you can group the data in the grid by setting the **GroupByExpressions** property of a table view in the grid. You can set the group-by expressions [declaratively]({%slug grid/functionality/grouping/group-by-expressions/declarative-definition%}) at design time, or [programatically]({%slug grid/functionality/grouping/group-by-expressions/programmatic-definition%}) in the code-behind.
+**RadGrid** can group its items based on the value of the items in a column. In addition to (or instead of) letting users group data using **GridGroupPanel**, you can group the data in the grid by setting the **GroupByExpressions** property of a table view in the grid. You can set the group-by expressions [declaratively]({%slug grid/functionality/grouping/group-by-expressions/declarative-definition%}) at design time, or [programmatically]({%slug grid/functionality/grouping/group-by-expressions/programmatic-definition%}) in the code-behind.
 
 ## Filtering
 
@@ -124,7 +124,7 @@ The **Display**, **Visible**, and **ReadOnly** properties of a column let you co
 
 When the grid is in edit mode, users can edit the data in the columns in one of two ways:
 
-* If the table view's **EditMode** property is "InPlace", the ;content of all cells in editable columns (columns that represent editable data that do not have **ReadOnly** set to **True**), changes into a column editor. For example, a cell in **GridBoundColumn** becomes a text box so that users can edit the text. For more information about in-place editing, see [In place]({%slug grid/data-editing/edit-mode/in-place%}).
+* If the table view's **EditMode** property is "InPlace", the content of all cells in editable columns (columns that represent editable data that do not have **ReadOnly** set to **True**) changes into a column editor. For example, a cell in **GridBoundColumn** becomes a text box so that users can edit the text. For more information about in-place editing, see [In place]({%slug grid/data-editing/edit-mode/in-place%}).
 
 * If the table view's Edit Mode is not "InPlace", the content of the cells remains the same, but an edit form that contains the column editors appears. For information about edit forms, see [Edit forms]({%slug grid/data-editing/edit-mode/edit-forms%}).
 
@@ -132,7 +132,7 @@ When the grid is in edit mode, users can edit the data in the columns in one of 
 
 You can programmatically add columns in the code-behind by adding column objects to the **Columns** property collection of **GridTableView**.
 
->caution When creating columns programatically, use the **Columns** property of the **GridTableView** , *NOT* its **RenderColumns** or **AutoGeneratedColumns** property. Adding columns to one of the latter two collections will not affect the appearance of the grid.
+>caution When creating columns programmatically, use the **Columns** property of the **GridTableView**, *NOT* its **RenderColumns** or **AutoGeneratedColumns** property. Adding columns to one of the latter two collections will not affect the appearance of the grid.
 >
 
 
@@ -150,7 +150,7 @@ boundColumn.HeaderText = "CustomerID";
 RadGrid1.MasterTableView.Columns.Add(boundColumn);
 ````
 ````VB
-Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
+Dim boundColumn As GridBoundColumn = New GridBoundColumn()
 boundColumn.UniqueName = "CustomerID"
 boundColumn.DataField = "CustomerID"
 boundColumn.HeaderText = "CustomerID"
@@ -170,7 +170,7 @@ boundColumn.DataField = "CustomerID";
 boundColumn.HeaderText = "CustomerID";
 ````
 ````VB
-Dim boundColumn As GridBoundColumnboundColumn = New GridBoundColumn()
+Dim boundColumn As GridBoundColumn = New GridBoundColumn()
 RadGrid1.MasterTableView.Columns.Add(boundColumn)
 boundColumn.UniqueName = "CustomerID"
 boundColumn.DataField = "CustomerID"
@@ -221,7 +221,7 @@ End Sub
 ````
 
 
->note Note that by default the header text of the auto generated columns is the name of the data field split by capital letters. To control this behavior you can use the **EnableSplitHeaderText** property. Its default value is true. If you set it to false, the header text will be the same as the name of the data field.
+>note By default, the header text of the auto-generated columns is the name of the data field split by capital letters. To control this behavior, you can use the **EnableSplitHeaderText** property. Its default value is true. If you set it to false, the header text will be the same as the name of the data field.
 >
 
 
@@ -264,4 +264,4 @@ For more information about the auto-generated and declarative columns collection
 
 ## See Also
 
- * [Creating a RadGrid Programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
+- [Creating a RadGrid Programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})

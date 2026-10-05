@@ -11,10 +11,6 @@ position: 4
 
 # Master Detail Grids
 
-
-
-## 
-
 **RadGrid** provides support for master/detail relationships that use related grids which appear side-by-side, rather than nesting detail grids inside the records of the grid that displays the master table.
 
 To achieve this behavior,
@@ -139,7 +135,7 @@ In the code-behind, you can use the **Page_PreRender** event to initialize the s
 
 
 
-````C#	
+````C#
 protected void Page_PreRender(object sender, EventArgs e)
 {
     if (RadGrid1.SelectedIndexes.Count == 0 && RadGrid2.SelectedIndexes.Count == 0)
@@ -159,4 +155,10 @@ End Sub
 ````
 
 
-For a live example of related grids, see [ Related grids](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectedValue/DefaultCS.aspx)
+For a live example of related grids, see [Related grids](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectedValue/DefaultCS.aspx)
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
+- [Programmatic data binding using the NeedDataSource event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})

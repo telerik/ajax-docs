@@ -11,10 +11,6 @@ position: 6
 
 # Programmatic Creation from XML
 
-
-
-## 
-
 You can load the structure of a **RadGrid** control from a file containing its XML representation. This approach is useful when you want to load grid instances with equal predefined settings on different pages of your web site.
 
 The following steps describe how to import the structure of a grid:
@@ -54,7 +50,7 @@ The following steps describe how to import the structure of a grid:
    <div>
      <telerik:RadGrid
          ID="RadGrid1" runat="server"
-         DataSourceID = "SqlDataSource1";
+         DataSourceID = "SqlDataSource1"
          Width="95%"
          AllowFilteringByColumn="True"
          AllowSorting="True"
@@ -99,7 +95,7 @@ In the code-behind:
 
 
 
-````C#	
+````C#
 public void Page_Init(object sender, EventArgs e)
 {
     XPathDocument MyXPathDocument = new XPathDocument(Server.MapPath("XMLFile.xml"));
@@ -114,9 +110,9 @@ public void Page_Init(object sender, EventArgs e)
     MyStringBuilder = MyStringBuilder.Replace(@"<?xml version=""1.0"" encoding=""utf-16""?>", "");
     Control ctrl = Page.ParseControl(MyStringBuilder.ToString());
     PlaceHolder1.Controls.Add(ctrl);
-}	
+}
 ````
-````VB	
+````VB
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Init
     Dim MyXPathDocument As XPathDocument = New XPathDocument(Server.MapPath("~/App_Data/XMLFile.xml"))
     Dim MyXslTransform As XslCompiledTransform = New XslCompiledTransform()
@@ -132,6 +128,12 @@ Protected Sub Page_Init(ByVal sender As Object, ByVal e As System.EventArgs) Han
     PlaceHolder1.Controls.Add(ctrl)
 End Sub
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
+- [Programmatic data binding using the NeedDataSource event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
 
 
 

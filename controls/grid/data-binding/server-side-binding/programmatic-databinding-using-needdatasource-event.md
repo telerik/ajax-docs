@@ -12,10 +12,6 @@ previous_url: controls/grid/data-binding/understanding-data-binding/server-side-
 
 # Programmatic Data Binding Using the NeedDataSource Event
 
-
-
-##
-
 The key to handling programmatic data binding of a RadGrid control is handling the **NeedDataSource** event. **RadGrid** fires the **NeedDataSource** event each time it needs to be bound to a data source.
 
 The advantage of using the **NeedDataSource** event is the flexibility of generating the data source in the code-behind. The **NeedDataSource** event handles the logic of when and how data binding should take place out-of-the-box.
@@ -26,7 +22,7 @@ The advantage of using the **NeedDataSource** event is the flexibility of genera
 >note **RadGrid** does not fire the **NeedDataSource** event unless **RadGrid** is visible (**Visible**=**True**).
 >
 
-### The NeedDataSource event fires in the following cases:
+## The NeedDataSource event fires in the following cases:
 
 >note The event arguments for the **NeedDataSource** event include the **RebindReason** property, which indicates the reason the event is occurring.
 >
@@ -60,8 +56,6 @@ In some scenarios it may be necessary to refresh the grid explicitly upon some e
 
 >caution  **Important:** You should never call the **Rebind** () method in a **NeedDataSource** event handler.You should never call **DataBind** () as well when using programmatic data binding through **NeedDataSource**.
 >
-
-# Examples
 
 ## Using a SQL Connection
 
@@ -527,7 +521,7 @@ End Function
 
 ## See Also
 
- * [Bindable Property Types](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/overview#bindable-property-types)
- * [Telerik RadGrid Data Binding Basics](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/data-binding/overview)
+- [Bindable property types]({%slug grid/data-binding/overview%}#bindable-property-types)
+- [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/overview%})
  * [Properly Bind a RadGrid on the Server-side](https://www.telerik.com/support/kb/aspnet-ajax/grid/details/how-to-bind-radgrid-properly-on-server-side)
- * [Errors when Page Async="true" for the async-await pattern]({%slug common-errors-when-page-async-is-true-for-the-async-await-pattern%})
+- [Errors when Page Async="true" for the async-await pattern]({%slug common-errors-when-page-async-is-true-for-the-async-await-pattern%})

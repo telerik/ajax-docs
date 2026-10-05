@@ -5,6 +5,7 @@ description: Check our Web Forms article about Binding to LinqDataSource.
 slug: grid/data-binding/server-side-binding/various-data-sources/binding-to-linqdatasource
 components: ["grid"]
 previous_url: controls/grid/data-binding/understanding-data-binding/server-side-binding/various-data-sources/binding-to-linqdatasource
+tags: binding,linqdatasource
 published: True
 position: 7
 ---
@@ -61,4 +62,10 @@ Public Class Order
     Public Property ShipCountry As String
 End Class
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
+- [Binding to other data sources]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-datatable-or-dataset%})
  

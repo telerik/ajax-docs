@@ -20,7 +20,7 @@ When binding RadGrid on the client, the data must have a valid JSON syntax, in o
           [value1, value2, ..., valueN]
         
 
-essentially these are one or more values, separated by a coma. The value itself, can be one of the following:
+essentially these are one or more values, separated by a comma. The value itself can be one of the following:
 
 * string
 
@@ -71,7 +71,7 @@ function pageLoad() {
 
 ## Generate title and href attributes for hyperlinks on the client
 
-There are scenarios, when RadGrid is data-bound on the client, and one needs to alter properties of controls nested in different cells. Such cases include:*Generating title and href attributes for hyperlinks on the clientGeneratingsrc attributes for images on the client*
+There are scenarios when RadGrid is data-bound on the client and you need to alter properties of controls nested in different cells. Such cases include generating title and href attributes for hyperlinks and generating `src` attributes for images on the client.
 
 The proper way to handle these requirements is in the onRowDataBound client side event handler, where we can access the cell(s) within the data item, and alter their properties. This is demonstrated in the code snippet below:
 
@@ -136,5 +136,11 @@ function updateGrid(result) {
 }
 
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Client-side binding]({%slug grid/data-binding/client-side-binding/client-side-binding%})
+- [Adding sort and filter expressions with client-side binding]({%slug grid/data-binding/client-side-binding/adding-sort-and-filter-expressions-with-client-side-binding%})
 
 

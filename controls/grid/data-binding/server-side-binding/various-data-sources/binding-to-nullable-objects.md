@@ -12,11 +12,7 @@ position: 4
 
 # Binding to Nullable Objects
 
-
-
-## 
-
-You can use a wide variety of custom objects as data sources for **RadGrid**. The only requirement is that the custom objects must implement the **ITypedList**, **IEnumarable**, or **ICustomTypeDescriptor** interface. **RadGrid** can bind to a list of custom objects with **Nullable** properties, as shown in the following example:
+You can use a wide variety of custom objects as data sources for **RadGrid**. The only requirement is that the custom objects must implement the **ITypedList**, **IEnumerable**, or **ICustomTypeDescriptor** interface. **RadGrid** can bind to a list of custom objects with **Nullable** properties, as shown in the following example:
 
 
 
@@ -98,4 +94,10 @@ Public Class TestListItem
     End Property
 End Class
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Binding to an ArrayList]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-an-arraylist%})
+- [Binding to subobjects]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-subobjects%})
 

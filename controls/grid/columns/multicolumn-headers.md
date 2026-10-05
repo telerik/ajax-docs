@@ -13,7 +13,7 @@ position: 8
 
 
 
-The **MultiColumn Headers** of the RadGrid represent a tree-like structure where one or more columns can be grouped together by a common header. That common header in its turn can be child of another upper MultiColumn header which can also span both columns and other headers. On-line example demonstrating this functionality is available [here](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/multi-column-headers/defaultcs.aspx).
+The **MultiColumn Headers** of the RadGrid represent a tree-like structure where one or more columns can be grouped together by a common header. That common header in its turn can be child of another upper MultiColumn header which can also span both columns and other headers. An online example demonstrating this functionality is available [here](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/columns/multi-column-headers/defaultcs.aspx).
 
 ## Structure rules
 
@@ -31,7 +31,7 @@ The **MultiColumn Headers** of the RadGrid represent a tree-like structure where
 
 ## Definition
 
-In order to define the MultiColumn Headers in RadGrid **Column Groups** should be set.
+To define the MultiColumn Headers in RadGrid, the **Column Groups** should be set.
 	
 ````ASP.NET
 <ColumnGroups>
@@ -44,7 +44,7 @@ In order to define the MultiColumn Headers in RadGrid **Column Groups** should b
 
 
 
-In order to add the needed column in the MultiColumn Header the **ColumnGroupName** property should be used:
+To add a column to the MultiColumn Header, use the **ColumnGroupName** property:
 
 	
 ````ASP.NET
@@ -54,13 +54,14 @@ In order to add the needed column in the MultiColumn Header the **ColumnGroupNam
 
 
 The above definition will be presented in the following output:
-![grid Multi Column Headers](images/grid_MultiColumnHeaders.jpg)
+![RadGrid with multicolumn headers](images/grid_MultiColumnHeaders.jpg)
+> caption Figure 1: RadGrid with multicolumn headers
 
 ## API Model
 
-The described feature is presented by some additional properties related to the **GridTableView** and **GridColumn** objects. The **GridColumn** provides new **ColumnGroupName** property which is string type and sets the name of the multicolumn header (GridColumnGroup) to which the current column belongs. As for the **GridTableView**, two new properties are added. These properties are **HasMultiHeaders** which is boolean type and **ColumnGroups** which holds a collection of the multiheaders in the GridTableView and is **GridColumnGroupCollection** type.
+The described feature is presented by some additional properties related to the **GridTableView** and **GridColumn** objects. The **GridColumn** provides a new **ColumnGroupName** property of string type, which sets the name of the multicolumn header (**GridColumnGroup**) to which the current column belongs. As for the **GridTableView**, two new properties are added. These properties are **HasMultiHeaders** of boolean type and **ColumnGroups**, which holds a collection of the multiheaders in the GridTableView and is of **GridColumnGroupCollection** type.
 
-The **GridColumnGroupCollection** type is a new type that implements StateManager and IComparable interface. This type presents the follwoing properties:
+The **GridColumnGroupCollection** type is a new type that implements the StateManager and IComparable interfaces. This type presents the following properties:
 
 
 |  **Property**  |  **Type**  |  **Description**  |
@@ -72,5 +73,11 @@ The **GridColumnGroupCollection** type is a new type that implements StateManage
 | **ColSpan** | **Int** |Public ReadOnly. Return the number of spanned columns by the multicolumn header. Min value is 1.|
 | **Visible** | **Bool** |Public ReadOnly. Returns whether a multicolumn header cell will be rendered as visible or not. True if at least one of its children (gridcolumn or columngroup) is visible, otherwise false.|
 | **CompareTo** | **Int** |Implements standard comparison operation and also allows comparison between GridColumnGroups and ordinary GridColumns. Used to determine the proper order of the cells in each multiheader.|
+
+## See Also
+
+- [Using columns]({%slug grid/columns/using-columns%})
+- [Column types]({%slug grid/columns/column-types%})
+- [Customizing with GridTemplateColumn]({%slug grid/appearance-and-styling/customizing-with-gridtemplatecolumn%})
 
 

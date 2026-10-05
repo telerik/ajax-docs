@@ -11,17 +11,13 @@ position: 5
 
 # Using NoRecordsTemplate
 
-
-
-## 
-
 Each **GridTableView** has a property **NoRecordsTemplate**. This property defines a template that will be displayed if there are no records in the assigned **DataSource**.
 
 There are cases in which you may want to show an empty grid rather than this template. There is a boolean property **EnableNoRecordsTemplate** which defines whether **GridTableView** will use the defined **NoRecordsTemplate** or not.
 
 The **NoRecordsTemplate** should be populated for each detail table (in case of hierarchical grids) in the **DetailTableDataBind** event.
 
-You can control the visibility of thetable/NoRecordsTemplate controls by using corresponding Controls(0), Controls(1) of each **GridTableView**. This should happen after it was data-bound.
+You can control the visibility of the table/NoRecordsTemplate controls by using corresponding Controls(0), Controls(1) of each **GridTableView**. This should happen after it was data-bound.
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
@@ -68,7 +64,7 @@ protected override void OnInit(EventArgs e)
 }
 protected void PopulateGrid1OnPageInit()
 {
-        RadGrid RadGrid1 = new RadGrid();
+        RadGrid1 = new RadGrid();
         RadGrid1.ID = "RadGrid1";
         RadGrid1.MasterTableView.AutoGenerateColumns = false;
         RadGrid1.DataSource = new Object [0];
@@ -78,6 +74,7 @@ protected void PopulateGrid1OnPageInit()
 
         RadGrid1.PagerStyle.Mode = GridPagerMode.NumericPages;
         RadGrid1.AllowSorting = true;
+        Controls.Add(RadGrid1);
       //runtime column definitions
 }       
 ````
@@ -104,7 +101,7 @@ Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs) Handles MyBase.On
 End Sub
 
 Protected Sub PopulateGrid1OnPageInit()
-    Dim RadGrid1 As New RadGrid()
+    RadGrid1 = New RadGrid()
     RadGrid1.ID = "RadGrid1"
     RadGrid1.MasterTableView.AutoGenerateColumns = False
     RadGrid1.DataSource = New Object() {}
@@ -113,9 +110,16 @@ Protected Sub PopulateGrid1OnPageInit()
     RadGrid1.MasterTableView.NoRecordsTemplate = New MyNoRecordsTemplate()
     RadGrid1.PagerStyle.Mode = GridPagerMode.NumericPages
     RadGrid1.AllowSorting = True
+    Controls.Add(RadGrid1)
     'runtime column definitions
 End Sub
 ````
 
 
 Detailed information about how to create templates programmatically you can find in the **MSDN**: [https://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vstechart.asp](https://msdn.microsoft.com/library/default.asp?url=/library/en-us/dv_vstechart/html/vbtchcreatingwebservercontroltemplatesprogrammatically.asp)
+
+## See Also
+
+- [Creating a RadGrid programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Programmatic data binding using the NeedDataSource event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
