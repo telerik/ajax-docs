@@ -437,4 +437,3 @@ This export format does not support the following features:
 ## See Also
 
 - [Word DOCX export]({%slug grid/functionality/exporting/word-export/word-docx%})
-- [XML options for Word HTML export]({%slug grid/functionality/exporting/word-export/xml-options%})
