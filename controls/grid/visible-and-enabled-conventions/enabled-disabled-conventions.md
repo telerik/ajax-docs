@@ -1,32 +1,28 @@
 ---
-title: Enabled Disabled Conventions
-page_title: Enabled Disabled Conventions - RadGrid
-description: Check our Web Forms article about Enabled Disabled Conventions.
+title: Enable and Disable RadGrid
+page_title: Enable and Disable RadGrid - RadGrid
+description: Learn how to enable and disable RadGrid on the client and server in ASP.NET AJAX.
 slug: grid/visible/enabled-conventions/enabled-disabled-conventions
 components: ["grid"]
-tags: enabled,disabled,conventions
+tags: enabled, disabled, client-side, server-side, grid
 published: True
 position: 1
 ---
 
-# Enabled/Disabled Conventions
+# Enable and Disable RadGrid
 
+**RadGrid** renders nested links, images, inputs, and other elements. Disabling the grid therefore requires additional client-side work, while server-side disabling also requires the relevant client features to be turned off.
 
-RadGrid is a complex ASP.NET control and like with the Microsoft GridView sometimes requires additional coding when its table structure should be deactivated client/server side (due to the nested control definitions and features switched on).
+## Client-Side
 
-## Client-side
+To disable a grid on the client, disable its interactive elements and turn off the client features that can still respond to user input. You can restore the grid with an AJAX request, which causes the server to render the enabled state again.
 
-When you want to enable/disable your grid client-side when certain conditions are met, you will need to take into account that you should disable the active links/images/inputs/spans/etc. inside the grid manually. To do that, you will need to traverse the elements inside the table structure and perform one of the actions outlined below:
+The following example disables links, images, inputs, sorting controls, scrolling, keyboard navigation, selection, resizing, grouping, and row-click postbacks. The external buttons call the client-side disable function and the AJAX request that restores the grid.
 
-* set the *disabled* attribute of the corresponding html element
+> caption Disable RadGrid client-side and restore it with an AJAX request
 
-* clear the href property of anchor tags
-
-* return false from the onclick handler of images/links/buttons if attached
-
-In addition, you can disable the keyboard navigation of the grid and the scrolling option along with some of the client features which has been enabled server-side. Later on, in order to enable the grid again and allow the user to interact with it, simply perform an ajax request (to simulate client-side behavior) - thus the grid will undo the changes made client-side automatically and will be functional again.The code below demonstrates how to enable/disable grid instance from external html buttons:
-
-````C#
+````ASP.NET
+<asp:ScriptManager ID="ScriptManager1" runat="server" />
 <script type="text/javascript">
   var gridCtrl;
   function GridCreated(sender, args) {
@@ -98,7 +94,7 @@ In addition, you can disable the keyboard navigation of the grid and the scrolli
     }
     var scrollArea = $find("<%= RadGrid1.ClientID %>").GridDataDiv;
     if (scrollArea) {
-      scrollArea.disabled = "disabled";
+      scrollArea.style.overflow = "hidden";
     }
   }
   function EnableGrid() {
@@ -107,14 +103,13 @@ In addition, you can disable the keyboard navigation of the grid and the scrolli
   </script>
   <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
-      <telerik:AjaxSetting AjaxControlID="RadGrid1">
+      <telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
         <UpdatedControls>
           <telerik:AjaxUpdatedControl ControlID="RadGrid1">
         </UpdatedControls>
       </telerik:AjaxSetting>
     </AjaxSettings>
   </telerik:RadAjaxManager>
-  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="AccessDataSource1" runat="server" Skin="Outlook"
     Width="95%" AutoGenerateColumns="False" PageSize="10" AllowSorting="True" AllowPaging="True"
     GridLines="None" ShowGroupPanel="true" ShowStatusBar="true">
@@ -176,18 +171,17 @@ In addition, you can disable the keyboard navigation of the grid and the scrolli
 </asp:AccessDataSource>
 <br />
 <input id="btnClientDisable" type="button" value="Disable grid" onclick="DisableGrid()" />
-<input id="btnEnable" type="button" value="Enable grid" onclick="EnableGrid()" /></pre>
+<input id="btnEnable" type="button" value="Enable grid" onclick="EnableGrid()" />
 ````
 
+## Server-Side
 
+To disable the grid on the server, set its **Enabled** property to `False` and disable row-click postbacks, column resizing, row selection, and keyboard navigation. When filtering is enabled, disable the filter images in the **ItemCreated** event so that users cannot open a filter menu while the grid is disabled. Restore these settings when the AJAX request enables the grid again.
 
-## Server-side
-
-The approach differs a bit when you prefer to disable the grid server-side. To summarize, you have to set the **Enabled** property of the control to **false** and switch off the auto postback on row click, column resizing, client row selection and keyboard navigation. Finally, locate the filter images when filtering is enabled and disable them on *ItemCreated* as well (thus preventing the filter menu from being displayed on click).Later on, roll back the changes when you enable the grid on the page.The following implementation shows how to enable/disable RadGrid with ajax request from external html buttons:
-
-
+> caption Enable and disable RadGrid on the server in response to AJAX requests
 
 ````ASP.NET
+<asp:ScriptManager ID="ScriptManager1" runat="server" />
 <script type="text/javascript">
         function DisableGrid()
             {
@@ -199,9 +193,9 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
             }
 </script>
 
-<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+<telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
     <AjaxSettings>
-      <telerik:AjaxSetting AjaxControlID="RadGrid1">
+  <telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
         <UpdatedControls>
           <telerik:AjaxUpdatedControl ControlID="RadGrid1">
         </UpdatedControls>
@@ -272,37 +266,34 @@ The approach differs a bit when you prefer to disable the grid server-side. To s
   <input id="btnServerDisable" type="button" value="Disable grid" onclick="DisableGrid()" />
   <input id="btnEnable" type="button" value="Enable grid" onclick="EnableGrid()" />
 ````
+
+> caption Update RadGrid client settings and filter images in the AJAX request handler
+
 ````C#
-protected override void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
-    {            
-            switch(e.Argument)
-            {
-                 case "DisableGrid":
-                    {
-                        RadGrid1.Enabled = false;
-                        RadGrid1.ClientSettings.EnablePostBackOnRowClick = false;
-                        RadGrid1.ClientSettings.Resizing.AllowColumnResize = false;
-                        RadGrid1.ClientSettings.Selecting.AllowRowSelect = false;
-                        RadGrid1.ClientSettings.AllowKeyboardNavigation = false;
+protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e)
+{
+  switch (e.Argument)
+  {
+    case "DisableGrid":
+      RadGrid1.Enabled = false;
+      RadGrid1.ClientSettings.EnablePostBackOnRowClick = false;
+      RadGrid1.ClientSettings.Resizing.AllowColumnResize = false;
+      RadGrid1.ClientSettings.Selecting.AllowRowSelect = false;
+      RadGrid1.ClientSettings.AllowKeyboardNavigation = false;
+      Session["disableFilterMenu"] = true;
+      break;
+    case "EnableGrid":
+      RadGrid1.Enabled = true;
+      RadGrid1.ClientSettings.EnablePostBackOnRowClick = true;
+      RadGrid1.ClientSettings.Resizing.AllowColumnResize = true;
+      RadGrid1.ClientSettings.Selecting.AllowRowSelect = true;
+      RadGrid1.ClientSettings.AllowKeyboardNavigation = true;
+      Session["disableFilterMenu"] = null;
+      break;
+  }
 
-                        Session[ "disableFilterMenu"] = true;
-                        break;
-                    }
-                 case "EnableGrid":
-                    {
-                        RadGrid1.Enabled = true;
-                        RadGrid1.ClientSettings.EnablePostBackOnRowClick = true;
-                        RadGrid1.ClientSettings.Resizing.AllowColumnResize = true;
-                        RadGrid1.ClientSettings.Selecting.AllowRowSelect = true;
-                        RadGrid1.ClientSettings.AllowKeyboardNavigation = true;
-
-                        break;
-                    }
-            }
-            RadGrid1.Rebind();
-
-        }
-    }
+  RadGrid1.Rebind();
+}
 
     protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     {
@@ -321,9 +312,9 @@ protected override void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEv
     }
     protected void RadGrid1_PreRender(object sender, EventArgs e)
     {
-        Session[ "disableFilterMenu"] = null;
+        Session["disableFilterMenu"] = null;
     }
-          
+
 ````
 ````VB
 Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs)
@@ -343,12 +334,12 @@ Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Aja
             RadGrid1.ClientSettings.Resizing.AllowColumnResize = True
             RadGrid1.ClientSettings.Selecting.AllowRowSelect = True
             RadGrid1.ClientSettings.AllowKeyboardNavigation = True
+            Session("disableFilterMenu") = Nothing
 
             Exit Select
     End Select
 
     RadGrid1.Rebind()
-End If
 End Sub
 
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid1.ItemCreated
@@ -369,4 +360,10 @@ Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs) H
     Session("disableFilterMenu") = Nothing
 End Sub
 ````
+
+## See Also
+
+- [Control RadGrid visibility]({%slug grid/visible-and-enabled-conventions/visible-invisible-conventions%})
+- [Ajaxifying RadGrid]({%slug grid/performance/ajaxifying-radgrid%})
+- [NeedDataSource event]({%slug grid/server-side-programming/events/needdatasource%})
 

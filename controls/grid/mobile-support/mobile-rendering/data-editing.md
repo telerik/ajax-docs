@@ -1,10 +1,10 @@
 ---
 title: Data Editing
 page_title: Data Editing - RadGrid
-description: Check our Web Forms article about Data Editing.
+description: Learn how RadGrid Mobile render mode changes editing forms, native column editors, and the UseNativeEditorsInMobileMode setting.
 slug: grid/mobile-support/mobile-rendering/data-editing
 components: ["grid"]
-tags: data,editing
+tags: mobile-rendering,data-editing,native-editors,popup
 published: True
 position: 5
 ---
@@ -13,19 +13,25 @@ position: 5
 
 
 
-When using "**Mobile**" rendering you can take advantage of all edit modesavailable in **RadGrid** (*EditForms*, *InPlace*, *Batch* and *PopUp*).
+When using **Mobile** rendering, you can use all RadGrid edit modes: **EditForms**, **InPlace**, **Batch**, and **PopUp**.
 
-## 
+## Edit data in Mobile render mode
 
-Although the "**Mobile**" rendering of **RadGrid** is optimized for mobile devices and renders different HTML and layout,there are only few differences in the way that the editing is used and handled. The main difference in the editing in "**Mobile**" **RenderMode** is the **PopUp**edit mode, which renders an entirely new mobile menu for editing. Following is a screenshot with the new **PopUp** mobile edit menu:
-![radgrid-mobile-popupediting](images/radgrid-mobile-popupediting.png)
+Although Mobile render mode uses a different HTML layout, editing works in the same way in most edit modes. The main difference is **PopUp** edit mode, which uses a separate mobile editing menu.
+
+> caption Figure 1: RadGrid mobile PopUp edit menu
+
+![RadGrid mobile PopUp edit menu](images/radgrid-mobile-popupediting.png)
 
 ## Column editors with mobile rendering
 
-When you set the RenderMode to "**Mobile**", by default, **RadGrid** will render native controls. Native controls are the HTML5 equivalents of our controls. For example, **RadNumericTextBox** will be replaced with *<input type=”number” />*. This change affects the accessing of the column editors and the implementationsthat you have with other render modes may not be applicable with mobile rendering.
+When you set **RenderMode** to **Mobile**, RadGrid renders native controls by default. Native controls are HTML5 equivalents of Telerik controls. For example, **RadNumericTextBox** is replaced with `<input type="number" />`. This behavior affects how you access column editors, so implementations from other render modes may not apply.
 
-We are completely aware that there will be cases when native controls could not cover all custom	requirements and that is why we have provided two ways for disabling their generation and	allowing the standard editors(available in the other render modes) to be used instead.With the introduction of the adaptive grid we have included a **UseNativeEditorsInMobileMode**	property to each **GridEditableColumn**. This property could explicitly disable	the generation of native controls for a column when it is set to "**false**".
+If native controls do not meet your requirements, disable them in one of two ways. Set **UseNativeEditorsInMobileMode** to `False` on a **GridEditableColumn** to disable native editors for one column.
 
-The second approach is more general and will disable the rendering of native editors for the entire web site. You could achieve this by setting a **UseGridNativeEditorsInMobileMode** option in the **web.config** file to "**false**".
+To disable native editors for the entire website, set **UseGridNativeEditorsInMobileMode** to `False` in `web.config`.
 
 ## See Also
+
+- [Accessing controls]({%slug grid/mobile-support/mobile-rendering/accessing-controls%})
+- [Mobile rendering overview]({%slug grid/mobile-support/mobile-rendering/overview%})

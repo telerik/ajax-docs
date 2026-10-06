@@ -1,10 +1,10 @@
 ---
 title: Column Settings
 page_title: Column Settings - RadGrid
-description: Check our Web Forms article about Column Settings.
+description: Learn how to use the RadGrid mobile column settings menu to filter, sort, group, show, hide, and reorder columns on touch devices.
 slug: grid/mobile-support/mobile-rendering/column-settings
 components: ["grid"]
-tags: column,settings
+tags: mobile-rendering,column-settings,filtering,sorting,grouping
 published: True
 position: 1
 ---
@@ -15,43 +15,48 @@ position: 1
 
 The following article outlines the settings that are available for the columns in **RadGrid** when **RenderMode** is set to **Mobile**.
 
-## Accessing Column settings
+## Open column settings
 
 The column settings are accessed by tapping the settings icon.
 
-**Image 1:** Opening column settings view
-![adaptive grid Column Settings-1](images/adaptive_grid_ColumnSettings-1.png)
+> caption Figure 1: Opening the RadGrid mobile column settings view
+
+![RadGrid mobile column settings view](images/adaptive_grid_ColumnSettings-1.png)
 
 When you tap on the settings icon in a column header, you will see the settings for the corresponding column. You can sort, group, add filter, show/hide or rearrange columns.
 
-**Image 2:** Settings available for the column
-![adaptive grid Column Settings-2](images/adaptive_grid_ColumnSettings-2.png)
+> caption Figure 2: Settings available for a RadGrid column
 
-### Filtering
+![RadGrid mobile column settings options](images/adaptive_grid_ColumnSettings-2.png)
 
-You can access the filter settings by tapping the **Filter** option
+### Filter a column
 
-**Image 3:** Filer settings
-![adaptive grid Column Settings-3](images/adaptive_grid_ColumnSettings-3.png)
+Access the filter settings by tapping **Filter**.
 
-### Column display
+> caption Figure 3: RadGrid mobile filter settings
 
-When you tap on the **Columns** setting you open the **Column Display** options.
+![RadGrid mobile filter settings](images/adaptive_grid_ColumnSettings-3.png)
 
-**Image 4:** Opening Column Display
-![adaptive grid Column Settings-4](images/adaptive_grid_ColumnSettings-4.png)
+### Show, hide, and reorder columns
+
+Tap **Columns** to open the **Column Display** options.
+
+> caption Figure 4: Opening the RadGrid mobile column display options
+
+![RadGrid mobile column display options](images/adaptive_grid_ColumnSettings-4.png)
 
 The **Column Display** options enable you to show, hide or rearrange the columns.
 
-**Image 5:** Column Display Options
-![adaptive grid Column Settings-5](images/adaptive_grid_ColumnSettings-5.png)
+> caption Figure 5: RadGrid mobile column display options
+
+![RadGrid mobile column display options](images/adaptive_grid_ColumnSettings-5.png)
 
 ## See Also
 
- * [Overview]({%slug grid/mobile-support/overview%})
+- [Mobile support overview]({%slug grid/mobile-support/overview%})
 
- * [Grouping]({%slug grid/mobile-support/mobile-rendering/grouping%})
+- [Grouping]({%slug grid/mobile-support/mobile-rendering/grouping%})
 
- * [Filtering]({%slug grid/mobile-support/mobile-rendering/filtering%})
+- [Filtering]({%slug grid/mobile-support/mobile-rendering/filtering%})
 
- * [Resizing and Reordering]({%slug grid/mobile-support/mobile-rendering/resizing-and-reordering%})
+- [Resizing and reordering]({%slug grid/mobile-support/mobile-rendering/resizing-and-reordering%})

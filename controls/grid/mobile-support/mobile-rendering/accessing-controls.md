@@ -1,10 +1,10 @@
 ---
 title: Accessing Controls
 page_title: Accessing Controls - RadGrid
-description: Check our Web Forms article about Accessing Controls.
+description: Learn how to access native and standard RadGrid column editors in Mobile render mode, including controls in PopUp edit forms.
 slug: grid/mobile-support/mobile-rendering/accessing-controls
 components: ["grid"]
-tags: accessing,controls
+tags: mobile-rendering,accessing,controls,editors,popup
 published: True
 position: 7
 ---
@@ -13,21 +13,21 @@ position: 7
 
 
 
-With "**Mobile**" **RenderMode** you can access controlsin the same manner as with the other rendering mode with only few specific to themobile rendering scenarios. One difference that you should consider is that thecontrols type is different from the other render modes.
+With **Mobile** **RenderMode**, you access RadGrid controls in the same way as in other render modes, with a few mobile-specific differences. The control types can differ because mobile rendering uses native HTML controls by default.
 
-## Accessing column editors in PopUp edit mode
+## Access column editors in PopUp edit mode
 
-With the default setting of the mobile rendering, all columns will render native controlsand you should have that in mind when you try to get reference to column editors.
+By default, mobile rendering uses native controls for column editors. Account for this difference when you retrieve references to column editors.
 
-With edit modes **EditForms**, **InPlace** and **Batch**,getting reference to column editors is exactly the same as with the other render modes, but a major difference is introduced in **PopUp** edit mode. The mobile **PopUp** editing introducesnew edit menu, which renders a completely different layout and controls structure.
+With **EditForms**, **InPlace**, and **Batch** edit modes, you retrieve column editors as in other render modes. **PopUp** edit mode is different because mobile editing uses a separate menu with a different layout and control structure.
 
-The following examples demonstrate how to get reference to **native** column editors in **PopUp** edit mode and native controls:
+The following example retrieves references to native column editors in **PopUp** edit mode:
 
-````ASP.NET	
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
 </telerik:RadScriptManager>
 
-<telerik:RadGrid runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid_NeedDataSource" 
+<telerik:RadGrid runat="server" ID="RadGrid1" OnNeedDataSource="RadGrid_NeedDataSource"
 	RenderMode="Mobile" OnItemCreated="RadGrid1_ItemCreated">
 	<MasterTableView CommandItemDisplay="Top" EditMode="PopUp" AutoGenerateColumns="false">
 		<Columns>
@@ -41,14 +41,19 @@ The following examples demonstrate how to get reference to **native** column edi
 </telerik:RadGrid>
 ````
 
-````C#	
+````C#
+using System;
+using System.Data;
+using System.Web.UI.WebControls;
+using Telerik.Web.UI;
+
 protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
 {
 	if (e.Item is GridEditFormItem && e.Item.IsInEditMode)
 	{
 		GridEditFormItem item = e.Item as GridEditFormItem;
 		TextBox idEditor = item.EditFormCell.FindControl("ID").Controls[0] as TextBox;
-		TextBox lastNameEditor = item.EditFormCell.FindControl("Name").Controls[0] as TextBox;
+		TextBox nameEditor = item.EditFormCell.FindControl("Name").Controls[0] as TextBox;
 		TextBox dateEditor = item.EditFormCell.FindControl("Date").Controls[0] as TextBox;
 		CheckBox boolEditor = item.EditFormCell.FindControl("Active").Controls[0] as CheckBox;
 	}
@@ -71,6 +76,11 @@ protected void RadGrid_NeedDataSource(object sender, GridNeedDataSourceEventArgs
 
 ````
 ````VB
+Imports System
+Imports System.Data
+Imports System.Web.UI.WebControls
+Imports Telerik.Web.UI
+
 Protected Sub RadGrid1_ItemCreated(sender As Object, e As GridItemEventArgs)
 	If TypeOf e.Item Is GridEditFormItem AndAlso e.Item.IsInEditMode Then
 		Dim item As GridEditFormItem = TryCast(e.Item, GridEditFormItem)
@@ -96,12 +106,12 @@ End Sub
 ````
 
 
-When you want to render the standard editors for a column and you are setting the	**UseNativeEditorsInMobileMode** property of a **GridEditableColumn**to "**false**", each column from the above example will render editors	corresponding to the column type (*for example, the GridNumericColumn will have a RadNumericTextBox as an editor, the GridDateTimeColumn will have RadDatePicker, etc.*).
+To render standard editors instead of native controls, set the **UseNativeEditorsInMobileMode** property of a **GridEditableColumn** to `False`. Each column then renders the editor corresponding to its type. For example, **GridNumericColumn** uses **RadNumericTextBox** and **GridDateTimeColumn** uses **RadDatePicker**.
 
 ## See Also
 
- * [Mobile rendering Overview]({%slug grid/mobile-support/mobile-rendering/overview%})
+- [Mobile rendering overview]({%slug grid/mobile-support/mobile-rendering/overview%})
 
- * [Mobile rendering data-editing]({%slug grid/mobile-support/mobile-rendering/data-editing%})
+- [Mobile rendering data editing]({%slug grid/mobile-support/mobile-rendering/data-editing%})
 
- * [Auto-Generated Editors]({%slug grid/data-editing/grid-editors/auto-generated-editors%})
+- [Auto-generated editors]({%slug grid/data-editing/grid-editors/auto-generated-editors%})

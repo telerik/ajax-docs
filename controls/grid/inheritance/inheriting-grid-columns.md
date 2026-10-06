@@ -1,32 +1,31 @@
 ---
 title: Inheriting Grid Columns
 page_title: Inheriting Grid Columns - RadGrid
-description: Check our Web Forms article about Inheriting Grid Columns.
+description: Learn how to inherit RadGrid columns, customize cell initialization, and preserve column properties when using hierarchical tables.
 slug: grid/inheritance/inheriting-grid-columns
 components: ["grid"]
-tags: inheriting,grid,columns
+tags: inheritance,grid,columns,custom-columns,gridboundcolumn
 published: True
 position: 1
 ---
 
 # Inheriting Grid Columns
 
+You can extend a built-in RadGrid column by inheriting its corresponding column class. Override `InitializeCell` to customize cell content and `Clone` to preserve the column configuration when RadGrid creates a copy for a hierarchical table.
 
+## Create a custom bound column
 
-## 
-
-In some scenarios you may want to extend the default functionality of **GridColumn** (including additional properties for it, embedding extra controls in its cells, etc.). The proper way to accomplish this task is by inheriting the corresponding default **GridColumn** class (in your own class) and overriding the **InitializeCell(cell, columnIndex,gridItem)** method of that class. Thus you can reuse the custom configuration of your choice in all your grid instances in your application.The example below shows a basic approach how to redefine the object model for GridBoundColumn:
+The following example inherits `GridBoundColumn` and writes the data field name in the header cell and the `CustomerID` value in each data cell. The `DataKeyNames` setting makes the key available through `DataKeyValues`.
 
 
 
 ````ASP.NET
-<%@ Register tagprefix="custom" namespace="MyNamespace" %>
+<%@ Register TagPrefix="custom" Namespace="MyNamespace" %>
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" AllowPaging="True"
-  AllowSorting="True" runat="server" AutoGenerateColumns="false">
+  AllowSorting="True" runat="server" AutoGenerateColumns="False">
   <MasterTableView DataKeyNames="CustomerID">
     <Columns>
-      <custom:MyCustomColumn DataField="CustomerID" HeaderText="CustomerID">
-      </custom:MyCustomColumn>
+      <custom:MyCustomColumn DataField="CustomerID" HeaderText="Customer ID" />
     </Columns>
   </MasterTableView>
 </telerik:RadGrid>
@@ -34,72 +33,82 @@ In some scenarios you may want to extend the default functionality of **GridColu
    SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
 ````C#
+using System;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using Telerik.Web.UI;
+
+namespace MyNamespace
+{
 public class MyCustomColumn : GridBoundColumn
 {
-
-    public override void InitializeCell(System.Web.UI.WebControls.TableCell cell, int columnIndex, Telerik.Web.UI.GridItem inItem)
+    public override void InitializeCell(TableCell cell, int columnIndex, GridItem item)
     {
-        if (inItem is GridHeaderItem)
+      if (item is GridHeaderItem)
         {
-            cell.Text = this.DataField;
+        cell.Text = DataField;
         }
-        if (inItem is GridDataItem)
+      else if (item is GridDataItem)
         {
-            string ID = inItem.OwnerTableView.DataKeyValues[inItem.ItemIndex]["CustomerID"];
-            cell.Controls.Add(new LiteralControl(ID));
+        GridDataItem dataItem = (GridDataItem)item;
+        object customerId = dataItem.OwnerTableView.DataKeyValues[dataItem.ItemIndex]["CustomerID"];
+        cell.Controls.Add(new LiteralControl(Convert.ToString(customerId)));
         }
     }
 }
+}
 ````
 ````VB
-Namespace MyNamespace
+Imports System
+Imports System.Web.UI
+Imports System.Web.UI.WebControls
+Imports Telerik.Web.UI
 
-  Public Class MyCustomColumn
+Namespace MyNamespace
+    Public Class MyCustomColumn
       Inherits GridBoundColumn
 
-       Public Overrides Sub InitializeCell(ByVal cell As System.Web.UI.WebControls.TableCell, ByVal columnIndex As Integer, ByVal inItem As
-      Telerik.Web.UI.GridItem)
-           If TypeOf inItem Is GridHeaderItem Then
-              cell.Text = Me.DataField
-           End If
-           If TypeOf inItem Is GridDataItem Then
-               Dim ID As String = inItem.OwnerTableView.DataKeyValues(inItem.ItemIndex)( "CustomerID")
-              cell.Controls.Add( New LiteralControl(ID))
-           End If
-       End Sub
-  End Class
+      Public Overrides Sub InitializeCell(ByVal cell As TableCell, ByVal columnIndex As Integer, ByVal item As GridItem)
+        If TypeOf item Is GridHeaderItem Then
+          cell.Text = Me.DataField
+        ElseIf TypeOf item Is GridDataItem Then
+          Dim dataItem As GridDataItem = DirectCast(item, GridDataItem)
+          Dim customerId As Object = dataItem.OwnerTableView.DataKeyValues(dataItem.ItemIndex)("CustomerID")
+          cell.Controls.Add(New LiteralControl(Convert.ToString(customerId)))
+        End If
+      End Sub
+    End Class
 End Namespace
 ````
 
+## Preserve column properties in hierarchy
 
->note When inheriting grid columns in hierarchy, you need to override their Clone() method and copy the base properties as follows:
->
-
+When RadGrid creates a copy of a custom column for a hierarchical table, override `Clone()` and copy the base properties to the new column instance. Copy any additional custom properties separately.
 
 ````C#
 public override GridColumn Clone()
 {
-    RequiredGridBoundColumn requiredGridBoundColumn = new RequiredGridBoundColumn();
+    MyCustomColumn clonedColumn = new MyCustomColumn();
 
-    //you should override CopyBaseProperties if you have some column specific properties
-    requiredGridBoundColumn.CopyBaseProperties(this);
+    clonedColumn.CopyBaseProperties(this);
 
-    return requiredGridBoundColumn;
+    return clonedColumn;
 }
 ````
 ````VB
 Public Overloads Overrides Function Clone() As GridColumn
-    Dim requiredGridBoundColumn As New RequiredGridBoundColumn()
+    Dim clonedColumn As New MyCustomColumn()
 
-    'you should override CopyBaseProperties if you have some column specific properties
-    requiredGridBoundColumn.CopyBaseProperties(Me)
+    clonedColumn.CopyBaseProperties(Me)
 
-    Return requiredGridBoundColumn
+    Return clonedColumn
 End Function
 ````
 
+>note This article provides basic instructions for inheriting RadGrid columns. Telerik does not support issues specific to custom inherited implementations.
 
+## See Also
 
->note Note that we do not support issues with inherited versions of RadGrid and the purpose of this topic is to provide basic instructions how to inherit your custom grid columns from RadGrid.
->
+- [Grid column types]({%slug grid/columns/column-types%})
+- [RadGrid structure overview]({%slug grid/structure/radgrid-structure-overview%})
 

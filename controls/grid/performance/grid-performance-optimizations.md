@@ -1,69 +1,60 @@
 ---
 title: Grid Performance Optimizations
 page_title: Grid Performance Optimizations
-description: Learn how to optimize the performance of the Grid control for handling large datasets efficiently.
+description: Improve RadGrid client and server performance by limiting rendered data, choosing suitable binding modes, and reducing unnecessary state and requests.
 slug: grid/performance/grid-performance-optimizations
 components: ["grid"]
-tags: grid,performance,optimizations
+tags: grid,performance,optimization,large data sets,viewstate,paging
 published: True
 position: 0
 ---
 
 # Grid Performance Optimizations
 
+Large data sets and complex grid features can increase rendering time, request size, and server-side data-operation costs. Use the following recommendations as a starting point, then benchmark representative data and user workflows in your application.
 
-When you present large number of records at once you will see delays in the grid operations execution. Actually, the problem lies in the browser	which cannot handle large amounts of HTML.	You can try this with a very large TreeView, Menu, PanelBar, etc. (with thousands of items),	or you can even try to select the contents of your page in the browser and you will see 100% CPU utilization for a certain period of time.
+## Optimize client-side performance
 
-## Steps that could be followed in order to optimize the client performance:
+1. Disable row-related features, such as row selection or row click handling, when the application does not need them. Each enabled client-side feature adds client resources and processing.
 
-1. Turning off all row-related features (row select, row click, etc.). With every client-side feature of RadGrid a script is transferred to the client.This script will be used to perform the required functionality. More scripts on the client-machine mean worse performance.
+2. Keep CSS and image assets efficient. Avoid unnecessarily large images and repeated background images, such as `background-repeat: repeat-x`, when a smaller asset or CSS styling provides the same result.
 
-2. Unfortunately JavaScript and CSS implementations in IE are processed slower compared to Gecko-based and WebKit browsers.There are lots of ActiveX/COM objects, garbage collector does not work at full extent in most of the scenarios, there are some CSS bugs, etc.That is the reason we recommend to avoid using:
+3. Consider [RadInputManager]({%slug radinputmanager/performance%}) for edit forms with many input controls. It can replace some RadInput editors with standard text boxes and apply the configured client-side input behavior. Compare the result with the default editors for your specific form.
 
-	* Non-optimized images in CSS.
+4. Use built-in paging, custom paging, virtual scrolling, or virtual paging so the browser renders only the records needed for the current view. See [Paging overview]({%slug grid/functionality/paging/overview%}), [Custom Paging]({%slug grid/functionality/paging/custom-paging%}), and [Virtual Scrolling]({%slug grid/functionality/scrolling/virtual-scrolling%}). For hierarchical grids, choose an appropriate **PageSize** for each **GridTableView**.
 
-	* 1px background images with **background-repeat: repeat-x**.
+5. Disable **EnableViewState** only when the features and binding approach in your grid support it. This can reduce the state sent between the client and server, but it changes which grid features are persisted. Review [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%}) before applying this setting.
 
-	_Note_: IE has a limit of 31 loaded stylesheets. This limit could be easily overcomed by referencing one stylesheet inside another.
+6. If the page does not require the full date-editor behavior, evaluate a standard **TextBox** with client-side date handling instead of a **RadDatePicker**. Test the result with the validation and localization requirements of the application. See the [RadDatePicker overview]({%slug datepicker/overview%}) for the control’s supported behavior.
 
-3. You could use RadInputManager to increase the client-side performance.Using this technique you will significantly decrease the input editors loading time since plain MS TextBoxes will be created(instead of the corresponding RadInput controls) and the data entered by the end user will be automatically filtered by RadInputManager,based on the input manager settings. The performance benefit can be quite significant:
+7. Use [RadAjaxManager]({%slug ajaxmanager/overview%}) to update only the grid and other affected controls instead of refreshing the entire page.
 
-	* The same number of input controls will be loaded up to 10 times faster
+8. Benchmark with ASP.NET debugging disabled. Set `debug="false"` on the `compilation` element in `web.config` for a production-like test configuration.
 
-	* The maximum number of input controls allowed on the page can be 10 times greater. You could check [this](https://demos.telerik.com/aspnet-ajax/inputmanager/performance/grid-integration/defaultcs.aspx?product=grid) online demo application for a sample code and performance overview.
+> caption Disable ASP.NET compilation debugging for performance testing
 
-4. Use built-in/custom paging or virtual scrolling/paging and present only fixed set of records at a time - here are online examples for it: [Basic paging]( https://demos.telerik.com/aspnet-ajax/grid/examples/generalfeatures/paging/defaultcs.aspx	), [Virtual scrolling and paging]( https://demos.telerik.com/aspnet-ajax/grid/examples/client/virtualscrollpaging/defaultcs.aspx	). In case you have more than **100** records in a flat grid, it is recommended to turn on the build-in paging/custom paging of the grid.This will not only optimize the grid loading time but also will enrich the user experience, thus giving him/her the flexibility to easily navigate through the grid records.When you have a hierarchical grid, the best approach is to limit the items presented in each level at once to **10-15** at most (through the **PageSize** property of the **GridTableView** object).
+````XML
+<compilation debug="false" />
+````
 
-5. You could disable the ViewState of the control, this will reflect in less data transferred back and forth between the client and server. However, this optimization comes at cost of sacrificing some functionality. You could check the lists of the functions that are not supported when the ViewState is disabled in [this]({%slug grid/performance/optimizing-viewstate-usage%}) help topic. Demo application that describes this functinoality could be found [here](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/viewstate/defaultcs.aspx)
+9. Prefer IIS 7 or later dynamic content compression for new deployments. The Telerik [RadCompression]({%slug controls/radcompression%}) module is deprecated; review its article only when maintaining a legacy application that still uses it.
 
-6. When in need to allow the user to have Date input, you may consider using regular TextBox controls and the client-side API of RadDatePicker control. This approach optimizes the performance because the time needed for TextBox initialization is less than the time needed for RadDateInput initialization. [This](https://demos.telerik.com/aspnet-ajax/calendar/examples/datepicker/shareddatepicker/defaultcs.aspx?product=grid) is the demo application that illustrates this approach.
+## Optimize server-side performance
 
-7. You could use [RadAjaxManager]({%slug ajaxmanager/overview%}) controls to Ajax-ify the Grid instance and thus to receive partial updates from the service only for the Grid instance, not the whole page.
+1. For hierarchical grids, use **HierarchyLoadMode.ServerOnDemand** and populate child tables in the **DetailTableDataBind** event so detail data is loaded as needed. Combine this approach with [single expansion]({%slug grid/how-to/hierarchy/single-expand-in-hierarchical-grid%}) when users do not need multiple expanded items at the same level.
 
-8. It is important to test the performance only when debugging is disabled. Set `<compilation debug="false" />` in the web.config. When it is true, the MS AJAXdebugging code causes a severe performance hit on the client-side. The fact that most of the editor functionalities implemented in JavaScript, thus resulting in 10 times slower performance compared to native compiled code.
+2. If a grid is inside a **RadMultiPage** connected to a **RadTabStrip**, set **RenderSelectedPageOnly** to `True` on **RadMultiPage**, set **AutoPostBack** to `True` on the tab strip, and ajaxify the tab strip and multipage with **RadAjaxManager**. This limits rendering to the selected page view.
 
-9. Finally could use [RadCompression ]({%slug controls/radcompression%}) to compress the responce from the server in case of Ajax and service responses.
+3. Use **LinqDataSource** when its server-side operations match the application requirements. RadGrid can use LINQ expressions for operations such as sorting, filtering, and paging. Benchmark the result with the data volume and queries used by the application.
 
-## Steps to optimize the server performance:
+4. Client-side binding with caching can reduce repeated server requests, but it stores the cached data in the browser. Use it only when the data volume, freshness, and data-exposure requirements are appropriate. See [Client-side binding]({%slug grid/data-binding/client-side-binding/client-side-binding%}#client-side-caching).
 
-1. If you have hierarchical grid, use on demand loading (**HierarchyLoadMode.ServerOnDemand**) of detail tables with **DetailTableDataBind** child tables content generation. You can combine these settings with:
+5. Use [Custom Paging]({%slug grid/functionality/paging/custom-paging%}) when the full data source is too large to load into RadGrid. Return only the records for the current page and provide the total item count required by the custom-paging implementation.
 
-	* [single expand](https://www.telerik.com/help/aspnet-ajax/grid-single-expand-in-hierarchical-grid.html) for grid items at the same level
+6. Use client-side binding when the data source and security requirements allow the data to be sent to the browser. See [Client-side binding]({%slug grid/data-binding/client-side-binding/client-side-binding%}) for the supported programmatic and declarative approaches.
 
-2. If your grid or several instances of the control reside in page view(s) of RadMultipage (connected to RadTabStrip), we recommend choosing **RenderSelectedPageOnly = true** for RadMultipage, set **AutoPostBack = true** for the tabstrip and ajaxify the tabstrip and the multipage via **RadAjaxManager**. Thus only the active page view will be loaded at a time and merly the grid object residing in that page view will be bound to data, thus reducing the loading and rendering time of the page.
-
-3. You could use LinqDataSource for which the Grid control will perform aggregate calculations or executes sorting/filtering/paging operations by means of native LINQ expressions. This technique significantly reduce the time necessary to process these actions "behind the scenes" and allows you to handle millions of records within a few seconds. Example that illustrate this behavior could be found [here](https://demos.telerik.com/aspnet-ajax/grid/examples/performance/linq/defaultcs.aspx).
-
-4. You could have client-side binding with caching enabled. Doing this will cause all the data to be stored on the client computer and thus to increasethe performance and the scalability of the server. When caching is enabled the internal operation performed by RadGrid will be done solely on the client without hitting the datasource. Sample application could be seen [here](https://demos.telerik.com/aspnet-ajax/grid/examples/client/caching/defaultcs.aspx).
-
-5. Instead of providing the whole datasource to RadGrid and wait for it to page the data for you, you could do this manually by using the custom paging functionality that the control provides. In this case data will be loaded only for the current page. [This](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/custompaging/defaultcs.aspx) is a demo application that implements custom paging for RadGrid.
-
-6. You could bind the Grid with the data on the client computer. This could be done either [programmatically]( https://demos.telerik.com/aspnet-ajax/grid/examples/client/databinding/defaultcs.aspx	) or [declaratively]( https://demos.telerik.com/aspnet-ajax/grid/examples/client/declarativedatabinding/defaultcs.aspx	).
-
-7. If you have Grouping functionality enabled you could set the groups to be load on the client computer. [This]( https://demos.telerik.com/aspnet-ajax/grid/examples/groupby/grouploadmodeclient/defaultcs.aspx) is the demo application that illustrate this feature.
+7. If grouping is enabled and all group data can be sent to the browser, set **GroupLoadMode** to `Client` on the relevant **GridTableView** and enable **ClientSettings.AllowGroupExpandCollapse**. Client-side grouping avoids a request when users expand or collapse a group, but it requires all grouped data to be available on the client. See [Group load modes]({%slug grid/functionality/grouping/group-load-modes%}).
 
 ## See Also
 
- * [UI for ASP.NET AJAX Performance Optimization]({% slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/optimizing-performance %})
-
- * [Top performance with Telerik controls for ASP.NET AJAX.](https://www.telerik.com/aspnet-ajax/tech-sheets/top-performance)
+- [UI for ASP.NET AJAX Performance Optimization]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/performance/optimizing-performance%})
