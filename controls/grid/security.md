@@ -1,7 +1,7 @@
 ---
-title: Security
+title: RadGrid Security
 page_title: Security - RadGrid
-description: Discover best practices for securing the Grid control and protecting data in your web applications.
+description: Learn how to reduce XSS and SQL injection risks when RadGrid displays, filters, edits, and binds application data.
 slug: grid/security
 components: ["grid"]
 tags: security,xss,cross site scripting, sql injection
@@ -11,32 +11,33 @@ position: 3
 
 # RadGrid Security
 
-This article addresses Security issues concerning the Telerik RadGrid.
+This article explains how RadGrid handles HTML content and data-source operations, and how to reduce XSS and SQL injection risks in ASP.NET AJAX applications.
 
 ## Cross-site Scripting (XSS)
 
 Cross Site Scripting (XSS) attacks are a type of injection in which malicious scripts are injected in the web application and submitted to the server. If no validation or protective measures are undertaken, the injected script will be executed during displaying data by the Web UI Control such as the RadGrid. Subsequently, any sensitive information could be successfully hijacked to a location, known by the attacker.
 
-These type of attacks are popular, therefore, this matter is a commonly discussed topic in various public articles. You can learn more about how to protect your applications against XSS attacks by following these materials:
+These attacks are common. Learn more about protecting applications against XSS in the following resources:
 
-- MSDN: [How To: Prevent Cross-Site Scripting in ASP.NET](https://msdn.microsoft.com/en-us/library/ff649310.aspx)
-- OWASP: [Cross-site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/)
-- MDN: [Cross-site scripting](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)
+- [Microsoft guidance for preventing cross-site scripting in ASP.NET](https://msdn.microsoft.com/en-us/library/ff649310.aspx)
+- [OWASP cross-site scripting (XSS) guidance](https://owasp.org/www-community/attacks/xss/)
+- [MDN cross-site scripting glossary entry](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)
 
 
 **RadGrid** by default will display HTML content. For instance, if one of the Fields in the Data Source contain HTML code such as `<b>some text</b>`, this value will be displayed in bold, or `<font style="color: green">some text</font>` will be green when rendered on the page.
 
-Or in case the data source content contains scripts such as `<script>function(){ alert("window.alert run from a script")}</script>`, they will be executed upon loading the page.
+If the data source contains scripts such as `<script>function(){ alert("window.alert run from a script")}</script>`, the scripts execute when the page loads.
 
-For Example assuming the following content
-- ShipName column has its values wrapped in `<h2>` elements e.g. `<h2>Name 1</h2>`
-- ShipCountry column has its values wrapped in `<font>` and `<b>` elements e.g. `<font style="color: green"><b>Country 1</b></font>`
+For example, assume the following column content:
+
+- The `ShipName` column contains values wrapped in `<h2>` elements, such as `<h2>Name 1</h2>`.
+- The `ShipCountry` column contains values wrapped in `<font>` and `<b>` elements, such as `<font style="color: green"><b>Country 1</b></font>`.
 
 >caption Outputs
 
-![](images/grid-security-display-html.png)
+![RadGrid displaying unencoded HTML content](images/grid-security-display-html.png)
 
-In order to prevent displaying HTML code or executing scripts, the built-in columns expose a property called **HtmlEncode** (`default false`) that you can use to Enable/Disable encoding. By setting its value to **True** all HTML tags will be encoded to HTML entities.
+To prevent HTML from rendering or scripts from executing, set the built-in column `HtmlEncode` property to `True`. Its default value is `false`, and setting it to `True` encodes HTML tags as HTML entities.
 
 >caption Example Column definition
 
@@ -49,7 +50,7 @@ In order to prevent displaying HTML code or executing scripts, the built-in colu
 
 >caption Example Output
 
-![](images/grid-security-encode-html.png)
+![RadGrid displaying encoded HTML content](images/grid-security-encode-html.png)
 
 >caption Encoding HTML inside GridTemplateColumn
 
@@ -69,29 +70,29 @@ protected string EncodeValue(object value)
     return HttpUtility.HtmlEncode(value.ToString());
 }
 ````
-````VB
+````VB.NET
 Protected Function EncodeValue(ByVal value As Object) As String
     Return HttpUtility.HtmlEncode(value.ToString())
 End Function
 ````
 
->important While the Grid is capable of encoding the content to HTML Entities, this functionality only adds an extra layer of security. It is the **Developer's responsibility to sanitize the user input and eliminate malicious code** before inserting the values into the database.
+>important Encoding adds an extra layer of security. The **developer is responsible for sanitizing user input and eliminating malicious code** before inserting values into the database.
 
 
 ## SQL Injection
 
-*SQL injection* is a code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g. to dump the database contents to the attacker)
+SQL injection is a code injection technique that targets data-driven applications. An attacker inserts malicious SQL statements into an input field for execution, such as a statement that attempts to dump database contents.
 
->important **RadGrid** will only work with the datasource (e.g. DataSet, DataTable, Array, List, Entity Objects, SqlDataSource) provided by the Developer and **does not**/**cannot interact with the database directly**.
+>important **RadGrid** works with the data source provided by the developer, such as a `DataSet`, `DataTable`, array, list, entity object, or `SqlDataSource`. RadGrid does not interact with the database directly.
 >
->important Upon filtering, sorting, paging, etc., the Grid uses the Data Set provided by the Developer to perform those actions.
+>important During filtering, sorting, and paging, RadGrid performs operations on the data set provided by the developer.
 
-[](https://docs.microsoft.com/en-us/archive/msdn-magazine/2004/september/data-security-stop-sql-injection-attacks-before-they-stop-you)
+[Microsoft guidance for preventing SQL injection](https://docs.microsoft.com/en-us/archive/msdn-magazine/2004/september/data-security-stop-sql-injection-attacks-before-they-stop-you)
 
 
-If binding data using SqlDataSource, the Grid requests data from that data source control configured by the developer.
+When you bind RadGrid to `SqlDataSource`, the grid requests data from the data source control configured by the developer.
 
-The Developer will associate the Grid with the SqlDataSource Control. Upon Editing/Inserting the Grid will send a collection of Key (FieldName) & Value (User input) pairs, and from that point the SqlDataSource will take care of the rest.
+The developer associates the grid with the `SqlDataSource` control. During editing or inserting, the grid sends key and value pairs to the data source control, which processes the operation.
 
 ````ASP.NET
 <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" Width="800px"
@@ -104,9 +105,9 @@ The Developer will associate the Grid with the SqlDataSource Control. Upon Editi
 </telerik:RadGrid>
 ````
 
-The SqlDataSource will use the collection of key/pair values sent by the Grid and Queries that database.
+`SqlDataSource` uses the key and value pairs sent by the grid to query the database.
 
->important It is not mandatory, yet **Crucial** to Parameterize the Values. That is the way to protect the Database from SQL Injections.
+>important Always parameterize values to protect the database from SQL injection.
 
 >caption Example SqlDataSource with Parameters
 
@@ -159,7 +160,7 @@ protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArg
     (sender as RadGrid).DataSource = myDataSource;
 }
 ````
-````VB
+````VB.NET
 Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
     Dim myDataSource = New DataTable()
     'Developer's logic to QUERY the database e.g. "SELECT [Column] FROM [Table] WHERE [Column] = @someValue"
@@ -174,11 +175,13 @@ End Sub
 
 ## FAQ
 
-### RadGrid is vulnerable to SQL Injection using StoredProcedures.
+Review these frequently asked questions about RadGrid security behavior:
 
-RadGrid does not/cannot have direct access to the database. Check out the [SQL Injection](#sql-injection) section.
+### Is RadGrid vulnerable to SQL injection through stored procedures?
 
-To avoid SQL Injection, the developer must create parameters for StoredProcedures as well.
+RadGrid does not have direct access to the database. Review the [SQL injection](#sql-injection) section for the data-source boundary.
+
+To avoid SQL injection, create parameters for stored procedures.
 
 >caption Example Stored Procedure with Parameters
 
@@ -190,25 +193,30 @@ GO;
 ````
 
 
-### Vulnerability detected in RadGrid pagination
+### Vulnerability Detected in RadGrid Pagination
 
-RadNumericTextBox in the Grid pager having reference to JavaScript [eval()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval) function which is not recommended.
+The `RadNumericTextBox` control in the grid pager references the JavaScript [`eval()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval), which is not recommended.
 
-There is no reason to worry, the **RadNumericTextBox** Control does not allow any value set other than numbers (0-9).
+The **RadNumericTextBox** control accepts only numeric values from `0` through `9`.
 
-Often when conducting a [Static Application Security](#what-are-static-and-dynamic-application-security-testing) Testing, results may contain *false positive* because it could detect a function or JS version known to be vulnerable, however, in practice that would not happen.
+Static Application Security Testing (SAST) tools can report a false positive when they detect this function or a JavaScript version known to be vulnerable. In this case, the reported issue does not represent the pager's numeric input behavior.
 
-Furthermore, the embedded jQuery in the Telerik Assemblies has BackPorts to address the Vulnerabilities, see [Vulnerabilities of jQuery versions embedded in UI for ASP.NET AJAX]({%slug common-vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax%}). This is the reason we recommend using the embedded jQuery rather than Including External (other versions).
+The embedded jQuery in Telerik assemblies includes backports that address known vulnerabilities. Review [vulnerabilities in jQuery versions embedded in UI for ASP.NET AJAX]({%slug common-vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax%}) and use the embedded jQuery instead of including another version.
 
 
-### What are Static and Dynamic Application Security Testing?
+### What Are Static and Dynamic Application Security Testing?
 
-**Static Testing**
+#### Static Testing
 
-Static analysis is performed in a non-runtime environment. Static application security testing (SAST) is a testing process that looks at the application from the inside out. This test process is performed without executing the program, but rather by examining the source code, byte code or application binaries for signs of security vulnerabilities. In the static test process, the application data and control paths are modeled and then analyzed for security weaknesses. Static analysis is a test of the internal structure of the application, rather than functional testing.
+Static analysis examines source code, byte code, or application binaries without executing the application. Static Application Security Testing (SAST) evaluates the application's internal structure and data paths for security weaknesses.
 
-**Dynamic Testing**
+#### Dynamic Testing
 
-Dynamic analysis adopts the opposite approach and is executed while a program is in operation. Dynamic application security testing (DAST) looks at the application from the outside in — by examining it in its running state and trying to manipulate it in order to discover security vulnerabilities. The dynamic test simulates attacks against a web application and analyzes the application’s reactions, determining whether it is vulnerable.
+Dynamic analysis evaluates an application while it runs. Dynamic Application Security Testing (DAST) examines the application from the outside, simulates attacks, and analyzes the application's responses for vulnerabilities.
+
+## See Also
+
+- [Review vulnerabilities in embedded jQuery versions]({%slug common-vulnerabilities-of-jquery-versions-embedded-in-ui-for-asp.net-ajax%})
+- [Review RadGrid accessibility support]({%slug grid/accessibility-and-internationalization/wcag-2.0-and-section-508-accessibility-compliance%})
 
 

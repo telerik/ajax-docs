@@ -1,84 +1,89 @@
 ---
-title: Getting Started
+title: Getting Started with Telerik WebForms RadGrid
 page_title: Getting Started - RadGrid
-description: Learn how to set up and configure the Grid control for displaying and managing tabular data effectively.
+description: Learn how to set up Telerik WebForms RadGrid and find guidance for data binding, common features, styling, performance, and troubleshooting.
 slug: grid/getting-started
 components: ["grid"]
-tags: 
+tags: getting started, grid, RadGrid, WebForms
 published: True
 position: 1
 ---
 
-# Getting Started with the Telerik WebForms RadGrid
+# Getting Started with Telerik WebForms RadGrid
 
-In this article, you will find links that will help you get started to work with RadGrid.
+Use this guide to set up Telerik WebForms RadGrid, bind data, configure common features, and find related task-based articles.
 
-## Setting up the environment
+## Setting Up the Environment
 
-If the `Telerik Web UI for ASP.NET AJAX` is not installed yet, you can start off by installing it following the [Install Telerik UI for ASP.NET AJAX using MSI installer]({%slug getting-started/installation/install-using-msi%}) article.
+If `Telerik UI for ASP.NET AJAX` is not installed, follow [Install Telerik UI for ASP.NET AJAX using the MSI installer]({%slug getting-started/installation/install-using-msi%}).
 
 ## Creating a RadGrid
 
-There are three ways to create a RadGrid:
+Choose one of these approaches to create a RadGrid:
 
-* [Using the Visual Studio Designer]({%slug grid/create-radgrid/design-time%})
-* [Declaratively]({%slug grid/create-radgrid/declarative-definition%})
-* [Programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
+- [Use the Visual Studio Designer]({%slug grid/create-radgrid/design-time%})
+- [Define the RadGrid declaratively]({%slug grid/create-radgrid/declarative-definition%})
+- [Create the RadGrid programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
 
-In addition to creating the Grid, you can also:
+After you create the grid, you can also:
 
-* [Change the structure during a PostBack]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback%})
-* [Load a WebUserControl containing RadGrid]({%slug grid/create-radgrid/loading-user-control-with-telerik-radgrid-at-runtime%})
+- [Change the structure during a postback]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback%})
+- [Load a Web User Control that contains RadGrid]({%slug grid/create-radgrid/loading-user-control-with-telerik-radgrid-at-runtime%})
 
-## Binding data
+## Binding Data
 
-Binding data to RadGrid can also be done in multiple different ways listed in the [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/overview%}) article.
+Review [Telerik RadGrid data binding basics]({%slug grid/data-binding/overview%}) for the available binding approaches.
 
-Depending on the Business Requirements, you can bind data to it on:
+Choose a binding approach based on your application requirements:
 
-* [Client-Side]({%slug grid/data-binding/client-side-binding/client-side-binding%})
-* [Server-Side]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
-* [Declaratively]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
+- [Bind on the client side]({%slug grid/data-binding/client-side-binding/client-side-binding%})
+- [Bind on the server side]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
+- [Bind declaratively]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
 
-## Features/Functionalities
+## Using RadGrid Features
 
-RadGrid has many top-of-the line features/functionalities that you can benefit of. Check out the complete list of all [Features]({%slug grid/key-features%})
+Review the complete list of [RadGrid key features]({%slug grid/key-features%}) and explore these commonly used capabilities:
 
-Commonly used Functionalities are:
-
-* [Filtering]({%slug grid/functionality/filtering/overview%})
-* [Paging]({%slug grid/functionality/paging/overview%})
-* [Sorting]({%slug grid/functionality/sorting/overview%})
-* [Grouping]({%slug grid/functionality/grouping/overview%})
-* [Scrolling]({%slug grid/functionality/scrolling/overview%})
+- [Filter data]({%slug grid/functionality/filtering/overview%})
+- [Page data]({%slug grid/functionality/paging/overview%})
+- [Sort data]({%slug grid/functionality/sorting/overview%})
+- [Group data]({%slug grid/functionality/grouping/overview%})
+- [Scroll data]({%slug grid/functionality/scrolling/overview%})
 
 ## Accessing Cells, Values, Controls and More
 
-Accessing objects inside the Grid will require a specific approach for both Client and Server side. Instructions and examples can be found in the [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%}) article.
+Use a client-side or server-side approach to access objects inside the grid. See [Accessing RadGrid values and controls]({%slug grid/accessing-values-and-controls/overview%}) for instructions and examples.
 
-## Changing the appearance
+## Changing the Appearance
 
-* [Choosing from the built-in Skins]({%slug grid/appearance-and-styling/skins%})
-* [Modifying the built-in Skins]({%slug grid/appearance-and-styling/modifying-existing-skins%})
-* [Creating Custom Skins using the Telerik Sass Theme Builder]({%slug theme-builder/overview%})
+Choose from these appearance and skinning resources:
+
+- [Choose from the built-in skins]({%slug grid/appearance-and-styling/skins%})
+- [Modify the built-in skins]({%slug grid/appearance-and-styling/modifying-existing-skins%})
+- [Create custom skins with the Telerik Sass Theme Builder]({%slug theme-builder/overview%})
 
 ## Optimizing Performance
 
-* [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
-* [Ajaxifying RadGrid]({%slug grid/performance/ajaxifying-radgrid%})
-* [Saving the grid ViewState in Session]({%slug grid/performance/saving-the-grid-viewstate-in-session%})
-* [Rebind Grid with EnableViewState = false]({%slug grid/performance/rebind-grid-with-enableviewstate-=-false%})
+Use these articles to improve performance and manage state:
 
-## Troubleshooting
+- [Apply RadGrid performance optimizations]({%slug grid/performance/grid-performance-optimizations%})
+- [Ajaxify RadGrid]({%slug grid/performance/ajaxifying-radgrid%})
+- [Save the grid `ViewState` in `Session`]({%slug grid/performance/saving-the-grid-viewstate-in-session%})
+- [Rebind the grid with `EnableViewState="false"`]({%slug grid/performance/rebind-grid-with-enableviewstate-=-false%})
 
-* [Common Issues]({%slug grid/troubleshooting/most-common-mistakes%})
-* [Known reasons for Error Messages]({%slug grid/troubleshooting/known-reasons-for-error-messages%})
-* [Known Limitations]({%slug grid/troubleshooting/known-limitations%})
+## Troubleshooting Common RadGrid Issues
 
-# See Also
+Use these articles to troubleshoot common RadGrid issues:
 
-* [Install Telerik Web UI for ASP.NET AJAX]({%slug getting-started/installation/install-using-msi%})
-* [Getting Started with RadGrid for ASP.NET AJAX]({%slug grid/design-time/getting-started-with-radgrid-for-asp.net-ajax%})
-* [Key Features]({%slug grid/key-features%})
+- [Resolve common RadGrid issues]({%slug grid/troubleshooting/most-common-mistakes%})
+- [Review known reasons for error messages]({%slug grid/troubleshooting/known-reasons-for-error-messages%})
+- [Review known RadGrid limitations]({%slug grid/troubleshooting/known-limitations%})
+
+## See Also
+
+Continue with these related RadGrid resources:
+
+- [Get started with RadGrid in the Visual Studio designer]({%slug grid/design-time/getting-started-with-radgrid-for-asp.net-ajax%})
+- [Review RadGrid key features]({%slug grid/key-features%})
 
 
