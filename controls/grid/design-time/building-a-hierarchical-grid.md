@@ -1,7 +1,7 @@
 ---
 title: Building a Hierarchical Grid
 page_title: Building a Hierarchical Grid - RadGrid
-description: Check our Web Forms article about Building a Hierarchical Grid.
+description: Learn how to build a hierarchical RadGrid in Visual Studio by configuring master and detail data sources, table relations, and nested tables.
 slug: grid/design-time/building-a-hierarchical-grid
 components: ["grid"]
 tags: building,a,hierarchical,grid
@@ -22,7 +22,7 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 
 ## Creating the data sources
 
-1. Locate the "..\Live Demos\App_Data" folder underneath the folder where you have installed yourcontrols. In this folder, find the **Northwind.mdf** file and copy it into the **App_Data** folder of your Web site. The **Solution Explorer** for your application should look something like the following:
+1. Locate the "..\Live Demos\App_Data" folder underneath the folder where you have installed your controls. In this folder, find the **Northwind.mdf** file and copy it into the **App_Data** folder of your Web site. The **Solution Explorer** for your application should look something like the following:
 ![grid gettingstarted 1](images/grid_gettingstarted1.png)
 
 1. Drag and drop a **RadGrid** control from the toolbox onto your Web page:
@@ -37,7 +37,7 @@ This tutorial will walk you through creating a Web page that contains a hierarch
 1. On the **Choose Your Data Connection** page, expand the drop-down list by clicking the little triangle on the right side and select the **Northwind.mdf** from the available options. Then click the **Next** button:
 ![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
-	_Note_: If you happen to encounter a "Database schema could not be retrieved" exception, please follow the guide in [this] ({%slug grid/design-time/visual-studio-2012-datasource-configuration%}) help topic.
+	>note If you encounter a "Database schema could not be retrieved" exception, follow the [Visual Studio 2012 data source configuration guide]({%slug grid/design-time/visual-studio-2012-datasource-configuration%}).
 1. On the **Save the Connection String to the Application Configuration File** page, set name for the **Connection String** and then press **Next**:
 ![grid gettingstarted conn String](images/grid_gettingstarted_connString.png)
 
@@ -170,3 +170,8 @@ End Function
 
 Run the application. Note that you can now see the dynamically bound Detail Table:
 ![RadGrid With Three Levels](../images/grid_hierarchy21.png)
+
+## See Also
+
+- [Creating hierarchical grids from design time]({%slug grid/design-time/creating-hierarchical-grids-from-design-time%})
+- [Declarative data source]({%slug grid/design-time/declarative-data-source%})

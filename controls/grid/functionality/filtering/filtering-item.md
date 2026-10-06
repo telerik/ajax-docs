@@ -1,7 +1,7 @@
 ---
 title: Filtering Item
 page_title: Filtering Item - RadGrid
-description: Check our Web Forms article about Filtering Item.
+description: Learn how to customize the RadGrid filtering item and configure the controls used to filter column values.
 slug: grid/functionality/filtering/filtering-item
 components: ["grid"]
 tags: filtering,item
@@ -13,11 +13,9 @@ position: 1
 
 
 
-## 
-
 The **FilteringItem** is the row that holds the filtering boxes. It appears automatically when you enable the filtering (Set **AllowFilteringByColumn** to **true**):
 
-![GridFilteringItem](images/grd_FilteringItem.png)
+![RadGrid filtering item](images/grd_FilteringItem.png)
 
 The **FilteringItem** is always placed in <THEAD> section of a grid. As a result, it always appears on top of the grid (not at the bottom). You can customize the **FilteringItem** by setting a CSS class to the **FilterItemStyle** property of **RadGrid** or **GridTableView**. You can set the **FilterItemStyle** globally in the **RadGrid** declaration or set it individually for each table in the grid.
 

@@ -1,8 +1,9 @@
 ---
 title: Styling from Design-Time
 page_title: Styling from Design-Time - RadGrid
-description: Check our Web Forms article about Styling from Design-Time.
-slug: grid/designеr/styling-from-design-time
+description: Learn how to configure RadGrid styles, colors, fonts, alignment, and layout settings from the Visual Studio design-time editor.
+slug: grid/design-time/styling-from-design-time
+previous_url: grid/designеr/styling-from-design-time
 components: ["grid"]
 tags: styling,from,design-time
 published: True
@@ -25,11 +26,11 @@ The Styles section lets you fully customize the appearance of Telerik RadGrid. H
 
 This tree shows the customizable Telerik RadGrid objects. The first tree node presents settings for the whole grid. The Nodes next to it present settings for specific grid elements.
 
-If you use custom column-bounding the columns node will appear. When you use the automatic columns generation you will not see the Columns settings.
+If you use custom column binding, the Columns node appears. When you use automatic column generation, you will not see the Columns settings.
 
 ## Appearance
 
-This section of the dialog is common for all objects in the Object tree. Here you can set the appearance options for the data item element.Below are the customization options:
+This section of the dialog is common for all objects in the Object tree. Here you can set the appearance options for the data item element. Below are the customization options:
 
 * **Fore color** - the color of the text
 
@@ -46,3 +47,8 @@ Below are the layout options:
 * **Horizontal Alignment** - left, right or center
 
 * **Vertical Alignment** - top, middle, bottom
+
+## See Also
+
+- [Setting RadGrid properties]({%slug grid/design-time/setting-radgrid%})
+- [Using the RadGrid Smart Tag]({%slug grid/design-time/smarttag%})

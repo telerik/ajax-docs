@@ -1,7 +1,7 @@
 ---
 title: Extract Values of Selected Cells
 page_title: Extract Values of Selected Cells - RadGrid
-description: Extract Values of Selected Cells
+description: Learn how to extract values from selected RadGrid cells for validation, calculations, or other application logic.
 slug: grid/functionality/selecting/selecting-cells/extract-values-of-selected-cells
 components: ["grid"]
 tags: extract,values,selected,cells
@@ -13,7 +13,7 @@ position: 4
 
 Extracting the values can be done programmatically using both JavaScript and BackEnd code.
 
-# Client-Side
+## Client-Side
 
 JavaScript example of finding the Selected Cells (TD elements) by a CSS style, then looping through each to access the InnerText or InnerHtml of the Cell. Whether there is only text or html inside the Cell depends on how the Grid is configured and whether Template Columns are used.
 
@@ -37,7 +37,7 @@ function GetSelectedCellValues(sender, args) {
 }
 ````
 
-# Server-Side
+## Server-Side
 
 Example of Looping through all rows and cells to find out the selected Cells. Once found, you can access the Cell's value through its Text property.
 
@@ -62,5 +62,10 @@ protected void ButtonExtractValues_Click(object sender, EventArgs e)
     }
 }
 ````
+
+## See Also
+
+- [Selecting overview]({%slug grid/functionality/selecting/overview%})
+- [Selecting a single cell]({%slug grid/functionality/selecting/selecting-cells/single-cell%})
 
  

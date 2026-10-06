@@ -1,7 +1,7 @@
 ---
 title: BIFF (XLS)
 page_title: Excel-Biff (XLS) Export - RadGrid
-description: Export RadGrid to Binary Excel using the Excel Format Biff
+description: Learn how to export RadGrid data to Binary Excel (BIFF) format and configure the generated spreadsheet output for reporting.
 slug: grid/functionality/exporting/excel-export/excel-biff
 components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/excel-biff-export
@@ -70,7 +70,7 @@ The first row and first cell of each row are empty in the Excel Structure genera
 
 >caption Illustration of the Export Structure Table
 
-![](images/grid-excel-export-biff-table-structure.png)
+![BIFF export structure table](images/grid-excel-export-biff-table-structure.png)
 
 
 >caption Example using OnBiffExporting and OnInfrastructureExporting events
@@ -353,5 +353,10 @@ The following features are not supported by the export functionality
 - Automatic Column/Row Resizing
 - Image aspect ratio
 - [Custom skins]({%slug grid/appearance-and-styling/skins%}) whose images are set via the `ImagesPath` property instead of referenced in the stylesheet.
+
+## See Also
+
+- [Excel XLSX export]({%slug grid/functionality/exporting/excel-export/excel-xlsx%})
+- [Excel HTML export]({%slug grid/functionality/exporting/excel-export/excel-html%})
 
  

@@ -1,7 +1,7 @@
 ---
 title: Programmatic Pager Customization
 page_title: Programmatic Pager Customization - RadGrid
-description: Check our Web Forms article about Programmatic Pager Customization.
+description: Learn how to customize the RadGrid pager programmatically by changing pager controls, text, and navigation behavior in code.
 slug: grid/functionality/paging/changing-the-default-pager/programmatic-pager-customization
 components: ["grid"]
 tags: programmatic,pager,customization
@@ -12,8 +12,6 @@ position: 1
 # Programmatic Pager Customization
 
 
-
-## 
 
 You can replace the default pager programmatically with your own pager instance that holds the control set of your choice. This lets you provide a completely new look and feel for your pager while still using the integrated paging functionality of the grid.
 
@@ -150,6 +148,11 @@ Public Class MyPager
     End Sub
 End Class
 ````
+
+## See Also
+
+- [Paging overview]({%slug grid/functionality/paging/overview%})
+- [Setting a pager template]({%slug grid/functionality/paging/changing-the-default-pager/setting-pager-template%})
 
 
 

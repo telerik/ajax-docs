@@ -1,7 +1,7 @@
 ---
 title: Google-like Filtering
 page_title: Google-like Filtering - RadGrid
-description: Check our Web Forms article about Google-like Filtering.
+description: Learn how to configure Google-like filtering in RadGrid so users can search and narrow data with a familiar interface.
 slug: grid/functionality/filtering/google-like-filtering
 components: ["grid"]
 tags: google-like,filtering
@@ -12,8 +12,6 @@ position: 4
 # Google-like Filtering
 
 
-
-## 
 
 It allows displaying the available options while the user types in a RadComboBox in RadGrid filtering item. Filtering is confirmed when item is selected or Enter is pressed.
 
@@ -343,6 +341,11 @@ Public Class MyCustomFilteringColumnCS
     End Function
 End Class
 ````
+
+## See Also
+
+- [Filtering overview]({%slug grid/functionality/filtering/overview%})
+- [Filter templates]({%slug grid/functionality/filtering/filter-template%})
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: Controlling Sort Modes
 page_title: Controlling Sort Modes - RadGrid
-description: Explore how to control sort modes in the Grid control for customizing data sorting behavior.
+description: Learn how to control RadGrid sort modes and configure ascending, descending, and no-sort behavior for column sorting.
 slug: grid/functionality/sorting/controlling-sort-modes
 components: ["grid"]
 tags: controlling,sort,modes
@@ -16,14 +16,14 @@ position: 4
 There are three sorting modes in **RadGrid**:
 
 * **Ascending**: When the user clicks once on the sort button in the column header, the table view sorts its items by that column's value, using an ascending sort order. An sorting indicator
-![SortAsc.gif](images/grd_SortAsc.gif) appears in the column header to indicate that the column is sorted ascending.
+![Ascending sort indicator](images/grd_SortAsc.gif) appears in the column header to indicate that the column is sorted ascending.
 
 * **Descending**: When the user clicks on the sort button of a column that has a sort mode of "Ascending", the sort mode changes to "Descending". The sorting indicator changes to
-![SortDesc.gif](images/grd_SortDesc.gif) to indicate that column is sorted descending.
+![Descending sort indicator](images/grd_SortDesc.gif) to indicate that column is sorted descending.
 
 * **NoSort**: The user can remove the sort on a column by clicking the sort button of a column that has a sort mode of "Descending". When the sort mode is "NoSort", no sorting indicator appears in the column header by default. To show a sorting indicator in "NoSort" more check the [NoSort Mode Sorting Indicator](#nosort-mode-sorting-indicator).
 
-![](images/grd_SortMode.png)
+![RadGrid sort mode sequence](images/grd_SortMode.png)
 
 To limit the sorting modes to two-way sorting (ascending and descending), set the **MasterTableView.AllowNaturalSort** property or the **GridTableView.AllowNaturalSort** property to **False**. When **AllowNaturalSort** is **False**, the automatic sequence of sort modes toggles between "Ascending" and "Descending", without allowing a mode of "NoSort".
 
@@ -151,4 +151,9 @@ To show the indicator in NoSort mode, you can set the `Grid.SortingSettings.Show
 ````
 
 You can check this functionality in action in the [Grid - Basic Sorting](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/sorting/basic-sorting/defaultcs.aspx) online demo.
+
+## See Also
+
+- [Sorting overview]({%slug grid/functionality/sorting/overview%})
+- [Sort expressions]({%slug grid/functionality/sorting/sort-expressions%})
 

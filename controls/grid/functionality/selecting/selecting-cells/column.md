@@ -1,7 +1,7 @@
 ---
 title: Column
 page_title: Selecting Column Cells - RadGrid
-description: Selecting Cells of a Column
+description: Learn how to select all cells in a RadGrid column and access the selected values for processing in application code.
 slug: grid/functionality/selecting/selecting-cells/column
 components: ["grid"]
 tags: selecting,cells,column
@@ -13,7 +13,7 @@ position: 2
 
 The **Column** option allows you to select the Cells of a single Column by clicking on the Column Header.
 
-![](images/Column.gif)
+![Selecting cells in a single column](images/Column.gif)
 
 ## Built-in Selection
 

@@ -1,7 +1,7 @@
 ---
 title: Creating Hierarchical Grids from Design-Time
 page_title: Creating Hierarchical Grids from Design-Time - RadGrid
-description: Check our Web Forms article about Creating Hierarchical Grids from Design-Time.
+description: Learn how to create RadGrid detail tables, configure data binding and table relations, and manage hierarchical grids in Visual Studio.
 slug: grid/design-time/creating-hierarchical-grids-from-design-time
 components: ["grid"]
 tags: creating,hierarchical,grids,from,design-time
@@ -52,4 +52,9 @@ In order to delete a detail table, point it in the Grid hierarchy objects tree a
 
 >caution The master table cannot be deleted.
 >
+
+## See Also
+
+- [Building a hierarchical grid]({%slug grid/design-time/building-a-hierarchical-grid%})
+- [Adding columns from design time]({%slug grid/design-time/adding-columns-from-design-time%})
 

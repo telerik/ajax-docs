@@ -1,7 +1,7 @@
 ---
 title: Virtual Scrolling
 page_title: Virtual Scrolling - RadGrid
-description: Check our Web Forms article about Virtual Scrolling.
+description: Learn how to enable virtual scrolling in RadGrid so users can navigate large datasets without loading every row at once.
 slug: grid/functionality/scrolling/virtual-scrolling
 components: ["grid"]
 tags: virtual,scrolling
@@ -71,8 +71,6 @@ Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As GridNee
                                        RadGrid1.CurrentPageIndex * RadGrid1.PageSize & " AND " & ((RadGrid1.CurrentPageIndex + 1) * RadGrid1.PageSize))
 End Sub
 ````
-
-
 >note NOTE: RadGrid's virtual scrolling / paging feature does not support rows of variable height. All rows in all pages should have the same height for the scroll position to be properly calculated.
 >
 
@@ -161,4 +159,9 @@ Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As Web
     RadGrid1.Rebind()
 End Sub
 ````
+
+## See Also
+
+- [Scrolling overview]({%slug grid/functionality/scrolling/overview%})
+- [Virtualization]({%slug grid/functionality/scrolling/virtualization%})
 

@@ -1,7 +1,7 @@
 ---
 title: Selectable Mode
 page_title: Selectable Mode - RadGrid
-description: Check our Web Forms article about Selectable Mode.
+description: Learn how to configure RadGrid SelectableMode to control whether grid items can be selected on the server, client, or both.
 slug: grid/functionality/selecting/selecting-rows/selectable-mode
 components: ["grid"]
 tags: selectable,mode
@@ -22,3 +22,8 @@ There are three selectable modes in **RadGrid** control. These modes could be ma
 * **SelectableMode.ServerSide**:This value allows the developer to select items on the server which could not be changed by the end user.
 
 * **SelectableMode.None**: The item could not be selected on the client or the server. If the GridItem.Selected value have been true it is automatically deselected when SelectableMode is set to None.
+
+## See Also
+
+- [Selecting overview]({%slug grid/functionality/selecting/overview%})
+- [Selecting a row with a click]({%slug grid/functionality/selecting/selecting-rows/client-side-selecting-with-a-click%})

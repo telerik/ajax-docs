@@ -1,7 +1,7 @@
 ---
 title: Setting grouping from Design-Time
 page_title: Setting grouping from Design-Time - RadGrid
-description: Check our Web Forms article about Setting grouping from Design-Time.
+description: Learn how to configure RadGrid grouping, group panels, group expressions, group loading, and group footers from the Visual Studio designer.
 slug: grid/design-time/setting-grouping-from-design-time
 components: ["grid"]
 tags: setting,grouping,from,design-time
@@ -27,10 +27,15 @@ The following screenshot demonstrates how you can set group-by expressions decla
 
 ![Design-time GroupByExpressions](images/grid_setting-grouping-from-design-time2.png)
 
-From the combobox at the top of the editor you can control where the grouping will be handled on the client or on the server, using the **GroupLoadMode** property of the GridTableView instance.Each **GridTableView** object has a **GroupByExpressions** property. GroupByExpressions is a collection of group expressions(GridGroupByExpression objects). **GridGroupByExpression** object contains two collections in turn:
+From the combo box at the top of the editor, you can control whether grouping is handled on the client or server by using the **GroupLoadMode** property of the **GridTableView** instance. Each **GridTableView** object has a **GroupByExpressions** property. **GroupByExpressions** is a collection of group expressions (**GridGroupByExpression** objects). A **GridGroupByExpression** object contains two collections:
 
 * The **SelectFields** collection determines the information that is displayed in the group header.
 
 * The **GroupByFields** collection determines the field values that are used to group the data.
 
-To expand all groups on grid load you must check [**Expand groups**] box. You can also enable group footers feature which provides the option to render footer under each group in the grid, by checking the [**Show group footers**] box on the top of the Editor.
+To expand all groups on grid load, check the **Expand groups** box. To display a footer under each group, check the **Show group footers** box at the top of the editor.
+
+## See Also
+
+- [Setting RadGrid properties]({%slug grid/design-time/setting-radgrid%})
+- [Adding columns from design time]({%slug grid/design-time/adding-columns-from-design-time%})

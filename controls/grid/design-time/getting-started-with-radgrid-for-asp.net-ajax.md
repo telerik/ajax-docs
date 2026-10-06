@@ -1,7 +1,7 @@
 ---
 title: Getting Started with RadGrid for ASP.NET AJAX
 page_title: Getting Started with RadGrid - RadGrid
-description: Check our Web Forms article about Getting Started with RadGrid for ASP.NET AJAX.
+description: Learn how to create a RadGrid with a declarative data source and configure paging, sorting, scrolling, filtering, grouping, and selection.
 slug: grid/design-time/getting-started-with-radgrid-for-asp.net-ajax
 components: ["grid"]
 tags: getting,started,with,radgrid,for,asp.net,ajax
@@ -47,7 +47,7 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 
 	![grid gettingstarted 5](images/grid_gettingstarted5.png)
 
-	_Note_: If you happen to encounter a "Database schema could not be retrieved" exception, please follow the guide in [this] ({%slug grid/design-time/visual-studio-2012-datasource-configuration%}) help topic.
+	>note If you encounter a "Database schema could not be retrieved" exception, follow the [Visual Studio 2012 data source configuration guide]({%slug grid/design-time/visual-studio-2012-datasource-configuration%}).
 1. On the **Configure the Select Statement** page, select the Customers table from the drop-down list, select the CompanyName, ContactName, Address, and PostalCode fields. Then choose **Next**:
 
 	![grid gettingstarted 6](images/grid_gettingstarted6.png)
@@ -141,3 +141,8 @@ This tutorial will walk you through creating a Web page that contains a **RadGri
 1. Now, you have a fully functional **RadGrid** with no code behind. Paging, sorting, filtering, scrolling and grouping are enabled. There is a column for server-side selection and a template column for specific data display:
 
 	![grid gettingstarted 23](images/grid_gettingstarted23.JPG)
+
+## See Also
+
+- [Using the RadGrid Smart Tag]({%slug grid/design-time/smarttag%})
+- [Setting RadGrid properties]({%slug grid/design-time/setting-radgrid%})

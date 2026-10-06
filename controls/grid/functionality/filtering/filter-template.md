@@ -1,7 +1,7 @@
 ---
 title: Filter Template
 page_title: Filter Template - RadGrid
-description: Explore how to use filter templates in the Grid control for creating custom filtering interfaces.
+description: Explore how to use RadGrid filter templates to create custom filtering interfaces and connect them to bound data sources.
 slug: grid/functionality/filtering/filter-template
 components: ["grid"]
 tags: filter,template
@@ -168,4 +168,9 @@ If you use Filter Templates for these columns, make sure to add the respective F
     </FilterTemplate>
 </telerik:GridNumericColumn>
 ````
+
+## See Also
+
+- [Filtering overview]({%slug grid/functionality/filtering/overview%})
+- [Filtering item]({%slug grid/functionality/filtering/filtering-item%})
  

@@ -1,7 +1,7 @@
 ---
 title: Accessing the Elements of Advanced Type Pager
 page_title: Accessing the Elements of Advanced Type Pager - RadGrid
-description: Check our Web Forms article about Accessing the Elements of Advanced Type Pager.
+description: Learn how to access the elements of the RadGrid advanced pager to customize pager controls and respond to paging interactions.
 slug: grid/functionality/paging/changing-the-default-pager/accessing-the-elements-of-advanced-type-pager
 components: ["grid"]
 tags: accessing,the,elements,of,advanced,type,pager
@@ -12,8 +12,6 @@ position: 3
 # Accessing the Elements of Advanced Type Pager
 
 
-
-## 
 
 When using the advanced grid pager/slider, you can customize the properties of the buttons or labels inside the pager or the slider pager itself. The following steps describe how to access these controls:
 
@@ -31,7 +29,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 
 	**Example**:
 
-    ```C#
+    ````C#
 
 		protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
 		{
@@ -41,9 +39,9 @@ When using the advanced grid pager/slider, you can customize the properties of t
 		        lblPageSize.Text = "Number of items:";
 		    }
 		}
-    ```
+    ````
 
-    ```VB
+    ````VB
 
 		Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs) Handles RadGrid1.ItemDataBound()
 		    If TypeOf e.Item Is GridPagerItem Then
@@ -51,7 +49,7 @@ When using the advanced grid pager/slider, you can customize the properties of t
 		        lblPageSize.Text = "Number of items:"
 		    End If
 		End Sub
-    ```
+    ````
 
 
 4. The following table lists the ID's of the controls in the pager when **Mode** is "Advanced" or "Slider":
@@ -114,7 +112,7 @@ End Sub
 ````
 
 
-![](images/grd_AccessingPagerButtons.png)
+![Controls in the advanced RadGrid pager](images/grd_AccessingPagerButtons.png)
 
 >note When setting the **PageOfLabel,** in order to to display the page count number, you would need to append it to the label text as demonstrated below:
 >

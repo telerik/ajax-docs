@@ -1,7 +1,7 @@
 ---
 title: XML Options
 page_title: XML Options for Word Format (HTML-Based) - RadGrid
-description: Check our Web Forms article about Word Format (HTML-Based).
+description: Learn how to configure XML options when exporting RadGrid data to Word HTML format for document compatibility and control.
 slug: grid/functionality/exporting/word-export/xml-options
 components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/word-and-excel-export/word-format-(html-based)
@@ -50,4 +50,9 @@ Protected Sub RadGrid1_HTMLExporting(sender As Object, e As GridHTMLExportingEve
     e.XmlOptions = "<xml><w:WordDocument><w:HideSpellingErrors/><w:View>Print</w:View></w:WordDocument></xml>"
 End Sub	
 ````
+
+## See Also
+
+- [Word HTML export]({%slug grid/functionality/exporting/word-export/word-html%})
+- [Word DOCX export]({%slug grid/functionality/exporting/word-export/word-docx%})
 
