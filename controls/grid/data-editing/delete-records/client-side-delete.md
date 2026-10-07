@@ -12,8 +12,6 @@ position: 1
 
 
 
-## 
-
 In addition to the server/ajax delete feature of Telerik RadGrid there is support for delete operation client-side. This allows you to delete records without making additional round trip to the server.
 
 Having delete operation on the client optimizes the performance as the source data is automatically refreshed only once on the subsequent post to the server. The user experience is improved because the delete action is done client-side and the table presentation is updated immediately. In order to trigger client-side delete action you need to add **GridClientDeleteColumn** to the Columns collection. This column is special type of **GridButtonColumn** designated for the task and you can have all the benefits of the **GridButtonColumn**.
@@ -42,3 +40,8 @@ It has **ConfirmText** property that can be assigned like with the default **Gri
 * Automatic deletes with data source control under ASP.NET 2.0.
 
 * Manual delete with ability to cancel the delete action on the server in the corresponding *DeleteCommand/ItemCommand* handler (by setting *e.Canceled* to *true*).
+
+## See Also
+
+- [Delete records overview]({%slug grid/data-editing/delete-records/overview%})
+- [Confirmation dialogs]({%slug grid/data-editing/delete-records/confirmation-dialogs%})

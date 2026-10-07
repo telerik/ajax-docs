@@ -84,5 +84,10 @@ The properties listed below enable you to configure the settings for batch editi
 
 >caution When setting the **EditMode** to **Batch** multi-row editing is not supported as only one editor is initialized for a given column (for performance purposes).
 
+## See Also
+
+- [Batch editing overview]({%slug grid/data-editing/edit-mode/batch-editing/overview%})
+- [Batch editing client-side API]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%})
+
 
 

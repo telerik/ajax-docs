@@ -1,38 +1,50 @@
 ---
 title: CSS sprites
 page_title: CSS sprites - RadGrid
-description: Check our Web Forms article about CSS sprites.
+description: Learn how RadGrid CSS sprites combine button and skin images into a shared background image in Telerik UI for ASP.NET AJAX.
 slug: grid/appearance-and-styling/css-sprites
 tags: css,sprites
 published: True
 position: 3
 ---
 
-# CSS sprites
+# CSS Sprites
 
 
 
-As of Q1 2008, RadGrid for ASP.NET AJAX introduced a new rendering mode for all its buttons. In addition to PushButtons, LinkButtons and ImageButtons, it now offers the so called SpriteButtons. SpriteButtons are rendered as <input type="button" /> elements, but they have predefined CSS classes, which can be used to change their look and feel to resemble ImageButtons. The major advantage of SpriteButtons is that they all can share a single background image (called CSS sprite) which contains all the unique background images for all buttons. As a result, a RadGrid skin will use only one image and make only one HTTP request to the server, apart from the CSS file, which will help the skin load a lot faster.
+As of Q1 2008, **RadGrid** for ASP.NET AJAX has supported SpriteButtons. In addition to push buttons, link buttons, and image buttons, SpriteButtons use predefined CSS classes and can share a single background image called a CSS sprite. This reduces the number of image requests required by a skin.
 
-Here is an example. Imagine that we have the following GIF file, containing several images with some transparent space between them:
-![sprite 1](images/grd_gridsprite1.gif)
+The following image shows a GIF file that contains several images with transparent space between them.
 
-By using SpriteButtons and appropriate CSS code, we can make RadGrid use this single image as a background for all buttons marked with red border:
-![grid with sprite](images/grd_gridwithsprite.gif)
+> caption Figure 1: Source images in a CSS sprite
 
-What's more, we can include also the skin gradients into the sprite image, like this:
-![sprite 2](images/grd_gridsprite2.gif)
+![Source images in a CSS sprite](images/grd_gridsprite1.gif)
 
-## Guidelines for creating and using a CSS sprite
+By using SpriteButtons and appropriate CSS, you can use this image as the background for all buttons marked with a red border.
+
+> caption Figure 2: RadGrid buttons using a CSS sprite
+
+![RadGrid buttons using a CSS sprite](images/grd_gridwithsprite.gif)
+
+You can also include skin gradients in the sprite image.
+
+> caption Figure 3: Skin gradients included in a CSS sprite
+
+![Skin gradients included in a CSS sprite](images/grd_gridsprite2.gif)
+
+## Guidelines for Creating and Using a CSS Sprite
 
 Planning and correct positioning of the different small images in a CSS sprite is very important. Please adhere to the following guidelines, which apply for CSS sprites in general, not just RadGrid.
 
-* Leave enough transparent space between images, so that if an element is expanded (e.g. multiple lines in a grid row, larger buttons, larger fonts, etc), the adjacent background images in the sprite remain invisible. For example, if you want to support 200px high RadGrid GroupPanel with background image positioned at the top, you should leave 200px transparent space below the GroupPanel background in the CSS sprite. If the GroupPanel becomes higher than 200px, the next background image in the CSS sprite will become visible. This scenario is illustrated in the following picture:
-![sprite overflow](images/grd_gridspriteoverflow.gif)
+* Leave enough transparent space between images so that adjacent background images remain invisible when an element expands. For example, if a **RadGrid** group panel can be 200 pixels high, leave 200 pixels of transparent space below its background in the sprite.
 
-* According to your preference, you can have different mixtures of background images, in terms of background-repeat, in a single CSS sprite: a) only images that do not repeat (e.g. buttons)b)only images that repeat horizontally (e.g. header cell backgrounds, selected row backgrounds, pager background, etc.)c) only images that repeat vertically (currently not used in RadGrid)d) images that do not repeat and images that repeat horizontallye) images that do not repeat and images that repeat vertically
+> caption Figure 4: Background image overflow caused by insufficient transparent space
 
-* As a consequence a) images that repeat in both directions cannot be included in a sprite, they should remain on their ownb) images that repeat horizontally should occupy the entire width of a CSS sprite (as in the example above)c) images that repeat vertically should occupy the entire height of a CSS sprite
+![CSS sprite overflow](images/grd_gridspriteoverflow.gif)
+
+* You can combine images with different `background-repeat` behavior in one sprite, including non-repeating images, horizontally repeating images, and vertically repeating images.
+
+* Images that repeat in both directions cannot be included in a sprite and should remain separate. Images that repeat horizontally should occupy the full sprite width, while images that repeat vertically should occupy the full sprite height.
 
 ## CSS styles and CSS sprites
 
@@ -43,7 +55,9 @@ How do we make a specific part of the sprite image appear as a background for a 
 background:url(sprite-image.gif) -64px -63px no-repeat; }
 ````
 
-![sprite position](images/grd_gridspriteposition.gif)
+> caption Figure 5: CSS background position for a RadGrid sprite button
+
+![CSS background position for a RadGrid sprite button](images/grd_gridspriteposition.gif)
 
 ## SpriteButton CSS classes
 
@@ -73,4 +87,8 @@ These are the CSS classes available for the different buttons in RadGrid:
 
 * **rgUpdate** - update
 
-* **rgCance**l - cancel edit
+* **rgCancel** - cancel edit
+
+## See Also
+
+* [RadGrid Skins]({%slug grid/appearance-and-styling/skins%})

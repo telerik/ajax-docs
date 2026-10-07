@@ -1,9 +1,10 @@
 ---
 title: Grouping
 page_title: Grouping - RadGrid
-description: Check our Web Forms article about Grouping.
+description: Learn how RadGrid Mobile render mode displays the group panel, group items, and drag-to-group interactions on touch devices.
 slug: grid/mobile-support/mobile-rendering/grouping
-tags: grouping
+components: ["grid"]
+tags: mobile-rendering,grouping,group-panel
 published: True
 position: 3
 ---
@@ -14,21 +15,37 @@ position: 3
 
 ## Basic Grouping
 
-The grouping functionality of the Adaptive RadGrid control has the following characteristics:
+The grouping functionality of RadGrid in Mobile render mode has the following characteristics:
 
-* The group panel item always renders as part of the table header below the command item and above the column headers (this is only valid for **RenderMode** set to "**Mobile**"). You will expand the group view when you click anywhere in the row with the "**View Groups**" pointer. If you click outside the group panel, the group view will be collapsed.
-In case you set the "**ShowUnGroupButton**" property of the grid control to "**true**", a close button will render next to each group item.
-(screenshot)![adaptive grid Grouping 4](images/adaptive_grid_Grouping4.png)
+* The group panel item renders as part of the table header below the command item and above the column headers when **RenderMode** is **Mobile**. Tap the row with the **View Groups** pointer to expand the group view. Tap outside the group panel to collapse it. If **GridGroupingSettings.ShowUnGroupButton** is `True`, a close button appears next to each group item.
 
-* The grid has a separate **gridGrouPanelItem**, which you can access and modify on the server as any other item in the grid
+> caption Figure 1: RadGrid mobile group panel
 
-* The GroupPanel property (both server and client-side) is obsolete when RenderMode is set to "Mobile". If you are using it, it will not give any effect
+![RadGrid mobile group panel](images/adaptive_grid_Grouping4.png)
 
-* When the grid is not grouped the default text in the groupPanelItem is "Drag a column header and drop it here to group"![adaptive grid Grouping 1](images/adaptive_grid_Grouping1.png)
+* The grid has a separate group panel item that you can access and modify on the server like other grid items.
 
-* When the grid gets grouped – you see only an arrow pointing down and the text "View Groups"![adaptive grid Grouping 3](images/adaptive_grid_Grouping3.png)
+* The **GroupPanel** property is obsolete when **RenderMode** is **Mobile** and has no effect.
 
-* Drag to group action works the same way as before – you drag a column header and drop it on the group panel item. It will **not** be visible in the group panel item. The group items can be dragged and reordered only by using the icon in the left part of the item (image). When the "**AllowDragToReorder**" property is set to "**false**" the mentioned icon will not be visible.
-![adaptive grid Grouping 2](images/adaptive_grid_Grouping2.png)
+* When the grid is not grouped, the default group panel text is **Drag a column header and drop it here to group**.
+
+> caption Figure 2: RadGrid mobile group panel before grouping
+
+![RadGrid mobile group panel before grouping](images/adaptive_grid_Grouping1.png)
+
+* When the grid is grouped, the group panel shows a down arrow and the text **View Groups**.
+
+> caption Figure 3: RadGrid mobile group panel after grouping
+
+![RadGrid mobile group panel after grouping](images/adaptive_grid_Grouping3.png)
+
+* To group data, drag a column header and drop it on the group panel item. The grouped column is not visible in the group panel item. Drag and reorder group items by using the icon on the left side of the item. Set **AllowDragToReorder** to `False` to hide the icon.
+
+> caption Figure 4: Reordering group items in RadGrid Mobile render mode
+
+![Reordering group items in RadGrid Mobile render mode](images/adaptive_grid_Grouping2.png)
 
 ## See Also
+
+- [Column settings]({%slug grid/mobile-support/mobile-rendering/column-settings%})
+- [Mobile rendering overview]({%slug grid/mobile-support/mobile-rendering/overview%})

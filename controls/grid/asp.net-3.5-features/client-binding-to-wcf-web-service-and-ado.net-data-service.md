@@ -1,7 +1,7 @@
 ---
 title: Client Binding to WCF Web Service and ADO.NET Data Service
-page_title: Client Binding to WCF Web Service and ADO.NET Data Service - RadGrid
-description: Check our Web Forms article about Client Binding to WCF Web Service and ADO.NET Data Service.
+page_title: Client Binding to WCF and ADO.NET Services - RadGrid
+description: Learn how to bind RadGrid on the client to WCF Web Services and ADO.NET Data Services with paging, sorting, and filtering.
 slug: grid/asp.net-3.5-features/client-binding-to-wcf-web-service-and-ado.net-data-service
 tags: client,binding,to,wcf,web,service,and,ado.net,data,service
 published: True
@@ -12,17 +12,19 @@ position: 0
 
 
 
-As of ASP.NET 3.5, the .NET framework introduces two new ways to supply data to your ASP.NET server controls - binding to Windows Communication Foundation (WCF) Web Service and binding to ADO.NET Data Services. They allow the developer to use asynchronous calls using these types of services to retrieve data, return it back to the client and update the state of controls based on the result which is send back from the service. Below are a couple of tutorials which include step by step directions how to configure WCF service and ADO.NET Data Services with Visual Studio:
+Starting with ASP.NET 3.5, the .NET Framework provides two ways to supply data to ASP.NET server controls: binding to Windows Communication Foundation (WCF) Web Services and binding to ADO.NET Data Services. These services support asynchronous calls that retrieve data, return it to the client, and update the controls based on the result sent by the service. The following tutorials provide step-by-step instructions for configuring these services in Visual Studio:
 
 [WCF services getting started tutorial](https://msdn.microsoft.com/en-us/library/ms734712.aspx)
 
 [Using Microsoft ADO.NET Data Services](https://msdn.microsoft.com/en-us/library/cc907912.aspx)
 
-RadGrid for ASP.NET AJAX exposes declarative way to binding itself to data returned from WCF web service or ADO.NET Data Service which is presented in the [following online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/clientbinding/defaultcs.aspx) of the product. Additionally, both grids from the example support paging/sorting/filtering without any extra coding.
+RadGrid for ASP.NET AJAX provides a declarative way to bind to data returned by a WCF Web Service or an ADO.NET Data Service, as shown in the [client binding demo](https://demos.telerik.com/aspnet-ajax/grid/examples/clientbinding/defaultcs.aspx). Both grids in the example support paging, sorting, and filtering without additional code.
 
 ## Binding RadGrid for ASP.NET AJAX to WCF Web Service
 
-For the first RadGrid, which is bound to WCF Web Service, you need to specify an existing web service and method with following signature:
+For the first RadGrid, which is bound to a WCF Web Service, specify an existing service and a method with the following signature:
+
+> caption Example: Configuring client-side WCF data binding
 
 ````ASP.NET
 <ClientSettings>
@@ -38,13 +40,13 @@ public ResultData GetDataAndCount(int startRowIndex, int maximumRows, string sor
 {
 }
 ````
-````VB
+````VB.NET
 <OperationContract()> _
 Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As String, ByVal filterExpression As String) As ResultData
 End Function
 ````
 
-where *ResultData *is custom class that holds data returned from the service to client.The signature of this class and the *GridWcfService.svc* file (used in the demo) are shown below:
+`ResultData` is a custom class that holds data returned from the service. The signature of this class and the `GridWcfService.svc` file used in the demo are shown below:
 
 ````ASP.NET
 <%@  servicehost language="C#" debug="true" service="GridWcfService" codebehind="~/App_Code/GridWcfService.cs" %>
@@ -96,7 +98,7 @@ public class GridWcfService
    }
 }   
 ````
-````VB
+````VB.NET
 Imports System
 Imports System.Collections.Generic
 Imports System.Linq
@@ -166,7 +168,7 @@ Imports Telerik.Web.UI
         Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As String, ByVal filterExpression As String) As ResultData
             Dim data As GridBindingData = RadGrid.GetBindingData("LinqToSql.NorthwindDataContext", "Products", startRowIndex, maximumRows, sortExpression, filterExpression)
             Dim result As New ResultData()
-  result.Data = data.Data.OfType(Of LinqToSql.Product)().[Select](Function(p As ) New Product()).ToList()
+            result.Data = data.Data.OfType(Of LinqToSql.Product)().[Select](Function(p As LinqToSql.Product) New Product() With {.ProductID = p.ProductID, .ProductName = p.ProductName, .UnitPrice = p.UnitPrice, .ReorderLevel = p.ReorderLevel, .Discontinued = p.Discontinued}).ToList()
             result.Count = data.Count
             Return result
 End Function
@@ -186,7 +188,7 @@ The second RadGrid from the online example referenced above is bound to ADO.NET 
 </ClientSettings>
 ````
 
-and GetCount method:
+Define the `GetCount` method as follows:
 
 
 ````C#
@@ -196,14 +198,14 @@ public int GetCount(string where)
     return String.IsNullOrEmpty(where) ? CurrentDataSource.Products.Count() : CurrentDataSource.Products.Where(where).Count();
 }
 ````
-````VB
+````VB.NET
 <WebGet()> _
 Public Function GetCount(ByVal where As String) As Integer
     Return If([String].IsNullOrEmpty(where), CurrentDataSource.Products.Count(), CurrentDataSource.Products.Where(where).Count())
 End Function
 ````
 
-The syntax of the ADO.NET Data Service class and the *GridAdoNetDataService.svc* file from the sample is presented in the forthcoming section:
+The ADO.NET Data Service class and the `GridAdoNetDataService.svc` file from the sample use the following syntax:
 
 ````ASP.NET
 
@@ -212,7 +214,7 @@ The syntax of the ADO.NET Data Service class and the *GridAdoNetDataService.svc*
 
 
 
-````ASP.NET
+````C#
 using System;
 using System.Data.Services;
 using System.Collections.Generic;
@@ -234,7 +236,7 @@ public class GridAdoNetDataService : DataService<NorthwindEntities>
    }
 } 			
 ````
-````VB
+````VB.NET
 Imports System
 Imports System.Data.Services
 Imports System.Collections.Generic
@@ -253,6 +255,12 @@ Imports EntityFramework
         End Function
     End Class
 ````
+
+## See Also
+
+- [Manual LINQ to SQL CRUD operations]({%slug grid/asp.net-3.5-features/linq-to-sql---binding-and-manual-crud-operations%})
+- [Automatic LINQ to SQL CRUD operations]({%slug grid/asp.net-3.5-features/linq-to-sql---binding-and-automatic-crud-operations%})
+- [Entity Framework binding and CRUD operations]({%slug grid/asp.net-3.5-features/entity-framework---binding-and-crud-operations%})
 
 
 

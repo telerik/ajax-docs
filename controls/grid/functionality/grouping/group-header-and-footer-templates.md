@@ -1,7 +1,7 @@
 ---
 title: Group Header and Footer Templates
 page_title: Group Header and Footer Templates - RadGrid
-description: Discover how to use group header and footer templates in the Grid control for customized grouping.
+description: Discover how to use RadGrid group header and footer templates to customize grouped data displays and summaries.
 slug: grid/functionality/grouping/group-header-and-footer-templates
 tags: group,header,and,footer,templates
 published: True
@@ -367,4 +367,9 @@ Private Sub ColorHeaderLabels(ByVal item As GridGroupHeaderItem, ByVal col As Co
     TryCast(item.FindControl("Label5"), Label).ForeColor = col
 End Sub
 ````
+
+## See Also
+
+- [Grouping overview]({%slug grid/functionality/grouping/overview%})
+- [Group footers]({%slug grid/functionality/grouping/group-footers%})
 

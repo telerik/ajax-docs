@@ -1,7 +1,7 @@
 ---
 title: Conditional Formatting
 page_title: Conditional Formatting - RadGrid
-description: Learn how to apply conditional formatting in the Grid control for highlighting specific data patterns.
+description: Learn how to apply conditional formatting in Telerik UI for ASP.NET AJAX RadGrid to highlight specific data patterns.
 slug: grid/appearance-and-styling/conditional-formatting
 tags: conditional,formatting
 published: True
@@ -12,15 +12,19 @@ position: 5
 
 
 
-## 
+## Formatting Data Based on a Column
 
-The object model and events in *RadGrid *provide opportunities for customization and conditional formatting of grid elements. In order to format some data based on column type, you need to use the properties of the respective column. **GridBoundColumn** for example has **DataFormatString** property that you can use to format the appearance of the data in the cells of that column.The formatting is based on the general formatting rules in *.NET*, i.e. *Telerik RadGrid *uses internally the **string.Format(string, args )** function. This way you should just provide the corresponding format string in the **DataFormatString** property.For example the format string "{0:C}" would format the values in the cells of the column as currency.
+The **RadGrid** object model and events support conditional formatting. To format data based on its column type, use the properties of the corresponding column. For example, **GridBoundColumn.DataFormatString** uses the standard .NET composite formatting rules, so `{0:C}` formats cell values as currency.
 
 The example below shows how to use conditional formatting in a sample mailbox implementation. Selected Items and recently received mail are marked red:
 
-![Conditional Formatting](images/grd_ScreenCap1.png)
+> caption Figure 1: Conditional formatting applied to grid items
+
+![Conditional formatting applied to grid items](images/grd_ScreenCap1.png)
 
 
+
+> caption Example: Formatting a cell when a data-bound value exceeds a threshold
 
 ````C#
 protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -49,7 +53,7 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.
         Dim dataBoundItem As GridDataItem = e.Item
 
         'Check the formatting condition
-        If (Integer.Parse(dataBoundItem("Size").Text) > GridItemType.Footer) Then
+        If (Integer.Parse(dataBoundItem("Size").Text) > 100) Then
             dataBoundItem("Received").ForeColor = Color.Red
             dataBoundItem("Received").Font.Bold = True
             'Customize more...
@@ -59,14 +63,14 @@ End Sub
 ````
 
 
->note When you apply Skin for the grid the custom style attributes set for the some of the grid rows will be overridden by the skin definitions. If you want to customize the appearance for some of the grid rows when Skin is assigned to the control, you will need to define your own CssClass for the corresponding row and apply the style preferences in its body.>
->
+>note When you apply a skin to the grid, the skin definitions can override custom row styles. To preserve custom formatting, define a **CssClass** for the corresponding row and apply the styles to that class.
 
 
-Below is an example which will alter the look and feel for items which has text **Mexico** in their **Country** column:
+The following example changes the appearance of items whose **Country** column contains `Mexico`:
 
-````CSS
-  <pre xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+> caption Example: Defining a CSS class for matching rows
+
+````ASP.NET
 <style type="text/css">
   .MyMexicoRowClass
   {
@@ -75,7 +79,6 @@ Below is an example which will alter the look and feel for items which has text 
     font-family: Arial;
   }
 </style>       
-</pre>
 ````
 
 
@@ -83,6 +86,8 @@ Below is an example which will alter the look and feel for items which has text 
 And in the code-behind:
 
 
+
+> caption Example: Formatting a row in the `ItemDataBound` event
 
 ````C#
 protected void RadGrid1_ItemDataBound(object sender, Telerik.Web.UI.GridItemEventArgs e)
@@ -105,4 +110,9 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.
     End If
 End Sub
 ````
+
+## See Also
+
+* [Customizing Row Appearance]({%slug grid/appearance-and-styling/customizing-row-appearance%})
+* [Set Style on Mouse Over]({%slug grid/appearance-and-styling/set-style-on-mouse-over%})
 

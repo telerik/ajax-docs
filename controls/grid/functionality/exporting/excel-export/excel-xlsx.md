@@ -1,7 +1,7 @@
 ---
 title: Xlsx (XLSX)
 page_title: Excel-Xlsx (OOXML) Export - RadGrid
-description: Learn how to export Grid data to Excel in XLSX format for seamless data sharing and reporting.
+description: Learn how to export RadGrid data to Excel in XLSX format for seamless data sharing, reporting, and spreadsheet processing.
 slug: grid/functionality/exporting/excel-export/excel-xlsx
 previous_url: controls/grid/functionality/exporting/export-formats/xlsx-and-docx-export
 tags: xlsx,and,docx,export
@@ -239,3 +239,8 @@ Dim outputAsString2 As String = RadGrid1.MasterTableView.GenerateXlsxOutput()
 - No hierarchy support
 - No automatic row resizing
 - [Custom skins]({%slug grid/appearance-and-styling/skins%}) whose images are set via the `ImagesPath` property instead of referenced in the stylesheet.
+
+## See Also
+
+- [Excel BIFF export]({%slug grid/functionality/exporting/excel-export/excel-biff%})
+- [Excel HTML export]({%slug grid/functionality/exporting/excel-export/excel-html%})

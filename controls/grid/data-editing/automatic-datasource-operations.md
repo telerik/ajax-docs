@@ -123,7 +123,6 @@ You may also examine the resources below:
 >note Automatic editing operations are not supported when the viewstate of the grid is disabled (EnableViewState = false). You will need to perform update/insert/delete manually.
 >
 
-
 ## Extracting values
 
 **RadGrid** has several [types of columns]({%slug grid/columns/column-types%}) capable of editing data that support automatic data source operations. These are:
@@ -166,7 +165,7 @@ Automatic operations through the **DataSource** control are not supported when y
 
 1. Make the user control class (which represents your user control) implement the *IBindableControl* interface as follows:
 
-  ```ASP.NET
+  ````ASP.NET
 
 		<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowSorting="true" AllowPaging="true" DataSourceID="SqlDataSource1"
 		  runat="server">
@@ -181,18 +180,18 @@ Automatic operations through the **DataSource** control are not supported when y
 			</Columns>
 		  </MasterTableView>
 		</telerik:RadGrid>
-  ```
+  ````
 
 
-  ```ASP.NET
+  ````ASP.NET
 
 		<%@ Control Language="C#" AutoEventWireup="true" CodeFile="WebUserControl.ascx.cs" Inherits="WebUserControl" %>
 		  <asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName") %>' runat="server" />
 		  <asp:Button ID="Button1" Text="Update" CommandName="Update" runat="server" />
 		  <asp:Button ID="Button2" Text="Cancel" CommandName="Cancel" runat="server" />
-  ```
+  ````
 
-  ```C#
+  ````C#
 
 		public partial class WebUserControl : System.Web.UI.UserControl, IBindableControl
 		{
@@ -201,9 +200,9 @@ Automatic operations through the **DataSource** control are not supported when y
 				dictionary["ProductName"] = TextBox1.Text;
 			}
 		}
-  ```
+  ````
 
-  ```VB
+  ````VB
 
 		Partial Public Class WebUserControl
 			Inherits System.Web.UI.UserControl
@@ -212,7 +211,7 @@ Automatic operations through the **DataSource** control are not supported when y
 				dictionary("ProductName") = TextBox1.Text
 			End Sub
 		End Class
-  ```
+  ````
 
 
 2. Use a template edit form (**FormTemplate**) instead of a **WebUserControl**. You can copy the template from the user control to the edit form template and modify the binding logic using the **Bind**() syntax (two-way binding) instead of **DataBinder.Eval** (one-way binding). For an example of this approach, see [Form template edit form.](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
@@ -224,3 +223,8 @@ Automatic operations through the **DataSource** control are not supported when y
 
 	- [ObjectDataSourceView Class](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.objectdatasourceview)
 	- [ObjectDataSourceView.Update(IDictionary, IDictionary, IDictionary) Method](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.webcontrols.objectdatasourceview.update)
+
+## See Also
+
+- [API for controlling automatic operations]({%slug grid/data-editing/api-for-controlling-the-automatic-operations%})
+- [Performing batch updates]({%slug grid/data-editing/update-records/performing-batch-updates%})

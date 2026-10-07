@@ -1,7 +1,7 @@
 ---
 title: Custom Paging
 page_title: Custom Paging - RadGrid
-description: Discover how to implement custom paging in the Grid control for managing large datasets efficiently.
+description: Learn how to implement custom paging in RadGrid and retrieve only the records needed for each page of a large dataset.
 slug: grid/functionality/paging/custom-paging
 tags: custom,paging
 published: True
@@ -11,8 +11,6 @@ position: 3
 # Custom Paging
 
 
-
-## 
 
 There are cases in which you may want to fetch only a fixed number of records and perform operations on this limited set of data. **RadGrid** allows such data manipulation through its integrated custom paging mechanism.
 
@@ -39,3 +37,8 @@ When you enable custom paging, **RadGrid** maintains the pager buttons, updating
 
 
 For a live example that demonstrates custom paging, see  [Custom Paging](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/CustomPaging/DefaultCS.aspx).
+
+## See Also
+
+- [Paging overview]({%slug grid/functionality/paging/overview%})
+- [Programmatic pager customization]({%slug grid/functionality/paging/changing-the-default-pager/programmatic-pager-customization%})

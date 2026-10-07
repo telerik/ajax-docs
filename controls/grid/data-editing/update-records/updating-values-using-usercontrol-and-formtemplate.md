@@ -206,4 +206,9 @@ End Sub
 ````
 
 
-Note that with form template you may prefer the [ codeless approach ](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [ automatic operations ](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid.
+With a form template, you can use the [codeless approach](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx) by enabling the [automatic operations](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) supported by Telerik RadGrid.
+
+## See Also
+
+- [Custom edit forms]({%slug grid/data-editing/edit-mode/custom-edit-forms%})
+- [Inserting values using a UserControl and FormTemplate]({%slug grid/data-editing/insert-records/inserting-values-using-usercontrol-formtemplate%})

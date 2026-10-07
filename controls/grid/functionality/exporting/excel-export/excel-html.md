@@ -1,7 +1,7 @@
 ---
 title: Html (XLS)
 page_title: Excel-Html (XLS) Export - RadGrid
-description: Excel-Html (XLS) Export
+description: Learn how to export RadGrid data to Excel HTML (XLS) format and configure the generated spreadsheet output for reporting.
 slug: grid/functionality/exporting/excel-export/excel-html
 previous_url: controls/grid/functionality/exporting/export-formats/word-and-excel-export/excel-format-(html-based)
 tags: excel,format,(html-based)
@@ -367,14 +367,13 @@ End Sub
 
 *The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?*
 
-![](images/grid-excelml-old-warning.png)
+![Microsoft Excel file format warning for HTML export](images/grid-excelml-old-warning.png)
 
 ***
 
 *The file format and extension of 'Filename.xls' don't match. The file could be corrupted or unsafe. Unless you trust its source, don't open it. Do you want to open it anyway?*
 
-![](images/grid-excelml-warning.png)
-
+![Microsoft Office file format warning for HTML export](images/grid-excelml-warning.png)
 
 This warning message was added as a Security feature to Microsoft Office 2007 and can occur in the following cases:
 
@@ -388,4 +387,11 @@ This warning message was added as a Security feature to Microsoft Office 2007 an
   - If the file or its content has become corrupt or damaged, this Warning will be shown. In this case, the file cannot be opened with Microsoft Office unless repaired.
 
  
+
+## See Also
+
+- [Excel XLSX export]({%slug grid/functionality/exporting/excel-export/excel-xlsx%})
+- [Excel BIFF export]({%slug grid/functionality/exporting/excel-export/excel-biff%})
+
+
 

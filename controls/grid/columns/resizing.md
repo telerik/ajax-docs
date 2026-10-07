@@ -16,7 +16,7 @@ This article explains how cells and columns can be resized in RadGrid. The first
 
 In general, **RadGrid** behaves like a normal **HTML Table**. If you have **table-layout: auto** (the default value), then column width is calculated according to the content of the cells, so they may stretch or shrink.
 
-Otherwise, column width are specified in **COLGROUP.COL.WIDTH** by the browser, which corresponods to **column.HeaderStyle.Width** in the RadGrid column properties.
+Otherwise, column widths are specified in **COLGROUP.COL.WIDTH** by the browser, which corresponds to **column.HeaderStyle.Width** in the RadGrid column properties.
 
 You can easily set the **table-layout** rule to **fixed** through the **grid.MasterTableView.TableLayout** property.
 
@@ -34,7 +34,7 @@ If you want the columns in your grid to be resizable, set the **ClientSettings.R
 
 When resizing is enabled (**AllowColumnResize** is **True**), you can disable column resizing for individual columns by setting the column's **Resizable** property to **False**. Setting a column's **Resizable** property has no effect if **AllowColumnResize** is **False**.
 
->note Note that after finishing resizing, the columns located on the right side of the current resized column will be automatically resized to equal portions. This is expected - the browser resizes the rest of the columns by itself. The behavior could be avoided by enabling *ResizeGridOnColumnResize* .
+>note After finishing resizing, the columns located on the right side of the current resized column will be automatically resized to equal portions. This is expected - the browser resizes the rest of the columns by itself. You can avoid this behavior by enabling *ResizeGridOnColumnResize*.
 >
 
 
@@ -78,7 +78,7 @@ When **ClipCellContentOnResize** is **True** (the default), users can resize a c
 
 When **ClipCellContentOnResize** is **False**, users can't resize a column so that it is too narrow to display its entire contents. Instead, when the column reaches its minimum width, further dragging on the handle does not resize the column:
 
-![ClipCellContentOnResize = true](images/grd_ClipCellOnResize_false.png)
+![ClipCellContentOnResize = false](images/grd_ClipCellOnResize_false.png)
 
 >note When scrolling is enabled and **UseStaticHeaders** property is set to **true** , **ClipCellContentOnResize** is always **true** .
 >
@@ -96,14 +96,14 @@ With version Q3 2010, grid columns now support the **'resize to fit'** functiona
 
 ## Resize next column 
 
-Since Q3 2015 **RadGrid** includes next column resize mode. To enable it you need to set the **EnableNextColumnResize** property to **true**. When this mode is enabled only the width of the currently resized column and the one after it will be changed. The rest of the columns in **RadGrid** will not be resized.
+Since Q3 2015, **RadGrid** includes next column resize mode. To enable it, set the **EnableNextColumnResize** property to **true**. When this mode is enabled, only the width of the currently resized column and the one after it will be changed. The rest of the columns in **RadGrid** will not be resized.
 
 The following images show the columns before and after resizing with **EnableNextColumnResize** enabled.
 
 
 | Before | After |
 | ------ | ------ |
-|![before resize](images/grd_ResizeNextColumnStart.png)|![after resize](images/grd_ResizeNextColumnEnd.png)|
+|![Before resizing the next column](images/grd_ResizeNextColumnStart.png)|![After resizing the next column](images/grd_ResizeNextColumnEnd.png)|
 
 
 ## Configuring resizing modes
@@ -147,6 +147,12 @@ RadGrid1.ClientSettings.Resizing.AllowResizeToFit = false
 '...
 
 ````
+
+## See Also
+
+- [Using columns]({%slug grid/columns/using-columns%})
+- [Reordering columns]({%slug grid/columns/reordering%})
+- [Header context menu]({%slug grid/columns/header-context-menu%})
 
 
 

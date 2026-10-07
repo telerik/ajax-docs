@@ -1,7 +1,7 @@
 ---
 title: GridExcelBuilder for ExcelML
 page_title: GridExcelBuilder for ExcelML (XLS) Export - RadGrid
-description: GridExcelBuilder for ExcelML (XLS) Export
+description: Learn how to use GridExcelBuilder to export RadGrid data to ExcelML (XLS) format with customized spreadsheet output.
 slug: grid/functionality/exporting/excel-export/gridexcelbuilder
 previous_url: controls/grid/functionality/exporting/export-formats/excelml-export/excelml-structure-/-gridexcelbuilder,controls/grid/functionality/exporting/export-formats/excelml-export/excelml-structure-gridexcelbuilder
 tags: excelml,gridexcelbuilder
@@ -13,7 +13,7 @@ position: 1
 
 **GridExcelBuilder** is a namespace that unifies the classes, methods and properties used by **RadGrid** to build an **ExcelML** file. The following picture illustrates the structure of the namespace in a hierarchical view.
 
-![grid excelml scheme](images/grid-excelml-schema.jpg)
+![GridExcelBuilder ExcelML namespace structure](images/grid-excelml-schema.jpg)
 
 ### Namespace
 
@@ -207,7 +207,10 @@ protected void RadGrid1_ExcelMLExportRowCreated(object sender, GridExportExcelML
 
 <!-- ## Limitation -->
 
-<!-- ## See Also -->
+## See Also
+
+- [ExcelML export]({%slug grid/functionality/exporting/excel-export/excel-excelml%})
+- [Excel BIFF export]({%slug grid/functionality/exporting/excel-export/excel-biff%})
 
 
  

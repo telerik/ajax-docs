@@ -12,9 +12,7 @@ position: 0
 
 
 
-## 
-
-**RadGrid** can take advantage of the [AJAX technology]({%slug grid/ajaxified-radgrid/asp.net-ajax-framework%}) to deliver an unsurpassed responsiveness and user experience.
+**RadGrid** can use [ASP.NET AJAX]({%slug grid/ajaxified-radgrid/asp.net-ajax-framework%}) to update configured portions of the page without a full-page refresh.
 
 The main idea of the AJAX framework is the elimination of full-page postbacks. In contrast, only the relevant parts of the page are updated, without a disturbing refresh. Moreover, the markup that is transferred between the client machine and the server is reduced dramatically, which results in a significant performance improvement.
 
@@ -26,16 +24,12 @@ The following steps describe how to enable AJAX callbacks with **RadGrid**:
 
 	* Set the **ShowStatusBar** property of the grid to **True**.
 
-2. From the **Ajax Resources** section of the **RadGrid**[Smart Tag]({%slug grid/design-time/smarttag%}), click the **Add RadAjaxManager...** link. This displays the **RadAjax Property Builder**.
+2. From the **Ajax Resources** section of the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}), click the **Add RadAjaxManager...** link. This displays the **RadAjax Property Builder**.
 
-3. In the **RadAjax Property Builder**,
+3. In the **RadAjax Property Builder**, check the check box for the **RadGrid** control in the panel for controls that will initiate AJAX requests.
 
-4. Check the check box for the **RadGrid** control in the panel for controls that will initiate AJAX requests.
+4. Check the check box for the **RadGrid** control in the panel for controls that need to be updated by the respective AJAX requests.
 
-5. Check the check box for the **RadGrid** control in the panel for controls that need to be updated by the respective AJAX requests.
+5. If you are using a **RadAjaxLoadingPanel**, select the **RadGrid** control in the second panel and set the **LoadingPanelID** property in the third panel to the **ID** of your **RadAjaxLoadingPanel**.
 
-6. If you are using a **RadAjaxLoadingPanel**, select the **RadGrid** control in the second panel and set the **LoadingPanelID** property in the third panel to the **ID** of your **RadAjaxLoadingPanel**.
-
-![](images/grd_AjaxManager.png)
-
-**RadGrid** gives you the advantage of having your pages indexed by search engines (like Google, MSN search, Yahoo search, etc.) even when working in AJAX mode.
+![RadAjaxManager property builder configured to update RadGrid](images/grd_AjaxManager.png)

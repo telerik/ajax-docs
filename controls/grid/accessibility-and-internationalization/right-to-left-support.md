@@ -1,7 +1,7 @@
 ---
 title: Right-to-left support
 page_title: Right-to-left support - RadGrid
-description: Check our Web Forms article about Right-to-left support.
+description: Learn how to configure right-to-left rendering for RadGrid by setting the direction on the MasterTableView and nested grid views.
 slug: grid/accessibility-and-internationalization/right-to-left-support
 tags: right-to-left,support
 published: True
@@ -12,9 +12,9 @@ position: 6
 
 
 
-## 
+## Configuring right-to-left rendering
 
-You can present the content of your grid instance in a right-to-left direction very easily. To provide RTL support for your grid, you merely need to set the **Dir** property for the **MasterTableView/GridTableViews** to **RTL**.
+To render grid content from right to left, set the **Dir** property for **MasterTableView** or nested **GridTableView** instances to **RTL**.
 
 Here is an example:
 
@@ -66,11 +66,16 @@ Here is an example:
 
 You can find the above grid in the following online examples:
 
-[https://demos.telerik.com/aspnet-ajax/Grid/Examples/Styles/RightToLeft/DefaultCS.aspx](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Styles/RightToLeft/DefaultCS.aspx)
+[Right-to-left RadGrid demo in C#](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Styles/RightToLeft/DefaultCS.aspx)
 
-[https://demos.telerik.com/aspnet-ajax/Grid/Examples/Styles/RightToLeft/DefaultVB.aspx](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Styles/RightToLeft/DefaultVB.aspx)
+[Right-to-left RadGrid demo in VB.NET](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Styles/RightToLeft/DefaultVB.aspx)
 
 Here is an image of RadGrid in RTL mode.
-![](images/RTLGrid_thumb.png)
+![RadGrid rendered in right-to-left mode](images/RTLGrid_thumb.png)
 
 All predefined grid skins (shipped with the grid installation) are optimized to work in RTL mode.
+
+## See Also
+
+- [RadGrid Skins]({%slug grid/appearance-and-styling/skins%})
+- [WAI-ARIA Support]({%slug grid/accessibility-and-internationalization/wai-aria-support%})

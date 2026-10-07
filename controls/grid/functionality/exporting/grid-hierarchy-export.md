@@ -1,7 +1,7 @@
 ---
 title: Grid Hierarchy Export
 page_title: Grid Hierarchy Export - RadGrid
-description: Check our Web Forms article about Grid Hierarchy Export.
+description: Learn how to export hierarchical RadGrid data across supported formats and handle master-detail expansion state during export.
 slug: grid/functionality/exporting/grid-hierarchy-export
 tags: grid,hierarchy,export
 published: True
@@ -141,5 +141,9 @@ Private Sub ClearExpandedChildren(ByVal parentHierarchicalIndex As String)
 End Sub
 ````
 
+## See Also
 
-## 
+- [Exporting overview]({%slug grid/functionality/exporting/overview%})
+- [Exporting hierarchical grids]({%slug grid-export-hierarchical-grid%})
+
+

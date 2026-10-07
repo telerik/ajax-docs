@@ -73,17 +73,17 @@ Sys.Application.notifyScriptLoaded();
       <asp:Timer ID="Timer1" runat="server" Interval="3000" OnTick="Timer1_Tick">
       </asp:Timer>
       <div class="quotes">
-        Important: Quote values are generated for the puprose of the example only!</div>
+        Important: Quote values are generated for the purpose of the example only!</div>
       <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" Width="718px" Skin="Web20" AutoGenerateColumns="False"
         DataSourceID="ObjectDataSource1" HorizontalAlign="NotSet" GridLines="none" OnItemDataBound="RadGrid1_ItemDataBound">
         <MasterTableView DataSourceID="ObjectDataSource1">
           <Columns>
             <telerik:GridHyperLinkColumn DataTextField="StockTicker" DataNavigateUrlFields="StockTicker"
-              UniqueName="StockTicker" HeaderText="Stock Ticker" DataNavigateUrlFormatString="http://ddue.schemas.microsoft.com/authoring/2003/5" />
+              UniqueName="StockTicker" HeaderText="Stock Ticker" DataNavigateUrlFormatString="http://finance.yahoo.com/q?s={0}&amp;d=t" />
             <telerik:GridBoundColumn DataField="LastTrade" UniqueName="LastTrade" HeaderText="Last Trade" />
             <telerik:GridTemplateColumn UniqueName="Change" HeaderText="Change">
               <ItemTemplate>
-                <asp:Image ID="DirectionImage" runat="server" />&nbsp;
+                <asp:Image ID="DirectionImage" runat="server" AlternateText="" />&nbsp;
                 <asp:Label ID="ChangeLabel" runat="server" Style="font-weight: bold;" Text='<%# Eval("Change") %>' />
               </ItemTemplate>
               <ItemStyle Width="150px" />
@@ -117,6 +117,7 @@ Sys.Application.notifyScriptLoaded();
   </asp:UpdatePanel>
 </div>
 ````
+
 ````C#
 protected void Timer1_Tick(object sender, EventArgs e)
 {
@@ -172,6 +173,12 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItem
     End If
 End Sub
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Client binding through a web service]({%slug grid/data-binding/webservice-binding/client-binding%})
+- [Declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
 
 
 

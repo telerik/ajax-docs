@@ -1,9 +1,10 @@
 ---
 title: Selecting
 page_title: Selecting - RadGrid
-description: Check our Web Forms article about Selecting.
+description: Learn how RadGrid Mobile render mode supports row, cell, and Excel-like multi-row selection with touch gestures on mobile devices.
 slug: grid/mobile-support/mobile-rendering/selecting
-tags: selecting
+components: ["grid"]
+tags: mobile-rendering,selecting,row-selection,cell-selection
 published: True
 position: 4
 ---
@@ -16,18 +17,24 @@ position: 4
 
 ## Default Selection
 
-The selection functionality of the Adaptive RadGrid control has the following characteristics:
+The selection functionality of RadGrid in Mobile render mode has the following characteristics:
 
-* Toggle selection – Tap a row to select it
-![adaptive grid Selecting 1](images/adaptive_grid_Selecting1.png)
+* **Toggle selection** — Tap a row to select it.
 
-* Excel-Like Row Selection- Press and hold a row to select it, after that start dragging the handler to select multiple rows(screenshot)![adaptive grid Selecting 3](images/adaptive_grid_Selecting3.png)
+![RadGrid mobile toggle row selection](images/adaptive_grid_Selecting1.png)
 
-* Toggle Cell Selection –Tap a cell to select it (screenshot)
-![adaptive grid Selecting 2](images/adaptive_grid_Selecting2.png)
+* **Excel-like row selection** — Press and hold a row, then drag the handler to select multiple rows.
 
->note Note that the cell selection is supported only for single selection mode. The multi cell selection is not supported in the Grid control with render mode set to “ **Mobile** ”
->
+![RadGrid mobile Excel-like row selection](images/adaptive_grid_Selecting3.png)
+
+* **Toggle cell selection** — Tap a cell to select it.
+
+![RadGrid mobile toggle cell selection](images/adaptive_grid_Selecting2.png)
+
+>note Cell selection is supported only in single-selection mode. Multiple-cell selection is not supported when RadGrid uses **Mobile** render mode.
 
 
 ## See Also
+
+- [Mobile support overview]({%slug grid/mobile-support/overview%})
+- [Mobile rendering overview]({%slug grid/mobile-support/mobile-rendering/overview%})

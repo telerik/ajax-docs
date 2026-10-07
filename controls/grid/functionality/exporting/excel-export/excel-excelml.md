@@ -1,7 +1,7 @@
 ---
 title: ExcelML (XLS)
 page_title: Excel-ExcelML (XLS) Export - RadGrid
-description: Learn how to export Grid data to ExcelML format for advanced Excel features and compatibility.
+description: Learn how to export RadGrid data to ExcelML format for advanced Excel features, compatibility, and customized spreadsheet output.
 slug: grid/functionality/exporting/excel-export/excel-excelml
 previous_url: controls/grid/functionality/exporting/export-formats/excelml-export/excelml-basics
 tags: excelml,gridexcelbuilder,overview
@@ -17,7 +17,7 @@ Unlike the other supported Formats, ExcelML functionality builds the output dire
 
 >caption Diagram illustrating which sources are exported using different Export Formats
 
-![](images/grid-excelml-export-diagram.png)
+![ExcelML export structure diagram](images/grid-excelml-export-diagram.png)
 
 Due to the nature of ExcelML format, there are certain limitations. For more details, you can check out the [Limitations](#limitations) section.
 
@@ -452,13 +452,13 @@ Solution is to use [Programmatic Data Binding with NeedDataSource event]({%slug 
 
 *The file you are trying to open, 'Filename.xls', is in a different format than specified by the file extension. Verify that the file is not corrupted and is from a trusted source before opening this file. Do you want to open the file now?*
 
-![](images/grid-excelml-old-warning.png)
+![Microsoft Excel file format warning for ExcelML export](images/grid-excelml-old-warning.png)
 
 ***
 
 *The file format and extension of 'Filename.xls' don't match. The file could be corrupted or unsafe. Unless you trust its source, don't open it. Do you want to open it anyway?*
 
-![](images/grid-excelml-warning.png)
+![Microsoft Office file format warning for ExcelML export](images/grid-excelml-warning.png)
 
 
 This warning message was added as a Security feature to Microsoft Office 2007 and can occur in the following cases:
@@ -474,6 +474,7 @@ This warning message was added as a Security feature to Microsoft Office 2007 an
 
 
 ## See Also
-- [GridExcelBuilder for ExcelML]({slug grid/functionality/exporting/excel-export/gridexcelbuilder%})
+
+- [GridExcelBuilder for ExcelML]({%slug grid/functionality/exporting/excel-export/gridexcelbuilder%})
 
  

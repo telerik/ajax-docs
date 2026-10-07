@@ -1,15 +1,15 @@
 ---
 title: Accessing Tables
 page_title: Accessing the Grid Tables on server - RadGrid
-description: Check our Web Forms article about Accessing RadGrid's Tables on server.
+description: Learn how to access the MasterTableView and detail tables in a RadGrid on the server side.
 slug: grid/accessing-values-and-controls/server-side/accessing-tables
 published: True
 position: 1
 ---
 
-# Accessing Tables (GridTableView objects) in RadGrid - server side
+# Accessing Tables (GridTableView Objects) in RadGrid on the Server Side
 
-## MasterTable of a Grid
+## Accessing the MasterTableView
 
 ````C#
 protected void RadButton1_Click(object sender, EventArgs e)
@@ -18,7 +18,7 @@ protected void RadButton1_Click(object sender, EventArgs e)
 }
 ````
 
-## DetailTables of a Hierarchical Grid
+## Accessing Detail Tables in a Hierarchical Grid
 
 In a hierarchical grid, each item in the **Items** collection of a parent **GridTableView** has a **ChildItem** property of type **GridNestedViewItem**. This child item is the container for the nested child table(s). The **GridNestedViewItem** has a **NestedTableViews** property that holds the collection of all the detail tables for the parent table.
 
@@ -69,7 +69,7 @@ GridTableView parentTable = childItem.OwnerTableView.ParentItem.OwnerTableView;
 Dim parentTable As GridTableView = childItem.OwnerTableView.ParentItem.OwnerTableView
 ````
 
-You can also Iterate through the DetailTables GridTableViewCollection
+You can also iterate through the `DetailTables` GridTableViewCollection.
 
 ````C#
 protected void RadButton1_Click(object sender, EventArgs e)

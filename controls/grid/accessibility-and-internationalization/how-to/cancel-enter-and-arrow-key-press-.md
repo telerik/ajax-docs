@@ -1,30 +1,30 @@
 ---
 title: Cancel Enter and Arrow Key Press 
 page_title: Cancel Enter and Arrow Key Press - RadGrid
-description: Check our Web Forms article about Cancel Enter and Arrow Key Press.
+description: Learn how to cancel Enter and arrow key presses in RadGrid keyboard navigation by handling the client-side key press event.
 slug: grid/accessibility-and-internationalization/how-to/cancel-enter-and-arrow-key-press-
 tags: cancel,enter,and,arrow,key,press,
 published: True
 position: 1
 ---
 
-# Cancel Enter and Arrow Key Press 
+# Cancel Enter and Arrow Key Press
 
 
 
-## 
+## Canceling keyboard key presses
 
-Sometimes it may be necessary, when keyboard navigation for the control has been enabled, to disable/cancel certain key press.For example, one may not want to enter edit mode (when pressing [Enter]) or to allow only one-way movement with the keys.
+When keyboard navigation is enabled, you can cancel selected key presses. For example, cancel the Enter key to prevent edit mode or allow only one-way movement with the arrow keys.
 
-The necessary steps to achieve this are listed below:
+Follow these steps to cancel a key press:
 
-1. Enable Keyboard navigation
+1. Enable keyboard navigation.
 
-1. Specify a function that will be called client-side, when a key is pressed
+1. Specify a client-side function to call when a key is pressed.
 
-1. In the client-side function, check the code of the key that was pressed
+1. In the client-side function, check the key code.
 
-1. Depending on a condition, cancel the key press
+1. Cancel the key press when the condition is met.
 
 This approach is demonstrated in the code samples below:
 
@@ -45,5 +45,10 @@ function KeyPressed(sender, eventArgs) {
   }
 }
 ````
+
+## See Also
+
+- [Keyboard Support]({%slug grid/accessibility-and-internationalization/keyboard-support%})
+- [Navigating Through a Single Grid at a Time with Keyboard Navigation Enabled]({%slug grid/accessibility-and-internationalization/how-to/navigating-through-single-grid-at-a-time-with-keyboard-navigation-enabled%})
 
 

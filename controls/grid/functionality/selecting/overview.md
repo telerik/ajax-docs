@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Selecting Functionality - RadGrid
-description: Selecting Functionality of RadGrid
+description: Learn how to configure RadGrid selection and select rows or cells on the client and server in ASP.NET AJAX applications.
 slug: grid/functionality/selecting/overview
 previous_url: controls/grid/functionality/selecting/selecting-cells-and-columns
 tags: selecting,cells,rows,columns,hierarchy,detailtables
@@ -31,7 +31,7 @@ In this page you will find several sections with a demo GIF animation showing di
 >note Selection is persisted across PostBacks **except when rebinding the Grid**. Having that in mind, know that some **Commands will rebind the Grid**, (see [Commands that invoke Rebind implicitly](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/control-lifecycle/commands-that-invoke-rebind-implicitly)), and therefore the selection will be lost.
 
 
-# Select Rows
+## Select Rows
 
 Depending on the settings, you can select rows in different ways:
 - [Select a Single Row](#select-a-single-row)
@@ -39,7 +39,7 @@ Depending on the settings, you can select rows in different ways:
 
 ## Select a Single Row
 
-![](selecting-rows/images/SelectRow.gif)
+![Selecting a single RadGrid row](selecting-rows/images/SelectRow.gif)
 
 - [Client-side Selecting with a Click]({%slug grid/functionality/selecting/selecting-rows/client-side-selecting-with-a-click%})
 - [Server-side Selecting with a CheckBox]({%slug grid/functionality/selecting/selecting-rows/server-side-selecting-with-a-checkbox%})
@@ -48,12 +48,12 @@ Depending on the settings, you can select rows in different ways:
 
 ## Select Multiple Rows
 
-![](selecting-rows/images/MultiRowSelection.gif)
+![Selecting multiple RadGrid rows](selecting-rows/images/MultiRowSelection.gif)
 
 - [Client-side Selecting Multiple Rows]({%slug grid/functionality/selecting/selecting-rows/client-side-selecting-multiple-rows%})
 - [Server-side Selecting Multiple Rows]({%slug grid/functionality/selecting/selecting-rows/server-side-selecting-multiple-rows%})
 
-# Select Cells
+## Select Cells
 
 Apart from row selection RadGrid supports the selection of individual cells or entire Columns in the Grid table. The cell selection functionality is controlled through the `ClientSettings.Selecting.CellSelectionMode` property.
 
@@ -73,31 +73,31 @@ Here is a list of different Scenarios for Cell Selection:
 
 ## Select a Single Cell
 
-![](selecting-cells/images/SingleCell.gif)
+![Selecting a single RadGrid cell](selecting-cells/images/SingleCell.gif)
 
 Check out the [SingleCell]({%slug grid/functionality/selecting/selecting-cells/single-cell%}) article for instructions and examples.
 
 ## Select Multiple Cells
 
-![](selecting-cells/images/MultiCell.gif)
+![Selecting multiple RadGrid cells](selecting-cells/images/MultiCell.gif)
 
 Check out the [MultiCell]({%slug grid/functionality/selecting/selecting-cells/multi-cell%}) article for instructions and examples.
 
 ## Select Cells of a Single Column
 
-![](selecting-cells/images/Column.gif)
+![Selecting cells in a single RadGrid column](selecting-cells/images/Column.gif)
 
 Check out the [Column]({%slug grid/functionality/selecting/selecting-cells/column%}) article for instructions and examples.
 
 ## Select Cells of Multiple Columns
 
-![](selecting-cells/images/MultiColumn.gif)
+![Selecting cells in multiple RadGrid columns](selecting-cells/images/MultiColumn.gif)
 
 Check out the [MultiColumn]({%slug grid/functionality/selecting/selecting-cells/multi-column%}) article for instructions and examples.
 
 ## Select Cells in Hierarchy
 
-![](selecting-cells/images/select-cells-in-hierarchy.gif)
+![Selecting cells in a hierarchical RadGrid](selecting-cells/images/select-cells-in-hierarchy.gif)
 
 >warning **Cell Selection in Hierarchical** Structures is **not included in the built-in functionality**, therefore, an **additional implementation is required**. 
 >As this is a custom (non-supported) scenario, further tweaking will be up to the developer working on it.

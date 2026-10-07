@@ -1,7 +1,7 @@
 ---
 title: Server-side Selecting with a CheckBox
 page_title: Server-side Selecting with a CheckBox - RadGrid
-description: Check our Web Forms article about Server-side Selecting with a CheckBox.
+description: Learn how to select RadGrid rows on the server by using a checkbox column and handling selection state in code.
 slug: grid/functionality/selecting/selecting-rows/server-side-selecting-with-a-checkbox
 tags: server-side,selecting,with,a,checkbox
 published: True
@@ -11,8 +11,6 @@ position: 1
 # Server-side Selecting with a CheckBox
 
 
-
-## 
 
 You can use a template column to simulate the behavior of the **GridClientSelectColumn**, but handling the row selection server-side. Handling selection this way behaves like a grid with client-side selection, except that users cannot select rows by clicking on them.
 
@@ -30,7 +28,7 @@ To simulate the **GridClientSelectColumn** in a template column:
 >
 
 
-![](images/SelectRowServerSide.PNG)
+![Selecting a row on the server with a checkbox](images/SelectRowServerSide.PNG)
 
 Note that in the grid declaration, you do not need to enable client-side selection:
 
@@ -113,3 +111,8 @@ In the code-behind, the **OnCheckedChanged** event handlers (**ToggleRowSelectio
 
 
 For a live example showing server-side selection, see [Server-side row selection.](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx)
+
+## See Also
+
+- [Selecting overview]({%slug grid/functionality/selecting/overview%})
+- [Selecting multiple rows on the server]({%slug grid/functionality/selecting/selecting-rows/server-side-selecting-multiple-rows%})

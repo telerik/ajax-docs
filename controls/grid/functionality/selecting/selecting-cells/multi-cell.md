@@ -1,7 +1,7 @@
 ---
 title: Multi Cell
 page_title: Selecting MultiCell - RadGrid
-description: Selecting Multiple Cells
+description: Learn how to select multiple RadGrid cells and access their values or selection state in application code.
 slug: grid/functionality/selecting/selecting-cells/multi-cell
 tags: selecting,cells,multicell
 published: True
@@ -12,7 +12,7 @@ position: 1
 
 The **MultiCell** option allows you to select multiple cells.
 
-![](images/MultiCell.gif)
+![Selecting multiple cells](images/MultiCell.gif)
 
 ## Built-in Selection
 
@@ -222,7 +222,7 @@ function DeselectAllCellsUsingGridAPIs(sender, args) {
 
 **Example: Toggle Cell selection using Grid's Client-Side APIs.**
 
-![](images/toggle-cell-selection-client-side.gif)
+![Toggling cell selection on the client](images/toggle-cell-selection-client-side.gif)
 
 ````JavaScript
 function ToggleCellSelectionUsingGridAPIs(sender, args) {

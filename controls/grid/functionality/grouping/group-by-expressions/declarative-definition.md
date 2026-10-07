@@ -77,7 +77,7 @@ The following example shows the declaration of a grid with the **GroupByExpressi
 </asp:SqlDataSource>
 ````
 
-![](images/grd_GroupByExpressions.png)
+![Declarative group-by expressions in RadGrid](images/grd_GroupByExpressions.png)
 
 For a live example that sets the **GroupByExpressions** property (and uses additional **GridGroupByField** properties), see [Outlook-style grouping](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/OutlookStyle/DefaultCS.aspx).
 
@@ -162,5 +162,10 @@ The following example illustrates how this is done. It assigns an alias of "ID" 
   </MasterTableView>
 </telerik:RadGrid>
 ````
+
+## See Also
+
+- [Programmatic group-by expressions]({%slug grid/functionality/grouping/group-by-expressions/programmatic-definition%})
+- [Grouping overview]({%slug grid/functionality/grouping/overview%})
 
 

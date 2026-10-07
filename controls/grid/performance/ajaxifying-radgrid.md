@@ -1,22 +1,27 @@
 ---
 title: Ajaxifying RadGrid
 page_title: Ajaxifying RadGrid - RadGrid
-description: Check our Web Forms article about Ajaxifying RadGrid.
+description: Learn how to use RadAjaxManager or RadAjaxPanel to update RadGrid asynchronously and reduce full-page postbacks in ASP.NET AJAX applications.
 slug: grid/performance/ajaxifying-radgrid
-tags: ajaxifying,radgrid
+components: ["grid"]
+tags: ajax,ajaxifying,radgrid,partial rendering
 published: True
 position: 1
 ---
 
-# Ajaxifying RadGrid
+# Ajaxify RadGrid
 
-Telerik RadGrid takes full advantage of the AJAX technology (Asynchronous JavaScript with XMLHttpRequests) to deliver an unsurpassed responsiveness and user experience for an ASP.NET grid control.
+You can ajaxify **RadGrid** to update the grid asynchronously instead of refreshing the entire page after a grid command.
 
-The main idea of the AJAX framework is the elimination of full-page postbacks. In contrast, only the relevant parts of the page are updated, without a disturbing refresh. Moreover, the markup that is transferred between the client machine and the server is reduced dramatically, which results in a significant performance improvement.
+AJAX updates replace only the controls configured for the update. This can reduce the amount of page markup transferred during a request, but the performance benefit depends on the page structure and the amount of data rendered by the grid.
 
-Telerik RadGrid interoperate with the AJAX technology completely behind the scenes eliminating the need for further intervention of the developer. All you have to do is connect the grid to a **RadAjaxManager** or wrap it inside **RadAjaxPanel/MS UpdatePanel**. This will make all elements of the grid, which typically make a postback (e.g. **Buttons**, **ImageButtons**, **LinkButtons**) to perform a client AJAX callback instead.
+Use **RadAjaxManager**, **RadAjaxPanel**, or the ASP.NET AJAX **UpdatePanel** to configure the grid for partial rendering. The following example registers **RadGrid** as an updated control through **RadAjaxManager**.
+
+> caption Configure RadAjaxManager to update RadGrid asynchronously
 
 ````ASP.NET
+<asp:ScriptManager ID="ScriptManager1" runat="server" />
+
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
     <AjaxSettings>
         <telerik:AjaxSetting AjaxControlID="RadGrid1">
@@ -55,14 +60,48 @@ Telerik RadGrid interoperate with the AJAX technology completely behind the scen
 </telerik:RadGrid>
 ````
 
+> caption Bind the RadGrid used in the AJAX example
+
+````C#
+using System;
+using System.Linq;
+using Telerik.Web.UI;
+
+protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
+{
+    RadGrid1.DataSource = Enumerable.Range(1, 5).Select(index => new
+    {
+        OrderID = index,
+        OrderDate = DateTime.Today.AddDays(-index),
+        Freight = index * 10.5m,
+        ShipName = "Name " + index,
+        ShipCountry = "Country " + index
+    });
+}
+````
+````VB
+Imports System
+Imports System.Linq
+Imports Telerik.Web.UI
+
+Protected Sub RadGrid1_NeedDataSource(sender As Object, e As GridNeedDataSourceEventArgs)
+    RadGrid1.DataSource = Enumerable.Range(1, 5).Select(Function(index) New With {
+        .OrderID = index,
+        .OrderDate = DateTime.Today.AddDays(-index),
+        .Freight = index * 10.5D,
+        .ShipName = "Name " & index,
+        .ShipCountry = "Country " & index
+    }).ToList()
+End Sub
+````
+
 Furthermore, there is a mechanism for making any control integrated in the grid to perform AJAX callbacks instead of postbacks. For example, the drag-and-drop for grouping and column reordering uses that mechanism to facilitate no-postback experience.
 
-The AJAX technology preserves the page lifecycle completely. The developer can continue to set properties of the grid itself or of other controls inside the grid (including third party controls).
-
->caution Telerik RadGrid gives you the advantage of having your pages indexed by search engines even when working in AJAX mode.
->
+The AJAX framework preserves the ASP.NET page lifecycle. You can continue to set properties on the grid and on controls inside the grid, including third-party controls. Keep the data-binding lifecycle in mind when you configure asynchronous updates, and ensure that the grid is recreated and bound as required on each request.
 
 ## See Also
 
- * [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
+- [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
+- [RadAjaxManager Overview]({%slug ajaxmanager/overview%})
+- [RadAjaxPanel Overview]({%slug ajaxpanel/overview%})
 

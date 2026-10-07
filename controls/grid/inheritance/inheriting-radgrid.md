@@ -1,123 +1,125 @@
 ---
 title: Inheriting RadGrid
 page_title: Inheriting RadGrid - RadGrid
-description: Check our Web Forms article about Inheriting RadGrid.
+description: Learn how to inherit RadGrid and GridTableView in ASP.NET Web Forms applications, register custom controls, and configure hierarchy markup.
 slug: grid/inheritance/inheriting-radgrid
-tags: inheriting,radgrid
+components: ["grid"]
+tags: inheritance,radgrid,gridtableview,custom-controls,hierarchy
 published: True
 position: 0
 ---
 
 # Inheriting RadGrid
 
+You can inherit **RadGrid** to create a custom grid control and inherit **GridTableView** to customize the table views used by that control. The examples in this article use ASP.NET Web Forms markup and code-behind.
 
+## Register the custom grid control
 
-## 
+Assume that the custom grid is named `InheritedGrid`, is compiled into `InheritedGrid.dll`, and uses the `myRadG` tag prefix. Add the `TagPrefix` attribute to the application assembly, for example in `AssemblyInfo.cs`:
 
-Let's say you have an assembly called **InheritedGrid.dll** and the grid name is **InheritedGrid**. Furthermore, you have a **TagPrefix** assembly attribute with value of **myRadG**. By this means VS designer will not have any problem recognizing the tag prefix when you drag and drop this control from the toolbox to the designer surface. Merely add the following line in the AssemblyInfo file in your application:
+````C#
+using System.Web.UI;
 
-**[assembly: TagPrefix("MyBaseNamespace.MyControls","myRadG")]**
-
-When you create applications with the inherited control version, you should have both of the following Register directives in the aspx of the page:
-
-**<%@ Register TagPrefix="radG" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI"%>**
-**<%@ Register TagPrefix="myRadG" Namespace="MyBaseNamespace.MyControls" Assembly="InheritedGrid"%>**
-
-The first one states that you will reference classes declared in the **Telerik.Web.UI**assembly. The second one is your assembly, where the inherited controls are.
-
-Then you can add instances of your custom grid control on the page:
-
-**<mytelerik: InheritedGrid ... >**
-
-**</mytelerik: InheritedGrid>**
-
-But the **GridTableView**, **GridBoundColumn** etc. classes are defined in the **Telerik.Web.UI** assembly. That is why the declaration in your grid body should have the following syntax:
-
-````ASP.NET
-<mytelerik:InheritedGrid ... >
-    <MasterTableView>
-        <Columns>
-            <telerik:GridBoundColumn ...>
-            </telerik: GridBoundColumn>
-        </Columns>
-        <DetailTables>
-            <telerik:GridTableView ...>
-            </telerik:GridTableView>
-        </DetailTables>
-    <MasterTableView>
-</mytelerik:InheritedGrid>          
+[assembly: TagPrefix("MyBaseNamespace.MyControls", "myRadG")]
 ````
 
+Register both the Telerik and custom assemblies on the ASPX page:
 
+````ASP.NET
+<%@ Register TagPrefix="radG" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<%@ Register TagPrefix="myRadG" Namespace="MyBaseNamespace.MyControls" Assembly="InheritedGrid" %>
+````
 
-This should be enough for the VS designer to register the tag prefixes the right way. Then the Telerik RadGrid Property Builder will serialize correctly the design time markup.
+Use the custom prefix for the inherited grid and the Telerik prefix for the standard grid table and column classes:
 
-If you would like to inherit the **GridTableView** object for your grid, here are some basic rules that you need to follow:
+````ASP.NET
+<myRadG:InheritedGrid ID="InheritedGrid1" runat="server">
+    <MasterTableView>
+        <Columns>
+            <radG:GridBoundColumn DataField="CustomerID" HeaderText="Customer ID" />
+        </Columns>
+        <DetailTables>
+            <radG:GridTableView Name="Orders" />
+        </DetailTables>
+    </MasterTableView>
+</myRadG:InheritedGrid>
+````
 
+This registration enables Visual Studio to recognize the tag prefixes and allows the RadGrid Property Builder to serialize the design-time markup correctly.
+
+## Inherit GridTableView
+
+To use a custom table view in the hierarchy, register the custom namespace and declare the custom table view in the `DetailTables` collection:
 
 
 ````ASP.NET
 <%@ Register Namespace="MyNamespace" TagPrefix="my" %>
- ...
-        <my:MyGrid ID="MyGrid1" runat="server" OnNeedDataSource="MyGrid1_NeedDataSource">
-            <MasterTableView>
-                <DetailTables>
-                    <my:MyGridTableView />
-                </DetailTables>
-            </MasterTableView>
-        </my:MyGrid>			
+<my:MyGrid ID="MyGrid1" runat="server" OnNeedDataSource="MyGrid1_NeedDataSource">
+    <MasterTableView>
+        <DetailTables>
+            <my:MyGridTableView />
+        </DetailTables>
+    </MasterTableView>
+</my:MyGrid>
 ````
 ````C#
+using Telerik.Web.UI;
+
 namespace MyNamespace
 {
     public class MyGrid : RadGrid
     {
-            public override GridTableView CreateTableView()
-            {
-                return new MyGridTableView(this);
-            }
+        public override GridTableView CreateTableView()
+        {
+            return new MyGridTableView(this);
+        }
     }
 
     public class MyGridTableView : GridTableView
     {
-            public MyGridTableView()
-            {
-                //
-            }
+        public MyGridTableView()
+        {
+        }
 
-            public MyGridTableView(RadGrid owner) : base(owner)
-            {
-                //
-            }
+        public MyGridTableView(RadGrid owner) : base(owner)
+        {
+        }
     }
 }
-			
 ````
 ````VB
+Imports Telerik.Web.UI
+
 Namespace MyNamespace
- Public Class MyGrid  Inherits RadGrid
-            Public Overloads Overrides Function CreateTableView() As GridTableView
-                Return New MyGridTableView(Me)
-            End Function
-        End Class
+    Public Class MyGrid
+        Inherits RadGrid
 
- Public Class MyGridTableView  Inherits GridTableView
-            Public Sub New()
-                '
-            End Sub
+        Public Overrides Function CreateTableView() As GridTableView
+            Return New MyGridTableView(Me)
+        End Function
+    End Class
 
-  Public Sub New(ByVal owner As RadGrid)   MyBase.New(owner)
-                '
-            End Sub
-        End Class
-    End Namespace
+    Public Class MyGridTableView
+        Inherits GridTableView
+
+        Public Sub New()
+        End Sub
+
+        Public Sub New(ByVal owner As RadGrid)
+            MyBase.New(owner)
+        End Sub
+    End Class
+End Namespace
 ````
 
+Override the `CreateTableView()` method in the custom `RadGrid` class and return an instance of the custom `GridTableView` implementation.
 
-Basically, you need to override the **CreateTableView()** method of the RadGrid class and return an instance of your custom **GridTableView**.
+## Support limitation
 
-As the inheritance of a control is an ASP.NET feature, these rules are applicable to inherit and use ASP.NET server control.
+>note This article provides basic instructions for inheriting `RadGrid` and `GridTableView`. Telerik does not support issues specific to custom inherited implementations.
 
->note Note that we do not support issues with inherited versions of RadGrid and the purpose of this topic is to provide basic instructions how to inherit your custom grid control from RadGrid.
->
+## See Also
+
+- [RadGrid structure overview]({%slug grid/structure/radgrid-structure-overview%})
+- [Understanding hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%})
 

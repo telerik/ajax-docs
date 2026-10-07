@@ -57,7 +57,7 @@ function checkBoxClick(sender, args) {
 
 
 
-# See Also
+## See Also
 
  * [Client-Side API]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%})
 

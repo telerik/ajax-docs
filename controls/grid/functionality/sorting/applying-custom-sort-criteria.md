@@ -1,7 +1,7 @@
 ---
 title: Applying Custom Sort Criteria
 page_title: Applying Custom Sort Criteria - RadGrid
-description: Check our Web Forms article about Applying Custom Sort Criteria.
+description: Learn how to apply custom sort criteria in RadGrid when the default column sorting does not match your data requirements.
 slug: grid/functionality/sorting/applying-custom-sort-criteria
 tags: applying,custom,sort,criteria
 published: True
@@ -11,8 +11,6 @@ position: 5
 # Applying Custom Sort Criteria
 
 
-
-## 
 
 By default, **RadGrid** changes the [sort mode]({%slug grid/functionality/sorting/controlling-sort-modes%}) in an ascending/descending/none sequence when the user clicks the column headers. The way that sort mode is interpreted depends on the **DataType** of the column:
 
@@ -166,4 +164,9 @@ Protected Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As GridNee
     RadGrid1.DataSource = GetDataTable("SELECT FirstName, LastName FROM Employees")
 End Sub
 ````
+
+## See Also
+
+- [Sorting overview]({%slug grid/functionality/sorting/overview%})
+- [Sort expressions]({%slug grid/functionality/sorting/sort-expressions%})
 

@@ -1,7 +1,7 @@
 ---
 title: Virtualization
 page_title: Virtualization - RadGrid
-description: Check our Web Forms article about Virtualization.
+description: Learn how RadGrid virtualization keeps a constant set of items in view and improves scrolling performance with large datasets.
 slug: grid/functionality/scrolling/virtualization
 tags: virtualization
 published: True
@@ -12,7 +12,7 @@ position: 4
 
 
 
-RadGrid's virtualization functionality enables users to scroll through large data sets without sacrificing the performance. On first look the scrollable container looks like it contains all the required data but in reality itcontains a constant number of items which are changed when scrolling is performed. The number of items in this case is determined by the **ItemsPerView**. This benefits scenarios when many items should be displayed on one page as RadGrid's virtualization integrates a lot of optimization techniques. It is easily configurable and well integrated with existing RadGrid functionalities.
+RadGrid's virtualization functionality enables users to scroll through large data sets without sacrificing performance. At first look, the scrollable container appears to contain all the required data, but it contains a constant number of items that change during scrolling. The number of items is determined by **ItemsPerView**. This benefits scenarios when many items should be displayed on one page because RadGrid virtualization integrates several optimization techniques. It is configurable and integrates with existing RadGrid functionality.
 
 ## Settings
 

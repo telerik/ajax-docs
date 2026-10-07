@@ -1,7 +1,7 @@
 ---
 title: Programmatic Definition
 page_title: Programmatic Definition - RadGrid
-description: Check our Web Forms article about Programmatic Definition.
+description: Learn how to define RadGrid group-by expressions programmatically and control grouped data in server-side code.
 slug: grid/functionality/grouping/group-by-expressions/programmatic-definition
 tags: programmatic,definition
 published: True
@@ -11,8 +11,6 @@ position: 1
 # Programmatic Definition
 
 
-
-## 
 
 Each **GridTableView** object has a **GroupByExpressions** property. **GroupByExpressions** is a collection of group expressions (**GridGroupByExpression** objects).
 
@@ -81,6 +79,11 @@ expression.SelectFields.Add(gridGroupByField)
 gridGroupByField = New GridGroupByField
 gridGroupByField.FieldName = "EmployeeID"
 expression.GroupByFields.Add(gridGroupByField)
-tableViewOrders.GroupByExpressions.Add(expression) 			
+tableViewOrders.GroupByExpressions.Add(expression)
 ````
+
+## See Also
+
+- [Declarative group-by expressions]({%slug grid/functionality/grouping/group-by-expressions/declarative-definition%})
+- [Grouping overview]({%slug grid/functionality/grouping/overview%})
 

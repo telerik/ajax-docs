@@ -12,7 +12,7 @@ position: 6
 
 This article explains how to enable and use the context menu for the header items of a RadGrid. It consists of the following sections:
 
-* [Overview and how to enable the context menu](#overview=and=how=to=enable=the=context=menu)
+* [Overview and how to enable the context menu](#overview-and-how-to-enable-the-context-menu)
 * [Using header context menu for filtering](#using-header-context-menu-for-filtering)
 * [Using HeaderContextMenu for showing column aggregates](#using-headercontextmenu-for-showing-column-aggregates)
 * [Add items to HeaderContextMenu in order to set DataFormatString for the columns](#add-items-to-headercontextmenu-in-order-to-set-dataformatstring-for-the-columns)
@@ -49,7 +49,7 @@ The header context menu exposes the following default options:
 
 * Group/ungroup the column data in case the grouping feature of the control is enabled.
 
-* Show/hide grid columns client-side by changing the state of the checkboxes beside each column name.This feature can be seen drilling down to the second menu group under the 'Columns' option).
+* Show/hide grid columns client-side by changing the state of the checkboxes beside each column name. This feature can be seen by drilling down to the second menu group under the 'Columns' option.
 
 * Filter the column data on two conditions related with a logical AND operator.
 
@@ -180,7 +180,7 @@ As of Q1 2010 RadGrid is equipped with a new filtering menu. It will be a sub-pa
 
 
 
-In spite of having been created to allow for filtering the grid on two conditions, the new menu will give the freedom to set only one of those. The condition for which no data has been set will beignored and RadGrid will filter its data only on the one for which a filter function and a filter value have been set. The filtering menu remains independent for each column - this means that the filtering menu options vary by the column's DataType and the properties of the special controls will depend on any other specific column properties such as Mask, DecimalDegits, PickerType etc.
+In spite of having been created to allow for filtering the grid on two conditions, the new menu will give the freedom to set only one of those. The condition for which no data has been set will be ignored and RadGrid will filter its data only on the one for which a filter function and a filter value have been set. The filtering menu remains independent for each column - this means that the filtering menu options vary by the column's DataType and the properties of the special controls will depend on any other specific column properties such as Mask, DecimalDigits, PickerType, and so on.
 
 The new filter menu can be used along-side the classic one. In this case, the GridTableView.IsFilterItemExpanded property should be set to **true** (the default value). When the two filter menus are switched on simultaneously, the data set for the first filter condition of the header context filter menu will be also set as filter data for the classic one and vice versa.If you want to use just the header context filter menu, then just set GridTableView.IsFilterItemExpanded property to **false** leaving, as mentioned above, the RadGrid.GridTableView/GridTableView.AllowFilteringByColumn property to **true**.
 
@@ -421,7 +421,7 @@ protected void HeaderContextMenu_ItemClick(object sender, RadMenuEventArgs e)
 ````
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
-    AddHadler(RadGrid1.HeaderContextMenu.ItemClick, AddressOf Me.HeaderContextMenu_ItemClick)
+    AddHandler RadGrid1.HeaderContextMenu.ItemClick, AddressOf Me.HeaderContextMenu_ItemClick
 End Sub
 
 Sub HeaderContextMenu_ItemClick(ByVal sender As Object, ByVal e As RadMenuEventArgs)
@@ -436,7 +436,7 @@ End Sub
 ````
 
 
-Finally, we need to wire the *OnHeaderShowing* client event. In its event handler you need to hide all items which are not related with the visible columns. The following code snippet shows how to achieve this:
+Finally, we need to wire the *OnHeaderShowing* client event. In its event handler you need to hide all items which are not related to the visible columns. The following code snippet shows how to achieve this:
 
 
 
@@ -573,7 +573,7 @@ color: red;
 
 ### Add the custom class with JavaScript
 
-You can use the `OnClientLoad` event of the menu to do that. Here is an example that adds a custom class from the server code. You can, of course, attach the event handlre in the markup and define the function together with the rest of your page scripts.
+You can use the `OnClientLoad` event of the menu to do that. Here is an example that adds a custom class from the server code. You can, of course, attach the event handler in the markup and define the function together with the rest of your page scripts.
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
@@ -589,7 +589,7 @@ End Sub
 
 ### Add the custom class in the rendered markup
 
-The grid changes the CssClass of the context menu contorl while rendering in order to add the `.GridContextMenu` class, and so the CssClass property gets overriden. To use it, you must hook to the `OnPreRenderComplete` event of the page:
+The grid changes the CssClass of the context menu control while rendering in order to add the `.GridContextMenu` class, and so the CssClass property gets overridden. To use it, you must hook to the `OnPreRenderComplete` event of the page:
 
 ````C#
 protected override void OnPreRenderComplete(EventArgs e)
@@ -604,5 +604,11 @@ Protected Overrides Sub OnPreRenderComplete(ByVal e As EventArgs)
     RadGrid1.HeaderContextMenu.CssClass += " myHeaderContextMenuClass"
 End Sub
 ````
+
+## See Also
+
+- [Sorting overview]({%slug grid/functionality/sorting/overview%})
+- [Filtering overview]({%slug grid/functionality/filtering/overview%})
+- [Grouping overview]({%slug grid/functionality/grouping/overview%})
 
 

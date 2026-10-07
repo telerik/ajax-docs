@@ -43,14 +43,14 @@ You can define our own controls that will perform the same actions as the built-
 <CommandItemTemplate>
     Custom command item template
     <asp:LinkButton Style="vertical-align: bottom" ID="btnEditSelected" runat="server"
-        CommandName="EditSelected" Visible='<%# RadGrid1.EditIndexes.Count == 0 %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Edit.gif" /> Edit Selected Customers</asp:LinkButton>
-    <asp:LinkButton ID="btnUpdateEdited" runat="server" CommandName="UpdateEdited" Visible='<%# RadGrid1.EditIndexes.Count > 0 %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Update.gif" /> Update Customers</asp:LinkButton>
-    <asp:LinkButton ID="btnCancel" runat="server" CommandName="CancelAll" Visible='<%# RadGrid1.EditIndexes.Count > 0 || RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Cancel.gif" /> Cancel editing</asp:LinkButton>
-    <asp:LinkButton ID="LinkButton3" runat="server" CommandName="InitInsert" Visible='<%# !RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/AddRecord.gif" /> Add new Customer</asp:LinkButton>
-    <asp:LinkButton ID="LinkButton4" runat="server" CommandName="PerformInsert" Visible='<%# RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="" src="../../DataEditing/Img/Insert.gif" /> Add this Customer</asp:LinkButton>
+        CommandName="EditSelected" Visible='<%# RadGrid1.EditIndexes.Count == 0 %>'><img style="border:0px" alt="Edit selected customers" src="../../DataEditing/Img/Edit.gif" /> Edit Selected Customers</asp:LinkButton>
+    <asp:LinkButton ID="btnUpdateEdited" runat="server" CommandName="UpdateEdited" Visible='<%# RadGrid1.EditIndexes.Count > 0 %>'><img style="border:0px" alt="Update customers" src="../../DataEditing/Img/Update.gif" /> Update Customers</asp:LinkButton>
+    <asp:LinkButton ID="btnCancel" runat="server" CommandName="CancelAll" Visible='<%# RadGrid1.EditIndexes.Count > 0 || RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="Cancel editing" src="../../DataEditing/Img/Cancel.gif" /> Cancel editing</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton3" runat="server" CommandName="InitInsert" Visible='<%# !RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="Add a new customer" src="../../DataEditing/Img/AddRecord.gif" /> Add new Customer</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton4" runat="server" CommandName="PerformInsert" Visible='<%# RadGrid1.MasterTableView.IsItemInserted %>'><img style="border:0px" alt="Add this customer" src="../../DataEditing/Img/Insert.gif" /> Add this Customer</asp:LinkButton>
     <asp:LinkButton ID="LinkButton5" OnClientClick="javascript:return confirm('Delete all selected customers?')"
-        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Customers</asp:LinkButton>
-    <asp:LinkButton ID="LinkButton6" runat="server" CommandName="Re bindGrid"><img style="border:0px" alt="" src="../../DataEditing/Img/Refresh.gif" /> Refresh customer list</asp:LinkButton>
+        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="Delete selected customers" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Customers</asp:LinkButton>
+    <asp:LinkButton ID="LinkButton6" runat="server" CommandName="Re bindGrid"><img style="border:0px" alt="Refresh customer list" src="../../DataEditing/Img/Refresh.gif" /> Refresh customer list</asp:LinkButton>
     <br />
 </CommandItemTemplate>
 ````
@@ -83,7 +83,7 @@ Generally, you can handle any command using the **ItemCommandEvent**. **Example 
 ````ASP.NET
 <CommandItemTemplate>
     <asp:LinkButton ID="LinkButton7" OnClientClick="javascript:return confirm('Delete all selected customers?')"
-        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs</asp:LinkButton>
+        runat="server" CommandName="DeleteSelected"><img style="border:0px" alt="Delete selected customers" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Customers</asp:LinkButton>
 </CommandItemTemplate>
 ````
 ````C#	

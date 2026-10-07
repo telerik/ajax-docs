@@ -10,7 +10,10 @@ position: 2
 # Accessing Grid Items Client-Side
 
 ````ASP.NET
-<telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource">
+<telerik:RadGrid ID="RadGrid1" runat="server" OnNeedDataSource="RadGrid1_NeedDataSource" AllowMultiRowSelection="true">
+    <ClientSettings>
+        <Selecting AllowRowSelect="true" />
+    </ClientSettings>
 </telerik:RadGrid>
 
 <telerik:RadButton runat="server" ID="RadButton1" Text="RadButton1" AutoPostBack="false" OnClientClicked="RadButton1_OnClientClicked" />
@@ -43,7 +46,7 @@ function RadButton1_OnClientClicked(sender, args) {
     var selectedItems = grid.get_selectedItems();
 
     for (var i = 0; i < selectedItems.length; i++) {
-        var dataItem = selectedItem[i];
+        var dataItem = selectedItems[i];
 
     }
 }
@@ -58,8 +61,8 @@ function myFunction(){
 
     // If Scrolling with StaticHeaders is enabled, Grid renders a separate HTML table for the Headers, and separate ones for the rows
     // otherwise one HTML table is rendered for both the Headers and the Rows
-    var HasStaticHeaders = grid.ClientSettings.Scrolling && grid.ClientSettings.Scrolling.UseStaticHeaders;
-    var headerRow = HasStaticHeaders ? grid.GridHeaderDiv.querySelector("thead > tr") : grid.get_masterTableView().HeaderRow;
+    var hasStaticHeaders = grid.ClientSettings.Scrolling && grid.ClientSettings.Scrolling.UseStaticHeaders;
+    var headerRow = hasStaticHeaders ? grid.GridHeaderDiv.querySelector("thead > tr") : grid.get_masterTableView().HeaderRow;
 }
 ````
  

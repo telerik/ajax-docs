@@ -1,9 +1,10 @@
 ---
 title: Resizing and Reordering
 page_title: Resizing and Reordering - RadGrid
-description: Check our Web Forms article about Resizing and Reordering.
+description: Learn how to resize and reorder RadGrid columns in Mobile render mode using touch gestures and the column display form on touch devices.
 slug: grid/mobile-support/mobile-rendering/resizing-and-reordering
-tags: resizing,and,reordering
+components: ["grid"]
+tags: mobile-rendering,resizing,reordering,columns
 published: True
 position: 6
 ---
@@ -12,17 +13,31 @@ position: 6
 
 
 
-In this help article you will find helpful information on how to resize and reorder columns when the **RenderMode** is set to **Mobile**.
+This article explains how to resize and reorder columns when **RadGrid** uses **Mobile** **RenderMode**.
 
 ## Resizing
 
-The functionality works in a similar manner as when viewing the page on a desktop machine. The only difference is that the user should tap, instead of clicking on the column separator in order to enter in resize mode.
-![grid-mobile-resizing Reordering 1](images/grid-mobile-resizingReordering1.png)
+The functionality is similar to the desktop experience. Tap the column separator instead of clicking it to enter resize mode.
+
+> caption Figure 1: Resizing a RadGrid column in Mobile render mode
+
+![Resizing a RadGrid column in Mobile render mode](images/grid-mobile-resizingReordering1.png)
 
 ## Reordering
 
-Reordering columns using the **Mobile** version is slightly different from performing the same action on desktop machines. In order to change the columns order you first need to open the columns display form using the column view button.
-![grid-mobile-resizing Reordering 2](images/grid-mobile-resizingReordering2.png)
+Reordering columns in Mobile render mode differs from the desktop experience. Open the column display form by tapping the column view button.
 
-Once the view is shown you can perform the reordering by dragging and dropping. Afterwards you should tap on the OK button to apply the changes.
-![grid-mobile-resizing Reordering 3](images/grid-mobile-resizingReordering3.png)
+> caption Figure 2: Opening the RadGrid mobile column display form
+
+![Opening the RadGrid mobile column display form](images/grid-mobile-resizingReordering2.png)
+
+Drag and drop the columns into the desired order, then tap **OK** to apply the changes.
+
+> caption Figure 3: Applying the reordered RadGrid columns
+
+![Applying the reordered RadGrid columns](images/grid-mobile-resizingReordering3.png)
+
+## See Also
+
+- [Column settings]({%slug grid/mobile-support/mobile-rendering/column-settings%})
+- [Mobile rendering overview]({%slug grid/mobile-support/mobile-rendering/overview%})

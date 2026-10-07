@@ -1,18 +1,17 @@
 ---
 title: Hierarchy load modes
 page_title: Hierarchy load modes - RadGrid
-description: Check our Web Forms article about Hierarchy load modes.
+description: Learn how to choose RadGrid hierarchy load modes and combine client-side, server-side, and conditional loading to balance performance.
 slug: grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes
+components: ["grid"]
 tags: hierarchy,load,modes
 published: True
 position: 9
 ---
 
-# Hierarchy load modes
+# Hierarchy Load Modes
 
-
-
-If you work in hierarchy mode, you can define when the **DataBind** for **GridTableView** will occur. In order to do this, you need to set the following property:
+In hierarchy mode, define when **DataBind** occurs for a **GridTableView** by setting the following property:
 
 **GridTableView.HierarchyLoadMode**
 
@@ -31,7 +30,7 @@ GridTableView tableView = RadGrid1.MasterTableView.Items[0].ChildItem.NestedTabl
 tableView.HierarchyLoadMode = GridChildLoadMode.Client;
 ````
 
-````VB	
+````VB
 RadGrid1.MasterTableView.HierarchyLoadMode = GridChildLoadMode.Client
 
 ' for the first DetailTable of the first griditem
@@ -43,13 +42,13 @@ The possible values are:
 
 * **HierarchyLoadMode.ServerBind** - all child **GridTableViews** will be bound immediately when **DataBind** occurs for a parent **GridTableView** or **RadGrid**.
 
-* **HierarchyLoadMode.ServerOnDemand** - **DataBind** of a child **GridTableView** would only take place when an item is Expanded (see **GridItem.Expanded**). This is the default value.
+* **HierarchyLoadMode.ServerOnDemand** - **DataBind** of a child **GridTableView** occurs only when an item is expanded (see **GridItem.Expanded**). This is the default value.
 
-* **HierarchyLoadMode.Client** is similar to **HierarchyLoadMode.ServerBind**, but items are expanded client-side, using JavaScript manipulations, instead of postback to the server.In order to use client-side hierarchy expand, you will need to set also **ClientSettings.AllowExpand.Collapse**to true.
+* **HierarchyLoadMode.Client** is similar to **HierarchyLoadMode.ServerBind**, but items are expanded on the client through JavaScript instead of through a server postback. To use client-side hierarchy expansion, also set **ClientSettings.AllowExpandCollapse** to `true`.
 
-* **HierarchyLoadMode.Conditional** is mix of **HierarchyLoadMode.ServerOnDemand and HierarchyLoadMode.ClientBind**, with the difference that when an item i expanded once and postback fires for the initial expand, next time the same item will be expanded on the client .This behavior is also persisted across postback to the server – so if you have previously expanded an item from then on it will only be expanded / collapsed on the client regardless of how many postbacks you perform. The behavior is the same if you have previously loaded hierarchy with expanded items (e.g. setting Expanded=”true” in the PreRender event) – these expanded items will also be collapsed / expanded on the client.
+* **HierarchyLoadMode.Conditional** combines **HierarchyLoadMode.ServerOnDemand** with client-side expansion. The first expansion of an item triggers a postback. Later expansions of the same item occur on the client. This behavior persists across postbacks. It also applies to items that you load as expanded, for example, by setting `Expanded="true"` in the **PreRender** event.
 
->note There are cases in which the described conditional behavior is not preserved, all items are returned to their default state and a postback will be required to expand / collapse them. Such cases include rebinding and/or recreating the structure of the grid with changing the order / position of the items on the server. Some examples might be: **manual rebinding, grouping, sorting, filtering, item drag-drop, etc** .
+>note Rebinding or recreating the grid structure can reset the conditional behavior and require a postback to expand or collapse an item. Examples include **manual rebinding, grouping, sorting, filtering, and item drag-and-drop**.
 >
 
 
@@ -57,61 +56,67 @@ Changing this property value impacts the performance the following way:
 
 * In **HierarchyLoadMode.ServerBind** mode:
 
-* The roundtrip to the database happens only once - when the grid is bound.
+* The round trip to the database happens only once, when the grid is bound.
 
-* The ViewState holds all data for the detail tables.
+* The **ViewState** holds all data for the detail tables.
 
 * Only detail table-views of the expanded items are rendered.
 
-* You need to postback to the server to in order to expand an item.
+* You must post back to the server to expand an item.
 
 * In **HierarchyLoadMode.ServerOnDemand** mode:
 
-* The roundtrip to the database happens when the grid is bound and when an item is expanded.
+* The round trip to the database happens when the grid is bound and when an item is expanded.
 
-* The ViewState holds data only for the visible Items (the smallest possible ViewState).
+* The **ViewState** holds data only for the visible items, which produces the smallest possible view state.
 
 * Only detail table-views of the expanded items are rendered.
 
-* You need to postback to the server in order to expand an item.
+* You must post back to the server to expand an item.
 
 * In **HierarchyLoadMode.Client** mode:
 
-* The roundtrip to the database happens only when grid is bound.
+* The round trip to the database happens only when the grid is bound.
 
-* The ViewState holds all detail tables data.
+* The **ViewState** holds data for all detail tables.
 
 * All items are rendered - even if not visible (not expanded).
 
-* No postback to the server is needed to expand an item - expand/collapse of hierarchy items is managed client-side.
+* No postback to the server is needed to expand an item because hierarchy expansion and collapse are managed on the client.
 
 * In **HierarchyLoadMode.Conditional** mode:
 
-* The roundtrip to the database happens when the grid is bound and when an item is expanded first time.
+* The round trip to the database happens when the grid is bound and when an item is expanded for the first time.
 
-* The ViewState holds data only for the visible Items.
+* The **ViewState** holds data only for the visible items.
 
-* Only detail table-views of the expanded items are rendered..
+* Only detail table views for expanded items are rendered.
 
-* You need to postback to the server in order to expand an item first time and after that for expanding already expanded item no postback to the server is needed - expand/collapse of hierarchy items is managed client-side.
+* You must post back to the server to expand an item for the first time. Later expansions and collapses are managed on the client.
 
-## 
+## Using Different Load Modes
 
-Using different load modes in Telerik RadGrid
+Use different load modes in RadGrid to control how each hierarchy table loads.
 
-As **HierarchyLoadMode** is a **GridTableView** setting (not **RadGrid** property) you can even more fine tune the way that Telerik RadGrid handles loading of hierarchy tables.You can set **HierarchyLoadMode.Client** or **HierarchyLoadMode.Conditional** for tables that need fast view and **HierarchyLoadMode.ServerBind** for tables that are less likely to be accessed.
+Because **HierarchyLoadMode** is a **GridTableView** setting rather than a **RadGrid** property, you can fine-tune how each hierarchy table loads. Set **HierarchyLoadMode.Client** or **HierarchyLoadMode.Conditional** for tables that need client-side expansion, and set **HierarchyLoadMode.ServerBind** for tables that need server-side loading.
 
-Thus you can balance the loading of the grid between:
+This lets you balance grid loading between the client and server:
 
-* the client - this will require more bandwidth but will assure less load to the server and database and quicker expand.
+* **Client** loading requires more bandwidth but reduces server and database load and provides faster expansion.
 
-* the server - will save some client-load for the inner tables of the grid.
+* **Server** loading reduces the client-side load for inner grid tables.
 
-or use **HierarchyLoadMode.Conditional** in order to force this balanced behavior in the RadGrid.
+You can also use **HierarchyLoadMode.Conditional** to combine these behaviors in RadGrid.
 
 The example below shows the advanced hierarchy model of Telerik RadGrid with mixed mode expand/collapse (client-side and server-side). A three level hierarchy is demonstrated with Customer Master Table and two nested Detail Tables: Orders and OrderDetails. The first level of hierarchy uses client-side (**HierarchyLoadMode.Client**) expand and the second level uses server-side mode (**HierarchyLoadMode.ServerBind**)
 
-![Mixed Load Mode](images/grd_MixedLoadMode_markedup.png)
+![RadGrid hierarchy using mixed client-side and server-side load modes](images/grd_MixedLoadMode_markedup.png)
+
+## See Also
+
+- [Understanding the hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%})
+- [Hierarchical data binding using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%})
+- [Hierarchical data binding using the DetailTableDataBind event]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-detailtabledatabind-event%})
 
 
 

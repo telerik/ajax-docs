@@ -1,9 +1,10 @@
 ---
 title: Mobile Rendering Overview
-page_title: Overview - RadGrid
-description: Check our Web Forms article about Overview.
+page_title: Mobile Rendering Overview - RadGrid
+description: Learn how RadGrid adapts its layout, touch zones, column settings, and editing experience in Mobile and Auto render modes.
 slug: grid/mobile-support/mobile-rendering/overview
-tags: overview
+components: ["grid"]
+tags: mobile-rendering,adaptive,mobile,auto
 published: True
 position: 0
 ---
@@ -12,19 +13,28 @@ position: 0
 
 
 
-Since Q3 2014 Beta release of Telerik UI controls **RadGrid** is optimized for touchdevices and comes with built-in **Adaptive behavior**.When you access the grid control via a mobile device, the control will change to create a user experience tailored to the device screen size. In this mode,RadGrid is mobile-friendly and its touch zones are bigger and easier to select.![grid-adaptive-behavior](images/grid-adaptive-behavior.png)
+Since the Q3 2014 beta release, RadGrid has included adaptive behavior for touch devices. In **Mobile** render mode, the grid adapts its layout to the device screen size and provides larger touch zones.
+
+> caption Figure 1: RadGrid adaptive mobile behavior
+
+![RadGrid adaptive mobile behavior](images/grid-adaptive-behavior.png)
 
 ## Mobile vs Auto render modes
 
-You can enable the mobile layout of the control by setting the **RenderMode** property of the Grid to **"Mobile"**. To cover the rendering of both mobile and desktop devices, you could set the**RenderMode** property to **"Auto"**. This option will automatically decide how to render the control on a smartphone, tablet or PC.
+Set the **RenderMode** property to **Mobile** to enable the mobile layout. Set it to **Auto** when the page must adapt between mobile and desktop devices.
 
 ## Special Mobile rendering features
 
-When you change the grid **RenderMode** to **Mobile** or **Auto** a context menu placed at the top right corner of the grid will appear.By clicking on it you can reduce the columns number on the client or rearrange them in the desired order.
+When you set **RenderMode** to **Mobile** or **Auto**, a context menu appears in the top-right corner of the grid. Use it to reduce the number of visible columns or rearrange them on the client.
 
-Also when you set **EnableHeaderContextMenu** and **EnableHeaderContextFilterMenu** properties to true a Column Settings menu placed inside each column header will be shown. Via the Column Settings popup which will open you can group the respective column, sort and filter its data.
+When you set **AllowFilteringByColumn**, **EnableHeaderContextMenu**, and **EnableHeaderContextFilterMenu** to `True`, a column settings menu appears in each column header. Use the popup to group, sort, and filter the corresponding column.
 
-Telerik ASP.NET Grid Adaptive behavior supports easy editing for users on both desktop and mobile. When the demo is opened on a mobile device the **PopUp** edit form will take the entire RadGrid container and position **Save** and**Cancel** buttons at the top for a better user experience. You can turn on this feature by setting the RadGrid **RenderMode** property to **Auto** and setting **GridTableView.EditMode** property to **PopUp**. It's as simple as that.
+RadGrid adaptive behavior supports editing on desktop and mobile devices. In **PopUp** edit mode, the edit form fills the RadGrid container and places the **Save** and **Cancel** buttons at the top. Enable this layout by setting **RenderMode** to **Auto** and **GridTableView.EditMode** to **PopUp**.
 
->note Only **NextPrevNumericAndAdvanced** pager mode is suported for mobile devices. 
->
+>note Only the `NextPrevNumericAndAdvanced` pager mode is supported for mobile devices.
+
+## See Also
+
+- [Mobile support overview]({%slug grid/mobile-support/overview%})
+- [Column settings]({%slug grid/mobile-support/mobile-rendering/column-settings%})
+- [Data editing]({%slug grid/mobile-support/mobile-rendering/data-editing%})

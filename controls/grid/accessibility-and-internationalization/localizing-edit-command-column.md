@@ -1,7 +1,7 @@
 ---
 title: Localizing Edit Command Column
 page_title: Localizing Edit Command Column - RadGrid
-description: Check our Web Forms article about Localizing Edit Command Column.
+description: Learn how to localize RadGrid edit, update, insert, and cancel button text for in-place and form-based editing scenarios.
 slug: grid/accessibility-and-internationalization/localizing-edit-command-column
 tags: localizing,edit,command,column
 published: True
@@ -12,11 +12,11 @@ position: 2
 
 
 
-In order to localize the Edit/Update/Cancel buttons text you need to use the same-named properties as described below.
+To localize the Edit, Update, Insert, and Cancel button text, set the corresponding properties described below.
 
-## In-place edit (EditMode="InPlace")
+## Localizing in-place edit buttons
 
-In case of in-place editing, you need to set the following properties for GridEditCommandColumn:
+For `EditMode="InPlace"` editing, set these properties on `GridEditCommandColumn`:
 
 * **EditText**
 
@@ -40,9 +40,9 @@ In case of in-place editing, you need to set the following properties for GridEd
 
 
 
-## Edit in forms (EditMode="EditForms" or EditMode="PopUp")
+## Localizing edit form buttons
 
-In case of editing in forms, you need to set the following properties for **EditColumn** under **MasterTableView**.**EditFormSettings:**
+For `EditMode="EditForms"` editing, set these properties on **EditColumn** under **MasterTableView**.**EditFormSettings**:
 
 * **UpdateText**
 
@@ -51,7 +51,7 @@ In case of editing in forms, you need to set the following properties for **Edit
 * **CancelText**
 
 ````ASP.NET
-<MasterTableView>
+<MasterTableView EditMode="EditForms">
   <Columns>
     ...
     <telerik:GridEditCommandColumn UniqueName="EditCommandColumn" EditText="Edit">
@@ -68,6 +68,11 @@ In case of editing in forms, you need to set the following properties for **Edit
 
 
 
->note When edit in forms is applied, **MasterTableView** . **EditFormSettings** can not be used for localizing the **EditText** property. Since the edit control is outside of the edit form you should set the **GridEditCommandColumn.EditText** property as demonstrated above.
+>note When form-based editing is enabled, **MasterTableView**.**EditFormSettings** cannot localize the **EditText** property. Because the edit control is outside the edit form, set **GridEditCommandColumn.EditText** as shown above.
 >
+
+## See Also
+
+- [Localizing the Grid Messages]({%slug grid/accessibility-and-internationalization/localizing-the-grid-messages%})
+- [Localizing the Command Item]({%slug grid/accessibility-and-internationalization/localizing-the-command-item%})
 

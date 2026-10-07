@@ -1,7 +1,7 @@
 ---
 title: Height vs. ScrollHeight
 page_title: Height vs. ScrollHeight - RadGrid
-description: Check our Web Forms article about Height vs. ScrollHeight.
+description: Learn how RadGrid Height and ScrollHeight affect the grid's visible area, scrolling behavior, and layout.
 slug: grid/functionality/scrolling/height-vs.-scrollheight
 tags: height,vs.,scrollheight
 published: True
@@ -43,4 +43,9 @@ Using **ScrollHeight** instead of **Height** will improve the RadGrid client-sid
 
 Here is a screen shot, which shows how the RadGrid will look like in the 4 possible modes, determined by the combinations of using the Height, ScrollHeight and UseStaticHeaders properties.
 
-![](images/grd_HeightScrollHeight.png)
+![RadGrid Height and ScrollHeight comparison](images/grd_HeightScrollHeight.png)
+
+## See Also
+
+- [Scrolling overview]({%slug grid/functionality/scrolling/overview%})
+- [Scrolling with static headers]({%slug grid/functionality/scrolling/scroll-with-static-headers%})

@@ -1,7 +1,7 @@
 ---
 title: Declarative Data Source
 page_title: Declarative Data Source - RadGrid
-description: Check our Web Forms article about Declarative Data Source.
+description: Learn how to bind RadGrid to declarative data source controls and configure sorting, paging, caching, and automatic data operations.
 slug: grid/design-time/declarative-data-source
 tags: declarative,data,source
 published: True
@@ -61,3 +61,8 @@ After you choose the Data Source control, your control is automatically bound to
 The Smart Tags for each Data Source control let you easily configure the Data Source (e.g. SQL connection, query string, etc).
 
 ![grd Data Source Controls](images/grd_DataSourceControls.png)
+
+## See Also
+
+- [Automatic data source operations]({%slug grid/data-editing/automatic-datasource-operations%})
+- [Using the RadGrid Smart Tag]({%slug grid/design-time/smarttag%})

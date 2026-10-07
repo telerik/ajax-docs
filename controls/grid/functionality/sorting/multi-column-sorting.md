@@ -1,7 +1,7 @@
 ---
 title: Multi-Column Sorting
 page_title: Multi-Column Sorting - RadGrid
-description: Check our Web Forms article about Multi-Column Sorting.
+description: Learn how to configure multi-column sorting in RadGrid so users can sort data by more than one column in a defined order.
 slug: grid/functionality/sorting/multi-column-sorting
 tags: multi-column,sorting
 published: True
@@ -17,6 +17,6 @@ In the example below, the grid sorted is by Country ascending and then by City d
 
 ![Multi-Column Sorting](images/grd_MultiColumnSort.png)
 
-### See Also
+## See Also
 
  * [Custom Sorting Demo](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/sorting/custom-sorting/defaultcs.aspx)

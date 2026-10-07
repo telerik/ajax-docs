@@ -1,7 +1,7 @@
 ---
 title: Print
 page_title: Print - RadGrid
-description: Check our Web Forms article about Print.
+description: Learn how to print RadGrid data by exporting the grid content to a print-friendly view from an ASP.NET AJAX application.
 slug: grid/functionality/printing/printing
 tags: print
 published: True

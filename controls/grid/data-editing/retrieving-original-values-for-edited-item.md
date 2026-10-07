@@ -12,8 +12,6 @@ position: 3
 
 
 
-## 
-
 You can retrieve the old values for the edited item through the **SavedOldValues** property of the **GridEditableItem**(which is **IDictionary** collection of key -> value pairs). The keys in this collection are the **UniqueNames** of the editable columns and the values are the cell content for the edited row before the edit operation. The new values which the user entered before triggering the Update command can be fetched calling the **ExtractValuesFromItem** method.
 
 Here is a sample code (note that this approach is applicable for auto-generated grid column editors):
@@ -49,7 +47,7 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
             Hashtable newValues = new Hashtable();
             e.Item.OwnerTableView.ExtractValuesFromItem(newValues, editedItem);
             //the newValues instance is the new collection of key -> value pairs
-            //with the updated ny the user data
+            //with the data updated by the user
 
         }
     }
@@ -58,7 +56,7 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
 ````VB
 Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridCommandEventArgs)
     If (e.CommandName = RadGrid.UpdateCommandName) Then
-        If (e.Item = GridEditableItem) Then
+        If (TypeOf e.Item Is GridEditableItem) Then
             Dim editedItem As GridEditableItem = CType(e.Item, GridEditableItem)
             'here editedItem.SavedOldValues will be the dictionary which holds the
             'predefined values
@@ -66,7 +64,7 @@ Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As GridComman
             Dim newValues As Hashtable = New Hashtable
             e.Item.OwnerTableView.ExtractValuesFromItem(newValues, editedItem)
             'the newValues instance is the new collection of key -> value pairs
-            'with the updated ny the user data
+            'with the data updated by the user
         End If
     End If
 End Sub
@@ -109,7 +107,7 @@ Telerik.Web.UI.GridCommandEventArgs e)
 protected void RadGrid1_ItemDataBound(object sender,
 Telerik.Web.UI.GridItemEventArgs e)
 {
-    if (e.Item isGridEditableItem && e.Item.IsInEditMode)
+    if (e.Item is GridEditableItem && e.Item.IsInEditMode)
     {
         TextBox txtBox = e.Item.FindControl("TextBox1") as TextBox;
         Session["savedOldValue"] = txtBox.Text;
@@ -127,4 +125,9 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.
     End If
 End Sub
 ````
+
+## See Also
+
+- [Extracting values from edited items]({%slug grid/data-editing/extracting-values%})
+- [Updating values using InPlace and EditForms modes]({%slug grid/data-editing/update-records/updating-values-using-inplace-and-editforms-modes%})
 

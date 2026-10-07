@@ -19,25 +19,25 @@ To group the data in a grid, specify grouping criteria by setting the **GroupByE
 ## GridGroupPanel
 
 To facilitate grouping, a special area called the **GridGroupPanel** can be displayed at the top of the grid to display grouping options. To display the group panel, set the grid's **ShowGroupPanel** property to **True**. When a table view is grouped, all group fields appear in this group panel as elements along with an icon that indicates the sort order:
-![](images/grd_GroupPanel.png)
+![RadGrid group panel](images/grd_GroupPanel.png)
 
 You can access the group panel using the grid's **GroupPanel** property. You can use **PanelStyle** and **PanelItemsStyle** to control the style of the group panel and its items.
 
 You can also specify the position of the **GroupPanel** by setting the	**GroupPanelPosition** property of the grid. The available options for	the **GroupPanel** positions are: **Top**, **BeforeHeader** and	**Bottom**. The following screenshots illustrate the different rendering with those options:
 
 **GroupPanelPosition - Top**
-![radgrid-grouppanel-top](images/radgrid-grouppanel-top.png)
+![RadGrid group panel above the header](images/radgrid-grouppanel-top.png)
 
 **GroupPanelPosition - BeforeHeader**
-![radgrid-grouppanel-beforeheader](images/radgrid-grouppanel-beforeheader.png)
+![RadGrid group panel before the header](images/radgrid-grouppanel-beforeheader.png)
 
 **GroupPanelPosition - Bottom**
-![radgrid-grouppanel-beforeheader](images/radgrid-grouppanel-bottom.png)
+![RadGrid group panel below the header](images/radgrid-grouppanel-bottom.png)
 
 Users can use the sort indicator of the items in the group panel to specify the sort order of the grouping field.
 
 Optionally, you can let users add sorting fields and rearrange the existing ones by dragging and dropping column headers onto the group panel or allow ungroup option for group panel items by setting the **GroupingSettings -> ShowUnGroupButton** property of the grid to true:
-![](images/grd_Group_dragHeader.png)
+![Dragging a column header to the RadGrid group panel](images/grd_Group_dragHeader.png)
 ![Ungroup option for group panel items](images/grd_ungroupButton.PNG)
 
 To allow users to change the grouping by dragging column headers, set the **ClientSettings.AllowDragToGroup** property to **True**. You can set this property at design time:
@@ -64,11 +64,10 @@ Dim RadGrid1 As RadGrid = New RadGrid
 RadGrid1.ClientSettings.AllowDragToGroup = true			
 ````
 
-
 ## GridGroupSplitterColumn
 
 When a table view is grouped, **RadGrid** automatically adds a special column (**GridGroupSplitterColumn**) that holds the buttons which let users expand and collapse groups of items:
-![GridGroupSplitterColumn](images/grd_GroupSplitterColumn.png)
+![RadGrid group splitter column](images/grd_GroupSplitterColumn.png)
 
 >note You can expand all groups on grid load by setting the **GroupsDefaultExpanded** property of the **MasterTableView** to **True** (this is the default value).
 >
@@ -83,3 +82,8 @@ The new expand-all functionality supports all group load modes.
 It is important to note that in the case of grouping for a given table view, the header expand-all buttons’ visibility dependson whether their preceding counterparts are visible and expanded. In other words, if, for example, the expand-all button for grouplevel 2 is collapsed/hidden then all expand-all buttons for the following group levels will be hidden.
 
 When you have grouping and hierarchy combined in a common table view, the visibility of the hierarchy expand-all button depends on whether the expand-all button for the last group level is expanded/visible.
+
+## See Also
+
+- [Group-by expressions]({%slug grid/functionality/grouping/group-by-expressions/declarative-definition%})
+- [Group footers]({%slug grid/functionality/grouping/group-footers%})

@@ -1,7 +1,7 @@
 ---
 title: SEO Paging
 page_title: SEO Paging - RadGrid
-description: Check our Web Forms article about SEO Paging.
+description: Learn how to configure SEO-friendly RadGrid paging URLs so search engines and users can access individual pages of grid data.
 slug: grid/functionality/paging/seo-paging
 tags: seo,paging
 published: True
@@ -92,3 +92,8 @@ Once routing is enabled in your application, you can configure RadGrid to use th
 
 
 For more information on URL Routing support for RadGrid and a runnable demo, please refer to the [RadGrid for ASP.NET AJAX SEO Paging and Routing in ASP.NET 4.0 blog post in Telerik Blogs](https://blogs.telerik.com/aspnet-ajax/posts/10-06-23/radgrid-for-asp-net-ajax-seo-paging-with-routing-in-asp-net-4-0.aspx).
+
+## See Also
+
+- [Paging overview]({%slug grid/functionality/paging/overview%})
+- [Custom paging]({%slug grid/functionality/paging/custom-paging%})

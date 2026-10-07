@@ -1,7 +1,7 @@
 ---
 title: SmartTag
 page_title: SmartTag - RadGrid
-description: Check our Web Forms article about SmartTag.
+description: Learn how to use the RadGrid Smart Tag to configure data sources, editing, paging, sorting, filtering, grouping, AJAX, skins, and templates.
 slug: grid/design-time/smarttag
 tags: smarttag
 published: True
@@ -12,7 +12,7 @@ position: 1
 
 
 
-The **RadGrid** Smart Tag provides convenient access to frequently needed tasks. You can display the **Smart Tag** by right clicking on the grid in the design window, and choosing **Show Smart Tag** from its context menu.
+The **RadGrid** Smart Tag provides access to frequently used tasks. Display the **Smart Tag** by right-clicking the grid in the design window and choosing **Show Smart Tag** from its context menu.
 
 The smart tag lets you perform the following:
 
@@ -24,7 +24,7 @@ The smart tag lets you perform the following:
 
 * The **Refresh Schema** link refreshes the schema for the data source to which the grid is bound. This link does not appear in the Smart Tag unless the grid is bound to a declarative data source.
 
-* The **Auto-generate columns at runtime** check box sets **AutoGenerateColumns** property of the **RadGrid** control. This specifies whether the table views in the grid automatically create [columns]({%slug grid/columns/column-types%}) for all fields in the data source at runtime by default. This default behavior can be overridden by the **AutoGenerateColumns** property of any **GridTableView** in the grid.
+* The **Auto-generate columns at runtime** check box sets the **AutoGenerateColumns** property of the **RadGrid** control. This specifies whether the table views in the grid automatically create [columns]({%slug grid/columns/column-types%}) for all fields in the data source at runtime by default. This default behavior can be overridden by the **AutoGenerateColumns** property of any **GridTableView** in the grid.
 
 * The **Auto-generate edit column at runtime** check box sets the **AutoGenerateEditColumn** property of the **RadGrid** control. This specifies whether the table views in the grid automatically insert a **GridEditCommandColumn** column before any auto-generated data columns to allow the user to edit the data in the grid rows. This default behavior can be overridden by the **AutoGenerateEditColumn** property of any **GridTableView** in the grid.
 
@@ -64,7 +64,7 @@ The **Enable Client-Side Rows Selection** check box sets the **ClientSettings.Se
 
 ## Ajax Resources
 
-* The **Add RadAjaxManager...** link adds a **RadAjaxManager** component to your Web page, and displays the **RadAjax Property Builder** where you can configure it.Adding a **RadAjaxManager** to your Web page lets you take advantage of the [AJAX technology]({%slug grid/ajaxified-radgrid/asp.net-ajax-framework%}) to improve performance by performing postbacks asynchronously.
+* The **Add RadAjaxManager...** link adds a **RadAjaxManager** component to your Web page and displays the **RadAjax Property Builder**, where you can configure it. Adding a **RadAjaxManager** to your Web page lets you take advantage of [AJAX technology]({%slug grid/ajaxified-radgrid/asp.net-ajax-framework%}) to improve performance by performing postbacks asynchronously.
 
 * The **Replace ScriptManager with RadScriptManager** link replaces the default **ScriptManager** component that is added for AJAX-enabled Web sites with **RadScriptManager**.
 
@@ -83,3 +83,8 @@ Links navigate you directly to **RadGrid** examples, help, or code library. You 
 The **Edit Templates** link lets you launch the template design surface for a particular template that the grid uses. You can select from a drop-down list of all possible templates, including templates for [template columns]({%slug grid/design-time/add-controls-to-column-templates%}), the [no records template]({%slug grid/data-binding/using-norecordstemplate%}), [pager template]({%slug grid/functionality/paging/changing-the-default-pager/setting-pager-template%}), [command item template]({%slug grid/data-editing/commanditem/command-item-template%}), [edit form template]({%slug grid/data-editing/edit-mode/custom-edit-forms%}), global item template, or nested view template.
 
 ![RadGrid Smart Tag](images/grid_smart_tag.png)
+
+## See Also
+
+- [Setting RadGrid properties]({%slug grid/design-time/setting-radgrid%})
+- [Adding controls to column templates]({%slug grid/design-time/add-controls-to-column-templates%})

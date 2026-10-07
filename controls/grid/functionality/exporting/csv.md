@@ -1,7 +1,7 @@
 ---
 title: CSV Export
 page_title: CSV Export - RadGrid
-description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
+description: Learn how to export RadGrid data to CSV format, configure encoding, and handle text, images, and special characters in output.
 slug: grid/functionality/exporting/csv-export
 previous_url: controls/grid/functionality/exporting/export-formats/csv-export
 tags: csv,export
@@ -160,7 +160,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     if (e.Item is GridDataItem && grid.IsExporting)
     {
         TableCell cell = ((GridDataItem)e.Item)["myColumn"];
-        Image img = (Image)ell.FindControl("Image1");
+        Image img = (Image)cell.FindControl("Image1");
         cell.Text = img.AlternateText;
     }
 }
@@ -172,7 +172,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     if (e.Item is GridDataItem && grid.IsExporting)
     {
         TableCell cell = ((GridDataItem)e.Item)["myColumn"];
-        Image img = (Image)ell.FindControl("Image1");
+        Image img = (Image)cell.FindControl("Image1");
         cell.Text = img.AlternateText;
     }
 }
@@ -218,7 +218,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     if (e.Item is GridDataItem && isExport)
     {
         TableCell cell = ((GridDataItem)e.Item)["myColumn"];
-        Image img = (Image)ell.FindControl("Image1");
+        Image img = (Image)cell.FindControl("Image1");
         cell.Text = img.AlternateText;
     }
 }
@@ -228,7 +228,7 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     if (e.Item is GridDataItem && isExport)
     {
         TableCell cell = ((GridDataItem)e.Item)["myColumn"];
-        Image img = (Image)ell.FindControl("Image1");
+        Image img = (Image)cell.FindControl("Image1");
         cell.Text = img.AlternateText;
     }
 }
@@ -404,4 +404,9 @@ The following features are not supported when exporting using the CSV Format:
 - Grouping
 - Exporting invisible **RadGrid** (`Visible="False"`)
 - Exporting anything other than Text. Instead, export the text that is related to the Control such as Text, Value, AlternateText, etc. See [Export GridTemplateColumn Content](#export-gridtemplatecolumn-content) for an example.
+
+## See Also
+
+- [Exporting overview]({%slug grid/functionality/exporting/overview%})
+- [Excel export formats]({%slug grid/functionality/exporting/excel-export/excel-xlsx%})
  

@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Paging Overview - RadGrid
-description: Explore the paging functionality in the Grid control for managing large datasets efficiently.
+description: Explore RadGrid paging functionality for managing large datasets efficiently with configurable page sizes and navigation controls.
 slug: grid/functionality/paging/overview
 tags: overview
 published: True

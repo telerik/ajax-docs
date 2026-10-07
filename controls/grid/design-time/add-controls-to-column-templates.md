@@ -1,7 +1,7 @@
 ---
 title: Add Controls to Column Templates
 page_title: Add Controls to Column Templates - RadGrid
-description: Check our Web Forms article about Add Controls to Column Templates.
+description: Learn how to add controls to RadGrid template columns, bind them to data, and enable editing, paging, and skin settings in Visual Studio.
 slug: grid/design-time/add-controls-to-column-templates
 tags: add,controls,to,column,templates
 published: True
@@ -25,7 +25,7 @@ This tutorial shows how to:
 
 ## Creating and Binding the Grid
 
-1. Locate the "..\Live Demos\App_Data" folder underneath the folder where you have installed yourcontrols. In this folder, find the **Northwind.mdf** file, and copy it into the**App_Data** folder of your Web application. The **Solution Explorer** for you application should look something like the following:
+1. Locate the "..\Live Demos\App_Data" folder underneath the folder where you have installed your controls. In this folder, find the **Northwind.mdf** file, and copy it into the **App_Data** folder of your Web application. The **Solution Explorer** for your application should look something like the following:
 
 ![grid gettingstarted 1](images/grid_gettingstarted1.png)
 
@@ -33,11 +33,11 @@ This tutorial shows how to:
 
 ![grid gettingstarted 2](images/grid_gettingstarted2.JPG)
 
-1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}), expand the drop-down listlabelled **Choose Data Source** and select **\<New data source...\>**:
+1. Using the **RadGrid's** [Smart Tag]({%slug grid/design-time/smarttag%}), expand the drop-down list labeled **Choose Data Source** and select **\<New data source...\>**:
 
 ![grid gettingstarted 03](images/grid_gettingstarted03.JPG)
 
-1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select **SQL Database** andclick **OK**:
+1. The **Data Source Configuration Wizard** appears. On the **Choose a Data Source Type** page, select **SQL Database** and click **OK**:
 
 ![grid gettingstarted 4](images/grid_gettingstarted4.png)
 
@@ -47,7 +47,7 @@ This tutorial shows how to:
 
 >note If you happen to encounter a **"Database schema could not be retrieved"** exception, please follow the guide in [this]({%slug grid/design-time/visual-studio-2012-datasource-configuration%}) help topic.
 
-1. On the **Configure Select Statement** page, select the Orders table from thedrop-down list, and select theOrderID, CustomerID, EmployeeID, and OrderDate fields and then click **Next** button:
+1. On the **Configure Select Statement** page, select the Orders table from the drop-down list, select the **OrderID**, **CustomerID**, **EmployeeID**, and **OrderDate** fields, and click the **Next** button:
 
 ![Configure Select Statement](../images/grid_add-controls-to-template6.png)
 
@@ -137,4 +137,9 @@ This tutorial shows how to:
 1. Run the application. Click the edit column to see the edit template you added. Note that if you edit a value in the grid, the database is updated:
 
 ![GridEditing](../images/grid_add-controls-to-template23.png)
+
+## See Also
+
+- [Using the RadGrid Smart Tag]({%slug grid/design-time/smarttag%})
+- [Adding columns from design time]({%slug grid/design-time/adding-columns-from-design-time%})
 

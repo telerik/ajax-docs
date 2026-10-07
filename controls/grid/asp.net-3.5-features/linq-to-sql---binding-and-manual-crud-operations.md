@@ -1,38 +1,40 @@
 ---
-title: LINQ To SQL - Binding and Manual CRUD Operations
-page_title: LINQ To SQL - Binding and Manual CRUD Operations - RadGrid
-description: Check our Web Forms article about LINQ To SQL - Binding and Manual CRUD Operations.
+title: LINQ to SQL - Binding and Manual CRUD Operations
+page_title: LINQ to SQL Binding and Manual CRUD - RadGrid
+description: Learn how to bind RadGrid to LINQ to SQL data and implement manual insert, update, and delete operations in ASP.NET AJAX.
 slug: grid/asp.net-3.5-features/linq-to-sql---binding-and-manual-crud-operations
 tags: linq,to,sql,-,binding,and,manual,crud,operations
 published: True
 position: 3
 ---
 
-# LINQ To SQL - Binding and Manual CRUD Operations
+# LINQ to SQL - Binding and Manual CRUD Operations
 
+LINQ to SQL is an object-relational mapping (ORM) implementation included in ASP.NET Framework 3.5. It lets you model a relational database with .NET classes, query the database with LINQ, and update, insert, or delete data. LINQ to SQL tracks changes to the objects and translates the queries and updates into SQL for the database.
 
+LINQ to SQL supports transactions, views, and stored procedures. It also provides a way to integrate data validation and business logic rules into your data model.
 
-## 
-
-LINQ to SQL is an ORM (object relational mapping) implementation that ships in the ASP.NET Framework 3.5 release, and which allows you to model a relational database using .NET classes.You can then query the database using LINQ, as well as update/insert/delete data from it. LINQ to SQL provides a runtime infrastructure for managing relational data as objects without losing the ability to query. It does this by translating language-integrated queries into SQL for execution by the database, and then translating the tabular results back into objects you define. Your application is then free to manipulate the objects while LINQ to SQL stays in the background tracking your changes automatically.
-
-LINQ to SQL supports transactions, views, and stored procedures.It also provides an easy way to integrate data validation and business logic rules into your data model.
-
-For more information about LINQ to SQL review the following resources:
+For more information about LINQ to SQL, review the following resources:
 
 - [Using LINQ to SQL](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/)
 - [LINQ to SQL: .NET Language-Integrated Query for Relational Data](https://msdn.microsoft.com/en-us/library/bb425822.aspx).
 
-RadGrid for ASP.NET AJAX exposes programmatic way to binding itself to IEnumerable data returned from LINQ queries which is presented in the [ following online demo ](https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/programaticlinqupdates/defaultcs.aspx) of the product. Additionally, the grid from the example supports manual data editing operations as well as paging and sorting. The main points are to intercept the *NeedDataSource * event to pass a data source to the control and the *UpdateCommand*, *InsertCommand *and *DeleteCommand *events to edit the data in it.
+## Binding RadGrid to LINQ to SQL
 
-Here are the code snippets from the example referenced in the previous paragraph (it also demonstrates how to configure *RadInputManager *to manage the user input inside the edit/insert form)
+RadGrid for ASP.NET AJAX provides a programmatic way to bind to `IEnumerable` data returned from LINQ queries, as shown in the [manual LINQ update demo](https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/programaticlinqupdates/defaultcs.aspx). The example supports manual data editing, paging, and sorting. Handle the `NeedDataSource` event to provide the data source, and handle the `UpdateCommand`, `InsertCommand`, and `DeleteCommand` events to edit the data.
+
+## Configuring the Grid and CRUD Event Handlers
+
+The following code snippets show the example configuration. They also demonstrate how to configure `RadInputManager` to manage user input in the edit and insert forms.
+
+> caption Example: Binding RadGrid to LINQ to SQL for manual CRUD operations
 
 ````ASP.NET
 <telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
     <script type="text/javascript">            function rowDblClick(sender, eventArgs) { sender.get_masterTableView().editItem(eventArgs.get_itemIndexHierarchical()); }            </script>
 </telerik:RadCodeBlock>
 <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
-    <ajaxsettings>
+    <AjaxSettings>
   <telerik:AjaxSetting AjaxControlID="RadGrid1">
     <UpdatedControls>
       <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
@@ -40,14 +42,14 @@ Here are the code snippets from the example referenced in the previous paragraph
       <telerik:AjaxUpdatedControl ControlID="RadInputManager1" />
     </UpdatedControls>
   </telerik:AjaxSetting>
-</ajaxsettings>
+</AjaxSettings>
 </telerik:RadAjaxManager>
 <telerik:RadAjaxLoadingPanel runat="server" ID="RadAjaxLoadingPanel1" />
 <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" AutoGenerateColumns="false" AllowPaging="true"
     OnNeedDataSource="RadGrid1_NeedDataSource" OnUpdateCommand="RadGrid1_UpdateCommand"
     OnItemCreated="RadGrid1_ItemCreated" OnDeleteCommand="RadGrid1_DeleteCommand"
     OnInsertCommand="RadGrid1_InsertCommand">
-    <mastertableview datakeynames="ProductID" commanditemdisplay="Top" insertitempageindexaction="ShowItemOnCurrentPage">
+    <MasterTableView DataKeyNames="ProductID" CommandItemDisplay="Top" InsertItemPageIndexAction="ShowItemOnCurrentPage">
   <Columns>
     <telerik:GridEditCommandColumn ButtonType="ImageButton" />
     <telerik:GridBoundColumn DataField="ProductID" HeaderText="Product ID" ReadOnly="true"
@@ -61,11 +63,11 @@ Here are the code snippets from the example referenced in the previous paragraph
   <EditFormSettings>
     <EditColumn ButtonType="ImageButton" />
   </EditFormSettings>
-</mastertableview>
-    <pagerstyle mode="NextPrevAndNumeric" />
-    <clientsettings>
+    </MasterTableView>
+    <PagerStyle Mode="NextPrevAndNumeric" />
+    <ClientSettings>
   <ClientEvents OnRowDblClick="rowDblClick" />
-</clientsettings>
+</ClientSettings>
 </telerik:RadGrid>
 <telerik:RadInputManager RenderMode="Lightweight" runat="server" ID="RadInputManager1" Enabled="true">
     <telerik:TextBoxSetting BehaviorID="TextBoxSetting1">
@@ -111,7 +113,7 @@ protected void RadGrid1_UpdateCommand(object source, GridCommandEventArgs e)
 {
     var editableItem = ((GridEditableItem)e.Item);
     var productId = (int)editableItem.GetDataKeyValue("ProductID");
-    //retrive entity form the Db         
+            // retrieve the entity from the database
     var product = DbContext.Products.Where(n => n.ProductID == productId).FirstOrDefault();
     if (product != null)
     {
@@ -119,7 +121,7 @@ protected void RadGrid1_UpdateCommand(object source, GridCommandEventArgs e)
         editableItem.UpdateValues(product);
         try
         {
-            //submit chanages to Db     
+            // submit changes to the database
 
             DbContext.SubmitChanges();
         }
@@ -187,7 +189,7 @@ protected void RadGrid1_InsertCommand(object source, GridCommandEventArgs e)
     DbContext.Products.InsertOnSubmit(product);
     try
     {
-        //submit chanages to Db     
+            // submit changes to the database
         DbContext.SubmitChanges();
     }
     catch (System.Exception)
@@ -199,15 +201,15 @@ protected void RadGrid1_InsertCommand(object source, GridCommandEventArgs e)
 protected void RadGrid1_DeleteCommand(object source, GridCommandEventArgs e)
 {
     var productId = (int)((GridDataItem)e.Item).GetDataKeyValue("ProductID");
-    //retrive entity form the Db  
+    // retrieve the entity from the database
     var product = DbContext.Products.Where(n => n.ProductID == productId).FirstOrDefault();
     if (product != null)
     {
-        //add the category for deletion        
+            // add the product for deletion
         DbContext.Products.DeleteOnSubmit(product);
         try
         {
-            //submit chanages to Db           
+            // submit changes to the database
             DbContext.SubmitChanges();
         }
         catch (System.Exception)
@@ -217,7 +219,7 @@ protected void RadGrid1_DeleteCommand(object source, GridCommandEventArgs e)
     }
 }
 ````
-````VB
+````VB.NET
 Private _dataContext As NorthwindDataContext
 Protected ReadOnly Property DbContext() As NorthwindDataContext
     Get
@@ -241,13 +243,13 @@ End Sub
 Protected Sub RadGrid1_UpdateCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.UpdateCommand
     Dim editableItem = (DirectCast(e.Item, GridEditableItem))
     Dim productId = DirectCast(editableItem.GetDataKeyValue("ProductID"), Integer)
-    'retrive entity form the Db
+    ' retrieve the entity from the database
     Dim product = DbContext.Products.Where(Function(n) n.ProductID = productId).FirstOrDefault()
     If product IsNot Nothing Then
         'update entity's state
         editableItem.UpdateValues(product)
         Try
-            'submit chanages to Db
+            ' submit changes to the database
             DbContext.SubmitChanges()
         Catch generatedExceptionName As System.Exception
             ShowErrorMessage()
@@ -304,7 +306,7 @@ Protected Sub RadGrid1_InsertCommand(ByVal source As Object, ByVal e As GridComm
     End If
     DbContext.Products.InsertOnSubmit(product)
     Try
-        'submit chanages to Db
+        ' submit changes to the database
         DbContext.SubmitChanges()
     Catch generatedExceptionName As System.Exception
         ShowErrorMessage()
@@ -313,13 +315,13 @@ End Sub
 
 Protected Sub RadGrid1_DeleteCommand(ByVal source As Object, ByVal e As GridCommandEventArgs) Handles RadGrid1.DeleteCommand
     Dim productId = DirectCast((DirectCast(e.Item, GridDataItem)).GetDataKeyValue("ProductID"), Integer)
-    'retrive entity form the Db
+    ' retrieve the entity from the database
     Dim product = DbContext.Products.Where(Function(n) n.ProductID = productId).FirstOrDefault()
     If product IsNot Nothing Then
         'add the product for deletion
         DbContext.Products.DeleteOnSubmit(product)
         Try
-            'submit chanages to Db
+            ' submit changes to the database
             DbContext.SubmitChanges()
         Catch generatedExceptionName As System.Exception
             ShowErrorMessage()
@@ -327,4 +329,10 @@ Protected Sub RadGrid1_DeleteCommand(ByVal source As Object, ByVal e As GridComm
     End If
 End Sub
 ````
+
+## See Also
+
+- [Automatic LINQ to SQL CRUD operations]({%slug grid/asp.net-3.5-features/linq-to-sql---binding-and-automatic-crud-operations%})
+- [Entity Framework binding and CRUD operations]({%slug grid/asp.net-3.5-features/entity-framework---binding-and-crud-operations%})
+- [Client binding to WCF and ADO.NET data services]({%slug grid/asp.net-3.5-features/client-binding-to-wcf-web-service-and-ado.net-data-service%})
 

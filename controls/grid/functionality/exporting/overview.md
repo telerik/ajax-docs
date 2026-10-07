@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Exporting Overview - RadGrid
-description: Learn about the exporting functionality in the Grid control for sharing data in various formats.
+description: Learn how to export RadGrid data to Excel, PDF, Word, CSV, and other formats for sharing and document processing workflows.
 slug: grid/functionality/exporting/overview
 tags: overview,exporting
 published: True

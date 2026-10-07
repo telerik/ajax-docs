@@ -1,7 +1,7 @@
 ---
 title: Using PagerTextFormat
 page_title: Using PagerTextFormat - RadGrid
-description: Check our Web Forms article about Using PagerTextFormat.
+description: Learn how to customize RadGrid pager text with PagerTextFormat so navigation labels match your application's paging experience.
 slug: grid/functionality/paging/changing-the-default-pager/using-pagertextformat
 tags: using,pagertextformat
 published: True
@@ -11,8 +11,6 @@ position: 2
 # Using PagerTextFormat
 
 
-
-## 
 
 You can set the format of the text that appears in the **Pager** using the **PagerTextFormat** property. The value of this property is an **ASP.NET** formatting string.
 
@@ -146,4 +144,9 @@ The following screen shots show how the pager looks for each of the different pa
 
 >note In order to change the text on the right side of the **RadSlider** you should set the **ClientMessages.PagerTooltipFormatString** property.
 >
+
+## See Also
+
+- [Paging overview]({%slug grid/functionality/paging/overview%})
+- [Pager item]({%slug grid/functionality/paging/pager-item%})
 

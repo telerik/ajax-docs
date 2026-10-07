@@ -1,7 +1,7 @@
 ---
 title: Multi Column
 page_title: Selecting MultiColumn - RadGrid
-description: Selecting Cells of Multiple Columns
+description: Learn how to select cells across multiple RadGrid columns and handle the selected cell range in your application.
 slug: grid/functionality/selecting/selecting-cells/multi-column
 tags: selecting,cells,multicolumn
 published: True
@@ -12,7 +12,7 @@ position: 3
 
 The **MultiColumn** option will allow you to select the Cells of one or multiple columns.
 
-![](images/MultiColumn.gif)
+![Selecting cells in multiple columns](images/MultiColumn.gif)
 
 ## Built-in Selection
 

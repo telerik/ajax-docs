@@ -11,10 +11,6 @@ position: 4
 
 # Changing the Grid Structure Dynamically on Postback
 
-
-
-## 
-
 You can modify the columns collection of a **RadGrid** dynamically on postback request, giving your user the freedom to alter the grid column structure when needed. For example, you could change the structure of the grid when the user chooses an option from a control that resides outside of the grid.
 
 The first option would be to use auto-generated columns for the grid and merely change its data source and invoke its Rebind() method on postback. Thus the [Programmatic data binding]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%}) of the grid will be raised explicitly and the control will be populated with the new data.
@@ -191,4 +187,10 @@ Protected Sub DropDownList1_SelectedIndexChanged( _
     grid.Rebind()
 End Sub
 ````
+
+## See Also
+
+- [Programmatic data binding using the NeedDataSource event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
+- [Declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
+- [Creating a RadGrid programmatically]({%slug grid/create-radgrid/creating-a-radgrid-programmatically%})
 

@@ -1,28 +1,29 @@
 ---
-title: Error Handling Automatic Operations
-page_title: Error Handling Automatic Operations - RadGrid
-description: Check our Web Forms article about Error Handling Automatic Operations.
+title: Error Handling for Automatic Operations
+page_title: Error Handling for Automatic Operations - RadGrid
+description: Learn how to handle errors raised by automatic insert, update, and delete operations in RadGrid for ASP.NET AJAX.
 slug: grid/troubleshooting/error-handling-automatic-operations
+components: ["grid"]
 tags: error,handling,automatic,operations
 published: True
 position: 3
 ---
 
-# Error Handling Automatic Operations
+# Error Handling for Automatic Operations
 
+When a data source performs an automatic insert, update, or delete operation, **RadGrid** raises an event after the operation. Handle the event to inspect the exception and decide whether the grid should keep the item in edit or insert mode.
 
+## Handle Exceptions
 
-## 
+RadGrid raises the following events after automatic operations:
 
-RadGrid can fire three events after an automatic action occurred:
+- **ItemUpdated**
+- **ItemInserted**
+- **ItemDeleted**
 
-* **ItemUpdated**
+When an operation fails, the event argument's `Exception` property contains the exception. Set `ExceptionHandled` to `true` after displaying or logging the error. For an update or insert error, set `KeepInEditMode` or `KeepInInsertMode` to `true` when you want the user to correct the values and try again.
 
-* **ItemInserted**
-
-* **ItemDeleted**
-
-
+> caption Handle exceptions raised by automatic insert, update, and delete operations
 
 ````C#
 protected void RadGrid1_ItemUpdated(object source, Telerik.Web.UI.GridUpdatedEventArgs e)
@@ -100,34 +101,14 @@ Protected Sub RadGrid1_ItemDeleted(ByVal source As Object, ByVal e As GridDelete
 End Sub 'RadGrid1_ItemDeleted
 
 Private Sub DisplayMessage(ByVal text As String)
-    RadGrid1.Controls.Add(New LiteralControl([text]))
+    RadGrid1.Controls.Add(New LiteralControl(text))
 End Sub 'DisplayMessage
 ````
 
+The default behavior is to let the data source raise the exception. Handle the corresponding event when you want to prevent the exception from propagating and present a message in the page.
 
-The default behavior of Telerik RadGrid is tolet the **DataSource** control rise an exceptionwhen error occurs when inserting/updating/deleting. To prevent this exception you should handle the corresponding event and in case (e.Exception != null) or (Not e.Exception Is Nothing) you should set e.ExceptionHandled to true and display error message.
+## See Also
 
-
-
-````C#
-protected void RadGrid1_ItemDeleted(object source, GridDeletedEventArgs e)
-{
-      if (e.Exception != null)
-      {
-         e.ExceptionHandled = true;
-         DisplayMessage("Product " + e.Item["ProductID"].Text + " cannot be deleted. Reason: " + e.Exception.Message);
-      }
-      ....
-}
-````
-````VB
-Protected Sub RadGrid1_ItemDeleted(ByVal source As Object, ByVal e As GridDeletedEventArgs) Handles RadGrid1.ItemDeleted
-    If Not (e.Exception Is Nothing) Then
-        e.ExceptionHandled = True
-        DisplayMessage("Product " + e.Item("ProductID").Text + " cannot be deleted. Reason: " + e.Exception.Message)
-    End If
-...............
-
-End Sub
-````
+- [Automatic data source operations]({%slug grid/data-editing/automatic-datasource-operations%})
+- [Controlling automatic operations]({%slug grid/data-editing/api-for-controlling-the-automatic-operations%})
 

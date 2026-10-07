@@ -1,7 +1,7 @@
 ---
 title: Server-side Selecting with a Select Button
 page_title: Server-side Selecting with a Select Button - RadGrid
-description: Check our Web Forms article about Server-side Selecting with a Select Button.
+description: Learn how to select RadGrid rows on the server by using a select button and handling the selected item in code.
 slug: grid/functionality/selecting/selecting-rows/server-side-selecting-with-a-select-button
 tags: server-side,selecting,with,a,select,button
 published: True
@@ -12,11 +12,9 @@ position: 2
 
 
 
-## 
-
 You can add **GridButtonColumn** columns to a grid to handle the selection and de-selection of grid rows. The **RadGrid** [Command API]({%slug grid/control-lifecycle/command-reference-%}) can automatically handle the select and de-select commands: you need only add the **GridButtonColumn** objects to the **Commands** collection and set their **CommandName** property:
 
-![](images/SelectButtonColumns.png)
+![Selecting a row on the server with a select button](images/SelectButtonColumns.png)
 
 ````ASP.NET
 	  <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" PageSize="5" Skin="Silk"
@@ -39,3 +37,8 @@ You can add **GridButtonColumn** columns to a grid to handle the selection and d
 You can access the selected rows using the **SelectedItems** collection of the **RadGrid** object. In addition, you can handle the **SelectedIndexChanged** server event of the grid to detect when a row's selection changes perform additional operations if needed.
 
 For a live example showing server-side selection, see [Server-side row selection](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/SelectRowWithCheckBox/DefaultCS.aspx).
+
+## See Also
+
+- [Selecting overview]({%slug grid/functionality/selecting/overview%})
+- [Server-side selection with a checkbox]({%slug grid/functionality/selecting/selecting-rows/server-side-selecting-with-a-checkbox%})

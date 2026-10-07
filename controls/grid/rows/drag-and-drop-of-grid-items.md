@@ -1,7 +1,7 @@
 ---
 title: Drag and Drop of Grid Items
 page_title: Drag and Drop of Grid Items - RadGrid
-description: Learn how to enable drag-and-drop functionality for Grid items to improve user interaction and usability.
+description: Learn how to enable and handle RadGrid row drag-and-drop operations, including reordering, cross-grid moves, scrolling, and row selection.
 slug: grid/rows/drag-and-drop-of-grid-items
 tags: drag,and,drop,of,grid,items
 published: True
@@ -10,7 +10,7 @@ position: 4
 
 # Drag and Drop of Grid Items
 
-This article explains the drad-and-drop of grid items. It consists of the following sections.
+This article explains how to enable and handle drag-and-drop operations for grid items. It includes the following sections.
 
 * [Overview](#overview)
 * [Handling Drag-and-drop](#handling-drag-and-drop)
@@ -22,7 +22,7 @@ This article explains the drad-and-drop of grid items. It consists of the follow
 
 ## Overview
 
-RadGrid exposes flexible event-driven mechanism to drag and drop grid records to reorder them within the same grid, move them to different grid instance or drop them over other html element on the page. In order to enable drag and drop of grid items, you need to set the two boolean grid properties to true, namely:
+**RadGrid** provides an event-driven mechanism for reordering records within the same grid, moving records between grid instances, or dropping records on another HTML element. Set **AllowRowsDragDrop** to `true` to enable row drag-and-drop. If the operation also requires row selection, set **AllowRowSelect** to `true`.
 
 ````ASP.NET
 <telerik:RadGrid runat="server" RenderMode="Lightweight">
@@ -34,50 +34,50 @@ RadGrid exposes flexible event-driven mechanism to drag and drop grid records to
 
 
 
-This will make the grid data rows draggable and the end user will be able to relocate them if needed. Additionally, you can define a [GridDragDropColumn]({%slug grid/columns/column-types%}) in your GridTableView's Columns collection. This will make your grid items draggable only when grabbed by the drag handle in the GridDragDropColumn. For a live demo, please refer to the [RadGrid Items Drag-and-Drop live example](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/draganddrop/defaultcs.aspx).
+This makes the data rows draggable. You can also define a [GridDragDropColumn]({%slug grid/columns/column-types%}) in the **GridTableView** `Columns` collection to make items draggable only when the user grabs the drag handle. For a live demo, see the [RadGrid Items Drag-and-Drop live example](https://demos.telerik.com/aspnet-ajax/grid/examples/programming/draganddrop/defaultcs.aspx).
 
-Furthermore, depending on the position you drag an item (above or below other record) it will be placed respectively above or below the corresponding grid item. This is meaningful only when you reorder rows within the same RadGrid or from one RadGrid to another.
+Depending on whether you drag an item above or below another record, it is placed above or below the corresponding grid item. This placement applies when you reorder rows within the same **RadGrid** or move rows from one **RadGrid** to another.
 
-The event-driven model which allows you to process and complete the drag and drop operation can be separated into two phases: client-side and server-side phase.
+The event-driven model for processing a drag-and-drop operation has two phases: client-side and server-side.
 
 ## Handling Drag-and-drop
 
-There are two phases when the user drags and drops rows. The first is the client-side action in the browser, and if that is not cancelled by the developer, a postback is made so the server can be notified of the data change (e.g., so you can update your data sources). The information below explains what you can do in each phase.
+When a user drags and drops rows, the client-side action occurs first. If the operation is not canceled, RadGrid makes a postback so the server can process the data change, such as updating the data source. The following sections explain what you can do in each phase.
 
 ### Client-side phase
 
 There are three client grid events exposed to handle drag/drop action: **OnRowDragStarted** (cancelable), **OnRowDropping** (cancelable) and **OnRowDropped**.
 
-* The **OnRowDragStarted** event can be intercepted if you want to perform some conditional check and determine whether to cancel the drag operation or not. The syntax of the event handler follows the general client-side event signature of RadGrid for ASP.NET AJAX. The row which is about to be dragged can be accessed through the **get_gridDataItem**() property of the second argument passed in the OnRowDragStarted handler.
+* Use the cancelable **OnRowDragStarted** event to perform a conditional check before the drag operation begins. The row being dragged is available through the **get_gridDataItem**() method on the event arguments.
 
-* The **OnRowDropping** event should be attached to identify the target element on which the dragged grid record is dropped. If this element does not meet your criteria for acceptable target, cancel the operation by setting *args.set_cancel(true)* where args is the second argument passed to the OnRowDropping handler. Additionally, to determine the destination element or set it explicitly use the *get_destinationHtmlElement()* and *set_destinationHtmlElement()* properties that can be accessed through the args argument in the handler. Again, the syntax of the event handler follows the general client-side event signature of RadGrid for ASP.NET AJAX.
+* Use the cancelable **OnRowDropping** event to inspect the target element. If the target is not valid, cancel the operation by calling `args.set_cancel(true)`. Use `args.get_destinationHtmlElement()` to get the destination element or `args.set_destinationHtmlElement()` to set it explicitly.
 
-* The **OnRowDropped** event can be handled if you would like to execute some extra code logic prior to the server-side OnRowDrop event rising. This event cannot be cancelled and have the same set of arguments as the OnRowDropping client event.
+* Use **OnRowDropped** to execute additional client-side logic before the server-side **OnRowDrop** event is raised. This event cannot be canceled and has the same arguments as **OnRowDropping**.
 
 ### Server-side phase
 
-On the server there is a single event (named **OnRowDrop**). Subscribing to this event allows you to reorder the items in the source grid or remove them and append these rows to a destination grid instance. The sequence of actions you will have to undertake in order to change the source structure may vary because this depends strictly on the underlying data source and its data model. The common logic in all cases, however, is that you can use three arguments passed in the handler to accomplish the task:
+On the server, the **OnRowDrop** event lets you reorder items in the source grid or remove them and append them to a destination grid. The exact data operations depend on the underlying data source and data model. The event arguments provide the information needed to complete the operation:
 
-* **e.HtmlElement** - holds the html element (or grid item)
+* **e.HtmlElement** - contains the ID of the HTML element that received the drop, when the destination is not a grid item
 
-* **e.DestDataItem** - the destination grid item object (either GridDataItem or GridNoRecordsItem)
+* **e.DestDataItem** - the destination **GridDataItem**, or `null` when the row is dropped where no data item is targeted
 
-* **e.DraggedItems** - a collection of GridDataItems which holds the rows that are taking part in the current drop operation
+* **e.DraggedItems** - a collection of **GridDataItem** objects representing the rows in the current drop operation
 
-* **e.DestinationGrid**- a reference to the grid instance to which the row has been dragged to
+* **e.DestinationGrid** - a reference to the grid instance to which the row was dragged
 
-* **e.DestinationTableView**- a reference to the table to which the row has been draggged to, points to the MasterTableView or detail table in hierarchical grid
+* **e.DestinationTableView** - a reference to the table to which the row was dragged, such as the **MasterTableView** or a detail table in a hierarchical grid
 
-Combining the client and server part completes the circle and separates logically each part of the drag and drop process until it is finalized. For richer end user experience you can ajaxify the grid via RadAjaxManager and use RadAjaxLoadingPanel indicators. Otherwise the drag and drop operation will be performed with plain postback.
+Combining the client- and server-side logic completes the drag-and-drop operation. For a richer user experience, you can ajaxify the grid with **RadAjaxManager** and use **RadAjaxLoadingPanel** indicators. Otherwise, the operation uses a regular postback.
 
 ## Scrolling
 
 When dragging an item within the grid to reposition it, the grid can scroll automatically with the drag operation. The only requirement is that you [enable scrolling]({%slug grid/functionality/scrolling/overview%}). When configuring scrolling, you may also find useful the [Height vs. ScrollHeight]({%slug grid/functionality/scrolling/height-vs.-scrollheight%}) article.
-You can stop the automatic scrolling by setting `ClientSettings.AllowAutoScrollOnDragDrop="false"`. 
+You can stop the automatic scrolling by setting `ClientSettings.AllowAutoScrollOnDragDrop="false"`.
 
-The user can drag an item to an arbitrary element on the page or another grid. The originatig grid cannot know about that other HTML structure or its scrolling setup, so scrolling for the drag-and-drop operation is available only within the source grid.
+The user can drag an item to an arbitrary element on the page or to another grid. The originating grid cannot know about the other HTML structure or its scrolling setup, so automatic scrolling is available only within the source grid.
 
-On mobile devices the row drag-drop and scrolling features in the grid are performed by the same touch gesture: dragging of the content area of the grid. This imposes a limitation when both features are enabled on touch devices because it cannot be exclusively determined which one of the two should be performed. One way to distinguish between scrolling and row drag-drop on mobile devices is touse a GridDragDropColumn - this way the dragging of the rows will be performed only when you drag a row by the icon in theGridDragDropColumn and on the rest of the content area scrolling will be performed.
+On mobile devices, row drag-and-drop and scrolling use the same touch gesture on the grid content area. When both features are enabled, RadGrid cannot determine which action the user intends. To distinguish them, use a **GridDragDropColumn**. Dragging the row handle performs the drag-and-drop operation, while dragging elsewhere in the content area scrolls the grid.
 
 
 ## Row Selection
@@ -87,11 +87,11 @@ With single row selection enabled (`AllowMultiRowSelection="false"`) the items w
 With multi-row selection enabled (`AllowMultiRowSelection="true"`) a prerequisite is first to select row(s) and then drag to reorder them/drop them over other grid/html element.
 
 
-![grid itemsdragdrop itemselecting](images/grid_itemsdragdrop_itemselecting.jpg)
+![RadGrid row drag-and-drop with a selected row and drop target](images/grid_itemsdragdrop_itemselecting.jpg)
 
 ## Examples
 
-Below is a code extraction from the [item drag-and-drop online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/rows/drag-and-drop/defaultcs.aspx):
+The following example is extracted from the [item drag-and-drop online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/columns-rows/rows/drag-and-drop/defaultcs.aspx):
 
 
 
@@ -149,7 +149,7 @@ Below is a code extraction from the [item drag-and-drop online demo](https://dem
         }
     </script>
 </telerik:RadScriptBlock>
-  
+
 <div class="exWrap">
      <p class="howto">Drag orders from pending to shipped when dispatched<br />
      Reorder pending orders on priority<br />
@@ -184,7 +184,7 @@ Below is a code extraction from the [item drag-and-drop online demo](https://dem
      <div class="exFooter">
          <div id="trashCan">Recycle Bin</div>
          <div class="exMessage" runat="server" id="msg" visible="false" enableviewstate="false">
-              Order(s) succsesfully deleted!
+              Order(s) successfully deleted!
          </div>
  </div>
 </div>
@@ -290,7 +290,7 @@ protected void grdPendingOrders_RowDrop(object sender, GridDragDropEventArgs e)
     if (string.IsNullOrEmpty(e.HtmlElement))
     {
         if (e.DraggedItems[0].OwnerGridID == grdPendingOrders.ClientID)
-        {                    // items are drag from pending to shipped grid     
+        {                    // items are drag from pending to shipped grid
             if ((e.DestDataItem == null && ShippedOrders.Count == 0) || e.DestDataItem != null && e.DestDataItem.OwnerGridID == grdShippedOrders.ClientID)
             {
                 IList<Order> shippedOrders = ShippedOrders;
@@ -310,7 +310,7 @@ protected void grdPendingOrders_RowDrop(object sender, GridDragDropEventArgs e)
                 grdShippedOrders.Rebind();
             }
             else if (e.DestDataItem != null && e.DestDataItem.OwnerGridID == grdPendingOrders.ClientID)
-            {                        //reorder items in pending  grid   
+            {                        //reorder items in pending  grid
                 IList<Order> pendingOrders = PendingOrders;
                 Order order = GetOrder(pendingOrders, (int)e.DestDataItem.GetDataKeyValue("OrderId"));
                 int destinationIndex = pendingOrders.IndexOf(order);
@@ -584,6 +584,16 @@ Protected Class Order
     End Property
 End Class
 ````
+
+## See Also
+
+* [OnRowDragStarted client-side event]({%slug grid/client-side-programming/events/onrowdragstarted%})
+
+* [OnRowDropping client-side event]({%slug grid/client-side-programming/events/onrowdropping%})
+
+* [OnRowDrop server-side event]({%slug grid/server-side-programming/events/rowdrop%})
+
+* [Selecting rows]({%slug grid/functionality/selecting/overview%})
 
 
 

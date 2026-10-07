@@ -12,8 +12,6 @@ position: 2
 
 
 
-## 
-
 A common scenario is to force several grid items in edit mode and then update them on single button click.
 
 In the example below there is **UpdateAll** button in the grid command item template. The visitor can edit several grid items by pressing the edit button for each item(the Update button will be hidden and only the **Cancel** button will be present in edit mode). After editing the content of the grid items, a batch update is triggered when hitting the **UpdateAll** button in the command item template (the update is executed in the **ItemCommand** event handler when **e.CommandName = UpdateAll**). The idea is to iterate through all items in the **EditItems** collection of the grid and update their data with the new values in the grid data source.
@@ -92,7 +90,6 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.
     End If
 End Sub
 ````
-
 
 **Client-side editing with batch update**One possible implementation is demonstrated on [this demo](https://demos.telerik.com/aspnet-ajax/grid/examples/dataediting/clienteditbatchupdates/defaultcs.aspx) of RadGrid for ASP.NET AJAX (review the code implementation for details). The general idea is to:
 
@@ -220,7 +217,8 @@ Public ReadOnly Property CustomersTable As DataTable
     Get
         Dim res As DataTable = CType(Me.Session("CustomersTable"), DataTable)
         If res Is Nothing Then
-res = DataSourceHelperVB.GetDataTable("SELECT TOP 5 [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City", FROM(Customers), ")", this.Session[CustomersTableUnknown=res)
+            res = DataSourceHelperVB.GetDataTable("SELECT TOP 5 [CustomerID], [CompanyName], [ContactName], [ContactTitle], [Address], [City] FROM [Customers]")
+            Me.Session("CustomersTable") = res
         End If
         Return res
     End Get
@@ -273,6 +271,11 @@ Private Sub UpdateItem(ByVal editedItem As GridEditableItem)
     End Try
 End Sub
 ````
+
+## See Also
+
+- [Batch editing overview]({%slug grid/data-editing/edit-mode/batch-editing/overview%})
+- [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%})
 
 
 

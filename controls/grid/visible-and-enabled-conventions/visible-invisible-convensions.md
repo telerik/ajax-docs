@@ -1,51 +1,64 @@
 ---
-title: Visible Invisible Conventions
-page_title: Visible Invisible Conventions - RadGrid
-description: Check our Web Forms article about Visible Invisible Conventions.
+title: Control RadGrid Visibility
+page_title: Control RadGrid Visibility - RadGrid
+description: Learn how to show and hide RadGrid on the client and server in ASP.NET AJAX.
 slug: grid/visible-and-enabled-conventions/visible-invisible-conventions
-tags: visible, invisible, conventions
+components: ["grid"]
+tags: visible, invisible, client-side, server-side, grid
 published: True
 position: 0
 ---
 
-# Visible/Invisible Conventions
+# Control RadGrid Visibility
 
+You can show or hide a **RadGrid** control on the client by changing its rendered element, or on the server by changing the **Visible** property.
 
-You can change the visibility of a **RadGrid** control either client-side or server-side.
+## Client-Side
 
-## Client-side
+Get the grid's client object, access its rendered element, and change the element's `style.display` property. The following example uses buttons outside the grid to control its visibility.
 
-To change the visibility of a grid client-side, obtain a reference to the grid's DOM element in the rendered page and alter its **style.display** property. Below is a rough outline of this approach:
+> caption Show and hide a RadGrid by changing its client-side display style
 
 ````ASP.NET
+<asp:ScriptManager ID="ScriptManager1" runat="server" />
 <script type="text/javascript">
   function ShowGrid() {
-    $find("<%=RadGrid1.ClientID%>").get_element().style.display = "";
+    $find("<%= RadGrid1.ClientID %>").get_element().style.display = "";
   }
   function HideGrid() {
-    $find("<%=RadGrid1.ClientID%>").get_element().style.display = "none";
+    $find("<%= RadGrid1.ClientID %>").get_element().style.display = "none";
   }
 </script>
-<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server">
-  <!-- your grid definition here -->
+<telerik:RadGrid ID="RadGrid1" runat="server" RenderMode="Lightweight">
+  <MasterTableView AutoGenerateColumns="True" />
 </telerik:RadGrid>
 <br />
 <input id="btnShowGrid" type="button" value="Show grid" onclick="ShowGrid()" />
 <input id="btnHideGrid" type="button" value="Hide grid" onclick="HideGrid()" />
 ````
 
+## Server-Side
 
+Set the **Visible** property of the grid or of a container such as a **PlaceHolder** or **Panel**. When the grid or its container becomes visible again, call `Rebind()` so that the grid can bind its data.
 
-## Server-side
+When **RadGrid.Visible** is initially `False`, also set **MasterTableView.Visible** to `True` before displaying the grid. **MasterTableView** represents the HTML table inside the `div` rendered for the **RadGrid** instance.
 
-You can use the **Visible** property of the grid or a container in which the control resides to change the visibility of the grid. When using this approach to change the visibility of the grid, be aware of the following points:
+> note When **RadGrid.Visible** is `False`, the **NeedDataSource** event does not fire. Call `Rebind()` after setting the grid or its container to visible.
 
-* When the grid visibility is initially set to **False**, you must switch the visibility of the **MasterTableView** to display the grid after it has been hidden.
+> caption Show a RadGrid after it was hidden on the server
 
->note The **MasterTableView** object represents the actual HTML table of the rendered grid image in the client browser. The **RadGrid** instance is rendered as a **div** tag that encloses the HTML table. Of course, you can hide the **RadGrid** div as well if you wish.
->
+````C#
+RadGrid1.Visible = true;
+RadGrid1.MasterTableView.Visible = true;
+RadGrid1.Rebind();
+````
+````VB
+RadGrid1.Visible = True
+RadGrid1.MasterTableView.Visible = True
+RadGrid1.Rebind()
+````
 
+## See Also
 
-* When the **Visible** property of the **RadGrid** control is set to **False**, the **NeedDataSource** event does not fire. (This has been done to optimize performance). When you change the **Visible** property of the grid to **True**, you must call the grid's **Rebind** method so that it can bind to its data.
-
-* When you make a hidden container (such as a **PlaceHolder** or **Panel**) that holds the grid instance visible, you must rebind the grid by calling its **Rebind** method. (see previous point).
+- [RadGrid client-side Visible property]({%slug grid/client-side-programming/radgrid-object/properties/get_visible()%})
+- [RadGrid client-side set_visible method]({%slug grid/client-side-programming/radgrid-object/properties/set_visible()%})

@@ -13,7 +13,7 @@ position: 3
 
 Because of features such as [column reordering]({%slug grid/columns/reordering%}) and [grouping]({%slug grid/functionality/grouping/overview%}), the index of individual columns can change on the client. This means that using indexes to access individual cells in the **Cells** collection of a row is not a reliable method of obtaining a cell in a particular column.
 
-To provide a reliable way of locating the cell in a particular column, each column in the grid has a **UniqueName** propertyof type string. This property is assigned automatically at design time. For example, an auto-generated **GridBoundColumn** with **DataField** 'ContactName' generates a **UniqueName** of 'ContactName').You can also set the **UniqueName** property explicitly, although the automatic generation handles most cases. Using the **UniqueName** property of a column lets you reliably locate a column even when its index changes.
+To provide a reliable way of locating the cell in a particular column, each column in the grid has a **UniqueName** property of type string. This property is assigned automatically at design time. For example, an auto-generated **GridBoundColumn** with **DataField** `ContactName` generates a **UniqueName** of `ContactName`. You can also set the **UniqueName** property explicitly, although the automatic generation handles most cases. Using the **UniqueName** property of a column lets you reliably locate a column even when its index changes.
 
 ````C#
 TableCell cell = dataItem["ColumnUniqueName"]; //where dataItem is object of type GridDataItem
@@ -149,7 +149,6 @@ protected void RadButton1_Click(object sender, EventArgs e)
 {
     foreach (GridDataItem dataItem in RadGrid1.Items)
     {
-        var dataItem = (GridDataItem)e.Item;
         var orderIdDataCell = dataItem["OrderID"];
         var cellText = orderIdDataCell.Text;
         var cellControl = orderIdDataCell.Controls[0] as ElasticButton;
@@ -160,7 +159,6 @@ protected void RadButton1_Click(object sender, EventArgs e)
 ````VB
 Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
     For Each dataItem As GridDataItem In RadGrid1.Items
-        Dim dataItem = CType(e.Item, GridDataItem)
         Dim orderIdDataCell = dataItem("OrderID")
         Dim cellText = orderIdDataCell.Text
         Dim cellControl = TryCast(orderIdDataCell.Controls(0), ElasticButton)
@@ -225,8 +223,8 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     {
         var filteringItem = (GridFilteringItem)e.Item;
         var orderIdFilterCell = filteringItem["OrderID"];
-        var cellText = orderIdHeaderCell.Text;
-        var cellControl = orderIdHeaderCell.Controls[0] as ElasticButton;
+        var cellText = orderIdFilterCell.Text;
+        var cellControl = orderIdFilterCell.Controls[0] as ElasticButton;
         var cellControlText = cellControl.Text;        
     }
 }
@@ -236,8 +234,8 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItem
     If TypeOf e.Item Is GridFilteringItem Then
         Dim filteringItem = CType(e.Item, GridFilteringItem)
         Dim orderIdFilterCell = filteringItem("OrderID")
-        Dim cellText = orderIdHeaderCell.Text
-        Dim cellControl = TryCast(orderIdHeaderCell.Controls(0), ElasticButton)
+        Dim cellText = orderIdFilterCell.Text
+        Dim cellControl = TryCast(orderIdFilterCell.Controls(0), ElasticButton)
         Dim cellControlText = cellControl.Text
     End If
 End Sub
@@ -247,18 +245,18 @@ End Sub
 protected void RadButton1_Click(object sender, EventArgs e)
 {
     var filteringItem = RadGrid1.MasterTableView.GetItems(GridItemType.FilteringItem)[0];
-    var orderIdFilterCell = headerItem["OrderID"];
-    var cellText = orderIdHeaderCell.Text;
-    var cellControl = orderIdHeaderCell.Controls[0] as ElasticButton;
+    var orderIdFilterCell = filteringItem["OrderID"];
+    var cellText = orderIdFilterCell.Text;
+    var cellControl = orderIdFilterCell.Controls[0] as ElasticButton;
     var cellControlText = cellControl.Text;    
 }
 ````
 ````VB
 Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
     Dim filteringItem = RadGrid1.MasterTableView.GetItems(GridItemType.FilteringItem)(0)
-    Dim orderIdFilterCell = headerItem("OrderID")
-    Dim cellText = orderIdHeaderCell.Text
-    Dim cellControl = TryCast(orderIdHeaderCell.Controls(0), ElasticButton)
+    Dim orderIdFilterCell = filteringItem("OrderID")
+    Dim cellText = orderIdFilterCell.Text
+    Dim cellControl = TryCast(orderIdFilterCell.Controls(0), ElasticButton)
     Dim cellControlText = cellControl.Text
 End Sub
 ````
@@ -325,8 +323,8 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     {
         var footerItem = (GridFooterItem)e.Item;
         var orderIdFooterCell = footerItem["OrderID"];
-        var cellText = orderIdHeaderCell.Text;
-        var cellControl = orderIdHeaderCell.Controls[0] as ElasticButton;
+        var cellText = orderIdFooterCell.Text;
+        var cellControl = orderIdFooterCell.Controls[0] as ElasticButton;
         var cellControlText = cellControl.Text;        
     }
 }
@@ -336,8 +334,8 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItem
     If TypeOf e.Item Is GridFooterItem Then
         Dim footerItem = CType(e.Item, GridFooterItem)
         Dim orderIdFooterCell = footerItem("OrderID")
-        Dim cellText = orderIdHeaderCell.Text
-        Dim cellControl = TryCast(orderIdHeaderCell.Controls(0), ElasticButton)
+        Dim cellText = orderIdFooterCell.Text
+        Dim cellControl = TryCast(orderIdFooterCell.Controls(0), ElasticButton)
         Dim cellControlText = cellControl.Text
     End If
 End Sub
@@ -350,8 +348,8 @@ protected void RadButton1_Click(object sender, EventArgs e)
 {
     var footerItem = RadGrid1.MasterTableView.GetItems(GridItemType.Footer)[0];
     var orderIdFooterCell = footerItem["OrderID"];    
-    var cellText = orderIdHeaderCell.Text;
-    var cellControl = orderIdHeaderCell.Controls[0] as ElasticButton;
+    var cellText = orderIdFooterCell.Text;
+    var cellControl = orderIdFooterCell.Controls[0] as ElasticButton;
     var cellControlText = cellControl.Text;    
 }
 ````
@@ -359,8 +357,8 @@ protected void RadButton1_Click(object sender, EventArgs e)
 Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
     Dim footerItem = RadGrid1.MasterTableView.GetItems(GridItemType.Footer)(0)
     Dim orderIdFooterCell = footerItem("OrderID")
-    Dim cellText = orderIdHeaderCell.Text
-    Dim cellControl = TryCast(orderIdHeaderCell.Controls(0), ElasticButton)
+    Dim cellText = orderIdFooterCell.Text
+    Dim cellControl = TryCast(orderIdFooterCell.Controls(0), ElasticButton)
     Dim cellControlText = cellControl.Text
 End Sub
 ````
@@ -376,8 +374,8 @@ protected void RadGrid1_ItemDataBound(object sender, GridItemEventArgs e)
     {
         var groupFooterItem = (GridGroupFooterItem)e.Item;
         var orderIdGroupFooterCell = groupFooterItem["OrderID"];
-        var cellText = orderIdHeaderCell.Text;
-        var cellControl = orderIdHeaderCell.Controls[0] as ElasticButton;
+        var cellText = orderIdGroupFooterCell.Text;
+        var cellControl = orderIdGroupFooterCell.Controls[0] as ElasticButton;
         var cellControlText = cellControl.Text;        
     }
 }
@@ -387,8 +385,8 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItem
     If TypeOf e.Item Is GridGroupFooterItem Then
         Dim groupFooterItem = CType(e.Item, GridGroupFooterItem)
         Dim orderIdGroupFooterCell = groupFooterItem("OrderID")
-        Dim cellText = orderIdHeaderCell.Text
-        Dim cellControl = TryCast(orderIdHeaderCell.Controls(0), ElasticButton)
+        Dim cellText = orderIdGroupFooterCell.Text
+        Dim cellControl = TryCast(orderIdGroupFooterCell.Controls(0), ElasticButton)
         Dim cellControlText = cellControl.Text
     End If
 End Sub
@@ -401,8 +399,8 @@ protected void RadButton1_Click(object sender, EventArgs e)
 {
     var groupFooterItem = RadGrid1.MasterTableView.GetItems(GridItemType.GroupFooter)[0];
     var orderIdGroupFooterCell = groupFooterItem["OrderID"];
-    var cellText = orderIdHeaderCell.Text;
-    var cellControl = orderIdHeaderCell.Controls[0] as ElasticButton;
+    var cellText = orderIdGroupFooterCell.Text;
+    var cellControl = orderIdGroupFooterCell.Controls[0] as ElasticButton;
     var cellControlText = cellControl.Text;    
 }
 ````
@@ -410,8 +408,8 @@ protected void RadButton1_Click(object sender, EventArgs e)
 Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
     Dim groupFooterItem = RadGrid1.MasterTableView.GetItems(GridItemType.GroupFooter)(0)
     Dim orderIdGroupFooterCell = groupFooterItem("OrderID")
-    Dim cellText = orderIdHeaderCell.Text
-    Dim cellControl = TryCast(orderIdHeaderCell.Controls(0), ElasticButton)
+    Dim cellText = orderIdGroupFooterCell.Text
+    Dim cellControl = TryCast(orderIdGroupFooterCell.Controls(0), ElasticButton)
     Dim cellControlText = cellControl.Text
 End Sub
 ````

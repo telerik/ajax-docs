@@ -1,56 +1,55 @@
 ---
 title: What you should know
 page_title: What you should know - RadGrid
-description: Check our Web Forms article about What you should know.
+description: Learn how RadGrid represents master and detail tables, expands hierarchical data, and preserves expanded state when the grid is rebound.
 slug: grid/hierarchical-grid-types-and-load-modes/what-you-should-know
+components: ["grid"]
 tags: what,you,should,know
 published: True
 position: 0
 ---
 
-# What you should know
+# What You Should Know
 
+RadGrid supports hierarchical representations of related data tables in a `DataSet`.
 
-
-A unique feature for Telerik RadGrid is the support for hierarchical representation of related data tables (DataSet).
-
-![Hierarchy Elements](images/grd_hierarchy_elements_markedup.png)
+![RadGrid hierarchy showing master and detail table elements](images/grd_hierarchy_elements_markedup.png)
 
 ## Master Table
 
-The **MasterTableView** is the topmost table of the hierarchical structure. It is a **GridTableView Class** with **GridTableViewCollection Class**. The collection holds the so called DetailTables - tables related to the fields of the MasterTable. Each DetailTable can have its own **GridTableViewCollection** with other Detail Tables, thus forming the hierarchical structure.
+The **MasterTableView** is the top-level table in the hierarchy. It is a **GridTableView** with a **GridTableViewCollection**. The collection holds the detail tables related to fields in the master table. Each detail table can have its own **GridTableViewCollection** with additional detail tables, forming the hierarchy.
 
-You can look on the MasterTable as a Root for the hierarchical tree. All tables underneath will be the tree nodes. The MasterTable is an object and has own sections of properties in Visual Studio.
+You can view the **MasterTableView** as the root of the hierarchical tree. The tables beneath it are the tree nodes. The **MasterTableView** has its own property sections in Visual Studio.
 
 ## Detail Tables
 
-Detail tables are the inner tables of the grid. They are related to a field in its parent table.
+Detail tables are the inner tables of the grid. Each detail table is related to fields in its parent table.
 
 Each Detail Table is placed in an item (row) of its parent table. This special item is called **NestedViewItem**.
 
-![NestedViewItem](images/grd_NestedView.png)
+![RadGrid nested view item containing a detail table](images/grd_NestedView.png)
 
-## Expand/Collapse all
+## Expand/Collapse All
 
-RadGrid’s hierarchy structure has been extended with buttons in the hierarchy expand column headers that allow all detail items ona given level to be expanded/collapsed. The buttons in question are switched on through the**EnableHierarchyExpandAll** property exposed both on the level of the grid and the table views.
+RadGrid provides buttons in hierarchy expand-column headers that expand or collapse all detail items on a given level. Enable these buttons through the **EnableHierarchyExpandAll** property at the grid or table-view level.
 
 The new expand-all functionality supports all hierarchy load modes.
 
-When you have grouping and hierarchy combined in a common table view, the visibility of the hierarchy expand-all button depends on whether the expand-all button for the last group level is expanded/visible.
+When grouping and hierarchy are combined in a table view, the hierarchy expand-all button is visible only when the expand-all button for the last group level is visible.
 
 ## Controlling Expanded State
 
-By default, the items in a hierarchical RadGrid are collapsed. In order to expand them automatically, you can use the **HierarchyDefaultExpanded** property. If the hierarchy structure contains several levels, the property should be set for every  GridTableView instance separately.
+By default, items in a hierarchical RadGrid are collapsed. To expand them automatically, use the **HierarchyDefaultExpanded** property. If the hierarchy contains several levels, set the property separately for each **GridTableView** instance.
 ````ASP.NET
 <MasterTableView HierarchyDefaultExpanded="true">
 ````
 
- Since Q3 2013 version, RadGrid also provides the convenient  **RetainExpandStateOnRebind** property. When you enable it, the expanded state of the parent items will be preserved automatically on rebinding actions like Paging, Editing, etc.
+Starting with Q3 2013, RadGrid also provides the **RetainExpandStateOnRebind** property. When you enable it, RadGrid preserves the expanded state of parent items during rebind operations such as paging and editing.
 
 ## See Also
 
- * [Hierarchical data-binding using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%})
+- [Hierarchical data-binding using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%})
 
- * [Hierarchical data-binding using DetailTableDataBind event]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-detailtabledatabind-event%})
+- [Hierarchical data-binding using DetailTableDataBind event]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-detailtabledatabind-event%})
 
- * [Binding hierarchical grids]({%slug grid/hierarchical-grid-types-and-load-modes/binding-hierarchical-grids%})
+- [Binding hierarchical grids]({%slug grid/hierarchical-grid-types-and-load-modes/binding-hierarchical-grids%})

@@ -27,7 +27,7 @@ If you need an event, you can use [OnRowDeleted]({%slug grid/client-side-program
 
 
 
-# See Also
+## See Also
 
  * [Client-Side API]({%slug grid/data-editing/edit-mode/batch-editing/client-side-api%})
 

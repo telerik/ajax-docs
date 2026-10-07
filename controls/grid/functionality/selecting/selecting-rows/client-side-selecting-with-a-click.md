@@ -1,7 +1,7 @@
 ---
 title: Client-side Selecting with a Click
 page_title: Client-side Selecting with a Click - RadGrid
-description: Check our Web Forms article about Client-side Selecting with a Click.
+description: Learn how to select a RadGrid row on the client when the user clicks it and handle the selection with JavaScript.
 slug: grid/functionality/selecting/selecting-rows/client-side-selecting-with-a-click
 tags: client-side,selecting,with,a,click
 published: True
@@ -16,11 +16,11 @@ When the **ClientSettings.Selecting.AllowRowSelect** property is **True**, users
 
 When client-side row selection is enabled, users can select rows by clicking anywhere within the row:
 
-![](images/SingleSelect.PNG)
+![Selecting a single row by clicking](images/SingleSelect.PNG)
 
 You can also add a **GridClientSelectColumn** to the grid to let users select and de-select rows using a checkbox:
 
-![](images/SingleSelectCheckbox.PNG)
+![Selecting a single row with a checkbox](images/SingleSelectCheckbox.PNG)
 
 >note By default the row selection is disabled ( **AllowRowSelect** is **False** ).
 >
@@ -59,7 +59,8 @@ You can also set the **SelectedItemStyle** property in the code-behind:
 ````VB
 	RadGrid1.SelectedItemStyle.BackColor = System.Drawing.Color.Fuchsia
 	RadGrid1.SelectedItemStyle.BorderColor = System.Drawing.Color.Purple
-	RadGrid1.SelectedItemStyle.BorderStyle = BorderStyle.DashedRadGrid1.SelectedItemStyle.BorderWidth = new Unit("1px")
+	RadGrid1.SelectedItemStyle.BorderStyle = BorderStyle.Dashed
+	RadGrid1.SelectedItemStyle.BorderWidth = New Unit("1px")
 ````
 
 

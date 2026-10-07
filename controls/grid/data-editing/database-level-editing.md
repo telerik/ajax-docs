@@ -12,8 +12,6 @@ position: 12
 
 
 
-## 
-
 In numerous cases you may want to perform data editing operations at database level with Update/Insert/Delete commands from the code-behind. This can be done wiring the UpdateCommand/InsertCommand/DeleteCommand events of RadGrid and executing appropriate Update/Insert/Delete queries which refresh the data in the underlying database. Below are the code snippets from a simple example which uses auto-generated edit form:
 
 
@@ -289,6 +287,11 @@ Protected Sub RadGrid1_InsertCommand(ByVal source As Object, ByVal e As Telerik.
 
 End Sub
 ````
+
+## See Also
+
+- [Updating values using InPlace and EditForms modes]({%slug grid/data-editing/update-records/updating-values-using-inplace-and-editforms-modes%})
+- [Delete records overview]({%slug grid/data-editing/delete-records/overview%})
 
 
 

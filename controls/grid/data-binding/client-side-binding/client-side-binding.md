@@ -51,6 +51,12 @@ public List<MyBusinessObject> GetData(int startRowIndex, int maximumRows, List<G
     ...
 }
 ````
+````VB
+<WebMethod(EnableSession:=True)>
+Public Function GetData(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As List(Of GridSortExpression), ByVal filterExpression As List(Of GridFilterExpression)) As List(Of MyBusinessObject)
+    ...
+End Function
+````
 
 
 In the *ClientSettings.DataBinding* section you can also specify the following properties:
@@ -84,7 +90,7 @@ Please refer to the JavaScript code in the demo for more information.To optimize
 
 
 
-````C#	
+````C#
 [WebMethod(EnableSession = true)]
 public Dictionary<string, object> GetDataAndCount(int startRowIndex, int maximumRows, List<GridSortExpression> sortExpression, List<GridFilterExpression> filterExpression)
 {
@@ -94,7 +100,6 @@ public Dictionary<string, object> GetDataAndCount(int startRowIndex, int maximum
 }
 ````
 ````VB 
-<WebMethod(EnableSession = True)>
 <WebMethod(EnableSession:=True)> _
 Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As List(Of GridSortExpression), ByVal filterExpression As List(Of GridFilterExpression)) As Dictionary(Of String, Object)
     Dim data As New Dictionary(Of String, Object)()
@@ -595,4 +600,10 @@ Public Class Employee
     End Property
 End Class
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Client-side binding specifics]({%slug grid/data-binding/client-side-binding/client-side-binding-specifics%})
+- [Adding sort and filter expressions with client-side binding]({%slug grid/data-binding/client-side-binding/adding-sort-and-filter-expressions-with-client-side-binding%})
 

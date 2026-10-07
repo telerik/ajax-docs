@@ -1,7 +1,7 @@
 ---
 title: Localizing the Command Item
 page_title: Localizing the Command Item - RadGrid
-description: Check our Web Forms article about Localizing the Command Item.
+description: Learn how to localize RadGrid command item text, images, and button IDs through the GridTableView.CommandItemSettings object.
 slug: grid/accessibility-and-internationalization/localizing-the-command-item
 tags: localizing,the,command,item
 published: True
@@ -12,14 +12,14 @@ position: 3
 
 
 
-## 
+## Localizing command item text and images
 
 The default messages, button text and images in the **CommandItem** can be localized using the following properties in **GridTableView.CommandItemSettings** object:
 
 
->caption  
+### Localizing command item text
 
-|  **Text localization**  |  |
+| **Property** | **Description** |
 | ------ | ------ |
 | **AddNewRecordText** |The text for the **Add new record** button.|
 | **RefreshText** |The text for the **Refresh** button.|
@@ -29,9 +29,9 @@ The default messages, button text and images in the **CommandItem** can be local
 | **ExportToWordText** |The text for the **Export to Word** button.|
 
 
->caption  
+### Localizing command item images
 
-|  **Image localization**  |  |
+| **Property** | **Description** |
 | ------ | ------ |
 | **AddNewRecordImageUrl** |The URL for the **Add new record** button image.|
 | **RefreshImageUrl** |The URL for the **Refresh** button image.|
@@ -43,13 +43,18 @@ The default messages, button text and images in the **CommandItem** can be local
 
 
 
->caption  
+### Identifying command item buttons
 
-|  **AddNewRecord/RefreshButtons IDs**  |  |
+| **Button** | **ID** |
 | ------ | ------ |
-| **AddNewRecord button ID** |InitInsertButton|
-| **RefreshButton ID** |RebindGridButton|
-| **Export to Excel button ID** |ExportToExcelButton|
-| **Export to PDF button ID** |ExportToPdfButton|
-| **Export to CSV button ID** |ExportToCsvButton|
-| **Export to Word button ID** |ExportToWordButton|
+| **AddNewRecord** | `InitInsertButton` |
+| **Refresh** | `RebindGridButton` |
+| **Export to Excel** | `ExportToExcelButton` |
+| **Export to PDF** | `ExportToPdfButton` |
+| **Export to CSV** | `ExportToCsvButton` |
+| **Export to Word** | `ExportToWordButton` |
+
+## See Also
+
+- [Localizing the Grid Messages]({%slug grid/accessibility-and-internationalization/localizing-the-grid-messages%})
+- [Localizing Edit Command Column]({%slug grid/accessibility-and-internationalization/localizing-edit-command-column%})

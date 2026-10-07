@@ -12,8 +12,6 @@ position: 4
 
 
 
-## 
-
 There are cases when you want to delete an item in table in the grid hierarchy which has child table. A good implementation technique would be to delete all records in the child table related to the deleted item. By this means you can erase the information from the inner table which is no longer needed (after you delete the parent item). This technique is called **cascade delete**.This feature is not built in Telerik RadGrid but you can execute the necessary operations with a custom code. Here is a sample case which demonstrates how to delete items from master/detail tables and how to iterate through the detail table items for **expanded** parent item:
 
 ````ASP.NET
@@ -141,5 +139,10 @@ End Sub
 ````
 
 For hierarchical grids with multiple nested tables you will have to traverse the items in them recursively to accomplish this task (in a similar to the demonstrated manner).
+
+## See Also
+
+- [Delete records overview]({%slug grid/data-editing/delete-records/overview%})
+- [Deleting grid items depending on checkbox state]({%slug grid/data-editing/delete-records/deleting-grid-items-depending-on-checkbox-state%})
 
 

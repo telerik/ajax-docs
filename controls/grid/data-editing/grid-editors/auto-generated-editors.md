@@ -79,4 +79,9 @@ End Sub
 
 You can replace the default column editor with a [custom editor]({%slug grid/data-editing/grid-editors/custom-editors-extending-auto-generated-editors%}). By supplying a custom column editor, you can provide a column with enhanced functionality such as validation, rich-text editing, third-party controls, and so on.
 
-Once created, you can easily re-use your custom column editors for other grid implementations.
+Once created, you can reuse your custom column editors in other grid implementations.
+
+## See Also
+
+- [Custom editors extending auto-generated editors]({%slug grid/data-editing/grid-editors/custom-editors-extending-auto-generated-editors%})
+- [In-place editing]({%slug grid/data-editing/edit-mode/in-place%})

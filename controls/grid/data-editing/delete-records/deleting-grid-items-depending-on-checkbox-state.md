@@ -12,9 +12,11 @@ position: 5
 
 
 
-## 
+The example shows how to delete grid items based on the state of a **GridCheckBoxColumn** or a checkbox in a **GridTemplateColumn**. Two buttons perform the delete operations.
 
-The example below represents how to delete grid items depending on **GridCheckBoxColumn** state and **GridTemplateColumn** with checkbox as **ItemTemplate**. There are two separate buttons on the page which do the job.For the first case, you need to traverse the grid items and delete them from the grid source if the checkbox in the **GridCheckBoxColumn** cell is checked. This is done when the user presses the **Remove default-checked rows** button and will be propagated for the current page only.For the second case the main idea is to use **CustomersChecked** ViewState property in which to save the current checkbox state for the **GridTemplateColumn**. You will also need to subscribe to the **CheckedChanged** event of the checkbox and update **CustomersChecked.** Actually changes are made if the corresponding checkbox has been checked by the user (otherwise this property is not modified for ViewState optimization). When the user hits the **Remove user-checked rows** button each checked entry in **CustomersChecked** is deleted from the grid datas ource and the **CurrentPageIndex** is reset. Note that in this case the checked state is persisted on paging and checked items are deleted in all available pages.
+For the first case, traverse the grid items and delete rows from the grid data source when the **GridCheckBoxColumn** checkbox is selected. The **Remove default-checked rows** button applies this operation to the current page.
+
+For the second case, use the **CustomersChecked** `ViewState` property to save the checkbox state for the **GridTemplateColumn**. Subscribe to the checkbox's **CheckedChanged** event and update **CustomersChecked**. When the user selects **Remove user-checked rows**, delete each checked entry from the grid data source and reset **CurrentPageIndex**. The checked state persists during paging, so the operation applies to all available pages.
 
 The default delete functionality for each row through **DeleteColumn** button is also supported in this example.
 
@@ -337,4 +339,9 @@ Private Sub chkboxTemplateButton_Click(ByVal sender As Object, ByVal e As System
     RadGrid1.Rebind()
 End Sub chkboxTemplateButton_Click
 ````
+
+## See Also
+
+- [Delete records overview]({%slug grid/data-editing/delete-records/overview%})
+- [Cascading delete in a hierarchical grid]({%slug grid/data-editing/delete-records/cascading-delete-in-hierarchical-grid%})
 

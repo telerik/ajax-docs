@@ -11,7 +11,7 @@ position: 0
 
 [Get Client-side Reference to a Control Object]({%slug general-information/get-client-side-reference%})
 
-Finding a RadGrid that has a specific ID, in this case RadGrid1.
+To find a RadGrid with a specific ID, such as RadGrid1, use one of the following methods.
 
 ## Using the $find() method
 
@@ -55,7 +55,7 @@ function myFunction(sender, args) {
 }
 ````
 
-Find one or more Grid's without specifying an ID
+## Finding one or more RadGrid instances without specifying an ID
 
 ## Access Multiple RadGrid instances with Document.querySelector()
 

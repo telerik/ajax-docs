@@ -1,7 +1,7 @@
 ---
 title: Client-side grouping with RadClientDataSource
 page_title: Client-side grouping with RadClientDataSource - RadGrid
-description: Check our Web Forms article about Client-side grouping with RadClientDataSource.
+description: Learn how to enable client-side grouping with RadClientDataSource and organize RadGrid data by group expressions.
 slug: grid/functionality/grouping/client-side-grouping-with-radclientdatasource
 tags: client-side,grouping,with,radclientdatasource
 published: True
@@ -57,3 +57,8 @@ When client-side grouping is used, you can use the same approaches, as with serv
 
 
 The above example could be tested online in the following demo: [Grid - Grouping Client-Side with RadClientDataSource](https://demos.telerik.com/aspnet-ajax/Grid/Examples/functionality/grouping/clientdatasource-grouping/defaultcs.aspx)
+
+## See Also
+
+- [Grouping overview]({%slug grid/functionality/grouping/overview%})
+- [Declarative group-by expressions]({%slug grid/functionality/grouping/group-by-expressions/declarative-definition%})

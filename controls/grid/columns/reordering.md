@@ -20,7 +20,7 @@ Additionally, in case you enabled scrolling and have a horizontal scroll for nav
 
 There are two possible modes for column reordering: client and server-side. If you want to reorder columns on client, set the **ClientSettings.ReorderColumnsOnClient** property to **True**.
 
-* When columns are reordered on the client, The **ClientSettings.ColumnsReorderMethod** property determines what happens when the user drops a column in a new position.
+* When columns are reordered on the client, the **ClientSettings.ColumnsReorderMethod** property determines what happens when the user drops a column in a new position.
 
 	*  When **ColumnsReorderMethod** is "**Swap**" (the default), the dragged column switches places with the column that is currently in the target position. 
 
@@ -34,9 +34,9 @@ There are two possible modes for column reordering: client and server-side. If y
 
 >important When enabling column reordering, the table view's **EnableColumnViewState** property must be set to **True** (the default value).
 
-### Limitations
+## Limitations
 
-Column reordering is available at the same level of sinigle column headers. This means that [multi-column headers]({%slug grid/columns/multicolumn-headers%}) cannot be reordered and columns can only be reordered within their own column group.
+Column reordering is available at the same level of single column headers. This means that [multi-column headers]({%slug grid/columns/multicolumn-headers%}) cannot be reordered and columns can only be reordered within their own column group.
 
 ## Reordering columns programmatically
 
@@ -103,7 +103,7 @@ When columns are created programmatically, they appear in the same order that th
 
 ## Reordering columns with viewstate disabled
 
-When working with disabled viewstate (see [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})), **RadGrid** must rebind on each page load to maintain its state. Because of this, client-side column reordering does not work as expected in this mode. If you want to enable column re-ordering when working with **EnableViewState = false** for the grid, ensure that you set **ClientSettings.ReorderCoumnsOnClient** to **False** in order to reorder the grid columns on the server.
+When working with disabled viewstate (see [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})), **RadGrid** must rebind on each page load to maintain its state. Because of this, client-side column reordering does not work as expected in this mode. If you want to enable column re-ordering when working with **EnableViewState = false** for the grid, ensure that you set **ClientSettings.ReorderColumnsOnClient** to **False** in order to reorder the grid columns on the server.
 
 
 ## Getting the user action
@@ -168,8 +168,8 @@ End Sub
     runat="server"></asp:SqlDataSource>
 ````
 
->note When **ColumnsReorderMethod** is "**Reorder**", the event will fire for each two columns that are swapped while reordering, so it will fire multiple times and discerning the exact user action is difficult.
+>note When **ColumnsReorderMethod** is "**Reorder**", the event will fire for each pair of columns that are swapped while reordering, so it will fire multiple times and discerning the exact user action is difficult.
 
 ## See Also
 
- * [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})
+- [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})

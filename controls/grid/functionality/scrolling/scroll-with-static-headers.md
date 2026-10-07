@@ -55,3 +55,8 @@ RadGrid1.ClientSettings.Scrolling.UseStaticHeaders = True
 >note If you use static headers when the grid's **Width** and **Height** properties are set to "100%", the Web page shows only the grid scrollbars; the browser scrollbars are hidden. In this way, **RadGrid** can mimic a desktop application such as Microsoft Excel.
 >
 
+## See Also
+
+- [Frozen columns]({%slug grid/functionality/scrolling/frozen-columns%})
+- [Virtual scrolling]({%slug grid/functionality/scrolling/virtual-scrolling%})
+

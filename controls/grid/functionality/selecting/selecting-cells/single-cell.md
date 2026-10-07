@@ -1,7 +1,7 @@
 ---
 title: Single Cell
 page_title: Selecting SingleCell - RadGrid
-description: Selecting a Single Cell
+description: Learn how to select a single RadGrid cell and access its value or selection state in server-side and client-side code.
 slug: grid/functionality/selecting/selecting-cells/single-cell
 tags: selecting,cell,singlecell
 published: True
@@ -12,7 +12,7 @@ position: 0
 
 The **SingleCell** option allows selecting only one Cell at a time.
 
-![](images/SingleCell.gif)
+![Selecting a single cell](images/SingleCell.gif)
 
 ## Built-in Selection
 
@@ -41,7 +41,7 @@ Besides clicking on the Cells to select them, you can also use JavaScript to sel
 
 ### Select and Deselect a Cell using JavaScript
 
-![](images/select-deselect-single-cell-client-side.gif)
+![Selecting and deselecting a cell on the client](images/select-deselect-single-cell-client-side.gif)
 
 To **Select** a Cell, call the `_cellSelection.select()` function of the RadGrid instance.
 

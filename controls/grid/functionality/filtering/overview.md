@@ -141,4 +141,9 @@ In some cases when the **RadGrid** uses absolute positioning, you may find the f
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" Style="z-index: 0; left: 64; position: absolute..." />
 ````
 
+## See Also
+
+- [Filtering item]({%slug grid/functionality/filtering/filtering-item%})
+- [Filter templates]({%slug grid/functionality/filtering/filter-template%})
+
 

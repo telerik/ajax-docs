@@ -1,7 +1,7 @@
 ---
 title: Adding Tooltips for Grid Items
 page_title: Adding Tooltips for Grid Items - RadGrid
-cription: Learn how to add tooltips to Grid items for providing additional information to users interactively.
+description: Learn how to add server-side, client-side, and themed tooltips to RadGrid items in Telerik UI for ASP.NET AJAX.
 slug: grid/appearance-and-styling/adding-tooltips-for-grid-items
 tags: adding,tooltips,for,grid,items
 published: True
@@ -12,19 +12,19 @@ position: 7
 
 
 
-## 
+## Adding Server-Side Tooltips
 
-There are many cases when you want you grid to show a tooltip when an item is hovered with the mouse. Tooltips are understood by screen readers and can be used as an accessibility feature.
+You can display a tooltip when a user hovers over a grid item. Tooltips can provide additional context, but do not use them as the only way to communicate essential information.
 
-## Add Tooltips on Server-Side
+Handle the **ItemDataBound** or **ItemCreated** event. Tooltips are commonly displayed for header and data cells.
 
-In brief you need to handle either **ItemDataBound** or **ItemCreated** Event. Usually, the tooltips are displayed for the header and the grid data cells
+To display tooltips only for header cells, check whether **e.Item** is a **GridHeaderItem** in the event handler.
 
-In the first case you show the tooltips only when **GridHeaderItem** is hovered. In this case you should check in the event handler if **e.Item** is **GridHeaderItem**.
+To display tooltips for data items, check whether **e.Item** is a **GridDataItem**.
 
-The second scenario is when the tooltips will be shown for any grid item. In this case you should check if **e.Item** is **GridDataItem**.
+The following sample shows both cases:
 
-Here is a full working sample:
+> caption Example: Configuring server-side tooltip events
 
 ````ASP.NET
         <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" Width="800px"
@@ -107,13 +107,15 @@ Here is a full working sample:
     End Sub
 ````
 
-## Add Tooltips on Client-Side
+## Adding Client-Side Tooltips
 
-You can also ad Tooltips using JavaScript. And if you want to display the unique ID of the item, you can set the field name to the ClientDataKeyNames collection. More information you can find here:  
-* [Extracting Key Values Client-side](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/how-to/Selecting/extracting-key-values-client-side)
-* [Accessing Cells and Rows - getDataKeyValue()](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/rows/accessing-cells-and-rows#getdatakeyvalue)
+You can also add tooltips with JavaScript. To display a data key, include the field name in the **ClientDataKeyNames** collection. For more information, see:
+* [Extracting key values on the client]({%slug grid/how-to/selecting/extracting-key-values-client-side%})
+* [Accessing Grid Cells, Cell Values and Raw DataKey Values Client-Side]({%slug grid/accessing-values-and-controls/client-side/accessing-cells%})
 
-This example is also fully isolated and you can simply copy-paste it to your web site.
+The following example shows the client-side configuration:
+
+> caption Example: Configuring client-side tooltip events
 
 ````ASP.NET
         <telerik:RadGrid ID="RadGrid1" runat="server" AllowPaging="True" Width="800px"
@@ -146,7 +148,7 @@ This example is also fully isolated and you can simply copy-paste it to your web
     })
     End Sub
 ````
-````JavaScript  
+````JavaScript
             function gridCreated(sender, args) {
                 var $ = $telerik.$,
                  tableView = sender.get_masterTableView(),
@@ -173,12 +175,17 @@ This example is also fully isolated and you can simply copy-paste it to your web
 ````
 
 
-## Add Professional Tooltips with Built-in Skins
+## Adding Tooltips with Built-in Skins
 
-Telerik UI for ASP.NET AJAX provides its own RadToolTip component which can be used to match the skin and theme of your app. In addition, it also provides rich functionality like dynamic AJAX loading depending on the targeted value and auto-tooltipify of an entire area. 
+Telerik UI for ASP.NET AJAX provides the **RadToolTip** component, which can match the skin and theme of your application. It also supports dynamic AJAX loading and automatic tooltip creation for an area.
 
-You can check these implementation and use them in your own project:  
+For implementation examples, see:
 * [RadToolTip versus RadToolTipManager](https://demos.telerik.com/aspnet-ajax/tooltip/examples/tooltipversustooltipmanager/defaultcs.aspx)
 * [Set Target](https://demos.telerik.com/aspnet-ajax/tooltip/examples/bindtotarget/defaultcs.aspx)
 * [Update TargetControls with AJAX](https://demos.telerik.com/aspnet-ajax/tooltip/examples/targetcontrolsandajax/defaultcs.aspx?product=tooltip)
 * [Complex Tooltip Data Without Additional Requests](https://demos.telerik.com/aspnet-ajax/tooltip/examples/databasetooltipswithoutlod/defaultcs.aspx)
+
+## See Also
+
+* [Customizing Row Appearance]({%slug grid/appearance-and-styling/customizing-row-appearance%})
+* [RadToolTip Overview]({%slug tooltip/overview%})

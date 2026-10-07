@@ -1,7 +1,7 @@
 ---
 title: Setting RadGrid
 page_title: Setting RadGrid - RadGrid
-description: Check our Web Forms article about Setting RadGrid.
+description: Learn how to configure RadGrid data sources, columns, automatic operations, sorting, filtering, headers, and footers in the Visual Studio editor.
 slug: grid/design-time/setting-radgrid
 tags: setting,radgrid
 published: True
@@ -36,16 +36,21 @@ The screenshot below shows the initial state of the Telerik RadGrid editor's Gen
 
 ## Automatic data source operations
 
-Use the check-boxes to perform the required operations(insert/update/delete). You must configure the data source so that it supports the automatic operations.
+Use the check boxes to perform the required operations (insert, update, or delete). Configure the data source so that it supports the automatic operations.
 
 ## Sorting
 
-Check the box to enable the data Sorting option. When this option is enabled, the Header cell for each column will be a link and will sort the data.
+Check the box to enable data sorting. When this option is enabled, the header cell for each column becomes a link that sorts the data.
 
 ## Filtering
 
-Check the box to enable the data Filtering option.
+Check the box to enable data filtering.
 
 ## Header and Footer
 
-Use the check-boxes to enable the Header or Footer cells.
+Use the check boxes to enable the header or footer cells.
+
+## See Also
+
+- [Using the RadGrid Smart Tag]({%slug grid/design-time/smarttag%})
+- [Adding columns from design time]({%slug grid/design-time/adding-columns-from-design-time%})

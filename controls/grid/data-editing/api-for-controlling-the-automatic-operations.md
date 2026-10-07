@@ -16,18 +16,6 @@ When placing Telerik RadGrid in "Insert" mode, you can use the overloaded versio
 
 
 
-````VB
-Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
-    If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
-        e.Canceled = True
-        'Prepare an IDictionary with the predefined values
-        Dim newValues As System.Collections.Specialized.ListDictionary = New System.Collections.Specialized.ListDictionary()
-        newValues("TitleOfCourtesy") = "Mrs."
-        'Insert the item and rebind
-        e.Item.OwnerTableView.InsertItem(newValues)
-    End If
-End Sub
-````
 ````C#
 protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
 {
@@ -42,9 +30,21 @@ protected void RadGrid1_ItemCommand(object source, GridCommandEventArgs e)
     }
 }
 ````
+````VB
+Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.Web.UI.GridCommandEventArgs) Handles RadGrid1.ItemCommand
+    If e.CommandName = RadGrid.InitInsertCommandName Then '"Add new" button clicked
+        e.Canceled = True
+        'Prepare an IDictionary with the predefined values
+        Dim newValues As System.Collections.Specialized.ListDictionary = New System.Collections.Specialized.ListDictionary()
+        newValues("TitleOfCourtesy") = "Mrs."
+        'Insert the item and rebind
+        e.Item.OwnerTableView.InsertItem(newValues)
+    End If
+End Sub
+````
 
 
-![InsertItem](images/grd_InsertItem_markedup.png)
+![RadGrid insert form with the InsertItem method](images/grd_InsertItem_markedup.png)
 
 * **InsertItem()** - no default values.
 
@@ -62,11 +62,11 @@ There are three basic functions of **GridTableView** that control the Telerik Ra
 
 * PerformInsert (GridEditableItem, [boolean suppressRebind]) - performs automatic insert using the DataSource control
 
-The **suppressRebind** is an optional parameter. It sets if the grid will be rebound after the automatic update. The default value for **suppressRebind** is **false**, i.e. the grid will rebound unless you set otherwise.
+The **suppressRebind** parameter is optional. It determines whether the grid is rebound after the automatic update. The default value is **false**, so the grid is rebound unless you set the parameter to **true**.
 
-## Handling custom commands - Delete command (Command Item online example)
+## Handling Custom Commands - Delete Command (Command Item Online Example)
 
-Generally you can handle any command, using the **ItemCommandEvent**. The example below shows hot to handle a custom command "DeleteSelected". It will delete all selected Items. In the ASPX file, we set the **CommandName** property to "DeleteSelected". Then in the **ItemCommandEvent** handler, we check if the **CommandName** was "DeleteSelected" and call a method, which will delete all selected items.
+Generally, you can handle any command by using the **ItemCommandEvent**. The example below shows how to handle a custom command named `DeleteSelected`. It deletes all selected items. In the ASPX file, set the **CommandName** property to `DeleteSelected`. Then, in the **ItemCommandEvent** handler, check whether the **CommandName** is `DeleteSelected` and call a method that deletes the selected items.
 
 
 
@@ -74,7 +74,7 @@ Generally you can handle any command, using the **ItemCommandEvent**. The exampl
 <CommandItemTemplate>
     <asp:LinkButton ID="LinkButton1" OnClientClick="javascript:return confirm('Delete all selected customers?')"
          runat= "server" CommandName="DeleteSelected">
-    <img style="border:0px" alt="" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Custoemrs
+    <img style="border:0px" alt="Delete selected customers" src="../../DataEditing/Img/Delete.gif" /> Delete Selected Customers
     </asp:LinkButton>
 </CommandItemTemplate>   
 ````
@@ -119,6 +119,11 @@ Protected Sub RadGrid1_ItemCommand(ByVal source As Object, ByVal e As Telerik.We
     End If
 End Sub
 ````
+
+## See Also
+
+- [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%})
+- [Command item template]({%slug grid/data-editing/commanditem/command-item-template%})
 
 
 

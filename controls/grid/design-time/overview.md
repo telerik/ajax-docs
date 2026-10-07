@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Design Time Overview - RadGrid
-description: Check our Web Forms article about Overview.
+description: Learn how RadGrid design-time support helps you configure data sources, table relations, and grid properties in the Visual Studio editor.
 slug: grid/design-time/overview
 tags: overview
 published: True
@@ -11,8 +11,6 @@ position: 0
 # Design Time  Overview
 
 
-
-## 
 
 Telerik RadGrid has a rich design-time support, which allows you to build a grid, customize it and see the changes reflected immediately.
 
@@ -36,3 +34,8 @@ Before you start your work with the design-time, you will need to set the necess
 ![Designer Overview](images/grid_designer_overview.png)
 
 This will pop up the Telerik RadGrid editor dialog.
+
+## See Also
+
+- [Setting RadGrid properties]({%slug grid/design-time/setting-radgrid%})
+- [Using the RadGrid Smart Tag]({%slug grid/design-time/smarttag%})

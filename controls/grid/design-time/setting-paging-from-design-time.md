@@ -1,7 +1,7 @@
 ---
 title: Setting Paging from Design Time
 page_title: Setting Paging from Design Time - RadGrid
-description: Check our Web Forms article about Setting Paging from Design Time.
+description: Learn how to configure RadGrid paging, page size, navigation buttons, display modes, and custom paging options in the Visual Studio designer.
 slug: grid/design-time/setting-paging-from-design-time
 tags: setting,paging,from,design,time
 published: True
@@ -18,9 +18,9 @@ The Paging section of the Telerik RadGrid Properties lets you specify whether yo
 
 ## Paging
 
-In order to turn the paging on (enable dividing data into portions called pages) you must check the [**Allow Paging**] box [sets the **AllowPaging Property**] on the top of the Editor. This will enable the default paging mechanism of Telerik RadGrid. However you are free to use your **own paging** system. All you need to do is to check the [**Allow Custom Paging**] box [sets the **AllowCustomPaging Property**] .
+To enable paging, check the **Allow Paging** box at the top of the editor. This enables the default paging mechanism of Telerik RadGrid. To use a custom paging system, check the **Allow Custom Paging** box. These options set the **AllowPaging** and **AllowCustomPaging** properties.
 
-The size of a given Page in Telerik RadGrid is defined by the number of rows, this page will hold. You can define the page size using the [**Page size**] [sets the **PageSize Property**] field.
+The page size determines the number of rows that each page displays. Set it in the **Page size** field, which controls the **PageSize** property.
 
 ## Page Navigation
 
@@ -32,4 +32,9 @@ Now you can customize the navigation button properties:
 
 * **Mode** - Specify the way navigation buttons are displayed. You can have navigation buttons appear as page numbers or as previous/next buttons with text. The custom text can be set in the fields below. Note, that you can even enter HTML tags for formatting the custom text.
 
-* **Numeric buttons**: specifies the maximum number of page numbers, that will be shown. If you set this to "5" and your grid has 10 pages, you will see them in series of five numbers ("* ... ,2, 3, 4, 5, 6, ... *" for example).
+* **Numeric buttons**: Specify the maximum number of page numbers to show. If you set this to "5" and your grid has 10 pages, you will see them in series of five numbers ("* ... ,2, 3, 4, 5, 6, ... *" for example).
+
+## See Also
+
+- [Setting grouping from design time]({%slug grid/design-time/setting-grouping-from-design-time%})
+- [Setting RadGrid properties]({%slug grid/design-time/setting-radgrid%})

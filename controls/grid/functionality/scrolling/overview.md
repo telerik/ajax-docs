@@ -22,7 +22,7 @@ You can test the scrolling functionality of RadGrid directly in the [Scrolling](
 
 When scrolling is enabled, scroll bars appear on the grid when the number of records it displays would cause it to exceed the value of **ScrollHeight**:
 
-![](images/grd_Scrolling_enabled.png)
+![RadGrid with scrolling enabled](images/grd_Scrolling_enabled.png)
 
 When scrolling is not enabled, the entire grid appears in the Web page. Users must scroll the Web page instead:
 
@@ -45,7 +45,7 @@ You can modify the way **RadGrid** looks during scrolling by modifying the follo
 * **GridFooterDiv_Default** - for controlling the appearance of the **GridFooterItem**
 
 
-# See Also
+## See Also
 
  * [Scrolling](https://demos.telerik.com/aspnet-ajax/grid/examples/functionality/scrolling/scrolling/defaultcs.aspx) live demo.
 

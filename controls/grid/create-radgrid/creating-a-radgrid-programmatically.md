@@ -19,7 +19,7 @@ This help article describes two options for creating a **RadGrid** instance dyna
 
 * You can create the **RadGrid** entirely in the code-behind.
 
->note This article demonstrates how to create and configure the RadGrid control programmatically on the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might mess up the ViewState. For this scenario, please refer to the next [Changing the Grid Structure Dynamically on Postback](https://docs.telerik.com/devtools/aspnet-ajax/controls/grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback) article.
+>note This article demonstrates how to create and configure the RadGrid control programmatically in the code-behind, given that the data source structure will remain the same. If you want to dynamically change the columns of the grid depending on user selection or some dynamic condition (remove or add columns with different DataFields than the initial loaded structure), this might affect the ViewState. For this scenario, please refer to [Changing the Grid Structure Dynamically on Postback]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback%}).
 
 When defining the structure of a hierarchical grid (by either method), you should follow these rules:
 
@@ -298,7 +298,7 @@ private void DefineGridStructure()
 {
     RadGrid grid = new RadGrid();
     grid.ID = "RadGrid1";
-    grid.DataSourceID = "SqlDataSource1";
+    grid.DataSourceID = "SqlDataSource4";
     grid.Skin = "Vista";
     grid.Width = Unit.Percentage(100);
     grid.PageSize = 15;
@@ -318,7 +318,7 @@ private void DefineGridStructure()
     grid.MasterTableView.Columns.Add(boundColumn);
     //Add Orders table  
     GridTableView tableViewOrders = new GridTableView(grid);
-    tableViewOrders.DataSourceID = "SqlDataSource2";
+    tableViewOrders.DataSourceID = "SqlDataSource5";
     tableViewOrders.Width = Unit.Percentage(100);
     GridRelationFields relationFields = new GridRelationFields();
     relationFields.MasterKeyField = "CustomerID";
@@ -344,7 +344,7 @@ End Sub
 Private Sub DefineGridStructure()
     Dim grid As New RadGrid()
     grid.ID = "RadGrid1"
-    grid.DataSourceID = "SqlDataSource1"
+    grid.DataSourceID = "SqlDataSource4"
     grid.Skin = "Vista"
     grid.Width = Unit.Percentage(100)
     grid.PageSize = 15
@@ -365,7 +365,7 @@ Private Sub DefineGridStructure()
     grid.MasterTableView.Columns.Add(boundColumn)
     'Add Orders table
     Dim tableViewOrders As New GridTableView(grid)
-    tableViewOrders.DataSourceID = "SqlDataSource2"
+    tableViewOrders.DataSourceID = "SqlDataSource5"
     tableViewOrders.Width = Unit.Percentage(100)
     Dim relationFields As New GridRelationFields()
     relationFields.MasterKeyField = "CustomerID"
@@ -483,7 +483,7 @@ Private Sub DefineGridStructure()
     RadGrid1.AllowPaging = True
     RadGrid1.AutoGenerateColumns = False
     'Master table - Customers (I in hierarchy level)
-    'Add columnsn
+    'Add columns
     Dim boundColumn As GridBoundColumn
     boundColumn = New GridBoundColumn
     boundColumn.DataField = "CustomerID"
@@ -541,7 +541,7 @@ End Sub
 
 ## Creating Template Columns Programmatically
 
-When creating template columns programmatically, the grid must be generated completely in the code-behind using the **Page_Init** event. Then, you must create the templates dynamically in the code-behind and assign them to the **ItemTemplate** and **EditItemTemplate** properties of the column. To create a template dynamically, you must define a custom class that implements the **ITemplate** interface. Then you can assign an instance of this class to the **ItemTemplate** or **EditTemplateTemplate** property of the **GridTemplateColumn** object.
+When creating template columns programmatically, the grid must be generated completely in the code-behind using the **Page_Init** event. Then, you must create the templates dynamically in the code-behind and assign them to the **ItemTemplate** and **EditItemTemplate** properties of the column. To create a template dynamically, you must define a custom class that implements the **ITemplate** interface. Then you can assign an instance of this class to the **ItemTemplate** or **EditItemTemplate** property of the **GridTemplateColumn** object.
 
 >caution Column templates must be added in the **Page_Init** event handler, so that the template controls can be added to the **ViewState** .
 >
@@ -563,7 +563,7 @@ protected void Page_Init(object sender, EventArgs e)
     templateColumn.HeaderText = templateColumnName;
     GridBoundColumn boundColumn1 = new GridBoundColumn();
     boundColumn1.DataField = "ContactName";
-    boundColumn1.UniqueName = "ConactName";
+    boundColumn1.UniqueName = "ContactName";
     boundColumn1.HeaderText = "Bound Column";
     grid.MasterTableView.Columns.Add(templateColumn);
     grid.MasterTableView.Columns.Add(boundColumn1);
@@ -656,7 +656,7 @@ Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me
     templateColumn.HeaderText = templateColumnName
     Dim boundColumn1 As New GridBoundColumn()
     boundColumn1.DataField = "ContactName"
-    boundColumn1.UniqueName = "ConactName"
+    boundColumn1.UniqueName = "ContactName"
     boundColumn1.HeaderText = "Bound Column"
     grid.MasterTableView.Columns.Add(templateColumn)
     grid.MasterTableView.Columns.Add(boundColumn1)
@@ -743,3 +743,9 @@ The code sample above results in the following grid:
 ![Creating Templates programmatically](images/grd_TemplateColumnProgrammatically.png)
 
 For more information on creating templates programmatically, see the **MSDN** article: [Creating Web Server Control Templates Programmatically](https://docs.microsoft.com/en-us/previous-versions/aspnet/0e39s2ck(v=vs.100)x).
+
+## See Also
+
+- [Create RadGrid overview]({%slug grid/create-radgrid/overview%})
+- [Declarative definition]({%slug grid/create-radgrid/declarative-definition%})
+- [Changing the Grid Structure Dynamically on Postback]({%slug grid/create-radgrid/changing-the-grid-structure-dynamically-on-postback%})

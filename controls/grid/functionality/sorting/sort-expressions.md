@@ -1,7 +1,7 @@
 ---
 title: Sort Expressions
 page_title: Sort Expressions - RadGrid
-description: Learn how to use sort expressions in the Grid control for advanced data sorting functionality.
+description: Learn how to use RadGrid sort expressions to define, combine, and apply advanced sorting rules to grid data.
 slug: grid/functionality/sorting/sort-expressions
 tags: sort,expressions
 published: True
@@ -74,9 +74,13 @@ RadGrid1.MasterTableView.SortExpressions.AddSortExpression(expression)
 RadGrid1.MasterTableView.Rebind()
 ````
 
-
 Sorting is handled internally by a DataView. Be sure that you specify the properties of the **GridSortExpression** class properly, or the grid will throw an exception when it is data bound.
 
 >note Items in the **SortExpressions** collection are preserved in the view state for the **GridTableView** at each hierarchy level.
 >
+
+## See Also
+
+- [Sorting overview]({%slug grid/functionality/sorting/overview%})
+- [Controlling sort modes]({%slug grid/functionality/sorting/controlling-sort-modes%})
 

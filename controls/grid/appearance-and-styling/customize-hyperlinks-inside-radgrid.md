@@ -1,7 +1,7 @@
 ---
 title: Customize Hyperlinks inside RadGrid
 page_title: Customize Hyperlinks inside RadGrid - RadGrid
-description: Check our Web Forms article about Customize Hyperlinks inside RadGrid.
+description: Learn how to customize hyperlink colors and hover styles inside Telerik UI for ASP.NET AJAX RadGrid with and without a skin.
 slug: grid/appearance-and-styling/customize-hyperlinks-inside-radgrid
 tags: customize,hyperlinks,inside,radgrid
 published: True
@@ -12,19 +12,18 @@ position: 8
 
 
 
-## 
+## Styling Hyperlinks with a Skin
 
-You can use css style selectors to get the desired appearance. You need to define those css settings in separate classes and then assign them to the grid through the **CssClass** property of the control.
+You can use CSS selectors to customize hyperlink appearance. Define the CSS rules in classes and apply them to the grid through the **CssClass** property.
 
-There are cases when one would like to have different visualization for the links in the grid, compared to the ones outside the grid. Below is an example code which will make the default color of the links in the **GridHyperLinkColumn** to be brown. The links will turn orange and will have bigger font size on mouse hover or when visited.
+The following example makes links in the **GridHyperLinkColumn** brown by default. The links become orange and larger when a user hovers over or has visited them.
 
-There are two cases when you want to change the default color of links in **GridHyperLinkColumn**:
+Choose the example that matches the **Skin** property configuration of your grid.
 
-* When RadGrid has set Skin property(built-in skin or a custom one) different than empty string(e.g. "").
+>note If you do not set the **Skin** property, the `Default` skin is used.
 
->note Note that, in case you omit to set the Skin property, the Default skin is used.
->
 
+> caption Example: Styling hyperlinks when a RadGrid skin is enabled
 
 ````ASP.NET
 <html>
@@ -57,12 +56,12 @@ There are two cases when you want to change the default color of links in **Grid
         <telerik:GridBoundColumn UniqueName="Address" HeaderText="Address" DataField="Address">
         </telerik:GridBoundColumn>
         <telerik:GridHyperLinkColumn NavigateUrl="http://www.sharepointcontrols.com" UniqueName="HyperLinkColumn"
-          HeaderText="Button Column" Text="link button">
+          HeaderText="Hyperlink Column" Text="link">
         </telerik:GridHyperLinkColumn>
       </Columns>
     </MasterTableView>
   </telerik:RadGrid>
-  <a href="http://www.sharepointcontrols.com">go to our mcms controls site</a>
+  <a href="http://www.sharepointcontrols.com">Open the linked site</a>
   </form>
 </body>
 </html>
@@ -70,13 +69,14 @@ There are two cases when you want to change the default color of links in **Grid
 
 
 
->note In this example we have used Default skin of RadGrid. In case you want to use different Skin, you should substitute **Default** from **RadGrid_Default** with the respective Skin name(e.g. RadGrid_[SkinName]).
->
+>note This example uses the `Default` skin. To use another skin, replace `Default` in `RadGrid_Default` with the relevant skin name, such as `RadGrid_[SkinName]`.
 
 
-## 
+## Styling Hyperlinks without a Skin
 
-* When RadGrid has Skin property set to an empty string("").
+Use this approach when the **Skin** property is set to an empty string (`""`).
+
+> caption Example: Styling hyperlinks when a RadGrid skin is disabled
 
 ````ASP.NET
 <html>
@@ -106,15 +106,20 @@ There are two cases when you want to change the default color of links in **Grid
         <telerik:GridBoundColumn UniqueName="Address" HeaderText="Address" DataField="Address">
         </telerik:GridBoundColumn>
         <telerik:GridHyperLinkColumn NavigateUrl="http://www.sharepointcontrols.com" UniqueName="HyperLinkColumn"
-          HeaderText="Button Column" Text="link button">
+          HeaderText="Hyperlink Column" Text="link">
         </telerik:GridHyperLinkColumn>
       </Columns>
     </MasterTableView>
   </telerik:RadGrid>
-  <a href="http://www.sharepointcontrols.com">go to our mcmscontrols site</a>
+  <a href="http://www.sharepointcontrols.com">Open the linked site</a>
   </form>
 </body>
 </html>
 ````
+
+## See Also
+
+* [RadGrid Skins]({%slug grid/appearance-and-styling/skins%})
+* [Customizing Row Appearance]({%slug grid/appearance-and-styling/customizing-row-appearance%})
 
 

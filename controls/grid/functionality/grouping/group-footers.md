@@ -1,7 +1,7 @@
 ---
 title: Group Footers
 page_title: Group Footers - RadGrid
-description: Check our Web Forms article about Group Footers.
+description: Learn how to configure RadGrid group footers and display summaries or custom content for each data group.
 slug: grid/functionality/grouping/group-footers
 tags: group,footers
 published: True
@@ -11,7 +11,7 @@ position: 4
 # Group Footers
 
 In addition to displaying summaries/results from aggregates in the group header (see [this topic]({%slug grid/how-to/grouping/performing-calculations-in-group-header%})), RadGrid exposes group footers feature which provides the option to render footer under each group in the grid. The type of this footer item is **GridGroupFooterItem** . To enable this functionality merely set the **ShowGroupFooter** property of the respective GridTableView instance to true (its default value is false).
-![grid grouping groupfooters](images/grid_grouping_groupfooters.jpg)
+![RadGrid group footer](images/grid_grouping_groupfooters.jpg)
 
 RadGrid also gives you the opportunity to retain the visibility of the group footers when their corresponding group header row is collapsed. In order to switch on this feature, just set the **GroupingSettings.RetainGroupFooterVisibility** property to true.
 
@@ -100,7 +100,7 @@ In order to specify how the group aggregates will be evaluated, specify in every
 ## Aggregates with Paging Enabled
 
 By default, group aggregates are calculated only for the currently loaded records on the present page view.
-![grid grouping groupfooters 1](images/grid_grouping_groupfooters_1.png)
+![RadGrid group footer with a summary](images/grid_grouping_groupfooters_1.png)
 
 In some cases it may prove more convenient to include all group records in the summarized calculation info. In such cases, the following property comes to play:
 ````ASP.NET
@@ -108,7 +108,7 @@ In some cases it may prove more convenient to include all group records in the s
 ````
 
 Enabling it will instruct the grid to include the information from all pages when calculating the group aggregates.
-![grid grouping groupfooters 2](images/grid_grouping_groupfooters_2.png)
+![RadGrid group footer with custom content](images/grid_grouping_groupfooters_2.png)
 
 >note
 LINQ expressions must be enabled in order for the **IgnorePagingForGroupAggregates** to have effect. The **EnableLinqExpressions** property is enabled by default and there is no need to set it to True explicitly.

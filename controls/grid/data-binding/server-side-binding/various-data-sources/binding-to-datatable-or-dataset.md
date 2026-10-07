@@ -12,13 +12,13 @@ position: 0
 # Binding to DataTable or DataSet
 
 
-When not using [declarative data sources]({%slug grid/data-binding/server-side-binding/declarative-datasource%}), the most common means of providing a data source for a **RadGrid** control is probably using a **DataTable** or **DataSet** control. You can populate **DataTable** instance (part of **DataSet** object or not) with data from a source of your choice (database, custom object collection, xml file, etc.) and then pass it to the **DataSource** property of the control. Here is a sample that uses the **NeedDataSource** event, extracting the data from an SQL database:
+When not using [declarative data sources]({%slug grid/data-binding/server-side-binding/declarative-datasource%}), the most common means of providing a data source for a **RadGrid** control is probably using a **DataTable** or **DataSet** object. You can populate a **DataTable** instance (part of a **DataSet** object or not) with data from a source of your choice (database, custom object collection, XML file, etc.) and then pass it to the **DataSource** property of the control. Here is a sample that uses the **NeedDataSource** event, extracting the data from an SQL database:
 
 
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" CellSpacing="0"
-    GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource1" AllowPaging="true"
+    GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource" AllowPaging="true"
     PageSize="10">
     <MasterTableView AutoGenerateColumns="true" DataKeyNames="CustomerID">
     </MasterTableView>
@@ -31,7 +31,7 @@ And in the code-behind:
 
 
 ````C#	
-protected void RadGrid1_NeedDataSource1(object sender, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
+protected void RadGrid1_NeedDataSource(object sender, Telerik.Web.UI.GridNeedDataSourceEventArgs e)
 {
     RadGrid1.DataSource = GetDataTable("SELECT CustomerID, CompanyName, ContactName FROM Customers");
 }
@@ -66,4 +66,10 @@ Public Function GetDataTable(ByVal query As String) As DataTable
     Return myDataTable
 End Function
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Declarative data source]({%slug grid/data-binding/server-side-binding/declarative-datasource%})
+- [Binding to a DataReader]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-datareader%})
 

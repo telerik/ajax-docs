@@ -12,8 +12,6 @@ position: 0
 
 
 
-## 
-
 This is a common task that can be accomplished by placing **GridButtonColumn** with **CommandName**= **"Delete"** in the grid body.Basically, there are two available options:
 
 1. Perform the delete operation automatically by enabling automatic delete through a DataSource control (see [this online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/AllEditableColumns/DefaultCS.aspx) for more details).
@@ -113,4 +111,9 @@ Private Sub RadGrid1_DeleteCommand(ByVal [source] As Object, ByVal e As Telerik.
     End If
 End Sub
 ````
+
+## See Also
+
+- [Adding a delete confirmation]({%slug grid/data-editing/delete-records/adding-a-delete-confirmation%})
+- [Client-side delete]({%slug grid/data-editing/delete-records/client-side-delete%})
 

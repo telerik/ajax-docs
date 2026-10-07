@@ -1,20 +1,20 @@
 ---
 title: Traversing detail tables/items in Telerik RadGrid
 page_title: Traversing detail tables/items in Telerik RadGrid - RadGrid
-description: Check our Web Forms article about Traversing detail tables/items in Telerik RadGrid.
+description: Learn how to traverse RadGrid detail tables and items on the server and client by using nested table views, recursion, and the Items collection.
 slug: grid/hierarchical-grid-types-and-load-modes/traversing-detail-tables
 tags: traversing,detail,tables/items,in,telerik,radgrid
 published: True
 position: 5
 ---
 
-# Traversing detail tables/items in Telerik RadGrid
+# Traversing Detail Tables and Items in Telerik RadGrid
 
+This article explains how to access and traverse the detail tables and items in a hierarchical RadGrid on the server and client.
 
+## Accessing Detail Tables Through the NestedTableViews Collection
 
-## Accessing the DetailTables through NestedTableViews Collection
-
-If you have a hierarchical grid each item in **GridTableView's Items** collection has a child item of type **GridNestedViewItem** that has a set of **DetailTables**. So if you want to access, for example, the nested table view of the first item in the grid's master table you should have the following code:
+In a hierarchical grid, each item in a **GridTableView** `Items` collection has a child item of type **GridNestedViewItem** with a set of nested table views. To access the nested table view of the first item in the master table, use the following code:
 
 
 
@@ -22,25 +22,25 @@ If you have a hierarchical grid each item in **GridTableView's Items** collectio
 GridTableView nestedTableView = (RadGrid1.MasterTableView.Items[0] as GridDataItem).ChildItem.NestedTableViews[0];
 ````
 ````VB
-Dim nestedTableView as GridTableView = CType(RadGrid1.MasterTableView.Items(0), GridDataItem).ChildItem.NestedTableViews(0)          
+Dim nestedTableView as GridTableView = CType(RadGrid1.MasterTableView.Items(0), GridDataItem).ChildItem.NestedTableViews(0)
 ````
 
 
-Or if you have a reference to an instance of an item in a child table and if you want to access the parent item/parent table view you have to write the following code:
+If you have a reference to an item in a child table and want to access its parent item or table view, use the following code:
 
 
 
 ````C#
 GridDataItem parentItem = childItem.OwnerTableView.ParentItem as GridDataItem;
 ````
-````VB	
+````VB
 Dim parentItem As GridDataItem = CType(childItem.OwnerTableView.ParentItem, GridDataItem)
 ````
 
 
-## Looping through all detail tables/items in Telerik RadGrid
+## Looping Through All Detail Tables and Items in RadGrid
 
-Before proceeding with the rest of this chapter we recommend you reading the KB article of Telerik RadGrid concerning Hierarchical binding tips. After reading the article, you will understand that each copy of a detail table corresponding to an item from the parent table resides in a **NestedViewItem**. You can iterate through the NestedViewItems in the grid using a recursive method, starting from the **MasterTableView** (note that the proper place to make the loop is the **PreRender** handler of the grid):
+Each copy of a detail table that corresponds to an item in the parent table resides in a **NestedViewItem**. You can iterate through the nested view items with a recursive method that starts from the **MasterTableView**. Place the loop in the grid's **PreRender** handler.
 
 
 
@@ -50,12 +50,9 @@ void LoopHierarchyRecursive(GridTableView gridTableView)
     foreach (GridNestedViewItem nestedViewItem in gridTableView.GetItems(GridItemType.NestedView))
     {
         // you should skip the items if not expanded, or tables not bound
-        if (nestedViewItem.NestedTableViews.Length > 0)
+        for (int i = 0; i < nestedViewItem.NestedTableViews.Length; i++)
         {
-            // now you can access: nestedViewItem.NestedTableViews[0].Items, which will be the DataItems of this nested table
-            // then make recursive call
-            LoopHierarchyRecursive(nestedViewItem.NestedTableViews[0]);
-            // above [0] stands for the first table in the hierarchy, since Telerik RadGrid supports multiple tables at a level
+            LoopHierarchyRecursive(nestedViewItem.NestedTableViews[i]);
         }
     }
 }
@@ -64,18 +61,15 @@ void LoopHierarchyRecursive(GridTableView gridTableView)
 Sub LoopHierarchyRecursive(ByVal gridTableView As GridTableView)
     For Each nestedViewItem As GridNestedViewItem In gridTableView.GetItems(GridItemType.NestedView)
         'you should skip the items if not expanded, or tables not bound
-        If nestedViewItem.NestedTableViews.Length > 0 Then
-            'now you can access: nestedViewItem.NestedTableViews(0).Items, which will be the DataItems of this nested table
-            'then make recursive call
-            LoopHierarchyRecursive(nestedViewItem.NestedTableViews(0))
-            ' above [0] stands for the first table in the hierarchy, since Telerik RadGrid supports multiple tables at a level
-        End If
+        For i As Integer = 0 To nestedViewItem.NestedTableViews.Length - 1
+            LoopHierarchyRecursive(nestedViewItem.NestedTableViews(i))
+        Next
     Next
 End Sub
 ````
 
 
-When **HieararchyLoadMode** of the relevant **GridTableView** is "**Client**" or "**ServerBind**" a much easier approach could be used. The **RadGrid.Items** collection contains all items from all tables in the hierarchical structure of **Telerik RadGrid**. By simply looping through the collection you can access all data-bound items and their controls:
+When the **HierarchyLoadMode** of the relevant **GridTableView** is `Client` or `ServerBind`, you can use a simpler approach. The **RadGrid.Items** collection contains items from all tables in the hierarchical structure. Loop through the collection to access all data-bound items and their controls:
 
 
 
@@ -104,7 +98,7 @@ Next
 ````
 
 
-## Looping through the detail tables/items in Telerik RadGrid on the client
+## Looping Through Detail Tables and Items in RadGrid on the Client
 
 You can also loop through the available GridTableView and GridDataItem client objects of a hierarchical RadGrid. Using the client API of the control, you can access the detail tables and items through a recursion similar to that inside the LoopHierarchyRecursive server-side method described above.
 
@@ -119,9 +113,9 @@ You can also loop through the available GridTableView and GridDataItem client ob
     function traverseChildTables(gridTableView) {
         var dataItems = gridTableView.get_dataItems();
         for (var i = 0; i < dataItems.length; i++) {
-            if (dataItems[i].get_nestedViews().length > 0) {
-                var nestedView = dataItems[i].get_nestedViews()[0];
-                //here you can access the nested table's data items using nestedView.get_dataItems()
+            var nestedViews = dataItems[i].get_nestedViews();
+            for (var j = 0; j < nestedViews.length; j++) {
+                var nestedView = nestedViews[j];
                 alert(nestedView.get_name());
                 traverseChildTables(nestedView);
             }
@@ -129,5 +123,10 @@ You can also loop through the available GridTableView and GridDataItem client ob
     }
 </script>
 ````
+
+## See Also
+
+- [Understanding the hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%})
+- [Hierarchy load modes]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes%})
 
 

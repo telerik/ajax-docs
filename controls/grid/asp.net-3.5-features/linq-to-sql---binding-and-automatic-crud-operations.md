@@ -1,52 +1,54 @@
 ---
-title: LINQ To SQL - Binding and Automatic CRUD Operations
-page_title: LINQ To SQL - Binding and Automatic CRUD Operations - RadGrid
-description: Check our Web Forms article about LINQ To SQL - Binding and Automatic CRUD Operations.
+title: LINQ to SQL - Binding and Automatic CRUD Operations
+page_title: LINQ to SQL Binding and Automatic CRUD - RadGrid
+description: Learn how to bind RadGrid to LINQ to SQL data and enable automatic insert, update, and delete operations in ASP.NET AJAX.
 slug: grid/asp.net-3.5-features/linq-to-sql---binding-and-automatic-crud-operations
 tags: linq,to,sql,-,binding,and,automatic,crud,operations
 published: True
 position: 2
 ---
 
-# LINQ To SQL - Binding and Automatic CRUD Operations
+# LINQ to SQL - Binding and Automatic CRUD Operations
 
+LINQ to SQL is an object-relational mapping (ORM) implementation included in ASP.NET Framework 3.5. It lets you model a relational database with .NET classes, query the database with LINQ, and update, insert, or delete data. LINQ to SQL tracks changes to the objects and translates the queries and updates into SQL for the database.
 
+LINQ to SQL supports transactions, views, and stored procedures. It also provides a way to integrate data validation and business logic rules into your data model.
 
-## 
-
-LINQ to SQL is an ORM (object relational mapping) implementation that ships in the ASP.NET Framework 3.5 release, and which allows you to model a relational database using .NET classes.You can then query the database using LINQ, as well as update/insert/delete data from it. LINQ to SQL provides a runtime infrastructure for managing relational data as objects without losing the ability to query. It does this by translating language-integrated queries into SQL for execution by the database, and then translating the tabular results back into objects you define. Your application is then free to manipulate the objects while LINQ to SQL stays in the background tracking your changes automatically.
-
-LINQ to SQL fully supports transactions, views, and stored procedures.It also provides an easy way to integrate data validation and business logic rules into your data model.
-
-For more information about LINQ to SQL review the following resources:
+For more information about LINQ to SQL, review the following resources:
 
 - [Using LINQ to SQL](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/)
 - [LINQ to SQL: .NET Language-Integrated Query for Relational Data](https://msdn.microsoft.com/en-us/library/bb425822.aspx).
 
-RadGrid for ASP.NET AJAX exposes declarative way to binding itself to LinqDataSource (similar to other ASP.NET 2.x/3.x data source controls). Additionally, the grid from the example supports automatic data editing operations, hierarchy as well as paging and sorting. The main points are to configure the LinqDataSource properties at each level of the hierarchy accordingly (using *Where* clause and *WhereParameters *for the nested tables LinqDataSource controls).
+## Binding RadGrid to LinqDataSource
 
-To enable automatic editing at data source level, set the *AllowAutomaticUpdates/AllowAutomaticInserts/AllowAutomaticDeletes* properties of the grid instance and the corresponding *EnableUpdate/EnableInsert/EnableDelete* properties of the LinqDataSource to true.
+RadGrid for ASP.NET AJAX provides a declarative way to bind to `LinqDataSource`, similar to other ASP.NET data source controls. The example supports automatic data editing, hierarchical display, paging, and sorting. Configure the `LinqDataSource` properties at each level of the hierarchy, including the `Where` clause and `WhereParameters` for nested `LinqDataSource` controls.
 
-Here are the code snippets from the example referenced in the previous paragraph (it also demonstrates how to implement the *IBindableControl *interface to support automatic editing operations with WebUserControl custom edit form):
+To enable automatic editing at the data source level, set `AllowAutomaticUpdates`, `AllowAutomaticInserts`, and `AllowAutomaticDeletes` to `true` on the grid. Set the corresponding `EnableUpdate`, `EnableInsert`, and `EnableDelete` properties of the `LinqDataSource` to `true`.
+
+## Configuring Automatic CRUD Operations
+
+The following code snippets show the example configuration. They also demonstrate how to implement the `IBindableControl` interface for a custom Web User Control edit form.
+
+> caption Example: Binding RadGrid to LINQ to SQL for automatic CRUD operations
 
 ````ASP.NET
 <telerik:RadAjaxManager runat="server" ID="RadAjaxManager1" DefaultLoadingPanelID="RadAjaxLoadingPanel1">
-    <ajaxsettings>
+    <AjaxSettings>
   <telerik:AjaxSetting AjaxControlID="RadGrid1">
     <UpdatedControls>
       <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
       <telerik:AjaxUpdatedControl ControlID="RadWindowManager1" />
     </UpdatedControls>
   </telerik:AjaxSetting>
-</ajaxsettings>
+</AjaxSettings>
 </telerik:RadAjaxManager>
 <telerik:RadAjaxLoadingPanel runat="server" ID="RadAjaxLoadingPanel1" />
 <telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid1" DataSourceID="LinqDataSource1" AllowAutomaticUpdates="true"
     AllowAutomaticInserts="true" AllowAutomaticDeletes="true" AutoGenerateColumns="false"
     AllowPaging="true" OnItemUpdated="RadGrid1_ItemUpdated" OnItemInserted="RadGrid1_ItemInserted"
     OnItemDeleted="RadGrid1_ItemDeleted" OnPreRender="RadGrid1_PreRender">
-    <mastertableview datakeynames="CategoryID" commanditemdisplay="Top" insertitempageindexaction="ShowItemOnCurrentPage"
-        allowpaging="false">
+    <MasterTableView DataKeyNames="CategoryID" CommandItemDisplay="Top" InsertItemPageIndexAction="ShowItemOnCurrentPage"
+        AllowPaging="false">
   <Columns>
     <telerik:GridBoundColumn DataField="CategoryID" HeaderText="Category ID" ReadOnly="true"
       ForceExtractValue="Always" />
@@ -84,8 +86,8 @@ Here are the code snippets from the example referenced in the previous paragraph
     <EditColumn ButtonType="ImageButton" />
     <PopUpSettings Modal="true" />
   </EditFormSettings>
-</mastertableview>
-    <pagerstyle alwaysvisible="true" />
+</MasterTableView>
+    <PagerStyle AlwaysVisible="true" />
 </telerik:RadGrid>
 <telerik:RadWindowManager RenderMode="Lightweight" ID="RadWindowManager1" runat="server" />
 <asp:LinqDataSource ID="LinqDataSource1" runat="server" ContextTypeName="LinqToSql.NorthwindDataContext"
@@ -140,7 +142,7 @@ protected void RadGrid1_PreRender(object sender, EventArgs e)
     }
 }
 ````
-````VB
+````VB.NET
 Protected Sub RadGrid1_ItemDeleted(ByVal source As Object, ByVal e As Web.UI.GridDeletedEventArgs) Handles RadGrid1.ItemDeleted
     If e.Exception IsNot Nothing Then
         e.ExceptionHandled = True
@@ -223,19 +225,23 @@ End Sub
 
 
 
-````ASP.NET
+````C#
 public partial class Grid_Examples_dataediting_linqdatasource_productdetailscs:
-UserControl, IBindableControl { public void ExtractValues(IOrderedDictionary dictionary)
-{ //retrives all RadInputs and add thier values to the dictionary foreach (var input
-in Controls.OfType<radinputcontrol>().Select(control => new {FieldName = control.ID, FieldValue = control.Text}))
-      {
-          dictionary.Add(input.FieldName, input.FieldValue);
-      }
-  }      
-  public object DataItem { get; set; }
-}			
+    UserControl, IBindableControl
+{
+    public void ExtractValues(IOrderedDictionary dictionary)
+    {
+        // Retrieves all RadInputs and adds their values to the dictionary.
+        foreach (var input in Controls.OfType<RadInputControl>().Select(control => new { FieldName = control.ID, FieldValue = control.Text }))
+        {
+            dictionary.Add(input.FieldName, input.FieldValue);
+        }
+    }
+
+    public object DataItem { get; set; }
+}
 ````
-````VB
+````VB.NET
 Partial Class Grid_Examples_dataediting_linqdatasource_productdetailsvb
     Inherits System.Web.UI.UserControl
     Implements IBindableControl
@@ -255,4 +261,10 @@ Partial Class Grid_Examples_dataediting_linqdatasource_productdetailsvb
     End Property
 End Class
 ````
+
+## See Also
+
+- [Manual LINQ to SQL CRUD operations]({%slug grid/asp.net-3.5-features/linq-to-sql---binding-and-manual-crud-operations%})
+- [Entity Framework binding and CRUD operations]({%slug grid/asp.net-3.5-features/entity-framework---binding-and-crud-operations%})
+- [Client binding to WCF and ADO.NET data services]({%slug grid/asp.net-3.5-features/client-binding-to-wcf-web-service-and-ado.net-data-service%})
 

@@ -1,7 +1,7 @@
 ---
 title: Pager Item
 page_title: Pager Item - RadGrid
-description: Learn how to customize the pager item in the Grid control for better navigation through data pages.
+description: Learn how to customize the RadGrid pager item for better navigation through data pages and access to paging controls.
 slug: grid/functionality/paging/pager-item
 tags: pager,item
 published: True
@@ -59,18 +59,18 @@ When **Mode** is "NextPrevAndNumeric", the pager contains both the arrow buttons
 **Advanced**
 
 When **Mode** is "Advanced", the pager contains text boxes that let the user enter a page number or a new page size:
-![GridPagerMode.Advanced](images/grd_PagerModeAdvanced.png)
+![RadGrid advanced pager mode](images/grd_PagerModeAdvanced.png)
 
 **NextPrevNumericAndAdvanced**
 
 When **Mode** is "NextPrevNumericAndAdvanced", the pager contains all of the controls available in both the "NextPrevAndNumeric" and "Advanced" modes:
 
-![GridPagerMode.NextPrevNumericAndAdvanced](images/grd_PagerModeNextPrevNumericAndAdvanced.png)
+![RadGrid next, previous, numeric, and advanced pager mode](images/grd_PagerModeNextPrevNumericAndAdvanced.png)
 
 **Slider**
 
 When **Mode** is "Slider", the pager contains a slider control for changing pages:
-![GridPagerMode.Slider](images/grd_PagerModeSlider.png)
+![RadGrid slider pager mode](images/grd_PagerModeSlider.png)
 
 You can also customize the pager to provide an alphabetic mode. 
 ## Pager button images
@@ -158,3 +158,8 @@ Since **Q1 2015** version of **UI for ASP.NET AJAX** we introduced a new propert
 ````
 
 ![grd Pager Mode All Option](images/grd_PagerModeAllOption.png)
+
+## See Also
+
+- [Paging overview]({%slug grid/functionality/paging/overview%})
+- [Pager templates]({%slug grid/functionality/paging/changing-the-default-pager/setting-pager-template%})

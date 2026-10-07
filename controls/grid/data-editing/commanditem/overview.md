@@ -12,11 +12,9 @@ position: 0
 
 
 
-## 
+The **CommandItem** is a placeholder for commands that can perform an action on selected or all items. See the [RadGrid command reference](https://www.telerik.com/help/aspnet-ajax/grid-command-reference.html) for details about the available commands.
 
-The **CommandItem** is a placeholder for commands that can perform some action on the selected/all items. See the [Command reference]( https://www.telerik.com/help/aspnet-ajax/grid-command-reference.html ) topic for details about the available commands.
-
-![](images/grd_DefaultCommandItem.PNG)
+![RadGrid command item with default commands](images/grd_DefaultCommandItem.PNG)
 
 The [Add new record] and [Refresh] buttons will be automatically placed in a command item (**GridCommandItem**). If you need to access them server-side you have to know their IDs:
 
@@ -32,7 +30,7 @@ Additionally, you have the option of exposing buttons for exporting RadGrid data
 
 **ShowExportTo[Excel/Word/Pdf/Csv]Button** properties in the **CommandItemSettings**.
 
-![](images/grd_CommandItemExportButtons.PNG)
+![RadGrid command item with export buttons](images/grd_CommandItemExportButtons.PNG)
 
 The four export buttons have the following server-side IDs:
 

@@ -138,6 +138,11 @@ Here is an example usage:
 
 
 The following screenshot displays the result from the above code:
-![Confirmation dialog](images/grd_ConfirmationDialog.png)
+![Delete confirmation dialog for a RadGrid item](images/grd_ConfirmationDialog.png)
 
 >tip You may find useful the [RadConfirm dialog integration demo](https://demos.telerik.com/aspnet-ajax/window/examples/confirmserverclicks/defaultcs.aspx) as an example for getting the user confirmation for button clicks.
+
+## See Also
+
+- [Confirmation dialogs]({%slug grid/data-editing/delete-records/confirmation-dialogs%})
+- [Delete records overview]({%slug grid/data-editing/delete-records/overview%})

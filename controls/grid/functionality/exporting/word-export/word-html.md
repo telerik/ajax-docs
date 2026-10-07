@@ -1,7 +1,7 @@
 ---
 title: Html (DOC)
 page_title: Word-Html (DOC) Export - RadGrid
-description: Word-Html (DOC) Export
+description: Learn how to export RadGrid data to Word HTML (DOC) format and configure the generated document output for reporting.
 slug: grid/functionality/exporting/word-export/word-html
 previous_url: controls/grid/functionality/exporting/export-formats/word-and-excel-export/html-based-export
 tags: html-based,export
@@ -432,3 +432,7 @@ This export format does not support the following features:
 - `OpenOffice`, `AbiWord`, and a few more apps do not support this standard so they won't show the files properly
 
 >important In theory all **Microsoft Office** versions from **2000** and later might work, although we don't guarantee that any version, prior to **2003** will display the **Office HTML** formats as expected.
+
+## See Also
+
+- [Word DOCX export]({%slug grid/functionality/exporting/word-export/word-docx%})
