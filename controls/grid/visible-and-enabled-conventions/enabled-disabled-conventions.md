@@ -105,7 +105,12 @@ The following example disables links, images, inputs, sorting controls, scrollin
     <AjaxSettings>
       <telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
         <UpdatedControls>
-          <telerik:AjaxUpdatedControl ControlID="RadGrid1">
+          <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
+        </UpdatedControls>
+      </telerik:AjaxSetting>
+      <telerik:AjaxSetting AjaxControlID="RadGrid1">
+        <UpdatedControls>
+          <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
         </UpdatedControls>
       </telerik:AjaxSetting>
     </AjaxSettings>
@@ -195,9 +200,14 @@ To disable the grid on the server, set its **Enabled** property to `False` and d
 
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server" OnAjaxRequest="RadAjaxManager1_AjaxRequest">
     <AjaxSettings>
-  <telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
+      <telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
         <UpdatedControls>
-          <telerik:AjaxUpdatedControl ControlID="RadGrid1">
+          <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
+        </UpdatedControls>
+      </telerik:AjaxSetting>
+      <telerik:AjaxSetting AjaxControlID="RadGrid1">
+        <UpdatedControls>
+          <telerik:AjaxUpdatedControl ControlID="RadGrid1" />
         </UpdatedControls>
       </telerik:AjaxSetting>
     </AjaxSettings>

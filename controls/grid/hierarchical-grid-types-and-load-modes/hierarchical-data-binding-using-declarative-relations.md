@@ -34,10 +34,10 @@ If multiple fields are needed for linking to child tables, you can list them in 
 
 
 ````C#
-RadGrid1.MasterTableView.DataKeyNames = new string[2] { "CustomerID", "EmployeeID" };
+RadGrid1.MasterTableView.DataKeyNames = new string[] { "CustomerID", "EmployeeID" };
 ````
 ````VB
-RadGrid1.MasterTableView.DataKeyNames = New String(2) {"CustomerID", "EmployeeID"}
+RadGrid1.MasterTableView.DataKeyNames = New String() {"CustomerID", "EmployeeID"}
 ````
 
 

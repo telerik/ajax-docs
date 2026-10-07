@@ -34,7 +34,7 @@ To enable virtual scrolling for browsing large record sets,
 ````ASP.NET
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
   <AjaxSettings>
-    <telerik:AjaxSetting AjaxControlID="RadGrid1">
+	<telerik:AjaxSetting AjaxControlID="RadAjaxManager1">
       <UpdatedControls>
         <telerik:AjaxUpdatedControl ControlID="RadGrid1" LoadingPanelID="RadAjaxLoadingPanel1" />
       </UpdatedControls>
