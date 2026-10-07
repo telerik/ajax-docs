@@ -1,29 +1,28 @@
 ---
-title: Overview
+title: WebForms Grid Overview
 page_title: RadGrid Overview
-description: Explore the Grid control's features, including data binding, filtering, and customization options.
+description: Learn how Telerik UI for ASP.NET AJAX RadGrid handles data binding, paging, sorting, filtering, editing, grouping, and exporting.
 slug: grid/overview
 components: ["grid"]
-tags: overview
+tags: overview, grid, RadGrid, data binding, WebForms
 published: True
 position: 0
 ---
 
 # WebForms Grid Overview
 
-This article provides a quick introduction so you can get your AJAX data grid up and running in a few seconds. You can find 
-how to enable key features like paging, sorting, filtering, editing, grouping, exporting and accessibility support, as well as how to bind data.
+This article introduces Telerik UI for ASP.NET AJAX RadGrid and shows how to enable data binding, paging, sorting, filtering, editing, grouping, exporting, and accessibility support.
 
-Telerik **RadGrid** is designed to eliminate the typical trade-off associated with ASP.NET grid controls — rich functionality at the expense of weight and performance. Thanks to its innovative architecture, **RadGrid** is extremely fast and generates very little output. Added to this is true cross-browser support — all major/modern browsers, see [Browser Support - Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support)
+Telerik **RadGrid** provides rich functionality for ASP.NET applications while generating minimal output. For supported browsers, see [Browser Support for Telerik UI for ASP.NET AJAX](https://www.telerik.com/aspnet-ajax/tech-sheets/browser-support).
 
 
 >caption To create a basic `RadGrid`:
 
-1. ensure you have a script manager on the page (use \<asp:ScriptManager> tag to declare one)
-1. use the \<telerik:RadGrid> tag to declare the grid and to set its global properties
-1. use its `DataSource` (or `DataSourceID`) property to reference the variable (or the DataSource component) that will hold your collection of data, see [Telerik RadGrid Data Binding Basics]({%slug grid/data-binding/overview%})
-1. use the \<telerik:MasterTableView> to declare your main table and set its properties
-1. use the appropriate grid column tags to declare columns depending on the data type of their content. Set the `DataField` property to point at the name of the model field, see [Column Types]({%slug grid/columns/column-types%}) 
+1. Ensure that the page contains a script manager by declaring an `<asp:ScriptManager>` tag.
+2. Declare the grid with the `<telerik:RadGrid>` tag and set its global properties.
+3. Set the `DataSource` or `DataSourceID` property to reference the collection or data source component. See [Telerik RadGrid data binding basics]({%slug grid/data-binding/overview%}).
+4. Declare the main table with `<telerik:MasterTableView>` and set its properties.
+5. Declare columns with tags that match the content type. Set each `DataField` property to the model field name. See [RadGrid column types]({%slug grid/columns/column-types%}).
 
 >caption Get started with the grid declaration and enabling some of its features
 
@@ -90,12 +89,12 @@ Public Class SampleData
 End Class
 ````
 
-The result from the code snippet above
+The result from the code example is shown in the following image:
 ![Basic RadGrid Example](images/grid-overview-basic-create.png "Basic Grid Example")
 
 
 
-Check out the most commonly used key features below, or head directly to the [Getting Started]({%slug grid/getting-started%}) section.
+Review the most commonly used key features below, or go directly to [Getting Started with RadGrid]({%slug grid/getting-started%}).
 
 
 ## Basic Grid
@@ -108,7 +107,7 @@ Check out the most commonly used key features below, or head directly to the [Ge
 
 ![WebForms Advanced Grid](images/grid-overview-advanced.png "Advanced Grid")
 
-List of key functionalites you can find below:
+Explore these key RadGrid functionalities:
 
 - [Paging]({%slug grid/functionality/paging/overview%})
 - [Filtering]({%slug grid/functionality/filtering/overview%})
@@ -128,88 +127,93 @@ List of key functionalites you can find below:
 
 ## Colorful Grid with built-in Skins
 
-See [Skins]({%slug grid/appearance-and-styling/skins%}) documentation.
+See the [RadGrid skinning options]({%slug grid/appearance-and-styling/skins%}).
 
 ![WebForms Grid Overview Skins](images/grid-overview-skins.gif "Grid built-in Skins")
 
 ## Paging
 
-See [Paging]({%slug grid/functionality/paging/overview%}) documentation.
+See the [RadGrid paging options]({%slug grid/functionality/paging/overview%}).
 
 ![WebForms Grid Overview Paging](images/grid-overview-paging.png "Grid Paging")
 
 ## Filtering
 
-See [Filtering]({%slug grid/functionality/filtering/overview%}) documentation.
+See the [RadGrid filtering options]({%slug grid/functionality/filtering/overview%}).
 
 ![WebForms Grid Overview Filtering](images/grid-overview-filtering.png "Grid Filtering")
 
 ## Sorting
 
-See [Sorting]({%slug grid/functionality/sorting/overview%}) documentation.
+See the [RadGrid sorting options]({%slug grid/functionality/sorting/overview%}).
 
 ![WebForms Grid Overview Sorting](images/grid-overview-sorting.png "Grid Sorting")
 
 ## Grouping
 
-See [Grouping]({%slug grid/functionality/grouping/overview%}) documentation.
+See the [RadGrid grouping options]({%slug grid/functionality/grouping/overview%}).
 
 ![WebForms Grid Overview Grouping](images/grid-overview-grouping.png "Grid Grouping")
 
 ## Hierarchy
 
-See [Hierarchical Grid Types]({%slug grid/hierarchical-grid-types-and-load-modes/what-you-should-know%}) documentation.
+See the [RadGrid hierarchical structure and load modes]({%slug grid/hierarchical-grid-types-and-load-modes/what-you-should-know%}).
 
-![WebForms Hierarchy Grid Overview ](images/grid-overview-hierarchy.png "Hierarchy Grid")
+![WebForms hierarchy grid overview](images/grid-overview-hierarchy.png "Hierarchy Grid")
 
-## Create/Read/Update/Delete (CRUD) operations
+## Create, Read, Update, and Delete (CRUD) Operations
+
+RadGrid supports server-side and client-side editing through several edit-form options.
 
 
 ### Server-Side Editing
 
-**Edit Form**
+Choose one of these server-side editing options:
 
-See [Edit Forms]({%slug grid/data-editing/edit-mode/edit-forms%}) documentation.
+### Edit Form
+
+See the [RadGrid edit forms]({%slug grid/data-editing/edit-mode/edit-forms%}).
 
 ![Grid Edit Form](images/grid-overview-editforms.png "Grid Edit Form")
 
-**PopUp**
+### Popup Edit Form
 
-See [PopUp Edit Forms]({%slug grid/data-editing/edit-mode/popup-edit-form%}) documentation.
+See the [RadGrid popup edit forms]({%slug grid/data-editing/edit-mode/popup-edit-form%}).
 
 ![Grid PopUp Edit Form](images/grid-overview-popup.png "Grid PopUp Edit Form")
 
-**InPlace (Inline)**
+### In-place Editing
 
-See [InPlace]({%slug grid/data-editing/edit-mode/in-place%}) documentation.
+See [RadGrid in-place editing]({%slug grid/data-editing/edit-mode/in-place%}).
 
 ![Grid InPlace Edit Form](images/grid-overview-inplace.png "Grid InPlace Edit Form")
 
 ### Client-Side Editing
 
-**Batch Edit**
+Use batch editing to update multiple records on the client before sending the changes to the server.
 
-See [Batch Editing]({%slug grid/data-editing/edit-mode/batch-editing/overview%}) documentation.
+### Batch Editing
+
+See [RadGrid batch editing]({%slug grid/data-editing/edit-mode/batch-editing/overview%}).
 
 ![Grid Batch Edit Form](images/grid-overview-batchedit.png "Batch Editing")
 
 
-## Properties & Methods - API Reference
+## API Reference
+
+Use these API references for the RadGrid and its table views:
 
 - [Telerik.Web.UI.RadGrid](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/RadGrid) (RadGrid)
 
 - [Telerik.Web.UI.GridTableView](https://docs.telerik.com/devtools/aspnet-ajax/api/server/Telerik.Web.UI/GridTableView) (MasterTable and/or DetailTables)
 
-## Get Started
-
-[Get Started with RadGrid]({%slug grid/getting-started%})
-
 ## See Also
+
+Continue with these related RadGrid resources:
 
 - [Getting Started]({%slug grid/getting-started%})
 
-* [Online Demos](https://demos.telerik.com/aspnet-ajax/grid/examples/overview/defaultcs.aspx)
- 
-* [ASP.NET AJAX Grid](https://www.telerik.com/products/aspnet-ajax/grid.aspx)
+- [RadGrid overview demos](https://demos.telerik.com/aspnet-ajax/grid/examples/overview/defaultcs.aspx)
+- [Telerik UI for ASP.NET AJAX Grid](https://www.telerik.com/products/aspnet-ajax/grid.aspx)
 
 

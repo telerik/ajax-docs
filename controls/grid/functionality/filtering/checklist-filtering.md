@@ -33,7 +33,7 @@ Apart from the default filtering that RadGrid supports, since Q3 2013 there is a
 
 In this mode when you click the filter menu icon a ListBox control with predefined values is displayed:
 
-![grid-checklisti-filtering-1](images/grid-checklisti-filtering-1.png)
+![RadGrid checklist filtering](images/grid-checklisti-filtering-1.png)
 
 When you set the **FilterType** property to **Combined** mode the best from both worlds is available:
 
@@ -48,7 +48,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 	**Example 1**
 
 
-	```ASP.NET
+	````ASP.NET
 
 		<telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" AllowFilteringByColumn="True" runat="server" FilterType="Combined"
 		    AllowPaging="True" OnFilterCheckListItemsRequested="RadGrid1_FilterCheckListItemsRequested"
@@ -79,9 +79,9 @@ To specify what values will be displayed in the ListBox control you need to defi
 		</telerik:RadGrid>
 		<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 		    SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
-	```
+	````
 
-	```C#
+	````C#
 
 		protected void RadGrid1_FilterCheckListItemsRequested(object sender, GridFilterCheckListItemsRequestedEventArgs e)
 		{
@@ -116,9 +116,9 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 		    return myDataTable;
 		}
-	```
+	````
 
-	```VB
+	````VB
 
 		Protected Sub RadGrid1_FilterCheckListItemsRequested(sender As Object, e As GridFilterCheckListItemsRequestedEventArgs)
 		    Dim DataField As String = TryCast(e.Column, IGridDataColumn).GetActiveDataField()
@@ -148,7 +148,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 		    Return myDataTable
 		End Function
-	```
+	````
 
 
 2. By providing a path to a **Web Service** which will provide the data. You specify the path using the **CheckListWebServicePath** property of RadGrid. Beside that you may need to set the name of the method that will provide the actual data to the ListBox control using the **FilterCheckListWebServiceMethod** property if	you have more than one method defined in your web service. (See Example 2)
@@ -157,7 +157,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 
 
-	```ASP.NET
+	````ASP.NET
 
 		<telerik:RadGrid RenderMode="Lightweight" runat="server" ID="RadGrid2" AllowFilteringByColumn="true" FilterType="CheckList"
 		    AllowPaging="true" PagerStyle-AlwaysVisible="true" AllowSorting="true">
@@ -173,7 +173,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 		            <telerik:GridTemplateColumn FilterDelay="200" FilterCheckListWebServiceMethod="LoadCountries"
 		                DataField="Country" HeaderText="Country">
 		                <clientitemtemplate>
-		                    <img src='Img/#= Country #.gif' alt="" style="vertical-align: middle; margin-right: 7px;" />#= Country #
+		                    <img src='Img/#= Country #.gif' alt="Country flag" style="vertical-align: middle; margin-right: 7px;" />#= Country #
 		                </clientitemtemplate>
 		            </telerik:GridTemplateColumn>
 		            <telerik:GridBoundColumn FilterDelay="200" FilterCheckListWebServiceMethod="LoadContactTitles"
@@ -196,9 +196,9 @@ To specify what values will be displayed in the ListBox control you need to defi
 		<asp:SqlDataSource ID="SqlDataSource2" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 		    ProviderName="System.Data.SqlClient" SelectCommand="SELECT * FROM Orders" runat="server">
 		</asp:SqlDataSource>
-	```
+	````
 
-	```C#
+	````C#
 
 		[ServiceKnownType(typeof(Customer))]
 		[ServiceContract(Namespace = "")]
@@ -330,8 +330,8 @@ To specify what values will be displayed in the ListBox control you need to defi
 		        public string Phone { get; set; }
 		    }
 		}
-	```
-	```VB
+	````
+	````VB
 
 		<ServiceKnownType(GetType(Customer))> _
 		<ServiceContract([Namespace]:="")> _
@@ -509,7 +509,7 @@ To specify what values will be displayed in the ListBox control you need to defi
 
 
 
-	```
+		````
 
 ## FilterType HeaderContext
 
@@ -520,7 +520,7 @@ This filtering type provides look and feel that resembles the filter in Excel. I
 >
 
 
-![grid-excellike-filtering-1](images/grid-excellike-filtering-1.png)
+![RadGrid Excel-like filtering](images/grid-excellike-filtering-1.png)
 
 
 The code snippets below showcase a sample scenario where the HeaderContext FilterType is enabled.

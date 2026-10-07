@@ -1,7 +1,7 @@
 ---
 title: Skins
 page_title: Skins - RadGrid
-description: scover how to apply and customize skins to style the Grid control for a consistent and appealing UI.
+description: Learn how to apply and customize Telerik UI for ASP.NET AJAX RadGrid skins for a consistent user interface.
 slug: grid/appearance-and-styling/skins
 components: ["grid"]
 tags: skins
@@ -11,7 +11,7 @@ position: 0
 
 # Skins
 
-In this article, we discuss the use of skins in **RadGrid**. You can see examples of the built-in skins, learn how to create custom skins, and see the major properties used to customize skins.
+This article explains how to use built-in and custom skins with **RadGrid** and lists the main properties for customizing its appearance.
 
 By default, all controls in the Telerik UI for ASP.NET suite have a polished look and feel, which is consistent across the whole product line.
 
@@ -21,8 +21,11 @@ You can change the applied grid skin by setting the **Skin** property to the nam
 
 ## Built-in Skins
 
-The image below shows a thumbnail view of the embedded skins provided by Telerik. They are embedded in the Telerik.Web.UI.dll assembly as web resources. To use a built-in skin, the user only needs to set the **Skin** property of the control. Built-in skins are also provided in "C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins".
-![RadGrid Skins](images/grid-skins.png) 
+The image below shows a thumbnail view of the embedded skins provided by Telerik. They are embedded in the `Telerik.Web.UI.dll` assembly as web resources. To use a built-in skin, set the **Skin** property of the control. Built-in skins are also provided in `C:\Program Files\Progress\UI for ASP.NET AJAX RX YYYY\Skins`.
+
+> caption Figure 1: Built-in RadGrid skins
+
+![RadGrid built-in skins](images/grid-skins.png)
 
 
  @[template - Material skin is available only in Lightweight mode](/_templates/common/skins-notes.md#material-only-in-lightweight) 
@@ -30,7 +33,7 @@ The image below shows a thumbnail view of the embedded skins provided by Telerik
 
 
 
-Except setting the **Skin** property to one of the built-in skins you can use it in the following ways:
+In addition to setting the **Skin** property to one of the built-in skins, you can use skins in the following ways:
 
 * If a skin is not explicitly defined, the **Default** skin from the embedded web resources will be used.
 
@@ -58,7 +61,7 @@ The skins created in the [Telerik Theme Builder](https://demos.telerik.com/aspne
 
 You can customize the appearance of the **RadGrid** control by setting the style properties for the different parts of the control. **Table 1** lists the various style properties.
 
->caption  
+> caption Table 1: RadGrid style properties
 
 |  **Style Property**  |  **Description**  |
 | ------ | ------ |
@@ -80,7 +83,6 @@ You can customize the appearance of the **RadGrid** control by setting the style
  * [Telerik ThemeBuilder for ASP.NET AJAX](https://themebuilder.telerik.com/)
  * [Custom Skin demo](https://demos.telerik.com/aspnet-ajax/grid/examples/styles/custom-skin/defaultcs.aspx)
  * [How to Load Skins from External Assemblies article]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%})
- * [How to load skins from external assemblies code library]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/how-to-load-skins-from-external-assemblies%})
  * [HTML Output]({%slug grid/appearance-and-styling/html-output%})
  * [Modifying Existing Skins]({%slug grid/appearance-and-styling/modifying-existing-skins%})
 

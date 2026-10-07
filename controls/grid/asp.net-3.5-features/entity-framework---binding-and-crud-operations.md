@@ -1,7 +1,7 @@
 ---
 title: Entity Framework - Binding and CRUD Operations
-page_title: Entity Framework - Binding and CRUD Operations - RadGrid
-description: Check our Web Forms article about Entity Framework - Binding and CRUD Operations.
+page_title: Entity Framework Binding and CRUD - RadGrid
+description: Learn how to bind RadGrid to Entity Framework data and enable automatic insert, update, and delete operations in ASP.NET AJAX.
 slug: grid/asp.net-3.5-features/entity-framework---binding-and-crud-operations
 components: ["grid"]
 tags: entity,framework,-,binding,and,crud,operations
@@ -11,25 +11,27 @@ position: 1
 
 # Entity Framework - Binding and CRUD Operations
 
-
-
-## 
-
-Since ASP.NET 3.5, the framework introduces the ADO.NET Entity Framework which exposes a way to supply data and structure a data access layer (DAL) to your ASP.NET web sites/web application projects.
+Starting with ASP.NET 3.5, the ADO.NET Entity Framework provides a way to supply data and structure a data access layer (DAL) for ASP.NET websites and web application projects.
 
 The ADO.NET Entity Framework is designed to support data-centric applications and services, and provides a platform for programming against data that raises the level of abstraction from the logical relational level to the conceptual level. By enabling developers to work with data at a greater level of abstraction, the Entity Framework supports code that is independent of any particular data storage engine or relational schema. For more information, see [Introducing the Entity Framework](https://msdn.microsoft.com/en-us/library/bb399567.aspx).
 
 The Entity Framework supports an [Entity Data Model](https://msdn.microsoft.com/en-us/library/bb387122.aspx) (EDM) for defining data at both the storage and conceptual level and a mapping between the two. It also enables developers to program directly against the data types defined at the conceptual level as common language runtime (CLR) objects. The Entity Framework provides tools to generate an EDM and the related CLR objects based on an existing database. This reduces much of the data access code that used to be required to create object-based data application and services, and makes it faster to create object-oriented data applications and services from an existing database.
 
-Below is an MSDN tutorial which include step by step directions how to use the ADO.NET Entity Framework:
+The following MSDN tutorial includes step-by-step instructions for using the ADO.NET Entity Framework:
 
-[ Entity Framework getting started tutorial ](https://msdn.microsoft.com/en-us/library/bb386876.aspx)
+[Entity Framework getting started tutorial](https://msdn.microsoft.com/en-us/library/bb386876.aspx)
 
-RadGrid for ASP.NET AJAX exposes declarative way to binding itself to EntityDataSource (similar to other ASP.NET 2.x/3.x data source controls) which is presented in the [following online demo](https://demos.telerik.com/aspnet-ajax/grid/examples/automaticoperations/efdatabinding/defaultcs.aspx)of the product. Additionally, the grid from the example supports automatic data editing operations as well as paging and sorting. The main points are to configure the EntityDatraSource properties accordingly.
+## Binding RadGrid to Entity Framework
 
-To enable automatic editing at data source level, set the *AllowAutomaticUpdates/AllowAutomaticInserts/AllowAutomaticDeletes* properties of the grid instance and the corresponding *EnableUpdate/EnableInsert/EnableDelete* properties of the EntityDataSource to true.
+RadGrid for ASP.NET AJAX provides a declarative way to bind to `EntityDataSource`, similar to other ASP.NET data source controls, as shown in the [Entity Framework data binding demo](https://demos.telerik.com/aspnet-ajax/grid/examples/automaticoperations/efdatabinding/defaultcs.aspx). The example supports automatic data editing, paging, and sorting. Configure the `EntityDataSource` properties to enable these operations.
 
-Here are the code snippets from the example referenced in the previous paragraph:
+To enable automatic editing at the data source level, set `AllowAutomaticUpdates`, `AllowAutomaticInserts`, and `AllowAutomaticDeletes` to `true` on the grid. Set the corresponding `EnableUpdate`, `EnableInsert`, and `EnableDelete` properties of the `EntityDataSource` to `true`.
+
+## Configuring Automatic CRUD Operations
+
+The following code snippets show the example configuration:
+
+> caption Example: Binding RadGrid to Entity Framework with automatic CRUD operations
 
 ````ASP.NET
 <%@ register assembly="System.Web.Entity, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
@@ -82,7 +84,7 @@ Here are the code snippets from the example referenced in the previous paragraph
 </asp:EntityDataSource>
 ````
 ````C#
-protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)    
+protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventArgs e)
 {
     if (e.Item is GridEditableItem && e.Item.IsInEditMode)
     {
@@ -91,11 +93,12 @@ protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventA
             GridEditableItem item = e.Item as GridEditableItem;
             GridEditManager manager = item.EditManager;
             GridTextBoxColumnEditor editor = manager.GetColumnEditor("CustomerID") as GridTextBoxColumnEditor;
-            editor.TextBoxControl.Enabled = false;            }
-    }
-}		
+            editor.TextBoxControl.Enabled = false;
+          }
+        }
+      }
 ````
-````VB	     	
+````VB.NET
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
     If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
         If Not e.Item.OwnerTableView.IsItemInserted Then
@@ -107,6 +110,12 @@ Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.We
     End If
 End Sub
 ````
+
+## See Also
+
+- [Manual LINQ to SQL CRUD operations]({%slug grid/asp.net-3.5-features/linq-to-sql---binding-and-manual-crud-operations%})
+- [Automatic LINQ to SQL CRUD operations]({%slug grid/asp.net-3.5-features/linq-to-sql---binding-and-automatic-crud-operations%})
+- [Client binding to WCF and ADO.NET data services]({%slug grid/asp.net-3.5-features/client-binding-to-wcf-web-service-and-ado.net-data-service%})
 
 
 

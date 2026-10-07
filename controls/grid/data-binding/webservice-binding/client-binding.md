@@ -12,10 +12,6 @@ position: 0
 
 # Client Binding
 
-
-
-## 
-
 The following code snippet represents how to use RadGrid client-side data-binding to visualize live data using web service. The grid is updated after interval of 1 second passes (specified in the pageLoad handler of the page). This results in simultaneous and seamless pure client-side end-user experience.
 
 ````JavaScript
@@ -36,7 +32,7 @@ Below is the signature of the web service used in the sample:
 
 
 
-````C#	
+````C#
 [WebService(Namespace = "http://tempuri.org/")]
 [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
 [ScriptService]
@@ -64,7 +60,7 @@ public class QuoteWebService : WebService
     {
         return "Hello World";
     }
-    [WebMethod(), Description("Gets DataSet of stock quote for a specific symbol")]
+    [WebMethod(EnableSession = true), Description("Gets DataSet of stock quote for a specific symbol")]
     public DataSet GetDSOfStockQuotes()
     {
         string stockTickers = "MSFT, YHOO, GOOG, HPQ, DELL, AAPL, NOVL";
@@ -281,7 +277,7 @@ Public Class QuoteWebService
         Return "Hello World"
     End Function
 
-    <WebMethod(), Description("Gets DataSet of stock quote for a specific symbol")> _
+    <WebMethod(EnableSession:=True), Description("Gets DataSet of stock quote for a specific symbol")> _
     Public Function GetDSOfStockQuotes() As DataSet
 
         Dim stockTickers As String = "MSFT, YHOO, GOOG, HPQ, DELL, AAPL, NOVL"
@@ -495,15 +491,16 @@ and the source code of the page holding the grid instance populated through a we
         var image = args.get_item().get_cell("Change").getElementsByTagName('img')[0];
         if (args.get_dataItem().Change > 0) {
           image.style.display = "";
-          image.src = "Images/up.gif"; spanControl.style.color = "green";
+                    image.src = "Images/up.gif"; image.alt = "up"; spanControl.style.color = "green";
         }
         else if (args.get_dataItem().Change < 0) {
           image.style.display = "";
-          image.src = "Images/down.gif";
+                    image.src = "Images/down.gif"; image.alt = "down";
           spanControl.style.color = "red";
         }
         else {
           image.style.display = "none";
+                    image.alt = "";
           spanControl.style.color = "";
         }
       }                                                                                                                          
@@ -527,7 +524,7 @@ and the source code of the page holding the grid instance populated through a we
           UniqueName="StockTicker" HeaderText="Stock Ticker" DataNavigateUrlFormatString="http://finance.yahoo.com/q?s={0}&amp;d=t" />
         <telerik:GridTemplateColumn UniqueName="Change" HeaderText="Change" DataField="Change">
           <ItemTemplate>
-            <asp:Image ID="DirectionImage" runat="server" AlternateText="up" Style="display: none" />&nbsp;
+            <asp:Image ID="DirectionImage" runat="server" AlternateText="" Style="display: none" />&nbsp;
             <asp:Label ID="Change" runat="server" Style="font-weight: bold;" />
           </ItemTemplate>
           <ItemStyle Width="150px" />
@@ -553,6 +550,12 @@ and the source code of the page holding the grid instance populated through a we
   </form>
 </body>
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Server binding through a web service]({%slug grid/data-binding/webservice-binding/server-binding%})
+- [Client-side binding specifics]({%slug grid/data-binding/client-side-binding/client-side-binding-specifics%})
 
 
 

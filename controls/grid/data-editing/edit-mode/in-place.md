@@ -120,7 +120,7 @@ SQL scripts to create and drop a sample database
 
 #### Create Script
 
-```sql
+````SQL
 -- Create a new database called 'RgInPlaceEditing'
 -- Connect to the 'master' database to run this snippet
 USE master
@@ -174,11 +174,11 @@ VALUES
  'First5', 'Last5'
 )
 GO
-```
+````
 
 #### Delete Script
 
-```SQL
+````SQL
 -- Drop the database 'RgInPlaceEditing'
 -- Connect to the 'master' database to run this snippet
 USE master
@@ -193,17 +193,17 @@ IF EXISTS (
 )
 DROP DATABASE RgInPlaceEditing
 GO
-```
+````
 
 ### Connection String
 
 Connection string in from the web.config in a Telerik ASP.NET WebForms Application Template which pionts to Visual Studio's localdb instance.
 
-```XML
+````XML
 <connectionStrings>
   <add name="DefaultConnection" connectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=RgInPlaceEditing;Integrated Security=True;" providerName="System.Data.SqlClient" />
 </connectionStrings>
-```
+````
 
 ### RadGrid Markup
 
@@ -362,6 +362,7 @@ public partial class Default : System.Web.UI.Page
     }
 }
 ````
+
 ````VB
 Imports System.Data.SqlClient
 Imports Telerik.Web.UI
@@ -449,5 +450,10 @@ Partial Class [Default]
     End Sub
 End Class
 ````
+
+## See Also
+
+- [Edit forms]({%slug grid/data-editing/edit-mode/edit-forms%})
+- [Popup edit form]({%slug grid/data-editing/edit-mode/popup-edit-form%})
 
 

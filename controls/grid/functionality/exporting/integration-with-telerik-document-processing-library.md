@@ -1,7 +1,7 @@
 ---
 title: Integration with Telerik Document Processing Library
 page_title: Integration with Telerik Document Processing Library - RadGrid
-description: Check our Web Forms article about Integration with Telerik Document Processing Library.
+description: Learn how to integrate RadGrid export with the Telerik Document Processing Library for advanced document generation.
 slug: grid/functionality/exporting/integration-with-telerik-document-processing-library
 components: ["grid"]
 tags: integration,with,telerik,document,processing,library
@@ -94,7 +94,7 @@ Steps to create a Workbook object, and Write text into Cells
 
 >caption Result
 
-![](images/grid-exporting-integration-with-dpl-excel-document-example.png)
+![Excel document generated with Telerik Document Processing](images/grid-exporting-integration-with-dpl-excel-document-example.png)
 
 This was just a very basic example of creating an Excel Document using the DPL. More information about the APIs and examples can be found on the DPL documentation page, see [Telerik Document Processing - SpreadProcessing](https://docs.telerik.com/devtools/document-processing/libraries/radspreadprocessing/overview).
 
@@ -190,7 +190,7 @@ Once done building the Workbook, you can convert it to an Excel Document and sav
 
 >caption Result
 
-![](images/grid-exporting-integration-with-dpl-word-document-example.png)
+![Word document generated with Telerik Document Processing](images/grid-exporting-integration-with-dpl-word-document-example.png)
 
 
 ## Save the Document to Disk
@@ -231,7 +231,7 @@ This uses the Workbook object created in the [Create an Excel Document](#create-
 
 >caption Result
 
-![](images/grid-exporting-integration-with-dpl-save-to-disk.png)
+![Saving an exported document to disk](images/grid-exporting-integration-with-dpl-save-to-disk.png)
 
 
 ## Download the Document
@@ -304,7 +304,7 @@ This uses the Workbook object created in the [Create an Excel Document](#create-
 
 >caption Result
 
-![](images/grid-exporting-integration-with-dpl-save-as.png)
+![Saving an exported document with Save As](images/grid-exporting-integration-with-dpl-save-as.png)
 
 
 
@@ -386,7 +386,7 @@ The following steps walk you through the entire process of Exporting the a simpl
 	
 		Private supportedItemTypes As GridItemType() = New GridItemType() {GridItemType.Header, GridItemType.AlternatingItem, GridItemType.Item}
     ````
-    ```C#
+	````C#
 	
 		foreach (GridItem item in RadGrid1.MasterTableView.GetItems(supportedItemTypes))
 		{

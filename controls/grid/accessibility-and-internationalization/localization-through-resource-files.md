@@ -1,7 +1,7 @@
 ---
 title: Localization through Resource Files
 page_title: Localization through Resource Files - RadGrid
-description: Check our Web Forms article about Localization through Resource Files.
+description: Learn how to localize RadGrid elements with RESX files and the ItemCreated event, including localized headers and edit command text.
 slug: grid/accessibility-and-internationalization/localization-through-resource-files
 components: ["grid"]
 tags: localization,through,resource,files
@@ -13,7 +13,7 @@ position: 5
 
 
 
-## 
+## Localizing RadGrid with resource files
 
 When localizing different elements of Telerik RadGrid, it may be necessary to use language sources, located in resource files. This process involves two steps:
 
@@ -56,7 +56,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB
+````VB.NET
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridHeaderItem Then
         Dim header As GridHeaderItem = CType(e.Item, GridHeaderItem)
@@ -90,6 +90,11 @@ DataKeyNames="CustomerID" DataSourceID="AccessDataSource1">
 
 
 Additional information on resource files, as well as explicit and implicit resource localization is available on the [Official ASP.NET Web Page Resources Overview](https://msdn2.microsoft.com/en-us/library/ms227427.aspx) by Microsoft.
+
+## See Also
+
+- [Localization through Global Resources]({%slug grid/accessibility-and-internationalization/localization-through-global-resources%})
+- [Localizing the Grid Messages]({%slug grid/accessibility-and-internationalization/localizing-the-grid-messages%})
 
 
 

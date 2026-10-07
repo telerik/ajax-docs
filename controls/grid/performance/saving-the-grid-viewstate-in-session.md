@@ -1,61 +1,75 @@
 ---
-title: Saving the grid ViewState in Session
-page_title: Saving the grid ViewState in Session - RadGrid
-description: Check our Web Forms article about Saving the grid ViewState in Session.
+title: Save RadGrid ViewState in Session
+page_title: Save RadGrid ViewState in Session
+description: Learn how to store RadGrid page state in the ASP.NET Session to reduce hidden-field payloads while keeping ViewState-dependent features available.
 slug: grid/performance/saving-the-grid-viewstate-in-session
 components: ["grid"]
-tags: saving,the,grid,viewstate,in,session
+tags: grid,viewstate,session,pagestatepersister,performance
 published: True
 position: 2
 ---
 
-# Saving the grid ViewState in Session
+# Save RadGrid ViewState in Session
 
+When **RadGrid** uses features that require ViewState, disabling **EnableViewState** is not an option. You can instead move ASP.NET page state from the hidden field to Session to reduce the amount of state sent to the browser.
 
+This approach requires ASP.NET Session state and increases server-side memory or session-storage usage. Evaluate session capacity, serialization, and load-balancing requirements before applying it. The ASP.NET **SessionPageStatePersister** does not store control state in Session by default, so configure `RequiresControlStateInSession=true` when the page depends on control state.
 
-## 
+## Configure SessionPageStatePersister
 
-There are cases in which you may want to reduce the grid ViewState though you have enabled multiple server/client side features of the control (thus bypassing the EnableViewState = false choice with [its limitations]({%slug grid/performance/optimizing-viewstate-usage%})). In such situation to work properly with the **NeedDataSource** advanced data-binding or population through data source control, Telerik RadGrid's ViewState has to be turned on.
+Add the following field and **PageStatePersister** property to the page code-behind. The example applies to ASP.NET 3.x and 4.x.
 
-Still, a possible solution for ViewState reduction is to relocate it in a Session variable. The code below illustrates how to apply this technique under ASP.NET 3.x or 4.x:**ASP.NET 3.x/4.x:**
-
-
+> caption Store ASP.NET page state in Session for a RadGrid page
 
 ````C#
-PageStatePersister _pers;
+using System.Web.UI;
+
+private PageStatePersister _persister;
+
 protected override PageStatePersister PageStatePersister
 {
     get
     {
-        if (_pers == null)
+        if (_persister == null)
         {
-            _pers = new SessionPageStatePersister(this);
+            _persister = new SessionPageStatePersister(this);
         }
-        return _pers;
+
+        return _persister;
     }
 }
 ````
-````VB	
-Dim _pers As PageStatePersister
+````VB
+Imports System.Web.UI
+
+Private _persister As PageStatePersister
+
 Protected Overrides ReadOnly Property PageStatePersister As PageStatePersister
     Get
-        If _pers Is Nothing Then
-            _pers = New SessionPageStatePersister(Me)
+        If _persister Is Nothing Then
+            _persister = New SessionPageStatePersister(Me)
         End If
-        Return _pers
+
+        Return _persister
     End Get
 End Property
 ````
 
+> caption Store control state in Session with ASP.NET page state
 
-Further information on this subject can be found in the MSDN articles linked below:
+````XML
+<system.web>
+    <browserCaps>
+        <case>
+            RequiresControlStateInSession=true
+        </case>
+    </browserCaps>
+</system.web>
+````
 
-[https://msdn.microsoft.com/en-us/library/aa479403.aspx](https://msdn.microsoft.com/en-us/library/aa479403.aspx)
-
-[https://msdn.microsoft.com/en-us/library/system.web.ui.pagestatepersister(VS.80).aspx](https://msdn.microsoft.com/en-us/library/system.web.ui.pagestatepersister(VS.80).aspx)
+For more information, see the [PageStatePersister class reference](https://learn.microsoft.com/en-us/dotnet/api/system.web.ui.pagestatepersister?view=netframework-4.8.1).
 
 ## See Also
 
- * [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
- 
- * [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})
+- [Grid Performance Optimizations]({%slug grid/performance/grid-performance-optimizations%})
+- [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})

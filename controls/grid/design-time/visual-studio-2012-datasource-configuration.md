@@ -1,7 +1,7 @@
 ---
 title: Visual Studio 2012 Datasource Configuration
 page_title: Visual Studio 2012 Datasource Configuration - RadGrid
-description: Check our Web Forms article about Visual Studio 2012 Datasource Configuration.
+description: Learn how to resolve the Visual Studio 2012 database schema error by configuring a LocalDB or SQL Server Express connection for RadGrid.
 slug: grid/design-time/visual-studio-2012-datasource-configuration
 components: ["grid"]
 tags: visual,studio,2012,datasource,configuration
@@ -18,9 +18,9 @@ previous_url: controls/grid/getting-started/visual-studio-2012-datasource-config
 
 * ![Database schema could not be retrieved dialog](images/grid_gettingstarted_exception.png)
 
-In order to get over this error, you should reconfigure the connection string that will be used. By default Visual Studio 2012 uses the LocalDB SQL Server which was introduced with SQL Server 2012. More information about the LocalDB feature could be found in [this](http://blogs.msdn.com/b/sqlexpress/archive/2011/07/12/introducing-localdb-a-better-sql-express.aspx) blog post.
+To resolve this error, reconfigure the connection string. By default, Visual Studio 2012 uses LocalDB, which was introduced with SQL Server 2012. For more information, see the [LocalDB overview](http://blogs.msdn.com/b/sqlexpress/archive/2011/07/12/introducing-localdb-a-better-sql-express.aspx).
 
-If you do not have the LocalDB option installed on your machine or if you do not want to use it, you cold use the following steps in order to start using the SQLExpress server again:
+If LocalDB is not installed or you do not want to use it, follow these steps to use the SQL Server Express server:
 
 * Once you get to the "Choose Your Data Connection" dialog, click the **"New Connection..."** button.
 ![grid gettingstarted exception new Connection](images/grid_getting_started_new_connection.png)
@@ -35,4 +35,9 @@ If you do not have the LocalDB option installed on your machine or if you do not
 * Once, you are done with these steps, verify the connection with the **"Test connection"** button.
 ![New connection dialog settings](images/grid_gettingstarted_exception_connectionPreferences.png)
 
-* Finally, click the "OK" button and proceed as usual.
+* Finally, click the **OK** button and proceed as usual.
+
+## See Also
+
+- [Getting started with RadGrid]({%slug grid/design-time/getting-started-with-radgrid-for-asp.net-ajax%})
+- [Visual Studio support]({%slug grid/design-time/visual-studio-support%})

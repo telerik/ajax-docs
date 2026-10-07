@@ -1,7 +1,7 @@
 ---
 title: Localizing the Grid Headers
 page_title: Localizing the Grid Headers - RadGrid
-description: Check our Web Forms article about Localizing the Grid Headers.
+description: Learn how to localize RadGrid header text for auto-generated and declarative columns by using resource files or grid events.
 slug: grid/accessibility-and-internationalization/localizing-the-grid-headers
 components: ["grid"]
 tags: localizing,the,grid,headers
@@ -13,11 +13,11 @@ position: 1
 
 
 
-If you develop a multilingual application, you might want to show grid headers text as per the current culture settings. This functionality is can be attained with Telerik RadGrid in the same way as with MS GridView (both controls will behave similarly when you switch the culture for the page which holds it).
+If you develop a multilingual application, you can display grid header text according to the current culture. RadGrid supports this behavior in the same way as the ASP.NET GridView control when you change the page culture.
 
-The first option to localize the header text is dynamically through resource files as shown [here]({%slug grid/accessibility-and-internationalization/localization-through-resource-files%}). Another possible solution is illustrated below (note that the first example is for auto-generated columns and the second example is for declarative columns):
+The first option is to localize header text dynamically through [RadGrid resource files]({%slug grid/accessibility-and-internationalization/localization-through-resource-files%}). Another option is shown below. The first example uses auto-generated columns, and the second uses declarative columns:
 
-## Example 1
+## Localizing auto-generated columns
 
 
 
@@ -48,7 +48,8 @@ protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs 
     }
 }
 ````
-````VB
+
+````VB.NET
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
     Dim boundColumn As GridColumn = CType(e.Column, GridColumn)
 
@@ -64,7 +65,7 @@ End Sub
 ````
 
 
-## Example 2
+## Localizing declarative columns
 
 
 
@@ -83,7 +84,7 @@ End Sub
 <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
   SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
-````VB
+````VB.NET
 Protected Sub RadGrid2_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid2.ItemCreated
     If TypeOf e.Item Is GridHeaderItem Then
         Dim headerItem As GridHeaderItem = CType(e.Item, GridHeaderItem)
@@ -116,4 +117,9 @@ protected void RadGrid2_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
+
+## See Also
+
+- [Localization through Resource Files]({%slug grid/accessibility-and-internationalization/localization-through-resource-files%})
+- [Localizing the Grid Messages]({%slug grid/accessibility-and-internationalization/localizing-the-grid-messages%})
 

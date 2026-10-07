@@ -29,7 +29,7 @@ When **EditMode** is "EditForms", the edit form appears immediately below the it
 
 
 
-![Edit in forms mode](images/grd_EditInForms.png)
+![RadGrid row displayed in an edit form](images/grd_EditInForms.png)
 
 When **EditMode** is "PopUp", the edit form appears in a popup window above the grid:
 
@@ -45,7 +45,7 @@ When **EditMode** is "PopUp", the edit form appears in a popup window above the 
 
 
 
-![Edit in forms mode](images/grd_EditPopupForm.png)
+![RadGrid row displayed in a popup edit form](images/grd_EditPopupForm.png)
 
 To limit the number of characters the user can enter in the text box editor of the edit form, set the **MaxLength** property of the column.
 
@@ -154,4 +154,9 @@ For Each item In RadGrid1.EditItems
 'perform further operations
 Next item
 ````
+
+## See Also
+
+- [In-place editing]({%slug grid/data-editing/edit-mode/in-place%})
+- [Custom edit forms]({%slug grid/data-editing/edit-mode/custom-edit-forms%})
 

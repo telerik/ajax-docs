@@ -1,7 +1,7 @@
 ---
 title: Keyboard support
 page_title: Keyboard support - RadGrid
-description: Check our Web Forms article about Keyboard support.
+description: Learn how to enable RadGrid keyboard navigation and configure shortcuts for focus, selection, editing, and row movement in ASP.NET AJAX.
 slug: grid/accessibility-and-internationalization/keyboard-support
 components: ["grid"]
 tags: keyboard,support
@@ -13,19 +13,19 @@ position: 7
 
 
 
-## 
+## Enabling keyboard navigation and supported shortcuts
 
 You can enable keyboard navigation in the **RadGrid** control by setting the **ClientSettings.AllowKeyboardNavigation** property to **True** (its default value is **False**) as well as test it in the [Keyboard Support demo](https://demos.telerik.com/aspnet-ajax/grid/examples/accessibility-and-internationalization/keyboard-support/defaultcs.aspx) demo. Currently the following features are supported:
 
 * **Access Keys**: An access key is a key combination (e.g. Alt+F) that lets the user move focus to the grid and subsequently use the Up and Down arrow keys for navigation. The access key is defined using the **AccessKey** property. For example, setting the **AccessKey** property to "F" enables users to move focus to the grid by typing Alt+F.
 
-* **FocusKey:**To specify the key combination that focuses the grid you need to set the **FocusKey** in the **KeyBoardNavigationSettings** tag property **-**the first key is preset to [CTRL] by design.
+* **FocusKey:** To specify the key combination that focuses the grid, set the **FocusKey** in the **KeyboardNavigationSettings** tag property. The first key is preset to [CTRL] by design.
 
 * **InitInsertKey**: Setting this property provides a shortcut for opening RadGrid insert form. The first key is preset to [CTRL] by design.
 
 * **RebindKey**: Allows the users to rebind RadGrid. The first key is preset to [CTRL] by design.
 
-* **AllowActiveRowCycle:**To allow the active row to cycle to the beginning upon having reached the end of the grid table, you have to set **ClientSettings -> KeyboardNavigationSettings -> AllowActiveRowCycle**property to **true**.
+* **AllowActiveRowCycle:** To allow the active row to cycle to the beginning after it reaches the end of the grid table, set the **ClientSettings -> KeyboardNavigationSettings -> AllowActiveRowCycle** property to **true**.
 
 * **Arrowkey Navigation**: When arrow key navigation is enabled, users can navigate the rows of the grid using the up and down arrow keys.
 
@@ -36,7 +36,7 @@ You can enable keyboard navigation in the **RadGrid** control by setting the **C
 * **Editing**: When editing is enabled, users can edit rows hitting the [ENTER] key. Then to update/insert rows they can use the [ENTER] key again. And to exit edit/insert mode without saving any changes, they can hit the [ESC] key.
 >caption 
 
-![Arrowkey Navigation ](images/grd_KeyboardNavigation1.png)
+![RadGrid keyboard navigation with an active row](images/grd_KeyboardNavigation1.png)
 
 >note If controls inside the grid use the same keys and combinations as the grid, and do not prevent (consume) the `keydown` event, you may get unexpected behavior. For example, rows may be changed in the batch edit mode while the user is attempting to navigate through a combo box list.
 >
@@ -47,5 +47,5 @@ You can enable keyboard navigation in the **RadGrid** control by setting the **C
 ## See Also
 
  * [Cancel Enter and Arrow Key Press ]({%slug grid/accessibility-and-internationalization/how-to/cancel-enter-and-arrow-key-press-%})
- * [Keyboard Support demo](https://demos.telerik.com/aspnet-ajax/grid/examples/accessibility-and-internationalization/keyboard-support/defaultcs.aspx)
+ * [WAI-ARIA Support]({%slug grid/accessibility-and-internationalization/wai-aria-support%})
  

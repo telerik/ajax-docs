@@ -13,8 +13,6 @@ position: 7
 
 
 
-## 
-
 Under .NET 2.x/3.x framework you can use the newly introduced **Bind**() syntax to perform two-way binding (to and from the underlying database):
 
 ````ASP.NET
@@ -34,4 +32,9 @@ This is especially useful for data editing operations like update or insert when
 
 >note With the Bind() syntax mentioned above you will be able to extract the updated by the user value from the FormTemplate without any additional code and pass it directly for the automatic update operation through the DataSource control (see [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%})).
 >
+
+## See Also
+
+- [Automatic DataSource operations]({%slug grid/data-editing/automatic-datasource-operations%})
+- [Updating values using InPlace and EditForms modes]({%slug grid/data-editing/update-records/updating-values-using-inplace-and-editforms-modes%})
 

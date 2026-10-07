@@ -1,7 +1,7 @@
 ---
 title: PDF Export
 page_title: PDF Export - RadGrid
-description: Discover how to export Grid data to PDF format for creating professional and shareable documents.
+description: Learn how to export RadGrid data to PDF format and configure the generated document for professional, shareable reports.
 slug: grid/functionality/exporting/pdf-export
 components: ["grid"]
 previous_url: controls/grid/functionality/exporting/export-formats/pdf-export
@@ -533,5 +533,10 @@ The following exceptions may occur when exporting the Grid to PDF.
     <a href="https://www.w3.org/TR/REC-html40/struct/links.html#h-12.2">W3.ORG</a>
     <%--VALID--%>
     ````
+
+## See Also
+
+- [Exporting overview]({%slug grid/functionality/exporting/overview%})
+- [Word HTML export]({%slug grid/functionality/exporting/word-export/word-html%})
  
 

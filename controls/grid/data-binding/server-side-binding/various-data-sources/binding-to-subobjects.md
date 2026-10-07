@@ -12,10 +12,6 @@ position: 3
 
 # Binding to SubObjects
 
-
-
-## 
-
 You can use a wide variety of custom objects as data sources for **RadGrid**. The only requirement is that the custom objects must implement the **ITypedList**, **IEnumerable**, or **ICustomTypeDescriptor** interface. **RadGrid** can bind to subobjects by the intuitive and simple **dot(.)** syntax (specified through the **DataField** property of declaratively bound columns). This dot syntax is shown in the following example.
 
 >note You may need to set the **RetrieveNullAsDBNull** property to **true** on the **MasterTableView** in order avoid binding problems.
@@ -75,7 +71,7 @@ public class MyObj
 }
 ````
 ````VB
-Private Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As WebControls.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
+Private Sub RadGrid1_NeedDataSource(ByVal source As Object, ByVal e As Telerik.Web.UI.GridNeedDataSourceEventArgs) Handles RadGrid1.NeedDataSource
     Dim list As New ArrayList
     list.Add(New MyObj("1"))
     list.Add(New MyObj("2"))
@@ -111,3 +107,9 @@ End Class
 
 
 For a live example that illustrates these features, see [Various data sources](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/Binding/DefaultCS.aspx).
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Binding to an ArrayList]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-an-arraylist%})
+- [Binding to nullable objects]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-nullable-objects%})

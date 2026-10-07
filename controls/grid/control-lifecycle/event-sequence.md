@@ -131,9 +131,9 @@ To see how to rebind the grid in this case, review the [Rebind Grid with EnableV
 
 ## See Also
 
-* [Telerik RadGrid lifecycle]({%slug grid/control-lifecycle/telerik-radgrid-lifecycle%})
-* [Differences Between ItemCreated and ItemDataBound ]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%})
-* [Commands that invoke Rebind Implicitly]({%slug grid/control-lifecycle/commands-that-invoke-rebind-implicitly%})
-* [Command Reference]({%slug grid/control-lifecycle/command-reference-%})
-* [How to Fire Command Events]({%slug grid/control-lifecycle/how-to-fire-command-events%})
+- [Telerik RadGrid lifecycle]({%slug grid/control-lifecycle/telerik-radgrid-lifecycle%})
+- [Differences Between ItemCreated and ItemDataBound]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%})
+- [Commands that invoke Rebind Implicitly]({%slug grid/control-lifecycle/commands-that-invoke-rebind-implicitly%})
+- [Command Reference]({%slug grid/control-lifecycle/command-reference-%})
+- [How to Fire Command Events]({%slug grid/control-lifecycle/how-to-fire-command-events%})
 

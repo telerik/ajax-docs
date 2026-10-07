@@ -13,8 +13,6 @@ position: 3
 
 
 
-## 
-
 To display a confirmation dialog that prompts the user whether a selected action should be executed (from a button in a template), invoke the **confirm** javascript method (or use **radConfirm** for a confirmation dialog that uses skins). If the user chooses the negative option in the confirmation dialog, return **false** from the **OnClientClick** event handler of the button.
 
 Here is an example:
@@ -51,4 +49,9 @@ Here is an example:
 
 The code above results in the following confirmation dialog when the user clicks on the image button:
 
-![Confirmation dialog](images/grd_ConfirmationDialog.png)
+![Delete confirmation dialog for a RadGrid item](images/grd_ConfirmationDialog.png)
+
+## See Also
+
+- [Adding a delete confirmation]({%slug grid/data-editing/delete-records/adding-a-delete-confirmation%})
+- [Client-side delete]({%slug grid/data-editing/delete-records/client-side-delete%})

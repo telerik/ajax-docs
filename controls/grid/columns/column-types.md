@@ -88,7 +88,7 @@ In addition, editable column types (column types that implement the **IGridEdita
 >
 
 
-In order to provide more control over the editing process, every editable column also has an **InsertVisiblityMode** property that determines whether an editor will be displayed in the insert item. You can set the property to one of three values:
+In order to provide more control over the editing process, every editable column also has an **InsertVisibilityMode** property that determines whether an editor will be displayed in the insert item. You can set the property to one of three values:
 
 * **Default** - The visibility is dependent on the **ReadOnly** property.
 
@@ -188,7 +188,7 @@ In addition, you can add a generic button column and specify what command it per
 In addition to specifying the command a button performs, you can specify the type of button the column displays. The available button types are: **PushButton**, **LinkButton** and **ImageButton**. **Image 1** shows a grid with each of these types of button columns:
 
 **Image 1**: **GridButtonColumn** with different types of buttons
-![](images/grd_ButtonTypes.png)
+![GridButtonColumn displaying different button types](images/grd_ButtonTypes.png)
 
 ## GridEditCommandColumn
 
@@ -242,7 +242,7 @@ Each cell in a **GridImageColumn** contains an image. To specify the image URL o
 
 * Set the **DataAlternateTextField** property to specify by which field in the grid source the column will be sorted/filtered. For the filtering, you must also explicitly set the **DataType** property of the column to the type of the field specified through the **DataAlternateTextField** property (**System.String** in the common case). You can also apply formatting using the **DataAlternateTextFormatString** property.
 
->note Note that if you specify a sort expression directly through the **SortExpression** property of the column, it will have a higher priority and	will override the sort/filter criteria of the **DataAlternateTextField** property.
+>note If you specify a sort expression directly through the **SortExpression** property of the column, it will have a higher priority and will override the sort/filter criteria of the **DataAlternateTextField** property.
 >
 
 
@@ -260,7 +260,7 @@ Other commonly used properties for that column are **AlternateText**, **ImageAli
 
 ## GridBinaryImageColumn
 
-Each cell in a **GridBinaryImageColumn** contains an image streamed from a binary image source field (specified through the **DataField** property of the column). When used, this column will show a **RadBinaryImage** control in view mode and **RadUpload** or**RadAsyncUpload** in edit mode to upload an image. The type of upload is determined by the **UploadControlType** property. Additionally, you can persist the binary data when an item is opened for edit by setting the **PersistBinaryDataOnEdit** property to **true**. This will force the control to pass the old binary image to the data source so it could be persisted and not deleted.
+Each cell in a **GridBinaryImageColumn** contains an image streamed from a binary image source field (specified through the **DataField** property of the column). When used, this column will show a **RadBinaryImage** control in view mode and **RadUpload** or **RadAsyncUpload** in edit mode to upload an image. The type of upload is determined by the **UploadControlType** property. Additionally, you can persist the binary data when an item is opened for edit by setting the **PersistBinaryDataOnEdit** property to **true**. This will force the control to pass the old binary image to the data source so it could be persisted and not deleted.
 
 The image will be sized automatically to **ImageHeight** and **ImageWidth** pixel values if the **ResizeMode** property of the column is different than **None**. Possible values for the **ResizeMode** property of the column are:
 
@@ -288,9 +288,9 @@ Other commonly used properties for that column are **AlternateText**, **ImageAli
 
 ## GridCheckBoxColumn
 
-**GridCheckBoxColumn** displays a check box to represent a Boolean value. Bind this column type to a Boolean field by setting its**DataField** property. If this column type is bound to a data value that is not Boolean, the grid throws an exception.
+**GridCheckBoxColumn** displays a check box to represent a Boolean value. Bind this column type to a Boolean field by setting its **DataField** property. If this column type is bound to a data value that is not Boolean, the grid throws an exception.
 
-When the grid is in browser mode, or if the column is read-only, the check box is disabled. When the column is editable, the check box is enabled.**GridCheckBoxColumn** implements the **IGridEditableColumn** interface, and by default, it provides a **GridCheckBoxListColumnEditor** for editing items.
+When the grid is in browser mode, or if the column is read-only, the check box is disabled. When the column is editable, the check box is enabled. **GridCheckBoxColumn** implements the **IGridEditableColumn** interface, and by default, it provides a **GridCheckBoxListColumnEditor** for editing items.
 
 The following example shows the declaration of a **GridCheckBoxColumn**:
 
@@ -326,14 +326,14 @@ The following example shows the declaration of a **GridCheckBoxColumn**:
 If the grid's **AllowMultiRowSelection** property is **True**, a check box is displayed in the column header as well as the rows of the grid. When the user clicks the check box in the header, the check box in every row of the current page of the grid changes to match the checked state of the check box in the header (and the row is selected or deselected, accordingly):
 
 **Image 4**: **RadGrid** rows selected with **GridClientSelectColumn**
-![](images/grd_GridClientSelectColumn.png)
+![RadGrid rows selected with GridClientSelectColumn](images/grd_GridClientSelectColumn.png)
 
 ## GridDragDropColumn
 
 When [Items Drag-and-Drop](https://www.telerik.com/help/aspnet-ajax/drag-drop-grid-items.html) is enabled in **RadGrid**, defining a **GridDragDropColumn** in the **Columns** collection of the respective **GridTableView** will make the data items inside draggable only when grabbed by the drag handle inside the column cells.
 
 **Image 5**: Dragging a row using **GridDragDropColumn**
-![](images/grd_dragdropcolumn.png)
+![Dragging a row using GridDragDropColumn](images/grd_dragdropcolumn.png)
 
 ## GridDropDownColumn
 
@@ -380,7 +380,7 @@ For more information on configuring **GridDropDownColumn**, see [Customize/Confi
 
 When in browser mode, **GridDateTimeColumn** looks and behaves like a standard **GridBoundColumn**. When in edit mode,however, it displays a **RadDateInput**, **RadDatePicker**, **RadTimePicker**, or**RadDateTimePicker** control. This column type is for date and time values. Its **DataField** property must identify a field with a valid data type (DateTime).
 
-This column type is editable (implements the **IGridEditableColumn** interface) and by default provides **GridDateTimeColumnEditor** as its column editor. You can use the **PickerType** property to specify the type of dataselection control the editor uses. The default editor/filter control (when filtering is enabled) is **RadDatePicker**.
+This column type is editable (implements the **IGridEditableColumn** interface) and by default provides **GridDateTimeColumnEditor** as its column editor. You can use the **PickerType** property to specify the type of data selection control the editor uses. The default editor/filter control (when filtering is enabled) is **RadDatePicker**.
 
 >note The control for editable cells in this column type can be accessed through the editor's **TextBoxControl** property (when using **RadDateInput** editor) or the **PickerControl** property (for **RadDatePicker**, **RadDateTimePicker** or **RadTimePicker** editors).
 >
@@ -492,7 +492,7 @@ The following table lists the operators you can use in the expression of a calcu
 
 **GridTemplateColumn** displays each cell in the column in accordance with a specified template. This lets you provide custom controls in the column. You can view and set the templates for this column type using the **Edit Templates** command on the **RadGrid** [Smart Tag]({%slug grid/design-time/smarttag%}).
 
-**Image 5**: Set templates for **GridTemplateColumn** using Smart Tag
+**Image 6**: Set templates for **GridTemplateColumn** using Smart Tag
 ![grid columntypes edittemplates](images/grid_columntypes_edittemplates.jpg)
 
 >note You can also create the template columns programmatically and bind the controls in the code-behind.
@@ -688,7 +688,7 @@ To retrieve or modify the value of the rating control in a given **RadGrid** ite
 >note As the **GridRatingColumn** renders a **RadRating** control both in view and edit mode, the **GridRatingColumnEditor** is always initialized. This means that you can access the editor using:
 >GridEditableItem.EditManager.GetColumnEditor([ColumnUniqueName])
 >even when the item is **not** in edit mode, including when you want to access a modified rating value on postback with **AllowRatingInViewMode = true** .
->Simirlary, GridEditableItem.ExtractValues(Hashtable values) will also return the modified rating value both in view and edit mode.
+>Similarly, GridEditableItem.ExtractValues(Hashtable values) will also return the modified rating value both in view and edit mode.
 >
 
 
@@ -702,22 +702,22 @@ The columns that are created automatically to facilitate some functionality are 
 
 This column appears when [row resizing]({%slug grid/rows/resizing-rows%}) is enabled. It provides an easy location for users to click in order to resize the respective row. This column always appears immediately before the first data column. The figure below shows how you could click to drag the row’s height to be taller or shorter.
 
-**Image 7**: Using **GridRowIndicatorColumn** to change the height of a row in **RadGrid**
+**Image 8**: Using **GridRowIndicatorColumn** to change the height of a row in **RadGrid**
 ![Row Resize and GridRowIndicatorColumn](images/grd_RowIndicatorColumn.png)
 
 ## GridGroupSplitterColumn
 
 The **GridGroupSplitterColumn** appears when [grouping]({%slug grid/functionality/grouping/overview%}) is enabled. It contains controls that allow users to expand and collapse groups of rows. This column always appears first.
 
-**Image 8**: **GridGroupSplitterColumn** example
+**Image 9**: **GridGroupSplitterColumn** example
 ![GridGroupSplitterColumn](images/grd_GroupSplitterColumn.png)
 
 ## GridExpandColumn
 
 The **GridExpandColumn** appears when the grid has a hierarchical structure. It lets the user expand and collapse detail tables in the grid. The expand column is always placed in front of all other grid content columns unless the grouping is enabled. In those cases, GridExpandColumn is after the **GridGroupSplitterColumn**.
 
-**Image 9**: **GridExpandColumn** example
-![GridGroupSplitterColumn](images/grid_expandcolumn.png)
+**Image 10**: **GridExpandColumn** example
+![GridExpandColumn](images/grid_expandcolumn.png)
 
 
 ## Specific Properties and Generated Controls
@@ -726,7 +726,7 @@ The base class of every column provided by RadGrid is **GridColumn**. Depending 
 
 | Column Type                   |   View Mode Control  | Default Edit Control | Specific Properties                                                                                                                                                                                                                                                                                              |
 |-------------------------------|:--------------------:|:--------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| GridEditableColumn (abstract) |           —          |           —          | ColumnEditorID, ColumnEditor, ConvertEmptyStringToNull, ForceExtractValue, ReadOnly, DefaultInsertValue, InsertVisiblityMode, AllowSorting, AllowFiltering, UseNativeEditorsInMobileMode                                                                                                                         |
+| GridEditableColumn (abstract) |           —          |           —          | ColumnEditorID, ColumnEditor, ConvertEmptyStringToNull, ForceExtractValue, ReadOnly, DefaultInsertValue, InsertVisibilityMode, AllowSorting, AllowFiltering, UseNativeEditorsInMobileMode                                                                                                                         |
 | GridAttachmentColumn          |    GridLinkButton    |       RadUpload      | **GridEditableColumn** + AttachmentKeyFields, AttachmentDataField, FileNameTextField, FileNameTextFormatString, FileName, DataSourceID, AllowedFileExtensions, MaxFileSize, ButtonType, ButtonCssClass, DataTextField, DataTextFormatString, Text, ImageUrl, UploadControlType                                       |
 | GridAutoCompleteColumn        |        Literal       |  RadAutoCompleteBox  | **GridEditableColumn** + DataField, DataSourceID, InputType, Filter, AllowCustomEntry, SelectionMode, AllowTokenEditing, Delimiter, DataTextField, DataValueField, EmptyDataText                                                                                                                                     |
 | GridBinaryImageColumn         |    RadBinaryImage    |       RadUpload      | **GridEditableColumn** + AlternateText, ImageWidth, ImageHeight, ImageAlign, DataAlternateTextField, DataAlternateTextFormatString, DataField, ResizeMode, DefaultImageUrl, SavedImageName, AutoAdjustImageControlSize                                                                                               |
@@ -750,3 +750,9 @@ The base class of every column provided by RadGrid is **GridColumn**. Depending 
 | GridRatingColumn              | RadRating (disabled) |       RadRating      | **GridEditableColumn** + DataField, ItemCount, SelectionMode, Precision, IsDirectionReversed, AllowRatingInViewMode                                                                                                                                                                                                  |
 | GridRowIndicatorColumn        |           —          |           —          | —                                                                                                                                                                                                                                                                                                                |
 | GridTemplateColumn            |        Custom        |        Custom        | **GridEditableColumn** + DataField, AutoPostBackOnFilter, Aggregate, EditItemTemplate*, InsertItemTemplate*, ClientItemTemplate*, FooterTemplate*, HeaderTemplate*, ItemTemplate*, InitializeTemplatesFirst, FooterAggregateFormatString                                                                             |
+
+## See Also
+
+- [Using columns]({%slug grid/columns/using-columns%})
+- [Working with autogenerated columns]({%slug grid/columns/working-with-autogenerated-columns%})
+- [Data binding overview]({%slug grid/data-binding/overview%})

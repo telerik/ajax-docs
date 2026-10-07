@@ -11,18 +11,14 @@ position: 3
 
 # Commands that invoke Rebind Implicitly
 
-
-
-## 
-
-This topic lists which internal grid commands make an implicit call to the **Rebind**() method of RadGrid in order to refresh the control's content and fetch the latest information from the grid source.Here is the complete list of commands that trigger **Rebind**():
+This topic lists which internal grid commands make an implicit call to the **Rebind**() method of RadGrid in order to refresh the control's content and fetch the latest information from the grid source. Here is the complete list of commands that trigger **Rebind**():
 
 
 
 
->caption  
+> caption Table 1: Commands that invoke Rebind implicitly
 
-|  **Command**  **Name**  |  **Field**  |
+| **Command Name** | **Field** |
 | ------ | ------ |
 |ExpandCollapse|RadGrid.ExpandCollapseCommandName|
 |Update|RadGrid.UpdateCommandName|
@@ -41,4 +37,10 @@ This topic lists which internal grid commands make an implicit call to the **Reb
 
 >note When RadGrid's ViewState is turned off, the NeedDataSource event does not fire after any of the above listed commands. This is so because it fires after Page_Load and the control already has a DataSource assigned when the command takes place. If you want to make the event fire in such scenarios, you need to first set RadGrid's DataSource to null/Nothing and then call Rebind().
 >
+
+## See Also
+
+- [Command Reference]({%slug grid/control-lifecycle/command-reference-%})
+- [Event sequence]({%slug grid/control-lifecycle/event-sequence%})
+- [Telerik RadGrid lifecycle]({%slug grid/control-lifecycle/telerik-radgrid-lifecycle%})
 

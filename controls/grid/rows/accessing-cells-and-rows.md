@@ -1,7 +1,7 @@
 ---
 title: Accessing Cells and Rows
 page_title: Accessing Cells and Rows - RadGrid
-description: Check our Web Forms article about Accessing Cells and Rows.
+description: Learn how to access RadGrid rows, cells, data keys, editors, and client-side values in ASP.NET AJAX.
 slug: grid/rows/accessing-cells-and-rows
 components: ["grid"]
 tags: accessing,cells,and,rows
@@ -10,7 +10,6 @@ position: 3
 ---
 
 # Accessing Cells and Rows
-
 
 ## Accessing Rows
 
@@ -45,7 +44,7 @@ End If
 
 Because of features such as [column reordering]({%slug grid/columns/reordering%}) and [grouping]({%slug grid/functionality/grouping/overview%}), the index of individual columns can change on the client. This means that using indexes to access individual cells in the **Cells** collection of a row is not a reliable method of obtaining a cell in a particular column.
 
-To provide a reliable way of locating the cell in a particular column, each column in the grid has a **UniqueName** propertyof type string. This property is assigned automatically at design time. For example, an auto-generated **GridBoundColumn** with **DataField** 'ContactName' generates a **UniqueName** of 'ContactName').You can also set the **UniqueName** property explicitly, although the automatic generation handles most cases. Using the **UniqueName** property of a column lets you reliably locate a column even when its index changes.
+To provide a reliable way to locate a cell in a particular column, each grid column has a **UniqueName** property of type `string`. This property is assigned automatically at design time. For example, an auto-generated **GridBoundColumn** with **DataField** `ContactName` has a **UniqueName** of `ContactName`. You can also set the **UniqueName** property explicitly, although automatic generation handles most cases. Using a column's **UniqueName** lets you locate the column reliably even when its index changes.
 
 
 
@@ -87,7 +86,7 @@ Dim boolValue As Boolean = TryCast(item("GridCheckBoxColumnUniqueName").Controls
 ````
 
 
-The same approach can be applied to header and footer items. Simply reference the header or footer item of the control and use the column **UniqueName** property to identify the cell of interest:
+The same approach applies to header and footer items. Reference the header or footer item and use the column's **UniqueName** property to identify the cell of interest:
 
 
 
@@ -114,20 +113,19 @@ Dim footerItem As GridFooterItem = CType(RadGrid1.MasterTableView.GetItems(GridI
 'fetch the data with footerItem("ColumnUniqueName").Text
 ````
 
-With the Q3 2015 release GridTableView exposes a new server-side GetHeaderCellByColumnUniqueName method which receives as a parameter a string(the column unique name) and return s GridTableHeaderCell object. The idea for creating such a method is to allow developers to more easily access the column header cells when mulit-column headers are used(you can also use the method in cases when column groups are not present). Additionally the GridTableHeaderCell object now has a ParentHeaderCell property which returns a reference to the parent GridTableHeaderCell. 
-This new addition will allow users to more easily access the parent header cells if some modifications are to be performed. An example use of the new method can be seen below: 
+The **GridTableView.GetHeaderCellByColumnUniqueName** server-side method accepts a column's unique name and returns a **GridTableHeaderCell** object. Use this method to access a column header cell when you use multi-column headers or regular columns. The **GridTableHeaderCell.ParentHeaderCell** property returns a reference to the parent header cell.
 
 ````C#
 GridTableHeaderCell cell = RadGrid1.MasterTableView.GetHeaderCellByColumnUniqueName("ContactName");
 ````
 
 ````VB
-Dim cell As ridTableHeaderCell = RadGrid1.MasterTableView.GetHeaderCellByColumnUniqueName("ContactName")
+Dim cell As GridTableHeaderCell = RadGrid1.MasterTableView.GetHeaderCellByColumnUniqueName("ContactName")
 ````
 
 ## Accessing Raw Field Data and Key Values
 
-Accessing the cell value via the **cell.Text** approach demonstrated in the previous section works for the majority of the scenarios. However, in some cases, the Text of the cell is modified, e.g. when using the **DataFormatString** property of the column, therefore, the obtained value would not be the same as in the database. For instance, it is a common practice to display numeric values as Currency and it may turn out a troublesome task to parse the string text back to its original numeric form.
+Accessing a cell value through **cell.Text**, as shown in the previous section, works for most scenarios. However, the cell text can be modified by the column's **DataFormatString**, so the value may differ from the database value. For example, parsing a currency-formatted number back to its original numeric form can be troublesome.
 
 In such cases, it is useful to extract the data directly from the underlying **DataItem** object of the **GridDataItem** instance. The **DataItem** is available only within the **OnItemDataBound** event handler provided by RadGrid.
 
@@ -150,7 +148,7 @@ Protected Sub RadGrid1_ItemDataBound(sender As Object, e As GridItemEventArgs)
 End Sub
 ````
 
-If you need to get the value during any other phase, you can include the Field name in the **DataKeyNames** property of the **MasterTableView** or the corresponding **GridTableView** tag and use the **GetDataKeyValue** method.
+If you need the value during another phase of the page lifecycle, include the field name in the **DataKeyNames** property of the **MasterTableView** or the corresponding **GridTableView** tag, and then use the **GetDataKeyValue** method.
 
 ````C#
 protected void RadGrid1_ItemCommand(object sender, GridCommandEventArgs e)
@@ -171,11 +169,11 @@ Protected Sub RadGrid1_ItemCommand(sender As Object, e As GridCommandEventArgs)
 End Sub
 ````
 
->tip If you are using detail tables, you may want to check the `item.OwnerTableView.Name` you are accessing to prevent null reference errors. You can find [here](access-parent-data.zip) an example that explains in detail how this is done and how to get data from parent tables as well.
+>tip If you are using detail tables, check the `item.OwnerTableView.Name` before accessing a value to prevent null reference errors. Download the [access-parent-data.zip](access-parent-data.zip) example for a detailed demonstration of how to access data from parent tables.
 
 ## Accessing Controls in Template Column
 
-While accessing cells with Template columns remains the same, you could use a little different approach to get the controls in the cell. For example, to access a TextBox declared in the ItemTemplate of the column:
+Accessing a cell in a template column is the same as accessing any other cell. To access a **TextBox** declared in the column's **ItemTemplate**, use **FindControl** on the data item:
 
 
 
@@ -289,15 +287,15 @@ Dim textBox As TextBox = CType(userControl.FindControl("TextBox1"), TextBox)
 ````
 
 
->caution  **InPlace** EditMode is supported only for an **AutoGenerated** EditFormType. In this case, the editable item is of type **GridDataItem** or **GridDataInsertItem** , rather than **GridEditFormItem** and **GridEditFormInsertItem** as usual.
+>caution **InPlace** **EditMode** is supported only for an **AutoGenerated** **EditFormType**. In this case, the editable item is **GridDataItem** or **GridDataInsertItem**, rather than the usual **GridEditFormItem** or **GridEditFormInsertItem**.
 >
 
 ## Accessing Controls in Batch Edit Mode
 
-Essentially, **Batch editing** is a bit different from the other Edit modes. It is mainly a client-side functionality and in this sense, it would be reasonable to implement javascript approaches when accessing the individual elements generated in the cells. This can be achieved using the client-side event handlers provided by RadGrid regarding its **Batch editing** feature:
+**Batch editing** differs from the other edit modes because it is primarily a client-side feature. Use JavaScript and the client-side events provided by **RadGrid** to access the elements generated in the cells:
 [OnBatchEditOpened Client-Side Event]({%slug grid/client-side-programming/events/onbatcheditopened%})
 
-Let's take for example the GridDateTime column of a RadGrid with 10 items per page. Unlike the other Edit modes, there are not **10 different RadDatePicker** controls generated to edit each of the records, but there is **only 1 picker** loaded on the server, which contributes for ideal performance and rendering optimization. If you access the generated picker on code-behind and apply some properties, e.g. **FocusedDate**, the setting will be applied to all the picker elements of the column.
+For example, consider a **GridDateTimeColumn** in a **RadGrid** with 10 items per page. Unlike the other edit modes, RadGrid does not generate 10 separate **RadDatePicker** controls. It loads one picker on the server and reuses it for the column. If you set a property such as **FocusedDate** in code-behind, the setting applies to all picker elements in that column.
 
 >caption How to access the built-in column editor
 
@@ -341,7 +339,7 @@ Read more in the [Batch editing mode]({%slug grid/data-editing/edit-mode/batch-e
 
 ## Accessing Cells and Values in Client-Side Code
 
-Once you have a reference to the client-side object of a **GridDataItem**, there are several ways to access its cell values. There are several ways to get a reference to the grid data item object.
+Once you have a reference to the client-side object of a **GridDataItem**, you can access its cell values in several ways. You can get a reference to the client-side item by traversing the DOM or by using its index.
 
 >caption How to access the data item object by traversing the DOM:
 
@@ -368,7 +366,7 @@ function getDataClientSide(btn) {
 	//you can use the other available methods of the item
 	//alert(gridRowObj.get_itemIndexHierarchical())
 }
-function enumareteDataItems(sender, args) {
+function enumerateDataItems(sender, args) {
 	//enumerate the data items so they are available
 	//this puts them in memory, so you can move it to the button click handler
 	//which will, however, cause the enumeration on every click
@@ -376,12 +374,13 @@ function enumareteDataItems(sender, args) {
 }
 ````
 
-and the grid declaration. Note the `ClientDataKeyNames` so you can access those columns client-side.
+The following grid declaration uses `ClientDataKeyNames` so the `id` and `name` values are available on the client.
 
 ````ASP.NET
+<asp:ScriptManager ID="ScriptManager1" runat="server" />
 <telerik:RadGrid runat="server" ID="RadGrid1" RenderMode="Lightweight" OnItemCommand="RadGrid1_ItemCommand" OnNeedDataSource="RadGrid1_NeedDataSource">
 	<ClientSettings>
-		<ClientEvents OnGridCreated="enumareteDataItems" />
+		<ClientEvents OnGridCreated="enumerateDataItems" />
 	</ClientSettings>
 	<MasterTableView AutoGenerateColumns="false" ClientDataKeyNames="id,name">
 		<Columns>
@@ -450,7 +449,7 @@ var item = masterTable.get_dataItems()[3];//where 3 is the hierarchical index of
 
 Once you have a reference to the grid row data item on the client-side, you can use various methods to get information from it:
 
-### get_cell() 
+### get_cell()
 
 Using the **get_cell()** method is the most straightforward approach to get to the DOM of the grid so you can extract text, or access controls/elements. You need to pass the `UniqueName` of the column whose cell you want.
 
@@ -519,3 +518,7 @@ Dim parentTable As GridTableView = childItem.OwnerTableView.ParentItem.OwnerTabl
 ## See Also
 
  * [Column Types]({%slug grid/columns/column-types%})
+
+ * [Data Items]({%slug grid/rows/data-items%})
+
+ * [Accessing Values and Controls]({%slug grid/accessing-values-and-controls/overview%})

@@ -1,7 +1,7 @@
 ---
 title: Client-side Selecting Multiple Rows
 page_title: Client-side Selecting Multiple Rows - RadGrid
-description: Check our Web Forms article about Client-side Selecting Multiple Rows.
+description: Learn how to select multiple RadGrid rows on the client and handle selected items with the grid's JavaScript API.
 slug: grid/functionality/selecting/selecting-rows/client-side-selecting-multiple-rows
 components: ["grid"]
 tags: client-side,selecting,multiple,rows
@@ -13,8 +13,6 @@ position: 3
 
 
 
-## 
-
 **RadGrid** allows users to select several rows at a time. By default, only one row can be selected at a time. To enable multi-row selection, set the grid's **AllowMultiRowSelection** property to **True**.
 
 When multi-row selection is enabled, clicking on a row still de-selects any other selected rows. Users can select multiple rows by holding the **Ctrl** key down while clicking on a row:
@@ -23,7 +21,7 @@ When multi-row selection is enabled, clicking on a row still de-selects any othe
 
 By holding the **Shift** key down while clicking, the grid selects all rows between the last selected row and the current click:
 
-![](images/ShiftSelect.PNG)
+![Selecting multiple rows with the Shift key](images/ShiftSelect.PNG)
 
 Another way users can select multiple rows is by dragging around a set of rows. To enable this option, set the **ClientSettings.Selecting.EnableDragToSelectRows** property to **True:**
 
@@ -37,7 +35,7 @@ Another way users can select multiple rows is by dragging around a set of rows. 
 
 When multi-row selection is enabled, if you add a **GridClientSelectColumn** to the grid, the header for the column contains a check box that selects or de-selects all items in the grid:
 
-![](images/GridClientSelectColumn.PNG)
+![Selecting rows with a client-side select column](images/GridClientSelectColumn.PNG)
 
 The selected items can be accessed by calling the **get_selectedItems()** method of the **GridTableView** client-side object (see the **Client-side API Reference** section for more information).
 
@@ -68,5 +66,9 @@ You can also set these properties at runtime in the code-behind:
 	RadGrid1.ClientSettings.Selecting.EnableDragToSelectRows = true
 ````
 
-
 For a live example that demonstrates client-side multi-row selection, see [ Client-side row selection](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Client/Selecting/DefaultCS.aspx).
+
+## See Also
+
+- [Selecting overview]({%slug grid/functionality/selecting/overview%})
+- [Selecting a row with a click]({%slug grid/functionality/selecting/selecting-rows/client-side-selecting-with-a-click%})

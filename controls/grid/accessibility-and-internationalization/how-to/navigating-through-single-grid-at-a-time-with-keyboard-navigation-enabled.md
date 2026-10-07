@@ -1,7 +1,7 @@
 ---
 title: Navigating through single grid at a time with keyboard navigation enabled
 page_title: Navigating through single grid at a time with keyboard navigation enabled - RadGrid
-description: Check our Web Forms article about Navigating through single grid at a time with keyboard navigation enabled.
+description: Learn how to limit keyboard navigation to one RadGrid at a time when multiple grids share a page and handle active row changes.
 slug: grid/accessibility-and-internationalization/how-to/navigating-through-single-grid-at-a-time-with-keyboard-navigation-enabled
 components: ["grid"]
 tags: navigating,through,single,grid,at,a,time,with,keyboard,navigation,enabled
@@ -13,9 +13,9 @@ position: 0
 
 
 
-## 
+## Limiting keyboard navigation to one grid
 
-When you place several grid instances on the same page with keyboard navigation switched on and navigate through the records using the arrow keys, all grids will intercept the active row changes. To avoid this default behavior and navigate through a single grid item at time, you can intercept the *OnActiveRowChanging *event of each grid instance and cancel the action depending on certain condition (for example allow the navigation in the boundaries of the last hovered table).
+When several grid instances on the same page have keyboard navigation enabled, all grids can intercept active row changes from the arrow keys. Handle the `OnActiveRowChanging` event for each grid and cancel the action unless the last hovered grid should receive the navigation.
 
 The forthcoming code implementation demonstrates the approach in a real-life scenario:
 
@@ -58,4 +58,9 @@ SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 
 
 
-Note that you can alter the logic to support similar behavior when selecting a row in one of the grids or other type of action.
+You can adapt the logic to apply the same behavior when selecting a row or handling another grid action.
+
+## See Also
+
+- [Keyboard Support]({%slug grid/accessibility-and-internationalization/keyboard-support%})
+- [Cancel Enter and Arrow Key Press]({%slug grid/accessibility-and-internationalization/how-to/cancel-enter-and-arrow-key-press-%})

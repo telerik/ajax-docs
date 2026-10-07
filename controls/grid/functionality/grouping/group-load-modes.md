@@ -1,7 +1,7 @@
 ---
 title: Group Load Modes
 page_title: Group Load Modes - RadGrid
-description: Check our Web Forms article about Group Load Modes.
+description: Learn how to configure RadGrid group load modes to control whether grouped data is loaded on the client or server.
 slug: grid/functionality/grouping/group-load-modes
 components: ["grid"]
 tags: group,load,modes
@@ -12,8 +12,6 @@ position: 2
 # Group Load Modes
 
 
-
-## 
 
 You can specify whether a table view in the grid handles grouping on the client or on the server:
 
@@ -39,3 +37,8 @@ You can specify whether a table view in the grid handles grouping on the client 
 
 
 For a live example that demonstrates the **GroupLoadMode** property, see [Client group load](https://demos.telerik.com/aspnet-ajax/Grid/Examples/GroupBy/GroupLoadModeClient/DefaultCS.aspx).
+
+## See Also
+
+- [Grouping overview]({%slug grid/functionality/grouping/overview%})
+- [Group footers]({%slug grid/functionality/grouping/group-footers%})

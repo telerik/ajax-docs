@@ -12,28 +12,24 @@ position: 1
 
 # Binding To DataReader
 
-
-
-## 
-
 You can extract values from your data source using a **DataReader** instance (calling the **ExecuteReader**() method for your **OleDbCommand/SqlCommand** command). That **DataReader** can be used as a **RadGrid** data source.
 
-The following example shows how to use a **DataReader** using the grid's **NeedDataSource** event. It uses an Access data source and **SqlDataReader**:
+The following example shows how to use a **DataReader** using the grid's **NeedDataSource** event. It uses a SQL data source and **SqlDataReader**:
 
 RadGrid's declaration:
 
 
 
-````C#
+````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
-    GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource1" PageSize="10">
+    GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource1" OnDataBound="RadGrid1_DataBound" PageSize="10">
     <MasterTableView AutoGenerateColumns="true" DataKeyNames="CustomerID">
     </MasterTableView>
 </telerik:RadGrid>
 ````
-````VB
+````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AllowPaging="True" CellSpacing="0"
-    GridLines="None" PageSize="10">
+    GridLines="None" OnNeedDataSource="RadGrid1_NeedDataSource" OnDataBound="RadGrid1_DataBound" PageSize="10">
     <MasterTableView AutoGenerateColumns="true" DataKeyNames="CustomerID">
     </MasterTableView>
 </telerik:RadGrid>
@@ -100,4 +96,10 @@ End Sub
 
 >note The most appropriate place to close the DataReader and the connection is in the **DataBound** event handler of the grid, as shown above.
 >
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Binding to a DataTable or DataSet]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-datatable-or-dataset%})
+- [Binding to an ArrayList]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-an-arraylist%})
 

@@ -1,7 +1,7 @@
 ---
 title: Adding Columns from Design Time
 page_title: Adding Columns from Design Time - RadGrid
-description: Check our Web Forms article about Adding Columns from Design Time.
+description: Learn how to generate RadGrid columns automatically or configure specific column types from the Visual Studio design-time editor.
 slug: grid/design-time/adding-columns-from-design-time
 components: ["grid"]
 tags: adding,columns,from,design,time
@@ -58,3 +58,8 @@ In the "Available Columns" list there are some special columns. These columns do
 These columns are available in the *MasterTableView -> Columns* collection from the RadGrid Property Grid in Visual Studio (see the screenshot below) and described in the [Column Types]({%slug grid/columns/column-types%}) topic.
 
 ![Property Builder](images/grd_DesignPropertyGrid.PNG)
+
+## See Also
+
+- [Setting RadGrid properties]({%slug grid/design-time/setting-radgrid%})
+- [Adding controls to column templates]({%slug grid/design-time/add-controls-to-column-templates%})

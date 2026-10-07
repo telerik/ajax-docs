@@ -1,7 +1,7 @@
 ---
-title: Most Common Mistakes
-page_title: Most Common Mistakes - RadGrid
-description: Check our Web Forms article about Most Common Mistakes.
+title: Most Common RadGrid Mistakes
+page_title: Most Common RadGrid Mistakes
+description: Learn how to avoid common structure, data binding, view state, hierarchy, and item event mistakes in RadGrid for ASP.NET AJAX.
 slug: grid/troubleshooting/most-common-mistakes
 components: ["grid"]
 tags: most,common,mistakes
@@ -9,25 +9,23 @@ published: True
 position: 0
 ---
 
-# Most Common Mistakes
+# Most Common RadGrid Mistakes
 
+This article describes seven common mistakes when using **RadGrid** and explains how to avoid them.
 
+## 1. Build the Columns and Detail Tables Correctly
 
-This help article describes seven common mistakes that customers make using RadGrid and offers solutions to the problems.
+Build the **RadGrid** structure consistently so that its columns and detail tables are recreated at the correct point in the page lifecycle. Creating the structure with the Visual Studio designer reduces the chance of configuration errors. When you create it programmatically, remember that **RadGrid** stores structure properties such as **DetailTables** and **Columns** in view state.
 
-## 1. Incorrect Structure of Columns or DetailTables.
+The following approaches are supported for creating a grid structure programmatically.
 
-In order for **RadGrid** to work properly, it is very important to build the grid structure correctly. When you create the structure using the designer (in Visual Studio) there is less of a chance that mistakes will be made. The more difficult and error-prone task is creating the structure programmatically. Since **RadGrid** saves all of its structure properties (**DetailTables**, **Columns**, etc.) into the ViewState, building a **RadGrid**dynamically is a task very similar to creating and adding controls dynamically to a web page.
+### Build the Structure in Page.Init
 
-The following two scenarios offer possible approaches to dynamically create a **RadGrid** that ensure that **RadGrid** will behave normally.
+Create the **RadGrid** instance and its structure in the **Page.Init** event handler, then add the instance to the page's control collection. Because the structure is recreated during every page initialization, view state is not required to persist the structure.
 
-## 1st Scenario:
+> caption Create a RadGrid and its columns during Page.Init
 
-You can create the **RadGrid** instance and the grid structure in the **Page.Init** event handler.Then the instance of **RadGrid** is added to the controls collection of the Page. In this case, no **ViewState**is required for the grid structure to be persisted because it is recreated on each page initialization. There are no other special requirements in this case.
-
-
-
-````C#	
+````C#
 this.RadGrid1 = new RadGrid();
 
 this.RadGrid1.NeedDataSource += new GridNeedDataSourceEventHandler(this.RadGrid1_NeedDataSource);
@@ -46,17 +44,15 @@ this.RadGrid1.ClientSettings.AllowDragToGroup = true;
 this.RadGrid1.MasterTableView.DataMember = "Customers";
 this.RadGrid1.MasterTableView.PageSize = 15;
 
-GridBoundColumn boundColumn;
-boundColumn = new GridBoundColumn();
+GridBoundColumn boundColumn = new GridBoundColumn();
 boundColumn.DataField = "CustomerID";
 boundColumn.HeaderText = "CustomerID";
 this.RadGrid1.MasterTableView.Columns.Add(boundColumn);
-....
-//Add to page controls collection
-this.PlaceHolder1.Controls.Add( RadGrid1 );          
+// Add other columns and detail tables here.
+this.PlaceHolder1.Controls.Add(this.RadGrid1);
 ````
 ````VB
-Me.RadGrid1 = new RadGrid();
+Me.RadGrid1 = New RadGrid()
 
 AddHandler Me.RadGrid1.NeedDataSource, New GridNeedDataSourceEventHandler(AddressOf Me.RadGrid1_NeedDataSource)
 AddHandler Me.RadGrid1.DetailTableDataBind, New GridDetailTableDataBindEventHandler(AddressOf Me.RadGrid1_DetailTableDataBind)
@@ -74,35 +70,27 @@ Me.RadGrid1.ClientSettings.AllowDragToGroup = true
 Me.RadGrid1.MasterTableView.DataMember = "Customers"
 Me.RadGrid1.MasterTableView.PageSize = 15
 
-Dim column1 As New GridBoundColumn
+Dim boundColumn As New GridBoundColumn()
 boundColumn.DataField = "CustomerID"
 boundColumn.HeaderText = "CustomerID"
 Me.RadGrid1.MasterTableView.Columns.Add(boundColumn)
 
-    '...
-‘Add to page controls collection
-Me.PlaceHolder1.Controls.Add( RadGrid1 )</pre>
+Me.PlaceHolder1.Controls.Add(Me.RadGrid1)
 ````
 
+### Build the Structure in Page.Load
 
-## 2nd Scenario
+Add **RadGrid** to the page with the designer, but create its programmatic structure in the **Page.Load** event handler only when `Page.IsPostBack` is `false`. Add each new column or detail table to the corresponding collection before setting its properties so that view state can manage the object.
 
-You can add **RadGrid** to the page using the designer, but create the structure programmatically in the**Page.Load** event handler. In this scenario, the structure should be built only where **Page.IsPostBack**is **false**. You should also add the instances of any created objects, such as columns and detail tables, to the**RadGrid** before any of those object’s properties have been set. This is important because no **ViewState**is managed for the object before it has been added to the corresponding collection.
+> caption Add a dynamically created column to the grid before setting its properties
 
-Example:
-
-
-
-````C#	
+````C#
 private void Page_Load(object sender, System.EventArgs e)
 {
     if (!IsPostBack)
     {
-        GridBoundColumn boundColumn;
-        //Important: first Add column to the collection
-        boundColumn = new GridBoundColumn();
+        GridBoundColumn boundColumn = new GridBoundColumn();
         this.RadGrid1.MasterTableView.Columns.Add(boundColumn);
-        //Then set properties
         boundColumn.DataField = "CustomerID";
         boundColumn.HeaderText = "CustomerID";
     }
@@ -111,105 +99,85 @@ private void Page_Load(object sender, System.EventArgs e)
 ````VB
 Private Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
     If Not IsPostBack Then
-        Dim column1 As New GridBoundColumn
-        'Important: first Add column to the collection
-        Me.RadGrid1.MasterTableView.Columns.Add(column1)
-        'Then set properties
-        column1.DataField = "CustomerID"
-        column1.HeaderText = "CustomerID"
+        Dim boundColumn As New GridBoundColumn()
+        Me.RadGrid1.MasterTableView.Columns.Add(boundColumn)
+        boundColumn.DataField = "CustomerID"
+        boundColumn.HeaderText = "CustomerID"
     End If
 End Sub
 ````
 
+## 2. Use the NeedDataSource Event Correctly
 
-## 2. Misusing or Not Using NeedDataSource Event
+The **NeedDataSource** event lets **RadGrid** recreate its items after operations such as paging, sorting, and grouping. Assign a **DataSource** in this event and let RadGrid call `DataBind()` internally. Do not call `DataBind()` in the **NeedDataSource** handler.
 
-The **NeedDataSource** event helps you easily control events like paging, sorting, and grouping, with**RadGrid**. Using these types of **PostBack** events, which **RadGrid** fires, can lead to a change in the **Items** collections of each **GridTableView** in a **RadGrid**.A structural change here means that items should be recreated. In order to achieve that, the **RadGrid** should have a**DataSource** assigned and the **DataBind()** method should be called. Then, instead of writing all the code to handle the appropriate scenario, you can just let RadGrid handle these changes internally and only handle **NeedDataSource**,which fires at the exact time the items should be recreated.
-
->important You should avoid using the **NeedDataSource** event handler to change the structure of an instance of **RadGrid** . If it is necessary to change the structure, you may need to use the event argument object to check the reasonthat **NeedDataSource** was being fired. Also, the developer should not call the **DataBind()** method inthe **NeedDataSource** event handler. It will be called internally when needed.
+>important Avoid changing the **RadGrid** structure in the **NeedDataSource** event handler. If a structural change is necessary, use the event argument to check why **NeedDataSource** was raised. Do not call **DataBind()** in the handler because RadGrid calls it internally when needed.
 >
 
+RadGrid raises **NeedDataSource** when it knows that an operation requires its items to be recreated. After changing the grid structure or data outside those operations, call `Rebind()`. This method causes RadGrid to raise **NeedDataSource** and bind the data again. For an example, see the [NeedDataSource demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx).
 
-Often developers do not realize that **NeedDataSource** is called only when **RadGrid** "knows" about the structural changes, such as when a sort or page command is executed. In all other cases, when you make changes to the structure of the grid that require binding, you should call the **Rebind()** method. This method will first check if the**DataSource** has been assigned, then it will force the RadGrid instance to fire **NeedDataSource**and then **DataBind()**. You can find more information about using **NeedDataSource** and when this event fires in this [online demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx)
+## 3. Disable ViewState Only in Supported Scenarios
 
-## 3. Using EnableViewState = false in Non-supported Scenarios
+See [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%}) for details about the **EnableViewState** property.
 
-See [Switching off RadGrid's viewstate ]({%slug grid/performance/optimizing-viewstate-usage%}) topic for details about the **EnableViewState**property.
+## 4. Access Cells by UniqueName Instead of a Numeric Index
 
-## 4. Using Cell Numeric Index to Find a Cell in a GridItem Instead of Using Item's String Index by Column.UniqueName
+Unlike the standard .NET **DataGrid**, **RadGrid** has a dynamic column structure. Column reordering and grouping can change the **Cells** collection of **GridItem** objects, so a numeric index can refer to a different field after a user action.
 
-One of the major differences between **RadGrid** and the standard .NET **DataGrid** control is the dynamic column structure of **RadGrid**. Unlike the **DataGrid**, **RadGrid** supports operations such as column reordering and grouping which alter the **Cells** collection of **GridItem**objects in a way that can’t be predicted by the page developer. For example, when using a **DataGrid**, many developers used to search a cell in an item using the following code:
+Do not use a numeric cell index such as `item.Cells[4]` because column reordering can change which field the index identifies.
 
-
-
-````C#
-item.Cells[4]          
-````
-````VB
-item.Cells(4)
-````
-
-
-However, imagine that the user has changed the column order using a client-side drag-and-drop operation. Then the cell with index 4 will no longer refer the same field value. That's why **RadGrid** provides the ability to access cells in items using the corresponding column’s **UniqueName**. For example, if you have a column with the unique name "CustomerID" you can find the corresponding cell in a **GridItem** using:
-
-
+> caption Access a GridDataItem cell by its column UniqueName
 
 ````C#
-item.Cells["CustomerID"] 
-//for GridDataItem you can replace that with
-item["CustomerID"]          
+GridDataItem dataItem = (GridDataItem)item;
+dataItem["CustomerID"];
 ````
 ````VB
-item.Cells("CustomerID")
-'for GridDataItem you can replace that with
-item("CustomerID")
+Dim dataItem As GridDataItem = DirectCast(item, GridDataItem)
+dataItem("CustomerID")
 ````
 
+Using the column's **UniqueName** keeps the lookup associated with the intended field.
 
-This will prevent you from accessing the wrong cell.
+## 5. Find Controls in the Correct Edit Item
 
-## 5. Finding Controls Inside RadGrid
-
-You should note the following about searching for controls in an item that is in edit mode. Unlike the **DataGrid/GridView**control, **RadGrid** supports the **EditForms** feature that is set by default. It alters the "traditional"editing style by displaying an edit form item (row), below the item currently being edited, instead displaying the in-place editors. That is why,if you have template columns for example, and you have to search for a control that is in the edit template, you should search the**EditFormItem** instead of the edited item. This item is accessible using the**GridDataItem.EditFormItem** property.
+Unlike the **DataGrid** or **GridView** controls, **RadGrid** uses the **EditForms** mode by default. The edit form appears in a separate item below the item being edited instead of replacing the row with in-place editors. Search the **EditFormItem** when you need to find a control from an edit template. Access it through the **GridDataItem.EditFormItem** property.
 
 Additional details can be found in these help resources:
 
-[InPlace editing]({%slug grid/data-editing/edit-mode/in-place%})[EditForms editing]({%slug grid/data-editing/edit-mode/edit-forms%})[Custom edit forms]({%slug grid/data-editing/edit-mode/custom-edit-forms%})
+- [InPlace editing]({%slug grid/data-editing/edit-mode/in-place%})
+- [EditForms editing]({%slug grid/data-editing/edit-mode/edit-forms%})
+- [Custom edit forms]({%slug grid/data-editing/edit-mode/custom-edit-forms%})
 
-## 6. Overusing Hierarchical Structure in TreeView Style Scenarios
+## 6. Choose the Appropriate Hierarchical Control
 
-To better understand how **RadGrid** deals with hierarchy, refer to the article: [Understanding hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%}).
+For an overview of RadGrid hierarchy, see [Understanding hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%}).
 
-**RadGrid**supports hierarchical database structure or building hierarchy through self-referencing source table (having ID->ParentID relations in the same DataTable). This means that with [standard hierarchy](https://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarativerelations/defaultvb.aspx), in each level of hierarchy, all items will have an equal number of details tables (one or[several in the same level]({%slug grid/hierarchical-grid-types-and-load-modes/several-tables-at-a-level%})).
+**RadGrid** supports a hierarchical database structure or a self-referencing source table with `ID` and `ParentID` relations. In a [standard hierarchy](https://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarativerelations/defaultvb.aspx), each level has the same number of detail tables for its items. A level can have [several tables]({%slug grid/hierarchical-grid-types-and-load-modes/several-tables-at-a-level%}) when the data model requires them.
 
-This is unlike the **RadTreeView** control which supports different number of sub-items on each level - the equivalent in thiscase is **RadTreeList** control that allows you to have variable number of nested sub-tables in each level. Refer to[this online demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx) for further reference.
+Unlike **RadTreeView**, RadGrid does not support a different number of nested tables for each item in the same hierarchy level. Use **RadTreeList** when you need variable-depth, tree-like data. See the [RadTreeList overview demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx).
 
 >note Note that **RadGrid** will not behave correctly if you add detail tables programmatically in **DetailTableDataBind** event handler.
 >
 
+## 7. Check the Item Type and Table When Handling Item Events
 
-## 7. Common Mistakes When Handling the ItemDataBound or ItemCreated Events.
+The **ItemCreated** and **ItemDataBound** event handlers let you manipulate controls and cell values in **RadGrid**. For event differences, see [Differences between ItemCreated and ItemDataBound]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}).
 
-**ItemDataBound** and **ItemCreated** event handler allows you to manipulate the controls and the	values of each cell in **RadGrid**. The differences between those two events is discussed thoroughly in	[this topic]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). When handling **ItemCreated** and	**ItemDataBound** events, forgetting to check for the appropriate:
+When handling either event, check the following values before applying logic:
 
-* **GridItemType** - At the following [article](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_griditemtype.html)you can find a list with all available item types.
+- **GridItemType**: Check `e.Item.ItemType` before casting or customizing the item. See the [GridItemType API reference](https://www.telerik.com/help/aspnet-ajax/t_telerik_web_ui_griditemtype.html) for the available values.
+- **Detail table**: Check `e.Item.OwnerTableView.DataMember`, `e.Item.OwnerTableView.DataSourceID`, or `e.Item.OwnerTableView.Name` to identify the hierarchy level. The appropriate property depends on how the table is bound.
 
-* Detail table in the hierarchical structure - This check can be done using: **- e.Item.OwnerTableView.DataMember** property (.NET 2.x when not using data source controls)**- e.Item.OwnerTableView.DataSourceID**(.NET 2.x/3.x/4.x with data source controls) or**-e.Item.OwnerTableView.Name** (.NET 2.x/3.x/4.x)where **e** is the event parameter of the event handler method. This way you can avoid possible problems when performing customization of items specific to a certain level of the hierarchy.A code sample is available in [this section]({%slug grid/how-to/hierarchy/distinguish-grid-rows-on-itemcreated-and-itemdatabound%}) of the help as well.
+See [Distinguishing grid rows in ItemCreated and ItemDataBound]({%slug grid/how-to/hierarchy/distinguish-grid-rows-on-itemcreated-and-itemdatabound%}) for an example.
 
 ## See Also
 
- * [Simple Vs Advanced Data Binding](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx)
-
- * [Standard Hierarchy](https://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarative-relations/defaultcs.aspx)
-
- * [RadTreeList](https://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx)
-
- * [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})
-
- * [Understanding hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%})
-
- * [InPlace editing]({%slug grid/data-editing/edit-mode/in-place%})
-
- * [EditForms editing]({%slug grid/data-editing/edit-mode/edit-forms%})
-
- * [Custom edit forms]({%slug grid/data-editing/edit-mode/custom-edit-forms%})
+- [NeedDataSource demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/NeedDataSource/DefaultCS.aspx)
+- [Standard hierarchy demo](https://demos.telerik.com/aspnet-ajax/grid/examples/hierarchy/declarativerelations/defaultcs.aspx)
+- [RadTreeList overview demo](https://demos.telerik.com/aspnet-ajax/treelist/examples/overview/defaultcs.aspx)
+- [Optimizing ViewState usage]({%slug grid/performance/optimizing-viewstate-usage%})
+- [Understanding hierarchical grid structure]({%slug grid/hierarchical-grid-types-and-load-modes/understanding-hierarchical-grid-structure%})
+- [InPlace editing]({%slug grid/data-editing/edit-mode/in-place%})
+- [EditForms editing]({%slug grid/data-editing/edit-mode/edit-forms%})
+- [Custom edit forms]({%slug grid/data-editing/edit-mode/custom-edit-forms%})

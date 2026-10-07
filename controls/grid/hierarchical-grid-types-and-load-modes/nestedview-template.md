@@ -1,7 +1,7 @@
 ---
 title: NestedView template
 page_title: NestedView template - RadGrid
-description: Learn how to use the NestedView template in the Grid control for displaying hierarchical data.
+description: Learn how to use the RadGrid NestedViewTemplate and NestedViewSettings to display related records in a custom hierarchical detail view.
 slug: grid/hierarchical-grid-types-and-load-modes/nestedview-template
 components: ["grid"]
 tags: nestedview,template
@@ -9,14 +9,13 @@ published: True
 position: 8
 ---
 
-# NestedView template
+# NestedView Template
 
+The RadGrid `NestedViewTemplate` lets you customize the structure and appearance of detail content in a hierarchical grid. Use it to display related content in a separate view for each detail item or to provide tabs for navigating between entries.
 
+![RadGrid hierarchy with a NestedViewTemplate](images/grid_hierarchy_nestedviewtemplate.jpg)
 
-This feature of RadGrid gives you the freedom to design the overall structure and appearance of detail tables in hierarchical grid. Thus based on your custom preferences you have the ability model the look and feel of the child table container in order to display the detail info in non table-dependant format. The functionality is especially useful when you would like to present the related content providing separate view for each detail item or tabs for navigation between the entries.
-![grid hierarchy nestedviewtemplate](images/grid_hierarchy_nestedviewtemplate.jpg)
-
-The detail table template should be specified between the NestedViewTemplate tags of its parent GridTableView. The template will appear when you expand the respective parent item. In addition, the nested view template can be data bound to a single record from a data source object by setting the NestedViewSettings.DataSourceID property of the give table view and defining a relation to the parent level through the NestedViewSettings.ParentTableRelation property of the same table view. Here is the overall structure of hierarchical grid with detail templates:
+Specify the detail template between the `NestedViewTemplate` tags of its parent **GridTableView**. The template appears when you expand the parent item. You can also bind the nested view template to a single record by setting **NestedViewSettings.DataSourceID** and defining the parent relation through **NestedViewSettings.ParentTableRelation**. The following example shows the overall structure of a hierarchical grid with detail templates:
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
@@ -25,7 +24,9 @@ The detail table template should be specified between the NestedViewTemplate tag
            <!-- Column definitions here, optional if using auto-generated columns -->
        </Columns>
        <NestedViewSettings DataSourceID="SqlDataSource2">
-           <ParentTableRelation MasterKeyField="CustomerID" DetailKeyField="CustomeriD"/>
+           <ParentTableRelation>
+             <telerik:GridRelationFields MasterKeyField="CustomerID" DetailKeyField="CustomerID" />
+           </ParentTableRelation>
        </NestedViewSettings>
        <NestedViewTemplate>
            <!-- NestedView template definition here -->
@@ -34,7 +35,7 @@ The detail table template should be specified between the NestedViewTemplate tag
 </telerik:RadGrid>
 ````
 
-or
+Alternatively, define the `NestedViewTemplate` inside a detail table:
 
 
 ````ASP.NET
@@ -54,12 +55,12 @@ or
         </GridTableView>
        </DetailTables>
     </MasterTableView>
-</telerik:RadGrid
+</telerik:RadGrid>
 ````
 
 
 
-Note that when you set NestedView template at a given level the regular detail tables definitions you may have at the same level will be disregarded. For example, the detail tables between the **DetailTables** tag in this code will be automatically ignored:
+When you set a nested view template at a given level, RadGrid ignores regular detail table definitions at the same level. For example, RadGrid ignores the detail tables between the **DetailTables** tags in the following code:
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" DataSourceID="SqlDataSource1" runat="server">
@@ -76,12 +77,12 @@ Note that when you set NestedView template at a given level the regular detail t
 
 
 
-Online demo representing the NestedView template feature of RadGrid can be viewed [here](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Hierarchy/nestedviewtemplatedeclarativerelations/defaultcs.aspx).
+For a live example of the RadGrid `NestedViewTemplate` feature, see the [NestedViewTemplate demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Hierarchy/nestedviewtemplatedeclarativerelations/defaultcs.aspx).
 
 
-To support this feature, RadGrid exposes an additional property for its table view objects called **NestedViewSettings**. The **NestedViewSettings** allow you to specify a data source object contained on the page to which the template should be bound, as well as a relation to the parent level. These two properties can be defined declaratively or programmatically through the **NestedViewSettings.DataSourceID** and **NestedViewSettings.ParentTableRelation** properties respectively. The **ParentTableRelation** is specified in the same way as the declarative relations for hierarchical tables.
+To support this feature, RadGrid exposes a **NestedViewSettings** property for its table view objects. **NestedViewSettings** lets you specify the data source on the page to which the template is bound and the relation to the parent level. Define these settings declaratively or programmatically through **NestedViewSettings.DataSourceID** and **NestedViewSettings.ParentTableRelation**. Specify **ParentTableRelation** in the same way as declarative relations for hierarchical tables.
 
-As with the hierarchy declarative relations, you should have a WHERE clause in the SelectCommand of the data source control for the nested view template to retrieve the record for it. The WHERE clause should include the field from the ParentTableRelation definition between the master/child table. Furthermore, the same field has to be included in the SelectParameters of the "inner" data source controls with exactly the same Name. However, **no** SesssionField value is required.If more than one records are fetched from the data source for the nested view template, only the first one will be used to bind the controls in the latter.Below is a code extraction from the sample:
+As with declarative hierarchy relations, the data source for the nested view template must use a `WHERE` clause to retrieve the related record. The `WHERE` clause must include the field from the **ParentTableRelation** definition between the master and child tables. Include the same field in the inner data source control's **SelectParameters** with exactly the same `Name`. However, a **SessionField** value is not required. If the data source returns more than one record, RadGrid uses only the first record to bind the controls in the template. The following code is an excerpt from the sample:
 
 ````ASP.NET
 <telerik:ScriptManager ID="ScriptManager1" runat="server" />
@@ -157,7 +158,7 @@ As with the hierarchy declarative relations, you should have a WHERE clause in t
   </SelectParameters>
 </asp:SqlDataSource>
 <asp:SqlDataSource ID="SqlDataSource1" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
-  SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName]FROM [Customers]"
+  SelectCommand="SELECT [CustomerID], [CompanyName], [ContactName] FROM [Customers]"
   runat="server"></asp:SqlDataSource>
 ````
 
@@ -185,7 +186,7 @@ An alternative approach to binding the nested view template without defining nes
   <MasterTableView Width="100%" DataSourceID="SqlDataSource1" DataKeyNames="CustomerID"
     AllowMultiColumnSorting="True">
     <NestedViewTemplate>
-      <fieldset style="padding: 10px;">
+      <fieldset id="InnerContainer" runat="server" style="padding: 10px;">
         <legend style="padding: 5px;"><b>Orders for contact name:</b>
           <asp:Label ID="Label1" Font-Bold="true" Font-Italic="true" Text='<%# Eval("CustomerID") %>'
             Visible="false" runat="server" />
@@ -225,14 +226,9 @@ An alternative approach to binding the nested view template without defining nes
 </asp:SqlDataSource>
 ````
 
-
 ````C#
 public partial class DefaultCS : System.Web.UI.Page
 {
-    protected void RadChart1_ItemDataBound(object sender, Telerik.Charting.ChartItemDataBoundEventArgs e)
-    {
-        e.SeriesItem.Name = (string)DataBinder.Eval(e.DataItem, "pName");
-    }
     protected void RadGrid1_PreRender(object sender, EventArgs e)
     {
         if (!Page.IsPostBack)
@@ -261,9 +257,6 @@ public partial class DefaultCS : System.Web.UI.Page
 ````VB
 Partial Public Class DefaultVB
     Inherits System.Web.UI.Page
-    Protected Sub RadChart1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Charting.ChartItemDataBoundEventArgs)
-        e.SeriesItem.Name = DirectCast(DataBinder.Eval(e.DataItem, "pName"), String)
-    End Sub
     Protected Sub RadGrid1_PreRender(ByVal sender As Object, ByVal e As EventArgs) Handles RadGrid1.PreRender
         If Not Page.IsPostBack Then
             RadGrid1.MasterTableView.Items(0).Expanded = True
@@ -282,4 +275,10 @@ Partial Public Class DefaultVB
     End Sub
 End Class
 ````
+
+## See Also
+
+- [What you should know about hierarchical grids]({%slug grid/hierarchical-grid-types-and-load-modes/what-you-should-know%})
+- [Hierarchical data binding using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%})
+- [Hierarchy load modes]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes%})
 

@@ -1,7 +1,7 @@
 ---
 title: GridHyperLinkColumn/GridTemplateColumn
 page_title: GridHyperLinkColumn/GridTemplateColumn - RadGrid
-description: Check our Web Forms article about GridHyperLinkColumn/GridTemplateColumn.
+description: Learn how to configure sorting for GridHyperLinkColumn and GridTemplateColumn in RadGrid using their sort expressions and templates.
 slug: grid/functionality/sorting/gridhyperlinkcolumn-and-gridtemplatecolumn
 components: ["grid"]
 tags: gridhyperlinkcolumn/gridtemplatecolumn
@@ -56,5 +56,10 @@ You can add a sort button to a template in the grid. When adding a sort button, 
     </HeaderTemplate>
     ...			
 ````
+
+## See Also
+
+- [Sorting overview]({%slug grid/functionality/sorting/overview%})
+- [Sort expressions]({%slug grid/functionality/sorting/sort-expressions%})
 
 

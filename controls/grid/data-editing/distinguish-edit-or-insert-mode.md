@@ -13,13 +13,11 @@ position: 8
 
 
 
-## 
+In various situations, you may want to detect whether the user is editing a grid item or performing an insert operation. This is useful when you want different appearances for the edit form during insertion and editing, such as with a **WebUserControl** or **FormTemplate** custom edit form. For example, you may want to hide the primary key field or change the **Update** button text to **Insert** during the initial insert. These online examples demonstrate the second functionality:
 
-In various situations you may want to detect whether the user is currently editing grid item or performs an insert operation. This is useful if you would like to have different appearance for the edit form on item insertion than that on item editing (suitable for **WebUserControl** or **FormTemplate** custom edit form). For example, you may want to hide primary key field from the form or change **update** button text to **insert** on initial insert. These online example demonstrates the second functionality:
+[C# edit and insert form demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
 
-[https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultCS.aspx)
-
-[https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx)
+[VB.NET edit and insert form demo](https://demos.telerik.com/aspnet-ajax/Grid/Examples/DataEditing/TemplateFormUpdate/DefaultVB.aspx)
 
 And the code extractions are:
 
@@ -37,7 +35,7 @@ runat="server" CommandName='<%# IIf( DataBinder.Eval(Container, "OwnerTableView.
 
 
 
-You can check the type of the editable item in the **ItemCreated/ItemDataBound** handlers of the grid to verifywhether the item is in edit or insert mode. Then you can modify the edit form appearance(on **ItemCreated**) or edit form controls values (on **ItemDataBound**) if needed. Below are sample code snippets:
+You can check the type of the editable item in the **ItemCreated** or **ItemDataBound** handlers of the grid to verify whether the item is in edit or insert mode. Then you can modify the edit form appearance in **ItemCreated** or the edit form control values in **ItemDataBound**. Below are sample code snippets:
 
 
 
@@ -94,4 +92,9 @@ End Sub 'RadGrid1_ItemDataBound
 ````
 
 
-For more information concerning the major differences between **ItemCreated** and **ItemDataBound** events please read [this article]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). You can also learn how to control the edit/insert/regular modes in the grid (to prevent unexpected results when both edit and insert form is opened) from [this topic]( https://www.telerik.com/help/aspnet-ajax/grid-switching-insert-add-modes.html ).
+For more information about the differences between the **ItemCreated** and **ItemDataBound** events, see [Differences between ItemCreated and ItemDataBound]({%slug grid/control-lifecycle/differences-between-itemcreated-and-itemdatabound-%}). You can also learn how to control the edit, insert, and regular modes in the grid from [Controlling insert and edit modes](https://www.telerik.com/help/aspnet-ajax/grid-switching-insert-add-modes.html).
+
+## See Also
+
+- [Inserting values using InPlace and EditForms modes]({%slug grid/data-editing/insert-records/inserting-values-using-inplace-and-editforms-modes%})
+- [Updating values using InPlace and EditForms modes]({%slug grid/data-editing/update-records/updating-values-using-inplace-and-editforms-modes%})

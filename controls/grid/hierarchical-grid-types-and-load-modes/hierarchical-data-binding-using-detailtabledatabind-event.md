@@ -1,7 +1,7 @@
 ---
 title: Hierarchical data-binding using DetailTableDataBind event
 page_title: Hierarchical data-binding using DetailTableDataBind event - RadGrid
-description: Check our Web Forms article about Hierarchical data-binding using DetailTableDataBind event.
+description: Learn how to bind RadGrid detail tables with the DetailTableDataBind event and filter each child data source for its parent item.
 slug: grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-detailtabledatabind-event
 components: ["grid"]
 tags: hierarchical,data-binding,using,detailtabledatabind,event
@@ -9,9 +9,7 @@ published: True
 position: 4
 ---
 
-# Hierarchical data-binding using DetailTableDataBind event
-
-
+# Hierarchical Data Binding Using DetailTableDataBind Event
 
 To display hierarchical data, **RadGrid** renders one or more detail tables for each item (row) in the **MasterTableView**. In a multi-level hierarchy, each item of every detail table can have one or more detail tables as well. The level of the grid hierarchy can be arbitrarily deep.
 
@@ -23,7 +21,7 @@ When the **DetailTableDataBind** event occurs depends on the [HierarchyLoadMode]
 
 * If **HierarchyLoadMode** is set to **ServerOnDemand**, the **DetailTableDataBind** event does not occur until the detail table's parent item is expanded.
 
-## Using DetailTableDataBind
+## Using the DetailTableDataBind Event
 
 The main steps when binding a hierarchical grid using the **DetailTableDataBind** event are as follows:
 
@@ -35,21 +33,21 @@ The main steps when binding a hierarchical grid using the **DetailTableDataBind*
 
 1. In the **DetailTableDataBind** event handler, assign or configure the data sources for the detail tables in the grid. You can determine which datasource should be related to the parent **GridTableView** by checking the **Name** property, **DataSourceID** property (when using data source controls) or **DataMember** property (when not using data source controls). If the DetailTableDataBind event is not handled, each detail table will be bound to the same datasource as the master table without any filtering applied on the records.
 
->note When binding RadGrid in DetailTableDataBind, you must not use declarative relations (ParentTableRelations) in markup.
+>note When binding RadGrid in the **DetailTableDataBind** event, do not use declarative relations (**ParentTableRelation**) in markup.
 >
 
 
 For a live example that demonstrates binding a hierarchical grid using the **DetailTableDataBind** event, see [Hierarchy with DetailTableDataBind event](https://demos.telerik.com/aspnet-ajax/Grid/Examples/Programming/DetailTableDataBind/DefaultCS.aspx).
 
->note You can use the **DetailTableDataBind** event handler to assign a **NoRecordsTemplate** for the **GridTableView** . This is a template that is displayed if there are no records in the assigned **DataSource** (see[Using NoRecordsTemplate]({%slug grid/data-binding/using-norecordstemplate%})).
+>note You can use the **DetailTableDataBind** event handler to assign a **NoRecordsTemplate** for the **GridTableView**. This template appears when the assigned **DataSource** has no records (see [Using NoRecordsTemplate]({%slug grid/data-binding/using-norecordstemplate%})).
 >
 
 
-When implementing a **DetailTableDataBind** event handler, you should construct a detail data source (list of objects) that the detail table view displays. This data source should be filtered in the appropriate manner: it should contain only detail table records that correspond to the particular parent item in which the table is nested.
+When implementing a **DetailTableDataBind** event handler, provide a detail data source, such as a list of objects, for the detail table view. Filter the data source so that it contains only records for the parent item that contains the detail table.
 
 The following examples show some possible ways to filter the detail data source. These examples all assume the approach where the **DataSource** and **DataMember** properties of the detail tables are assigned in the **NeedDataSource** event handler, and **DetailTableDataBind** is used to configure the data source:
 
-## Binding detail tables using database select
+## Binding Detail Tables with a Database Query
 
 
 
@@ -84,7 +82,7 @@ End Sub
 ````
 
 
-## Binding detail tables using DataTable.Select
+## Binding Detail Tables with DataTable.Select
 
 
 
@@ -117,7 +115,7 @@ End Sub
 ````
 
 
-## Binding detail tables using a filtered DataView
+## Binding Detail Tables with a Filtered DataView
 
 
 
@@ -152,4 +150,10 @@ Private Sub RadGrid1_DetailTableDataBind(ByVal source As Object, ByVal e As Grid
     End If
 End Sub
 ````
+
+## See Also
+
+- [Hierarchy load modes]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchy-load-modes%})
+- [Hierarchical data binding using declarative relations]({%slug grid/hierarchical-grid-types-and-load-modes/hierarchical-data-binding-using-declarative-relations%})
+- [Traversing detail tables and items]({%slug grid/hierarchical-grid-types-and-load-modes/traversing-detail-tables%})
 

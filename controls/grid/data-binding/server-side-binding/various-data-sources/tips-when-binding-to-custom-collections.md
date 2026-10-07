@@ -137,10 +137,10 @@ public SubObject SubObjectProperty
 //This implementation of ICustomTypeDescriptor is general for all
 //types of objects that can serve as data-items in data-list
 //controls, including RadGrid, DataGrid, GridView, DataList, etc.
-//Note that the columns should be defined for the propertes of sub objects
+//Note that the columns should be defined for the properties of sub objects
 //no auto-generated columns can be used, unless the collection of
 //objects bound to the data-list control implements the ITypedList
-//intereface. The DataField of such columns showing sub-properties
+//interface. The DataField of such columns showing sub-properties
 //should be constructed from the name of the property + _ +
 //name of the sub-property:
 //if sub-property is accessed using "SubProperty.Name", the DataField
@@ -233,7 +233,7 @@ Namespace BusinessObjects
                                     res.Add(descriptor)
                                 End If
                             Next desc
-               Catch Else
+               Catch
                         End Try
                         'Is object's getter throws, just ignore
                     ElseIf Not (aggObjectDescriptor.Attributes(GetType(PresentationHidden)) Is Nothing) Then
@@ -420,15 +420,12 @@ Imports System.ComponentModel
 Imports System.Web.UI
 
 Namespace BusinessObjects
-    _
         Friend Class IntroduceObjectAttribute
             Inherits Attribute
         End Class 'IntroduceObjectAttribute
-    _
         Friend Class PresentationHidden
             Inherits Attribute
         End Class 'PresentationHidden
-    _
         Friend Class CustomTypeDescriptorHelper
             Public Overloads Shared Function GetExtendedProperties(ByVal originalProperties As PropertyDescriptorCollection) As PropertyDescriptorCollection
                 Dim originalArray(originalProperties.Count) As PropertyDescriptor
@@ -464,7 +461,6 @@ Namespace BusinessObjects
                 Return GetExtendedProperties(originalProperties)
             End Function 'GetExtendedProperties
         End Class 'CustomTypeDescriptorHelper
-    _
         Friend Class AggregatedObjectPropertyDescriptor
             Inherits PropertyDescriptor
             Private parentPropertyName As String
@@ -522,9 +518,9 @@ This implementation also allows **RadGrid** and **GridView** (and other similar)
 
 The implementation of **ITypedList** for the business-objects collection allows **RadGrid** and **GridView** to enumerate the properties of the business objects in the collection. This also allows **RadGrid** to automatically sort, group-by and filter these extended properties.
 
-## Binding to a collections of dynamic objects
+## Binding to a collection of dynamic objects
 
-When you need to bind the grid control to a collection of dynamic objects it is important to know that only template columns are supported. In addition you should take in mind that the DataItem should be cast as a dynamic type and the dynamic object property name should be referenced in order for the binding expressions to work.
+When you need to bind the grid control to a collection of dynamic objects it is important to know that only template columns are supported. In addition, keep in mind that the DataItem should be cast as a dynamic type and the dynamic object property name should be referenced in order for the binding expressions to work.
 
 >caution  **Sorting** , **Grouping** and **Filtering** are not supported when the grid is bound to a collection of dynamic objects.
 >
@@ -642,4 +638,10 @@ Public Class DynamicObj
     End Function
 End Class
 ````
+
+## See Also
+
+- [Data binding overview]({%slug grid/data-binding/overview%})
+- [Binding to subobjects]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-subobjects%})
+- [Binding to LinqDataSource]({%slug grid/data-binding/server-side-binding/various-data-sources/binding-to-linqdatasource%})
 

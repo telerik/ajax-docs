@@ -1,7 +1,7 @@
 ---
 title: Setting Pager Template
 page_title: Setting Pager Template - RadGrid
-description: Check our Web Forms article about Setting Pager Template.
+description: Learn how to customize the RadGrid pager with a pager template and control the layout and content of the paging interface.
 slug: grid/functionality/paging/changing-the-default-pager/setting-pager-template
 components: ["grid"]
 tags: setting,pager,template
@@ -133,7 +133,6 @@ Protected Sub RadGrid1_ItemCommand(ByVal sender As Object, ByVal e As GridComman
     End If
 End Sub
 ````
-
 
 
 ## Setting preferences for controls inside the PagerTemplate at runtime
@@ -492,3 +491,8 @@ End Class
 For detailed information about how to create templates programmatically, see the following **MSDN** article:
 
 [https://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx](https://msdn.microsoft.com/en-us/library/aa289501%28v=vs.71%29.aspx)
+
+## See Also
+
+- [Paging overview]({%slug grid/functionality/paging/overview%})
+- [Programmatic pager customization]({%slug grid/functionality/paging/changing-the-default-pager/programmatic-pager-customization%})

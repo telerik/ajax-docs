@@ -1,7 +1,7 @@
 ---
 title: Docx (DOCX)
 page_title: Word-Docx (OOXML) Export - RadGrid
-description: Word-Docx (OOXML) Export
+description: Learn how to export RadGrid data to Word DOCX (OOXML) format and configure the generated document output for reporting.
 slug: grid/functionality/exporting/word-export/word-docx
 components: ["grid"]
 tags: html-based,export
@@ -164,5 +164,10 @@ Exporting the following features are not supported
 - Binary Images
 * Automatic column/row resizing
 * [Custom skins]({%slug grid/appearance-and-styling/skins%}) whose images are set via the `ImagesPath` property instead of referenced in the stylesheet.
+
+## See Also
+
+- [Word HTML export]({%slug grid/functionality/exporting/word-export/word-html%})
+- [Excel XLSX export]({%slug grid/functionality/exporting/excel-export/excel-xlsx%})
 
  

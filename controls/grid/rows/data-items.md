@@ -11,9 +11,7 @@ position: 0
 
 # Data Items
 
-
-
-Rows in **RadGrid** are presented by the **GridItem** class and its descendants. There are two types of rows:
+Rows in **RadGrid** are represented by the **GridItem** class and its descendants. There are two types of rows:
 
 * Static rows
 
@@ -21,13 +19,13 @@ Rows in **RadGrid** are presented by the **GridItem** class and its descendants.
 
 ## Static Rows
 
-Static rows are always present in the grid structure regardless of whether they are visible or not. The number of these items is always known. To this group belong [Header and Footer rows]({%slug grid/columns/using-columns%}), [CommandItem]({%slug grid/data-editing/commanditem/overview%}), Status bar item and [Pager row]({%slug grid/functionality/paging/pager-item%}).
+Static rows are always present in the grid structure, regardless of whether they are visible. Their number is known in advance. This group includes [header and footer rows]({%slug grid/columns/using-columns%}), the [CommandItem]({%slug grid/data-editing/commanditem/overview%}), the status bar item, and the [pager row]({%slug grid/functionality/paging/pager-item%}).
 
 ## Dynamic Rows
 
-Each dynamic row in the grid represents a record from the specified [data source]({%slug grid/data-binding/overview%}). Dynamic rows are represented by the **GridDataItem** class (a descendent of **GridItem**).
+Each dynamic row in the grid represents a record from the specified [data source]({%slug grid/data-binding/overview%}). Dynamic rows are represented by the **GridDataItem** class, which derives from **GridItem**.
 
-Each **GridTableView** has a set of rows (the **Items** collection) of type **GridDataItem.** The collection does not provide any methods to add or remove items. However, you can control the content of an item by providing a handler for the **ItemCreated** event.
+Each **GridTableView** has a set of rows in its **Items** collection. These rows are **GridDataItem** instances. The collection does not provide methods to add or remove items, but you can control an item’s content by handling the **ItemCreated** event.
 
 >note
 * Only Items bound to the data source (such as normal and alternating rows) are kept in the **Items** collection. The header, footer, pager, filter and separator are not included in this collection.
@@ -35,7 +33,7 @@ Each **GridTableView** has a set of rows (the **Items** collection) of type **Gr
 * The **Items** property of **RadGrid** is a reference to the **ItemsHierarchy** property of its **MasterTableView** .>
 
 
-The number of dynamic rows depends on the number of rows (records) in the Data Source and the number of groups (if [grouping]({%slug grid/functionality/grouping/overview%}) is enabled). Dynamic rows consist of **data items**, **nested-view items**, **group-header items** and **edit-form items**. (for examples of these different row types, see [Overview of Telerik RadGrid structure]({%slug grid/structure/radgrid-structure-overview%}))
+The number of dynamic rows depends on the number of records in the data source and the number of groups, if [grouping]({%slug grid/functionality/grouping/overview%}) is enabled. Dynamic rows consist of **data items**, **nested-view items**, **group-header items**, and **edit-form items**. For examples of these row types, see [Overview of Telerik RadGrid structure]({%slug grid/structure/radgrid-structure-overview%}).
 
 Data items can come in two types:
 
@@ -43,9 +41,9 @@ Data items can come in two types:
 
 * **Alternating Rows** - these are the even rows of the grid (see rows 2 and 4 below). The appearance of the alternating rows is controlled by the **AlternatingItemStyle** property.
 
-![Normal and Alternating rows](images/grd_normal_alternating_styles.png)
+![RadGrid normal and alternating rows with different background styles](images/grd_normal_alternating_styles.png)
 
-Both **ItemStyle** and **AlternatingItemStyle** are of type **GridTableItemStyle**. Additionally, for skins which have different styling for normal/alternating rows, you can disable the zebra effect by setting the**ClientSettings -> EnableAlternatingItems** property of the grid to false.
+Both **ItemStyle** and **AlternatingItemStyle** are of type **GridTableItemStyle**. For skins with different normal and alternating row styles, you can disable the zebra effect by setting **ClientSettings > EnableAlternatingItems** to `false`.
 
 ## See Also
 
@@ -56,3 +54,5 @@ Both **ItemStyle** and **AlternatingItemStyle** are of type **GridTableItemStyle
  * [Programmatic Databinding Using NeedDataSource Event]({%slug grid/data-binding/server-side-binding/programmatic-databinding-using-needdatasource-event%})
 
  * [Customizing Row Appearance]({%slug grid/appearance-and-styling/customizing-row-appearance%})
+
+ * [RadGrid structure overview]({%slug grid/structure/radgrid-structure-overview%})
