@@ -17,6 +17,20 @@ You can generate a static web site from the Telerik® UI for ASP.NET AJAX docume
 4. Run `jekyll serve`
 5. Open "http://localhost:8080/aspnet-ajax/introduction.html" in your browser
 
+## Using the Documentation Search and Repair Agent
+
+1. Open the `telerik-documentation-search-review-repair` agent from the VS Code agent picker.
+2. Provide the pasted technical information or the path to the article you want to check.
+3. Include the component, version, and source context when they are known; the agent is scoped to Telerik UI for ASP.NET AJAX.
+4. State whether the information came from a support ticket and whether a Telerik engineer supplied solution code.
+5. The agent searches this repository first to determine whether the technical need is already covered.
+6. If an exact existing resource is found, the agent reports the owner, coverage, evidence, and focused suggestions without rewriting it.
+7. If the information represents a distinct KB or an explicitly supplied file needs repair, the agent reviews it against the local documentation rules.
+8. For pasted content, the agent returns complete copy-ready Markdown instead of creating a repository file.
+9. For an existing file, the agent edits only that file and validates the focused changes.
+10. The review checks metadata, required sections, code fences, internal links, and confidential information.
+11. The result reports the decision, evidence, coverage, changes, validation, risks, and one exact next action.
+
 ## License
 
 The Telerik® UI for ASP.NET AJAX Documentation is licensed under an MIT license. This license applies to the markdown (.md) files in this site **ONLY**, and does not convey, override or modify any existing licenses covering the runtime source and components of Telerik® UI for ASP.NET AJAX. For information about available licenses for the Telerik® UI for ASP.NET AJAX click [here](https://www.telerik.com/purchase/license-agreement/aspnet-ajax).
