@@ -34,7 +34,7 @@ The following tables list the browsers the UI for ASP.NET AJAX suite supports:
     </tr>
     <tr>
       <td align="left">Firefox</td>
-      <td align="left">The two latest versions at the time of the release. This includes <a href="https://en.wikipedia.org/wiki/History_of_Firefox#Release_history">Firefox ESR releases</a> ( <a href="https://www.mozilla.org/en-US/firefox/organizations/faq/">What is ESR?</a>). </td>
+      <td align="left">The two latest versions at the time of the release, including applicable <a href="https://www.mozilla.org/en-US/firefox/organizations/faq/">Firefox Extended Support Release (ESR) versions</a>.</td>
     </tr>
     <tr>
       <td align="left">Opera</td>
@@ -46,6 +46,8 @@ The following tables list the browsers the UI for ASP.NET AJAX suite supports:
     </tr>
   </tbody>
 </table>
+
+The supported Firefox versions are determined for each Telerik UI for ASP.NET AJAX release. This page does not provide a fixed historical list of Firefox ESR versions. To identify the versions supported by a specific Telerik release, use its release date or version. For general information about Firefox ESR, see [Mozilla's Firefox ESR FAQ](https://www.mozilla.org/en-US/firefox/organizations/faq/).
 
 <table class="Table k-table">
   <thead>

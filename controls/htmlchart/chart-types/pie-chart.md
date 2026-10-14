@@ -63,6 +63,37 @@ The Pie chart from **Figure 1** was created with the code in **Example 1**.
 
 >caution Currently the **RadHtmlChart** supports only one Pie series per chart. Adding more than one will result in overlapping charts and an extended legend.
 
+## 2D Appearance, Size, and Background
+
+RadHtmlChart pie charts are rendered in two dimensions. Set the `Width` and `Height` properties on the chart, use `Appearance > FillStyle` for the chart and plot-area backgrounds, and set `Overlay-Gradient="None"` on the `PieSeries` for a flat appearance.
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server" ID="FlatPieChart" Width="600px" Height="400px">
+	<Appearance>
+		<FillStyle BackgroundColor="#f4f6f8" />
+	</Appearance>
+	<PlotArea>
+		<Appearance>
+			<FillStyle BackgroundColor="White" />
+		</Appearance>
+		<Series>
+			<telerik:PieSeries>
+				<Appearance Overlay-Gradient="None" />
+				<LabelsAppearance Position="OutsideEnd" DataFormatString="{0}%" />
+				<TooltipsAppearance DataFormatString="{0}%" />
+				<SeriesItems>
+					<telerik:PieSeriesItem BackgroundColor="#4e79a7" Name="Desktop" Y="45" />
+					<telerik:PieSeriesItem BackgroundColor="#f28e2b" Name="Mobile" Y="35" />
+					<telerik:PieSeriesItem BackgroundColor="#59a14f" Name="Tablet" Y="20" />
+				</SeriesItems>
+			</telerik:PieSeries>
+		</Series>
+	</PlotArea>
+</telerik:RadHtmlChart>
+````
+
+To export the rendered chart as an image, see [Export to PDF or Image with RadClientExportManager]({%slug htmlchart/how-to/export-to-pdf-with-clientexportmanager%}).
+
 ## See Also
 
  * [Choose a Data Source for Your RadHtmlChart:]({%slug htmlchart/design-time/overview%})

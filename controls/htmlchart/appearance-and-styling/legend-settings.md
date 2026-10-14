@@ -408,6 +408,36 @@ The functionality is available through the `ClientTemplate` inner property expos
 </telerik:RadHtmlChart>
 ````
 
+To keep a legend item on one line, do not include `\n` in the `ClientTemplate`. A comma in formatted text, such as `10,500`, does not create a line break. The following example uses the documented `text` field and sets a width for a horizontal legend:
+
+````ASP.NET
+<telerik:RadHtmlChart runat="server" ID="SingleLineLegendChart" Width="800px" Height="400px">
+	<PlotArea>
+		<Series>
+			<telerik:LineSeries Name="hola 10,500">
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="10" />
+					<telerik:CategorySeriesItem Y="20" />
+				</SeriesItems>
+			</telerik:LineSeries>
+			<telerik:LineSeries Name="otro 2,000">
+				<SeriesItems>
+					<telerik:CategorySeriesItem Y="15" />
+					<telerik:CategorySeriesItem Y="25" />
+				</SeriesItems>
+			</telerik:LineSeries>
+		</Series>
+	</PlotArea>
+	<Legend>
+		<Appearance Position="Bottom" Orientation="Horizontal" Width="700">
+			<ClientTemplate>#= text #</ClientTemplate>
+		</Appearance>
+	</Legend>
+</telerik:RadHtmlChart>
+````
+
+The `dataItem` fields used by series labels and tooltips are not documented as fields for a legend `ClientTemplate`. If the legend text is longer than the available space, adjust `Legend.Appearance.Width`, `Height`, `Position`, or `Orientation` instead of adding a line-feed sequence.
+
 ## See Also
 
  * [Labels and Titles Font Settings]({%slug htmlchart/appearance-and-styling/labels-and-titles-font-settings%})

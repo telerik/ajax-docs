@@ -80,6 +80,8 @@ Next
 
 To restore the filters, apply the collected filter information back to RadGrid.
 
+When restoring settings during the initial page load, call the restore method from `Init` or `Load` before the grid binds. The initial `NeedDataSource` event then uses the restored settings, so you do not need to call `Rebind()` from that initial-load path. If you restore settings after the grid has already bound, call `Rebind()` to apply them. Do not call `Rebind()` from inside the `NeedDataSource` event.
+
 ### Example
 
 >caption 1) Create the following or similar Classes that will hold the information for us.

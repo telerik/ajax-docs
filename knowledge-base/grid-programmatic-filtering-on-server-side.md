@@ -557,7 +557,7 @@ End Sub
 
 ### Apply Default Filter on Initial Load
 
-To apply a default filter at initial load, move the code in the `PreRender` event so this gets executed during the Page's LifeCycle.
+To apply a default filter during the initial page load, set the filter properties in `Init` or `Load` before the grid binds. If the grid has already bound when you apply the settings, call `Rebind()` to apply them. The example below uses `PreRender` because it accesses the generated filtering item and triggers a filter command; `PreRender` is not required for direct property assignment.
 
 Check out the following sections to learn how to filter the Grid depending on the selected `FilterType`
 - [Classic](#classic)
