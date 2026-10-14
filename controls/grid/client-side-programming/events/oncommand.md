@@ -27,6 +27,21 @@ This event will be raised for each grid command which is about to be triggered (
 | **Arguments** | **commandName** - the name of the command which is about to be processed **commandArgument** - the command argument(s) value(s) **tableView** - returns reference to the owner TableView|
 | **Can be canceled** |Yes, set eventArgs.set_cancel(true) to cancel|
 
+The client-side `GridCommandEventArgs` does not expose the clicked button or a `CommandSource` property. For `Edit` and `Delete` commands, the `commandArgument` is the item index. You can use it with the `tableView` to retrieve the corresponding data item when client-side binding is used:
+
+````JavaScript
+ function onCommand(sender, args) {
+    var commandName = args.get_commandName();
+
+    if (commandName == "Edit" || commandName == "Delete") {
+        var itemIndex = args.get_commandArgument();
+        var dataItem = args.get_tableView().get_dataItems()[itemIndex].get_dataItem();
+    }
+}
+````
+
+If you need the clicked button element itself, handle the button's click separately and resolve its parent row from the DOM. The server-side `CommandSource` and `Item` properties do not have client-side equivalents in `OnCommand`.
+
 Example:
 
 ````ASP.NET

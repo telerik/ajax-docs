@@ -55,6 +55,8 @@ In the horizontal mode, **RadTimeline** renders buttons which you can click/tap 
 
 The horizontal mode renders the event details on demand (only when they are selected) and is responsive (renders as many of the events as there is room on the axis for).
 
+To display date labels for the events, set the `ShowDateLabels` property to `true` and use the `DateFormat` property to specify their format. The [Event Templates]({%slug timeline/functionality/client-side-templates%}) article describes how to customize the details of the selected event. The documented RadTimeline API does not provide a template for permanently displaying the title and date on every horizontal event marker.
+
 >caution The horizontal mode does not support alternating rendering and collapsing of events.
 
 >caption Figure 1: RadTimeline with Horizontal orientation
