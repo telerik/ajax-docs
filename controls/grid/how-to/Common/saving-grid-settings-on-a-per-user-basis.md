@@ -60,7 +60,7 @@ To load settings into the RadGrid instance, call the **LoadSettings** method of 
 
 * **GridSettingsCollection instance** - original non-serialized settings container
 
-To load settings on initial page load, use the **Init** or **Load** events of the page to call **LoadSettings**. If RadGrid is databound in any of these, make sure you load the settings **before** binding the grid. Alternatively, if you are loading grid settings in a postback event of another control, call **RadGrid.Rebind()** to apply the restored settings.
+To load settings on initial page load, use the **Init** or **Load** events of the page to call **LoadSettings**. If RadGrid is databound in any of these, make sure you load the settings **before** binding the grid. The initial `NeedDataSource` event then uses the restored settings, so you do not need to call **RadGrid.Rebind()** in this path. Use the `!IsPostBack` condition when the saved settings should be applied only as initial values; omit it when the settings must be restored on every request. Alternatively, if you are loading grid settings in a postback event of another control, call **RadGrid.Rebind()** to apply the restored settings. Do not call **RadGrid.Rebind()** from inside the `NeedDataSource` event.
 
 ## See it in action
 
