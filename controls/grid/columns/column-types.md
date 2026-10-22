@@ -591,6 +591,8 @@ When you have attachments saved in your data source as a blob of binary data, **
 
 **GridAttachmentColumn** works with an automatic data source control (specified through the **DataSourceID** property) that retrieves the attachment from the underlying data source.
 
+>important The **AttachmentKeyFields** values used to query the **DataSourceID** data source are posted back by the client and are not re-validated by **RadGrid** against a currently rendered row. The data source must independently apply the same object-level authorization as the grid's own data source (for example, scoping the lookup to the current user) before returning attachment data. See [Attachment Downloads (GridAttachmentColumn)]({%slug grid/security%}#attachment-downloads-gridattachmentcolumn) for details and examples.
+
 Here are some of the column's properties that need to be properly set up for successful download:
 
 * **AttachmentKeyFields** - Specifies the field names from **RadGrid**'s data source that are used to populate the attachment data source select parameters.
