@@ -38,7 +38,7 @@ Additionally, you can use `Telerik.Web.UI.FileBrowserAllowedPaths` to enforce co
 
 To provide secure encryption, we strongly advise that you set a custom encryption key for **Telerik.Web.UI.DialogParametersEncryptionKey**:
 
-````web.config
+````XML
 <appSettings>
 	<add key="Telerik.Web.UI.DialogParametersEncryptionKey" value="YOUR-THIRD-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 </appSettings>
@@ -48,7 +48,7 @@ To provide secure encryption, we strongly advise that you set a custom encryptio
 
 To provide secure encryption, we strongly advise that you set a custom encryption key for **Telerik.AsyncUpload.ConfigurationEncryptionKey**:
 
-````web.config
+````XML
 <appSettings>
 	<add key="Telerik.AsyncUpload.ConfigurationEncryptionKey" value="YOUR-FIRST-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 </appSettings>
@@ -60,7 +60,7 @@ To provide secure encryption, we strongly advise that you set a custom encryptio
 
 The additional **Telerik.Upload.ConfigurationHashKey** key is used to hash the encrypted text. The value returned from the client is checked in the upload handler for integrity.
 
-````web.config
+````XML
 <appSettings>
 	<add key="Telerik.Upload.ConfigurationHashKey" value="YOUR-SECOND-UNIQUE-STRONG-RANDOM-VALUE-UNIQUE-TO-YOUR-APP&" />
 </appSettings>
@@ -76,7 +76,7 @@ This restriction is independent of the `ViewPaths`, `UploadPaths`, and `DeletePa
 
 >note This setting is optional (opt-in). When it is not set, all controls behave exactly as before - there is no change for existing applications.
 
-````web.config
+````XML
 <appSettings>
 	<add key="Telerik.Web.UI.FileBrowserAllowedPaths" value="~/Upload/;~/Images/" />
 </appSettings>

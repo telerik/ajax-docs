@@ -17,7 +17,7 @@ Generally speaking, the exporting feature of the control works with regular post
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadAjaxPanel ID="RadAjaxPanel1" runat="server" ClientEvents-OnRequestStart="onRequestStart">
 	<asp:Button Text="Export to PDF" ID="btnExport" runat="server" OnClick="Button1_Click" />
 	<telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
@@ -50,7 +50,7 @@ End Sub
 
 If you export from a *Button* that is nested in a **MS AJAX UpdatePanel**, you should set the button as a *PostBackTrigger*:
 
-````ASPNET
+````ASP.NET
 <Triggers>         
 	<asp:PostBackTrigger ControlID="btnExport" />
 </Triggers>

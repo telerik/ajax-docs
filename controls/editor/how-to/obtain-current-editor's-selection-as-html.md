@@ -15,7 +15,7 @@ When implementing custom tools or dialogs, you may need to obtain the current ed
 
 The example below shows how to obtain the current selection using a custom button, convert it to upper case and then paste it back (replacing the original text).
 
-![](images/editor-examples001.png)
+![RadEditor screenshot showing editor-examples001.png](images/editor-examples001.png)
 
 1. Add the custom CustomSelectionTool button to the editor toolbar:
 

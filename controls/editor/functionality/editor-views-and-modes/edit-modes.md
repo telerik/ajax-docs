@@ -21,7 +21,7 @@ RadEditor offers three different edit modes Design, Html and Preview:
 
 **Design mode**:
 
-![](images/editor-designmode.png)
+![RadEditor screenshot showing editor-designmode.png](images/editor-designmode.png)
 
 **Html mode**: More advanced users sometimes need to modify the HTML code of the content directly. The HTML mode provides access to the HTML markup for fine-grain control.
 

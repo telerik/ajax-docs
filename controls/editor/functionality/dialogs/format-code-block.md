@@ -33,4 +33,4 @@ To place the Format Code Block tool in the editor toolbar, you can add the Forma
 
 You can see a sample dialog preview below, which shows formatted content prior to insertion in the content area:
 
-![](images/editor-dialogs002.png)
+![RadEditor screenshot showing editor-dialogs002.png](images/editor-dialogs002.png)

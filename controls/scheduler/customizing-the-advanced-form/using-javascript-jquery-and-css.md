@@ -17,7 +17,7 @@ The advanced form renders specific css classes and unique IDs for the elements i
 
 ## Hide the all day checkbox
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
 	ul li.rsAllDayWrapper 
 	{
@@ -30,7 +30,7 @@ The advanced form renders specific css classes and unique IDs for the elements i
 
 ## Color the text of the labels in the advanced form
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
 	.rsAdvOptions label, div.RadInput .riLabel
 	{
@@ -48,7 +48,7 @@ The advanced form renders specific css classes and unique IDs for the elements i
 
 ## Hide the recurrence panel and adjusts the height of the advanced options panel
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
 	.RecurrenceEditor 
 	{

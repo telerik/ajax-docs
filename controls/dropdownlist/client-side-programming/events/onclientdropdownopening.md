@@ -27,7 +27,7 @@ The event handler receives two parameters:
 
 The example below shows how to prevent the drop-down list from opening when there are no items to be displayed:
 
-````ASPNET
+````ASP.NET
 <script language="javascript" type="text/javascript">
     function OnClientDropDownOpening(sender, eventArgs) {
         if (sender.get_items().get_count() == 0)

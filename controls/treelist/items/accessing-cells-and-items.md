@@ -28,7 +28,7 @@ if (e.Item is TreeListDataItem)
 	TreeListDataItem item = e.Item as TreeListDataItem;
 }
 ````
-````VB.NET
+````VB
 If TypeOf e.Item Is TreeListDataItem Then
 	Dim item As TreeListDataItem = CType(e.Item, TreeListDataItem)
 End If
@@ -43,7 +43,7 @@ foreach (TreeListDataItem item in RadTreeList1.Items)
 	//perform some action with the data item
 }
 ````
-````VB.NET
+````VB
 For Each item As TreeListDataItem In RadTreeList1.Items
 	'perform some action with the data item
 Next
@@ -57,7 +57,7 @@ Once you get hold of a certain data item, you can access its cells by using the 
 ````C#
 TableCell cell = dataItem["ColumnUniqueName"]; //where dataItem is an object of type TreeListDataItem
 ````
-````VB.NET
+````VB
 Dim cell As TableCell = dataItem("ColumnUniqueName") 'where dataItem is an object of type TreeListDataItem
 ````
 
@@ -69,7 +69,7 @@ With bound columns you can use the **Text**property to get the value of the cell
 ````C#
 string itemValue = cell.Text;
 ````
-````VB.NET
+````VB
 Dim itemValue As String = cell.Text
 ````
 
@@ -81,7 +81,7 @@ For values in **TreeListTemplateColumns** you will need to find the control in t
 ````C#
 string title = (dataItem["ColumnUniqueName"].FindControl("Label1") as Label).Text;
 ````
-````VB.NET
+````VB
 Dim title As String = CType(dataItem("ColumnUniqueName").FindControl("Label1"), Label).Text
 ````
 
@@ -93,7 +93,7 @@ In case you want to access a checkbox in a TreeListCheckBoxColumn, you will be a
 ````C#
 CheckBox chk = dataItem["Qualifies"].Controls[0] as CheckBox;
 ````
-````VB.NET
+````VB
 Dim chk As CheckBox = CType(dataItem("Qualifies").Controls(0), CheckBox)
 ````
 
@@ -108,7 +108,7 @@ if (dataItem.FindControl("ExpandCollapseButton") != null)
 	Button btn = dataItem.FindControl("ExpandCollapseButton") as Button;
 }
 ````
-````VB.NET
+````VB
 If Not dataItem.FindControl("ExpandCollapseButton") Is Nothing Then
 	Dim btn As Button = CType(dataItem.FindControl("ExpandCollapseButton"), Button)
 End If
@@ -128,7 +128,7 @@ if (e.Item is TreeListHeaderItem)
 	TableCell headerCell = header["ColumnUniqueName"] as TableCell;
 }
 ````
-````VB.NET
+````VB
 If TypeOf e.Item Is TreeListHeaderItem Then
 	Dim header As TreeListHeaderItem = TryCast(e.Item, TreeListHeaderItem)
 
@@ -143,7 +143,7 @@ Same as with the TreeListDataItem, you can access the separate cells by using th
 ````C#
 TableCell headerCell = header["ColumnUniqueName"] as TableCell;
 ````
-````VB.NET
+````VB
 Dim headerCell As TableCell = CType(header("ColumnUniqueName"), TableCell)
 ````
 
@@ -161,7 +161,7 @@ if (e.Item is TreeListPagerItem)
 	pager.PagerContentCell.BackColor = System.Drawing.Color.AliceBlue;
 }
 ````
-````VB.NET
+````VB
 If TypeOf e.Item Is TreeListPagerItem Then
 	Dim pager As TreeListPagerItem = CType(e.Item, TreeListPagerItem)
 	pager.PagerContentCell.BackColor = System.Drawing.Color.AliceBlue
@@ -182,7 +182,7 @@ if (e.Item is TreeListDetailTemplateItem)
 	Label lbl = detailItem.FindControl("Label1") as Label;
 }
 ````
-````VB.NET
+````VB
 If TypeOf e.Item Is TreeListDetailTemplateItem Then
 	Dim detailItem As TreeListDetailTemplateItem = TryCast(e.Item, TreeListDetailTemplateItem)
 End If
@@ -196,7 +196,7 @@ After that you can use the **FindControl()** method to get reference to the cont
 ````C#
 Label lbl = detailItem.FindControl("Label1") as Label;
 ````
-````VB.NET
+````VB
 Dim lbl As Label = CType(detailItem.FindControl("Label1"), Label)
 ````
 
@@ -213,7 +213,7 @@ if (e.Item is TreeListNoRecordsItem)
 	TreeListNoRecordsItem noRecordsItem = e.Item as TreeListNoRecordsItem;
 }
 ````
-````VB.NET
+````VB
 If TypeOf e.Item Is TreeListNoRecordsItem Then
 	Dim detailItem As TreeListNoRecordsItem = TryCast(e.Item, TreeListNoRecordsItem)
 End If
@@ -231,7 +231,7 @@ protected void Button1_Click(object sender, EventArgs e)
 		TreeListDataItem item = RadTreeList1.FindItemByKeyValue("RecordID", 3);
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 	Dim item As TreeListDataItem = RadTreeList1.FindItemByKeyValue("RecordID", 3)
 End Sub

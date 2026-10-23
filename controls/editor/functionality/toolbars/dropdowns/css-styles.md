@@ -21,7 +21,7 @@ Classes that are also present in the **[ContentAreaCssFile]({%slug editor/managi
 
 >caption Figure 1: Apply CSS Class dropdown
 
-![](images/editor-dropdowns010.png)
+![RadEditor screenshot showing editor-dropdowns010.png](images/editor-dropdowns010.png)
 
 ## Using the CssClasses Collection Declaratively
 
@@ -102,7 +102,7 @@ Using the **Add()** method resets the CssClasses dropdown, so the CssClasses you
 
 |  **Default state**  |  **Programmatic population**  |
 | ------ | ------ |
-|![](images/editor-dropdowns026.png)|![](images/editor-dropdowns027.png)|
+|![RadEditor screenshot showing editor-dropdowns026.png](images/editor-dropdowns026.png)|![RadEditor screenshot showing editor-dropdowns027.png](images/editor-dropdowns027.png)|
 |(The CSS class dropdown contains all existing classes)|(The CSS class dropdown contains only the classes added using the **Add()** method)|
 
 ## Using the ToolsFile

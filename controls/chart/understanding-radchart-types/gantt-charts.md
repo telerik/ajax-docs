@@ -24,11 +24,15 @@ Gantt charts help visualize time based information. Gantt charts, also known as 
 
 To create a vertical Gantt Chart set the SeriesOrientation property to **Vertical**. Set the RadChart DefaultType property or ChartSeries.Type to Gantt.
 
-![Gantt chart](images/radchartelements17.png)
+> caption Figure 1: Vertical RadChart Gantt chart
+
+![Vertical RadChart Gantt chart](images/radchartelements17.png)
 
 To create a horizontal Gantt Chart set the SeriesOrientation property to **Horizontal**. Set the RadChart DefaultType property or ChartSeries.Type to Gantt.
 
-![Horizontal Gantt Chart](images/radchartelements17b.png)
+> caption Figure 2: Horizontal RadChart Gantt chart
+
+![Horizontal RadChart Gantt chart](images/radchartelements17b.png)
 
 Other Gantt chart issues:
 
@@ -38,10 +42,14 @@ Other Gantt chart issues:
 
 * Use the ValueFormat property to display values as dates.
 
+> caption Example: Display date values on the Gantt chart axis
+
 ````C#
+// Format the axis values as short dates.
 RadChart1.PlotArea.YAxis.Appearance.ValueFormat = Telerik.Charting.Styles.ChartValueFormat.ShortDate;
 ````
 ````VB
+' Format the axis values as short dates.
 RadChart1.PlotArea.YAxis.Appearance.ValueFormat = Telerik.Charting.Styles.ChartValueFormat.ShortDate
 ````
 

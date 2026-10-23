@@ -31,10 +31,15 @@ To add labels along an Axis programmatically:
 
 * Populate the Items.
 
-![axis items added](images/radchart-howto004.png)
+> caption Figure 1: RadChart with programmatically added X-axis labels
 
+![RadChart displaying programmatically added weekday labels on the X axis](images/radchart-howto004.png)
+
+
+> caption Example: Add and populate X-axis labels programmatically
 
 ````C#
+// Disable automatic scaling so the custom labels are preserved.
 radChart.PlotArea.XAxis.AutoScale = false;
 radChart.PlotArea.XAxis.AddRange(1, 7, 1); 
 radChart.PlotArea.XAxis[0].TextBlock.Text = "Mon";
@@ -46,6 +51,7 @@ radChart.PlotArea.XAxis[5].TextBlock.Text = "Sat";
 radChart.PlotArea.XAxis[6].TextBlock.Text = "Sun";
 ````
 ````VB
+' Disable automatic scaling so the custom labels are preserved.
 radChart.PlotArea.XAxis.AutoScale = False
 radChart.PlotArea.XAxis.AddRange(1, 7, 1)
 radChart.PlotArea.XAxis(0).TextBlock.Text = "Mon"

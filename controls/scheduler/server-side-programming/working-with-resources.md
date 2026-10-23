@@ -120,8 +120,7 @@ protected void RadScheduler1_AppointmentDelete(object sender, SchedulerCancelEve
 } 
 	
 ````
-````VB.NET
-	
+````VB
 ' store the unavailable resources in the Session state
 Private Const UsedResourcesSessionKey As String = _
    "Telerik.Web.Examples.Scheduler.ResourceAvailability.DefaultCS"

@@ -23,9 +23,11 @@ The samples bellow illustrate both approaches:
 
 ## Create the RadTreeList entirely in code-behind on Page_Init
 
+> caption Example: Declare the host controls for a programmatic TreeList
 
 
-````ASPNET
+
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	<AjaxSettings>
@@ -45,6 +47,7 @@ The samples bellow illustrate both approaches:
 ````C#
 protected void Page_Init(object sender, EventArgs e)
 {
+	// Recreate the TreeList during initialization so its structure persists.
 	RadTreeList treeList = new RadTreeList(); 
 	treeList.ID = "RadTreeList1"; 
 	treeList.DataKeyNames = new string[] { "EmployeeID" }; 
@@ -107,8 +110,9 @@ protected void Page_Init(object sender, EventArgs e)
 	PlaceHolder1.Controls.Add(treeList);
 }			
 ````
-````VB.NET
+````VB
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Init
+	' Recreate the TreeList during initialization so its structure persists.
 	Dim treeList As New RadTreeList()
 	treeList.ID = "RadTreeList1"
 	treeList.DataKeyNames = New String() {"EmployeeID"}
@@ -177,7 +181,7 @@ End Sub
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />    
 <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
 	<AjaxSettings>
@@ -259,7 +263,7 @@ protected void Page_Load(object sender, EventArgs e)
 	}
 }			
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	If Not IsPostBack Then
 		RadTreeList2.DataKeyNames = New String() {"EmployeeID"}
@@ -337,7 +341,7 @@ Here follows a sample implementation including both kind of templates:
 
 
 
-````ASPNET
+````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
 	SelectCommand="SELECT [ReportsTo], [EmployeeID], [LastName], [FirstName], [HireDate], [City], [HomePhone], [Country], [Photo] FROM [Employees]"
@@ -517,7 +521,7 @@ private class PhoneEditableTemplate : IBindableTemplate
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
 	Dim treeList As New RadTreeList()
 	treeList.ID = "RadTreeList1"

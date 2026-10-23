@@ -36,13 +36,15 @@ public partial class CrossPageCS : XhtmlPage {
     } 
 }
 ````
-````VB.NET
-Partial Class CrossPageVB  Inherits System.Web.UI.Page 
+````VB
+Partial Class CrossPageVB
+    Inherits System.Web.UI.Page
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
         If Page.PreviousPage Is Nothing Then
             Response.Redirect("DefaultVB.aspx")
         End If
         Dim menu As RadMenu
+        ' Find the menu on the page that initiated the postback.
         menu = CType(Page.PreviousPage.FindControl("RadMenu1"), RadMenu)
     End Sub
 End Class

@@ -194,7 +194,7 @@ End Sub
 	>note This is actually already done in the sample demo. This step is to serve just as a reminder.
 	>
 
-````ASPNET
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" Width="750px" SelectedDate="2009-03-30"
     DayStartTime="08:00:00" DayEndTime="18:00:00" CustomAttributeNames="AppointmentColor" Localization-AdvancedDescription="Subject"
     TimeZoneOffset="03:00:00" OnDataBound="RadScheduler1_DataBound" OnAppointmentDataBound="RadScheduler1_AppointmentDataBound"

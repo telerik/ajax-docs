@@ -17,7 +17,7 @@ RadDropDownList supports binding to an WCF service.
 
 ## Example of binding to WCF service
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server" Skin="Default" EmptySelectionMessage="Select">
 	<WebServiceSettings Path="DropDownListWcfService.svc" Method="LoadData" />
 </telerik:RadDropDownList>

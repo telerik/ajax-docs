@@ -22,7 +22,7 @@ The main logic here lies on using the FindControl(controlID) method - once you o
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1"
 	OnInsertCommand="RadTreeList1_InsertCommand">
@@ -117,7 +117,7 @@ protected void RadTreeList1_InsertCommand(object sender, Telerik.Web.UI.TreeList
 	RadTreeList1.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_InsertCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	'Canceling the automatic datasource operation
 	e.Canceled = True
@@ -151,7 +151,7 @@ Here is sample code for extracting the values from the user control on InsertCom
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1"
 	OnInsertCommand="RadTreeList2_InsertCommand">
@@ -197,7 +197,7 @@ protected void RadTreeList2_InsertCommand(object sender, Telerik.Web.UI.TreeList
 	RadTreeList1.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList2_InsertCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	'Canceling the automatic datasource operation
 	e.Canceled = True
@@ -230,7 +230,7 @@ Additionally, if you want the treelist to be able to extract values from the use
 
 
 
-````ASPNET
+````ASP.NET
 <table>
 	<tr>
 		<td>
@@ -293,7 +293,7 @@ public partial class WebUserControl : System.Web.UI.UserControl, IBindableContro
 
 }
 ````
-````VB.NET
+````VB
 Partial Class WebUserControlVB
 	Inherits System.Web.UI.UserControl
 	Implements IBindableControl

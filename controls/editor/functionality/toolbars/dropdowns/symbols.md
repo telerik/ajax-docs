@@ -13,7 +13,7 @@ position: 10
 
 The RadEditor Symbols dropdown by default displays a predefined set of symbols. They are kept in the *Symbols* Collection. You can add to the Symbols collection declaratively, programmatically and using the ToolsFile.
 
-![](images/editor-dropdowns013.png)
+![RadEditor screenshot showing editor-dropdowns013.png](images/editor-dropdowns013.png)
 
 ## Using the Symbols Collection Declaratively
 
@@ -66,7 +66,7 @@ When using the Symbols Collection **Add()** the Symbols dropdown will be reset, 
 
 |  **Default state**  |  **Programmatic population**  |
 | ------ | ------ |
-|![](images/editor-symbols1.gif)|![](images/editor-symbols2.gif)|
+|![RadEditor screenshot showing editor-symbols1.gif](images/editor-symbols1.gif)|![RadEditor screenshot showing editor-symbols2.gif](images/editor-symbols2.gif)|
 |(The Symbols dropdown contains the default set of symbols)|(The Symbols dropdown contains only those added using the **Add** method)|
 
 ## Using the ToolsFile

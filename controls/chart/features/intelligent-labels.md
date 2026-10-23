@@ -22,4 +22,4 @@ position: 7
 
 For charts that have many data points or data points with values close to one another, labels tend to collide making readability a problem. The Intelligent Labels feature of RadChart automatically re-aligns labels making each labeled value stand out clearly.
 
-![](images/radchart-features008.png)
+![RadChart using intelligent labels to prevent label collisions](images/radchart-features008.png)

@@ -20,7 +20,7 @@ All events follow the MS AJAX client events convention and receive two arguments
 
 All the exposed events are wrappers over the Kendo UI events but are corresponding to the above convention. For instance, all *Cancellable* events can be canceled as shown below:
 
-````JS
+````JavaScript
 function ClientInsertSheet(sender, args) {
     args.set_cancel(true);
 }

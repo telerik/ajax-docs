@@ -22,4 +22,4 @@ position: 15
 
 The PlotArea can display a table of the data in the chart.See the screen shot below. By default the DataTable Visible property is false. Use the *DataTable.Appearance* property to control the table layout including table size, cell size and cell position.
 
-![](images/radchart-understandingelements032.png)
+![RadChart displaying its data table below the chart](images/radchart-understandingelements032.png)

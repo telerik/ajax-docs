@@ -13,7 +13,7 @@ position: 1
 
 You can repopulate the Font Size dropdown with the sizes from 1 to 7 (these are the browser supported values). You can set the FontSizes collection declaratively, programmatically and using the ToolsFile.
 
-![](images/editor-dropdowns003.png)
+![RadEditor screenshot showing editor-dropdowns003.png](images/editor-dropdowns003.png)
 
 ## Adding to FontSizes Collection Declaratively
 

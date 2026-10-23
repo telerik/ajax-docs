@@ -32,42 +32,42 @@ This article shows some basic examples how the end user can interact with the ph
 
 ## Start Editing
 
-Initially, **RadEditor** is loaded in **Preview** mode (**Figure 1**). In order to start editing the content (full screen mode), the user should tap either the content, or the **Edit Content** button (![](./images/edit-contnet-button.png)). 
+Initially, **RadEditor** is loaded in **Preview** mode (**Figure 1**). In order to start editing the content (full screen mode), the user should tap either the content, or the **Edit Content** button (![RadEditor Edit Content button](./images/edit-contnet-button.png)).
 
 >caption Figure 1: Phone Layout in Preview mode and how to start editing
 
-![](./images/end-user-experience/preview-mode.png)
+![RadEditor screenshot showing preview-mode.png](./images/end-user-experience/preview-mode.png)
 
 In full screen mode, user can edit the text and operate with the header tools.
 
 >caption Figure 2: Full screen mode where you can edit the content
 
-![](./images/end-user-experience/full-screen-mode.png)
+![RadEditor screenshot showing full-screen-mode.png](./images/end-user-experience/full-screen-mode.png)
 
 
 
 ## Using the Tools
 
-The **ToolZone** can be shown by pressing the **Toggle ToolZone** button from the Header Tools (![](./images/toggle-toolzone.png)). Using the tools will affect the current selection.
+The **ToolZone** can be shown by pressing the **Toggle ToolZone** button from the Header Tools (![RadEditor screenshot showing toggle-toolzone.png](./images/toggle-toolzone.png)). Using the tools will affect the current selection.
 
 >caption Figure 3: Toggling the ToolZone.
 
-![](./images/end-user-experience/toggle-toolzone.png)
+![RadEditor screenshot showing toggle-toolzone.png](./images/end-user-experience/toggle-toolzone.png)
  
 
 The animation in **Figure 4** shows how a user would be able to use the tools and edit or format the content.
 
 >caption Figure 4: User experience with content editing. 
 
-![](./images/end-user-experience/AdaptiveRadEditor_v4.gif)
+![RadEditor screenshot showing AdaptiveRadEditor_v4.gif](./images/end-user-experience/AdaptiveRadEditor_v4.gif)
 
 ## Using Tabs and Contextual Tabs
 
-To change the current tab, the user should press the **Tab Chooser** button (![](./images/html-mode-button.png)). As shown in **Figure 5**, a pop-up with all available tabs will be shown. Tapping on one of them, will load the corresponding tools from this tab into the **ToolZone**.
+To change the current tab, the user should press the **Tab Chooser** button (![RadEditor screenshot showing html-mode-button.png](./images/html-mode-button.png)). As shown in **Figure 5**, a pop-up with all available tabs will be shown. Tapping on one of them, will load the corresponding tools from this tab into the **ToolZone**.
 
 >caption Figure 5: Changing the Tab.
 
-![](./images/end-user-experience/changing-tab-1.png)![](./images/end-user-experience/changing-tab-2.png)
+![RadEditor screenshot showing changing-tab-1.png](./images/end-user-experience/changing-tab-1.png)![RadEditor screenshot showing changing-tab-2.png](./images/end-user-experience/changing-tab-2.png)
 
 
 Additionally, tabs can be configured to be shown only when a certain element is selected. This can be controlled via the **Context** property of the **EditorToolGroup** items. You can read more about that in the [Toolbar Configuration]({%slug editor/mobile-support/phone-layout/toolbar-configuration%}) article.
@@ -77,15 +77,15 @@ In **Figure 6**, you can see how selecting an `<img>` element in the content and
 
 >caption Figure 6: Working with contextual tabs.
 
-![](./images/end-user-experience/contextual-tab.png)
+![RadEditor screenshot showing contextual-tab.png](./images/end-user-experience/contextual-tab.png)
 
 ## Toggling HTML Mode
 
-The user can edit the content as HTML by switching to HTML mode. This is done by tapping  the **Toggle HTML** button (![](./images/html-mode-button.png)) from the header tools. This will show the content's HTML. Once user is done, tapping the same button will switch the mode back to Design. 
+The user can edit the content as HTML by switching to HTML mode. This is done by tapping the **Toggle HTML** button (![RadEditor Toggle HTML button](./images/html-mode-button.png)) from the header tools. This will show the content's HTML. Once user is done, tapping the same button will switch the mode back to Design.
 
 >caption Figure 7: Toggling HTML mode.
 
-![](./images/end-user-experience/html-mode.png)
+![RadEditor screenshot showing html-mode.png](./images/end-user-experience/html-mode.png)
 
 ## Using Built-in Mobile Dialogs
 
@@ -93,7 +93,7 @@ With the creation of the phone-optimized **RadEditor**, the built-in dialogs als
 
 >caption Figure 8: Built-in Mobile Dialogs (Insert Table, Insert Image, Insert Link, Find and Replace). 
 
-![](./images/AJAX_RadEditor_Adaptive_Dialogs.png)
+![RadEditor screenshot showing AJAX_RadEditor_Adaptive_Dialogs.png](./images/AJAX_RadEditor_Adaptive_Dialogs.png)
 
 The following sections explain the specific elements for each mobile dialog.
 
@@ -103,7 +103,7 @@ All built-in dialogs have **OK**/**Insert** and **Cancel** buttons that are used
 
 >caption Figure 9: OK and Cancel buttons of the mobile-optimized built-in dialogs.  
 
-![](./images/end-user-experience/dialogs-header-tools.png)
+![RadEditor screenshot showing dialogs-header-tools.png](./images/end-user-experience/dialogs-header-tools.png)
 
 ### Hyperlink Manager
 
@@ -113,17 +113,17 @@ All built-in dialogs have **OK**/**Insert** and **Cancel** buttons that are used
 
 ### File Browser Dialogs
 
-* ![](./images/end-user-experience/upload-button.png) **Upload**—opens an UI for the user to upload a file *(available if the __UploadPaths__ property is set)*.
+* ![RadEditor screenshot showing upload-button.png](./images/end-user-experience/upload-button.png) **Upload**—opens an UI for the user to upload a file *(available if the __UploadPaths__ property is set)*.
  
-* ![](./images/end-user-experience/delete-button.png) **Delete**—deletes the selected file *(available if  the __DeletePaths__ property is set)*.
+* ![RadEditor screenshot showing delete-button.png](./images/end-user-experience/delete-button.png) **Delete**—deletes the selected file *(available if  the __DeletePaths__ property is set)*.
  
-* ![](./images/end-user-experience/list-button.png) **List View**—toggles the view mode to **List**.
+* ![RadEditor screenshot showing list-button.png](./images/end-user-experience/list-button.png) **List View**—toggles the view mode to **List**.
 
-* ![](./images/end-user-experience/thumb-button.png) **Thumbnail View**—toggles the view mode to **Thumbnails**.
+* ![RadEditor screenshot showing thumb-button.png](./images/end-user-experience/thumb-button.png) **Thumbnail View**—toggles the view mode to **Thumbnails**.
 
 ### Insert Table
 
-* ![](./images/end-user-experience/spin-button.png) **Increase/Decrease** (spin buttons)—enables the user to increase or decrease the value in the numeric text-box.
+* ![RadEditor screenshot showing spin-button.png](./images/end-user-experience/spin-button.png) **Increase/Decrease** (spin buttons)—enables the user to increase or decrease the value in the numeric text-box.
 
 * **Columns** (numeric text-box)—sets the number of the table's columns. 
   

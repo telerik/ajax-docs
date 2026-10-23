@@ -36,7 +36,7 @@ Here is how it usually looks like in the discribed scenario:
 
 You need to add the following **CSS** to improve this behavior:
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
 	div.RadScheduler .rsHorizontalHeaderTable, div.RadScheduler .rsContentTable, div.RadScheduler .rsAllDayTable
 	{
@@ -66,7 +66,7 @@ Here is how it usually looks like in the discribed scenario:
 
 
 
-````ASPNET
+````ASP.NET
 <style type="text/css">
 	.rsHidden
 	{

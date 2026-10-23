@@ -15,7 +15,7 @@ In this article you can see how to configure the **RibbonBar** toolbar of **RadE
 
 >caption Figure 1: The default RibbonBar toolbar of RadEditor.
 
-![](images/ribbonbar.png)
+![RadEditor screenshot showing ribbonbar.png](images/ribbonbar.png)
 
 ## Enabling RibbonBar Modes
 

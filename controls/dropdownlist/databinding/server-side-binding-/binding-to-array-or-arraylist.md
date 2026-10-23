@@ -19,7 +19,7 @@ position: 0
 
 The declaration of RadDropDownList objects includes no **DataSourceID** property or **`<items>`** section:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" EmptySelectionMessage="sadasd" runat="server">
 </telerik:RadDropDownList>
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList2" EmptySelectionMessage="sadasd" runat="server">
@@ -32,11 +32,14 @@ In the **Page_Load** event handler, create the Array and ArrayList, and bind the
 
 
 
+> caption Example: Bind RadDropDownList to an Array and an ArrayList
+
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
 	if (!Page.IsPostBack)
 	{
+		// Bind each control once when the page is first loaded.
 		BindToArrayList(RadDropDownList1);
 		BindToArray(RadDropDownList2);
 	}
@@ -44,6 +47,7 @@ protected void Page_Load(object sender, EventArgs e)
 
 private void BindToArrayList(Telerik.Web.UI.RadDropDownList dropDownList)
 {
+	// Create a collection of values for the first drop-down list.
 	ArrayList itemsList = new ArrayList();
 	itemsList.Add("One");
 	itemsList.Add("Two");
@@ -54,20 +58,23 @@ private void BindToArrayList(Telerik.Web.UI.RadDropDownList dropDownList)
 
 private void BindToArray(Telerik.Web.UI.RadDropDownList dropDownList)
 {
+	// Bind the second drop-down list to a string array.
 	string[] itemsList = { "One", "Two", "Three" };
 	dropDownList.DataSource = itemsList;
 	dropDownList.DataBind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	If Not Page.IsPostBack Then
+		' Bind each control once when the page is first loaded.
 		BindToArrayList(RadDropDownList1)
 		BindToArray(RadDropDownList2)
 	End If
 End Sub
 
 Private Sub BindToArrayList(dropDownList As Telerik.Web.UI.RadDropDownList)
+	' Create a collection of values for the first drop-down list.
 	Dim itemsList As New ArrayList()
 	itemsList.Add("One")
 	itemsList.Add("Two")
@@ -77,6 +84,7 @@ Private Sub BindToArrayList(dropDownList As Telerik.Web.UI.RadDropDownList)
 End Sub
 
 Private Sub BindToArray(dropDownList As Telerik.Web.UI.RadDropDownList)
+	' Bind the second drop-down list to a string array.
 	Dim itemsList As String() = {"One", "Two", "Three"}
 	dropDownList.DataSource = itemsList
 	dropDownList.DataBind()

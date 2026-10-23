@@ -15,8 +15,7 @@ position: 6
 
 If you set **ResourcePopulationMode**="ServerSide" and use **authentication** as shown below:
 
-````ASPNET
-	
+````ASP.NET
 <telerik:radscheduler runat="server" id="RadScheduler1">       
    <WebServiceSettings Path="../SchedulerWebService.asmx" ResourcePopulationMode="ServerSide" />
 </telerik:radscheduler> 
@@ -68,8 +67,7 @@ protected void RadScheduler1_ResourcesPopulating(object sender, Telerik.Web.UI.R
 } 
 			
 ````
-````VB.NET
-
+````VB
 Imports System.Web
 Imports System.Net
 Imports System.Web.Security
@@ -96,8 +94,7 @@ void RadScheduler1_ResourcesPopulating(object sender, ResourcesPopulatingEventAr
 } 
 			
 ````
-````VB.NET
-	
+````VB
 Private Sub RadScheduler1_ResourcesPopulating(sender As Object, e As ResourcesPopulatingEventArgs)
 
 	Dim a = New NetworkCredential()

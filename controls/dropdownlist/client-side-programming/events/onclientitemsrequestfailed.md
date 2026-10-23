@@ -27,7 +27,7 @@ The event handler receives two parameters:
 
 You can use this event to hide the default error message that appears in the **RadDropDownList** and display your own message instead:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     //Put your JavaScript code here.
     function ClientItemsRequestFailed(sender, eventArgs) {

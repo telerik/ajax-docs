@@ -67,7 +67,7 @@ Create an XML file with content that complies with the rules described above and
 ````C#
 RadMenu1.LoadContentFile("~/App_Data/menu.xml");		
 ````
-````VB.NET
+````VB
 RadMenu1.LoadContentFile("~/App_Data/menu.xml")
 ````
 
@@ -87,7 +87,7 @@ sb.Append(" </Group>");sb.Append(" </Menu>");
 string xmlString = sb.ToString();
 RadMenu1.LoadXml(xmlString);	
 ````
-````VB.NET
+````VB
 Dim sb As New StringBuilder()
 sb.Append("<Menu>")
 sb.Append(" <Group>")

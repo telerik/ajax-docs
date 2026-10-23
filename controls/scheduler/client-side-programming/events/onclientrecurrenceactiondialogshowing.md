@@ -33,8 +33,7 @@ Two parameters are passed to the event handler:
 
 This example shows how to suppress the "Edit this occurrence" or "Edit Series" dialog and choose to either edit the entire series or just the occurrence:
 
-````ASPNET
-	 
+````ASP.NET
 <script type="text/javascript">
 function OnClientRecurrenceActionDialogShowing(sender, eventArgs)
 {

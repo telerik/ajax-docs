@@ -43,7 +43,7 @@ rcm.Targets.Add(editZone);
 form1.Controls.Add(rcm);
 form1.Controls.Add(RadTextBox1);
 ````
-````VB.NET
+````VB
 Dim rcm As New RadContextMenu()
 rcm.ID = "contextMenu1"
 

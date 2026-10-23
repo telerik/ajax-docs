@@ -36,7 +36,9 @@ The user can perform the zooming either manually or programmatically:
 
 Zooming and Scrolling are disabled by default. Enable zooming / scrolling by setting the **RadChart.ClientSettings.ScrollMode** property to a value other than **None.** The available ScrollMode values are **None**, **XOnly**, **YOnly** and **Both**. The example below allows the user to scroll along either axis and zoom. The screenshot below shows the cursor selecting an area of the chart with values 10, 7 and 5. Once the area is selected that chunk is displayed in the image on the right.
 
-![](images/radchart-features013.png)
+![RadChart zoom rectangle selecting a portion of the chart](images/radchart-features013.png)
+
+> caption Example: Enable zooming and scrolling on both chart axes
 
 ````ASP.NET
 <telerik:radchart id="RadChart1" runat="Server" width="495px">
@@ -52,7 +54,9 @@ You can also use scrolling alone by explicitly disabling manual client-side zoom
 
 The screenshot shows that the user can scroll to see more of the chart. When the "chunks" of the chart are first retrieved, a progress indicator displays until the image is redrawn. Once the chunks are loaded in, scrolling becomes nearly instantaneous.
 
-![](images/radchart-features015.png)
+![RadChart scaled for horizontal scrolling without manual zooming](images/radchart-features015.png)
+
+> caption Example: Enable horizontal scrolling while disabling zooming
 
 ````ASP.NET
 <telerik:RadChart ID="RadChart2" runat="Server" Width="495px">

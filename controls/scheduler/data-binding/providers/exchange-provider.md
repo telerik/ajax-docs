@@ -91,8 +91,7 @@ username="wl" password="pass@word1" domain="litwareinc" />
 
 The provider is now set up and will be shared by all RadScheduler instances that are configured to use it. This is done by setting the ProviderName:
 
-````ASPNET
-	
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1"
 ProviderName="ExchangeSchedulerProvider">
 </telerik:RadScheduler>  

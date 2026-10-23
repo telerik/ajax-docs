@@ -128,7 +128,7 @@ public class SiteDataItem{
 	}
 }		
 ````
-````VB.NET
+````VB
 Imports System.Collections.Generic
 Public Class SiteDataItem
 	Private _text As String
@@ -238,7 +238,7 @@ protected void Page_Load(object sender, EventArgs e)
 	}
 }	
 ````
-````VB.NET
+````VB
 Private Function GenerateSiteData() As ArrayList
 	Dim siteData As New ArrayList()
 	siteData.Add(New SiteDataItem(1, Nothing, "All Sites", ""))

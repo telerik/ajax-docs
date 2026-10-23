@@ -17,7 +17,7 @@ position: 0
 
 To enable this functionality in **RadTreeList**, you should set the **AllowPaging** property to true.
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" AllowPaging="true" />
 ````
 

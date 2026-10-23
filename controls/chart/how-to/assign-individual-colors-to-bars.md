@@ -25,12 +25,17 @@ position: 2
 By default RadChart is designed so that all bars from a series have the same colors. If you need each to have a different color, loop through each chart series item and assign them a color from an array. This should be done after binding the chart, so the chart series items are available.
 
 
-![colorized chart](images/radchart-howto006.png)
+> caption Figure 1: RadChart bars rendered with individual colors
 
+![RadChart bars rendered with individual colors](images/radchart-howto006.png)
+
+
+> caption Example: Assign a different color to each bar after data binding
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
+    // Keep the color palette aligned with the chart's series items.
    Color[] barColors = new Color[8]{
        Color.Purple,
        Color.SteelBlue,
@@ -49,6 +54,7 @@ protected void Page_Load(object sender, EventArgs e)
         RadChart1.Series[0].Name = "Units by Category";
         foreach (ChartSeriesItem item in RadChart1.Series[0].Items)
         {
+            // Apply the next palette color to the current bar.
             item.Appearance.FillStyle.MainColor = barColors[i++];
         }
     }
@@ -56,6 +62,7 @@ protected void Page_Load(object sender, EventArgs e)
 ````
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
+    ' Keep the color palette aligned with the chart's series items.
     Dim barColors As Color() = New Color(8) {Color.Purple, Color.SteelBlue, Color.Aqua, Color.Yellow, Color.Navy, Color.Green, _
      Color.Blue, Color.Red}
     If Not IsPostBack Then
@@ -64,6 +71,7 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
         RadChart1.DataBind()
         RadChart1.Series(0).Name = "Units by Category"
         For Each item As ChartSeriesItem In RadChart1.Series(0).Items
+            ' Apply the next palette color to the current bar.
             item.Appearance.FillStyle.MainColor = barColors(System.Math.Max(System.Threading.Interlocked.Increment(i), i - 1))
         Next
     End If

@@ -43,7 +43,9 @@ The associated **CultureInfo** object controls:
 
 You can assign the culture of a **RadDateRangePicker** control declaratively in the source:
 
-````ASPNET
+> caption Example: Set the DateRangePicker culture in markup
+
+````ASP.NET
 <telerik:RadDateRangePicker
     ID="RadDateRangePicker1"
     runat="server"
@@ -55,15 +57,18 @@ You can assign the culture of a **RadDateRangePicker** control declaratively in 
 
 You can assign a culture property in the code-behind as well:
 
+> caption Example: Set the DateRangePicker culture in code-behind
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
+	// Apply the culture used to format the picker values.
     RadDateRangePicker.Culture = new System.Globalization.CultureInfo("en-US", true);
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
+	' Apply the culture used to format the picker values.
     RadDateRangePicker1.Culture = New System.Globalization.CultureInfo("en-US", True)
 End Sub
 ````

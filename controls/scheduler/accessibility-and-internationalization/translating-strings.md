@@ -19,8 +19,7 @@ The localization support for RadScheduler lets you completely translate the user
 
 The **Localization** property specifies the strings that appear in the runtime user interface of the scheduler, including the message pop-up dialogs and edit forms.By changing the values of each named sub-property, you change the appearance of the string the scheduler uses:
 
-````ASPNET
-	
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server">
   <Localization AdvancedDay="Work Day" />
 </telerik:RadScheduler>     

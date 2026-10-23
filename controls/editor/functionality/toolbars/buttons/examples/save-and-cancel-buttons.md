@@ -15,7 +15,7 @@ position: 2
 
 You can implement custom save and cancel buttons using **RadEditor**, a **RadAjaxManager** AjaxRequest, and two predefined "Save" and "Cancel" tools that are automatically styled according to the current skin.The example below is a stub implementation that configures the two button tools, implements save and cancel commands on the client and calls back to the server where save and cancel logic is carried out. In this example the server logic simply displays an alert dialog with the operation that should be carried out.
 
-![](images/editor-buttons007.png)
+![RadEditor screenshot showing editor-buttons007.png](images/editor-buttons007.png)
 
 >note You can extend the logic shown in this example to save into a database or other storage medium. See [Save in a File]({%slug editor/managing-content/getting-and-setting-content/save-in-file%}) or [Save in a Database]({%slug editor/managing-content/getting-and-setting-content/save-in-a-database%}) for more information.
 

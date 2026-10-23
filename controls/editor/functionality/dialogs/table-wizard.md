@@ -33,22 +33,22 @@ This tab allows you to adjust the number of rows and columns as well as adjust t
 
 * **More Table Styling** - Open the style builder dialog.
 
-![](images/editor-table-wizard-table-properties.png)
+![RadEditor screenshot showing editor-table-wizard-table-properties.png](images/editor-table-wizard-table-properties.png)
 
 ## Cell Properties
 
 The Cell Properties tab allows you to fine-tune the appearance of individual cells of a given table. Here you can configure cell width, height, alignment, background, the cell ID, toggle text wrapping and set the CSS class for a given cell.
 
-![](images/editor-table-wizard-cell-properties.png)
+![RadEditor screenshot showing editor-table-wizard-cell-properties.png](images/editor-table-wizard-cell-properties.png)
 
 ## Table Layouts
 
 You can select a particular predefined layout for the table an apply special formats to the heading/last row and first/last column. 
 
-![](images/editor-table-wizard-table-layouts.png)
+![RadEditor screenshot showing editor-table-wizard-table-layouts.png](images/editor-table-wizard-table-layouts.png)
 
 ## Accessibility
 
 The Accessibility tab allows you to adjust the number of heading rows and columns, add caption settings, add a summary and to toggle if the cells are associated with the headers.
 
-![](images/editor-table-wizard-accessibility.png)
+![RadEditor screenshot showing editor-table-wizard-accessibility.png](images/editor-table-wizard-accessibility.png)

@@ -61,7 +61,7 @@ protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEvent
     //we set the Tooltip just for testing purposes
 }	
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
     Dim table1 As New DataTable()
 

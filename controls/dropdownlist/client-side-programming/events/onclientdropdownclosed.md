@@ -25,7 +25,7 @@ The event handler receives two parameters:
 
 You can use this event to perform any client-side actions when the drop-down is completely closed:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function OnClientDropDownClosedHandler(sender, eventArgs) {
         alert("Dropdown is closed now");

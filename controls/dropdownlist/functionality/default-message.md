@@ -17,7 +17,9 @@ position: 1
 
 ## Setting the Default Message in the markup code
 
-````ASPNET
+> caption Example: Set a default message in the DropDownList markup
+
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1"
 	 runat="server"
 	 AutoPostBack="true"
@@ -31,15 +33,19 @@ position: 1
 
 
 
+> caption Example: Set the default message in server-side code
+
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
+	// Show guidance until the user selects an item.
 	RadDropDownList1.DefaultMessage = "Select an item";
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 
+	' Show guidance until the user selects an item.
 	RadDropDownList1.DefaultMessage = "Select an item"
 
 End Sub
@@ -47,6 +53,8 @@ End Sub
 
 
 ## Setting the Default Message client-side
+
+> caption Example: Set the default message with the client-side API
 
 ````JavaScript
 var dropdownlist = $find("<%= RadDropDownList1.ClientID %>");

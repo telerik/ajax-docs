@@ -19,8 +19,8 @@ When the advanced form is modal (<AdvancedForm Modal="true" />), it relies on a 
 
 ![custom modal template](images/scheduler_custom_modal_template.png)
 
-````ASPNET
-	<AdvancedEditTemplate>
+````ASP.NET
+<AdvancedEditTemplate>
    <div class="rsAdvancedEdit rsAdvancedModal" style="position: relative">
 	   <div class="rsModalBgTopLeft">
 	   </div>
@@ -63,8 +63,8 @@ When the advanced form is modal (<AdvancedForm Modal="true" />), it relies on a 
 
 
 
-````ASPNET
-	<AdvancedInsertTemplate>
+````ASP.NET
+<AdvancedInsertTemplate>
    <div class="rsAdvancedEdit rsAdvancedModal" style="position: relative">
 	   <div class="rsModalBgTopLeft">
 	   </div>

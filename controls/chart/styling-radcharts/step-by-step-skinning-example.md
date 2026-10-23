@@ -132,4 +132,4 @@ Here is a list of the steps one has to make in order to style RadChart to look l
 
 1. Data -> Series -> Series 2 -> Appearance -> Appearance -> TextAppearance -> TextProperties -> Color : **White**
 
-![](images/radchart-stylingcharts002.png)
+![RadChart styled with custom title, axis, and series colors](images/radchart-stylingcharts002.png)

@@ -21,7 +21,7 @@ The recommended approach to style a DIV content area is to target the elements i
 
 >caption Figure 1: The result from the CSS rules in Example 1.
 
-![](images/contentarea-div-decoration.png)
+![RadEditor screenshot showing contentarea-div-decoration.png](images/contentarea-div-decoration.png)
 
 >caption Example 1: CSS styles that decorate RadEditor with ContentAreaMode set to Div.
 

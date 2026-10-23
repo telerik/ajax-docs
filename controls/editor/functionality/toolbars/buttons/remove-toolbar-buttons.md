@@ -63,7 +63,7 @@ End Sub
 
 You can see list the available tools in RadEditor by using the autocomplete feature of the Name EditorTool inner tag attribute (to show the dropdown use Ctrl+Space):
 
-![](images/editor-nameattributeautocomplete.png)
+![RadEditor screenshot showing editor-nameattributeautocomplete.png](images/editor-nameattributeautocomplete.png)
 
 **Using the ToolsFile.xml:**
 

@@ -203,7 +203,7 @@ The following steps walk you through the entire process of creating an Excel doc
 
 After following all these steps you will get the following example that presents exporting on button click.
 
-````ASPNET
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager2" runat="server">  
 </telerik:RadScriptManager>
 <asp:Button ID="Button2" runat="server" Text="XLSX" OnClick="Button2_Click" />
@@ -334,7 +334,7 @@ protected void Button2_Click(object sender, EventArgs e)
 	ExportToXlsx();
 }
 ````
-````VB.NET
+````VB
 Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 
 Private Sub ExportToXlsx()
@@ -609,7 +609,7 @@ The following steps walk you through the entire process of creating an Word docu
 
 After following all these steps you will get the following example that presents exporting on button click.
 
-````ASPNET
+````ASP.NET
 <telerik:RadScriptManager ID="RadScriptManager3" runat="server">  
 </telerik:RadScriptManager>
 <asp:Button ID="Button1" runat="server" Text="DOCX" OnClick="Button1_Click" />
@@ -728,7 +728,7 @@ protected void Button1_Click(object sender, EventArgs e)
 	ExportToDocx();
 }
 ````
-````VB.NET
+````VB
 Shared supportedItemTypes As TreeListItemType() = New TreeListItemType() {TreeListItemType.HeaderItem, TreeListItemType.AlternatingItem, TreeListItemType.Item}
 
 Private Sub ExportToDocx()

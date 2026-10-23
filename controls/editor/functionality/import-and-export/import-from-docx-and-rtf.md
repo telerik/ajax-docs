@@ -139,7 +139,7 @@ Importing content in the Editor raises the **ImportContent** event that can be h
 
 >caption Example 3: Adding an additional paragraph to the [RadFlowDocument](https://docs.telerik.com/devtools/document-processing/libraries/radwordsprocessing/model/radflowdocument.html) through the **OnImportContent** event
 
-````ASPNET
+````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" OnImportContent="RadEditor1_ImportContent">
 </telerik:RadEditor>
 <asp:Button runat="server" ID="Button1" Text="Import DOCX" OnClick="Button1_Click" />

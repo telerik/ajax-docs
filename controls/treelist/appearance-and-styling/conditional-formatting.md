@@ -36,7 +36,7 @@ protected void RadTreeList1_ItemDataBound(object sender, TreeListItemDataBoundEv
 	}
 }			
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_ItemDataBound(ByVal sender As Object, ByVal e As TreeListItemDataBoundEventArgs) Handles RadTreeList1.ItemDataBound
 	If TypeOf e.Item Is TreeListDataItem Then
 		Dim item As TreeListDataItem = TryCast(e.Item, TreeListDataItem)

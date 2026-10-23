@@ -57,7 +57,7 @@ The following example demonstrates this technique:
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
 		AutoGenerateColumns="true" AllowPaging="true" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo">
 		<ClientSettings>
@@ -79,7 +79,7 @@ protected void Page_Load(object sender, EventArgs e)
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	If Not IsPostBack Then
 		RadTreeList1.ExpandToLevel(2)

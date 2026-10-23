@@ -55,8 +55,7 @@ protected void RadScheduler1_NavigationComplete(object sender, SchedulerNavigati
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_NavigationComplete(ByVal sender As Object, _
 		   ByVal e As SchedulerNavigationCompleteEventArgs) _
 	   Handles RadScheduler1.NavigationComplete

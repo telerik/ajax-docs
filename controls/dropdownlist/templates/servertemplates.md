@@ -66,7 +66,7 @@ class TextBoxTemplate : ITemplate
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs)
 	RadDropDownList1.ItemTemplate = New TextBoxTemplate()
 	MyBase.OnInit(e)
@@ -118,7 +118,7 @@ protected void RadDropDownList1_TemplateNeeded1(object sender, DropDownListItemE
 	RadDropDownList1.ItemTemplate = textBoxTemplate;
 }
 ````
-````VB.NET
+````VB
 End Class
 
 Protected Sub RadDropDownList1_TemplateNeeded(sender As Object, e As DropDownListItemEventArgs)
@@ -152,7 +152,7 @@ protected void Page_Load(object sender, EventArgs e)
 	RadDropDownList1.DataBind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	If Not Page.IsPostBack Then
 		RadDropDownList1.Items.Add(New DropDownListItem("root1"))

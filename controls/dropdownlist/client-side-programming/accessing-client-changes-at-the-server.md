@@ -55,8 +55,7 @@ foreach (ClientOperation<DropDownListItem> operation in RadDropDownList1.ClientC
 } 
 				
 ````
-````VB.NET
-
+````VB
 For Each operation As ClientOperation(Of DropDownListItem) In RadDropDownList1.ClientChanges
 Dim item As DropDownListItem = operation.Item
  Select Case operation.Type

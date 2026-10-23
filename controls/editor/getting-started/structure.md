@@ -11,7 +11,7 @@ position: 1
 
 # RadEditor Structure
 
-![](images/editor-structure001.png)
+![RadEditor screenshot showing editor-structure001.png](images/editor-structure001.png)
 
 * **Toolbars -** the main elements of the Telerik RadEditor are the Toolbars. They are in fact containers, which accommodate the buttons and dropdown lists of the various tools.
 

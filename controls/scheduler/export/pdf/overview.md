@@ -78,8 +78,7 @@ As of Q3 2013 SP1 two properties are introduced for this section:**StyleSheets**
 
 Here is an example of how to apply these settings:
 
-````ASPNET
-	
+````ASP.NET
 <ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
 	<Pdf PageTitle="Schedule" Author="Telerik" Creator="Telerik" Title="Schedule" />
  </ExportSettings>
@@ -100,7 +99,7 @@ protected void RadButton1_Click(object sender, EventArgs e)
 	
 	
 ````
-````VB.NET
+````VB
 Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	RadScheduler1.ExportToPdf()
 	RadScheduler1.ExportSettings.Pdf.PageTitle = "New Title"

@@ -29,7 +29,7 @@ The event handler receives two parameters:
 
 The following example uses the **OnClientItemSelecting** event to prevent the selection if the prompt item is about to be selected:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function OnClientItemSelecting(sender, eventArgs) {
         if (eventArgs.get_item().get_text() == "Select An Item") {

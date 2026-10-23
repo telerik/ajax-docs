@@ -52,4 +52,4 @@ In the collection editor for the Legend **Items** property add one or more items
 
 To add images to the legend you can set the Marker.Appearance.FillStyle.FillType to **Image** and the Marker.Appearance.FillStyle.FillSettings.BackgroundImage to the path of an image to display.In the example below two legend items are added to the collection where the BackgroundImage contains image paths for two flags and where the **TextBlock.Text** properties contain corresponding descriptions. In addition the Legend.Appearance.Shadow property has Blur = 5 and Distance = 2.
 
-![](images/radchart-understandingelements009.png)
+![RadChart legend items displaying image markers](images/radchart-understandingelements009.png)

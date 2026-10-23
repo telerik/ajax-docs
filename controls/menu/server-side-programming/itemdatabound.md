@@ -36,7 +36,7 @@ protected void RadMenu1_ItemDataBound(object sender, RadMenuEventArgs e)
     e.Item.ToolTip = "Learn more about " + e.Item.Text; 
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As RadMenuEventArgs) Handles RadMenu1.ItemDataBound
     Dim row As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
     e.Item.Enabled = [Boolean].Parse(row("Available").ToString())

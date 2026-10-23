@@ -29,8 +29,7 @@ The **ResourcePopulationMode** property controls how the resources are obtained.
 
 You have to set the mode to either **ServerSide** or **Manual** in order to enable grouped views. The server-side mode is recommended, as it requires no additional code. The drawback is that it does not work in medium trust. In such case you will have to fall back to manually populating the resource list.
 
-````ASPNET
-	
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" Skin="Vista"
    SelectedView="DayView" SelectedDate="2009-04-18">
    <DayView GroupBy="User" />

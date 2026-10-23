@@ -33,7 +33,7 @@ After you get the IDictionary object populated, you can use the provided values 
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1" OnInsertCommand="RadTreeList1_InsertCommand">
 	<Columns>
@@ -73,7 +73,7 @@ protected void RadTreeList1_InsertCommand(object sender, TreeListCommandEventArg
 }
 	
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_InsertCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs) Handles RadTreeList1.InsertCommand
 	'Canceling out the automatic datasource operation (needed if you use a datasource control)
 	e.Canceled = True
@@ -105,7 +105,7 @@ This can be achieved by getting hold of the current editable item and then acces
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" EditMode="InPlace" DataSourceID="SqlDataSource1" OnInsertCommand="RadTreeList2_InsertCommand">
 	<Columns>
@@ -144,7 +144,7 @@ protected void RadTreeList2_InsertCommand(object sender, TreeListCommandEventArg
 	RadTreeList2.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList2_InsertCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs)
 	'Canceling out the automatic datasource operation (needed if you use a datasource control)
 	e.Canceled = True

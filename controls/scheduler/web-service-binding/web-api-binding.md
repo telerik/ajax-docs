@@ -25,8 +25,7 @@ RadScheduler supports all CRUD operations "Create, Read, Update, and Delete” w
 
 **RadScheduler Web API binding** is quite similar to the usual [Web Service binding]({%slug scheduler/web-service-binding/overview%}) with several specific differences. In the mark up of the control we should set the correct path. If RadScheduler is loading resources make sure that **UseHttpGet** property is set to **true** as for example in the code below:
 
-````ASPNET
-	
+````ASP.NET
 <WebServiceSettings Path="api/scheduler" ResourcePopulationMode="ServerSide" UseHttpGet="true" />    
 	
 ````
@@ -35,8 +34,7 @@ RadScheduler supports all CRUD operations "Create, Read, Update, and Delete” w
 
 The **Routing information** should be defined in the **Global.asax** file. Here the jsonFormatter should be of type **new System.Net.Http.Formatting.JsonMediaTypeFormatter()** in order to have a properly working binding of RadScheduler:
 
-````ASPNET
-	     
+````ASP.NET
 <%@ Application Language="C#" %>
 <%@ Import Namespace="System.Web.Routing" %>
 <%@ Import Namespace="System.Web.Http" %>
@@ -169,8 +167,7 @@ public class SchedulerController : ApiController
 }
 	
 ````
-````VB.NET
-		
+````VB
 Imports Newtonsoft.Json.Linq
 Imports System.Collections.Generic
 Imports System.Linq
@@ -260,8 +257,7 @@ End Class
 
 In order for all CRUD operations to work properly when you host the application on **IIS server** in the configuration file, you need to add the following settings in the **system.webServer** section:
 
-````ASPNET
-	
+````ASP.NET
 	<remove name="WebDAV" />
 	<remove name="ExtensionlessUrlHandler-Integrated-4.0" />
 	<add name="ExtensionlessUrlHandler-Integrated-4.0" path="*." verb="*" type="System.Web.Handlers.TransferRequestHandler" resourceType="Unspecified" requireAccess="Script" preCondition="integratedMode,runtimeVersionv4.0" />

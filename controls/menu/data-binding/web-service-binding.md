@@ -87,7 +87,7 @@ public RadMenuItemData[] GetMenuCategories(RadMenuItemData item, object context)
 	return result.ToArray();
 }
 ````
-````VB.NET
+````VB
 Public Function GetMenuCategories(ByVal item As RadMenuItemData, ByVal context As Object) As RadMenuItemData()
 	Dim productCategories As DataTable = GetProductCategories(item.Value)
 	Dim result As New List(Of RadMenuItemData)()

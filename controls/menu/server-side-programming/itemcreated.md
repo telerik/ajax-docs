@@ -35,7 +35,7 @@ protected void RadMenu1_ItemCreated(object sender, RadMenuEventArgs e)
     e.Item.ToolTip = e.Item.Text; 
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemCreated
     e.Item.ToolTip = e.Item.Text
 End Sub

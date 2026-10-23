@@ -60,7 +60,7 @@ class TextBoxTemplate : ITemplate
     }
 }	    			
 ````
-````VB.NET
+````VB
 Protected Overloads Overrides Sub OnInit(ByVal e As EventArgs)
     RadMenu1.ItemTemplate = New TextBoxTemplate()
     MyBase.OnInit(e)
@@ -121,7 +121,7 @@ protected void Page_Load(object sender, EventArgs e)
     RadMenu1.DataBind();
 }	    			
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
     If Not Page.IsPostBack Then
         RadMenu1.Items.Add(New RadMenuItem("MenuItem1"))

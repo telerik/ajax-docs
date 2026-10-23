@@ -13,7 +13,7 @@ position: 0
 
 You can use RadEditor in a **EditItemTemplate** of a **DataGrid**, taking advantage of the standard framework provided by the DataGrid control. The example below demonstrates:
 
-![](images/editor-gettingsettingcontent003.png)
+![RadEditor screenshot showing editor-gettingsettingcontent003.png](images/editor-gettingsettingcontent003.png)
 
 ## Configure the Web Application for RadEditor
 

@@ -39,17 +39,21 @@ Firstly, you need to add an .xml file which will act as a repository for all app
 
 
 
+> caption Example: Configure RadScheduler to use an XML appointment provider
+
 ````C#
 	
 protected void Page_Init(object sender, EventArgs e)
 {
+    // Load and persist appointments from the XML provider during initialization.
 	RadScheduler1.Provider = new XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments.xml"), true);
 }
 	
 	
 ````
-````VB.NET
+````VB
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
+    ' Load and persist appointments from the XML provider during initialization.
 	RadScheduler1.Provider = New XmlSchedulerProvider(Server.MapPath("~/App_Data/Appointments.xml"), True)
 End Sub
 ````

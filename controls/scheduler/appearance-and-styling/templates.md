@@ -52,8 +52,7 @@ There are five types of templates that can be used with **RadScheduler**:
 
 ## InlineInsertTemplate
 
-````ASPNET
-	     
+````ASP.NET
 <InlineInsertTemplate>
    <div id="InlineInsertTemplate" class="rsCustomAppointmentContainer <%# Eval("AppointmentType.Text") %>">
 	   <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("Subject") %>' Width="90%" TextMode="MultiLine" Height="20px"></asp:TextBox>
@@ -100,8 +99,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 }  
 	    
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
 						   ByVal e As SchedulerFormCreatedEventArgs)
 	If e.Container.Mode = SchedulerFormMode.Insert Then
@@ -121,8 +119,7 @@ The result of the above code is shown below:
 
 ## InlineEditTemplate
 
-````ASPNET
-	
+````ASP.NET
 <InlineEditTemplate>
    <div id="InlineEditTemplate" class="rsCustomAppointmentContainer <%# Eval("AppointmentType.Text") %>">
 	   <asp:TextBox ID="TitleTextBox" runat="server" Text='<%# Bind("Subject") %>' Width="90%" TextMode="MultiLine" Height="20px"></asp:TextBox>
@@ -156,8 +153,7 @@ The edit template is similar to the insert template, except that it does not nee
 
 ## AdvancedInsertTemplate
 
-````ASPNET
-	
+````ASP.NET
 <AdvancedInsertTemplate>
    <div id="Div1">
 	   <div id="Div2" class="technical">
@@ -235,8 +231,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 } 
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
 	Dim scheduler As RadScheduler = CType(sender, RadScheduler)
 	If ((e.Container.Mode = SchedulerFormMode.Insert) _
@@ -286,8 +281,7 @@ protected void RadScheduler1_AppointmentCommand(object sender, AppointmentComman
 }
 	    
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object, _
  ByVal e As AppointmentCommandEventArgs) _
 		Handles RadScheduler1.AppointmentCommand
@@ -311,8 +305,7 @@ The result of the above code is shown below:![Advanced insert template](images/s
 
 ## AdvancedEditTemplate
 
-````ASPNET
-	
+````ASP.NET
 <AdvancedEditTemplate>
 <div id="qsfexAdvEditWrapper">
  <div id="qsfexAdvEditInnerWrapper" class='<%# Eval("AppointmentType.Text") %>'>
@@ -391,8 +384,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
 					 ByVal e As SchedulerFormCreatedEventArgs) _
 					 Handles RadScheduler1.FormCreated

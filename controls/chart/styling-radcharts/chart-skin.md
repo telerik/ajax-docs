@@ -32,19 +32,21 @@ Once you have set up your skin you can save it in a **ChartSkin** object using t
 
 When you want to reuse the skin, you need to create an instance of **ChartSkin** object, specifying the XML file as a source. Then you can apply the skin to the chart using the **ApplyTo** method.
 
+> caption Example: Save a chart skin to XML and apply it again
+
 ````C#
-//Save the XML Skin file...
+// Save the chart appearance to an XML skin file.
  ChartSkin myCustomSkin = new ChartSkin();
  myCustomSkin.CreateFromChart(RadChart1.Chart, "CustomSkin");
-//Restore the XML Skin file...
+// Restore the saved skin and apply it to the chart.
  ChartSkin myCustomSkin1 = new ChartSkin(xmlSource);
  myCustomSkin1.ApplyTo(RadChart1.Chart); 
 ````
 ````VB	
-'Save the XML Skin file...
+' Save the chart appearance to an XML skin file.
 Dim myCustomSkin As New ChartSkin()
 myCustomSkin.CreateFromChart(RadChart1.Chart, "CustomSkin")
-'Restore the XML Skin file...
+' Restore the saved skin and apply it to the chart.
 Dim myCustomSkin1 As New ChartSkin(xmlSource)
 myCustomSkin1.ApplyTo(RadChart1.Chart) 
 ````

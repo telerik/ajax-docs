@@ -31,7 +31,7 @@ From Q2 2013 RadTreeList could be bound to the SiteMapDataSource. When binding t
 
 Refer to the code snippet in the next paragraph:
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="TreeList1" DataSourceID="SqlDataSource1"
 	AutoGenerateColumns="false" AllowPaging="true" PageSize="3" DataKeyNames="EmployeeID"
 	ParentDataKeyNames="ReportsTo">

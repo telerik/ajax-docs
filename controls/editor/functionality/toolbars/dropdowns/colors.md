@@ -13,7 +13,7 @@ position: 5
 
 The RadEditor **Colors** dropdown displays a predefined set of colors by default and displays for the Font and Fill color drop downs. All colors are held in the **Colors** collection. You can add to the Colors collection declaratively, programmatically and using the ToolsFile.
 
-![](images/editor-dropdowns007.png)
+![RadEditor screenshot showing editor-dropdowns007.png](images/editor-dropdowns007.png)
 
 ## Using the ColorsCollection Declaratively
 
@@ -50,7 +50,7 @@ RadEditor1.Colors.Add("#9900CC")
 
 You can also populate the color dropdowns using the ToolsFile, as shown in the example below:
 
-![](images/editor-dropdowns008.png)
+![RadEditor screenshot showing editor-dropdowns008.png](images/editor-dropdowns008.png)
 
 ````XML
 <root>  

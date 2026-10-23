@@ -33,7 +33,9 @@ The template contains mark up and binding expressions which are evaluated agains
 
 On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
-````ASPNET
+> caption Example: Define a client item template in markup and code
+
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server">           
 	<ClientItemTemplate>
 		<div class="customClass">
@@ -55,6 +57,7 @@ protected void Page_Load(object sender, EventArgs e)
 {
 	if (!Page.IsPostBack)
 	{
+		// Build the client template once and assign it to the control.
 		StringBuilder clientTemplate = new StringBuilder();
 		clientTemplate.Append("<div class='customClass'>");
 		clientTemplate.Append("<img src='#= ImagePath #' alt='Picture' />");
@@ -64,10 +67,10 @@ protected void Page_Load(object sender, EventArgs e)
 	}
 }
 ````
-````VB.NET
-	
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	If Not Page.IsPostBack Then
+		' Build the client template once and assign it to the control.
 		Dim clientTemplate As New StringBuilder()
 		clientTemplate.Append("<div class='customClass'>")
 		clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />")
@@ -99,7 +102,7 @@ Sample code for the usage of the method is demonstrated below.
 
 * Adding item and then binding the Control’s template to it:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server">
 	<ClientItemTemplate>
 		Template text: #= Text #
@@ -144,7 +147,7 @@ item.bindTemplate();
 
 * Bind the client template to an item rendered on the server:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server">
 	<Items>
 		<telerik:DropDownListItem Text="Item" />

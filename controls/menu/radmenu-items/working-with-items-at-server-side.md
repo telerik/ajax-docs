@@ -19,6 +19,7 @@ Using the server-side API, you can programmatically add, remove, and edit menu i
 
 After simply adding a RadMenu control to your Web page, use the following server-side code to add items when the page loads:
 
+> caption Example: Add root and child items to RadMenu in Page_Load
 
 
 ````C#
@@ -26,6 +27,7 @@ protected void Page_Load(object sender, EventArgs e)
 {
     if (!Page.IsPostBack)
     {      
+        // Build the item hierarchy only on the initial request.
         RadMenuItem item1 = new RadMenuItem();
         item1.Text = "Item 1";
         RadMenuItem item11 = new RadMenuItem();
@@ -42,9 +44,10 @@ protected void Page_Load(object sender, EventArgs e)
     }
 }		
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
     If Not Page.IsPostBack Then
+        ' Build the item hierarchy only on the initial request.
         Dim item1 As New RadMenuItem()
         item1.Text = "Item 1"
         Dim item11 As New RadMenuItem()
@@ -105,7 +108,7 @@ protected void RadMenu1_ItemClick(object sender, RadMenuEventArgs e)
     }
 }			
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemClick(ByVal sender As Object, ByVal e As RadMenuEventArgs) Handles RadMenu1.ItemClick
     Select Case e.Item.Value
         Case "R"
@@ -185,7 +188,7 @@ protected void RadMenu1_ItemClick(object sender, RadMenuEventArgs e)
     }
 }		
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemClick(ByVal sender As Object, ByVal e As RadMenuEventArgs) Handles RadMenu1.ItemClick
     If TypeOf e.Item.Owner Is RadMenuItem Then
         Dim parentItem As RadMenuItem = DirectCast(e.Item.Owner, RadMenuItem)

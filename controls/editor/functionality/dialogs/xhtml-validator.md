@@ -13,7 +13,7 @@ position: 6
 
 The **XhtmlValidator** dialog uses the W3C XHTML Validator Page to perform validation of the current editor content. The W3C service returns a compliance report right within the editor dialog. This feature eliminates the need for manual copy/pasting of the HTML and validation in a separate browser window.
 
-![](images/editor-dialogs004.png)
+![RadEditor screenshot showing editor-dialogs004.png](images/editor-dialogs004.png)
 
 You can enable this dialog by declaring the XhtmlValidator Tool in-line, adding it to the ToolsFile.xml or defining it programmatically:
 

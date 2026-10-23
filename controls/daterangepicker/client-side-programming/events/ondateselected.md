@@ -34,7 +34,7 @@ Check out sample use of this event in the [Client-Side Events demo](https://demo
 
 ## Examples
 
-````ASPX
+````ASP.NET
 <telerik:RadDateRangePicker RenderMode="Lightweight" ID="RadDateRangePicker1" runat="server" Width="100%">
     <ClientEvents OnDateSelected="OnDateSelected" />
 </telerik:RadDateRangePicker>

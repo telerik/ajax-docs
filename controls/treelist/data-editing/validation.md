@@ -55,7 +55,7 @@ protected void RadTreeList1_ItemCreated(object sender, Telerik.Web.UI.TreeListIt
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListItemCreatedEventArgs)
 	If TypeOf e.Item Is TreeListEditFormItem Then
 		Dim editForm As TreeListEditFormItem = TryCast(e.Item, TreeListEditFormItem)
@@ -75,8 +75,8 @@ End Sub
 
 The approach is the same as with any other server control. You can place the respective validator in the EditItemTemplate of your TreeListTemplateColumn and relate its ControlToValidate property with the ID of the control you would like to validate:
 
-````ASPNET
-	<asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName")%>' runat="server"></asp:TextBox>
+````ASP.NET
+<asp:TextBox ID="TextBox1" Text='<%# Bind("ProductName")%>' runat="server"></asp:TextBox>
 	<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox1" ErrorMessage="Required Field!"></asp:RequiredFieldValidator>                    
 ````
 

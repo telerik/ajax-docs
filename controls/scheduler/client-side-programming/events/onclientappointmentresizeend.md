@@ -37,8 +37,7 @@ Two parameters are passed to the event handler:
 
 This example cancels the resize if the user tried to resize an appointment's series:
 
-````ASPNET
-
+````ASP.NET
 <script type="text/javascript">   
 function OnClientAppointmentResizeEnd(sender, eventArgs)
 {                                  

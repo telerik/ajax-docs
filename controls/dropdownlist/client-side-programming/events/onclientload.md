@@ -23,7 +23,7 @@ The event handler receives one parameter:
 
 This event is helpful if you need to get the client-side instance of the DropDownList when it is embedded in other controls. Hook the **OnClientLoad** event and get the client-side instance of the DropDownList as demonstrated in the example below. This technique can be used to retrieve the DropDownList instance for use elsewhere.
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function OnClientLoadHandler(sender) {
         var dropdownlist;

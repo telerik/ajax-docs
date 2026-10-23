@@ -57,4 +57,4 @@ You can also set the **Text** property inline in the RadEditor declaration:
 
 The order of precedence for localization is generally that **Text** assigned at runtime (in the Page_Load for example) is considered first, then in-line declaration and lastly the resource file strings are the default.For example, if the **Language** property is set to "fr-FR", the editor tool in-line **Text** declaration for the "Copy" tool is "My In-Line Copy Button" and the Page_Load event handler includes an assignment "My Runtime Copy Button", the run-time assignment will win out:
 
-![](images/editor-localization008.png)
+![RadEditor screenshot showing editor-localization008.png](images/editor-localization008.png)

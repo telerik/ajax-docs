@@ -13,7 +13,7 @@ position: 1
 
 The **RadSpreadsheet**'s cell-formatting options dialog can be customized. The existing options divided into three categories **Number**, **Currency** and **Date and Time** can be replaced by or complemented with additional formatting options. This can be achieved by adding a user control to the **RadSpreadsheet**'s CustomFormatTemplate:
 
-````ASPNET
+````ASP.NET
 <telerik:RadSpreadsheet runat="server" ID="RadSpreadsheet1">
     <CustomFormatTemplate>
         <uc1:SpreadsheetCustomFormat runat="server" ID="SpreadsheetCustomFormat" />
@@ -23,7 +23,7 @@ The **RadSpreadsheet**'s cell-formatting options dialog can be customized. The e
 
 The following screenshot shows the result of modifying the user control and including two additional formatting options ("100.00 euro" and "€100") in the Currency tab.
 
-![Custom Format](images/spreadsheet-custom-format.png) 
+![RadSpreadsheet custom cell format options](images/spreadsheet-custom-format.png)
 
 # Formatting options
 

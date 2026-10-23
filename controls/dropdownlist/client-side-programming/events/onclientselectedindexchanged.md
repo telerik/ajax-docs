@@ -27,7 +27,7 @@ The event handler receives two parameters:
 
 Use this event to respond to the newly selected item:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function OnClientSelectedIndexChanged(sender, eventArgs) {
         alert("You selected item with index : " + eventArgs.get_index());

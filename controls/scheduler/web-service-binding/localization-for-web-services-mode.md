@@ -26,7 +26,7 @@ are required as listed below:
 **1**. Enable script globalization for the ScriptManager or
 RadScriptManager on the page:
 
-````ASPNET
+````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" />
 ````
 
@@ -43,8 +43,7 @@ directive. For example:
 
 or
 
-````ASPNET
-	
+````ASP.NET
 <%@ Page Language="C#" Culture="fr-CA" AutoEventWireup="true" %>
 	
 ````
@@ -54,8 +53,7 @@ or
 **3**. Set the Culture property for
 RadScheduler.
 
-````ASPNET
-	  
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" runat="server" ID="RadScheduler1" Culture="fr-CA">
 <WebServiceSettings Path="~/SchedulerDataService.asmx" />
 </telerik:RadScheduler>  

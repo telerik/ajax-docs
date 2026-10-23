@@ -62,8 +62,7 @@ protected void RadScheduler1_AppointmentCreated(object sender, Telerik.Web.UI.Ap
 } 
 	
 ````
-````VB.NET
-	     
+````VB
 	    Protected Sub RadScheduler1_AppointmentCreated(ByVal sender As Object,
 	                      ByVal e As Telerik.Web.UI.AppointmentCreatedEventArgs)
 	        Handle(RadScheduler1.AppointmentCreated)

@@ -20,6 +20,8 @@ The following example illustrates how to bind to a **DataTable** that is created
 
 1. Create a function that dynamically creates the data source (in this case, a **DataTable**):
 
+> caption Example: Create a hierarchical DataTable for RadMenu
+
 ````C#
 private DataTable CreateTestTable(){  
 	DataTable table = new DataTable();  
@@ -39,7 +41,7 @@ private DataTable CreateTestTable(){
 	return table;
 }		
 ````
-````VB.NET
+````VB
 Private Function CreateTestTable() As DataTable
 	Dim table As New DataTable()
 	table.Columns.Add("ID")
@@ -61,12 +63,14 @@ End Function
 
 1. Set the **DataSource** property of the menu to the DataTable. At the same time, use the **RadMenu** properties to specify the fields to use for the **Text**, **Value**, and **NavigateUrl** properties of menu items. Indicate how to establish the item hierarchy by giving values to the **DataFieldID** and **DataFieldParentID** properties. Finally, call the **DataBind** method to bind the menu:
 
+> caption Example: Bind RadMenu to the DataTable and map its hierarchy fields
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {  
 	if (!IsPostBack)  
 	{    
+		// Configure the fields that define item text, links, and hierarchy.
 		RadMenu1.DataSource = CreateTestTable();
 		//Establish hierarchy:    
 		RadMenu1.DataFieldID = "ID";    
@@ -79,9 +83,10 @@ protected void Page_Load(object sender, EventArgs e)
 	}
 }			
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	If Not IsPostBack Then
+		' Configure the fields that define item text, links, and hierarchy.
 		RadMenu1.DataSource = CreateTestTable()
 		'Establish hierarchy:
 		RadMenu1.DataFieldID = "ID"
@@ -101,14 +106,14 @@ End Sub
 ````C#
 protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEventArgs e)
 {  
-	//Set additional properties. ToolTip for example:  
+	// Set additional properties, such as the item tooltip.
 	DataRowView row = (DataRowView)e.Item.DataItem;  
 	e.Item.ToolTip = row["Tooltip"].ToString();
 }		
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
-	'Set additional properties. ToolTip for example:  
+	' Set additional properties, such as the item tooltip.
 	Dim row As DataRowView = CType(e.Item.DataItem, DataRowView)
 	e.Item.ToolTip = row("Tooltip").ToString()
 End Sub
@@ -140,7 +145,7 @@ protected void Page_Load(object sender, EventArgs e)
 	}
 }		
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 	If Not Page.IsPostBack Then
 		Dim adapter As New OleDbDataAdapter("SELECT * FROM Table1", "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + Server.MapPath("~/App_Data/db1.mdb"))

@@ -33,7 +33,11 @@ With that said, you can:
 
 Check out the sample below:
 
-![Customized embedded controls](../images/embedded-controls.png)
+> caption Figure 1: DateRangePicker with customized embedded controls
+
+![DateRangePicker with customized calendar, popup button, and date input controls](../images/embedded-controls.png)
+
+> caption Example: Customize the embedded calendar and date pickers
 
 ````ASP.NET
 <telerik:RadDateRangePicker runat="server" ID="RadDateRangePicker1" Skin="Bootstrap" Width="800">

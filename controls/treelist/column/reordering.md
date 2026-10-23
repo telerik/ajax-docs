@@ -34,7 +34,7 @@ When columns are created programmatically, they appear in the same order that th
 ````C#
 treelist.SwapColumns("FirstName", "LastName");
 ````
-````VB.NET
+````VB
 treelist.SwapColumns("FirstName", "LastName")
 ````
 
@@ -46,7 +46,7 @@ treelist.SwapColumns("FirstName", "LastName")
 ````C#
 treelist.SwapColumns(3, 4);
 ````
-````VB.NET
+````VB
 treelist.SwapColumns(3, 4)
 ````
 
@@ -71,7 +71,7 @@ if (c != null)
 	}
 }
 ````
-````VB.NET
+````VB
 Dim cols As TreeListColumnsCollection = treelist.Columns
 Dim c As TreeListColumn = cols.FindByUniqueName(columnName)
 If c IsNot Nothing Then

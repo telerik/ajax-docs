@@ -40,7 +40,7 @@ In addition, the Upload tab will remain disabled if the path is wrong or the **U
 
 Once these conditions are met, you can open the Images dialog. If you have images in the "mypics" directory, you will see them. Select the directory where you want to upload new images. The UPLOAD tab should become active. Click on it and upload the image.
 
-![](images/editor-imagemanager001.png)
+![RadEditor screenshot showing editor-imagemanager001.png](images/editor-imagemanager001.png)
 
 ## See Also
 

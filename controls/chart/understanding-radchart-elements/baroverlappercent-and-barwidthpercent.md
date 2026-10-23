@@ -28,10 +28,10 @@ BarWidthPercent controls how much space each bar takes up so that a BarWidthPerc
 
 See the examples below to see how these two properties work together.
 
-![](images/radchart-understandingelements021.png)
+![RadChart bars with the first BarOverlapPercent and BarWidthPercent settings](images/radchart-understandingelements021.png)
 
-![](images/radchart-understandingelements022.png)
+![RadChart bars with a second BarOverlapPercent and BarWidthPercent configuration](images/radchart-understandingelements022.png)
 
-![](images/radchart-understandingelements023.png)
+![RadChart bars with a third BarOverlapPercent and BarWidthPercent configuration](images/radchart-understandingelements023.png)
 
-![](images/radchart-understandingelements024.png)
+![RadChart bars with a fourth BarOverlapPercent and BarWidthPercent configuration](images/radchart-understandingelements024.png)

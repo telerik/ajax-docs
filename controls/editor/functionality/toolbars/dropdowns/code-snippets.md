@@ -13,7 +13,7 @@ position: 11
 
 The Code snippets dropdown (&lt;tool name="InsertSnippet" /&gt;) is a convenient tool for inserting predefined chunks of content (HTML) like signatures, product description templates, custom tables, etc. These chunks of content are kept in the **Snippets** collection. You can add to the Snippets collection declaratively, programmatically and using the ToolsFile.
 
-![](images/editor-dropdowns015.png)
+![RadEditor screenshot showing editor-dropdowns015.png](images/editor-dropdowns015.png)
 
 ## Using the Snippets Collection Declaratively
 
@@ -52,7 +52,7 @@ RadEditor1.Snippets.Add("Signature", "<strong>John Smith</strong><br>Sales Manag
 
 To create a dropdown with image thumbnails, insert the img tag as the first argument of the **Add()** method. The img tag content is the path to the image source:
 
-![](images/editor-dropdowns014.png)
+![RadEditor screenshot showing editor-dropdowns014.png](images/editor-dropdowns014.png)
 
 ````C#
 RadEditor1.Snippets.Add("<img src='./RadControls/Editor/Skins/Default/Buttons/Cut.gif' /> test", "test");
@@ -65,7 +65,7 @@ RadEditor1.Snippets.Add("<img src='./RadControls/Editor/Skins/Default/Buttons/Cu
 
 You can also populate the Custom links dropdown using the ToolsFile.xml file. For the HTML code to be interpreted correctly in the XML file, enclose the code in `<![CDATA[ ]]>` as shown in the example below:
 
-![](images/editor-dropdowns016.png)
+![RadEditor screenshot showing editor-dropdowns016.png](images/editor-dropdowns016.png)
 
 ````XML
 <snippets>   

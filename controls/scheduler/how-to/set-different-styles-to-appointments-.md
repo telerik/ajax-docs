@@ -25,7 +25,7 @@ If you are ready to give up the gradient and rounded corners, with Q2 2009 SP1 w
 
 For example:
 
-![custom background color](images/scheduler_customappointmentcolor.png)
+![Scheduler appointment with a custom background color and border](images/scheduler_customappointmentcolor.png)
 
 
 
@@ -42,8 +42,7 @@ protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventA
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
 	e.Appointment.BackColor = System.Drawing.Color.Yellow
 	e.Appointment.BorderColor = System.Drawing.Color.Red
@@ -80,7 +79,7 @@ Alternatively, you can take advantage of the 10 predefined, skin-independent CSS
 
 Here is how each style looks like:
 
-![set appointment styles](images/scheduler_appointmentstyles.png)
+![Scheduler appointments using predefined skin-independent styles](images/scheduler_appointmentstyles.png)
 
 You can handle the **AppointmentDataBound** event and use a custom condition based on attributes, resources or any other property of the Appointmentobject to set the appointment **CssClass** property. For example, the above screenshot can be replicated with the following code:
 
@@ -97,8 +96,7 @@ protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
 	e.Appointment.CssClass = "rsCategory" + e.Appointment.Subject
 End Sub
@@ -153,8 +151,7 @@ Similar css rules are loaded for the other 9 styles.
 
 The CssClass property can be set declaratively for resources using the new **ResourceStyleMapping** feature of RadScheduler:
 
-````ASPNET
-	
+````ASP.NET
 <ResourceStyles>
  <telerik:ResourceStyleMapping Type="User" Text="Alex" ApplyCssClass="rsCategoryBlue" />
  <telerik:ResourceStyleMapping Type="User" Text="Bob" ApplyCssClass="rsCategoryOrange" />
@@ -195,8 +192,7 @@ protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs)
 	If e.Appointment.Resources.GetResourceByType("User") <> Nothing Then
 		Select Case e.Appointment.Resources.GetResourceByType("User").Text

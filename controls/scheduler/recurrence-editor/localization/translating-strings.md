@@ -19,8 +19,8 @@ The localization support for RadSchedulerRecurrenceEditor lets you completely tr
 
 The **Localization** property specifies the strings that appear in the runtime user interface of the control. By changing the values of each named sub-property, you change the string the control uses:
 
-````ASPNET
-<telerik:RadSchedulerRecurrenceEditor ID="RadSchedulerRecurrenceEditor1" runat="server">  
+````ASP.NET
+<telerik:RadSchedulerRecurrenceEditor ID="RadSchedulerRecurrenceEditor1" runat="server">
 	<Localization AdvancedDay="Tag"  />
 </telerik:RadSchedulerRecurrenceEditor>
 ````

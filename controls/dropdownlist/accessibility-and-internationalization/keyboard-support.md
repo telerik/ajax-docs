@@ -22,7 +22,7 @@ Setting the control's **KeyboardNavigationSettings** (*introduced in R2 2016 - v
 
 **Example:** Setting the **KeyboardNavigationSettings** for **RadDropDownList**
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList ID="RadDropDownList1" runat="server" >
     <KeyboardNavigationSettings CommandKey="Alt" FocusKey="M" />
 </telerik:RadDropDownList>

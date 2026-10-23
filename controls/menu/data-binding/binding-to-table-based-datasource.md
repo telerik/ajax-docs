@@ -44,7 +44,7 @@ protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEvent
 	e.Item.ToolTip = (string)DataBinder.Eval(e.Item.DataItem, "ToolTip"); 
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
 	e.Item.ToolTip = CStr(DataBinder.Eval(e.Item.DataItem, "ToolTip"))
 End Sub

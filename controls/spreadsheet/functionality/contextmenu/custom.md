@@ -13,7 +13,7 @@ position: 1
 
 **RadSpreadsheet**'s ContextMenu can be customized. Instead of using the built-in ContextMenu, a custom ContextMenu can be defined declaratively (in the aspx page) or in the code-behind. The following example shows a CellContextMenu, RowHeaderContextMenu and ColumnHeaderContextMenu declared in the **RadSpreadsheet**'s ContextMenus tag: 
 
-````ASPNET
+````ASP.NET
 <script>
     function CellContextMenuItemClicked(sender, args) {
         if (args.get_item().get_value() == "CustomSetBold") {

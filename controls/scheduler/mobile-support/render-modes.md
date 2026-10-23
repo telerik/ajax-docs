@@ -35,7 +35,7 @@ There are two ways to configure the rendering mode of the controls:
 
 * The property **RenderMode** of RadScheduler can be used to set the render mode of a particular instance of the control:
 
-````ASPNET
+````ASP.NET
 <telerik:RadScheduler ID="RadScheduler1" runat="server" DataStartField="start"
 	DataEndField="end" DataSubjectField="subject" DataKeyField="id" RenderMode="Mobile">
 </telerik:RadScheduler>
@@ -48,7 +48,7 @@ There are two ways to configure the rendering mode of the controls:
 RadScheduler1.RenderMode = Telerik.Web.UI.RenderMode.Mobile;
 	    
 ````
-````VB.NET
+````VB
 RadScheduler1.RenderMode = Telerik.Web.UI.RenderMode.Mobile
 ````
 

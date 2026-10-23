@@ -66,6 +66,8 @@ AutoTextWrap properties that control the wrapping settings for individual elemen
 
 ## Text-wrapping enabled for all chart elements:
 
+> caption Example: Enable text wrapping for all RadChart elements
+
 ````XML
 <telerik:RadChart ID="RadChart1" runat="server" DataSourceID="AccessDataSource1"
 	AutoTextWrap="true" Skin="Wood" AutoLayout="true" Height="500px" Width="700px"
@@ -106,7 +108,7 @@ AutoTextWrap properties that control the wrapping settings for individual elemen
 
 **Result:**
 
-![](images/radchart-chartwrapall.png)
+![RadChart with text wrapping enabled for all chart elements](images/radchart-chartwrapall.png)
 
 ## Text-wrapping enabled for all elements, but explicitly disabled for the axis item labels:
 
@@ -151,9 +153,9 @@ AutoTextWrap properties that control the wrapping settings for individual elemen
 ````
 
 **Result:**
->caption 
+>caption RadChart with text wrapping disabled for axis item labels
 
-![](images/radchart-chartwrapallexceptaxis.png)
+![RadChart with text wrapping disabled for axis item labels](images/radchart-chartwrapallexceptaxis.png)
 
 ## Text-wrapping enabled only for the axis item labels explicitly:
 
@@ -196,4 +198,4 @@ AutoTextWrap properties that control the wrapping settings for individual elemen
 
 **Result:**
 
-![](images/radchart-chartwrapaxisonly.png)
+![RadChart with text wrapping enabled only for axis item labels](images/radchart-chartwrapaxisonly.png)

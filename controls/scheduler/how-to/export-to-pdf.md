@@ -17,8 +17,7 @@ position: 0
 
 To export the scheduler content to PDF format simply use the**ExportToPdf()**server-side method. For example in case you want to apply a simple button using the server-side OnClick event of the button you could add the following code:
 
-````ASPNET
-	 
+````ASP.NET
 	 <telerik:RadButton RenderMode="Lightweight" ID="RadButton1" runat="server" Text="Export to PDF" OnClick="RadButton1_Click">
 	 </telerik:RadButton>
 	
@@ -38,8 +37,7 @@ To export the scheduler content to PDF format simply use the**ExportToPdf()**ser
 		}
 		
 ````
-````VB.NET
-	
+````VB
 		Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 			RadScheduler1.ExportToPdf()
 		End Sub
@@ -101,8 +99,7 @@ Suggested solution:
 
 1. This problem appears on export when the Telerik.Web.UI .dllis referenced trough the GAC and the assembly version is different from the WebResource.axdversion registered in the web.config file.Please check you web.configfor proper handler registration in the following section:
 
-````ASPNET
-	
+````ASP.NET
 	<system.webServer>
 		
 		<handlers>
@@ -120,8 +117,7 @@ Where [ASSEMBLY_VERSION] is the exact version of your Telerik.Web.UI.dll.
 
 2. If you are using Forms authentication please add the following section to your web.config file:
 
-````ASPNET
-	
+````ASP.NET
 	<location path="Telerik.Web.UI.WebResource.axd">
 		<system.web>
 			<authorization>
@@ -198,8 +194,7 @@ There is an additional sub-category **(Pdf)**for the **ExportSettings** dedicate
 
 Here is an example of how to apply these settings:
 
-````ASPNET
-	
+````ASP.NET
 	<ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
 	  <Pdf PageTitle="Schedule" Author="Telerik" Creator="Telerik" Title="Schedule" />
 	 </ExportSettings>
@@ -221,8 +216,8 @@ Here is an example of how to apply these settings:
 	
 	
 ````
-````VB.NET
-		Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
+````VB
+Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 			RadScheduler1.ExportToPdf()
 			RadScheduler1.ExportSettings.Pdf.PageTitle = "New Title"
 	

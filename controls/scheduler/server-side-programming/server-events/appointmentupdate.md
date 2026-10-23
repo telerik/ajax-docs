@@ -41,8 +41,7 @@ protected void RadScheduler1_AppointmentUpdate(object sender, AppointmentUpdateE
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentUpdate(ByVal sender As Object, _
 	  ByVal e As AppointmentUpdateEventArgs) Handles RadScheduler1.AppointmentUpdate
 	e.ModifiedAppointment.End = _
@@ -83,8 +82,7 @@ protected void RadScheduler1_AppointmentUpdate(object sender, AppointmentUpdateE
 	
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentUpdate(sender As Object, e As AppointmentUpdateEventArgs)
 	Dim rrule As RecurrenceRule
 	If RecurrenceRule.TryParse(e.ModifiedAppointment.RecurrenceRule, rrule) Then

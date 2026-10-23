@@ -17,7 +17,7 @@ RadEditor can be configured to use **ASP.NET 2.0 Themes** in the same manner as 
 
 1. Right-click the **App_Themes** folder and select **Add | New Item** from the context menu. Select the **Skin File** item type.
 
-1. ![](images/editor-settingproperties001.png)
+1. ![RadEditor screenshot showing editor-settingproperties001.png](images/editor-settingproperties001.png)
 
 1. Open the skin file and add the RadEditor page directive and declaration. Set the RadEditor **SkinId** property to a unique name. In the example below, SkinId is declared as "SettingProperties".
 

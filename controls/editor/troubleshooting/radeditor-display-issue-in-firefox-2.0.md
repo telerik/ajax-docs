@@ -20,7 +20,7 @@ position: 0
 When I view the for ASP.NET AJAX version of the RadEditor in FireFox 2.0.x.x, it has a display issue. There is a bunch of extra toolbar space appearing above the toolbars (looks like a bunch of tool bar end caps in two long rows) and there's an extra gray bar tacked on to the bottom of the editor window:
 >caption 
 
-![](images/editor_skinningissue.png)
+![RadEditor screenshot showing editor_skinningissue.png](images/editor_skinningissue.png)
 
 This happens both when I install and utilize the editor myself and when I view the RadEditor on the Telerik site with FireFox.
 

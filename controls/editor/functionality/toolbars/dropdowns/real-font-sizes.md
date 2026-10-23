@@ -13,7 +13,7 @@ position: 2
 
 The Real Font Sizes dropdown displays a predefined set of font sizes in pixels and points. The dropdown is populated from the RealFontSizes Collection. You can add to the RealFontSizes collection declaratively, programmatically and using the ToolsFile.
 
-![](images/editor-dropdowns002.png)
+![RadEditor screenshot showing editor-dropdowns002.png](images/editor-dropdowns002.png)
 
 ## Using the RealFontSizes Collection Declaratively
 

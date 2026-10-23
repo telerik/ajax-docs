@@ -95,7 +95,7 @@ public IQueryable<Employee> GetProducts()
            select e; 
 } 
 ````
-````VB.NET
+````VB
 Private context As New DataClassesDataContext()
 Public Function GetProducts() As IQueryable(Of Employee)
     Return From e In context.Employees
@@ -113,7 +113,7 @@ public IQueryable<Employee> GetProducts(string sortByExpression, int startRowInd
 	....  
 }
 ````
-````VB.NET
+````VB
 Public Function GetProducts(sortByExpression As String, startRowIndex As Integer, maximumRows As Integer, ByRef totalRowCount As Integer) As IQueryable(Of Employee)
 	....
 End Function
@@ -143,7 +143,7 @@ public IQueryable<Employee> GetProducts(string sortByExpression, int? startRowIn
 	....   
 } 
 ````
-````VB.NET
+````VB
 Public Function GetProducts(sortByExpression As String, startRowIndex As System.Nullable(Of Integer), maximumRows As System.Nullable(Of Integer), ByRef totalRowCount As Integer) As IQueryable(Of Employee)
 	....
 End Function
@@ -161,7 +161,7 @@ public IQueryable<Product> GetProducts([Control("RadComboBoxCategories")] int? c
     // Filter the data source based on categoryID and ProductName 
 }
 ````
-````VB.NET
+````VB
 Public Function GetProducts(<Control("RadComboBoxCategories")> categoryID As System.Nullable(Of Integer), <QueryString> name As String) As IQueryable(Of Product)
 	' Filter the data source based on categoryID and ProductName 
 End Function
@@ -193,7 +193,7 @@ public void UpdateProduct(int ProductID)
     }
 }
 ````
-````VB.NET
+````VB
 Public Sub UpdateProduct(ProductID As Integer)
 	Dim updatedProduct As Product = context.Products.Where(Function(p) p.ProductID = ProductID).First()
 	TryUpdateModel(updatedProduct)
@@ -220,7 +220,7 @@ public void UpdateProduct(Product product)
     }
 }
 ````
-````VB.NET
+````VB
 Public Sub UpdateProduct(product As Product)
 	Dim updatedProduct As Product = context.Products.Where(Function(p) p.ProductID = product.ProductID).First()
 	TryUpdateModel(updatedProduct)
@@ -249,7 +249,7 @@ public void InsertProduct(Product p)
 	}
 }
 ````
-````VB.NET
+````VB
 Public Sub InsertProduct(p As Product)
 	If ModelState.IsValid Then
 		context.Products.InsertOnSubmit(p)
@@ -277,7 +277,7 @@ public void InsertProduct(int productID)
 	}
 }
 ````
-````VB.NET
+````VB
 Public Sub InsertProduct(productID As Integer)
 	Dim pr As New Product()
 	TryUpdateModel(pr)
@@ -302,7 +302,7 @@ public void DeleteProduct(int ProductID)
     context.SubmitChanges();
 }
 ````
-````VB.NET
+````VB
 Public Sub DeleteProduct(ProductID As Integer)
 	Dim deletedProduct As Product = context.Products.Where(Function(p) p.ProductID = ProductID).First()
 	context.Products.DeleteOnSubmit(deletedProduct)
@@ -338,7 +338,7 @@ public string ProductName
     }
 }
 ````
-````VB.NET
+````VB
 <Required> _
 <System.Data.Linq.Mapping.ColumnAttribute(Storage := "_ProductName", DbType := "NVarChar(40) NOT NULL", CanBeNull := False)> _
 Public Property ProductName() As String
@@ -372,7 +372,7 @@ public void InsertProduct(Product p)
     }
 }
 ````
-````VB.NET
+````VB
 Public Sub InsertProduct(p As Product)
 	If ModelState.IsValid Then
 		context.Products.InsertOnSubmit(p)
@@ -416,7 +416,7 @@ public void InsertProduct(Product p)
     }
 }
 ````
-````VB.NET
+````VB
 
 Public Sub InsertProduct(productID As Integer)
 	Dim pr As New Product()

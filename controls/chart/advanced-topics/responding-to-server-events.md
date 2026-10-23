@@ -22,11 +22,16 @@ position: 3
 
 Use the **RadChart OnClick** event to handle server postbacks caused by clicking on areas of the chart. Elements of the chart that have an ActiveRegion property can be used for information inside the **OnClick** event handler. The example below shows some of the commonly used chart elements that react to clicks including the chart title, x and y axis labels, series legends and items. The code example below shows a RadChart OnClick event handler evaluating the **ChartClickEventArgs** "Args" parameter. Use the Args.Element.ActiveRegion property to access the ToolTip, Url and Attributes for the ActiveRegion.
 
-![](images/radchart-advanced001.png)
+> caption Figure 1: RadChart active regions that can raise server-side click events
+
+![RadChart active regions for the title, axes, legends, and series items](images/radchart-advanced001.png)
+
+> caption Example: Subscribe to RadChart active-region click events
 
 ````C#
 private void radChart1_Load(object sender, EventArgs e)
 {
+	// Attach the same handler to the chart title and each series item.
 	radChart1.ChartTitle.ActiveRegion.Click += new RegionClickEventHandler(Region_Click);
 	foreach (ChartSeries series in radChart1.Series) { foreach (ChartSeriesItem item in series.Items) { item.ActiveRegion.Click += new RegionClickEventHandle(Region_Click); } }
 }
@@ -57,11 +62,16 @@ End Sub
 
 To react to server events in RadChart handle the Click event for a report item ActiveRegion in code. Determine the type of the clicked object by checking the "sender" object passed to the event handler. Cast "sender" to that type to use its properties and methods. See the code example below. In the radChart1_Load the ChartTitle and ChartSeriesItems both have ActiveRegion properties. The ActiveRegion.Click is assigned the "Region_Click" event handler. In "Region_Click" the Sender class is determined. For example if Sender is a ChartTitle type, Sender is cast to be a ChartTitle and its **TextBlock.Text** property is accessed.
 
-![](images/radchart-advanced002.png)
+> caption Figure 2: RadChart click handling for a selected chart element
+
+![RadChart displaying the selected element information from a click event](images/radchart-advanced002.png)
+
+> caption Example: Identify the clicked RadChart element
 
 ````C#
 private void radChart1_Load(object sender, EventArgs e)
 {
+	// Register the handler for the title and every series item.
 	radChart1.ChartTitle.ActiveRegion.Click += new RegionClickEventHandler(Region_Click);
 	foreach (ChartSeries series in radChart1.Series) { foreach (ChartSeriesItem item in series.Items) { item.ActiveRegion.Click += new RegionClickEventHandler(Region_Click); } }
 }

@@ -27,8 +27,7 @@ position: 15
 
 ## Example
 
-````ASPNET
-	
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server"
    GroupBy="Room"        
    onresourceheadercreated="RadScheduler1_ResourceHeaderCreated">
@@ -56,8 +55,7 @@ protected void RadScheduler1_ResourceHeaderCreated(object sender, Telerik.Web.UI
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_ResourceHeaderCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.ResourceHeaderCreatedEventArgs)
 (DirectCast(e.Container.FindControl("ResourceLabel"), Label)).Text = e.Container.Resource.Text
 End Sub

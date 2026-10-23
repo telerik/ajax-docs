@@ -31,8 +31,7 @@ If not specified, the above settings will be inherited from those of the RadSche
 
 The default appointment context menu can be customized declaratively:
 
-````ASPNET
-	
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" ID="RadScheduler1" runat="server">
    <AppointmentContextMenus>
 	   <telerik:RadSchedulerContextMenu runat="server" ID="ContextMenu1">
@@ -96,8 +95,7 @@ protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventA
 } 
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
 	e.Appointment.ContextMenuID = "SchedulerAppointmentContextMenu2"
 End Sub

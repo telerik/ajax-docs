@@ -15,7 +15,7 @@ An image can be interpreted by the narrative software if you specify an addition
 
 >caption Figure 1: Specified Long Description field in Image Properties dialog
 
-![Creating Accessible Images](images/editor-creatingaccessibleimages.png)
+![RadEditor Image Properties dialog with alt text and long description fields](images/editor-creatingaccessibleimages.png)
 
 Here is the produced image tag:
 

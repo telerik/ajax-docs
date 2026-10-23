@@ -21,6 +21,8 @@ If you are using custom fields/attributes, you must write them directly to the d
 
 In the **AppointmentDataBound** event, you must check whether the **DataItem** of the appointment has been initialized before accessing it, for example:
 
+> caption Example: Read custom appointment data after binding
+
 ````C#
 protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
 {

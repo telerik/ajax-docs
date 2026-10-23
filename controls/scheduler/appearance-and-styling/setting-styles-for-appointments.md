@@ -25,16 +25,21 @@ The following Appointment properties allow you to customize their appearance:
 
 For example:
 
-![custom background color](images/scheduler_customappointmentcolor.png)
+> caption Figure 1: Appointment with a custom background, border, and width
+
+![Scheduler appointment with a custom background color and border](images/scheduler_customappointmentcolor.png)
 
 
 
 
+
+> caption Example: Apply custom colors and borders to an appointment
 
 ````C#
 	
 protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
 {
+	// Set the appointment appearance after it is loaded from the data source.
 	e.Appointment.BackColor = System.Drawing.Color.Yellow;
 	e.Appointment.BorderColor = System.Drawing.Color.Red;
 	e.Appointment.BorderStyle = BorderStyle.Dotted;
@@ -42,9 +47,9 @@ protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventA
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs)
+	' Set the appointment appearance after it is loaded from the data source.
 	e.Appointment.BackColor = System.Drawing.Color.Yellow
 	e.Appointment.BorderColor = System.Drawing.Color.Red
 	e.Appointment.BorderStyle = BorderStyle.Dotted
@@ -78,7 +83,9 @@ Alternatively, you can take advantage of the 10 predefined, skin-independent CSS
 
 Here is how each style looks like:
 
-![set appointment styles](images/scheduler_appointmentstyles.png)
+> caption Figure 2: Predefined skin-independent appointment styles
+
+![Scheduler appointments using predefined skin-independent styles](images/scheduler_appointmentstyles.png)
 
 You can handle the **AppointmentDataBound** event and use a custom condition based on attributes, resources or any other property of theAppointment object to set the appointment **CssClass** property. For example, the above screenshot can be replicated with the following code:
 
@@ -86,18 +93,21 @@ You can handle the **AppointmentDataBound** event and use a custom condition bas
 
 
 
+> caption Example: Select an appointment CSS class from its subject
+
 ````C#
 	
 	
 protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.SchedulerEventArgs e)
 {
+	// Map the subject to one of the predefined appointment CSS classes.
 	e.Appointment.CssClass = "rsCategory" + e.Appointment.Subject;
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
+	' Map the subject to one of the predefined appointment CSS classes.
 	e.Appointment.CssClass = "rsCategory" + e.Appointment.Subject
 End Sub
 				
@@ -145,8 +155,7 @@ It's recommended to explicitly set **AppointmentStyleMode="Default"** unless you
 
 The BackColor, BorderColor and CssClass properties can be set based on the resources that the appointment is associated with.
 
-````ASPNET
-	     
+````ASP.NET
 <ResourceStyles>
 	 <telerik:ResourceStyleMapping Type="User" Text="Alex" BackColor="Blue" />
 	 <telerik:ResourceStyleMapping Type="User" Text="Bob" BackColor="Orange" />
@@ -187,8 +196,7 @@ protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.
 }  
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs)
 	If e.Appointment.Resources.GetResourceByType("User") <> Nothing Then
 		Select Case e.Appointment.Resources.GetResourceByType("User").Text
@@ -253,8 +261,7 @@ protected void RadScheduler1_AppointmentDataBound(object sender, Telerik.Web.UI.
 }
 
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
 	e.Appointment.CssClass = "MyCustomAppointmentStyle"
 End Sub

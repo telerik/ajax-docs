@@ -17,7 +17,7 @@ The FileBrowser dialogs consist of a FileBrowser object, an object previewer/pro
 
 The files which will be available in a FileBrowser dialog are controlled by a set of properties for each type of dialog:
 
-![](images/editor-dialogs001.png)
+![RadEditor screenshot showing editor-dialogs001.png](images/editor-dialogs001.png)
 
 All dialogs have the ViewPaths, UploadPaths and deletePaths properties in common which can be set in the dialog tag:
 

@@ -65,7 +65,7 @@ Thank you for choosing **Telerik RadEditor for ASP.NET AJAX! RadEditor for ASP.N
 </telerik:RadEditor> 
 ````
 
-![WebForms Editor Overview](images/radeditorpreview.png "WebForms Editor Overview")
+![RadEditor displaying formatted HTML content in the editor area](images/radeditorpreview.png "WebForms Editor Overview")
 
 
 ## See Also

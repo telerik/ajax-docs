@@ -35,7 +35,7 @@ The **SelectedIndexChanged** event handler receives two arguments:
 
 Use the **SelectedIndexChanged** event handler to respond in server-side code when the user changes the current selection:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1"
 	 runat="server"
 	 AutoPostBack="true"
@@ -55,8 +55,7 @@ Use the **SelectedIndexChanged** event handler to respond in server-side code wh
 	    }
 	
 ````
-````VB.NET
-	
+````VB
 	    Private Sub RadDropDownList1_SelectedIndexChanged(ByVal o As Object, ByVal e As Telerik.Web.UI.DropDownListEventArgs)
 	
 	        Label1.Text = "You selected " + e.Text + " item"

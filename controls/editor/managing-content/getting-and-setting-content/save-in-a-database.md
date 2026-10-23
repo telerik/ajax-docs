@@ -13,7 +13,9 @@ position: 3
 
 The example below demonstrates displaying database content to a RadEditor and saving changes to the database.
 
-![](images/editor-content001.png)
+> caption Figure 1: RadEditor content loaded from and saved to a database
+
+![RadEditor form for editing content stored in a database](images/editor-content001.png)
 
 ## Configure the Web Application for RadEditor
 
@@ -61,6 +63,8 @@ In a new AJAX Enabled Web Application:
 
 1. The ASP.NET markup for the steps so far should look something like the example below:
 
+> caption Example: Configure the controls used to edit database content
+
 ````ASP.NET
 <telerik:RadComboBox
    ID="RadComboBox1"
@@ -87,11 +91,14 @@ In a new AJAX Enabled Web Application:
 
 1. In the designer, double-click the surface of the web page to navigate to the Page_Load event handler. Replace the event handler with the following code:
 
+> caption Example: Load the selected database record when the page opens
+
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
 	if (!IsPostBack)
 	{
+		// Populate the editor with the first available record.
 		ReadAllEmail();
 	}
 } 
@@ -99,6 +106,7 @@ protected void Page_Load(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 	If Not IsPostBack Then
+		' Populate the editor with the first available record.
 		ReadAllEmail()
 	End If
 End Sub

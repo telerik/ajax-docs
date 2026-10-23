@@ -18,7 +18,7 @@ This article demonstrates how you can take advantage of the WAI-ARIA support of 
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server" EnableAriaSupport="true">
     <Items>
         <telerik:RadMenuItem runat="server" Text="Root RadMenuItem1">

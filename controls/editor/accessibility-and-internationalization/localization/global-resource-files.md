@@ -39,7 +39,7 @@ After you have copied the resx files, you must duplicate each copy of these file
 
 All resx file contain two columns: **Name** and **Value** as it is shown below:
 
-![](images/editor-localization.png)
+![RadEditor screenshot showing editor-localization.png](images/editor-localization.png)
 
 >note It is mandatory to set the ReservedResource string in the Name column of the RadEditor.Tools._&lt;Language&gt;_.resx file. Without this string the resource files will not be recognized.
 

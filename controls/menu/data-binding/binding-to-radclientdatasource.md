@@ -72,7 +72,7 @@ public class SelfReferencingData
 	//public string NavigateURL { get; set; }
 }
 ````
-````VB.NET
+````VB
 Inherits System.Web.UI.Page
 <OperationContract> _
 Public Function LoadCustomSelfReferencingData() As SelfReferencingData()

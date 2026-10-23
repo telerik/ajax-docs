@@ -42,8 +42,7 @@ protected void RadScheduler1_AppointmentInsert(object sender, SchedulerCancelEve
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentInsert(ByVal sender As Object, _
    ByVal e As SchedulerCancelEventArgs) Handles RadScheduler1.AppointmentInsert
 	If e.Appointment.Subject = String.Empty Then
