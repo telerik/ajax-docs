@@ -23,7 +23,7 @@ As of Q3 2013 SP1 we introduced the property StyleSheets of the RadScheduler **E
 
 Please find the below example that show how you can include to your ExportSettings two different stylesheet files to your ExportSettings - one with relative path and one with absolute (styles will be loaded from the resource files).On Figure 1 is shown that the green background color form the external sheet is applied to the exported document.
 
-````ASPNET
+````ASP.NET
 <ExportSettings OpenInNewWindow="true" FileName="SchedulerExport">
 	<Pdf 
 		PageTitle="Schedule" 
@@ -39,7 +39,7 @@ Please find the below example that show how you can include to your ExportSettin
 
 
 
-````ASPNET
+````ASP.NET
 .rsContentTable td {
 	background-color: #008000 !important;
  }

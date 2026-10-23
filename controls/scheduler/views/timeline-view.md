@@ -60,7 +60,7 @@ The **Timeline View** allows you to display a variable number of slots and defin
 The **Timeline View** allows you to format the date shown in the column headers by adjusting its **ColumnHeaderDateFormat** property. 
 This property requires a valid [Standard date and time format string](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-````ASPX
+````ASP.NET
 <telerik:RadScheduler runat="server" ID="RadScheduler1">
     <TimelineView ColumnHeaderDateFormat="t" SlotDuration="06:00:00" NumberOfSlots="3" />
 </telerik:RadScheduler>

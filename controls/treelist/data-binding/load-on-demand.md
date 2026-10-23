@@ -31,7 +31,7 @@ protected void RadTreeList1_NeedDataSource(object sender, TreeListNeedDataSource
    RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", null);
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As TreeListNeedDataSourceEventArgs)
 	RadTreeList1.DataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID IS NULL", Nothing)
 End Sub
@@ -49,7 +49,7 @@ protected void RadTreeList1_ChildItemsDataBind(object sender, TreeListChildItems
 	e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " + id);
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_ChildItemsDataBind(ByVal sender As Object, ByVal e As TreeListChildItemsDataBindEventArgs)
 	Dim id As Integer = Convert.ToInt32(e.ParentDataKeyValues("ID").ToString())
 	e.ChildItemsDataSource = GetDataTable("SELECT * FROM TestItems WHERE ParentID = " & id)

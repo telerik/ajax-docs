@@ -19,7 +19,7 @@ position: 2
 
 The declaration of RadDropDownList object includes no DataSourceID property or `<items>` section:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1" runat="server">
 </telerik:RadDropDownList>
 ````
@@ -56,8 +56,7 @@ private void BindToDataTable(Telerik.Web.UI.RadDropDownList dropdownlist)
 	dropdownlist.DataBind();
 }
 ````
-````VB.NET
-
+````VB
 Protected Sub Page_Load(sender As Object, e As EventArgs)
 	If Not Page.IsPostBack Then
 		BindToDataTable(RadDropDownList1)

@@ -76,7 +76,7 @@ protected void Page_Load(object sender, EventArgs e) {
     } 
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
     Dim i As Integer = 0
     While i < RadMenu1.Items.Count

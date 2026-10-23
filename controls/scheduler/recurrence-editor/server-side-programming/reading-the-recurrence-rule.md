@@ -37,8 +37,7 @@ protected void SaveButton_Click(object sender, EventArgs e)
 }
 				
 ````
-````VB.NET
-	     
+````VB
 	
 Protected Sub SaveButton_Click(ByVal sender As Object, ByVal e As EventArgs)
 	RecurrenceEditor1.StartDate = StartDate.SelectedDate.Value

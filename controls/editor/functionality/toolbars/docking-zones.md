@@ -27,7 +27,7 @@ The RadEditor Toolbar position can be changed by using the **DockingZone** attri
 
 >caption A RadEditor whose toolbars are positioned in the four built-in zones
 
-![](images/editor-dockingzone.png)
+![RadEditor screenshot showing editor-dockingzone.png](images/editor-dockingzone.png)
 
 If an **external element** is used, it must have the following **CSS classes** applied: **`RadEditor`**, **`reCustomContainer`** (as of Q2 2015), **`<RadEditor Skin>`**. Here is an example with the Default skin: 
 

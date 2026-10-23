@@ -22,6 +22,7 @@ The declaration of the **RadSpreadsheet** object:
 
 In the **Page_Load** event handler, create and fill the **DataTable** object, use it to fill the created Worksheet with data and add the Worksheet to the **RadSpreadsheet**'s Sheets collection.
 
+> caption Example: Populate a RadSpreadsheet worksheet from a DataTable
 
 ````C#
 using System.Data;
@@ -29,6 +30,7 @@ using Telerik.Web.Spreadsheet;
 
 protected void Page_Load(object sender, EventArgs e)
 {
+	// Build the worksheet from the current tabular data.
     DataTable data = GetData();
     var sheet1 = FillWorksheet(data);
     RadSpreadsheet1.Sheets.Add(sheet1);

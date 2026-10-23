@@ -49,7 +49,7 @@ protected void RadGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs 
 }
 ````
 
-````VB.NET
+````VB
 Protected Sub RadGrid1_ColumnCreated(ByVal sender As Object, ByVal e As GridColumnCreatedEventArgs) Handles RadGrid1.ColumnCreated
     Dim boundColumn As GridColumn = CType(e.Column, GridColumn)
 
@@ -84,7 +84,7 @@ End Sub
 <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:NorthwindConnectionString %>"
   SelectCommand="SELECT * FROM [Customers]"></asp:SqlDataSource>
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid2_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs) Handles RadGrid2.ItemCreated
     If TypeOf e.Item Is GridHeaderItem Then
         Dim headerItem As GridHeaderItem = CType(e.Item, GridHeaderItem)

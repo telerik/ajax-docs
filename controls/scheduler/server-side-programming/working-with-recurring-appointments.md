@@ -82,8 +82,7 @@ class ParsingExample
 } 
 				
 ````
-````VB.NET
-	
+````VB
 Imports System
 Imports Telerik.Web.UI
 Namespace RecurrenceExamples

@@ -324,7 +324,7 @@ Our *PDF* engine can export all images nevertheless whether they use an **absolu
 
 You can use the following approach if you need to set a background image to your *GridTableViews*:
 
-````ASPX
+````ASP.NET
 <MasterTableView style="background-image: url(yourimage)" />
 ````
 

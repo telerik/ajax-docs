@@ -29,7 +29,7 @@ It would be easy to recognize the currently updated item by its DataKeyValue if 
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" DataSourceID="SqlDataSource1"
 	OnUpdateCommand="RadTreeList1_UpdateCommand">
@@ -73,7 +73,7 @@ protected void RadTreeList1_UpdateCommand(object sender, TreeListCommandEventArg
 	RadTreeList1.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_UpdateCommand(ByVal sender As Object, ByVal e As TreeListCommandEventArgs) Handles RadTreeList1.UpdateCommand
 
 	'Canceling out the automatic data source operation (needed if you use a data source control)
@@ -112,7 +112,7 @@ This can be achieved by getting hold of the current editable item and then acces
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" DataSourceID="SqlDataSource1"
 	OnUpdateCommand="RadTreeList2_UpdateCommand">
@@ -162,7 +162,7 @@ protected void RadTreeList2_UpdateCommand(object sender, Telerik.Web.UI.TreeList
 	RadTreeList2.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_UpdateCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs) Handles RadTreeList1.UpdateCommand
 	'Canceling out the automatic data source operation (needed if you use a data source control)
 	e.Canceled = True

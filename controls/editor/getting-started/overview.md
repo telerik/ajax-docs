@@ -15,7 +15,7 @@ The following tutorial demonstrates using RadEditor in a web page and adding con
 
 >caption Figure 1: Shows a plain RadEditor control.
 
-![getting-started-Rad Editor](images/editor-getting-started/getting-started-RadEditor.png)
+![RadEditor control in the initial getting-started page](images/editor-getting-started/getting-started-RadEditor.png)
 
 ## How to Enable RadEditor Dialogs
 
@@ -31,7 +31,7 @@ The following tutorial demonstrates using RadEditor in a web page and adding con
 
 >caption Figure 2: Shows all available RadEditor Smart Tag.
 
-![getting-started-smart-tags](images/editor-getting-started/getting-started-smart-tags.png)
+![RadEditor Smart Tag menu with dialog and spell-check options](images/editor-getting-started/getting-started-smart-tags.png)
 
 For further instructions and more information about the dialogs follow the articles in the [Dialogs section]({%slug editor/functionality/dialogs/overview%}).
 
@@ -47,7 +47,7 @@ For further instructions and more information about the dialogs follow the artic
 
 >caption Figure 3: Shows the resulted project structure from the above steps.
 
-![getting-started-Rad Editor-Configuration](images/editor-getting-started/getting-started-RadEditor-Configuration.png)
+![App_GlobalResources and App_Data folders configured for RadEditor](images/editor-getting-started/getting-started-RadEditor-Configuration.png)
 
 For further instructions on these matters, please follow [the Localization section]({%slug editor/accessibility-and-internationalization/localization/global-resource-files%}) or[the Spellchecker one]({%slug editor/functionality/spellchecker/overview%}) in the documentation.
 
@@ -61,13 +61,13 @@ For further instructions on these matters, please follow [the Localization secti
 
 	>caption Figure 4: Shows how an item is created in the EditorSnippets Collection Editor
 
-	![](images/editor-gettingstarted002.png)
+	![EditorSnippets collection editor with a custom list snippet](images/editor-gettingstarted002.png)
 
 1. Press __F5__ to run the application. Notice that the Content is formatted as HTML. Locate the Snippets drop down button and click the "MyList" entry to add your snippet to the current location of the text cursor.
 
 >caption Figure 5: Shows the modified RadEditor control after adding HTML content and an item into the Snippet collection.
 
-![getting-started-Rad Editor-My List](images/editor-getting-started/getting-started-RadEditor-MyList.png)
+![RadEditor displaying HTML content inserted from a custom snippet](images/editor-getting-started/getting-started-RadEditor-MyList.png)
 
 ## Getting Started with Adaptive Editor
 

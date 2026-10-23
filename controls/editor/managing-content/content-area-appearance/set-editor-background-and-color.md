@@ -36,7 +36,7 @@ body
 }
 ````
 
-![](images/editor-handlingcontent005.png)
+![RadEditor screenshot showing editor-handlingcontent005.png](images/editor-handlingcontent005.png)
 
 To style other HTML elements in the content area you need to define global css classes for them, e.g. **table**, **td**, **td**, **div**, **span**, etc
 

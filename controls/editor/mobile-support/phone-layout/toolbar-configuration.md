@@ -25,7 +25,7 @@ The header tools can be controlled via the **HeaderTools** collection of **RadEd
 
 >caption Figure 1: Customized header tools collection. The output from **Example 1**, **Example 2** or **Example 3**.
 
-![](./images/rearranged-header-tools.png)
+![RadEditor screenshot showing rearranged-header-tools.png](./images/rearranged-header-tools.png)
 
 >caption Example 1: Rearranging header tools via markup.
 
@@ -91,7 +91,7 @@ In **Examples 2-6** you can see how you can configure the **ToolZone** of the **
 
 >caption Figure 2: The tabs and tools generated from the code in **Example 4**, **Example 5** or **Example 6**.
 
-![](./images/tab-tools-configuration.png)
+![RadEditor screenshot showing tab-tools-configuration.png](./images/tab-tools-configuration.png)
 
 >caption Example 4: Configuring Tabs and Tools via markup.
 
@@ -198,7 +198,7 @@ Contextual tabs can be created by [adding a Tab](#configuring-tabs-and-tools). N
 
 >caption Figure 3: The contextual tab behavior implemented in **Example 7**, **Example 8** or **Example 9**.
 
-![](./images/contextual-tab.png)
+![RadEditor screenshot showing contextual-tab.png](./images/contextual-tab.png)
 
 >caption Example 7: Adding a contextual tab via markup.
 

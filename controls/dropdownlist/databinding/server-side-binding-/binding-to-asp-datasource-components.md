@@ -41,8 +41,7 @@ protected void RadDropDownList1_ItemDataBound(object o, DropDownListItemEventArg
 }
 	
 ````
-````VB.NET
-
+````VB
 Protected Sub RadDropDownList1_ItemDataBound(o As Object, e As DropDownListItemEventArgs)
 	Dim dataSourceRow As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
 	e.Item.Enabled = CBool(dataSourceRow("Enabled"))
@@ -54,7 +53,7 @@ End Sub
 
 ## SqlDataSource
 
-````ASPNET
+````ASP.NET
 <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ComboConnectionString %>"
 	SelectCommand="SELECT * FROM [Links]"></asp:SqlDataSource>
 <telerik:raddropdownlist
@@ -71,7 +70,7 @@ End Sub
 
 ## LinqDataSource
 
-````ASPNET
+````ASP.NET
 <asp:LinqDataSource runat="server" ID="LinqDataSource1" ContextTypeName="LinqToSqlReadOnly.NorthwindReadOnlyDataContext"
 	OrderBy="ContactName" Select="new (ContactName, City, ContactTitle)" TableName="Customers">
 </asp:LinqDataSource>
@@ -88,7 +87,7 @@ End Sub
 
 ## EntityDataSource
 
-````ASPNET
+````ASP.NET
 <asp:EntityDataSource ID="EntityDataSource1" runat="server" ConnectionString="name=NorthwindEntities35"
 	DefaultContainerName="NorthwindEntities35" EntitySetName="Customers" Select="it.[ContactName], it.[City], it.[ContactTitle]"
 	AutoPage="true" OrderBy="it.[ContactName]">
@@ -105,7 +104,7 @@ End Sub
 
 ## ObjectDataSource
 
-````ASPNET
+````ASP.NET
 <telerik:raddropdownlist
 	id="RadDropDownList4"
 	runat="server"
@@ -169,8 +168,7 @@ public class DropDownListDataObject
 	}
 }
 ````
-````VB.NET
-	
+````VB
 Public Class DropDownListDataObject
 	Public Sub New()
 	End Sub
@@ -211,7 +209,7 @@ End Class
 
 ## XmlDataSource
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList
 	id="RadDropDownList5"
 	runat="server"

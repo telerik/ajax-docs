@@ -106,7 +106,7 @@ protected void RadAjaxManager1_AjaxRequest(object sender, AjaxRequestEventArgs e
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadAjaxManager1_AjaxRequest(sender As Object, e As AjaxRequestEventArgs)
 	If [Boolean].Parse(e.Argument) Then
 		RadMenu1.RenderMode = RenderMode.Lightweight

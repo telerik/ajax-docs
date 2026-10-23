@@ -56,7 +56,7 @@ foreach (ClientOperation<RadMenuItem> operation in RadMenu1.ClientChanges)
     } 
 }		
 ````
-````VB.NET
+````VB
 For Each operation As ClientOperation(Of RadMenuItem) In RadMenu1.ClientChanges
     Dim item As RadMenuItem = operation.Item
     Select Case operation.Type

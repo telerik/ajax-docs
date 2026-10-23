@@ -25,8 +25,7 @@ RecurrenceEditor1.RecurrenceRule = new DailyRecurrenceRule(1, range);
 RecurrenceEditor1.RecurrenceRuleText = storedRule;
 				
 ````
-````VB.NET
-	
+````VB
 	
 RecurrenceEditor1.RecurrenceRule = new DailyRecurrenceRule(1, range)
 ' or
@@ -60,7 +59,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, ByVal e As SchedulerFormCreatedEventArgs)
 	If e.Container.Mode = SchedulerFormMode.AdvancedInsert Then
 		Dim recurrenceEditor As RecurrenceEditor = TryCast(e.Container.FindControl("RecurrenceEditor"), RecurrenceEditor)
@@ -92,7 +91,7 @@ recurrenceEditor.RecurrenceRule = new DailyRecurrenceRule(interval, range);
 //RecurrenceDay rd = RecurrenceDay.WeekDays;
 //recurrenceEditor.RecurrenceRule = new DailyRecurrenceRule(rd, range);
 ````
-````VB.NET
+````VB
 'Creating a daily Recurrence rule
 Dim interval As Integer = 1
 Dim range As New RecurrenceRange()
@@ -125,8 +124,7 @@ recurrenceEditor.RecurrenceRule = new WeeklyRecurrenceRule(interval, recurrenceD
 //DayOfWeek startDayOfWeek = DayOfWeek.Tuesday;
 //recurrenceEditor.RecurrenceRule = new WeeklyRecurrenceRule(interval, recurrenceDay, range, startDayOfWeek);
 ````
-````VB.NET
-	
+````VB
 	
 'Creating a Weekly Recurrence rule
 Dim interval As Integer = 2
@@ -160,8 +158,7 @@ recurrenceEditor.RecurrenceRule = new MonthlyRecurrenceRule(dayOrdinal, interval
 //RecurrenceDay DayOfWeekMask = RecurrenceDay.Monday;
 //recurrenceEditor.RecurrenceRule = new MonthlyRecurrenceRule(dayOrdinal, DayOfWeekMask, interval, range);
 ````
-````VB.NET
-	
+````VB
 	
 'Creating a monthly Recurrence rule
 Dim interval As Integer = 1
@@ -193,8 +190,7 @@ recurrenceEditor.RecurrenceRule = new YearlyRecurrenceRule(month, dayOrdinal, ra
 //RecurrenceDay dayOfWeek = RecurrenceDay.Monday;
 //recurrenceEditor.RecurrenceRule = new YearlyRecurrenceRule(dayOrdinal, month, dayOfWeek, range);
 ````
-````VB.NET
-	
+````VB
 	
 'Creating a yearly Recurrence rule
 Dim dayOrdinal As Integer = 2
@@ -233,8 +229,7 @@ protected void RadButton1_Click(object sender, EventArgs e)
 	RadScheduler1.Rebind();
 }
 ````
-````VB.NET
-	
+````VB
 	
 Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	Dim newAppointment As New Appointment()

@@ -29,7 +29,7 @@ The event handler receives two arguments:
 
 The following example demonstrates the **OnPopupOpening** event:
 
-````ASPX
+````ASP.NET
 <telerik:RadDateRangePicker RenderMode="Lightweight" ID="RadDateRadPicker1" runat="server">
     <ClientEvents OnPopupOpening="popupOpening" />
 </telerik:RadDateRangePicker>

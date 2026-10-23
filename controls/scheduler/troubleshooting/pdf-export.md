@@ -78,7 +78,7 @@ at Telerik.Web.Apoc.Fo.FOTreeBuilder.Parse(XmlReader reader)
 
 This problem appears on export when the Telerik.Web.UI.dll is referenced trough the GAC and the assembly version is different from the WebResource.axd version registered in the web.config file. Please check you web.config for proper handler registration in the following section:
 
-````xml
+````XML
 <system.webServer>
 	<handlers>
 		<add name="Telerik.Web.UI.WebResource"  path="Telerik.Web.UI.WebResource.axd" verb="*" type="Telerik.Web.UI.WebResource, Telerik.Web.UI, Version=[ASSEMBLY_VERSION], Culture=neutral, PublicKeyToken=121fae78165ba3d4" />

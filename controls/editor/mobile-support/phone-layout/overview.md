@@ -15,7 +15,7 @@ As of **Q2 2015**, **RadEditor** provides **Mobile** rendering, that is especial
 
 >caption Figure 1: RadEditor with Phone-optimized Mobile rendering. 
 
-![](./images/AdaptiveEditor_Presentation.png)
+![RadEditor screenshot showing AdaptiveEditor_Presentation.png](./images/AdaptiveEditor_Presentation.png)
 
 Among the core features of the Phone Layout **Mobile** rendering are:
 

@@ -53,8 +53,7 @@ protected void RadScheduler1_FormCreating(object sender, SchedulerFormCreatingEv
 }
 	   
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_FormCreating(ByVal sender As Object, _
 					   ByVal e As SchedulerFormCreatingEventArgs) _
 	  Handles RadScheduler1.FormCreating

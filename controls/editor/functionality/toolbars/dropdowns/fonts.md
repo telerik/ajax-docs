@@ -23,7 +23,7 @@ You'll need to set the proper encoding in the aspx files with the editor. You ca
 
 The WYSIWYG Fonts dropdown of RadEditor display a predefined set of fonts which by default are: Arial, Comic Sans MS, Courier New, Tahoma, Times New Roman and Verdana. All fonts are set using the FontNames Collection. You can create a new set of dropdown Font name items declaratively, programmatically or using the ToolsFile.
 
-![](images/editor-dropdowns001.png)
+![RadEditor screenshot showing editor-dropdowns001.png](images/editor-dropdowns001.png)
 
 >note The fonts must be available on the client machine.
 

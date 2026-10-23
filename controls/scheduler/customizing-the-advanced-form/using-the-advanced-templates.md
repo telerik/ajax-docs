@@ -257,8 +257,7 @@ The AdvancedForm.js will automatically handle resources and custom attributes de
 
 * **Resource** controls should follow the convention Res[Resource Name] for ID. For example:
 
-````ASPNET
-	     
+````ASP.NET
 	<scheduler:ResourceControl runat="server" ID="ResRoom" Type="Room" Label="Room:" Skin='<%# Owner.Skin %>' />
 				
 ````
@@ -267,8 +266,7 @@ The AdvancedForm.js will automatically handle resources and custom attributes de
 
 * **Attribute** controls should follow the convention Attr[Attribute Name] for ID. For example:
 
-````ASPNET
-	     
+````ASP.NET
 	<telerik:RadTextBox RenderMode="Lightweight" runat="server" ID="AttrDescription"  Label='Annotation:' Width="100%" Skin='<%# Owner.Skin %>' />
 				
 ````

@@ -35,8 +35,7 @@ protected void RadScheduler1_AppointmentClick(object sender, SchedulerEventArgs 
 }  
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentClick(ByVal sender As Object, ByVal e As SchedulerEventArgs) Handles RadScheduler1.AppointmentClick
 	Response.Redirect("Page.aspx")
 End Sub

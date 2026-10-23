@@ -31,8 +31,7 @@ Two parameters are passed to the event handler:
 
 This example prevents the user from editing an appointment's series:
 
-````ASPNET
-	
+````ASP.NET
 <script type="text/javascript">   
 function OnClientAppointmentEditing(sender, eventArgs)
 {

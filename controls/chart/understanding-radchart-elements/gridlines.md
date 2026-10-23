@@ -34,4 +34,4 @@ To control the visibility and general appearance of gridlines use the the `PlotA
 
 In the example below both X axis and Y axis are visible.XAxis MajorGridLines are red solid lines 3 pixels wide. YAxisMinorGridlines are shown as blue dotted lines 2 pixels wide and YAxisMajorGridLines are shown as blue solid lines 3 pixels wide.
 
-![](images/radchart-understandingelements008.png)
+![RadChart with major and minor gridlines on the X and Y axes](images/radchart-understandingelements008.png)

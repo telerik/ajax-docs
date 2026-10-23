@@ -13,7 +13,7 @@ position: 3
 
 The Paragraph style dropdown of RadEditor displays a predefined set of styles by default. This set is defined by the **Paragraphs** collection. You can add to the **Paragraphs** collection declaratively, programmatically and using the ToolsFile.
 
-![](images/editor-dropdowns004.png "FormatBlock tool")
+![RadEditor screenshot showing editor-dropdowns004.png "FormatBlock tool"](images/editor-dropdowns004.png "FormatBlock tool")
 
 ## Using the Paragraphs Collection Declaratively
 
@@ -57,13 +57,13 @@ Radeditor1.Paragraphs.Add("Heading 3", "<h3>")
 
 To display the dropdown items with their corresponding formatting, add the tag around the item name:
 
-![](images/editor-dropdowns005.png)
+![RadEditor screenshot showing editor-dropdowns005.png](images/editor-dropdowns005.png)
 
 ## Use CSS Styles
 
 **RadEditor** also supports block format with the CSS class set:
 
-![](images/editor-dropdowns006.png)
+![RadEditor screenshot showing editor-dropdowns006.png](images/editor-dropdowns006.png)
 
 ````XML
 <style>

@@ -35,7 +35,7 @@ RadEditor offers FileBrowser dialogs such as ImageManager, FlashManager and Docu
 
 To enable dialogs, use the Smart Tag **Enable RadEditor Dialogs** option.
 
-![](images/editor-ataglance001.png)
+![RadEditor screenshot showing editor-ataglance001.png](images/editor-ataglance001.png)
 
 Running the Smart Tag option will add the following web.config HttpHandler entry:
 

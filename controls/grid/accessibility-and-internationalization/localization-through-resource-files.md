@@ -56,7 +56,7 @@ protected void RadGrid1_ItemCreated(object sender, GridItemEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridHeaderItem Then
         Dim header As GridHeaderItem = CType(e.Item, GridHeaderItem)

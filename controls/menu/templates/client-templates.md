@@ -31,6 +31,8 @@ As of Q2 2012 RadMenu provides support for client templates. The template itself
 
 On the server the template will be presented as a string property of the control, named **ClientItemTemplate**. Below a static and dynamic definition of a client template is shown
 
+> caption Example: Define a client item template in markup and code
+
 ````ASP.NET
 <telerik:RadMenu RenderMode="Lightweight" ID="RadMenu1" runat="server">
     <Items>
@@ -49,6 +51,7 @@ protected void Page_Load(object sender, EventArgs e)
 {
     if (!Page.IsPostBack)
     {
+        // Build the client template once and assign it to the menu.
         StringBuilder clientTemplate = new StringBuilder();
         clientTemplate.Append("<div class='customClass'>");
         clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />");
@@ -57,9 +60,10 @@ protected void Page_Load(object sender, EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Default_Vb_Load(sender As Object, e As System.EventArgs) Handles Me.Load
     If Not Page.IsPostBack Then
+        ' Build the client template once and assign it to the menu.
         Dim clientTemplate As New StringBuilder()
         clientTemplate.Append("<div class='customClass'>")
         clientTemplate.Append("<img src='#= ImagePath #' alt='Photo' />")

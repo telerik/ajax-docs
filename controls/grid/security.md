@@ -70,7 +70,7 @@ protected string EncodeValue(object value)
     return HttpUtility.HtmlEncode(value.ToString());
 }
 ````
-````VB.NET
+````VB
 Protected Function EncodeValue(ByVal value As Object) As String
     Return HttpUtility.HtmlEncode(value.ToString())
 End Function
@@ -160,7 +160,7 @@ protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArg
     (sender as RadGrid).DataSource = myDataSource;
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
     Dim myDataSource = New DataTable()
     'Developer's logic to QUERY the database e.g. "SELECT [Column] FROM [Table] WHERE [Column] = @someValue"

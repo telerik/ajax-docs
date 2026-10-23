@@ -19,7 +19,7 @@ With the new data binding introduced since ASP.NET 2.0, you can easily edit the 
 
 * Edit the EditItemTemplate and InsertItemTemplate tags in the ASP.NET markup by adding RadEditor and binding it to the rich-text column in your database
 
-![](images/editor-gettingsettingcontent004.png)
+![RadEditor screenshot showing editor-gettingsettingcontent004.png](images/editor-gettingsettingcontent004.png)
 
 Configure a SqlDataSource. Be sure to define the delete, insert, select and update commands.
 

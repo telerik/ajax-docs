@@ -29,8 +29,7 @@ Two parameters are passed to the event handler:
 
 This example prevents the user from resizing the "Planning Session" appointment but permits all other appointments to be resized:
 
-````ASPNET
-	
+````ASP.NET
 <script type="text/javascript">   
 function OnClientAppointmentResizeStart(sender, eventArgs)
 {

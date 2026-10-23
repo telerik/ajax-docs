@@ -27,7 +27,7 @@ The event handler receives two parameters:
 
 The following example uses the **OnClientDropDownClosing** event to prevent the drop-down list from closing if the prompt item is selected:
 
-````ASPNET
+````ASP.NET
 <script type="text/javascript">
     function OnClientDropDownClosing(sender, eventArgs) {
         if (sender.get_selectedItem().get_text() == "Select An Item") {

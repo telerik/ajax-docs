@@ -26,7 +26,7 @@ You can also configure multilevel nesting, as shown in **Example 3**.
 
 >caption Figure 1: RadEditor with configured nested context menus from Example 1.
 
-![](images/nested-context-menus.png)
+![RadEditor screenshot showing nested-context-menus.png](images/nested-context-menus.png)
 
 >caption Example 1: Configuring nested context menus.
 

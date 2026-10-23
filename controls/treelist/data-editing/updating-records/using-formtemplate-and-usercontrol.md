@@ -22,7 +22,7 @@ Once the **UpdateCommand** event of RadTreeList is fired, you can access the **T
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 	AutoGenerateColumns="false" DataSourceID="SqlDataSource1" OnUpdateCommand="RadTreeList1_UpdateCommand">
 	<Columns>
@@ -114,7 +114,7 @@ protected void RadTreeList1_UpdateCommand(object sender, Telerik.Web.UI.TreeList
 	RadTreeList1.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_UpdateCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	'Canceling out the automatic datasource operation (needed if you use a datasource control)
 	e.Canceled = True
@@ -150,7 +150,7 @@ This is also identical with inserting values using a WebUserControl. Once you ge
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList2" runat="server" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo"
 AutoGenerateColumns="false" EditMode="EditForms" DataSourceID="SqlDataSource1" OnUpdateCommand="RadTreeList2_UpdateCommand">
 	<Columns>
@@ -200,7 +200,7 @@ protected void RadTreeList2_UpdateCommand(object sender, Telerik.Web.UI.TreeList
 	RadTreeList2.Rebind();
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList2_UpdateCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	'Canceling out the automatic datasource operation (needed if you use a datasource control)
 	e.Canceled = True
@@ -237,7 +237,7 @@ Again, you can configure the user control to implement the IBindable interface i
 
 
 
-````ASPNET
+````ASP.NET
 <table>
 	<tr>
 		<td>
@@ -300,7 +300,7 @@ public partial class WebUserControl : System.Web.UI.UserControl, IBindableContro
    public object DataItem { get; set; }
 }
 ````
-````VB.NET
+````VB
 Partial Class WebUserControlVB
 	Inherits System.Web.UI.UserControl
 	Implements IBindableControl

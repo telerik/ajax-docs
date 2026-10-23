@@ -35,8 +35,7 @@ For **Month** and **Timeline** view the context menu has three items:
 
 The default time slot context menu can be customized declaratively:
 
-````ASPNET
-	
+````ASP.NET
 <TimeSlotContextMenus>
    <telerik:RadSchedulerContextMenu ID="SchedulerTimeSlotContextMenu" runat="server">
 	   <Items>

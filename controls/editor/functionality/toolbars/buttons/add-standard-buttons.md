@@ -29,7 +29,7 @@ RadEditor provides 4 different ways to configure toolbars:
 
 A useful design-time feature of the **Name** attribute is that it offers a list with the names of all available RadEditor tools. Press Ctrl-Space to display the drop down list.
 
-![](images/editor-nameattributeautocomplete.png)
+![RadEditor Name attribute autocomplete list showing available tools](images/editor-nameattributeautocomplete.png)
 
 >note Please, note that the selected ToolsFile or the built-in default tools file will not be loaded if you set the Tools collection in the control tag.
 
@@ -120,7 +120,7 @@ RadEditor1.Tools(0).Tools.Add(tool)
 
 You can use a theme to conveniently set the tools for a number of RadSpell instances that use the theme. In this example the skin file is part of a **Theme** named "Skin1".
 
-![](images/editor-buttons001.png)
+![RadEditor screenshot showing editor-buttons001.png](images/editor-buttons001.png)
 
 In your .skin file declare RadEditor with the tools that will be displayed in the RadEditor instances that use this theme. Set the **SkinId** property for the RadEditor. This will be referenced later in the RadEditor that uses the theme. In this example skin file the **SkinId** is "SomeTools".
 

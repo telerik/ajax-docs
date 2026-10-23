@@ -21,7 +21,7 @@ Sets the RadEditor visible on the client.
 
 The following example places a standard ASP checkbox input control on the form to toggle RadEditor visibility.
 
-![](images/editor-clientapi001.png)
+![RadEditor screenshot showing editor-clientapi001.png](images/editor-clientapi001.png)
 
 In the form's declaration, the checkbox input control references a "myCheckboxClick()" method called each time the checkbox is toggled.
 

@@ -78,6 +78,8 @@ Binding the **RadSpreadsheet** to a provider at runtime requires only one step:
 
 * Set the **Provider** property in the code behind, assigning it an instance of the **Telerik.Web.UI.SpreadsheetDocumentProvider** class, with the path to the excel file as a parameter.   
 
+> caption Example: Bind RadSpreadsheet to a provider at runtime
+
 ````ASP.NET
 
 <telerik:RadSpreadsheet runat="server" ID="RadSpreadsheet1">
@@ -89,13 +91,14 @@ Binding the **RadSpreadsheet** to a provider at runtime requires only one step:
 
 protected void Page_Init(object sender, EventArgs e)
 {
+	// Assign the provider during initialization so the workbook is available on postback.
 	RadSpreadSheet1.Provider = new SpreadsheetDocumentProvider(Server.MapPath("~/App_Data/Spreadsheet.xlsx"));
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub Page_Init(sender As Object, e As EventArgs)
+	' Assign the provider during initialization so the workbook is available on postback.
 	RadSpreadSheet1.Provider = New SpreadsheetDocumentProvider(Server.MapPath("~/App_Data/Spreadsheet.xlsx"))
 End Sub
 	

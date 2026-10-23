@@ -94,4 +94,4 @@ Note that this edit form will present the **ContactName**, **ContactTitle** and 
 
 And here is the result of this code:
 
-![](images/grd_FormMimicsBoundColumn.png)
+![RadGrid form template mimicking auto-generated bound-column fields](images/grd_FormMimicsBoundColumn.png)

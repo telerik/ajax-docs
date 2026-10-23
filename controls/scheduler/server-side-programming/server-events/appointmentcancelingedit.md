@@ -44,8 +44,7 @@ protected void RadScheduler1_AppointmentCancelingEdit(object sender, Appointment
 } 
 	
 ````
-````VB.NET
-	
+````VB
 Sub RadScheduler1_AppointmentCancelingEdit(ByVal sender As Object, _
 						ByVal e As AppointmentCancelingEditEventArgs) _
 					 Handles RadScheduler1.AppointmentCancelingEdit

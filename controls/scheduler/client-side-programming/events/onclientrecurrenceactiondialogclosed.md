@@ -29,8 +29,7 @@ The **OnClientRecurrenceActionDialogClosed** client-side event is called when th
 
 This example alerts what action will follow after the dialog is closed:
 
-````ASPNET
-	
+````ASP.NET
 <script type="text/javascript">
    function OnClientRecurrenceActionDialogClosed(sender, eventArgs)
    {           

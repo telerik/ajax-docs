@@ -13,7 +13,7 @@ position: 5
 
 This example demonstrates how to implement autosave functionality using RadEditor for ASP.NET AJAX and an MS AJAX Timer. In the example the editor's content is read on the server in the Timer OnTick event, and fed into a label. In a real world scenario the content would be saved into a database or other temporary storage.
 
-![](images/editor-gettingsettingcontent002.png)
+![RadEditor screenshot showing editor-gettingsettingcontent002.png](images/editor-gettingsettingcontent002.png)
 
 The Timer is configured to perform an AJAX request every 15 seconds. However, it is not advisable to do so without checking whether the user is using the AJAX SpellCheck at the time of sending the content. While it is in AJAX SpellCheck mode, the editor's content contains additional formatting inserted by the spellchecker to highlight mistaken words. As a result, it is not desirable to save the content while in spellcheck mode.
 

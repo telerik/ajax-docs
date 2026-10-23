@@ -11,15 +11,15 @@ position: 0
 
 # Server-side Programming Overview
 
-Overview of the Server-side APIs you can use to create and configure the Telerik WebForms Chip Control.
+Overview of the Server-side APIs you can use to create and configure the Telerik WebForms AIPrompt Control.
 
 ## Creating the AIPrompt in the Markup
 
-To create a Chip in the markup, add the `RadAIPrompt` element to the page and set its properties accordingly. You can find the properties in the following article: 
+To create an AIPrompt in the markup, add the `RadAIPrompt` element to the page and set its properties accordingly. You can find the properties in the following article:
 
 - [Properties]({%slug aiprompt/server-side-programming/properties%})
 
-Example
+> caption Example: Create an AIPrompt in the markup
 
 ````ASP.NET
 <telerik:RadAIPrompt runat="server" ID="RadAIPrompt1" Width="300px" />
@@ -29,26 +29,28 @@ Example
 
 To create the AIPrompt on the server, create a new instance of the `RadAIPrompt` object, set its properties and add it to the Controls collection of another control (e.g. `PlaceHolder1`).  
 
-Example.
+> caption Example: Create an AIPrompt dynamically during PreInit
 
 ````C#
 protected void Page_PreInit(object sender, EventArgs e)
 {
+    // Create dynamic controls during PreInit so they are restored on postback.
     RadAIPrompt aiPrompt = new RadAIPrompt()
     {
         Width = Unit.Pixel(400)
     };
 
-    PlaceHolder1.Controls.Add(chip);
+    PlaceHolder1.Controls.Add(aiPrompt);
 }
 ````
 ````VB
 Protected Sub Page_PreInit(ByVal sender As Object, ByVal e As EventArgs) Handles Me.PreInit
+    ' Create dynamic controls during PreInit so they are restored on postback.
     Dim aiPrompt As RadAIPrompt = New RadAIPrompt() With {
         .Width = Unit.Pixel(400)
     }
 
-    PlaceHolder1.Controls.Add(chip)
+    PlaceHolder1.Controls.Add(aiPrompt)
 End Sub
 ````
 

@@ -13,7 +13,7 @@ position: 6
 
 The code below demonstrates how to iterate RadEditor document links when the editor is loaded. The code sets the link target attribute to so that the link is opened in a new window when clicked. You can use this approach to modify the attributes and events of all HTML elements in the editor content area. This example opens the editor in **Preview EditorMode** so that clicking the links will have the expected behavior.
 
-![](images/editor-handlingcontent002.png)
+![RadEditor screenshot showing editor-handlingcontent002.png](images/editor-handlingcontent002.png)
 
 ````JavaScript
 function OnClientLoad(sender, args) {

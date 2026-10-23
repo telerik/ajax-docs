@@ -50,9 +50,11 @@ Telerik **RadGrid** provides rich functionality for ASP.NET applications while g
 ````C#
 protected void RadGrid1_NeedDataSource(object sender, GridNeedDataSourceEventArgs e)
 {
+    // Supply the records when RadGrid requests its data.
     (sender as RadGrid).DataSource = MyData; 
 }
 
+// Create sample records for the example grid.
 public IEnumerable<SampleData> MyData = Enumerable.Range(1, 30).Select(x => new SampleData
 {
     Id = x,
@@ -71,9 +73,11 @@ public class SampleData
 ````
 ````VB
 Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNeedDataSourceEventArgs)
+    ' Supply the records when RadGrid requests its data.
     TryCast(sender, RadGrid).DataSource = MyData
 End Sub
 
+' Create sample records for the example grid.
 Public MyData As IEnumerable(Of SampleData) = Enumerable.Range(1, 30).[Select](Function(x) New SampleData With {
     .Id = x,
     .Name = "Name " & x,

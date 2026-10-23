@@ -44,7 +44,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
 		Dim startTime As RadTimePicker = TryCast(e.Container.FindControl("StartTime"), RadTimePicker)
@@ -78,7 +78,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
 		Dim startDate As RadDatePicker = TryCast(e.Container.FindControl("StartDate"), RadDatePicker)
@@ -123,7 +123,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
 		Dim startTimePicker As RadTimePicker = TryCast(e.Container.FindControl("StartTime"), RadTimePicker)
@@ -163,7 +163,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
 		Dim attrAnnotationsTextbox As RadTextBox = DirectCast(e.Container.FindControl("AttrAnnotations"), RadTextBox)
@@ -197,7 +197,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
 		Dim subjectChanger As New RadComboBox()
@@ -321,7 +321,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
 		Dim allDayCheckbox As CheckBox = DirectCast(e.Container.FindControl("AllDayEvent"), CheckBox)
@@ -350,7 +350,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
 		Dim resourceRoomCombo As RadComboBox = TryCast(e.Container.FindControl("ResRoom"), RadComboBox)
@@ -401,7 +401,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If e.Container.Mode = SchedulerFormMode.AdvancedInsert Then
 		'To find controls in the recurrence editor, you need to first find the recurrence editor.
@@ -456,7 +456,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadScheduler1_FormCreated(sender As Object, e As SchedulerFormCreatedEventArgs)
 	If (e.Container.Mode = SchedulerFormMode.AdvancedEdit) OrElse (e.Container.Mode = SchedulerFormMode.AdvancedInsert) Then
 		Dim validatorForDescription As New CustomValidator()

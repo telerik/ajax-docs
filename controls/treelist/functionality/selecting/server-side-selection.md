@@ -27,7 +27,7 @@ RadTreeList server-side selection is enabled for the users once you add the **Tr
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataKeyNames="EmployeeID" DataSourceID="SqlDataSource1"
 	ParentDataKeyNames="ReportsTo" AllowMultiItemSelection="True" OnItemCommand="RadTreeList1_ItemCommand">
 	<Columns>
@@ -52,7 +52,7 @@ protected void RadTreeList1_ItemCommand(object sender, Telerik.Web.UI.TreeListCo
 	}
 }			
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_ItemCommand(ByVal sender As Object, ByVal e As Telerik.Web.UI.TreeListCommandEventArgs)
 	If e.CommandName = RadTreeList.SelectCommandName Then
 		'item is being selected    
@@ -77,7 +77,7 @@ protected void Page_PreRender(object sender, EventArgs e)
 	item.Selected = true;
 }			
 ````
-````VB.NET
+````VB
 Protected Sub Page_PreRender(ByVal sender As Object, ByVal e As EventArgs) Handles Me.PreRender
 	Dim item As TreeListDataItem = RadTreeList1.Items(0)
 	item.Selected = True

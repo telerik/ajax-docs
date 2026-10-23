@@ -47,7 +47,7 @@ In addition to the export format's specific properties, the **ExportSettings** g
 >
 
 
-````ASPNET
+````ASP.NET
 <ExportSettings
 	ExportMode="DefaultContent"
 	IgnorePaging="true"

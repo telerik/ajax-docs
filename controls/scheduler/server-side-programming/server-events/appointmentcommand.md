@@ -44,8 +44,7 @@ protected void RadScheduler1_AppointmentCommand(object sender, AppointmentComman
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentCommand(ByVal sender As Object, ByVal e As AppointmentCommandEventArgs) Handles RadScheduler1.AppointmentCommand
 	If e.CommandName = "Delete" Then
 		Delete(e.Container.Appointment)
