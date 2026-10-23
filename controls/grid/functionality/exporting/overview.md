@@ -286,7 +286,7 @@ protected void RadButton4_Click(object sender, EventArgs e)
     RadGrid1.ExportToWord();
 }
 ````
-````VB#
+````VB
 Protected Sub RadButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	RadGrid1.ExportToCsv()
 End Sub

@@ -19,7 +19,7 @@ The RadEditor Custom Links dropdown is a convenient tool for inserting pre-defin
 
 Custom links are kept in the **Links** collection. You can add a new custom link to the **Links** collection declaratively, programmatically and using the ToolsFile.
 
-![](images/editor-dropdowns011.png)
+![RadEditor screenshot showing editor-dropdowns011.png](images/editor-dropdowns011.png)
 
 ## Using the Links Collection Declaratively
 
@@ -43,7 +43,7 @@ The example below demonstrates how to add a sublist in the Custom Links dropdown
 
 In the following example, we construct a simple 3-level Custom Links treeview:
 
-![](images/editor-dropdowns012.png)
+![RadEditor screenshot showing editor-dropdowns012.png](images/editor-dropdowns012.png)
 
 ````C#
 RadEditor1.Links.Clear();

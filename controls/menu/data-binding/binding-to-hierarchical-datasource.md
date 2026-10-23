@@ -83,7 +83,7 @@ protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEvent
 	e.Item.Value = (string)DataBinder.Eval(e.Item.DataItem, "title") + "_Value";
 }		
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs)
 	e.Item.ToolTip = CStr(DataBinder.Eval(e.Item.DataItem, "title"))
 	e.Item.Value = CStr(DataBinder.Eval(e.Item.DataItem, "title")) + "_Value"
@@ -159,7 +159,7 @@ protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEvent
 	}
 }      			
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs)
 	If e.Item.Level > 0 Then 'set tooltip only for child items      
 		Dim element As XmlElement = DirectCast(e.Item.DataItem, XmlElement)
@@ -170,7 +170,7 @@ End Sub
 
 Here is also the Markup in which above steps resulted in: 
 
-````ASPNET
+````ASP.NET
 <telerik:RadMenu runat="server" ID="RadMenu1" RenderMode="Lightweight"
     OnItemDataBound="RadMenu1_ItemDataBound" 
     DataSourceID="menuXmlDS" 
@@ -190,7 +190,7 @@ protected void RadMenu1_ItemDataBound(object sender, Telerik.Web.UI.RadMenuEvent
 	}
 }      			
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs)
 	If e.Item.Level > 0 Then 'set tooltip only for child items      
 		Dim element As XmlElement = DirectCast(e.Item.DataItem, XmlElement)

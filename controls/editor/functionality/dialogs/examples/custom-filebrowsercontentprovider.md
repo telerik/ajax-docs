@@ -98,11 +98,11 @@ To get started implementing FileBrowserContentProvider:
 
 1. right-click the **FileBrowserContentProvider** declaration and select **Implement Abstract Class** from the context menu.
 
-	![](images/editor-dialogs006.png)
+	![RadEditor screenshot showing editor-dialogs006.png](images/editor-dialogs006.png)
 	
 	This step will create all the methods that can be implemented:
 
-	![](images/editor-dialogs007.png)
+	![RadEditor screenshot showing editor-dialogs007.png](images/editor-dialogs007.png)
 
 1. Add a constructor with the signature shown in the code example below. The constructor provides basic dialog and path information.The "Context" parameter allows you to access the current HTTP state including the HTTP Request object:
 
@@ -149,11 +149,11 @@ The sample implementation is using a database for information storage, and a sin
 
 | User Action | Method called | Screenshot |
 | ------ | ------ | ------ |
-|Initial load of file browser dialog|`DirectoryItem ResolveRootDirectoryAsTree(string path)`|![](images/editor-dialogs005.png)|
-|Press the Delete button when a directory is selected|`string DeleteDirectory(string path)`|![](images/editor-dialogs009.png)|
-|Press the Delete button when a file is selected|`string DeleteFile(string path)`|![](images/editor-dialogs008.png)|
-|Uploading a file|`string StoreFile(Telerik.Web.UI.UploadedFile file, string path, string name, params string[] arguments)`|![](images/editor-dialogs011.png)|
-|Previewing a selected file|This functionality should be implemented in cooperation with the customFileBrowserContentProvider. For example, if files are to be served by a special handler, the handler shouldbe aware how to process the URL and serve the file.|![](images/editor-dialogs013.png)|
+|Initial load of file browser dialog|`DirectoryItem ResolveRootDirectoryAsTree(string path)`|![RadEditor screenshot showing editor-dialogs005.png](images/editor-dialogs005.png)|
+|Press the Delete button when a directory is selected|`string DeleteDirectory(string path)`|![RadEditor screenshot showing editor-dialogs009.png](images/editor-dialogs009.png)|
+|Press the Delete button when a file is selected|`string DeleteFile(string path)`|![RadEditor screenshot showing editor-dialogs008.png](images/editor-dialogs008.png)|
+|Uploading a file|`string StoreFile(Telerik.Web.UI.UploadedFile file, string path, string name, params string[] arguments)`|![RadEditor screenshot showing editor-dialogs011.png](images/editor-dialogs011.png)|
+|Previewing a selected file|This functionality should be implemented in cooperation with the customFileBrowserContentProvider. For example, if files are to be served by a special handler, the handler shouldbe aware how to process the URL and serve the file.|![RadEditor screenshot showing editor-dialogs013.png](images/editor-dialogs013.png)|
 
 >caution The compilator will not complain if the FileBrowserContentProvider's methods bellow are not overridden, but it is highly recommended to override them as well:
 

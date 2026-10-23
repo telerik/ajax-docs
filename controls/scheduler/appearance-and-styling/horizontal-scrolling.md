@@ -19,8 +19,7 @@ You can use the horizontal scrolling feature of RadScheduler to maintain a const
 
 To enable it, assign a value to the **ColumnWidth** property:
 
-````ASPNET
-	     
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" ... ColumnWidth="200px" />
 				
 ````

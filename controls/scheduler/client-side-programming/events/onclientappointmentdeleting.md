@@ -31,8 +31,7 @@ Two parameters are passed to the event handler:
 
 This example stops the deletion if the user is about to delete an appointment's series:
 
-````ASPNET
-	
+````ASP.NET
 <script type="text/javascript">   
 function OnClientAppointmentDeleting(sender, eventArgs)
 {

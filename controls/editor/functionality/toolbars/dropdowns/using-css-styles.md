@@ -32,7 +32,7 @@ By default the CSS class dropdown will display all global CSS styles and CSS sty
 
 The screenshots below show that no HTML elements are selected and the CSS class dropdown displays all six styles.
 
-![](images/editor-dropdowns023.png)
+![RadEditor screenshot showing editor-dropdowns023.png](images/editor-dropdowns023.png)
 
 When an image is selected, the styles related to that image and any global styles are shown in the dropdown.
 

@@ -13,7 +13,7 @@ position: 3
 
 As the name implies, the Full Screen Mode feature of RadEditor for ASP.NET AJAX allows you to view the editor as you would in a normal fullscreen window.
 
-![](images/editor-fullscreenmode.png)
+![RadEditor screenshot showing editor-fullscreenmode.png](images/editor-fullscreenmode.png)
 
 If you would like to open the editor in full screen mode when the page is loaded, you can use the editor's Fire client-side method to fire the ToggleScreenMode command as shown below:
 

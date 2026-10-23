@@ -76,7 +76,7 @@ protected void Page_Load(object sender, EventArgs e)
     }
 }	
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
     If Not Page.IsPostBack Then
         'dynamically crate a table to populate the menu    
@@ -121,7 +121,7 @@ protected void RadMenu1_ItemDataBound(object sender,Telerik.Web.UI.RadMenuEventA
     e.Item.ToolTip = e.Item.Attributes["Roles"];
 }		
 ````
-````VB.NET
+````VB
 Protected Sub RadMenu1_ItemDataBound(ByVal sender As Object, ByVal e As Telerik.Web.UI.RadMenuEventArgs) Handles RadMenu1.ItemDataBound
     Dim dataRow As DataRowView = DirectCast(e.Item.DataItem, DataRowView)
     e.Item.Attributes("Roles") = dataRow("Roles").ToString()
@@ -140,7 +140,7 @@ Paragraph.Font.Bold = RadMenu1.Items[0].Items[0].Attributes["State"] == "checked
 Paragraph.Font.Italic = RadMenu1.Items[0].Items[1].Attributes["State"] == "checked";
 Paragraph.Font.Underline = RadMenu1.Items[0].Items[2].Attributes["State"] == "checked";			
 ````
-````VB.NET
+````VB
 Paragraph.Font.Bold = RadMenu1.Items(0).Items(0).Attributes("State") = "checked"
 Paragraph.Font.Italic = RadMenu1.Items(0).Items(1).Attributes("State") = "checked"
 Paragraph.Font.Underline = RadMenu1.Items(0).Items(2).Attributes("State") = "checked"

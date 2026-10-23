@@ -21,10 +21,14 @@ When embedding a **RadDateRangePicker** control inside a data-bound control, use
 In addition to calling **Eval** and **Bind** methods to perform data binding in a data-binding expression, you can call any publicly scoped code within the *<%# and %>* delimiters to execute that code and return a value during page processing.
 >
 
-![Data-binding the picker control](../images/data-binding.png)
+> caption Figure 1: DateRangePicker values bound inside a RadGrid
+
+![DateRangePicker values displayed and edited inside a RadGrid](../images/data-binding.png)
 
 
 The following example demonstrates how to bind a **RadDateRangePicker** control inside a RadGrid, as shown above.
+
+> caption Example: Bind DateRangePicker start and end dates to grid fields
 
 ````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False"
@@ -61,6 +65,7 @@ private void Page_Load(object sender, System.EventArgs e)
 {
     if (!Page.IsPostBack)
     {
+        // Open the first row in edit mode so the picker is visible in the example.
         RadGrid1.EditIndexes.Add(0);
     }
 }
@@ -108,6 +113,7 @@ protected void RadGrid1_UpdateCommand(object source, GridCommandEventArgs e)
 ````VB
 Private Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
     If Not Page.IsPostBack Then
+		' Open the first row in edit mode so the picker is visible in the example.
         RadGrid1.EditIndexes.Add(0)
     End If
 End Sub

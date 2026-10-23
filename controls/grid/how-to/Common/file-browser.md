@@ -29,7 +29,7 @@ The [following example](https://demos.telerik.com/aspnet-ajax/Controls/Examples/
 
 This is a typical example for "File browser" type of application for web.
 
-![](../images/grdFileExplorer_thumb.PNG)
+![RadGrid file browser displaying a folder's contents](../images/grdFileExplorer_thumb.PNG)
 
 
 

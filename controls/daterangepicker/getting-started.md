@@ -17,9 +17,13 @@ The following article shows the structure and demonstrates how you can add the R
 
 The structure of the **RadDateRangePicker** control is as follows:
 
-![Structure](images/structure.png "Structure")
+> caption Figure 1: DateRangePicker structure with its calendar and two date pickers
+
+![DateRangePicker structure showing the embedded calendar and start and end date pickers](images/structure.png "Structure")
 
 The rich functionality of the built-in RadCalendar and DatePicker(s) determine the flexibility of the RadDateRangePicker itself. You can use the corresponding inner tags to set the properties of the Calendar and pickers in any desired manner as shown below:
+
+> caption Example: Configure the embedded calendar and date pickers
 
 ````ASP.NET
 <telerik:RadDateRangePicker runat="server" ID="RadDateRangePicker1" Skin="Material" Width="800">
@@ -66,6 +70,8 @@ For the proper functioning of the RadDateRangePicker, some features of the embed
 1. Use the **&lt;telerik:RadDateRangePicker&gt;** tag to declare the RadDateRangePicker.
 
 1. Set the desired properties of the DateRangePickers and its embedded controls: Calendar, StartDatePicker, EndDatePicker:
+
+> caption Example: Add a DateRangePicker with a ScriptManager
 
 ````ASP.NET
 <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>

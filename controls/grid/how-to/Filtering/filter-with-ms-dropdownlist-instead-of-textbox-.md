@@ -30,7 +30,9 @@ The following steps describe how to achieve this result:
 
 The following example illustrates how to create a custom column class that replaces the filter text box with a drop-down list.
 
-```C#
+> caption Example: Replace the default filter text box with a drop-down list
+
+````C#
 
 		public class MyCustomFilteringColumn : GridBoundColumn
 		{
@@ -94,8 +96,8 @@ The following example illustrates how to create a custom column class that repla
 		}
 
 
-```
-```VB
+````
+````VB
 
 		Imports Microsoft.VisualBasic
 		Imports Telerik.Web.UI
@@ -168,7 +170,7 @@ The following example illustrates how to create a custom column class that repla
 		        End Class
 
 		    End Namespace
-	```
+	````
 
 
 ## Adding custom columns to a grid

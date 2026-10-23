@@ -27,6 +27,8 @@ The code in the next paragraph demonstrates how to:
 
 
 
+> caption Example: Bind TreeList to custom objects, a generic list, and a data reader
+
 ````C#
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 <b>Binding RadTreeList to:</b>
@@ -65,7 +67,7 @@ The code in the next paragraph demonstrates how to:
 </telerik:RadAjaxPanel>
 <telerik:RadAjaxLoadingPanel ID="RadAjaxLoadingPanel1" runat="server" />
 ````
-````VB.NET
+````VB
 <telerik:RadScriptManager ID="RadScriptManager1" runat="server" />
 <b>Binding RadTreeList to:</b>
 <h3>List of custom objects with <b>Nullable</b> properties</h3>
@@ -121,6 +123,7 @@ The code in the next paragraph demonstrates how to:
 ````C#
 protected void RadTreeList1_NeedDataSource(object sender, TreeListNeedDataSourceEventArgs e)
 {
+	// Supply the self-hierarchical list for the first TreeList.
 	ArrayList list = new ArrayList();
 	list.Add(new TestListItem(1, "Item 1", 2));
 	list.Add(new TestListItem(2, "Item 2", null));
@@ -197,8 +200,9 @@ public class TestListItem
 	}
 }  
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_NeedDataSource(ByVal sender As Object, ByVal e As TreeListNeedDataSourceEventArgs) Handles RadTreeList1.NeedDataSource
+	' Supply the self-hierarchical list for the first TreeList.
 	Dim list As New ArrayList()
 	list.Add(New TestListItem(1, "Item 1", 2))
 	list.Add(New TestListItem(2, "Item 2", Nothing))

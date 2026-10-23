@@ -45,7 +45,7 @@ The code snippets below illustrate direct comparison between the simple and adva
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" AllowPaging="true" PageSize="3"
 	DataKeyNames="EmployeeID" OnItemCommand="RadTreeList1_ItemCommand" OnPageIndexChanged="RadTreeList1_PageIndexChanged"
 	ParentDataKeyNames="ReportsTo">
@@ -100,7 +100,7 @@ protected void RadTreeList2_NeedDataSource(object source, TreeListNeedDataSource
 	RadTreeList2.DataSource = GetDataTable();
 }  
 ````
-````VB.NET
+````VB
 Public Function GetDataTable() As DataTable
 	Dim ConnString As [String] = ConfigurationManager.ConnectionStrings("NorthwindConnectionString").ConnectionString
 	Dim conn As New SqlConnection(ConnString)

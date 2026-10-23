@@ -33,7 +33,7 @@ The **ItemDataBound** event handler receives two arguments:
 
 Use the **ItemDataBound** event handler to make changes to items as they are bound to the data. For example, you can set custom attributes based on other fields in the DataItem:
 
-````ASPNET
+````ASP.NET
 <telerik:RadDropDownList RenderMode="Lightweight" ID="RadDropDownList1"
 	 runat="server"
 	 AutoPostBack="true"
@@ -61,7 +61,7 @@ protected void RadDropDownList1_ItemDataBound(object sender, DropDownListItemEve
 	e.Item.Attributes["Description"] = dataItem["Description"].ToString();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 	For i As Integer = 0 To RadDropDownList1.Items.Count - 1
 		RadDropDownList1.Items(i).DataBind()

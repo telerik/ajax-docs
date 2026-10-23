@@ -46,7 +46,7 @@ Due to the self-referencing nature of the control, the sorting takes effect "per
 
 Example 1: Declarative Approach of setting the SortExpressions
 
-````ASPX
+````ASP.NET
 <telerik:RadTreeList ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1" AllowSorting="True" ...>
     <SortExpressions>
         <telerik:TreeListSortExpression FieldName="EmployeeName" SortOrder="Ascending" />
@@ -70,7 +70,7 @@ protected void Page_Load(object sender, EventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(sender As Object, e As EventArgs)
     If Not IsPostBack Then
         Dim sortExpr As New TreeListSortExpression()

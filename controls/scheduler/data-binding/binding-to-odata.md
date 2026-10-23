@@ -46,8 +46,7 @@ Here is how the declaration of a RadScheduler bound to a RadODataDataSource cont
 >
 
 
-````ASPNET
-	
+````ASP.NET
 <telerik:RadODataDataSource ID="ODataDataSource1" runat="server">
 	<Transport>
 		<Read Url="SchedulerODataWcfService.svc" />

@@ -32,7 +32,7 @@ position: 0
 |RotatePaper|You can switch the orientation of the page through this property|
 |UserPassword|Used to set a password and enable password protection for the exported file|
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
 	<Pdf PageTitle="My Page" PaperSize="A4" RotatePaper="true"  />
 </ExportSettings>
@@ -50,7 +50,7 @@ The reason for having separate **OnPdfExporting** event is that by the time the 
 
 The default font of the generated pages is specified by the **DefaultFontFamily** property:
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
 	<Pdf DefaultFontFamily="Arial Unicode MS" />
 </ExportSettings>  
@@ -65,7 +65,7 @@ Also, you can dynamically set fonts to the row elements in the same manner used 
 ````C#
 item["OriginalName"].Style["font-family"] = "Arial Unicode MS";
 ````
-````VB.NET
+````VB
 item("OriginalName").Style("font-family") = "Arial Unicode MS"
 ````
 
@@ -147,7 +147,7 @@ Most probably you have *DIV* element with specified dimensions or absolute posit
 
 *PDF* engine is trying to resolve *empty anchor**URL*. Please note, that the anchor links are supported only when valid *URL* is supplied. Example:
 
-````ASPNET
+````ASP.NET
 <a href="#">text</a>
 <%--ERROR--%>
 

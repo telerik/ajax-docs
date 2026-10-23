@@ -266,7 +266,7 @@ End Sub
 
 The CommandItem consists of one cell that is spanned over the columns. This cell has two containers, one to hold the controls on the left, the other on the right.
 
-![](images/grid-accessing-server-side-commanditem.png)
+![RadGrid command item cell spanning the grid columns](images/grid-accessing-server-side-commanditem.png)
 
 Accessing the cells in the ItemDataBound event
 

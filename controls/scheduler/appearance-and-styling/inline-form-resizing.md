@@ -17,8 +17,7 @@ position: 5
 
 The Inline Insert/Edit Form can be resized by the end-user for improved usability. You can enforce a minimum size by using the**MinimumInlineFormHeight** and **MinimumInlineFormWidth** properties of RadScheduler. For example:
 
-````ASPNET
-	     
+````ASP.NET
 <telerik:RadScheduler RenderMode="Lightweight" ... MinimumInlineFormWidth="200" MinimumInlineFormHeight="200" />
 				
 ````

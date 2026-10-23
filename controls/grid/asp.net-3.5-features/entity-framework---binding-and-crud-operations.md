@@ -98,7 +98,7 @@ protected void RadGrid1_ItemCreated(object sender, Telerik.Web.UI.GridItemEventA
         }
       }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.GridItemEventArgs)
     If TypeOf e.Item Is GridEditableItem AndAlso e.Item.IsInEditMode Then
         If Not e.Item.OwnerTableView.IsItemInserted Then

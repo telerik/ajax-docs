@@ -31,8 +31,7 @@ Appointment apt = new Appointment("1", start, end, "Do it now.");
 RadScheduler1.InsertAppointment(apt);  
 				
 ````
-````VB.NET
-	
+````VB
 Dim start As DateTime = DateTime.Now.ToUniversalTime()
 Dim [end] As DateTime = start.AddHours(1)
 Dim apt As New Appointment("1", start, [end], "Do it now.")

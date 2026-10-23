@@ -17,7 +17,7 @@ RadEditor offers two ways for creating tables. The best approach depends on your
 
 * For more complex tables, the Table Wizard is more appropriate.
 
-![](images/editor-dropdowns017.png)
+![RadEditor screenshot showing editor-dropdowns017.png](images/editor-dropdowns017.png)
 
 ## Table Wizard
 
@@ -45,31 +45,31 @@ This tab allows you to adjust the number of rows and columns as well as adjust t
 
 * **More Table Styling** - Open the style builder dialog.
 
-![](../../dialogs/images/editor-table-wizard-table-properties.png)
+![RadEditor screenshot showing editor-table-wizard-table-properties.png](../../dialogs/images/editor-table-wizard-table-properties.png)
 
 ## Cell Properties
 
 The Cell Properties tab allows you to fine-tune the appearance of individual cells of a given table. Here you can configure cell width, height, alignment, background, the cell ID, toggle text wrapping and set the CSS class for a given cell.
 
-![](../../dialogs/images/editor-table-wizard-cell-properties.png)
+![RadEditor screenshot showing editor-table-wizard-cell-properties.png](../../dialogs/images/editor-table-wizard-cell-properties.png)
 
 ## Accessibility
 
 The Accessibility tab allows you to adjust the number of heading rows and columns, add caption settings, add a summary and to toggle if the cells are associated with the headers.
 
-![](../../dialogs/images/editor-table-wizard-accessibility.png)
+![RadEditor screenshot showing editor-table-wizard-accessibility.png](../../dialogs/images/editor-table-wizard-accessibility.png)
 
 ## Table Layouts
 
 You can select a particular predefined layout for the table an apply special formats to the heading/last row and first/last column. 
 
-![](../../dialogs/images/editor-table-wizard-table-layouts.png)
+![RadEditor screenshot showing editor-table-wizard-table-layouts.png](../../dialogs/images/editor-table-wizard-table-layouts.png)
 
 ## Table Tools
 
 The Insert Table dropdown includes tools for setting alignment and borders.
 
-![](images/editor-dropdowns018.png)
+![RadEditor screenshot showing editor-dropdowns018.png](images/editor-dropdowns018.png)
 
 1. Insert Row Above
 

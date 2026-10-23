@@ -46,7 +46,7 @@ The following example illustrates this technique:
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" ID="RadTreeList1" runat="server" DataSourceID="SqlDataSource1"
 	AutoGenerateColumns="true" AllowPaging="true" DataKeyNames="LocationID" ParentDataKeyNames="ParentLocationID">
 	<ClientSettings>

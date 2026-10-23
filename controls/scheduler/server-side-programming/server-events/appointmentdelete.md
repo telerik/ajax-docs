@@ -42,8 +42,7 @@ protected void RadScheduler1_AppointmentDelete(object sender, SchedulerCancelEve
 } 
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDelete(ByVal sender As Object, _
    ByVal e As SchedulerCancelEventArgs) Handles RadScheduelr1.AppointmentDelete
 	If e.Appointment.Attributes("ReadOnly") = "true" Then

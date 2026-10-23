@@ -13,7 +13,7 @@ position: 1
 
 In addition to localizing through [global resource files]({%slug editor/accessibility-and-internationalization/localization/global-resource-files%}), RadEditor allows programmatic localization using the **Localization** property. All labels, buttons, tooltips and error messages can be localized by using the **Localization** property. The Localization property has sub properties for Tools, Modules and Main.
 
-![](images/editor-localization007.png)
+![RadEditor screenshot showing editor-localization007.png](images/editor-localization007.png)
 
 ````C#
 protected void Page_Load(object sender, EventArgs e)

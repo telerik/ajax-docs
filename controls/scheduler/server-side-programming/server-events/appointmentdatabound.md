@@ -25,6 +25,8 @@ You can use this event to make adjustments to the appointments as they are loade
 
 ## Example
 
+> caption Example: Adjust an appointment when it is loaded from the data source
+
 
 
 
@@ -33,13 +35,14 @@ You can use this event to make adjustments to the appointments as they are loade
 	
 protected void RadScheduler1_AppointmentDataBound(object sender, SchedulerEventArgs e)
 {
+	// Shift the appointment one hour when it is loaded.
 	e.Appointment.Start = e.Appointment.Start.AddHours(1);
 } 
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_AppointmentDataBound(ByVal sender As Object, ByVal e As SchedulerEventArgs) Handles RadScheduler1.AppointmentDataBound
+	' Shift the appointment one hour when it is loaded.
 	e.Appointment.Start = e.Appointment.Start.AddHours(1)
 End Sub
 	

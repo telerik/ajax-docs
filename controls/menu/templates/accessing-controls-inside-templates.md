@@ -44,7 +44,7 @@ To access the RadColorPicker in the item template, use the following code:
 RadMenuItem colorItem = RadMenu1.FindItemByText("ColorPicker"); 
 RadColorPicker colors = (RadColorPicker)colorItem.FindControl("RadColorPicker1");
 ````
-````VB.NET
+````VB
 Dim colorItem As RadMenuItem = RadMenu1.FindItemByText("ColorPicker")
 Dim colors As RadColorPicker = DirectCast(colorItem.FindControl("RadColorPicker1"), RadColorPicker)
 ````

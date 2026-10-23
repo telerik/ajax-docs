@@ -31,8 +31,7 @@ Two parameters are passed to the event handler:
 
 This example displays a message giving the name and duration of the resizing event:
 
-````ASPNET
-	
+````ASP.NET
 <script type="text/javascript">   
 function OnClientAppointmentResizing(sender, eventArgs)
 {

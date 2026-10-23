@@ -40,8 +40,7 @@ protected void RadScheduler1_TimeSlotCreated(object sender, Telerik.Web.UI.TimeS
 }  
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TimeSlotCreatedEventArgs)
 	If e.TimeSlot.Appointments.Count > 0 Then
 		e.TimeSlot.CssClass = "Disabled"
@@ -68,8 +67,7 @@ protected void RadScheduler1_TimeSlotCreated(object sender, Telerik.Web.UI.TimeS
 }  
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_TimeSlotCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.TimeSlotCreatedEventArgs)
 	Dim scheduler As RadScheduler = DirectCast(sender, RadScheduler)
 	Dim startdate = e.TimeSlot.Start.Add(scheduler.TimeZoneOffset)

@@ -22,9 +22,11 @@ position: 10
 
 You can bind to a [generic lists](https://msdn2.microsoft.com/en-us/library/6sh2ey19.aspx) of objects that have multiple properties. The example below binds to a list of "Product" objects that contain two properties, one property for "Name" and a second for "QuantityInStock". The Y axis binds to the QuantityInStock and the X axis label binds to the "Name" property.
 
-![Binding to Generic List of Complex Objects](images/radchart-building010.png)
+![RadChart bound to a generic list of product objects](images/radchart-building010.png)
 
 The Product object is defined with a constructor that passes both Name and QuantityInStock:
+
+> caption Example: Define the product type used by the RadChart data source
 
 ````C#
 public class Product
@@ -49,6 +51,7 @@ public class Product
 } 				
 ````
 ````VB
+' Define the chart item type with the fields used for labels and values.
 Public Class Product
 	Public Sub New(ByVal name As String, ByVal quantityInStock As Integer)
 		_name = name
@@ -85,7 +88,10 @@ After the Product object is defined the following steps configure and bind to th
 
 1. The RadChart DataBind()= method is called.
 
+> caption Example: Bind a generic product list to RadChart
+
 ````C#
+// Create the records that supply the chart's category and value fields.
 List<Product> products = new List<Product>();
 products.Add(new Product("Parka L", 120));
 products.Add(new Product("Parka M", 100));
@@ -99,6 +105,7 @@ RadChart1.PlotArea.XAxis.Appearance.TextAppearance.TextProperties.Font = new Sys
 RadChart1.DataBind();				
 ````
 ````VB	
+' Create the records that supply the chart's category and value fields.
 Dim products As New List(Of Product)()
 products.Add(New Product("Parka L", 120))
 products.Add(New Product("Parka M", 100))

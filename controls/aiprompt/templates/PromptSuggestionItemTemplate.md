@@ -40,6 +40,7 @@ protected void Page_Load(object sender, EventArgs e)
 {
     if (!IsPostBack)
     {
+        // Supply the suggestions rendered by the custom item template.
         List<string> promptSuggestions = new List<string>
         {
             "Write an out of office message",
@@ -55,6 +56,7 @@ protected void Page_Load(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
     If Not IsPostBack Then
+        ' Supply the suggestions rendered by the custom item template.
         Dim promptSuggestions As List(Of String) = New List(Of String) From {
             "Write an out of office message",
             "Write a short LinkedIn post for work/life balance.",
@@ -67,7 +69,9 @@ Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 End Sub
 ````
 
-![Prompt Suggestion Template](../images/aiprompt/prompt-suggestions-template.gif "Prompt Suggestion Template")
+> caption Figure 1: AIPrompt prompt suggestions rendered with a custom template
+
+![AIPrompt prompt suggestions rendered with a custom template](../images/aiprompt/prompt-suggestions-template.gif "Prompt Suggestion Template")
 
 ## Next Steps
 

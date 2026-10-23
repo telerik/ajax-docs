@@ -13,7 +13,7 @@ position: 16
 
 ToolStrips are useful dropdowns that contain a group of tools with related functionality and can be a very convenient means of arranging tools used in the editor. An example of a simple ToolStrip with a group of alignment tools is shown below:
 
-![](images/editor-dropdowns025.png)
+![RadEditor screenshot showing editor-dropdowns025.png](images/editor-dropdowns025.png)
 
 
 Set a custom raster image for the Classic Render Mode

@@ -29,7 +29,7 @@ The following application scenario shows a sample configuration of RadDropDownLi
 >
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadClientDataSource runat="server" ID="CD1">
 	<ClientEvents />
 	<DataSource>
@@ -78,7 +78,7 @@ public CustomData[] LoadCustomDataWCF()
 	
 	    }
 ````
-````VB.NET
+````VB
 Inherits System.Web.UI.Page
 <OperationContract> _
 Public Function LoadCustomDataWCF() As CustomData()

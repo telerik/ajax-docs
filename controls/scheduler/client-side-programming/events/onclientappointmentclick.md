@@ -23,8 +23,7 @@ Two parameters are passed to the event handler:
 
 ## Example
 
-````ASPNET
-	
+````ASP.NET
 <script type="text/javascript">   
 function OnClientAppointmentClick(sender, eventArgs)
 {

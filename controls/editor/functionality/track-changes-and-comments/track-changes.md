@@ -129,7 +129,7 @@ These setting are available in the **TrackChangesSettings** inner tag, where the
 
 >caption Example 1: Using TrackChangesSettings to define user settings
 
-````ASPNET
+````ASP.NET
 <telerik:RadEditor RenderMode="Lightweight" runat="server" ID="RadEditor1" EnableTrackChanges="true">
 	<TrackChangesSettings Author="AuthorName" CanAcceptTrackChanges="true" UserCssId="reU0" />
 </telerik:RadEditor>

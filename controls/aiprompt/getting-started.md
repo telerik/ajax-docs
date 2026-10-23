@@ -15,7 +15,7 @@ This guide demonstrates how to get up and running with the Telerik WebForms AIPr
 
 After the completion of this guide, you will be able to achieve the following end result:
 
-!["Getting Started with the AIPrompt"](images/aiprompt/overview.png "Getting Started with the AIPrompt")
+![Getting Started with the AIPrompt](images/aiprompt/overview.png "Getting Started with the AIPrompt")
 
 ## Create the AIPrompt
 
@@ -27,9 +27,12 @@ To create the AIPrompt in the markup, add a `telerik:RadAIPrompt` element to the
 
 To create the AIPrompt on the server, create a new instance of the `RadAIPrompt` object, and add it to the Controls collection of another control (e.g. `PlaceHolder1`).
 
+> caption Example: Create the AIPrompt dynamically during PreInit
+
 ````C#
 protected void Page_PreInit(object sender, EventArgs e)
 {
+    // Create dynamic controls early so they are restored on postback.
     RadAIPrompt aiPrompt = new RadAIPrompt()
     {
         Width = Unit.Pixel(400),
@@ -40,7 +43,8 @@ protected void Page_PreInit(object sender, EventArgs e)
 ````
 ````VB
 Protected Sub Page_PreInit(ByVal sender As Object, ByVal e As EventArgs)
-    Dim aiPrompt As RadAIPrompt = New RadAIPrompt() With 
+    ' Create dynamic controls early so they are restored on postback.
+    Dim aiPrompt As RadAIPrompt = New RadAIPrompt() With {
         .Width = Unit.Pixel(400)
     }
     PlaceHolder1.Controls.Add(aiPrompt)
@@ -65,11 +69,14 @@ The `PromptSuggestions` property is an array of strings to display in the prompt
 
 If you want to add more, lenghtly suggestions, it would be best to do that server-side:
 
+> caption Example: Populate prompt suggestions from the server
+
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
     if (!IsPostBack)
     {
+        // Store longer suggestions in a server-side collection.
         List<string> promptSuggestions = new List<string>
         {
             "Write an out of office message",
@@ -85,6 +92,7 @@ protected void Page_Load(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
     If Not IsPostBack Then
+        ' Store longer suggestions in a server-side collection.
         Dim promptSuggestions As List(Of String) = New List(Of String) From {
             "Write an out of office message",
             "Write a short LinkedIn post for work/life balance.",
@@ -101,5 +109,5 @@ End Sub
 - [Views]({%slug aiprompt/views%})
 - [Toolbar Items]({%slug aiprompt/toolbar-items%})
 - [Integration with OpenAI API]({%slug aiprompt-integration-with-openai%})
-- [Client-side Programming]({%slug chip/client-side-programming/overview%})
-- [Server-side Programming]({%slug chip/server-side-programming/overview%})
+- [Client-side Programming]({%slug aiprompt/client-side-programming/overview%})
+- [Server-side Programming]({%slug aiprompt/server-side-programming/overview%})

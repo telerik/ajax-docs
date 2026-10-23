@@ -52,7 +52,7 @@ protected void RadTreeList1_PreRender(object sender, EventArgs e)
 	TreeListDataItem altItem = RadTreeList1_NeedDataSource.GetItems(TreeListItemType.AlternatingItem)[0] as TreeListDataItem;
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	'the detail item of the first data item in the RadTreeList control
 	Dim detailItems As TreeListDetailTemplateItem = TryCast(RadTreeList1.GetItems(TreeListItemType.DetailTemplateItem)(0), TreeListDetailTemplateItem)

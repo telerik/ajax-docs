@@ -22,20 +22,22 @@ This event can be used if you want to check the current position of the mouse wh
 | **Arguments**       | **get_domEvent()** - returns the event object representing the mousemove action |
 | **Can be canceled** | No                                                                              |
 
-Example:
+> caption Example: Configure the RadGrid row-dragging event
 
-```ASP.NET
+````ASP.NET
 <ClientSettings AllowRowsDragDrop="true">
     <Selecting AllowRowSelect="true" />
     <ClientEvents OnRowDragging="rowDragging" />
 </ClientSettings>
-```
+````
 
-```JavaScript
+> caption Example: Read the mouse position during row dragging
+
+````JavaScript
 function rowDragging(sender, args) {
     var event = args.get_domEvent();
     // the current position of the mouse
     var coordinateX = event.clientX;
     var coordinateY = event.clientY;
 }
-```
+````

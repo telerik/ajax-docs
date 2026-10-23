@@ -26,6 +26,8 @@ Information about the Server-side APIs of the embedded controls you can find in 
 
 ## Create a RadDateRangePicker in the Code-behind:
 
+> caption Example: Create and configure a DateRangePicker during Page_Init
+
 ````ASP.NET
 <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
 ````
@@ -33,6 +35,7 @@ Information about the Server-side APIs of the embedded controls you can find in 
 ````C#
 protected void Page_Init(object sender, EventArgs e)
 {
+    // Create the picker early so it is restored on every postback.
     var dateRangePicker = new RadDateRangePicker();
     dateRangePicker.ID = "RadDateRangePicker1";
     dateRangePicker.Skin = "Silk";
@@ -49,6 +52,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````
 ````VB
 Protected Sub Page_Init(ByVal sender As Object, ByVal e As EventArgs)
+    ' Create the picker early so it is restored on every postback.
     Dim dateRangePicker = New RadDateRangePicker()
     dateRangePicker.ID = "RadDateRangePicker1"
     dateRangePicker.Skin = "Silk"

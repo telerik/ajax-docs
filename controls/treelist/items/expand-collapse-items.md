@@ -28,7 +28,7 @@ In order to enable the feature you need to set the **ExpandCollapseMode** proper
 * **Combined** - Only expanded items are loaded. By default the items are collapsed. Postback is performed only when an item is expanded for the first time. Any subsequent expand/collapse of this item is performed on the client side.   
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1"
 	ExpandCollapseMode="Client">
 </telerik:RadTreeList>

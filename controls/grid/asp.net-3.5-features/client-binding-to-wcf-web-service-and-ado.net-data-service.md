@@ -41,7 +41,7 @@ public ResultData GetDataAndCount(int startRowIndex, int maximumRows, string sor
 {
 }
 ````
-````VB.NET
+````VB
 <OperationContract()> _
 Public Function GetDataAndCount(ByVal startRowIndex As Integer, ByVal maximumRows As Integer, ByVal sortExpression As String, ByVal filterExpression As String) As ResultData
 End Function
@@ -99,7 +99,7 @@ public class GridWcfService
    }
 }   
 ````
-````VB.NET
+````VB
 Imports System
 Imports System.Collections.Generic
 Imports System.Linq
@@ -199,7 +199,7 @@ public int GetCount(string where)
     return String.IsNullOrEmpty(where) ? CurrentDataSource.Products.Count() : CurrentDataSource.Products.Where(where).Count();
 }
 ````
-````VB.NET
+````VB
 <WebGet()> _
 Public Function GetCount(ByVal where As String) As Integer
     Return If([String].IsNullOrEmpty(where), CurrentDataSource.Products.Count(), CurrentDataSource.Products.Where(where).Count())
@@ -237,7 +237,7 @@ public class GridAdoNetDataService : DataService<NorthwindEntities>
    }
 } 			
 ````
-````VB.NET
+````VB
 Imports System
 Imports System.Data.Services
 Imports System.Collections.Generic

@@ -45,8 +45,7 @@ protected void RadScheduler1_FormCreated(object sender, SchedulerFormCreatedEven
 }
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_FormCreated(ByVal sender As Object, _
  ByVal e As SchedulerFormCreatedEventArgs) Handles RadScheduler1.FormCreated
 	If e.Container.Mode = SchedulerFormMode.Insert Then

@@ -69,7 +69,7 @@ protected void Page_Load(object sender, EventArgs e)
     } 
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
     Dim item As String = Server.UrlDecode(Request("Item"))
     If Not String.IsNullOrEmpty(item) Then

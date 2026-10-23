@@ -99,7 +99,7 @@ protected void MyGrid1_ColumnCreated(object sender, GridColumnCreatedEventArgs e
     e.Column.HeaderButtonType = GridHeaderButtonType.PushButton;
 }			
 ````
-````VB.NET
+````VB
 Protected Sub MyGrid1_ColumnCreated(ByVal sender As Object, ByVal e As Web.UI.GridColumnCreatedEventArgs) Handles MyGrid1.ColumnCreated
     e.Column.HeaderButtonType = Web.UI.GridHeaderButtonType.PushButton
 End Sub
@@ -129,7 +129,7 @@ namespace Telerik.Web.UI
     }
 }			
 ````
-````VB.NET
+````VB
 Imports Telerik.Web.UI
 Namespace Telerik.Web.UI
  Public Class MySection508Grid Inherits RadGrid

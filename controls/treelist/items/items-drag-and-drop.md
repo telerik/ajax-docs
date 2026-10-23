@@ -29,7 +29,7 @@ To enable this functionality in RadTreeList, you need to:
 
 
 
-````ASPNET
+````ASP.NET
 <ClientSettings AllowItemsDragDrop="true">
 	<Selecting AllowItemSelection="True" />
 ````

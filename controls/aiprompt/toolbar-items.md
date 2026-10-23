@@ -37,6 +37,8 @@ Set a function to the Toolbar Item.
 
 ### In the Markup
 
+> caption Example: Add a spacer and button to the AIPrompt toolbar
+
 ````ASP.NET
 <telerik:RadAIPrompt runat="server" ID="RadAIPrompt1" Width="400px">
     <ToolbarItems>
@@ -48,11 +50,14 @@ Set a function to the Toolbar Item.
 
 ### In the CodeBehind
 
+> caption Example: Create AIPrompt toolbar items in code
+
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
     if (!IsPostBack)
     {
+        // Add a spacer before the custom toolbar button.
         AIPromptToolbarItem toolbarItem = new AIPromptToolbarItem()
         {
             Type = AIPromptToolbarItemType.Spacer
@@ -74,6 +79,7 @@ protected void Page_Load(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
     If Not IsPostBack Then
+        ' Add a spacer before the custom toolbar button.
         Dim toolbarItem As AIPromptToolbarItem = New AIPromptToolbarItem() With {
             .Type = AIPromptToolbarItemType.Spacer
         }
@@ -92,6 +98,7 @@ End Sub
 ````
 
 ````JavaScript
+// Handle clicks from the custom toolbar button.
 function onClick() {
     console.log("Click");
 }

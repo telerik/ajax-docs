@@ -24,6 +24,8 @@ Below you will find a list of the supported view types:
 
 ### In the Markup
 
+> caption Example: Configure prompt, output, command, and custom views
+
 ````ASP.NET
 <telerik:RadAIPrompt runat="server" ID="AIPrompt1" Width="450px">
     <Views>
@@ -57,11 +59,14 @@ Below you will find a list of the supported view types:
 
 ### In the CodeBehind
 
+> caption Example: Create AIPrompt views and commands in code
+
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
     if (!IsPostBack)
     {
+        // Add the built-in views before configuring custom commands.
         AIPromptView promptView = new AIPromptView()
         {
             Name = "PromptView",
@@ -143,6 +148,7 @@ protected void Page_Load(object sender, EventArgs e)
 ````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
     If Not IsPostBack Then
+        ' Add the built-in views before configuring custom commands.
         Dim promptView As AIPromptView = New AIPromptView() With {
             .Name = "PromptView",
             .Type = AIPromptViewType.Prompt

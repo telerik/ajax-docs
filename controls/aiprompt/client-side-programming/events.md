@@ -11,7 +11,7 @@ position: 2
 
 # Events
 
-Client-side Events of the Telerik WebForms Chip component.
+Client-side Events of the Telerik WebForms AIPrompt component.
 
 - [Load](#load)
 - [PromptRequest](#prompt-request)
@@ -27,10 +27,11 @@ Fires when the AIPrompt component and its kendo widget is fully initialized.
 
 - **sender** - `Telerik.Web.UI.AIPrompt` - The **AIPrompt** instance that triggered the event.
 
-Example
+> caption Example: Read the AIPrompt instance during the load event
 
 ````JavaScript
 function onLoad(sender) {
+    // Get the Telerik wrapper and its underlying Kendo widget.
     let aiPrompt = sender; // Telerik.Web.UI.RadAIPrompt
     let kendoAIPrompt = aiPrompt.get_kendoWidget(); // kendo.ui.AIPrompt
 }

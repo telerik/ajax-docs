@@ -23,7 +23,7 @@ The [Combo in Grid](https://demos.telerik.com/aspnet-ajax/combobox/examples/func
 
 When you delete the text initially displayed in the RadComboBox - Load-On-Demand will fire and will populate the control with Items.
 
-![](../images/grdComboInGrid_thumb.png)
+![RadComboBox used in a RadGrid edit form](../images/grdComboInGrid_thumb.png)
 
 Below are the code snippets from the demo referred above:
 

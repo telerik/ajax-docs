@@ -43,7 +43,7 @@ protected void RadTreeList1_ItemCreated(object sender, TreeListItemCreatedEventA
 		e.Item.Style["background-color"] = "#888888";
 }
 ````
-````VB.NET
+````VB
 Private isExport As Boolean = False
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	isExport = True
@@ -70,7 +70,7 @@ protected void Button1_Click(object sender, EventArgs e)
 	RadTreeList1.ExportToPdf();
 }
 ````
-````VB.NET
+````VB
 Protected Sub Button1_Click(ByVal sender As Object, ByVal e As EventArgs)
 	For Each item As TreeListDataItem In RadTreeList1.Items
 		item.Style("background-color") = "#888888"
@@ -94,7 +94,7 @@ The treelist offers the following built-in style descriptors for export to PDF:
 
 The first three inherit the [TableItemStyle](https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.tableitemstyle.aspx) and style the corresponding treelist rows. The *ExpandCollapseCellStyle* styles only the Expand/Collapse cells in the control. You should set either the expand/collapse text, or the expand/collapse images (not both).The path for the expand/collapse images should be relative, otherwise they will not be found and exported on the production server.
 
-````ASPNET
+````ASP.NET
 <ExportSettings>
 	<Pdf>
 		<ItemStyle BackColor="Green" ForeColor="DarkGreen" />
@@ -111,7 +111,7 @@ The first three inherit the [TableItemStyle](https://msdn.microsoft.com/en-us/li
 
 Another option to export styled treelist is to specify the styles declaratively to the control:
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" DataSourceID="SqlDataSource1"
 	AllowPaging="true" PageSize="5" DataKeyNames="id" ParentDataKeyNames="parentId"
 	AutoGenerateColumns="false">

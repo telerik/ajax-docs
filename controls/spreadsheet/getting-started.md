@@ -72,11 +72,11 @@ To create a new instance of RadSpreadsheet on your page using the designer, you 
 
 * The Smart Tag should appear automatically. Within the Smart Tag menu, from the Skin drop-down chose the desired Skin for this control:
 
-![spreadsheet-overview](images/spreadsheet-smart-tag.png "spreadsheet-overview")
+![RadSpreadsheet Smart Tag with the Skin selector](images/spreadsheet-smart-tag.png "spreadsheet-overview")
 
 * Run the application. You should see the newly created empty RadSpreadsheet on your page:
 
-![spreadsheet-overview](images/new-empty-spreadsheet.png "spreadsheet-overview")
+![New empty RadSpreadsheet control](images/new-empty-spreadsheet.png "spreadsheet-overview")
 
 
 
@@ -88,10 +88,13 @@ Binding the RadSpreadsheet to a provider at runtime requires two simple steps:
 
 * Set the **Provider** property in the code behind, by assigning it an instance of the Telerik.Web.UI.SpreadsheetDocumentProvider class, with the path to the excel file as a parameter:
 
+> caption Example: Bind RadSpreadsheet to an Excel file at runtime
+
 ````C#
 
 protected void Page_Init(object sender, EventArgs e)
 {
+	// Load the workbook provider during initialization so it survives postbacks.
 	RadSpreadSheet1.Provider = new SpreadsheetDocumentProvider(Server.MapPath("~/App_Data/Spreadsheet.xlsx"));
 }
 	
@@ -99,6 +102,7 @@ protected void Page_Init(object sender, EventArgs e)
 ````VB
 
 Protected Sub Page_Init(sender As Object, e As EventArgs)
+	' Load the workbook provider during initialization so it survives postbacks.
 	RadSpreadSheet1.Provider = New SpreadsheetDocumentProvider(Server.MapPath("~/App_Data/Spreadsheet.xlsx"))
 End Sub
 

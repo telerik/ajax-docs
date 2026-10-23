@@ -58,7 +58,7 @@ At the end you need to use set the **Language** property of Telerik RadEditor to
 
 Here is how the spellchecker dialog will look with the French localization:
 
-![](images/editor-localizationradspelldialog.gif)
+![RadEditor screenshot showing editor-localizationradspelldialog.gif](images/editor-localizationradspelldialog.gif)
 
 Localizing the AjaxSpellChecker (<tool name="SpellCheck"/>):
 
@@ -81,6 +81,6 @@ Localizing the AjaxSpellChecker (<tool name="SpellCheck"/>):
 ````
 
 
-![](images/editor-localizationradspell.gif)
+![RadEditor screenshot showing editor-localizationradspell.gif](images/editor-localizationradspell.gif)
 
 If you want to localize Telerik RadSpell in Hebrew, just copy and rename the "en-US" folder as "he-IL" (The culture name has to follow the RFC 1766 standard in the format [Language Code]-[County/Region Code]. In our example he-IL stands for Hebrew - Israel ). Then you'll have to localize the "SpellCheck.xml" file in the "./RadControls/Spell/Localization/he-IL" folder.

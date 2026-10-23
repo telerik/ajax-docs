@@ -40,7 +40,7 @@ You can access and modify the generated controls in the code-behind. You can cas
         }
     }
 ````
-````VB.NET
+````VB
     Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
         If TypeOf e.Item Is GridDataItem Then
             Dim item As GridDataItem = DirectCast(e.Item, GridDataItem)
@@ -86,7 +86,7 @@ You can also change the default link buttons to other types of buttons by simply
         }
     }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridDataItem Then
         Dim item As GridDataItem = TryCast(e.Item, GridDataItem)
@@ -129,7 +129,7 @@ You can also use a GridTemplateColumn to achieve the same functionality with ful
         }
     }
 ````
-````VB.NET
+````VB
 Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItemEventArgs)
     If TypeOf e.Item Is GridDataItem Then
         Dim item As GridDataItem = TryCast(e.Item, GridDataItem)

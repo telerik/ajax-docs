@@ -15,7 +15,7 @@ position: 5
 
 Cannot Deserialize Dialog Parameters. Invalid character in a Base-64 string.
 
-![](images/editor-radspellerror.jpg)
+![RadEditor screenshot showing editor-radspellerror.jpg](images/editor-radspellerror.jpg)
 
 **Solution:**
 

@@ -31,11 +31,13 @@ In the example below the Chart Title text block "Ten Most Expensive Products" is
 
 ## Example with AutoLayout = False
 
-![](images/radchart-features011.png)
+![RadChart with AutoLayout disabled and overlapping chart content](images/radchart-features011.png)
 
 ## Example with AutoLayout = True
 
-![](images/radchart-features012.png)
+![RadChart with AutoLayout enabled and readable chart content](images/radchart-features012.png)
+
+> caption Example: Enable AutoLayout and automatically size chart elements
 
 The ASP.NET example code below produces the chart above with AutoScale enabled:
 

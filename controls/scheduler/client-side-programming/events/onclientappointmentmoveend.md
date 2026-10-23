@@ -35,8 +35,7 @@ Two parameters are passed to the event handler:
 
 This example alerts the new start time of the moved appointment:
 
-````ASPNET
-	
+````ASP.NET
 <script type="text/javascript">
 	function OnClientAppointmentMoveEnd(sender, eventArgs)
 	{

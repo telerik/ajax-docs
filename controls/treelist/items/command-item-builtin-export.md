@@ -15,7 +15,9 @@ position: 2
 
 Since R2 2016 the **RadTreeList** control provides **CommandItem** for its **Lightweight** and **Mobile** Render Modes. The CommandItem is a placeholder for export commands.
 
-![](images/treelist-command-item1.png)
+> caption Figure 1: TreeList command item with export buttons
+
+![TreeList command item showing export buttons](images/treelist-command-item1.png)
 
 To enable the command item you must set **CommandItemDisplay="DesiredPosition"** that accepts the following values: Top, Bottom, TopAndBottom, and None (default).
 There is a declarative **CommandItemStyle** added to the TreeList control. It can be used for simple decoration purposes.
@@ -63,6 +65,6 @@ The default value is TreeListCommandItemDisplay is set to Top if either AllowCol
 
 The animation below demonstrates the CommandItem functionality in Mobile RenderMode:
 
-![](images/TreeList-Mobile-ExportButtons-animation.gif)
+![TreeList mobile command item displaying export buttons](images/TreeList-Mobile-ExportButtons-animation.gif)
 
 

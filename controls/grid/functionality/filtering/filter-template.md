@@ -36,7 +36,7 @@ You can nest any control in the filter template, which allows for a great deal o
 
 The first approach utilizes an EntityDataSource, available under the 3.5 version of the ASP.NET framework. We can use a RadCombobox to select the available items on which to filter, and nest it in the filter template of a template column, which would look something like:
 
-````ASP.NET(C#)
+````ASP.NET
 <telerik:GridTemplateColumn DataField="Country" HeaderText="Country" UniqueName="Country">
     <FilterTemplate>
         <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" DataSourceID="EntityDataSource2" DataTextField="Country"
@@ -61,7 +61,7 @@ The first approach utilizes an EntityDataSource, available under the 3.5 version
     </ItemTemplate>
 </telerik:GridTemplateColumn>
 ````
-````ASP.NET(VB)
+````ASP.NET
 <telerik:GridTemplateColumn DataField="Country" HeaderText="Country" UniqueName="Country">
     <FilterTemplate>
         <telerik:RadComboBox RenderMode="Lightweight" ID="RadComboBox1" DataSourceID="EntityDataSource2"

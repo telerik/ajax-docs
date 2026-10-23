@@ -29,7 +29,7 @@ The user is expected to provide a delegate function to **e.CustomEditorInitializ
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" OnCreateColumnEditor="RadTreeList1_CreateColumnEditor"
 	DataSourceID="SqlDataSource1" AutoGenerateColumns="false" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo">
 	<Columns>
@@ -94,7 +94,7 @@ protected void RadTreeList1_CreateColumnEditor(object sender, TreeListCreateColu
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_CreateColumnEditor(ByVal sender As Object, ByVal e As TreeListCreateColumnEditorEventArgs)
 
 	If e.Column.DataField = "Notes" Then
@@ -113,7 +113,7 @@ To create a custom column editor, a developer needs to implement the ITreeListCo
 
 
 
-````ASPNET
+````ASP.NET
 <telerik:RadTreeList RenderMode="Lightweight" runat="server" ID="RadTreeList1" OnCreateColumnEditor="RadTreeList1_CreateColumnEditor"
 	DataSourceID="SqlDataSource1" AutoGenerateColumns="false" DataKeyNames="EmployeeID" ParentDataKeyNames="ReportsTo">
 	<Columns>
@@ -231,7 +231,7 @@ public class TreeListComboEditor : TreeListColumnEditor
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub RadTreeList1_CreateColumnEditor(ByVal sender As Object, ByVal e As TreeListCreateColumnEditorEventArgs)
 	If e.Column.DataField = "TitleOfCourtesy" Then
 		Dim editor As TreeListComboEditor = New TreeListComboEditor(e.Column)

@@ -30,8 +30,7 @@ protected void RadScheduler1_PreRender(object sender, EventArgs e)
 }  
 	
 ````
-````VB.NET
-
+````VB
 Protected Sub RadScheduler1_PreRender(ByVal sender As Object, ByVal e As EventArgs)
 	Dim popupCalendar As RadCalendar = TryCast(RadScheduler1.FindControl("SelectedDateCalendar"), RadCalendar)
 	popupCalendar.ShowOtherMonthsDays = True

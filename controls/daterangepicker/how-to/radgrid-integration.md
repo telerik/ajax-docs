@@ -13,13 +13,15 @@ position: 0
 
 This article explains how to use RadDateRangePicker in the RadGrid component.
 
->caption Figure 1:
+> caption Figure 1: DateRangePicker integrated into a RadGrid edit form
 
-![Sample image](../images/grid-integration.png)
+![DateRangePicker integrated into a RadGrid edit form](../images/grid-integration.png)
 
 Here is one option to use RadDateRangePicker to show and edit date ranges inside a GridTemplateColumn:
 
  1. Declare a RadDateRangePicker inside the EditTemplate of a GridTemplateColumn and use its DbRangeSelectionStartDate and DbRangeSelectionEndDate properties for binding to the Grid's DataSource fields (*StartDate* and *EndDate* are the data field names used in the sample below):
+
+ > caption Example: Configure the DateRangePicker in a grid edit template
 
  ````ASP.NET
  <EditItemTemplate>
@@ -38,6 +40,8 @@ Here is one option to use RadDateRangePicker to show and edit date ranges inside
 
  2. In the Item Template you can use Labels to visualize the current DateRange:
 
+ > caption Example: Display the current date range in a grid item template
+
  ````ASP.NET
  <ItemTemplate>
     <asp:Label runat="server" ID="startDate" Text='<%# Eval("StartDate", "{0:D}") %>'>
@@ -52,7 +56,9 @@ Here is one option to use RadDateRangePicker to show and edit date ranges inside
 
 Check out the complete sample with RadGrid's Manual CRUD Operations below:
 
-````ASP.NET(C#)
+> caption Example: Configure RadGrid CRUD operations with DateRangePicker
+
+````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" Width="750"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     OnUpdateCommand="RadGrid1_UpdateCommand"
@@ -92,7 +98,7 @@ Check out the complete sample with RadGrid's Manual CRUD Operations below:
     </MasterTableView>
 </telerik:RadGrid>
 ````
-````ASP.NET(VB)
+````ASP.NET
 <telerik:RadGrid RenderMode="Lightweight" ID="RadGrid1" runat="server" AutoGenerateColumns="False" Width="750"
     OnNeedDataSource="RadGrid1_NeedDataSource"
     OnUpdateCommand="RadGrid1_UpdateCommand"

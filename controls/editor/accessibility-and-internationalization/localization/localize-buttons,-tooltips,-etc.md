@@ -13,7 +13,7 @@ position: 4
 
 RadEditor is fully localized from resource files placed in the App_GlobalResources folder. You can localize all standard and custom editor buttons from the localization resource files. For each new custom tool added in the ToolsFile.xml or programmatically through the code-behind, add a new entry to theRadEditor.Tools.resx file having the same ID as the tool name:
 
-![](images/editor-localization006.png)
+![RadEditor screenshot showing editor-localization006.png](images/editor-localization006.png)
 
 The tools can be defined through the ToolsFile.xml, added declaratively or programmatically at run-time. The critical detail is that the tool name must match the **Name** column in the resource file.
 
@@ -58,7 +58,7 @@ main.Tools.Add(custom1)
 
 When you run the application, the new button will display with the string from the resource file **Value** column for that tool:
 
-![](images/editor-localization005.png)
+![RadEditor screenshot showing editor-localization005.png](images/editor-localization005.png)
 
 >tip Defining the "Text" of the tool will override the text from the resource file.
 

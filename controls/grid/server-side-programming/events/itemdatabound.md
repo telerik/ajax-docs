@@ -115,7 +115,7 @@ Protected Sub RadGrid1_ItemDataBound(ByVal sender As Object, ByVal e As GridItem
         Next
     End If
 End Sub
-`````
+````
 
 ## See Also
 

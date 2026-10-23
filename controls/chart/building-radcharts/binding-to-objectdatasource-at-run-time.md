@@ -28,7 +28,10 @@ Once a business object with appropriate attributes has been created you can bind
 
 The code below demonstrates binding to an [ObjectDataSource](https://msdn2.microsoft.com/en-us/library/system.web.ui.webcontrols.objectdatasource.aspx) that consumes an example object defined in the topic "[Creating an Object that can be consumed by ObjectDataSource]({%slug chart/building-radcharts/creating-an-object-that-can-be-consumed-by-objectdatasource%})".
 
+> caption Example: Bind RadChart to an ObjectDataSource at run time
+
 ````C#   
+// Create and configure the data source used by the chart.
 ObjectDataSource ods = new ObjectDataSource();
 ods.SelectMethod = "GetProducts";
 ods.TypeName = "RadChartBinding.ProductsBO";
@@ -40,6 +43,7 @@ RadChart1.PlotArea.XAxis.Appearance.TextAppearance.TextProperties.Font = new Sys
 RadChart1.DataBind();			
 ````
 ````VB	
+	' Create and configure the data source used by the chart.
 	Dim ods As New ObjectDataSource()
 	ods.SelectMethod = "GetProducts"
 	ods.TypeName = "RadChartBinding.ProductsBO"

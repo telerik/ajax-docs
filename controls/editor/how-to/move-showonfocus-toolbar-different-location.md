@@ -25,7 +25,7 @@ This situation is useful when there is some description (or another DOM element)
 
 >caption Figure 1: The result from the code in **Example 1**.
 
-![](images/how-to-move-toolbar.png)
+![RadEditor screenshot showing ontrols/editor/how to/move showonfohow to move toolbarontrols/editor/how to/move showonfo](images/how-to-move-toolbar.png)
 
 >caption Example 1: Move **ShowOnFocus** toolbar of **RadEditor** based on a relative parent.
 

@@ -25,6 +25,8 @@ Templates allow you to embed any context inside a RadDropDownListItem. For examp
 
 ## Example
 
+> caption Example: Render item text and images with a server template
+
 Shows how to use templates to create the following RadDropDownList:
 
 An <ItemTemplate> section is added to the **RadDropDownList** declaration. The image in the template and the text that appears in the template is taken from the RadDropDownListItem using <%# DataBinder.Eval %> statements.
@@ -36,7 +38,7 @@ An <ItemTemplate> section is added to the **RadDropDownList** declaration. The i
 		<table >
 		<tr>
 			<td>
-				<img src='Images/<%# DataBinder.Eval(Container, "Attributes['ImagePath']") %>' alt="" />
+				<img src='Images/<%# DataBinder.Eval(Container, "Attributes['ImagePath']") %>' alt='<%# DataBinder.Eval(Container, "Text") %>' />
 			</td>
 			<td>
 				<%# DataBinder.Eval(Container, "Text") %>
@@ -62,15 +64,17 @@ Before the template can use the RadDropDownList item's properties to bind the el
 ````C#
 protected void Page_Load(object sender, EventArgs e)
 {
+	// Bind each item so its template expressions can access item properties.
 	for (int i = 0; i < RadDropDownList1.Items.Count; i++)
 	{
 		RadDropDownList1.Items[i].DataBind();
 	}
 }
 ````
-````VB.NET
+````VB
 Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs) Handles Me.Load
 
+	' Bind each item so its template expressions can access item properties.
 	Dim i As Integer = 0
 
 	While i < RadDropDownList1.Items.Count

@@ -83,8 +83,7 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 
 1. Following the label, drag a **DropDownList** into the panel. Set its **ID** to "TimeZoneDropDown". Add the following items to the drop-down list:
 
-````ASPNET
-	     
+````ASP.NET
 	
 	<asp:DropDownList runat="server" ID="TimeZoneDropDown" AutoPostBack="true">
 	 <asp:ListItem Text="GMT -12" Value="-12:00:00"></asp:ListItem>
@@ -132,8 +131,7 @@ You can allow the user to manually set the preferred time zone or use JavaScript
 	    }
 	
 ````
-````VB.NET
-	
+````VB
 	    Protected Sub TimeZoneDropDown_SelectedIndexChanged(ByVal sender As Object, ByVal e As EventArgs) Handles TimeZoneDropDown.SelectedIndexChanged
 	        RadScheduler1.TimeZoneOffset = TimeSpan.Parse(TimeZoneDropDown.SelectedValue)
 	    End Sub
@@ -159,8 +157,7 @@ The drop-down list now allows the user to manually set the time zone of the sche
 	    }
 	
 ````
-````VB.NET
-	
+````VB
 	
 	    Protected Sub RadAjaxManager1_AjaxRequest(ByVal sender As Object, ByVal e As AjaxRequestEventArgs) Handles RadAjaxManager1.AjaxRequest
 	        RadScheduler1.TimeZoneOffset = TimeSpan.FromMinutes(Integer.Parse(e.Argument))
@@ -172,8 +169,7 @@ The drop-down list now allows the user to manually set the time zone of the sche
 
 1. Drag a **RadCodeBlock** component from the toolbox onto your Web page. Switch to the Source view, and add the following script to the code block:
 
-````ASPNET
-	     
+````ASP.NET
 	<telerik:RadCodeBlock ID="RadCodeBlock1" runat="server">
 	 <script type="text/javascript">
 	   var syncComplete = false;
@@ -235,8 +231,7 @@ This defines a global variable, syncComplete, to track when the asynchronous fun
 	    }
 	
 ````
-````VB.NET
-	
+````VB
 	
 	    Private Sub Page_Load(ByVal sender As Object, _
 	                      ByVal e As System.EventArgs) Handles MyPage.Load

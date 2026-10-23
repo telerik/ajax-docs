@@ -33,7 +33,7 @@ position: 0
 * Use different data formats (currency, percent etc.)
 
 
-**Figure 1**: ![spreadsheet-overview](images/spreadsheet-overview.png)
+**Figure 1**: ![RadSpreadsheet displaying an Excel-like worksheet](images/spreadsheet-overview.png)
 
 ## See Also
 

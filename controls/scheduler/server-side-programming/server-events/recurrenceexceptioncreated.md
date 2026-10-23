@@ -35,8 +35,7 @@ protected void RadScheduler1_RecurrenceExceptionCreated(object sender, Telerik.W
 } 
 	
 ````
-````VB.NET
-	
+````VB
 Protected Sub RadScheduler1_RecurrenceExceptionCreated(ByVal sender As Object, ByVal e As Telerik.Web.UI.RecurrenceExceptionCreatedEventArgs)
 	Response.Write("An exception with subject: " + e.ExceptionAppointment.Subject + " was created")
 End Sub

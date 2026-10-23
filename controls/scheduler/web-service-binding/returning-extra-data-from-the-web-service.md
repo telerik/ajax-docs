@@ -82,8 +82,7 @@ public SchedulerResult GetAppointments(SchedulerInfo schedulerInfo)
 
 You can then access the Code from the client-side requestSuccess event:
 
-````ASPNET
-	     
+````ASP.NET
 <script type="text/javascript">
 	function requestSuccess(s, e)
 	{

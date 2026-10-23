@@ -19,7 +19,7 @@ RadDropDownList supports binding to an OData service. The Open Data Protocol (OD
 
 Flat OData Binding means binding to a non-hierarchical data. Here is an example which demonstrates how to perform the OData binding on RadDropDownList using the RadODataDataSource control.
 
-````ASPNET
+````ASP.NET
 <telerik:RadODataDataSource runat="server" ID="RadODataDataSource1">
 	<Transport>
 		<Read Url="http://services.odata.org/Northwind/Northwind.svc/" />

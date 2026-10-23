@@ -220,7 +220,7 @@ protected void RadGrid1_DeleteCommand(object source, GridCommandEventArgs e)
     }
 }
 ````
-````VB.NET
+````VB
 Private _dataContext As NorthwindDataContext
 Protected ReadOnly Property DbContext() As NorthwindDataContext
     Get
