@@ -37,7 +37,7 @@ Positive TabIndex values create a separate tab order that takes precedence over 
 
 Remove the positive TabIndex values from the RadPanelBar controls or set them to `0`. The browser can then follow the natural DOM order through the panel bars and their ContentTemplate content.
 
-```ASP.NET
+````ASP.NET
 <telerik:RadPanelBar runat="server" ID="FirstPanelBar" Width="100%">
     <Items>
         <telerik:RadPanelItem runat="server" Text="First section">
@@ -53,7 +53,7 @@ Remove the positive TabIndex values from the RadPanelBar controls or set them to
         <telerik:RadPanelItem runat="server" Text="Second section" />
     </Items>
 </telerik:RadPanelBar>
-```
+````
 
 Avoid positive `TabIndex` values when the intended order is the document order. Use the [RadPanelBar keyboard support]({%slug panelbar/accessibility-and-internationalization/keyboard-support%}) configuration when users need a keyboard shortcut to move focus to the control.
 
