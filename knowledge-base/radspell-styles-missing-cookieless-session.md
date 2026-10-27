@@ -37,28 +37,28 @@ The RadSpell dialog loads its stylesheets through `Telerik.Web.UI.WebResource.ax
 
 Enable the Telerik CDN for stylesheets in `web.config`:
 
-```xml
+````xml
 <appSettings>
     <add key="Telerik.StyleSheetManager.TelerikCdn" value="Enabled" />
 </appSettings>
-```
+````
 
 This makes the RadSpell dialog load its stylesheets from the Telerik CDN instead of the local resource handler. The setting must be in `web.config`; a `RadStyleSheetManager` declared on the page does not configure the separate dialog page.
 
 If the application cannot reach the Telerik CDN, host the required stylesheets and set the CDN base URLs in `web.config`:
 
-```xml
+````xml
 <appSettings>
     <add key="Telerik.StyleSheetManager.TelerikCdn.BaseUrl" value="http://your-server-url/" />
     <add key="Telerik.StyleSheetManager.TelerikCdn.BaseSecureUrl" value="https://your-server-url/" />
 </appSettings>
-```
+````
 
 When possible, changing the application to cookie-based session state also prevents the redirect:
 
-```xml
+````xml
 <sessionState cookieless="UseCookies" />
-```
+````
 
 ## Notes
 
