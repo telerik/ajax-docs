@@ -1,7 +1,7 @@
 ---
 title: Prompt Library
 page_title: Telerik AJAX Prompt Library
-description: Get familiar with some example prompts that show how to use the Telerik AI Coding Assistant for better developer productivity.
+description: Get familiar with some example prompts that show how to use the Telerik AJAX Agentic UI Generator for better developer productivity.
 slug: ai/prompt-library
 tags: telerik, ajax, assistant, webforms, ai, prompt library
 published: True
@@ -10,7 +10,7 @@ position: 4
 
 # Telerik AJAX Prompt Library
 
-This article provides a list of sample prompts for use with the [Telerik AJAX MCP Server]({%slug ai/mcp-server%}). They can help you get a better idea what the Telerik AI Coding Assistant can do and how to compose your prompts. This collection is not exhaustive and you can prompt the Telerik AI Coding Assistant about other scenarios and components as well.
+This article provides a list of sample prompts for use with the [Telerik AJAX MCP Server]({%slug ai/mcp-server%}). They can help you get a better idea what the Telerik AJAX Agentic UI Generator can do and how to compose your prompts. This collection is not exhaustive and you can prompt the Agentic UI Generator about other scenarios and components as well.
 
 ## How to Use the Prompts
 
@@ -18,7 +18,7 @@ All prompts in this library target the [Telerik AJAX MCP Server]({%slug ai/mcp-s
 
 1. Browse the prompt library to find a prompt that suits your needs.
 2. Copy the prompt text including the `#telerik_ajax_assistant` handle.
-3. (optional) Customize the prompt as needed for your specific use case. Make sure the changes comply with the [intended use]({%slug ai/overview#intended-use%}) and the [recommendations]({%slug ai/overview#recommendations%}) for the AI Coding Assistant.
+3. (optional) Customize the prompt as needed for your specific use case. Make sure the changes comply with the [intended use]({%slug ai/overview#intended-use%}) and the [recommendations]({%slug ai/overview#recommendations%}) for the Agentic UI Generator.
 4. Run the prompt against the MCP server.
 
 >warning Always double-check the code and solutions proposed by any AI-powered tool before applying them to your project.

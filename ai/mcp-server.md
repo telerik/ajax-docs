@@ -1,7 +1,7 @@
 ---
 title: MCP Server
 page_title: Telerik AJAX MCP Server
-description: Learn how to add and use the Telerik AJAX MCP Server as an AJAX coding assistant and code generator for better developer productivity. The Telerik AJAX MCP server provides proprietary context about Telerik UI for ASP.NET AJAX to AI-powered software.
+description: Learn how to add and use the Telerik AJAX MCP Server, which delivers the Telerik AJAX Agentic UI Generator, for better developer productivity. The Telerik AJAX MCP server provides proprietary context about Telerik UI for ASP.NET AJAX to AI-powered software.
 slug: ai/mcp-server
 tags: telerik, ajax, assistant, webforms, ai, mcp server
 published: True
@@ -17,7 +17,7 @@ The Telerik AJAX [MCP Server](https://modelcontextprotocol.io/docs/getting-start
 
 To use the Telerik AJAX MCP server, you need:
 
-* A [Telerik UI for ASP.NET AJAX](https://www.telerik.com/purchase.aspx?filter=dotnet#individual-products) subscription license or a DevCraft subscription license to access the AI Coding Assistant. Alternatively, you can start a [30-day AI Tools trial](https://www.telerik.com/mcp-servers-blazor/thank-you).
+* A [Telerik UI for ASP.NET AJAX](https://www.telerik.com/purchase.aspx?filter=dotnet#individual-products) subscription license or a DevCraft subscription license to access the Agentic UI Generator. Alternatively, you can start a [30-day AI Tools trial](https://www.telerik.com/mcp-servers-blazor/thank-you).
 * A [compatible MCP client (IDE, code editor or app)](https://modelcontextprotocol.io/clients) that supports *MCP tools*. Using the latest version of the MCP client is highly recommended.
 * A [Telerik user account](https://www.telerik.com/account/).
 * An active [DevCraft or Telerik UI for ASP.NET AJAX license](https://www.telerik.com/purchase/individual/aspnet-ajax.aspx) or a [Telerik UI for ASP.NET AJAX trial](https://www.telerik.com/products/aspnet-ajax.aspx).
@@ -186,11 +186,11 @@ The following list describes how your prompts may look like. Check the [Prompt L
 
 ## Usage Limits
 
-A Telerik [Subscription license](https://www.telerik.com/purchase/faq/licensing-purchasing) is recommended in order to use the Telerik AJAX AI Coding Assistant without restrictions. Perpetual license holders and trial users can make a [limited number of requests per year]({%slug ai/overview#usage-limits%}).
+A Telerik [Subscription license](https://www.telerik.com/purchase/faq/licensing-purchasing) is recommended in order to use the Telerik AJAX Agentic UI Generator without restrictions. Perpetual license holders and trial users can make a [limited number of requests per year]({%slug ai/overview#usage-limits%}).
 
 ## Connect to Local AI Model
 
-You can use the Telerik Telerik AJAX MCP server with local large language models (LLM). For example, run your local model through [Ollama](https://ollama.com) and use a third-party package such as [MCP-LLM Bridge](https://github.com/patruff/ollama-mcp-bridge) to connect the model to the Telerik MCP server. This will allow you to use the Telerik AI Coding Assistant without a cloud-based AI model.
+You can use the Telerik AJAX MCP server with local large language models (LLM). For example, run your local model through [Ollama](https://ollama.com) and use a third-party package such as [MCP-LLM Bridge](https://github.com/patruff/ollama-mcp-bridge) to connect the model to the Telerik MCP server. This will allow you to use the Telerik AJAX Agentic UI Generator without a cloud-based AI model.
 
 ## Next Steps
 

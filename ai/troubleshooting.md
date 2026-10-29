@@ -9,7 +9,7 @@ position: 6
 
 # Troubleshooting
 
-This article provides solutions to common issues you may encounter when working with the Telerik UI for ASP.NET AJAX AI Coding Assistant.
+This article provides solutions to common issues you may encounter when working with the Telerik UI for ASP.NET AJAX Agentic UI Generator.
 
 ## Hanging Tool Calls in Visual Studio
 
@@ -20,14 +20,14 @@ When using Telerik AI tools in Visual Studio, GitHub Copilot may:
 
 This is a [known issue](https://developercommunity.visualstudio.com/t/Copilot-stopped-working-after-latest-upd/10936456) in older Visual Studio versions that has been fixed in Visual Studio 18.3.0 Insiders (11426.168).
 
-## AI Coding Assistant Stopped Working
+## Agentic UI Generator (Formerly AI Coding Assistant) Stopped Working
 
-Starting in January 2026, we restructured the Telerik UI for ASP.NET AJAX AI Coding Assisant to better serve different user needs. The AI Coding Assistant is now delivered through a single Telerik MCP server. 
+Starting in January 2026, we restructured the Telerik UI for ASP.NET AJAX AI tooling, now named Agentic UI Generator, to better serve different user needs. The Agentic UI Generator is now delivered through a single Telerik MCP server. 
 
 License requirements have changed as follows:
 
-* **DevCraft Complete Subscription or DevCraft Ultimate Subscription**&mdash;Provides full access to the AI Coding Assistant.
-* **DevCraft UI Subscription, Telerik UI for ASP.NET AJAX Subscription**&mdash;Provide access to the AI Coding Assistant.
+* **DevCraft Complete Subscription or DevCraft Ultimate Subscription**&mdash;Provides full access to the Agentic UI Generator.
+* **DevCraft UI Subscription, Telerik UI for ASP.NET AJAX Subscription**&mdash;Provide access to the Agentic UI Generator.
 * **Perpetual licenses**&mdash;Do not grant access to any of the AI tools. You must have an active Subscription or trial license to use the Telerik MCP server.
 
 For detailed information about license requirements and tool capabilities, see [License Requirements]({%slug ai/overview%}).
