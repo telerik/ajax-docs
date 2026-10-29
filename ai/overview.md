@@ -1,47 +1,49 @@
 ---
 title: Overview
-page_title: Telerik AJAX AI Tooling Overview
-description: Learn about the AI-powered developer tools that integrate with your IDE or code editor for greater productivity and enhanced developer experience.
+page_title: Telerik AJAX Agentic UI Generator Overview
+description: Learn about the Telerik AJAX Agentic UI Generator, which extends your existing AI coding tools with Telerik UI for ASP.NET AJAX knowledge and MCP tools for greater productivity.
 slug: ai/overview
-tags: telerik, ajax, assistant, webforms, ai, assistant
+tags: telerik, ajax, agentic ui generator, webforms, ai, mcp
 published: True
 position: 1
 ---
 
-# Telerik AJAX AI Coding Assistant Overview
+# Telerik AJAX Agentic UI Generator Overview
 
-The [Telerik AJAX AI Coding Assistant](https://www.nuget.org/packages/Telerik.Ajax.MCP) improves your developer experience and increases your productivity when implementing WebForms apps that include Telerik UI for ASP.NET AJAX. The coding assistant is an AI code generator that provides proprietary context to AI models in order to produce higher quality code samples with the [Telerik UI for ASP.NET AJAX components](https://www.telerik.com/products/aspnet-ajax.aspx) and API.
+The [Telerik AJAX Agentic UI Generator](https://www.nuget.org/packages/Telerik.Ajax.MCP) improves your developer experience and increases your productivity when implementing WebForms apps that include Telerik UI for ASP.NET AJAX. The Agentic UI Generator is not a separate coding assistant. It is a Telerik-specific layer that plugs into the AI tool you already use, such as GitHub Copilot, Cursor, or Claude Code, and provides proprietary context to the AI model in order to produce higher quality code with the [Telerik UI for ASP.NET AJAX components](https://www.telerik.com/products/aspnet-ajax.aspx) and API.
 
-The Telerik AI Coding Assistant is integrated in the [WebForms MCP Server]({%slug ai/mcp-server%}). The MCP server can handle more complex prompts that require several requests to the AI model. An MCP-enabled client like Cursor or GitHub Copilot in **Agent** mode can directly suggest changes to your app and even rebuild it to verify the new AI generated code.
+>note The Agentic UI Generator name is shared across the Telerik and Kendo UI component products, but the available capabilities and MCP tools differ per product. For Telerik UI for ASP.NET AJAX, the Agentic UI Generator was formerly known as the AI Coding Assistant and currently provides the `telerik_ajax_assistant` MCP tool.
+
+The Telerik AJAX Agentic UI Generator is delivered through the [WebForms MCP Server]({%slug ai/mcp-server%}). The MCP server can handle more complex prompts that require several requests to the AI model. An MCP-enabled client like Cursor or GitHub Copilot in **Agent** mode can directly suggest changes to your app and even rebuild it to verify the new AI generated code.
 
 ## Getting Started
 
-To use the Telerik AJAX AI Coding Assistant, you need:
+To use the Telerik AJAX Agentic UI Generator, you need:
 
 * A [Telerik user account](https://www.telerik.com/account/).
 * An active [DevCraft or Telerik UI for ASP.NET AJAX license](https://www.telerik.com/purchase/individual/aspnet-ajax.aspx) or a [Telerik UI for ASP.NET AJAX trial](https://www.telerik.com/products/aspnet-ajax.aspx).
 * A [WebForms application that includes Telerik UI for ASP.NET AJAX]({%slug getting-started/adding-the-telerik-controls-to-your-project%}).
-* A [Telerik Subscription license](https://www.telerik.com/purchase/faq/licensing-purchasing) is recommended in order to use the Telerik Telerik AJAX AI Coding Assistant without restrictions. Perpetual license holders and trial users can make a [limited number of requests per year](#usage-limits).
+* A [Telerik Subscription license](https://www.telerik.com/purchase/faq/licensing-purchasing) is recommended in order to use the Telerik AJAX Agentic UI Generator without restrictions. Perpetual license holders and trial users can make a [limited number of requests per year](#usage-limits).
 
 ## Use Cases
 
-You can use the Telerik AI Coding Assistant for:
+You can use the Telerik AJAX Agentic UI Generator for:
 
 * Initial code generation: Quickly add components to your app to speed up the initial development.
 * Component configuration: Enable or disable specific component features, or fine tune the configuration through prompting. More complex configurations are possible but may require additional manual work to be production-ready.
 * Dummy data generation and data binding: Quickly add data to your app for testing and prototyping purposes. Avoid exposing or providing access to your proprietary or production data to AI-enabled tools.
-* Step-by-step explanations: Understand the solutions provided by the AI Coding Assistant through the detailed explanations (depends on the tool, mode, and model). To further develop your knowledge, check the respective documentation.
+* Step-by-step explanations: Understand the solutions provided by the Agentic UI Generator through the detailed explanations (depends on the tool, mode, and model). To further develop your knowledge, check the respective documentation.
 * Preliminary troubleshooting: Resolve obvious and easy-to-solve issues affecting your code. For more complex issues, search the product documentation or look for assistance from the community.
 
 >warning Always double-check the suggested code and solutions of any AI-powered tool before applying them to your app.
 
 ## Recommendations
 
-Consider the following recommendations when working with the Telerik AI Coding Assistant:
+Consider the following recommendations when working with the Telerik AJAX Agentic UI Generator:
 
 * When switching between tasks and files, start a new session in a new chat window to avoid polluting the context with irrelevant or outdated information.
 * At the time of publishing, Claude Sonnet 4 and GPT-5 produce better results.
-* Sometimes, the AI Coding Assistant might generate custom styles. To avoid any custom styling, include a similar statement in your prompts: `Don't add custom CSS styles`.
+* Sometimes, the Agentic UI Generator might generate custom styles. To avoid any custom styling, include a similar statement in your prompts: `Don't add custom CSS styles`.
 
 ## Telerik Document Processing AI Coding Assistant
 
@@ -49,18 +51,18 @@ You can also use the AI Coding Assistant for [Telerik Document Processing](https
 
 ## Usage Limits
 
-Access to the Telerik AJAX AI Coding Assistant depends on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
+Access to the Telerik AJAX Agentic UI Generator depends on your [Telerik license type](https://www.telerik.com/purchase/faq/licensing-purchasing):
 
 * Subscription License
 
-    * A Subscription is the primary license that grants full access to the AI Coding Assistant.
+    * A Subscription is the primary license that grants full access to the Agentic UI Generator.
     * Includes a virtually unlimited number of requests, with a fair use threshold.
     * Best for ongoing and high-volume usage.
 
 * Perpetual License (Limited Access)
 
-    * Perpetual license holders have no access to the AI Coding Assistant by default.
-    * You can start a 30-day AI Tools trial to access the AI Coding Assistant.
+    * Perpetual license holders have no access to the Agentic UI Generator by default.
+    * You can start a 30-day AI Tools trial to access the Agentic UI Generator.
     * After the trial expires, access is no longer available unless the [Perpetual license is converted to a Subscription license](https://www.telerik.com/account/support-center/contact-us/account-support).
 
 * Trial License
@@ -74,13 +76,13 @@ Access to the Telerik AJAX AI Coding Assistant depends on your [Telerik license 
 
 ## Privacy
 
-The Telerik AJAX AI Coding Assistant operates under the following conditions:
+The Telerik AJAX Agentic UI Generator operates under the following conditions:
 
-* The Assistant does not have access to your workspace and application code. Note that when using the Telerik MCP server (or any other MCP server), the LLM generates parameters for the MCP server request, which may include parts of your application code.
-* The Assistant does not use your prompts to train Telerik AI models.
-* The Assistant does not generate the actual responses and has no access to these responses. The Assistant only provides a better context that helps your selected model (for example, GPT, Gemini, Claude) provide better responses.
-* The Assistant does not associate your prompts to your Telerik user account. Your prompts and generated context are anonymized and stored for statistical and troubleshooting purposes.
-* The Assistant stores metrics about how often and how much you use it in order to ensure compliance with the [allowed number of requests that correspond to your current license](#usage-limits).
+* The Agentic UI Generator does not have access to your workspace and application code. Note that when using the Telerik MCP server (or any other MCP server), the LLM generates parameters for the MCP server request, which may include parts of your application code.
+* The Agentic UI Generator does not use your prompts to train Telerik AI models.
+* The Agentic UI Generator does not generate the actual responses and has no access to these responses. The Agentic UI Generator only provides a better context that helps your selected model (for example, GPT, Gemini, Claude) provide better responses.
+* The Agentic UI Generator does not associate your prompts to your Telerik user account. Your prompts and generated context are anonymized and stored for statistical and troubleshooting purposes.
+* The Agentic UI Generator stores metrics about how often and how much you use it in order to ensure compliance with the [allowed number of requests that correspond to your current license](#usage-limits).
 
 Make sure to also get familiar with the terms and privacy policy of your selected AI model and AI client.
 
