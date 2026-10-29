@@ -1866,7 +1866,7 @@ meta:
   api/*:
     res_type: api
   ai:
-    title: AI Coding Assistant
+    title: Agentic UI Generator
     position: 5
 
 redirects: 

@@ -43,7 +43,7 @@ navigation:
         title: "Upgrade & Compatibility"
         position: 11        
     "ai":
-        title: "AI Coding Assistant"
+        title: "Agentic UI Generator"
         position: 4       
     "knowledge-base":
         title: "Knowledge Base"
