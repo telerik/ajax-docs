@@ -135,6 +135,8 @@ Below is a list of tables covering the most important properties of the elements
 | **ValidateOnEvent**  | Determines which event will cause the control to be validated. |
 | **ValidationGroup** | The name of the validation group to which this setting belongs.|
 
+>note When **Location** points to a WebService or Page, the server issues an outbound self-request (using Windows default credentials) to call it. This request requires the `Telerik.TrustedServerBaseUrl` application setting to be configured in the web.config file; otherwise the validation request fails closed and the input is treated as invalid. For more information, refer to the [Useful Security Tips]({%slug general-information/security%}) article.
+
 
 ## TextBoxSettings
 

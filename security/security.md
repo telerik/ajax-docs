@@ -55,6 +55,16 @@ These tips apply across many Telerik controls and help secure your application h
 
 * **Embedded jQuery Security**: Telerik ASP.NET AJAX components embed a custom, secure version of jQuery. Learn about the security enhancements and modifications made to ensure safe usage of jQuery within Telerik controls: [Embedded jQuery Security]({%slug integration/jquery%}#embedded-jquery-security). 
 
+* **Trusted Base URL for Server-Side Self-Requests**: Some features, such as the `RadInputManager` server-side validation (`Validation.Location`/`Validation.Method`) and the `RadScheduler` PDF/image export (embedded skin stylesheet retrieval), issue an outbound HTTP request back to the hosting application using Windows default credentials (NTLM/Kerberos). To avoid deriving the request's target host from the inbound `Request.Url`, which can be influenced by an attacker through forwarding headers or a crafted `Host` header, configure the trusted base URL explicitly with the `Telerik.TrustedServerBaseUrl` setting in your web.config file:
+
+   ```XML
+   <appSettings>
+      <add key="Telerik.TrustedServerBaseUrl" value="https://www.example.com"/>
+   </appSettings>
+   ```
+
+   If this setting is missing or empty, the affected self-requests fail closed (the request is skipped and a warning is logged) instead of falling back to the inbound request's host. Make sure the value always reflects the environment the application is actually deployed to (do not commit a value from a local or staging environment for a production deployment).
+
 
 ## Control-Specific Security Guidelines
 

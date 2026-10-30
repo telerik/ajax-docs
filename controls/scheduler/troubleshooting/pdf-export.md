@@ -16,6 +16,8 @@ previous_url: controls/scheduler/troubleshootings/pdf-export
 
 This article shows some of the known RadScheduler PDF Export issues and their solutions.
 
+>note Fetching the embedded skin stylesheet during export performs a server-side self-request using Windows default credentials. This requires the `Telerik.TrustedServerBaseUrl` application setting to be configured in web.config; otherwise the request is skipped instead of relying on the inbound request's host. For more information, refer to the [Useful Security Tips]({%slug general-information/security%}) article.
+
 
 * [Invalid XHTML Scheduler output](#invalid-xhtml-scheduler-output)
 

@@ -194,6 +194,7 @@ You can add any of the following available `appSettings` keys for the Telerik UI
 |`Telerik.StyleSheetManager.TelerikCdn.BaseUrl`|Lets you configure the base URL of the skins (CSS and images) CDN for the entire application. For more information, refer to the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/overview%}) article.
 |`Telerik.StyleSheetManager.TelerikCdn.CombinedResource`|Lets you configure whether to use one combined resource files (styles) or let each control request its styles separately. For more information, refer to the [Styles CDN Overview]({%slug stylesheetmanager/cdn-support/combined-request-for-telerik-controls%}) article.
 |`Telerik.Skin`|Lets you choose the skin for all Telerik controls in the application by setting it to the desired string value. For more information, refer to the [Skin Registration]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skin-registration%}) article.
+|`Telerik.TrustedServerBaseUrl`|Configures the trusted base URL (scheme and host, for example `https://www.example.com`) that is used for server-side self-requests issued with Windows default credentials (NTLM/Kerberos), such as the `RadInputManager` server-side validation and the `RadScheduler` PDF/image export embedded skin stylesheet retrieval. When this setting is missing or empty, the affected self-requests fail closed instead of deriving the target host from the inbound request. For more information, refer to the [Useful Security Tips]({%slug general-information/security%}) article.
 |`Telerik.Upload.AllowedCustomMetaDataTypes`|Enables you to whitelist custom file uploads metadata. For more information, refer to the [AsyncUpload Security - Custom Metadata]({%slug asyncupload-security%}#custom-metadata) article.
 |`Telerik.Upload.ConfigurationHashKey`|Lets you set an additional encryption key which the AsyncUpload and CloudUpload will use for sending their configuration to the client. For more information, refer to the [AsyncUpload Security]({%slug asyncupload-security %}) article.
 |`Telerik.Web.CaptchaImageStorageProviderTypeName`|Lets you set the Captcha custom caching provider for the entire application. For more information, refer to the [Caching Provider]({%slug captcha/functionality/caching-provider%}) article.
@@ -236,6 +237,7 @@ The following example demonstrates how to set all of the available `appSettings`
         <add key="Telerik.StyleSheetManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn" />
         <add key="Telerik.StyleSheetManager.TelerikCdn.CombinedResource" value="disabled" />
         <add key="Telerik.Skin" value="Default" />
+        <add key="Telerik.TrustedServerBaseUrl" value="https://www.example.com" />
         <add key="Telerik.Web.CaptchaImageStorageProviderTypeName" value="MyCustomCaptchaStorageProvider" />
         <add key="Telerik.Web.CaptchaDenyAudioHandler" value="true" />
 		<add key="Telerik.Web.DisableAsyncUploadHandler" value="true"/>
