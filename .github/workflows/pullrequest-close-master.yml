@@ -1,0 +1,97 @@
+name: Pull Request Closed
+
+on:
+  pull_request:
+    branches: [master]
+    types: [closed]
+
+jobs:
+  cherry_pick:
+    if: ${{github.event.pull_request.merged == true}}
+    runs-on: ubuntu-26.04
+
+    permissions:
+        id-token: write # Required by Akeyless
+        issues: write
+        pull-requests: write
+        contents: read
+        packages: read
+
+    steps:
+      - name: Import Secrets
+        id: import-secrets
+        uses: LanceMcCarthy/akeyless-action@89d7daeb327c914a26ee8b2af8b40ff90e2ad516 # v5
+        with:
+          access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
+          static-secrets: '{ "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN" }'
+          export-secrets-to-environment: false
+
+      - name: Should Cherry-pick this?
+        uses: peter-evans/find-comment@3eae4d37986fb5a8592848f6a574fdf654e61f9e #v3.1.0
+        id: fc
+        with:
+          issue-number: ${{github.event.number}}
+          body-includes: "- [x] merge in production"
+
+      - name: checkout
+        if: steps.fc.outputs.comment-id != ''
+        uses: telerik/actions/checkout@master
+        with:
+          token: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          ref: production
+          clean: true
+          fetch-depth: 0
+
+      - name: Cherry-pick commits
+        if: steps.fc.outputs.comment-id != ''
+        id: cp
+        run: |
+          git config --global user.email "kendobot@progress.com"
+          git config --global user.name "Kendo Bot"
+          commits=$(git log origin/master..origin/${{github.head_ref}} --pretty=format:"%h" --reverse)
+          git cherry-pick $commits
+          git push
+
+      - name: Failed cherry-pick
+        if: ${{ failure() }}
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 #v4.0.0
+        with:
+          issue-number: ${{github.event.number}}
+          body: |
+            Hello @${{github.actor}},
+
+            Automatic cherry-pick failed. Try cherry-picking the commits manually.
+
+            Cheers
+
+  delete_branch:
+    needs: [cherry_pick]
+    if: always()
+    runs-on: ubuntu-26.04
+
+    permissions:
+        issues: read
+        contents: write
+        pull-requests: read
+
+    steps:
+      - name: Should Delete this?
+        uses: peter-evans/find-comment@3eae4d37986fb5a8592848f6a574fdf654e61f9e #v3.1.0
+        id: fc
+        with:
+          issue-number: ${{github.event.number}}
+          body-includes: "- [x] delete"
+
+      - name: checkout
+        if: steps.fc.outputs.comment-id != ''
+        uses: telerik/actions/checkout@master
+        with:
+          token: '${{ github.token }}'
+
+      - name: Delete branch
+        if: steps.fc.outputs.comment-id != ''
+        id: cp
+        run: |
+          git push origin --delete ${{github.head_ref}}
+
+

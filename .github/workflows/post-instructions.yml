@@ -1,0 +1,32 @@
+name: Comment PR Procedures
+
+on:
+  pull_request:
+    branches: [master]
+    types: [opened]
+
+jobs:
+  post_comment_master:
+    if: ${{ github.actor != 'dependabot[bot]' }}
+    permissions:
+      issues: write
+      pull-requests: write
+    runs-on: ubuntu-slim
+    steps:
+      - name: Create master comment
+        if: ${{github.base_ref == 'master'}}
+        uses: peter-evans/create-or-update-comment@71345be0265236311c031f5c7866368bd1eff043 #v4.0.0
+        with:
+          issue-number: ${{github.event.number}}
+          body: |
+            Hello @${{github.actor}},
+
+            Choose the following options:
+
+            - [ ] merge in production
+            - [x] delete branch
+
+            > **Note:** The branch will be automatically deleted if you checked "delete branch" option above. **Do not delete it manually by clicking on the button at the bottom of the page.**
+
+            Cheers
+
