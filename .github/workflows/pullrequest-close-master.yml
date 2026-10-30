@@ -7,7 +7,8 @@ on:
 
 jobs:
   cherry_pick:
-    if: ${{github.event.pull_request.merged == true}}
+    # Fork branches are not in origin, and fork PRs do not receive secrets.
+    if: ${{ github.event.pull_request.merged == true && github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-26.04
 
     permissions:
@@ -18,7 +19,16 @@ jobs:
         packages: read
 
     steps:
+      - name: Should Cherry-pick this?
+        uses: peter-evans/find-comment@3eae4d37986fb5a8592848f6a574fdf654e61f9e #v3.1.0
+        id: fc
+        with:
+          issue-number: ${{github.event.number}}
+          comment-author: 'github-actions[bot]'
+          body-includes: "- [x] merge in production"
+
       - name: Import Secrets
+        if: steps.fc.outputs.comment-id != ''
         id: import-secrets
         uses: LanceMcCarthy/akeyless-action@89d7daeb327c914a26ee8b2af8b40ff90e2ad516 # v5
         with:
@@ -26,16 +36,9 @@ jobs:
           static-secrets: '{ "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN" }'
           export-secrets-to-environment: false
 
-      - name: Should Cherry-pick this?
-        uses: peter-evans/find-comment@3eae4d37986fb5a8592848f6a574fdf654e61f9e #v3.1.0
-        id: fc
-        with:
-          issue-number: ${{github.event.number}}
-          body-includes: "- [x] merge in production"
-
       - name: checkout
         if: steps.fc.outputs.comment-id != ''
-        uses: telerik/actions/checkout@master
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           token: ${{ steps.import-secrets.outputs.GH_TOKEN }}
           ref: production
@@ -45,10 +48,12 @@ jobs:
       - name: Cherry-pick commits
         if: steps.fc.outputs.comment-id != ''
         id: cp
+        env:
+          HEAD_REF: ${{ github.head_ref }}
         run: |
           git config --global user.email "kendobot@progress.com"
           git config --global user.name "Kendo Bot"
-          commits=$(git log origin/master..origin/${{github.head_ref}} --pretty=format:"%h" --reverse)
+          commits=$(git log "origin/master..origin/$HEAD_REF" --pretty=format:"%h" --reverse)
           git cherry-pick $commits
           git push
 
@@ -66,7 +71,7 @@ jobs:
 
   delete_branch:
     needs: [cherry_pick]
-    if: always()
+    if: ${{ always() && github.event.pull_request.head.repo.full_name == github.repository }}
     runs-on: ubuntu-26.04
 
     permissions:
@@ -80,18 +85,21 @@ jobs:
         id: fc
         with:
           issue-number: ${{github.event.number}}
+          comment-author: 'github-actions[bot]'
           body-includes: "- [x] delete"
 
       - name: checkout
         if: steps.fc.outputs.comment-id != ''
-        uses: telerik/actions/checkout@master
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           token: '${{ github.token }}'
 
       - name: Delete branch
         if: steps.fc.outputs.comment-id != ''
         id: cp
+        env:
+          HEAD_REF: ${{ github.head_ref }}
         run: |
-          git push origin --delete ${{github.head_ref}}
+          git push origin --delete "$HEAD_REF"
 
 

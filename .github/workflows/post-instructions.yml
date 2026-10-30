@@ -7,7 +7,8 @@ on:
 
 jobs:
   post_comment_master:
-    if: ${{ github.actor != 'dependabot[bot]' }}
+    # Fork PRs get a read-only token and cannot use the merge options.
+    if: ${{ github.actor != 'dependabot[bot]' && github.event.pull_request.head.repo.full_name == github.repository }}
     permissions:
       issues: write
       pull-requests: write
@@ -21,12 +22,15 @@ jobs:
           body: |
             Hello @${{github.actor}},
 
-            Choose the following options:
+            Choose what happens when this pull request is merged into `master`:
 
             - [ ] merge in production
             - [x] delete branch
 
-            > **Note:** The branch will be automatically deleted if you checked "delete branch" option above. **Do not delete it manually by clicking on the button at the bottom of the page.**
+            - **merge in production**: cherry-picks this branch's commits to the `production` branch after the merge. If the cherry-pick fails, a comment is added here and you need to cherry-pick manually.
+            - **delete branch**: deletes this branch after the pull request is closed, whether or not it is merged.
+
+            > **Note:** Only the checkboxes in this comment control these options, and only users with write access can change them. Do not delete the branch manually with the button at the bottom of the page.
 
             Cheers
 
