@@ -173,9 +173,48 @@ Protected Sub RadGrid1_NeedDataSource(ByVal sender As Object, ByVal e As GridNee
 End Sub
 ````
 
+## Attachment Downloads (GridAttachmentColumn)
+
+**GridAttachmentColumn** streams binary attachments from a data source referenced through its own `DataSourceID` property. To locate the correct attachment, the column queries that data source using the `AttachmentKeyFields` values of the row associated with the download request.
+
+Those key values arrive at the server inside the `DownloadAttachment` command argument (the `AttachmentKeyValues` dictionary described in [Column Types]({%slug grid/columns/column-types%}#gridattachmentcolumn)). This argument can be constructed and submitted from the client, for example through `GridTableView.fireCommand()` or `GridItem.FireCommandEvent()`, so RadGrid treats it as regular, untrusted user input. RadGrid does not re-validate the posted key values against a row that was actually rendered to the current user before querying the attachment data source.
+
+>important The data source assigned to **GridAttachmentColumn's** `DataSourceID` must apply the same object-level authorization as the grid's own data source, for example filtering by the current user, tenant, or other ownership criteria, before returning attachment data. If the attachment data source selects a row purely by the posted key, without also verifying that the row belongs to the requesting user, an authenticated user could supply another user's key and download an attachment that was never bound or rendered on their page.
+
+>caption Example: attachment data source without an ownership check
+
+````ASP.NET
+<%-- Insecure: looks up the attachment purely by the client-supplied key --%>
+<asp:SqlDataSource ID="AttachmentDataSource" runat="server"
+    ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+    SelectCommand="SELECT [ID], [BinaryData] FROM [Documents] WHERE [ID] = @ID">
+    <SelectParameters>
+        <asp:Parameter Name="ID" Type="Int32" />
+    </SelectParameters>
+</asp:SqlDataSource>
+````
+
+>caption Example: attachment data source scoped to the current user
+
+````ASP.NET
+<%-- Secure: also requires the row to belong to the current user --%>
+<asp:SqlDataSource ID="AttachmentDataSource" runat="server"
+    ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+    SelectCommand="SELECT [ID], [BinaryData] FROM [Documents] WHERE [ID] = @ID AND [OwnerUserId] = @CurrentUserId">
+    <SelectParameters>
+        <asp:Parameter Name="ID" Type="Int32" />
+        <asp:SessionParameter Name="CurrentUserId" SessionField="CurrentUserId" Type="Int32" />
+    </SelectParameters>
+</asp:SqlDataSource>
+````
+
 ## FAQ
 
 Review these frequently asked questions about RadGrid security behavior:
+
+### Can a user download another user's attachment through GridAttachmentColumn?
+
+Yes, if the data source referenced by **GridAttachmentColumn's** `DataSourceID` does not independently verify that the requested key belongs to the current user. See [Attachment Downloads (GridAttachmentColumn)](#attachment-downloads-gridattachmentcolumn) above.
 
 ### Is RadGrid vulnerable to SQL injection through stored procedures?
 
