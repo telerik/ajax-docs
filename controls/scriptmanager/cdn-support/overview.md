@@ -50,7 +50,7 @@ The files of the versions that were published before the discontinuation remain 
 
 When you upgrade to a version that no longer has resources on the Telerik CDN, the following behavior applies:
 
-* If `TelerikCdn` is `Enabled` (or `Auto` and the CDN is turned on through the ScriptManager `EnableCdn` property) and you **have not** changed `BaseUrl` and `BaseSecureUrl`, or they still point to one of the discontinued Telerik hosts listed above, the scripts are **served from the Telerik.Web.UI assembly**, exactly as if `TelerikCdn` was `Disabled`. You do not need to change your code or web.config to keep the application working, but the resources are no longer delivered by a CDN.
+* If `TelerikCdn` is `Enabled` and you **have not** changed `BaseUrl` and `BaseSecureUrl`, or they still point to one of the discontinued Telerik hosts listed above, the scripts are **served from the Telerik.Web.UI assembly**, exactly as if `TelerikCdn` was `Disabled`. You do not need to change your code or web.config to keep the application working, but the resources are no longer delivered by a CDN.
 
 * If `BaseUrl` and `BaseSecureUrl` point to your own host or CDN provider, they continue to work as before. See the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 
@@ -70,7 +70,7 @@ When you upgrade to a version that no longer has resources on the Telerik CDN, t
 
 ## How to enable the CDN support
 
-By default, `TelerikCdn` is set to `Auto`, which means that the resources are served from the assembly unless `EnableCdn` is set to `true` on the RadScriptManager.
+By default, `TelerikCdn` is set to `Auto`, which means that the resources are served from the assembly. To use a CDN for the Telerik scripts, set `TelerikCdn` to `Enabled`. The `EnableCdn` property is inherited from the `asp:ScriptManager` and controls only the Microsoft AJAX scripts, which are loaded from the Microsoft CDN.
 
 >note Since the Telerik CDN is discontinued for new releases, enabling `TelerikCdn` **without** a custom `BaseUrl` and `BaseSecureUrl` results in serving the resources from the assembly. To load the resources from a CDN, always specify your own base URLs as described in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 

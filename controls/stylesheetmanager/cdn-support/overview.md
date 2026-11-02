@@ -66,7 +66,7 @@ When you upgrade to a version that no longer has resources on the Telerik CDN, t
 
 ## How to enable the CDN support
 
-By default, `TelerikCdn` is set to `Auto`, which means that the skins are served from the assembly unless `EnableCdn` is set to `true` on the RadScriptManager.
+By default, `TelerikCdn` is set to `Auto`, which means that the skins are served from the assembly. To use a CDN for the skins, set `TelerikCdn` to `Enabled`. The `EnableCdn` property of the RadScriptManager is inherited from the `asp:ScriptManager` and controls only the Microsoft AJAX scripts.
 
 >note Since the Telerik CDN is discontinued for new releases, enabling `TelerikCdn` **without** a custom `BaseUrl` and `BaseSecureUrl` results in serving the resources from the assembly. To load the skins from a CDN, always specify your own base URLs as described in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 
