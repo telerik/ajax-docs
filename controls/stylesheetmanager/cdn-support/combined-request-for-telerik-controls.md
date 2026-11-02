@@ -17,6 +17,8 @@ This resource combination will result in a single request for the Telerik contro
 
 The skin-specific stylesheets are not combined into a single request and each control will initiate a request for it.
 
+>important The combined request requires a working CDN. The Telerik CDN is discontinued starting with the **November 11, 2026 release**, so you need to configure a [custom CDN provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) with its own `BaseUrl` and `BaseSecureUrl` to use `CombinedResource`. When `TelerikCdn` is `Enabled`, but `BaseUrl` and `BaseSecureUrl` are not set or point to the discontinued Telerik CDN hosts, the resources are served from the Telerik.Web.UI assembly and `CombinedResource` is not applied. See the [CDN Support Overview]({%slug stylesheetmanager/cdn-support/overview%}#telerik-cdn-is-discontinued) for details.
+
 
 >caption **Example 1**: Enable combined base stylesheet resource for the Telerik controls for the entire application in the web.config.
 
@@ -34,7 +36,7 @@ You can see the rest of the settings you can set globally via appSettings keys i
 
 ````ASP.NET
 <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
-	<CdnSettings TelerikCdn="Enabled" CombinedResource="Enabled" />
+	<CdnSettings TelerikCdn="Enabled" CombinedResource="Enabled" BaseUrl="http://my.favorite.cdn" BaseSecureUrl="https://my.favorite.cdn" />
 </telerik:RadStyleSheetManager>
 ````
 
