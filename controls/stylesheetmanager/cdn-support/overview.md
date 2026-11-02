@@ -1,4 +1,4 @@
----
+﻿---
 title: Overview
 page_title: CDN Support Overview - RadStyleSheetManager
 description: Check our Web Forms article about Overview.
@@ -65,6 +65,8 @@ When you upgrade to a version that no longer has resources on the Telerik CDN, t
 * If you need a CDN, configure a [custom CDN provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}).
 
 ## How to enable the CDN support
+
+By default, `TelerikCdn` is set to `Auto`, which means that the skins are served from the assembly unless `EnableCdn` is set to `true` on the RadScriptManager.
 
 >note Since the Telerik CDN is discontinued for new releases, enabling `TelerikCdn` **without** a custom `BaseUrl` and `BaseSecureUrl` results in serving the resources from the assembly. To load the skins from a CDN, always specify your own base URLs as described in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 
