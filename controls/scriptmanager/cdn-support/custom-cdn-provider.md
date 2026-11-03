@@ -11,7 +11,11 @@ position: 1
 
 # Custom CDN Provider
 
-A custom (especially local) CDN provider is useful in cases where the application runs on an Intranet or the client machines are otherwise restricted from reaching the cloud where the Telerik CDN is hosted.
+>important Starting with the **November 11, 2026 release**, the Telerik CDN no longer receives new versions of the Telerik UI for ASP.NET AJAX resources. To load the scripts and skins of newer versions from a CDN, host them on your own server or on a CDN provider of your choice, as described in this article. See the [CDN Support Overview]({%slug scriptmanager/cdn-support/overview%}#telerik-cdn-is-discontinued) for details.
+
+A custom CDN provider is the way to deliver the Telerik UI for ASP.NET AJAX script / css files through a CDN for the versions that are not published to the Telerik CDN. It is also useful in cases where the application runs on an Intranet or the client machines are otherwise restricted from reaching external hosts.
+
+You can use your own server (a local CDN), or a commercial CDN provider, such as Cloudflare, Amazon CloudFront, or Azure Front Door. The Telerik UI for ASP.NET AJAX resources are not published as an npm package and are not available through public CDNs such as jsDelivr or unpkg.
 
 If you want to use your own **CDN provider** to host the Telerik UI for ASP.NET AJAX script / css files, follow the steps below.
 
@@ -30,12 +34,12 @@ If you want to use your own **CDN provider** to host the Telerik UI for ASP.NET 
 
 	> The **Scripts/ajax** and **Scripts/ajaxz** folders are identical. In earlier versions before 2025 Q1, ajaxz contained gzip-compressed files, and ajax contained uncompressed files for older browsers. Starting with 2025 Q1 (version 2025.1.211), no pre-compressed files are provided. Compression should now be handled by your deployment pipeline or CDN.
 
-4. Copy the content of the Scripts / Skins folder to your CDN host:
+3. Copy the content of the Scripts / Skins folders to your CDN host. Scripts and skins can be hosted on separate base URLs, for example `https://scripts.my.favorite.cdn` and `https://skins.my.favorite.cdn`:
 	* CDN
 		* ajax/[version]
-		* ajaxz[version]
+		* ajaxz/[version]
 
-5. Using **Uncompressed Resources** in IIS
+4. Using **Uncompressed Resources** in IIS
 	* Enable **Dynamic** and **Static** Compression
 	* Configure **RadScriptManager** and **RadStyleSheetManager**:
 
@@ -53,10 +57,18 @@ If you want to use your own **CDN provider** to host the Telerik UI for ASP.NET 
 		You can also do it from web.config:
 		````XML
 			<appSettings>  
-				<add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn "  />   
-				<add key="Telerik.ScriptManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn "  />
+				<add key="Telerik.ScriptManager.TelerikCdn" value="Enabled" />
+				<add key="Telerik.ScriptManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn" />   
+				<add key="Telerik.ScriptManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn" />
+				<add key="Telerik.StyleSheetManager.TelerikCdn" value="Enabled" />
+				<add key="Telerik.StyleSheetManager.TelerikCdn.BaseUrl" value="http://my.favorite.cdn" />
+				<add key="Telerik.StyleSheetManager.TelerikCdn.BaseSecureUrl" value="https://my.favorite.cdn" />
 			</appSettings>
 		````
+
+>important `BaseUrl` and `BaseSecureUrl` **must** point to your own host. When `TelerikCdn` is `Enabled`, but `BaseUrl` and `BaseSecureUrl` are not set or still point to one of the discontinued Telerik CDN hosts (`d2i2wahzwrm1n5.cloudfront.net`, `d35islomi5rx1v.cloudfront.net`, `aspnet-scripts.telerikstatic.com`, `aspnet-skins.telerikstatic.com`), the resources are served from the embedded resources of the Telerik.Web.UI assembly (and of the version-matched Telerik.Web.UI.Skins assembly for the built-in skins other than `Default`), as if `TelerikCdn` was `Disabled`. In this case, the [combined requests]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) are also not applied.
+
+>note The `{version}` folder in the CDN must match the version of the Telerik.Web.UI assembly used by the application. When you upgrade the application, copy the CDN resources of the new version to the CDN host. The resources of the previous versions can remain, so that the applications that have not been upgraded yet keep working.
 
 
 
