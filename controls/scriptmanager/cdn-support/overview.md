@@ -72,6 +72,8 @@ When you upgrade to a version that no longer has resources on the Telerik CDN, t
 
 By default, `TelerikCdn` is set to `Auto`. In this mode, the Telerik CDN is used only when `EnableCdn` is set to `true` on the RadScriptManager, and the resources are served from the assembly otherwise. Since the Telerik CDN is discontinued, `EnableCdn="true"` alone (without custom `BaseUrl` and `BaseSecureUrl`) loads only the Microsoft AJAX scripts from the Microsoft CDN, while the Telerik scripts are served from the assembly. To load the Telerik scripts from a CDN, set `TelerikCdn` to `Enabled` and specify your own base URLs.
 
+>important The Telerik CDN settings take effect only through the **RadScriptManager** (and the **RadStyleSheetManager** for the skins). The standard `asp:ScriptManager` does not know about them, so `EnableCdn="true"` on it loads only the Microsoft AJAX scripts from the Microsoft CDN, while the Telerik scripts and skins are still served from the assembly through `Telerik.Web.UI.WebResource.axd`.
+
 >note Since the Telerik CDN is discontinued for new releases, enabling `TelerikCdn` **without** a custom `BaseUrl` and `BaseSecureUrl` results in serving the resources from the assembly. To load the resources from a CDN, always specify your own base URLs as described in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 
 The **RadStyleSheetManager** has the same configuration for enabling the CDN and for convenience, the examples below show enabling the CDN for the styles along with the scripts. In the examples, `my.favorite.cdn` stands for your own CDN host, which hosts the resources as described in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
