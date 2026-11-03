@@ -33,7 +33,7 @@ To achieve the desired scenario, you need to create the AjaxManager in the `Page
 The following example demonstrates how to define the AjaxManager control. 
 
 
-````C#
+````C# 
 protected void Page_Init(object sender, EventArgs e)
 {
 	RadAjaxManager manager = new RadAjaxManager();
