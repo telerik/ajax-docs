@@ -66,7 +66,7 @@ If you want to use your own **CDN provider** to host the Telerik UI for ASP.NET 
 			</appSettings>
 		````
 
->important `BaseUrl` and `BaseSecureUrl` **must** point to your own host. When `TelerikCdn` is `Enabled`, but `BaseUrl` and `BaseSecureUrl` are not set or still point to one of the discontinued Telerik CDN hosts (`d2i2wahzwrm1n5.cloudfront.net`, `d35islomi5rx1v.cloudfront.net`, `aspnet-scripts.telerikstatic.com`, `aspnet-skins.telerikstatic.com`), the resources are served from the Telerik.Web.UI assembly, as if `TelerikCdn` was `Disabled`. In this case, the [combined requests]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) are also not applied.
+>important `BaseUrl` and `BaseSecureUrl` **must** point to your own host. When `TelerikCdn` is `Enabled`, but `BaseUrl` and `BaseSecureUrl` are not set or still point to one of the discontinued Telerik CDN hosts (`d2i2wahzwrm1n5.cloudfront.net`, `d35islomi5rx1v.cloudfront.net`, `aspnet-scripts.telerikstatic.com`, `aspnet-skins.telerikstatic.com`), the resources are served from the embedded resources of the Telerik.Web.UI assembly (and of the version-matched Telerik.Web.UI.Skins assembly for the built-in skins other than `Default`), as if `TelerikCdn` was `Disabled`. In this case, the [combined requests]({%slug scriptmanager/cdn-support/combined-request-for-telerik-controls%}) are also not applied.
 
 >note The `{version}` folder in the CDN must match the version of the Telerik.Web.UI assembly used by the application. When you upgrade the application, copy the CDN resources of the new version to the CDN host. The resources of the previous versions can remain, so that the applications that have not been upgraded yet keep working.
 

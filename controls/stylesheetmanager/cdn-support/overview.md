@@ -46,7 +46,7 @@ The files of the versions that were published before the discontinuation remain 
 
 When you upgrade to a version that no longer has resources on the Telerik CDN, the following behavior applies:
 
-* If `TelerikCdn` is `Enabled` and you **have not** changed `BaseUrl` and `BaseSecureUrl`, or they still point to one of the discontinued Telerik hosts listed above, the skins are **served from the Telerik.Web.UI assembly**, exactly as if `TelerikCdn` was `Disabled`. You do not need to change your code or web.config to keep the application working, but the resources are no longer delivered by a CDN.
+* If `TelerikCdn` is `Enabled` and you **have not** changed `BaseUrl` and `BaseSecureUrl`, or they still point to one of the discontinued Telerik hosts listed above, the skins are **served from the embedded resources of the assemblies**, exactly as if `TelerikCdn` was `Disabled`. The `Default` skin is located in `Telerik.Web.UI.dll`, while the other built-in skins are located in `Telerik.Web.UI.Skins.dll`, so the version-matched Skins assembly must be deployed with the application (see [Skins Location]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/skins-location%})). With these assemblies available, you do not need to change your code or web.config to keep the application working, but the resources are no longer delivered by a CDN.
 
 * If `BaseUrl` and `BaseSecureUrl` point to your own host or CDN provider, they continue to work as before. See the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 
@@ -68,7 +68,7 @@ When you upgrade to a version that no longer has resources on the Telerik CDN, t
 
 By default, `TelerikCdn` is set to `Auto`. In this mode, the Telerik CDN is used only when `EnableCdn` is set to `true` on the RadScriptManager, and the skins are served from the assembly otherwise. Since the Telerik CDN is discontinued, `EnableCdn="true"` alone (without custom `BaseUrl` and `BaseSecureUrl`) does not load the skins from a CDN. To load the skins from a CDN, set `TelerikCdn` to `Enabled` and specify your own base URLs.
 
->important The skins are loaded from a CDN only when a **RadStyleSheetManager** is added to the page. Without it, the skins are served from the assembly through `Telerik.Web.UI.WebResource.axd`, even if the RadScriptManager uses a CDN.
+>important The skins are loaded from a CDN only when a **RadStyleSheetManager** is added to the page. Without it, the skins are served from the assembly through the standard ASP.NET `WebResource.axd` handler, even if the RadScriptManager uses a CDN.
 
 >note Since the Telerik CDN is discontinued for new releases, enabling `TelerikCdn` **without** a custom `BaseUrl` and `BaseSecureUrl` results in serving the resources from the assembly. To load the skins from a CDN, always specify your own base URLs as described in the [Custom CDN Provider]({%slug scriptmanager/cdn-support/custom-cdn-provider%}) article.
 
