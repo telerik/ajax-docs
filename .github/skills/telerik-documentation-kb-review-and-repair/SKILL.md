@@ -1,23 +1,24 @@
 ---
 name: telerik-documentation-kb-review-and-repair
-description: "Review and repair a generated Telerik KB draft for an accepted support-ticket candidate against repository rules, using its semantic coverage handoff."
+description: "Compare a generated Telerik KB draft with the complete product documentation and determine whether to create, update, or take no documentation action."
 ---
 
 # Telerik Knowledge-Base Review and Repair
 
-Use this skill after semantic coverage search whenever a generated KB may be
-created or an existing knowledge-base article may be updated. It is the single
-KB-specific post-search action: inspect first, repair only when needed, validate
-the result, and return copy-ready Markdown for new pasted articles.
+Use this skill after the initial semantic coverage search for every generated
+draft. Repeat the complete product-documentation coverage search against the
+draft itself, map every meaningful claim to an existing owner or a gap, then
+recommend one of the three documentation actions. Repair and validate content
+only for a verified create or update action.
 
 ## Security Content Prohibition
 
 Security-related content, including CVEs, vulnerabilities, exploits, security
-mitigations, and security advisories, is read-only. Never create a security
-article and never edit, update, or append to an existing security article. For
-security content, stop after anonymization, article-type classification, and
-coverage review. Do not return copy-ready security article content or report a
-security documentation file as updated.
+mitigations, and security advisories, always has action `NoAction`. Never create
+a security article and never edit, update, or append to an existing security
+article. Stop after identifying the security nature of the content; do not
+generate or return security article content or report a security file as
+updated.
 
 ## Required Inputs
 
@@ -25,14 +26,15 @@ Require:
 
 - the exact pointed documentation repository path;
 - either the generated article text or the exact article path;
-- the semantic-search handoff;
-- the ticket's candidacy decision and concise evidence-based reason;
+- the semantic-search handoff, including coverage completeness;
+- the ticket's concise evidence-based reason;
 - whether the source is a support ticket/thread or general product information;
 - product, component, version, and acceptance criteria when known.
 
-Only review drafts for `GOOD_CANDIDATE` tickets. If the handoff says `COVERED`,
-`NOT_A_CANDIDATE`, or `SECURITY_REVIEW_ONLY`, do not generate, edit, or return
-article content. For `MANUAL_REVIEW`, stop before editing or approving claims.
+If the handoff says `NoAction`, do not generate, edit, or return article
+content. If coverage is `INCOMPLETE` or unverified claims remain, stop before
+editing or approving claims and report the exact missing evidence; do not assign
+a final action until the coverage gap is resolved.
 Return the reason and one precise next action.
 
 If the source is a support ticket or thread, identify whether the proposed
@@ -49,20 +51,21 @@ other confidential information in reports or generated content.
 
 Use one of these modes and state it in the result:
 
-- `PastedContent`: The KB was supplied as text. If the semantic handoff
-   recommends `UpdateExistingArticle` and identifies one clear owner path,
-   review the pasted content against that owner and update the owner file with
-   the verified material. If the handoff recommends `CreateNewArticle`, review
-   and repair the pasted content, validate it, and return the complete article
-   as copy-ready Markdown. Do not create a repository file for a new article.
+- `PastedContent`: The KB was supplied as text. Always compare the entire draft
+   with the complete product documentation before acting. For
+   `UpdateExistingArticle`, update only the exact owner with verified missing or
+   corrected material. For `CreateNewArticle`, repair and validate the draft,
+   then return copy-ready Markdown; do not create a local article file. For
+   `NoAction`, stop without editing or returning article content.
 - `FilePath`: The KB path was supplied. Review and repair that file in the
    pointed repository, then report the exact edited path.
 
-An existing documentation owner found by semantic search is the update target
-when the handoff recommends `UpdateExistingArticle`, gives one unambiguous
-path, and the supplied information is relevant to that owner. Do not overwrite
-the owner with a KB draft; integrate only the verified, missing material.
-If ownership is ambiguous, do not edit and return `ManualReview`.
+An existing documentation owner is an update target only when the handoff
+recommends `UpdateExistingArticle`, gives one unambiguous path, and the
+information is relevant but missing or incorrect there. Do not overwrite the
+owner with a KB draft; integrate only verified missing or corrected material.
+If ownership remains ambiguous after searching, report coverage as incomplete
+with the exact ambiguity and next action; do not invent an owner or edit.
 
 Run this review independently for each accepted ticket in the selected date
 period, using that ticket's own handoff and draft. Do not merge unrelated ticket
@@ -140,9 +143,10 @@ when local evidence contradicts it; record the conflict for review.
   reusable public problem, a verified complete resolution, a meaningful gap in
   product documentation, and a clear value beyond release notes.
 - Populate applicable Environment fields with verified facts, including the
-  exact product version or supported range. Never use placeholders such as
-  "not specified," "current versions," or "verify availability." If reliable
-  evidence does not establish the version, stop with `ManualReview`.
+   exact product version or supported range. Never use placeholders such as
+   "not specified," "current versions," or "verify availability." If reliable
+   evidence does not establish the version, stop before editing and report
+   coverage as incomplete with the exact evidence needed.
 - Follow the matching template exactly. Do not add summary tables or replace
   the template's required sections with an improvised structure.
 - When returning complete article Markdown, use an outer code fence longer
@@ -154,8 +158,9 @@ when local evidence contradicts it; record the conflict for review.
 If the article fails a check, update the same article using the discovered local
 rules and the existing `telerik-documentation-workflow`. Keep the repair focused
 on verified information. Do not silently rewrite an unverified workaround,
-customer-specific incident, or product claim. Return to manual review when the
-semantic handoff or product evidence does not support the requested fix.
+customer-specific incident, or product claim. If the semantic handoff or
+product evidence does not support a claim, stop and report coverage as
+incomplete; do not approve or publish it.
 
 After repairing, run the narrowest repository-native Markdown, front matter,
 link, or docs check available in the discovered instructions. Rerun the focused
@@ -173,12 +178,13 @@ copied directly into the documentation repository.
 Return one compact result containing:
 
 ```text
-Ticket: <ticket ID or none> | <GOOD_CANDIDATE or input classification>
-Result: <PASS | PASS WITH FOLLOW-UP | FAIL | BLOCKED>
+Ticket: <ticket ID or none>
+Action: <CreateNewArticle | UpdateExistingArticle | NoAction | unassigned>
+Coverage: <COMPLETE | INCOMPLETE> | <one-line reason>
 Input: <PastedContent | FilePath> | <article path or new article>
 Changed: <one-line repair summary or none>
 Validation: <commands and outcome>
-Next: <one exact follow-up or none>
+Next: <one exact follow-up, or none>
 Risks: <only omitted, unverified, or blocking claims; omit when none>
 ```
 
@@ -189,6 +195,7 @@ the semantic-search evidence.
 For `PastedContent` with `CreateNewArticle`, include the complete validated
 Markdown after the result summary. For `PastedContent` with
 `UpdateExistingArticle`, report the exact owner path after editing it. For
-`FilePath`, state that the file was edited only after the edit and focused
-validation succeed. If a repair is blocked, return `ManualReview` and explain
-the exact blocker instead of asking for unrelated follow-up.
+`NoAction`, return no article text. For `FilePath`, state that the file was
+edited only after the edit and focused validation succeed. If evidence or
+coverage is incomplete, leave the action unassigned and explain the exact
+blocker and next step.

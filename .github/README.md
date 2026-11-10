@@ -57,6 +57,14 @@ If Support Heroes requests authentication, sign in in the opened browser page.
 Do not send credentials in chat. The agent continues from the same browser page
 after login.
 
+Authentication is the only user action in the workflow. The agent applies
+filters, selects AJAX products, chooses dates, adopts any Support Heroes result
+page, opens tickets, pages through results, generates drafts, previews, and
+publishes through the browser tools. Do not share a browser page or click
+Continue for the agent. If Support Heroes opens a second page, the agent
+adopts it automatically or reuses the exact URL emitted by the application for
+recovery.
+
 ### 4. Let the agent enumerate the complete queue
 
 The complete run has five phases: queue enumeration, ticket assessment,
