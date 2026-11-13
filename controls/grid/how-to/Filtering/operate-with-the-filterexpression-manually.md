@@ -24,6 +24,8 @@ There are two ways you can determine what filter function the grid is currently 
 
 * When binding a grid using the **NeedDataSource** event, check the **RadGrid.MasterTableView.FilterExpression** property in the **NeedDataSource** event handler. This string represents the current filter function in the same way as the **DataView.Filter** property (that is, it is the text of a WHERE clause for filtering items).
 
+>note With ViewState disabled, **NeedDataSource** can run before the grid processes the current filter command. See [Filtering with ViewState disabled](#filtering-with-viewstate-disabled) before relying on **FilterExpression** during data binding.
+
 >note If you want to customize filtering using your own custom statements, clear the **FilterExpression** string (to prevent the default filtering) and bind the grid to a filtered data set.
 >
 
@@ -79,6 +81,16 @@ Private Sub DisplayMessage(ByVal text As String)
 End Sub
 ````
 
+
+## Filtering with ViewState disabled
+
+When **EnableViewState** is `False`, the documented filtering [event sequence]({%slug grid/control-lifecycle/event-sequence%}) places **NeedDataSource** before **ItemCommand**. Do not assume that **FilterExpression** in this early binding event includes the filter submitted in the current request. An empty expression at that point does not establish that the grid failed to apply the filter later.
+
+The **ItemCommand** approach in this article lets you capture the filter function, column name, and entered value when the filter command occurs. These criteria are not the same as the complete **FilterExpression** string. Saving them in **ItemCommand** does not make them available to a **NeedDataSource** call that has already completed.
+
+For **AllowCustomPaging** scenarios, do not treat reading **FilterExpression** in **Page_PreRender** as a replacement for obtaining criteria before fetching the requested data. Before adding another binding call, review [Rebind RadGrid when EnableViewState is disabled]({%slug grid/performance/rebind-grid-with-enableviewstate-=-false%}). With ViewState disabled, calling **Rebind()** without clearing the data source does not raise another **NeedDataSource** event. Do not call **Rebind()** from within **NeedDataSource**.
+
+## Filter expression syntax
 
 >note With the .NET 3.5 build of RadGrid for ASP.NET AJAX and LINQ filter expressions enabled (EnableLinqExpressions = true), the filter expressions set for the grid either internally by its filtering mechanism or manually in code should conform to the LINQ expression syntax instead of the old T-SQL syntax. Only thus they will be evaluated properly by the control.
 >

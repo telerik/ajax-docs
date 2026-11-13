@@ -51,13 +51,13 @@ To resolve the issue, follow the steps based on your project type:
 3. Select your preferred language and copy the license key.
 4. Add the license key as an assembly attribute in `AssemblyInfo.cs` or create a new file like `TelerikLicense.cs`:
 
-```csharp
+```C#
 [assembly: global::Telerik.Licensing.EvidenceAttribute("your-license-key-here")]
 ```
 
 For VB.NET projects, use:
 
-```vb
+```VB
 <Assembly: Telerik.Licensing.EvidenceAttribute("your-license-key-here")>
 ```
 
@@ -68,20 +68,31 @@ For VB.NET projects, use:
 1. Go to the [License Keys](https://www.telerik.com/account/your-licenses/license-keys) page in your Telerik account.
 2. Click the `Script key` link in the Telerik UI for ASP.NET AJAX row.
 3. Select your preferred language and copy the license key.
-4. Add a CS class file (e.g., `TelerikLicense.cs`) to the `App_Code` folder.
+4. Add a class file to the `App_Code` folder: `TelerikLicense.cs` for C# or `TelerikLicense.vb` for VB.NET.
 5. Paste the license key as an assembly attribute:
 
-```csharp
+```C#
 [assembly: global::Telerik.Licensing.EvidenceAttribute("your-license-key-here")]
 ```
 
 For VB.NET projects, use:
 
-```vb
+```VB
 <Assembly: Telerik.Licensing.EvidenceAttribute("your-license-key-here")>
 ```
 
 6. Rebuild your site and restart Visual Studio.
+
+#### If the script-key file is already present
+
+If a Web Site still displays **No license found** after you add the script-key file, continue with these checks instead of repeating the placement steps:
+
+1. Verify the file contents, not only its location. Copy the complete Script key for Telerik UI for ASP.NET AJAX from your account, selecting **VB KEY** for a VB.NET Web Site. The `your-license-key-here` value in the examples is a placeholder, not a license key. Use the Script key, not the contents of `telerik-license.txt`. See [Setting Up Your License Key]({%slug licensing/license-key%}#web-applications-without-nuget-and-web-sites).
+2. Record the complete banner or exception text and whether it appears locally, after deployment, or both. Distinguish runtime errors from build-task messages. The `TKL` codes in [License Activation Errors and Warnings]({%slug licensing/license-errors-warnings%}) describe build-task messages; do not require one before investigating a runtime banner.
+3. Check the installed `Telerik.Licensing` version before enabling [Runtime Diagnostics]({%slug licensing/troubleshooting%}#runtime-diagnostics). The diagnostics API requires version **1.6.24 or later**. Follow the linked instructions to enable diagnostics before using Telerik controls, for example in `Application_Start` in `Global.asax`. A Web Site has no `.vbproj` or `.csproj` file, so use the runtime instructions rather than project-file build-verbosity settings.
+4. If the error persists, contact [Telerik Support](https://www.telerik.com/account/support-center) through a private support ticket. Include the exact error text, Telerik UI and licensing runtime versions, where the error occurs, and a minimal reproduction without license keys.
+
+>important Do not post license keys or unredacted diagnostic logs in public forums or chat. Remove license key values and personal information before sharing diagnostic output.
 
 ## See Also
 
