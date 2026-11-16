@@ -68,3 +68,42 @@ The following table lists the CSS selectors and descriptions for **RadWizard** s
 |rwzNext|BUTTON|Applied to the navigation "Next" button.|
 |rwzFinish|BUTTON|Applied to the navigation "Finish" button.|
 |rwzText|BUTTON|Applied to the SPAN elements enclosing text of navigation buttons.|
+
+## Customize navigation button colors
+
+To give RadWizard navigation buttons one color without naming a skin, target **.rwzButton** inside the **.RadWizard** root element. The following example applies to all RadWizard instances on the page. It does not target RadButton controls or the **.rwzLink** step links.
+
+Add the CSS to your page or application stylesheet. The rules use the same colors for normal, hovered, and pressed buttons. They remove background images that can cover the background color, retain a visible keyboard focus outline, and reduce opacity for disabled buttons.
+
+>caption Apply a shared color to RadWizard navigation buttons
+
+````CSS
+html .RadWizard .rwzButton,
+html .RadWizard .rwzButton:hover,
+html .RadWizard .rwzButton.rwzHovered,
+html .RadWizard .rwzButton:active,
+html .RadWizard .rwzButton.rwzClicked {
+	background-image: none;
+	background-color: #1976d2;
+	border-color: #1976d2;
+	color: #ffffff;
+}
+
+html .RadWizard .rwzButton:focus {
+	outline: 2px solid #111111;
+	outline-offset: 2px;
+}
+
+html .RadWizard .rwzButton:disabled,
+html .RadWizard .rwzButton.rwzDisabled,
+html .RadWizard .rwzDisabled .rwzButton {
+	opacity: 0.5;
+	cursor: default;
+}
+````
+
+Replace the color values with your application colors and check text and focus contrast. The example changes appearance only; it does not enable, disable, or change the behavior of a button.
+
+>note The selectors do not depend on a skin name, but this is not a guarantee for every skin, render mode, or product version. Check the rendered markup and computed styles in browser developer tools. If a skin rule still wins, adjust the selector specificity as described in [Modifying Built-in Skins]({%slug introduction/radcontrols-for-asp.net-ajax-fundamentals/controlling-visual-appearance/modifying-built-in-skins%}).
+
+Test normal, hover, pressed, keyboard-focus, and disabled states after changing the **Skin** or **RenderMode** property. Confirm that non-Wizard controls keep their original colors.
