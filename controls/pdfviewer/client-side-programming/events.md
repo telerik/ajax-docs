@@ -31,11 +31,13 @@ The exceptions are the OnInitialize and OnLoad events that are specific to the M
 
 * **OnLoad**—Fired when RadPdfViewer is initialized.
 
-* [OnRender](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/render)—Fired when a page is rendered.
+* [OnRender](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/render)—Fired when a PDF page is rendered in the viewer.
 
 * [OnOpen](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/open)—Fired when a PDF is opened in the viewer.
 
 * [OnError](https://docs.telerik.com/kendo-ui/api/javascript/ui/pdfviewer/events/error)—Fired when an error is encountered. By default, a dialog is shown with error message (unless the event is prevented).
+
+>note **OnRender** reports viewer-page rendering, not browser print-preview readiness. A `setTimeout` inside an **OnRender** handler is scheduled only when the handler runs. Do not rely on opening print preview to trigger this handler. A rendering timeout is not a documented fix for a blank print preview.
 
 ## Examples
 

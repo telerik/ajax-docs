@@ -136,6 +136,10 @@ Will be changed to this one:
 
 >note The **StripDomEventAttributes** filter is enabled by default starting with the **2025 Q4** release to provide enhanced XSS protection. If you need to preserve DOM event attributes for specific use cases (e.g., templates or custom logic), you can disable this filter using the server-side [DisableFilter()](https://www.telerik.com/help/aspnet-ajax/m_telerik_web_ui_radeditor_disablefilter.html) method.
 
+If a code-behind call to `DisableFilter()` does not preserve `onclick` attributes, see [Stop RadEditor from Stripping Onclick Attributes from Buttons/Images After Upgrade]({%slug prevent-radeditor-stripping-onclick-attributes%}). For the documented **2026.2.708** case, the workaround is to upgrade to **2026.3.812 or later** and configure `ContentFilters` in the RadEditor markup without **StripDomEventAttributes** and **StripJavaScriptUris**. Check that later code does not re-enable these filters or overwrite the `ContentFilters` setting.
+
+>warning Excluding these security filters reduces XSS protection. Only do so for trusted content and after implementing alternative security measures.
+
 ## JavaScript URIs
 
 Dangerous JavaScript-based URI schemes can be exploited for XSS attacks by injecting malicious code through HTML attributes that accept URLs (e.g., href, src, action). Common attack vectors include `javascript:`, `data:`, and `vbscript:` URI schemes.
