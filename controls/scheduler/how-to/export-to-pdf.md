@@ -49,6 +49,9 @@ To export the scheduler content to PDF format simply use the**ExportToPdf()**ser
 >note Current limitation: RadScheduler exports without appointments if the default browser for the web server is IE6 or RadScheduler is populated with a Web Service.
 >
 
+>note Fetching the embedded skin stylesheet during PDF/image export performs an outbound self-request to the hosting application using Windows default credentials. This request requires the `Telerik.TrustedServerBaseUrl` application setting to be configured in the web.config file; otherwise the request is skipped (the exported document will not include the embedded skin stylesheet) instead of relying on the inbound request's host. For more information, refer to the [Useful Security Tips]({%slug general-information/security%}) article.
+>
+
 
 ## Troubleshooting
 
