@@ -56,6 +56,9 @@ To fix the issue, you can follow one of the two approaches below:
  - If you are using other `.NET` libraries that utilize the `.NET Licensing Mechanism`, open the `licenses.licx` file with a Text editor and remove the Telerik related records from it.
  - If nothing else uses the `.NET Licensing Mechanism`, you can safely delete the `licenses.licx` file from the project. If this file was commited to the source control, make sure you remove it from there as well.
 
+## Why do I see a banner with a valid trial license?
+
+A valid trial license may display a dismissible notice with the remaining trial days. This notice does not indicate an activation failure and does not add a watermark to the components.
 
 ## Can I use the same license key in multiple builds?
 

@@ -22,6 +22,30 @@ An invalid license can be caused by any of the following:
 - Not installing a license key in your application.
 - Not updating the license key after renewing your Telerik UI for ASP.NET AJAX license.
 
+### Banner
+
+A banner with an action button appears on pages that use Telerik UI for ASP.NET AJAX components when the license is invalid, expired, or missing:
+
+![Missing-license banner for Telerik UI for ASP.NET AJAX with a Start Free Trial button](images/banner-expired.png)
+
+The colored accent bar on the left side of the banner and the action button reflect the severity of the message, for example, success, information, warning, or error. The title, message, and available action vary with the license status.
+
+- Clicking the action button redirects you to start a trial, purchase, or renew your license, depending on your license status.
+- Clicking the x (**Close**) button closes the banner. For messages that support snoozing, the banner and the related watermark do not reappear on page reload until the snooze period, which is determined by the licensing package, ends. The browser remembers this choice in its `localStorage`, so clearing the site data resets it. Messages that do not support snoozing appear again on the next page load.
+- Activating a valid license removes the banner and the watermark.
+
+### Trial Notices
+
+When you use Telerik UI for ASP.NET AJAX with a valid trial license, a dismissible notice banner may appear without adding a watermark to the components. The banner can show the remaining trial days and an action to view plans.
+
+The following examples illustrate trial notices for Telerik UI for ASP.NET AJAX.
+
+![Telerik UI for ASP.NET AJAX trial notice with a 23d left badge and a View plans button](images/banner-green.png)
+
+![Telerik UI for ASP.NET AJAX trial notice with a 9d left badge and a View plans button](images/banner-yellow.png)
+
+The message, remaining-days badge, and available action vary with the trial stage. A trial notice does not indicate that license activation has failed.
+
 ## License Warnings and Errors
 
 When using Telerik UI for ASP.NET AJAX in a project with an expired or missing license, the `Telerik.Licensing` build task will indicate the following errors:
